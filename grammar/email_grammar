@@ -1,0 +1,20 @@
+(def    @_          ($pad optional))
+(def    *_          ($command optional))
+
+(rule   $pad        ($PHRASE)       (FilterSpanLengthFn 1 3))
+(rule   $string     ($PHRASE)       (IdentityFn))
+
+(rule   $command    (compose)       (ConstantFn (call compose)))
+(rule   $command    (send)          (ConstantFn (call send)))
+(rule   $command    (delete)        (ConstantFn (call delete)))
+
+(rule   $command    (set @_ subject @_ $string)     (lambda x (call setSubject (var x))))
+(rule   $command    (set @_ body @_ $string)     (lambda x (call setBody (var x))))
+(rule   $command    (set @_ recipient @_ $string)     (lambda x (call setRecipient (var x))))
+
+(rule   $command    ($command and)      (ConstantFn (call warningOneCommand)))
+
+(rule   $ROOT       (@_ $command @_)    (IdentityFn))
+
+
+

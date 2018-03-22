@@ -60,8 +60,9 @@ public class FeatureExtractor {
   // features which depend in some way on |deriv|, not just on its children.
   public void extractLocal(Example ex, Derivation deriv) {
     StopWatchSet.begin("FeatureExtractor.extractLocal");
-    extractRuleFeatures(ex, deriv);
     extractSpanFeatures(ex, deriv);
+/* Don't need yet
+    extractRuleFeatures(ex, deriv);
     extractDenotationFeatures(ex, deriv);
     extractDependencyFeatures(ex, deriv);
     extractWhTypeFeatures(ex, deriv);
@@ -69,7 +70,7 @@ public class FeatureExtractor {
     extractBigramFeatures(ex, deriv);
     for (FeatureComputer featureComputer : featureComputers)
       featureComputer.extractLocal(ex, deriv);
-    StopWatchSet.end();
+    StopWatchSet.end(); */
   }
 
   // Add an indicator for each applied rule.
@@ -85,8 +86,13 @@ public class FeatureExtractor {
   // (Not applicable for floating rules)
   void extractSpanFeatures(Example ex, Derivation deriv) {
     if (!containsDomain("span") || deriv.start == -1) return;
-    deriv.addFeature("span", "cat=" + deriv.cat + ",#tokens=" + (deriv.end - deriv.start));
-    deriv.addFeature("span", "cat=" + deriv.cat + ",POS=" + ex.posTag(deriv.start) + "..." + ex.posTag(deriv.end - 1));
+    if (!deriv.cat.startsWith("Intermediate") && !deriv.cat.equals("$PHRASE")) {
+        String leftOuterPos = deriv.start > 0 ? ex.posTag(deriv.start-1) : "START";
+        String rightOuterPos = deriv.end < ex.numTokens() ? ex.posTag(deriv.end) : "END";
+        deriv.addFeature("span", "cat=" + deriv.cat + ",#tokens=" + (deriv.end - deriv.start));
+        deriv.addFeature("span", "cat=" + deriv.cat + ",POS=" + ex.posTag(deriv.start) + "..." + ex.posTag(deriv.end - 1));
+        deriv.addFeature("span", "cat=" + deriv.cat + ",POS[-1:+1]" + leftOuterPos + "..." + rightOuterPos);
+    }
   }
 
   // Extract features on the denotation of the logical form produced.

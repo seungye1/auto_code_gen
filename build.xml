@@ -34,6 +34,7 @@
     <javac srcdir="${src}" destdir="${classes}" classpathref="lib.path" debug="true" includeantruntime="false" source="${source}" target="${target}">
       <include name="edu/stanford/nlp/sempre/*.java"/>
       <include name="edu/stanford/nlp/sempre/test/"/>
+      <include name="edu/stanford/nlp/sempre/executors/*"/>
     </javac>
     <jar destfile="${libsempre}/sempre-core.jar" basedir="${classes}" includes="edu/**"/>
   </target>
