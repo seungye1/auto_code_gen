@@ -15,6 +15,7 @@ public class Builder {
   public static class Options {
     @Option public String inParamsPath;
     @Option public String executor = "JavaExecutor";
+    @Option public String agent = "JavaExecutor";
     @Option public String valueEvaluator = "ExactValueEvaluator";
     @Option public String parser = "BeamParser";
   }
@@ -23,6 +24,7 @@ public class Builder {
 
   public Grammar grammar;
   public Executor executor;
+  public Executor agent;
   public ValueEvaluator valueEvaluator;
   public FeatureExtractor extractor;
   public Parser parser;
@@ -31,6 +33,7 @@ public class Builder {
   public void build() {
     grammar = null;
     executor = null;
+    agent = null;
     valueEvaluator = null;
     extractor = null;
     parser = null;
@@ -45,6 +48,10 @@ public class Builder {
       grammar.read();
       grammar.write();
     }
+
+    // Executor
+    if (agent == null)
+      agent = (Executor) Utils.newInstanceHard(SempreUtils.resolveClassName(opts.agent));
 
     // Executor
     if (executor == null)

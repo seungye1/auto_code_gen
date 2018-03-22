@@ -239,6 +239,7 @@ public class Master {
     if (ex.predDerivations.size() > 0) {
       response.candidateIndex = 0;
       printDerivation(response.getDerivation());
+      builder.agent.execute(response.getDerivation().formula, session.context);
     }
     session.updateContext(ex, opts.contextMaxExchanges);
   }
@@ -329,6 +330,7 @@ public class Master {
 
       response.ex = ex;
       response.candidateIndex = index;
+
       session.updateContextWithNewAnswer(ex, response.getDerivation());
       printDerivation(response.getDerivation());
 

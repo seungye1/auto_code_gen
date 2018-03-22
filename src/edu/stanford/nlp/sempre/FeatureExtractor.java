@@ -60,15 +60,7 @@ public class FeatureExtractor {
   // features which depend in some way on |deriv|, not just on its children.
   public void extractLocal(Example ex, Derivation deriv) {
     StopWatchSet.begin("FeatureExtractor.extractLocal");
-    extractRuleFeatures(ex, deriv);
     extractSpanFeatures(ex, deriv);
-    extractDenotationFeatures(ex, deriv);
-    extractDependencyFeatures(ex, deriv);
-    extractWhTypeFeatures(ex, deriv);
-    conjoinLemmaAndBinary(ex, deriv);
-    extractBigramFeatures(ex, deriv);
-    for (FeatureComputer featureComputer : featureComputers)
-      featureComputer.extractLocal(ex, deriv);
     StopWatchSet.end();
   }
 
