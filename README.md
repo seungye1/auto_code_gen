@@ -1,12 +1,12 @@
 # SEMPRE 2.4: Semantic Parsing with Execution
 
-## Update (question for OH) - Mar.22.2018
+# Update (question for OH) - Mar.22.2018
 1. Workflow (creating temp testing python script to reduce the size of of the candidate set)
 2. Grammar optimization
 3. Conversational interface - 1. missing variables, 2. different functions with similar name -> how to reduce the candidate set based on the function that the user chooses
 4. Mechanical Turk
 5. Reducing candidate set using error messages thrwon by the python script
-# TODO:
+## TODO:
 1. Clay - write Codegen.java until (1) initizlize(), (2) load(data), and (3) mean(var). And read SEMPRE for basic functions.
 2. Grammar, processing data. READ SEMPREEEEE
 
