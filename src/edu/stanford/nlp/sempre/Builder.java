@@ -55,6 +55,10 @@ public class Builder {
      agent = (Executor) Utils.newInstanceHard(SempreUtils.resolveClassName(opts.agent));
 
     // Executor
+    if (agent == null)
+      agent = (Executor) Utils.newInstanceHard(SempreUtils.resolveClassName(opts.agent));
+
+    // Executor
     if (executor == null)
       executor = (Executor) Utils.newInstanceHard(SempreUtils.resolveClassName(opts.executor));
 

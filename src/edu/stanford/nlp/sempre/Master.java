@@ -330,6 +330,7 @@ public class Master {
 
       response.ex = ex;
       response.candidateIndex = index;
+
       session.updateContextWithNewAnswer(ex, response.getDerivation());
       printDerivation(response.getDerivation());
 
