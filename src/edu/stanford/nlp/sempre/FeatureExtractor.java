@@ -61,7 +61,6 @@ public class FeatureExtractor {
   public void extractLocal(Example ex, Derivation deriv) {
     StopWatchSet.begin("FeatureExtractor.extractLocal");
     extractSpanFeatures(ex, deriv);
-<<<<<<< HEAD
 /* Don't need yet
     extractRuleFeatures(ex, deriv);
     extractDenotationFeatures(ex, deriv);
@@ -72,9 +71,6 @@ public class FeatureExtractor {
     for (FeatureComputer featureComputer : featureComputers)
       featureComputer.extractLocal(ex, deriv);
     StopWatchSet.end(); */
-=======
-    StopWatchSet.end();
->>>>>>> f9a7e0abffa538c28504984eb847ef8c2b92e18d
   }
 
   // Add an indicator for each applied rule.
