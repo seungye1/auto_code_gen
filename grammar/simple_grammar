@@ -1,0 +1,3 @@
+(rule $command  (hello world)   (ConstantFn (call helloWorld)))
+(rule $ROOT     ($command)      (IdentityFn))
+

@@ -1,0 +1,12 @@
+(def        @_          ($Pad optional))
+(def        *_          ($string optional))
+
+(rule       $Pad        ($PHRASE)       (FilterSpanLengthFn 1 3))
+(rule       $var        ($PHRASE)       (IdentityFn))
+(rule       $string     ($PHRASE)       (IdentityFn))
+
+# functions
+#(rule       $mean       (mean)          (lambda x (call calcMean (var x) )))
+
+# grammar
+(rule       $command    (*_ mean @_ $var)  (lambda x (call calcMean (var x) )))
