@@ -1,0 +1,122 @@
+create a [professor] named [Emma(Professor[1])]
+[that person(Professor[1])]'s research interest is [reinforcement learning]
+[that person(Professor[1])] is now on sabbatical
+[Hiram(MastersStudent[2])] is a masters student
+[that student(MastersStudent[2])] is affiliated with the [english] department
+Which professors are conducting research in [reinforcement learning]	'Emma(Professor[1])'	['question_type_global', 'question_single_statement']
+there is a masters student named [Rey(MastersStudent[3])]
+the affiliation of [Rey(MastersStudent[3])] is [english]
+there is a masters student named [Zenaida(MastersStudent[4])]
+[Bob(Professor[5])] is a [teaching] [professor]
+[that professor(Professor[5])] research interest is in [neurocomputing]
+[that person(Professor[5])] is now on sabbatical
+there is a [full] [professor] named [Lucy(Professor[6])]
+[she(Professor[6])]'s research interest is [supervised learning]
+[this professor(Professor[6])] is now on sabbatical
+There is a course called [U203(Course[1])]
+[Bob(Professor[5])] teaches [that class(Course[1])]
+[that course(Course[1])] will be a 4 unit course
+[Rey(MastersStudent[3])] and [Hiram(MastersStudent[2])] are TAs for [U203(Course[1])]
+The TA for [U203(Course[1])] is [Zenaida(MastersStudent[4])]
+[fifth year] is a [Lucio(PhdStudent[7])] PhD student
+[she(MastersStudent[4])]'s department is [english]
+What are the courses TAed by [Zenaida(MastersStudent[4])]?	'U203(Course[1])'	['question_type_local']
+there is a masters student named [Marisela(MastersStudent[8])]
+[Marisela(MastersStudent[8])]'s department is [physics]
+Which professors are conducting research in [reinforcement learning]	'Emma(Professor[1])'	['question_type_global', 'question_single_statement']
+[Lucy(Professor[6])] advises [Lucio(PhdStudent[7])]
+[Lizeth(Professor[9])] is a [distinguished] [professor]
+[he(PhdStudent[7])] has [Bob(Professor[5])] and [this professor(Professor[9])] on the committee
+[Lucio(PhdStudent[7])] passed thesis defense
+[Lucio(PhdStudent[7])] has [Emma(Professor[1])] on the committee
+[he(PhdStudent[7])]'s office is [Carlson Building]
+[Lucio(PhdStudent[7])] has failed the thesis proposal exam
+[Lizeth(Professor[9])] went on sabbatical
+What are the courses TAed by [Rey(MastersStudent[3])]?	'U203(Course[1])'	['question_type_local']
+[Lizeth(Professor[9])] conducts research in [supervised learning]
+Create a new course called [U304(Course[2])]
+Which phd students have [Lizeth(Professor[9])] on their committee	'Lucio(PhdStudent[7])'	['question_type_local']
+there is a [first year] PhD student named [Peggy(PhdStudent[10])]
+[Peggy(PhdStudent[10])] is in [Folsom Building]
+[Emma(Professor[1])] and [Bob(Professor[5])] are on [that student(PhdStudent[10])]'s committee
+there is a [professor] named [John(Professor[11])]
+[Bob(Professor[5])] is back from the sabbatical
+[Peggy(PhdStudent[10])] is [Bob(Professor[5])]'s student
+[Roslyn(Professor[12])] is a [professor]
+[that student(PhdStudent[10])] has [Lucy(Professor[6])] on the committee
+[Peggy(PhdStudent[10])] has passed the thesis proposal exam
+[this student(PhdStudent[10])] failed the qualifiers
+Who is on [Lucio(PhdStudent[7])]'s committee?	'Emma(Professor[1])', 'Bob(Professor[5])', 'Lizeth(Professor[9])'	['question_type_local']
+What students are in Folsom Building	'Peggy(PhdStudent[10])'	['question_type_global', 'question_two_hop_statement']
+[William(Professor[13])] is a [teaching] [professor]
+[William(Professor[13])] went on sabbatical
+there is a [distinguished] [professor] named [Casey(Professor[14])]
+there is a masters student named [Isaiah(MastersStudent[15])]
+[Casey(Professor[14])]'s research interest is [unsupervised machine learning]
+there is a masters student named [Gabrielle(MastersStudent[16])]
+[she(MastersStudent[16])] is affiliated with the [english] department
+For which phd students does [Bob(Professor[5])] serve on a committee?	'Lucio(PhdStudent[7])', 'Peggy(PhdStudent[10])'	['question_type_local']
+there is a [professor] named [Lorilee(Professor[17])]
+[Lorilee(Professor[17])] is on sabbatical
+[she(Professor[17])]'s research interest is [supervised learning]
+[Casey(Professor[14])] is on sabbatical
+Create a new course called [U202(Course[3])]
+[that course(Course[3])] is taught by [Emma(Professor[1])]
+[Zenaida(MastersStudent[4])] and [Rey(MastersStudent[3])] are attending [that course(Course[3])]
+Which students's advisors are conducting research in [supervised learning]	'Lucio(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [G302(Course[4])]
+Create a new [phd] level 2 unit course called [G610(Course[5])]
+[Gabrielle(MastersStudent[16])] and [Marisela(MastersStudent[8])] are taking [G610(Course[5])]
+[Lorilee(Professor[17])] teaches [G610(Course[5])]
+[Yoshiko(MastersStudent[18])] is a masters student
+[Yoshiko(MastersStudent[18])] is affiliated with the [english] department
+What students are in Folsom Building	'Peggy(PhdStudent[10])'	['question_type_global', 'question_two_hop_statement']
+Which students have offices in Carlson Building	'Lucio(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+The TA for [U203(Course[1])] is [Lucio(PhdStudent[7])]
+there is a new PhD student named [Tom(PhdStudent[19])]
+[Roslyn(Professor[12])] is on [Tom(PhdStudent[19])]'s committee
+[Bob(Professor[5])] advises [this student(PhdStudent[19])]
+Create a new course called [U103(Course[6])]
+[U103(Course[6])] is set up as a full semester course
+there is a masters student named [Kristeen(MastersStudent[20])]
+[Tom(PhdStudent[19])] is a TA for [this course(Course[6])]
+[U103(Course[6])] is taught by [Roslyn(Professor[12])]
+[William(Professor[13])] research interest is in [neurocomputing]
+[Peggy(PhdStudent[10])] passed the qualifiers
+Which students have offices in Carlson Building	'Lucio(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+[Roslyn(Professor[12])] and [Lizeth(Professor[9])] are on [Peggy(PhdStudent[10])]'s committee
+Create a new [phd] level 12 unit course called [G102(Course[7])]
+What is [that person(Professor[9])] research area?	'supervised learning'	['question_type_local']
+[Marisela(MastersStudent[8])] is a TA for [G102(Course[7])]
+[Lizeth(Professor[9])] is the instructor for [that course(Course[7])]
+Which courses are TAed by [Rey(MastersStudent[3])]?	'U203(Course[1])'	['question_type_local']
+[Zenaida(MastersStudent[4])] and [Kristeen(MastersStudent[20])] are taking [G102(Course[7])]
+Which phd students have [Bob(Professor[5])] on their committee	'Lucio(PhdStudent[7])', 'Peggy(PhdStudent[10])'	['question_type_local']
+Create a new [masters] level course called [U610(Course[8])]
+Who is teaching [G610(Course[5])]?	'Lorilee(Professor[17])'	['question_type_local']
+[Zenaida(MastersStudent[4])] and [Kristeen(MastersStudent[20])] are taking [that class(Course[8])]
+[U610(Course[8])] is a pass-fail course
+[she(MastersStudent[20])]'s department is [animal science]
+[G102(Course[7])] is set up as a full semester course
+[that class(Course[7])] is not a pass-fail course
+[Peggy(PhdStudent[10])] has [Casey(Professor[14])] on the committee
+Create a new course called [G9000(Course[9])]
+What is [Emma(Professor[1])]'s research focus?	'reinforcement learning'	['question_type_local']
+[Marisela(MastersStudent[8])] and [Rey(MastersStudent[3])] are taking [G610(Course[5])]
+[G610(Course[5])] is not a pass-fail course
+[Yoshiko(MastersStudent[18])] is taking [G610(Course[5])]
+[G610(Course[5])] is a mini course
+Which courses are TAed by [Lucio(PhdStudent[7])]?	'U203(Course[1])'	['question_type_local']
+What students are in Carlson Building	'Lucio(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by [Zenaida(MastersStudent[4])]?	'U203(Course[1])'	['question_type_local']
+[U610(Course[8])] is full semester
+[Gabrielle(MastersStudent[16])] and [Peggy(PhdStudent[10])] are TAing [U610(Course[8])]
+Who has [Casey(Professor[14])] on their phd committee?	'Peggy(PhdStudent[10])'	['question_type_local']
+Who is enrolled in [G102(Course[7])]?	'Zenaida(MastersStudent[4])', 'Kristeen(MastersStudent[20])'	['question_type_local']
+[Peggy(PhdStudent[10])] is now in [second year]
+[this student(PhdStudent[10])] failed their thesis defense
+[this student(PhdStudent[10])] is in [third year]
+[that student(PhdStudent[10])] has [Lorilee(Professor[17])] and [William(Professor[13])] on the committee
+[John(Professor[11])] went on sabbatical
+[John(Professor[11])] conducts research in [reinforcement learning]
+[Isaiah(MastersStudent[15])] and [Lucio(PhdStudent[7])] are taking [G102(Course[7])]

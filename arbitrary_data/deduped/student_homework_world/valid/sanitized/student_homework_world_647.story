@@ -1,0 +1,162 @@
+[Cyndi] is a [professor]
+[that person]'s office is [1304]
+[she]'s department is [computer science]
+[this professor]'s email is [Cyndi@gmail.com]
+What office is [that professor] in?	'1304'	['question_type_local']
+change [this professor]'s department to [physics]
+What is [this professor]'s email	'Cyndi@gmail.com'	['question_type_local']
+What is [this professor]'s office?	'1304'	['question_type_local']
+I am taking a [accounting] course
+[this person] teaches [that course]
+I am taking a course called [calculus]
+[Cyndi]'s department is now [neuroscience]
+[accounting] has a new [accounting project 1] out
+[accounting project 1] is worth [46] points
+I submitted [this assignment] and received 46 points
+[that project] is about [grammar induction]
+[Lizeth] is a [professor]
+[Lizeth]'s department is [animal science]
+[Lizeth]'s office is [3387]
+[this person]'s email is [Lizeth@gmail.com]
+What is [Cyndi]'s email	'Cyndi@gmail.com'	['question_type_local']
+[Cyndi]'s department is now [physics]
+how many points is [accounting project 1]?	46	['question_type_local']
+[accounting project 1] is due on [April 02]
+How many points did I get on [accounting project 1]	46	['question_type_local']
+[calculus homework 1] is released for [calculus]
+[that homework] is [67] points
+[this homework] is on [The Environment]
+[this homework] is due on [March 31]
+I submitted [that assignment] and received 67 points
+[this assignment] is now due on [April 02]
+which assignments are due on [April 02]?	'accounting project 1', 'calculus homework 1'	['question_type_global', 'question_two_hop_statement']
+I am taking a course called [french]
+[Lizeth] teaches [this course]
+show me the homeworks due on [April 02]	'calculus homework 1'	['question_type_global', 'question_two_hop_statement']
+how much did I get on [calculus homework 1]?	67	['question_type_local']
+I am taking a [algebra] course
+show me all assignments that i submitted for [Cyndi]	'accounting project 1'	['question_type_global', 'question_three_hop_statement']
+there is new [calculus homework 2] for [calculus]
+[this assignment] is [82] points
+[calculus homework 2] is due on [April 07]
+I submitted [this assignment] and received 82 points
+[calculus homework 2] is now due on [April 05]
+I am taking a course called [statistics]
+[that assignment] is about [Cells]
+how much did I get on [accounting project 1]?	46	['question_type_local']
+[calculus homework 2] is now due on [April 02]
+create a [professor] named [Isaiah]
+[this professor]'s office is [1812]
+[that person]'s email is [Isaiah@chk.ru]
+[that person] is affiliated with the [animal science] department
+[calculus] has a new [calculus homework 3] released
+[this assignment] is due on [April 26]
+[that assignment] is worth [20] points
+[this assignment] is about [hidden markov models]
+I submitted [calculus homework 3] on time and received 6 points
+The deadline of [calculus homework 3] moved to [April 23]
+What is [Cyndi]'s email	'Cyndi@gmail.com'	['question_type_local']
+how many points did I receive on [calculus homework 2]?	82	['question_type_local']
+how many points did I receive on [calculus homework 1]?	67	['question_type_local']
+How many points did I get on [calculus homework 2]	82	['question_type_local']
+When is [calculus homework 2] due?	'April 02'	['question_type_local']
+create a [professor] named [Luanna]
+[she]'s email is [Luanna@cornell.edu]
+[this person] is in [1304]
+[this professor] is affiliated with the [neuroscience] department
+How many points is [accounting project 1] worth?	46	['question_type_local']
+[statistics] has a new [statistics homework 1] released
+I submitted [this assignment] late
+there is a [professor] named [Tom]
+The deadline of [that homework] is [April 01]
+[that assignment] is [22] points
+What is [Luanna]'s email	'Luanna@cornell.edu'	['question_type_local']
+there is a new [homework] for [statistics]
+What is [Cyndi]'s email	'Cyndi@gmail.com'	['question_type_local']
+show me the assignments due on [April 23]	'calculus homework 3'	['question_type_global', 'question_two_hop_statement']
+The deadline of [statistics homework 2] is [April 19]
+the affiliation of [Tom] is [physics]
+[this person] is in [1304]
+[he]'s email is [Tom@nh.edu]
+[algebra homework 1] is out for [algebra]
+What is [this professor]'s email	'Tom@nh.edu'	['question_type_local']
+list assignments that are due on [April 23]	'calculus homework 3'	['question_type_global', 'question_two_hop_statement']
+[this homework] is [61] points
+[that assignment] is on [introduction]
+list assignments that are due on [April 02]	'accounting project 1', 'calculus homework 1', 'calculus homework 2'	['question_type_global', 'question_two_hop_statement']
+there is a [professor] named [Yoshiko]
+I submitted [this homework] and received 61 points
+[that professor]'s email is [Yoshiko@gmail.com]
+[Yoshiko] is in [1812]
+Which department is [Lizeth] in?	'animal science'	['question_type_local']
+which homeworks are due after [April 17]?	'calculus homework 3', 'statistics homework 2'	['question_type_global', 'question_two_hop_statement']
+the affiliation of [Yoshiko] is [neuroscience]
+what did I get on [algebra homework 1]?	61	['question_type_local']
+When is the deadline of [statistics homework 2]?	'April 19'	['question_type_local']
+which homeworks are due on [April 01]?	'statistics homework 1'	['question_type_global', 'question_two_hop_statement']
+How many points did I get on [calculus homework 2]	82	['question_type_local']
+How much is [algebra homework 1] worth?	61	['question_type_local']
+[this professor]'s department is now [physics]
+how many points is [calculus homework 1]?	67	['question_type_local']
+list all projects for [Cyndi]	'accounting project 1'	['question_type_global', 'question_three_hop_statement']
+there is a new [homework] for [accounting]
+The deadline of [algebra homework 1] is [April 04]
+When is the deadline of [statistics homework 2]?	'April 19'	['question_type_local']
+there is a [professor] named [Albertha]
+[this person] is affiliated with the [physics] department
+there is a new [homework] for [algebra]
+[that professor]'s office is [1304]
+[this person]'s email is [Albertha@yandex.com]
+change [she]'s department to [computer science]
+list all projects for [Cyndi]	'accounting project 1'	['question_type_global', 'question_three_hop_statement']
+there is a new [homework] for [calculus]
+I submitted [that assignment]
+The deadline of [this homework] is [May 19]
+[this assignment] is worth [94] points
+what did I get on [calculus homework 3]?	6	['question_type_local']
+[this homework] is on [logistic regression]
+list all assignments that i submitted for [Cyndi]	'accounting project 1'	['question_type_global', 'question_three_hop_statement']
+how many points did I receive on [accounting project 1]?	46	['question_type_local']
+list all projects that i submitted for [Cyndi]	'accounting project 1'	['question_type_global', 'question_three_hop_statement']
+what assignments do I have to do for [Cyndi]?	'accounting project 1', 'accounting homework 1'	['question_type_global', 'question_three_hop_statement']
+The topic of [statistics homework 2] is [Plants]
+I submitted [statistics homework 2] late
+When is [calculus homework 3] due?	'April 23'	['question_type_local']
+[statistics homework 1] is on [neural networks]
+What is the topic of [calculus homework 4]?	'logistic regression'	['question_type_local']
+how much did I get on [calculus homework 2]?	82	['question_type_local']
+How many points did I get on [algebra homework 1]	61	['question_type_local']
+which homeworks are due after [April 23]?	'calculus homework 4'	['question_type_global', 'question_two_hop_statement']
+What is the topic of [calculus homework 3]?	'hidden markov models'	['question_type_local']
+[Albertha] teaches [algebra]
+how many points is [calculus homework 3]?	20	['question_type_local']
+what homeworks do I have to do for [Albertha]?	'algebra homework 1', 'algebra homework 2'	['question_type_global', 'question_three_hop_statement']
+list the professors in the [computer science] department	'Albertha'	['question_type_global', 'question_two_hop_statement']
+[accounting] has a new [accounting project 2] released
+I submitted [this assignment] late
+[that project] is about [cold war]
+[this assignment] is worth [33] points
+[that assignment] is due on [April 07]
+which homeworks are due after [April 20]?	'calculus homework 3', 'calculus homework 4'	['question_type_global', 'question_two_hop_statement']
+what homeworks did i submit for [Albertha]?	'algebra homework 1'	['question_type_global', 'question_three_hop_statement']
+[statistics homework 2] is worth [73] points
+What is the topic of [accounting project 2]?	'cold war'	['question_type_local']
+[accounting] has a new [accounting homework 2] out
+Which department is [Albertha] in?	'computer science'	['question_type_local']
+list all homeworks that i submitted for [Albertha]	'algebra homework 1'	['question_type_global', 'question_three_hop_statement']
+list assignments that are due on [April 23]	'calculus homework 3'	['question_type_global', 'question_two_hop_statement']
+When is the deadline of [calculus homework 3]?	'April 23'	['question_type_local']
+[accounting homework 2] is [43] points
+The deadline of [accounting homework 2] is [April 15]
+I submitted [this assignment] late and received 43 points
+how many points is [accounting homework 2]?	43	['question_type_local']
+list homeworks that are due on [April 23]	'calculus homework 3'	['question_type_global', 'question_two_hop_statement']
+[algebra project 1] is out for [algebra]
+What is [Cyndi]'s email	'Cyndi@gmail.com'	['question_type_local']
+list all assignments for [Cyndi]	'accounting project 1', 'accounting homework 1', 'accounting project 2', 'accounting homework 2'	['question_type_global', 'question_three_hop_statement']
+What is the topic of [calculus homework 4]?	'logistic regression'	['question_type_local']
+which projects are due after [April 03]?	'accounting project 2'	['question_type_global', 'question_two_hop_statement']
+[that project] is worth [99] points
+The deadline of [this project] is [March 31]
+I submitted [algebra project 1] and received 99 points
+how much did I get on [calculus homework 1]?	67	['question_type_local']

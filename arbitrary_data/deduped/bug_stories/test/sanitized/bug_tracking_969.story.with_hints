@@ -1,0 +1,109 @@
+there is a new [corporate] [chatbot(Project[1])] [project]
+[chatbot project(Project[1])] is in the [testing] stage
+there is a new [important] [knowledge base(Project[2])] [project]
+[knowledge base project(Project[2])] is in the stage of [testing]
+[Gabrielle(Developer[1])] is a [developer]
+[this developer(Developer[1])] is assigned to [chatbot project(Project[1])]
+[Casey(Developer[2])] is a [developer]
+[Tawnya(Tester[3])] is a [tester]
+[Casey(Developer[2])] is assigned to [chatbot project(Project[1])]
+[he(Developer[2])] is no longer assigned to [it(Project[1])]
+[that project(Project[1])] is in the [maintenance] stage
+[Casey(Developer[2])] is assigned to [knowledge base project(Project[2])]
+[Willis(Tester[4])] is a [tester] on [this project(Project[2])]
+[chatbot project(Project[1])] is assigned to [Willis(Tester[4])] also
+[this project(Project[1])] is assigned to [Casey(Developer[2])] also
+[Emma(Developer[5])] is a [developer] on [this project(Project[1])]
+[this person(Developer[5])] is working on [knowledge base project(Project[2])] also
+[tokenization not consistent across platforms] is a new [bug] for [chatbot project(Project[1])] that [Emma(Developer[5])] just created
+[the issue(Issue[1])] is assigned to [Emma(Developer[5])]
+there is a new [mobile(Project[3])] [project]
+[Emma(Developer[5])] is no longer assigned to [chatbot project(Project[1])]
+[Emma(Developer[5])] is working on [it(Project[1])] also
+[she(Developer[5])] is working on [mobile project(Project[3])] also
+[Casey(Developer[2])] is assigned to [mobile project(Project[3])] also
+[Emma(Developer[5])] resolved [the bug(Issue[1])]
+Are there any issues created by [Emma(Developer[5])] that are resolved?	'tokenization not consistent across platforms(Issue[1])'	['question_type_local']
+What are the issues submitted by [Emma(Developer[5])] that were resolved?	'tokenization not consistent across platforms(Issue[1])'	['question_type_local']
+There is a new issue for the [knowledge base project(Project[2])]: [svd is slow]
+[this issue(Issue[2])] is assigned to [Casey(Developer[2])]
+[that person(Developer[2])] resolved [the issue(Issue[2])]
+[mobile project(Project[3])] is in the stage of [maintenance]
+[this project(Project[3])] has moved to the [testing] stage
+[this project(Project[3])] is a [important] project
+[Casey(Developer[2])] created a new issue for [it(Project[3])]: [wrong pos tag on consecutive words]
+[memory leak while reading tf records] is a new [proposal] for [mobile project(Project[3])] that [Emma(Developer[5])] just created
+[the wrong pos tag on consecutive words issue(Issue[3])] is assigned to [Casey(Developer[2])]
+[that developer(Developer[2])] created a new issue for [knowledge base project(Project[2])]: [xml extractor exception]
+[it(Issue[5])] is assigned to [Emma(Developer[5])]
+[this developer(Developer[5])] resolved [that issue(Issue[5])]
+[chatbot project(Project[1])] is not assigned to [Gabrielle(Developer[1])]
+[Gabrielle(Developer[1])] is assigned to [knowledge base project(Project[2])]
+[she(Developer[1])] is working on [mobile project(Project[3])] also
+[chatbot project(Project[1])] is assigned to [that person(Developer[1])] also
+[this developer(Developer[1])] is no longer assigned to [knowledge base project(Project[2])]
+[she(Developer[1])] is working on [it(Project[2])] also
+[Emma(Developer[5])] is not working on [mobile project(Project[3])] anymore
+[Tawnya(Tester[3])] is working on [mobile project(Project[3])]
+[that test engineer(Tester[3])] is assigned to [chatbot project(Project[1])] also
+[this test engineer(Tester[3])] is working on [knowledge base project(Project[2])] also
+[Emma(Developer[5])] is no longer assigned to [chatbot project(Project[1])]
+[that person(Developer[5])] is assigned to [mobile project(Project[3])] also
+Who was [the tokenization not consistent across platforms bug(Issue[1])] assigned to?	'Emma(Developer[5])'	['question_type_local']
+Are there any issues created by [that developer(Developer[5])] that are not resolved?	'memory leak while reading tf records(Issue[4])'	['question_type_local']
+[chatbot project(Project[1])] is assigned to [Emma(Developer[5])] also
+[Willis(Tester[4])] submitted a new [proposal] for [knowledge base project(Project[2])]: [minified version fails]
+[the proposal(Issue[6])] is assigned to [Casey(Developer[2])]
+[mobile project(Project[3])] is in the [maintenance] stage
+[Casey(Developer[2])] resolved [the wrong pos tag on consecutive words issue(Issue[3])]
+What are the issues assigned to [this developer(Developer[2])] that were not resolved?	'minified version fails(Issue[6])'	['question_type_local']
+[Gabrielle(Developer[1])] created a new [enhancement] for [mobile project(Project[3])]: [changelong needs to be added]
+[the changelong needs to be added issue(Issue[7])] was assigned to [that person(Developer[2])]
+[that person(Developer[2])] resolved [that issue(Issue[7])]
+[Casey(Developer[2])] resolved [the minified version fails proposal(Issue[6])]
+[mobile project(Project[3])] is not assigned to [Emma(Developer[5])]
+[it(Project[3])] is assigned to [Emma(Developer[5])] also
+[that person(Developer[5])] is no longer assigned to [this project(Project[3])]
+[that project(Project[3])] is assigned to [Emma(Developer[5])] also
+[chatbot project(Project[1])] is in the [testing] stage
+[the memory leak while reading tf records proposal(Issue[4])] is assigned to [Emma(Developer[5])]
+[that person(Developer[5])] resolved [this issue(Issue[4])]
+[mobile project(Project[3])] has moved to the [testing] stage
+[chatbot project(Project[1])] is not assigned to [that person(Developer[5])]
+[this person(Developer[5])] is working on [that project(Project[1])] also
+[mobile project(Project[3])] is not assigned to [that person(Developer[5])]
+[that developer(Developer[5])] is assigned to [mobile project(Project[3])] also
+[knowledge base project(Project[2])] is in the stage of [maintenance]
+[knowledge base project(Project[2])] is not assigned to [Casey(Developer[2])]
+Who was [the changelong needs to be added issue(Issue[7])] assigned to?	'Casey(Developer[2])'	['question_type_local']
+[this person(Developer[2])] is working on [this project(Project[2])] also
+[Gabrielle(Developer[1])] is not working on [that project(Project[2])] anymore
+[this person(Developer[1])] is assigned to [this project(Project[2])] also
+[it(Project[2])] is now in the [testing] stage
+[it(Project[2])] is now in the [development] stage
+[mobile project(Project[3])] has moved to the [maintenance] stage
+[chatbot project(Project[1])] is now in the [maintenance] stage
+[chatbot project(Project[1])] is in the stage of [testing]
+[it(Project[1])] has moved to the [development] stage
+Who is [the bug(Issue[1])] assigned to?	'Emma(Developer[5])'	['question_type_local']
+[chatbot project(Project[1])] is in the [maintenance] stage
+[chatbot project(Project[1])] is in the stage of [testing]
+[that project(Project[1])] has moved to the [development] stage
+[chatbot project(Project[1])] has moved to the [testing] stage
+[it(Project[1])] is in the [development] stage
+[Emma(Developer[5])] is no longer assigned to [mobile project(Project[3])]
+[this project(Project[3])] is assigned to [that developer(Developer[5])] also
+Who is [the memory leak while reading tf records proposal(Issue[4])] assigned to?	'Emma(Developer[5])'	['question_type_local']
+[mobile project(Project[3])] is now in the [testing] stage
+[that project(Project[3])] has moved to the [development] stage
+[that project(Project[3])] has moved to the [testing] stage
+[mobile project(Project[3])] is now in the [maintenance] stage
+[this project(Project[3])] is now in the [testing] stage
+[Casey(Developer[2])] is no longer assigned to [chatbot project(Project[1])]
+[this developer(Developer[2])] is assigned to [it(Project[1])] also
+[chatbot project(Project[1])] is in the stage of [testing]
+[it(Project[1])] is in the stage of [maintenance]
+[mobile project(Project[3])] is in the [maintenance] stage
+[mobile project(Project[3])] is in the stage of [development]
+[mobile project(Project[3])] is not assigned to [Emma(Developer[5])]
+[this developer(Developer[5])] is working on [this project(Project[3])] also

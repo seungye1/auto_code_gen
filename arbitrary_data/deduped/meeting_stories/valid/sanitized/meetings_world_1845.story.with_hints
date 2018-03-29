@@ -1,0 +1,126 @@
+there is a [meeting] [to discuss future plans(Meeting[1])]
+there is a [meeting] [to prepare for exams(Meeting[2])]
+create a new [meeting(Meeting[3])]
+there is a [professor] named [Casey(Professor[1])]
+create a new [meeting(Meeting[4])]
+there is a [professor] named [Milagros(Professor[2])]
+[this meeting(Meeting[4])] is [to prepare for exams]
+there is a [person] named [Tawnya(Person[3])]
+[she(Person[3])]'s affiliation is [Adams College]
+create a [person] named [Cyndi(Person[4])]
+create a new [meeting(Meeting[5])]
+there is a [person] named [Tereasa(Person[5])]
+[Tereasa(Person[5])] is not a friend
+[she(Person[5])]'s affiliation is [UC Sunnydale]
+[Emma(Student[6])] is a [student]
+create a new [meeting(Meeting[6])]
+there is a [meeting] [to discuss future plans(Meeting[7])]
+there is a [meeting] [to practice presentations(Meeting[8])]
+[the meeting to discuss future plans that was last added(Meeting[7])] now is [to grade papers]
+[the event to practice presentations(Meeting[8])] now is [to grade papers]
+[Cyndi(Person[4])] is not a friend
+[this person(Person[4])]'s affiliation is [Coolidge College]
+[she(Person[4])] will attend [the meeting to prepare for exams that was last added(Meeting[4])]
+[that person(Person[4])] attended [that meeting(Meeting[4])] on time
+create a new [meeting(Meeting[9])]
+[Emma(Student[6])] will attend [the meeting with Cyndi to prepare for exams(Meeting[4])]
+[the event that was last added(Meeting[9])] is [to prepare for exams]
+[Tereasa(Person[5])] will attend [the event(Meeting[9])]
+[this person(Person[5])] attended [the event(Meeting[9])] late
+[Cyndi(Person[4])] will attend [that meeting(Meeting[9])]
+create a new [meeting(Meeting[10])]
+there is a [meeting] [to grade papers(Meeting[11])]
+[Tereasa(Person[5])] will attend [the event that was last added(Meeting[11])]
+[Tereasa(Person[5])] attended [this meeting(Meeting[11])] on time
+[Cyndi(Person[4])] will attend [that meeting(Meeting[11])]
+[Emma(Student[6])] will attend [the meeting(Meeting[11])]
+[Cyndi(Person[4])] attended [that meeting(Meeting[11])] on time
+[Milagros(Professor[2])] will attend [this meeting(Meeting[11])]
+create a new [meeting(Meeting[12])]
+[that meeting(Meeting[12])] is [to practice presentations]
+Who is attending [the meeting with Emma to prepare for exams(Meeting[4])]	'Cyndi(Person[4])', 'Emma(Student[6])'	['question_type_local']
+[that meeting(Meeting[12])] now is [to grade papers]
+was anyone affiliated with [Coolidge College] attended [to grade papers]	'Cyndi(Person[4])'	['question_type_global', 'question_two_hop_statement']
+[Casey(Professor[1])] will attend [this meeting(Meeting[12])]
+[he(Professor[1])]'s department is [computer science]
+[that professor(Professor[1])]'s affiliation is [Medfield College]
+[Casey(Professor[1])] is a friend
+[that person(Professor[1])] is not my friend
+create a new [meeting(Meeting[13])]
+create a new [meeting(Meeting[14])]
+[Milagros(Professor[2])]'s department is [biomedical engineering]
+[Tereasa(Person[5])] will attend [this meeting(Meeting[14])]
+[that meeting(Meeting[14])] is [to grade papers]
+Who is attending [the meeting to grade papers with Casey(Meeting[12])]	'Casey(Professor[1])'	['question_type_local']
+[Cyndi(Person[4])] will attend [this meeting(Meeting[14])]
+[she(Person[4])] attended [the meeting(Meeting[14])] on time
+[Tawnya(Person[3])] will attend [this meeting(Meeting[14])]
+[that person(Person[3])] is not a friend
+there is a [meeting] [to grade papers(Meeting[15])]
+there is a [meeting] [to grade papers(Meeting[16])]
+[Milagros(Professor[2])] will attend [the event to grade papers that was last added(Meeting[16])]
+[that person(Professor[2])] attended [the event with Tereasa and Milagros(Meeting[11])] late
+there is a [meeting] [to practice presentations(Meeting[17])]
+[Emma(Student[6])] will attend [that meeting(Meeting[17])]
+[Emma(Student[6])]'s major is [food science]
+[this person(Student[6])] is a friend
+[this student(Student[6])]'s affiliation is [Coolidge College]
+there is a [meeting] [to prepare for exams(Meeting[18])]
+[Cyndi(Person[4])] will attend [the meeting to discuss future plans(Meeting[1])]
+[this person(Person[4])] attended [this meeting(Meeting[1])] late
+were any people affiliated with [UC Sunnydale] late to [to prepare for exams]	'Tereasa(Person[5])'	['question_type_global', 'question_three_hop_statement']
+[she(Person[4])] attended [the meeting to prepare for exams with Tereasa(Meeting[9])] late
+[Emma(Student[6])] will attend [that meeting(Meeting[9])]
+[Emma(Student[6])] attended [the meeting(Meeting[9])] late
+[Milagros(Professor[2])] will attend [this meeting(Meeting[9])]
+were any [food science] majors attending the meetings?	'Emma(Student[6])'	['question_type_global', 'question_two_hop_statement']
+which students majoring in [food science] were late	'Emma(Student[6])'	['question_type_global', 'question_two_hop_statement']
+[that person(Professor[2])] attended [this meeting(Meeting[9])] late
+[she(Professor[2])] is not a friend
+[Milagros(Professor[2])]'s affiliation is [Medfield College]
+there is a [meeting] [to discuss future plans(Meeting[19])]
+Who was late to [the event to grade papers with Milagros and Emma(Meeting[11])]	'Milagros(Professor[2])'	['question_type_local']
+which people affiliated with [Medfield College] attended [to grade papers]	'Milagros(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+which students majoring in [food science] attended meetings	'Emma(Student[6])'	['question_type_global', 'question_two_hop_statement']
+there is a [meeting] [to prepare for exams(Meeting[20])]
+[Cyndi(Person[4])] will attend [the event to discuss future plans that was last added(Meeting[19])]
+were any [food science] majors ever late?	'Emma(Student[6])'	['question_type_global', 'question_two_hop_statement']
+[Tereasa(Person[5])] will attend [this meeting(Meeting[19])]
+[Emma(Student[6])] will attend [this meeting(Meeting[19])]
+[Cyndi(Person[4])] attended [this meeting(Meeting[19])] late
+[Milagros(Professor[2])] will attend [the event with Cyndi and Tawnya to grade papers(Meeting[14])]
+[Tawnya(Person[3])] attended [the event(Meeting[14])] on time
+was anyone who majored in [food science] ever late to any meetings?	'Emma(Student[6])'	['question_type_global', 'question_two_hop_statement']
+which students majoring in [food science] were late	'Emma(Student[6])'	['question_type_global', 'question_two_hop_statement']
+Who is attending [the meeting with Cyndi and Tereasa to discuss future plans(Meeting[19])]	'Cyndi(Person[4])', 'Tereasa(Person[5])', 'Emma(Student[6])'	['question_type_local']
+which people affiliated with [UC Sunnydale] were late	'Tereasa(Person[5])'	['question_type_global', 'question_two_hop_statement']
+Who is attending [the event with Emma and Milagros to grade papers(Meeting[11])]	'Milagros(Professor[2])', 'Cyndi(Person[4])', 'Tereasa(Person[5])', 'Emma(Student[6])'	['question_type_local']
+[Tereasa(Person[5])] attended [the meeting(Meeting[14])] on time
+was anyone affiliated with [biomedical engineering] attending the meetings?	'Milagros(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+What is [Emma(Student[6])]'s major	'food science'	['question_type_local']
+which students majoring in [food science] attended meetings	'Emma(Student[6])'	['question_type_global', 'question_two_hop_statement']
+were any [food science] majors attending the meetings?	'Emma(Student[6])'	['question_type_global', 'question_two_hop_statement']
+there is a [meeting] [to prepare for exams(Meeting[21])]
+[the meeting to grade papers with Tawnya and Cyndi(Meeting[14])] now is [to practice presentations]
+[Tereasa(Person[5])] attended [the event to discuss future plans that was last added(Meeting[19])] late
+were any professors affiliated with [Medfield College] late	'Milagros(Professor[2])'	['question_type_global', 'question_three_hop_statement']
+[Emma(Student[6])] is not my friend
+What is [Emma(Student[6])]'s major	'food science'	['question_type_local']
+[Milagros(Professor[2])] will attend [the event to discuss future plans that was last added(Meeting[19])]
+create a new [meeting(Meeting[22])]
+[this meeting(Meeting[22])] is [to prepare for exams]
+[Tereasa(Person[5])] will attend [this meeting(Meeting[22])]
+were any [food science] majors attending the meetings?	'Emma(Student[6])'	['question_type_global', 'question_two_hop_statement']
+there is a [meeting] [to prepare for exams(Meeting[23])]
+[that person(Person[5])] will attend [this meeting(Meeting[23])]
+[she(Person[5])] attended [this meeting(Meeting[23])] late
+create a new [meeting(Meeting[24])]
+change [Milagros(Professor[2])]'s department to [mechanical engineering]
+change [she(Professor[2])]'s department to [computer science]
+which people affiliated with [Medfield College] were late	'Milagros(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+was anyone affiliated with [Coolidge College] attended [to grade papers]	'Cyndi(Person[4])'	['question_type_global', 'question_two_hop_statement']
+were any [food science] majors ever late?	'Emma(Student[6])'	['question_type_global', 'question_two_hop_statement']
+actually [Casey(Professor[1])] is my friend
+create a new [meeting(Meeting[25])]
+[this meeting(Meeting[25])] is [to prepare for exams]
+[Casey(Professor[1])] will attend [this meeting(Meeting[25])]

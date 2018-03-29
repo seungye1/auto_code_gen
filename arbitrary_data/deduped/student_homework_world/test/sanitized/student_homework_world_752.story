@@ -1,0 +1,171 @@
+create a [professor] named [Igor]
+[he] is in [194]
+I am taking a course called [us history]
+[he] is the instructor for [us history]
+create a [professor] named [Ashly]
+What is [he]'s office?	'194'	['question_type_local']
+[she]'s office is [194]
+[us history homework 1] is released for [us history]
+[us history] has a new [us history project 1] released
+[us history project 1] is worth [42] points
+The deadline of [us history project 1] is [January 25]
+[this assignment] is about [Genetics]
+create a [professor] named [Rachele]
+which projects are due on [January 25]?	'us history project 1'	['question_type_global', 'question_two_hop_statement']
+I am taking a [religion] course
+[Ashly] is the instructor for [that course]
+[Vivienne] is a [professor]
+[Vivienne] is in [621]
+I am taking a course called [french]
+[french] is taught by [Rachele]
+[that person] is in [1304]
+What is [Igor]'s office?	'194'	['question_type_local']
+I am taking a course called [spanish]
+[Vivienne] is the instructor for [that course]
+[us history homework 1] is due on [January 29]
+[this assignment] is [24] points
+I submitted [that homework] and received 10 points
+[this assignment] is about [expectation maximization]
+show me the assignments due on [January 29]	'us history homework 1'	['question_type_global', 'question_two_hop_statement']
+what projects do I have to do for [Igor]?	'us history project 1'	['question_type_global', 'question_three_hop_statement']
+which homeworks are due after [January 26]?	'us history homework 1'	['question_type_global', 'question_two_hop_statement']
+which homeworks are due before [February 01]?	'us history homework 1'	['question_type_global', 'question_two_hop_statement']
+The deadline of [that homework] moved to [February 01]
+[us history] has a new [us history project 2] out
+[us history project 2] is about [svm]
+[that assignment] is worth [30] points
+I submitted [this project] late and received 5 points
+[that project] is due on [February 14]
+When is [us history homework 1] due?	'February 01'	['question_type_local']
+which homeworks are due before [February 12]?	'us history homework 1'	['question_type_global', 'question_two_hop_statement']
+When is the deadline of [us history project 1]?	'January 25'	['question_type_local']
+there is new [religion project 1] for [religion]
+When is the deadline of [us history project 2]?	'February 14'	['question_type_local']
+The deadline of [religion project 1] is [January 28]
+[this assignment] is about [kernels]
+show me the homeworks due on [February 01]	'us history homework 1'	['question_type_global', 'question_two_hop_statement']
+which assignments are due after [January 22]?	'us history homework 1', 'us history project 1', 'us history project 2', 'religion project 1'	['question_type_global', 'question_two_hop_statement']
+How much is [us history homework 1] worth?	24	['question_type_local']
+I submitted [religion project 1]
+I am taking a course called [accounting]
+[this assignment] is worth [69] points
+[accounting homework 1] is out for [that course]
+The deadline of [this project] moved to [January 27]
+what did I get on [us history homework 1]?	10	['question_type_local']
+[spanish project 1] is released for [spanish]
+I submitted [spanish project 1]
+[spanish project 1] is due on [January 27]
+The topic of [that project] is [Molds & Fungi]
+[this project] is [50] points
+When is the deadline of [us history project 2]?	'February 14'	['question_type_local']
+which projects are due after [February 12]?	'us history project 2'	['question_type_global', 'question_two_hop_statement']
+list all projects for [Ashly]	'religion project 1'	['question_type_global', 'question_three_hop_statement']
+What office is [Igor] in?	'194'	['question_type_local']
+what homeworks do I have to do for [Igor]?	'us history homework 1'	['question_type_global', 'question_three_hop_statement']
+When is [us history project 1] due?	'January 25'	['question_type_local']
+which projects are due after [February 12]?	'us history project 2'	['question_type_global', 'question_two_hop_statement']
+[William] is a [professor]
+[religion homework 1] is out for [religion]
+I submitted [religion homework 1] late
+[this homework] is worth [100] points
+list assignments that are due on [February 01]	'us history homework 1'	['question_type_global', 'question_two_hop_statement']
+[religion project 2] is out for [religion]
+The deadline of [that homework] is [January 29]
+[french] has a new [french homework 1] out
+[french homework 1] is due on [January 30]
+I submitted [french homework 1] late
+How much is [spanish project 1] worth?	50	['question_type_local']
+which assignments are due after [February 02]?	'us history project 2'	['question_type_global', 'question_two_hop_statement']
+The deadline of [that assignment] moved to [January 31]
+there is new [spanish homework 1] for [spanish]
+[spanish homework 1] is worth [52] points
+I submitted [that assignment] and received 19 points
+When is [us history project 1] due?	'January 25'	['question_type_local']
+how many points is [spanish project 1]?	50	['question_type_local']
+which projects are due after [January 28]?	'us history project 2'	['question_type_global', 'question_two_hop_statement']
+which assignments are due on [January 27]?	'religion project 1', 'spanish project 1'	['question_type_global', 'question_two_hop_statement']
+[french project 1] is released for [french]
+I submitted [that project]
+The deadline of [that assignment] is [January 27]
+list all projects that i submitted for [Igor]	'us history project 2'	['question_type_global', 'question_three_hop_statement']
+[french] has a new [french homework 2] released
+create a [professor] named [Emmie]
+[this assignment] is due on [February 04]
+which assignments did I submit late for [Ashly]?	'religion homework 1'	['question_type_global', 'question_three_hop_statement']
+what are the homeworks that i submitted for [Igor]	'us history homework 1'	['question_type_global', 'question_three_hop_statement']
+I submitted [this assignment] late
+[french homework 2] is worth [62] points
+[french] has a new [french homework 3] released
+list assignments that are due on [January 31]	'french homework 1'	['question_type_global', 'question_two_hop_statement']
+[french homework 3] is worth [80] points
+[accounting homework 1] is [32] points
+create a [professor] named [Alverta]
+[that person]'s office is [621]
+What courses is [Ashly] teaching?	'religion'	['question_type_local']
+create a [professor] named [Yoshiko]
+[Yoshiko]'s office is [1304]
+list all homeworks for [Igor]	'us history homework 1'	['question_type_global', 'question_three_hop_statement']
+show me all late assignments i submitted for [Ashly]	'religion homework 1'	['question_type_global', 'question_three_hop_statement']
+When is [religion homework 1] due?	'January 29'	['question_type_local']
+show me all late homeworks i submitted for [Ashly]	'religion homework 1'	['question_type_global', 'question_three_hop_statement']
+what assignments did i submit for [Vivienne]?	'spanish project 1', 'spanish homework 1'	['question_type_global', 'question_three_hop_statement']
+what are all the assignments due for [Igor]?	'us history homework 1', 'us history project 1', 'us history project 2'	['question_type_global', 'question_three_hop_statement']
+I submitted [us history project 1] and received 42 points
+What office is [Alverta] in?	'621'	['question_type_local']
+which homeworks are due after [February 03]?	'french homework 2'	['question_type_global', 'question_two_hop_statement']
+which projects are due after [February 05]?	'us history project 2'	['question_type_global', 'question_two_hop_statement']
+there is new [french project 2] for [french]
+Which professor is teaching [spanish]?	'Vivienne'	['question_type_local']
+The deadline of [french project 2] is [February 12]
+What is [Igor]'s office?	'194'	['question_type_local']
+When is the deadline of [french homework 2]?	'February 04'	['question_type_local']
+there is new [french project 3] for [french]
+[french project 3] is worth [18] points
+[french project 3] is due on [February 10]
+what homeworks do I have to do for [Vivienne]?	'spanish homework 1'	['question_type_global', 'question_three_hop_statement']
+show me all homeworks i submitted for [Rachele]	'french homework 1', 'french homework 2'	['question_type_global', 'question_three_hop_statement']
+I submitted [that assignment] and received 18 points
+How many points is [us history project 2] worth?	30	['question_type_local']
+[religion project 3] is out for [religion]
+I submitted [religion project 3]
+[that assignment] is worth [82] points
+The deadline of [that project] is [February 19]
+Who is the instructor for [us history]?	'Igor'	['question_type_local']
+what are the projects that i submitted for [Ashly]	'religion project 1', 'religion project 3'	['question_type_global', 'question_three_hop_statement']
+which assignments are due on [February 19]?	'religion project 3'	['question_type_global', 'question_two_hop_statement']
+what did I get on [us history project 2]?	5	['question_type_local']
+The deadline of [this project] moved to [February 18]
+show me all homeworks i submitted for [Rachele]	'french homework 1', 'french homework 2'	['question_type_global', 'question_three_hop_statement']
+show me the projects due on [February 14]	'us history project 2'	['question_type_global', 'question_two_hop_statement']
+[french project 4] is released for [french]
+I submitted [french project 4]
+The deadline of [this project] is [March 10]
+[that project] is worth [99] points
+how many points is [that assignment]?	99	['question_type_local']
+which assignments are due after [February 21]?	'french project 4'	['question_type_global', 'question_two_hop_statement']
+list all projects that i submitted late for [Igor]	'us history project 2'	['question_type_global', 'question_three_hop_statement']
+The deadline of [that assignment] moved to [March 09]
+what homeworks did i submit late for [Ashly]?	'religion homework 1'	['question_type_global', 'question_three_hop_statement']
+there is a new [homework] for [accounting]
+How many points did I get on [french project 3]	18	['question_type_local']
+show me all late assignments i submitted for [Rachele]	'french homework 1', 'french homework 2'	['question_type_global', 'question_three_hop_statement']
+When is the deadline of [religion homework 1]?	'January 29'	['question_type_local']
+When is [that project] due?	'March 09'	['question_type_local']
+show me the projects due on [January 25]	'us history project 1'	['question_type_global', 'question_two_hop_statement']
+what are all the assignments due for [Vivienne]?	'spanish project 1', 'spanish homework 1'	['question_type_global', 'question_three_hop_statement']
+[french project 1] is worth [20] points
+[that homework] is [51] points
+what assignments did i submit late for [Ashly]?	'religion homework 1'	['question_type_global', 'question_three_hop_statement']
+[accounting homework 2] is due on [February 12]
+[spanish homework 1] is due on [January 25]
+[accounting] has a new [accounting homework 3] released
+[accounting homework 3] is worth [64] points
+[french project 5] is out for [french]
+I submitted [french project 5] late
+What office is [Rachele] in?	'1304'	['question_type_local']
+what are the late assignments that i submitted for [Rachele]	'french homework 1', 'french homework 2', 'french project 5'	['question_type_global', 'question_three_hop_statement']
+what projects do I have to do for [Vivienne]?	'spanish project 1'	['question_type_global', 'question_three_hop_statement']
+The deadline of [french project 5] is [March 08]
+[that assignment] is [96] points
+What courses is [Ashly] teaching?	'religion'	['question_type_local']
+which projects are due on [March 08]?	'french project 5'	['question_type_global', 'question_two_hop_statement']

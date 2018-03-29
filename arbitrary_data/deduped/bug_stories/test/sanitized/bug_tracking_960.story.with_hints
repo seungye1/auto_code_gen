@@ -1,0 +1,106 @@
+there is a new [mobile(Project[1])] [project]
+[it(Project[1])] is currently in the [evaluation] stage
+[it(Project[1])] is a [internal] project
+There is a new issue for the [this project(Project[1])]: [tokenization not consistent across platforms]
+[that project(Project[1])] is in the stage of [implementation]
+[Alejandra(Tester[1])] is a [tester] on [this project(Project[1])]
+there is a new [internal] [chatbot(Project[2])] [project]
+[Albertha(Developer[2])] is a [developer]
+[it(Project[2])] is currently in the [evaluation] stage
+[that person(Developer[2])] is assigned to [this project(Project[2])]
+[the tokenization not consistent across platforms issue(Issue[1])] was assigned to [Alejandra(Tester[1])]
+there is a new [internal] [knowledge base(Project[3])] [project]
+[knowledge base project(Project[3])] is in the [implementation] stage
+[Isaiah(Tester[3])] is a [tester]
+[knowledge base project(Project[3])] is assigned to [Alejandra(Tester[1])] also
+[that test engineer(Tester[1])] is working on [chatbot project(Project[2])] also
+[Isaiah(Tester[3])] is assigned to [mobile project(Project[1])]
+[Michael(Developer[4])] is a [developer] on [knowledge base project(Project[3])]
+[knowledge base project(Project[3])] is not assigned to [Michael(Developer[4])]
+[this developer(Developer[4])] is working on [it(Project[3])]
+[Lucy(Developer[5])] is a [developer] on [mobile project(Project[1])]
+[mobile project(Project[1])] is not assigned to [this developer(Developer[5])]
+[chatbot project(Project[2])] is assigned to [this person(Developer[5])]
+[Alejandra(Tester[1])] resolved [the tokenization not consistent across platforms issue(Issue[1])]
+[Lucy(Developer[5])] is no longer assigned to [chatbot project(Project[2])]
+[that developer(Developer[5])] is assigned to [mobile project(Project[1])]
+[Isaiah(Tester[3])] is assigned to [knowledge base project(Project[3])] also
+[that test engineer(Tester[3])] is assigned to [chatbot project(Project[2])] also
+[Alejandra(Tester[1])] created a new issue for [mobile project(Project[1])]: [wrong pos tag on consecutive words]
+[that issue(Issue[2])] is assigned to [Lucy(Developer[5])]
+[Lucy(Developer[5])] resolved [the issue(Issue[2])]
+[Lucy(Developer[5])] is working on [chatbot project(Project[2])] also
+[knowledge base project(Project[3])] is assigned to [Lucy(Developer[5])] also
+[this developer(Developer[5])] is not working on [it(Project[3])] anymore
+[Albertha(Developer[2])] is assigned to [this project(Project[3])] also
+[Albertha(Developer[2])] is assigned to [mobile project(Project[1])] also
+[knowledge base project(Project[3])] is assigned to [Lucy(Developer[5])] also
+[she(Developer[5])] created a new [enhancement] for [it(Project[3])]: [initialization broken]
+[the issue(Issue[3])] is assigned to [Albertha(Developer[2])]
+[this person(Developer[2])] resolved [that issue(Issue[3])]
+[this developer(Developer[2])] is no longer assigned to [knowledge base project(Project[3])]
+[Albertha(Developer[2])] is not working on [chatbot project(Project[2])] anymore
+[this developer(Developer[2])] is assigned to [chatbot project(Project[2])] also
+[that developer(Developer[2])] is working on [knowledge base project(Project[3])] also
+[changelong needs to be added] is a new [proposal] created by [Lucy(Developer[5])] for [knowledge base project(Project[3])]
+[that issue(Issue[4])] is assigned to [Isaiah(Tester[3])]
+[Isaiah(Tester[3])] submitted a new [proposal] for [mobile project(Project[1])]: [xml extractor exception]
+[the issue(Issue[5])] was assigned to [Albertha(Developer[2])]
+[that person(Developer[2])] resolved [it(Issue[5])]
+[Isaiah(Tester[3])] resolved [the changelong needs to be added proposal(Issue[4])]
+[chatbot project(Project[2])] is in the stage of [testing]
+[chatbot project(Project[2])] is assigned to [Michael(Developer[4])] also
+[mobile project(Project[1])] is assigned to [this person(Developer[4])] also
+[that project(Project[1])] is in the stage of [testing]
+[Alejandra(Tester[1])] submitted a new [proposal] for [knowledge base project(Project[3])]: [two consecutive dates identified as single date]
+[that issue(Issue[6])] was assigned to [Michael(Developer[4])]
+There is a new [bug] for the [chatbot project(Project[2])]: [fails with apache stack]
+[the fails with apache stack bug(Issue[7])] is assigned to [Albertha(Developer[2])]
+[that developer(Developer[2])] resolved [this issue(Issue[7])]
+[Michael(Developer[4])] created a new issue for [mobile project(Project[1])]: [timeout problem]
+[it(Issue[8])] is assigned to [Isaiah(Tester[3])]
+[this test engineer(Tester[3])] resolved [that issue(Issue[8])]
+Who is [the fails with apache stack bug(Issue[7])] assigned to?	'Albertha(Developer[2])'	['question_type_local']
+[Isaiah(Tester[3])] is not working on [mobile project(Project[1])] anymore
+What are the issues assigned to [that person(Tester[3])]?	'changelong needs to be added(Issue[4])', 'timeout problem(Issue[8])'	['question_type_local']
+[it(Project[1])] is assigned to [Isaiah(Tester[3])] also
+Are there any issues created by [Alejandra(Tester[1])] that are not resolved?	'two consecutive dates identified as single date(Issue[6])'	['question_type_local']
+[it(Project[1])] is not assigned to [Albertha(Developer[2])]
+[that developer(Developer[2])] is working on [this project(Project[1])] also
+[Albertha(Developer[2])] is no longer assigned to [knowledge base project(Project[3])]
+[this project(Project[3])] is assigned to [this person(Developer[2])] also
+[this project(Project[3])] has moved to the [evaluation] stage
+[it(Project[3])] is now in the [implementation] stage
+[Michael(Developer[4])] is not working on [knowledge base project(Project[3])] anymore
+[he(Developer[4])] is assigned to [it(Project[3])] also
+[parsing with parantheses fails] is a new [proposal] for [mobile project(Project[1])] that [Isaiah(Tester[3])] just created
+[that project(Project[3])] is in the [evaluation] stage
+[that issue(Issue[9])] was assigned to [Michael(Developer[4])]
+[this person(Developer[4])] resolved [the proposal(Issue[9])]
+[that developer(Developer[4])] is not working on [knowledge base project(Project[3])] anymore
+[that project(Project[3])] is assigned to [Michael(Developer[4])] also
+[Michael(Developer[4])] is no longer assigned to [chatbot project(Project[2])]
+[this developer(Developer[4])] is working on [chatbot project(Project[2])] also
+[that project(Project[2])] is now in the [evaluation] stage
+[Michael(Developer[4])] is not working on [knowledge base project(Project[3])] anymore
+[this person(Developer[4])] is assigned to [it(Project[3])] also
+[knowledge base project(Project[3])] has moved to the [implementation] stage
+[this project(Project[3])] is now in the [evaluation] stage
+[knowledge base project(Project[3])] has moved to the [implementation] stage
+[this project(Project[3])] is in the stage of [testing]
+[this project(Project[3])] is now in the [evaluation] stage
+What are the issues assigned to [Michael(Developer[4])] that were not resolved?	'two consecutive dates identified as single date(Issue[6])'	['question_type_local']
+[this project(Project[3])] has moved to the [testing] stage
+[this project(Project[3])] is now in the [implementation] stage
+[that project(Project[3])] is in the stage of [testing]
+Who created [the parsing with parantheses fails proposal(Issue[9])]?	'Isaiah(Tester[3])'	['question_type_local']
+[it(Project[3])] is in the stage of [evaluation]
+[that project(Project[3])] has moved to the [implementation] stage
+[Albertha(Developer[2])] is not working on [chatbot project(Project[2])] anymore
+[Michael(Developer[4])] is no longer assigned to [mobile project(Project[1])]
+[that project(Project[1])] is now in the [implementation] stage
+[Michael(Developer[4])] is assigned to [mobile project(Project[1])] also
+[Albertha(Developer[2])] is working on [chatbot project(Project[2])] also
+Are there any issues assigned to [Michael(Developer[4])] that are not resolved?	'two consecutive dates identified as single date(Issue[6])'	['question_type_local']
+[Isaiah(Tester[3])] is no longer assigned to [mobile project(Project[1])]
+[that person(Tester[3])] is assigned to [this project(Project[1])] also

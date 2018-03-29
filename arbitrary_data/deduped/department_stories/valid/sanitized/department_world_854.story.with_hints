@@ -1,0 +1,131 @@
+there is a masters student named [Hanna(MastersStudent[1])]
+[this person(MastersStudent[1])]'s department is [math]
+[Francoise(MastersStudent[2])] is a masters student
+There is a [phd] course called [U610(Course[1])]
+[this course(Course[1])] has 8 units
+[Hanna(MastersStudent[1])] and [Francoise(MastersStudent[2])] are taking [U610(Course[1])]
+[second year] is a [Genevive(PhdStudent[3])] PhD student
+there is a [assistant] [professor] named [Rachele(Professor[4])]
+[that professor(Professor[4])] advises [Genevive(PhdStudent[3])]
+[Rachele(Professor[4])] conducts research in [cold fusion]
+Who does [Rachele(Professor[4])] advise?	'Genevive(PhdStudent[3])'	['question_type_local']
+[Genevive(PhdStudent[3])] did not pass the qualifiers
+[U610(Course[1])] is a full semester course
+The TA for [this course(Course[1])] is [Genevive(PhdStudent[3])]
+[Rachele(Professor[4])] is the instructor for [that class(Course[1])]
+Which students are advised by professors working on [cold fusion]?	'Genevive(PhdStudent[3])'	['question_type_global', 'question_two_hop_statement']
+[fourth year] is a [Loyd(PhdStudent[5])] PhD student
+[Loyd(PhdStudent[5])] successfully defended their thesis
+[he(PhdStudent[5])] is now in [fifth year]
+[Gia(Professor[6])] is a [teaching] [professor]
+[Loyd(PhdStudent[5])] passed thesis proposal
+[that student(PhdStudent[5])] has passed the qualifying exam
+[fourth year] is a [Casey(PhdStudent[7])] PhD student
+What masters students are taking U610	'Hanna(MastersStudent[1])', 'Francoise(MastersStudent[2])'	['question_type_global', 'question_two_hop_statement']
+[Loyd(PhdStudent[5])]'s office is [Community Building]
+there is a [fourth year] PhD student named [Gabrielle(PhdStudent[8])]
+[she(PhdStudent[8])] passed thesis defense
+[Rachele(Professor[4])] is on [Gabrielle(PhdStudent[8])]'s committee
+What courses is [this professor(Professor[4])] teaching?	'U610(Course[1])'	['question_type_local']
+[Rachele(Professor[4])] currently has funding
+[Genevive(PhdStudent[3])] is attending [U610(Course[1])]
+The TA for [that class(Course[1])] is [Loyd(PhdStudent[5])]
+[Casey(PhdStudent[7])] and [Francoise(MastersStudent[2])] are TAs for [U610(Course[1])]
+Which phd students have [Rachele(Professor[4])] on their committee	'Gabrielle(PhdStudent[8])'	['question_type_local']
+What professors are on [Gabrielle(PhdStudent[8])]'s committee	'Rachele(Professor[4])'	['question_type_local']
+Which students are advised by professors working on [cold fusion]?	'Genevive(PhdStudent[3])'	['question_type_global', 'question_two_hop_statement']
+[Andrew(Professor[9])] is a [professor]
+the affiliation of [this student(MastersStudent[2])] is [psychology]
+What masters students are taking U610	'Hanna(MastersStudent[1])', 'Francoise(MastersStudent[2])'	['question_type_global', 'question_two_hop_statement']
+[William(MastersStudent[10])] is a masters student
+What is [Rachele(Professor[4])]'s research focus?	'cold fusion'	['question_type_local']
+there is a [assistant] [professor] named [Zenaida(Professor[11])]
+[this professor(Professor[11])] received funding
+[William(MastersStudent[10])]'s department is [animal science]
+[Andrew(Professor[9])]'s office is [Ketchum Building]
+[Casey(PhdStudent[7])] and [Gabrielle(PhdStudent[8])] are [that professor(Professor[9])]'s student
+Create a new course called [U102(Course[2])]
+[this student(PhdStudent[8])]'s office is [Norlin Library]
+[that student(PhdStudent[8])] passed thesis proposal
+[Lizeth(PhdStudent[12])] is a PhD student
+[Gabrielle(PhdStudent[8])] is in [fifth year]
+[Zenaida(Professor[11])] is on [Gabrielle(PhdStudent[8])]'s committee
+there is a new masters student named [Charlott(MastersStudent[13])]
+[that professor(Professor[11])] advises [Loyd(PhdStudent[5])]
+[Loyd(PhdStudent[5])] has [Rachele(Professor[4])] on the committee
+[Lizeth(PhdStudent[12])] is [Rachele(Professor[4])]'s student
+Create a new [phd] level [full_semester_course] called [G8001(Course[3])]
+there is a [fourth year] PhD student named [Albertha(PhdStudent[14])]
+[William(MastersStudent[10])] is a TA for [that class(Course[3])]
+[Francoise(MastersStudent[2])] and [Genevive(PhdStudent[3])] are both enrolled in [that course(Course[3])]
+What students are going to TA [G8001(Course[3])]?	'William(MastersStudent[10])'	['question_type_local']
+[she(PhdStudent[3])] has passed the thesis defense
+[that person(PhdStudent[3])] is funded
+[that student(PhdStudent[3])] did not pass the qualifiers
+[Gabrielle(PhdStudent[8])] is funded
+[Loyd(PhdStudent[5])] is now a [sixth year] student
+Who advises [he(PhdStudent[5])]?	'Zenaida'	['question_type_local']
+There is a [phd] level course called [U201(Course[4])]
+[Genevive(PhdStudent[3])] has [Gia(Professor[6])] on the committee
+[Genevive(PhdStudent[3])] is now in [third year]
+Create a new course called [G201(Course[5])]
+[Genevive(PhdStudent[3])] is now a [fourth year] student
+there is a new masters student named [Willis(MastersStudent[15])]
+[she(PhdStudent[3])] passed the qualifiers
+Who is on [she(PhdStudent[3])]'s committee?	'Gia(Professor[6])'	['question_type_local']
+[he(MastersStudent[15])] is affiliated with the [math] department
+[she(PhdStudent[3])] has [Zenaida(Professor[11])] on the committee
+[that student(PhdStudent[3])]'s office is [Norlin Library]
+[this professor(Professor[11])] research interest is in [cold fusion]
+Who is [Gabrielle(PhdStudent[8])]'s advisor?	'Andrew'	['question_type_local']
+Who is taking the G8001 course	'Francoise(MastersStudent[2])', 'Genevive(PhdStudent[3])'	['question_type_global', 'question_single_statement']
+Which [fourth year] students's advisors are conducting research in [cold fusion]	'Genevive(PhdStudent[3])'	['question_type_global', 'question_three_hop_statement']
+[Genevive(PhdStudent[3])] is now a [fifth year] student
+[that student(PhdStudent[3])] failed thesis proposal
+[Genevive(PhdStudent[3])] passed thesis proposal
+[U201(Course[4])] part of the [psychology] department
+[Lizeth(PhdStudent[12])] and [Hanna(MastersStudent[1])] are TAing [that class(Course[4])]
+[U201(Course[4])] will be a 4 unit course
+Who is in [Community Building]	'Loyd(PhdStudent[5])'	['question_type_global', 'question_two_hop_statement']
+Who has an office in [Norlin Library]	'Genevive(PhdStudent[3])', 'Gabrielle(PhdStudent[8])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [U104(Course[6])]
+Create a new course called [G601(Course[7])]
+[U104(Course[6])] part of the [psychology] department
+Who is [Loyd(PhdStudent[5])]'s advisor?	'Zenaida'	['question_type_local']
+[Francoise(MastersStudent[2])] and [Charlott(MastersStudent[13])] are attending [G8001(Course[3])]
+[G8001(Course[3])] is offered in the [math] department
+[Gia(Professor[6])] is the instructor for [G8001(Course[3])]
+[Willis(MastersStudent[15])] and [Charlott(MastersStudent[13])] are TAs for [that course(Course[3])]
+the affiliation of [she(MastersStudent[13])] is [animal science]
+Which courses did [Charlott(MastersStudent[13])] enroll in?	'G8001(Course[3])'	['question_type_local']
+[Zenaida(Professor[11])] advises [Albertha(PhdStudent[14])]
+[that professor(Professor[11])]'s office is [Health Building]
+[Genevive(PhdStudent[3])] has [Andrew(Professor[9])] on the committee
+There is a [masters] 8 unit class called [U103(Course[8])]
+[that person(Professor[9])] conducts research in [optical physics]
+[that professor(Professor[9])] currently has funding
+What are the courses TAed by [William(MastersStudent[10])]?	'G8001(Course[3])'	['question_type_local']
+[this person(Professor[9])] is an [full] professor
+Who is [Genevive(PhdStudent[3])]'s advisor?	'Rachele'	['question_type_local']
+[Genevive(PhdStudent[3])] is now in [sixth year]
+There is a [undergraduate] course called [U101(Course[9])]
+[that course(Course[9])] is a full semester course
+[Albertha(PhdStudent[14])] and [Gabrielle(PhdStudent[8])] are TAs for [this course(Course[9])]
+[Zenaida(Professor[11])] teaches [U101(Course[9])]
+What are the [math] courses?	'G8001(Course[3])'	['question_type_global', 'question_single_statement']
+[Albertha(PhdStudent[14])] passed the qualifiers
+[this student(PhdStudent[14])] has failed the thesis proposal exam
+Who is [Loyd(PhdStudent[5])]'s advisor?	'Zenaida'	['question_type_local']
+[that person(PhdStudent[14])] failed thesis proposal
+[Rachele(Professor[4])]'s office is [Community Building]
+[Gia(Professor[6])] has funding
+Who advises [Gabrielle(PhdStudent[8])]?	'Andrew'	['question_type_local']
+What office is [Andrew(Professor[9])] in?	'Ketchum Building'	['question_type_local']
+What [assistant] professors advise students who passed their thesis qualifiers?	'Rachele(Professor[4])', 'Zenaida(Professor[11])'	['question_type_global', 'question_three_hop_statement']
+Which students have offices in Norlin Library	'Genevive(PhdStudent[3])', 'Gabrielle(PhdStudent[8])'	['question_type_global', 'question_two_hop_statement']
+Which [assistant] professors advise students who passed their defense?	'Rachele(Professor[4])', 'Zenaida(Professor[11])'	['question_type_global', 'question_three_hop_statement']
+[Gia(Professor[6])]'s office is [Hallems Building]
+Which [fifth year] students are advised by professors working on [optical physics]?	'Gabrielle(PhdStudent[8])'	['question_type_global', 'question_three_hop_statement']
+Who advises [Gabrielle(PhdStudent[8])]?	'Andrew'	['question_type_local']
+Which courses are offered this semester in the math department?	'G8001(Course[3])'	['question_type_global', 'question_two_hop_statement']
+[Gia(Professor[6])] research interest is in [unsupervised machine learning]

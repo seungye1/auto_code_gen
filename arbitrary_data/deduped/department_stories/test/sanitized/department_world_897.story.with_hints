@@ -1,0 +1,126 @@
+There is a [masters] level course called [G7000(Course[1])]
+[this course(Course[1])] is a pass-fail course
+[Tawnya(MastersStudent[1])] is a masters student
+[Tawnya(MastersStudent[1])] is a TA for [G7000(Course[1])]
+[Andrew(MastersStudent[2])] is a masters student
+[she(MastersStudent[1])]'s department is [mechanical engineering]
+[he(MastersStudent[2])] is affiliated with the [computer science] department
+[Bob(MastersStudent[3])] is a masters student
+the affiliation of [Bob(MastersStudent[3])] is [history]
+What courses is [Tawnya(MastersStudent[1])] TAing?	'G7000(Course[1])'	['question_type_local']
+create a [assistant] [professor] named [Gabrielle(Professor[4])]
+[this professor(Professor[4])]'s office is [Carlson Building]
+[this professor(Professor[4])] went on sabbatical
+[that professor(Professor[4])] research interest is in [computational biology]
+there is a [full] [professor] named [Roslyn(Professor[5])]
+[Gabrielle(Professor[4])] is not on sabbatical anymore
+[Gabrielle(Professor[4])] received funding
+What is [Gabrielle(Professor[4])] working on?	'computational biology'	['question_type_local']
+There is a course called [U9000(Course[2])]
+There is a [masters] level [full_semester_course] called [U7000(Course[3])]
+[U9000(Course[2])] is a full semester course
+[U9000(Course[2])] is a pass-fail course
+[that class(Course[2])] is a [phd] level course
+[Emma(MastersStudent[6])] is a masters student
+[that person(MastersStudent[6])]'s department is [mechanical engineering]
+What is [Gabrielle(Professor[4])]'s office?	'Carlson Building'	['question_type_local']
+there is a masters student named [Kristeen(MastersStudent[7])]
+[Kristeen(MastersStudent[7])] is affiliated with the [history] department
+[Bob(MastersStudent[3])] is a TA for [U9000(Course[2])]
+What students are going to TA [U9000(Course[2])]?	'Bob(MastersStudent[3])'	['question_type_local']
+[second year] is a [Milagros(PhdStudent[8])] PhD student
+[she(PhdStudent[8])] has passed the qualifying exam
+There is a course called [G204(Course[4])]
+[that course(Course[4])] is a [phd] course
+[Gabrielle(Professor[4])] teaches [that course(Course[4])]
+[G204(Course[4])] is set up as a full semester course
+[Alverta(Professor[9])] is a [professor]
+[that person(Professor[9])] is an [teaching] professor
+[she(Professor[9])] conducts research in [molecular biology]
+[G7000(Course[1])] is a mini course
+create a [professor] named [Francoise(Professor[10])]
+[that course(Course[1])] is taught by [that person(Professor[10])]
+Who is currently TAing [G7000(Course[1])]?	'Tawnya(MastersStudent[1])'	['question_type_local']
+there is a new PhD student named [Rachele(PhdStudent[11])]
+[that student(PhdStudent[11])] is in their [fourth year]
+[this person(PhdStudent[11])] passed thesis proposal
+[that student(PhdStudent[11])] passed the qualifiers
+[this person(PhdStudent[11])] passed thesis defense
+Create a new course called [U303(Course[5])]
+[that person(PhdStudent[11])] is in [Marine Center]
+[Francoise(Professor[10])] and [Roslyn(Professor[5])] are on [Rachele(PhdStudent[11])]'s committee
+There is a [undergraduate] level 2 unit course called [U103(Course[6])]
+[Milagros(PhdStudent[8])] is [that professor(Professor[5])]'s student
+[U9000(Course[2])] is taught by [Alverta(Professor[9])]
+there is a new PhD student named [Lorilee(PhdStudent[12])]
+[this professor(Professor[9])] is on sabbatical
+There is a course called [G303(Course[7])]
+[this person(Professor[9])] is in [Marine Center]
+there is a [fourth year] PhD student named [Tereasa(PhdStudent[13])]
+there is a [second year] PhD student named [Hiram(PhdStudent[14])]
+Who has an office in [Carlson Building]	'Gabrielle(Professor[4])'	['question_type_global', 'question_two_hop_statement']
+[she(PhdStudent[13])] is funded
+[Rachele(PhdStudent[11])] is funded
+There is a [undergraduate] course called [G203(Course[8])]
+[Roslyn(Professor[5])] is the instructor for [G203(Course[8])]
+[Milagros(PhdStudent[8])] and [Tereasa(PhdStudent[13])] are both enrolled in [this course(Course[8])]
+[G203(Course[8])] is full semester
+[that person(PhdStudent[13])]'s office is [Marine Center]
+[Tereasa(PhdStudent[13])] did not pass the qualifiers
+Who are the professors working on [computational biology]?	'Gabrielle(Professor[4])'	['question_type_global', 'question_single_statement']
+[this person(PhdStudent[13])] is now in [fifth year]
+[this person(PhdStudent[13])] has failed thesis defense
+[this student(PhdStudent[13])] has passed the thesis proposal exam
+[Tereasa(PhdStudent[13])] passed the qualifiers
+[that student(PhdStudent[13])] successfully defended their thesis
+[this person(PhdStudent[13])] is in [sixth year]
+What are the courses TAed by [Rachele(PhdStudent[11])]?	"I don't know"	['question_type_local']
+[Gabrielle(Professor[4])] advises [Lorilee(PhdStudent[12])]
+Which phd students does [that professor(Professor[4])] advise?	'Lorilee(PhdStudent[12])'	['question_type_local']
+[Lorilee(PhdStudent[12])] has passed the thesis defense
+[Lorilee(PhdStudent[12])] currently has funding
+[Tereasa(PhdStudent[13])] has [Francoise(Professor[10])] and [Gabrielle(Professor[4])] on the committee
+Create a new course called [U8001(Course[9])]
+[that class(Course[9])] will be a full semester course
+[this course(Course[9])] is a [undergraduate] level course
+[Francoise(Professor[10])]'s research interest is [evolutionary biology]
+[Francoise(Professor[10])] advises [Hiram(PhdStudent[14])]
+[this professor(Professor[10])] is an [associate] professor
+[that professor(Professor[10])] is in [Duane Building]
+[Francoise(Professor[10])] advises [Rachele(PhdStudent[11])]
+[this professor(Professor[10])] is on sabbatical
+[this professor(Professor[10])] has been promoted to [full] professor
+[Tereasa(PhdStudent[13])] is [Francoise(Professor[10])]'s student
+What professors are in Duane Building	'Francoise(Professor[10])'	['question_type_global', 'question_two_hop_statement']
+Which students have offices in Marine Center	'Rachele(PhdStudent[11])', 'Tereasa(PhdStudent[13])'	['question_type_global', 'question_two_hop_statement']
+What is [Gabrielle(Professor[4])]'s office?	'Carlson Building'	['question_type_local']
+What professors are in Duane Building	'Francoise(Professor[10])'	['question_type_global', 'question_two_hop_statement']
+What students are going to TA [U9000(Course[2])]?	'Bob(MastersStudent[3])'	['question_type_local']
+Who is [Rachele(PhdStudent[11])]'s advisor?	'Francoise'	['question_type_local']
+Which students's advisors are conducting research in [computational biology]	'Lorilee(PhdStudent[12])'	['question_type_global', 'question_two_hop_statement']
+[she(PhdStudent[13])] has [Roslyn(Professor[5])] on the committee
+Which courses did [Tereasa(PhdStudent[13])] enroll in?	'G203(Course[8])'	['question_type_local']
+[Milagros(PhdStudent[8])] has passed the thesis defense
+[Milagros(PhdStudent[8])]'s office is [Marine Center]
+Who is [Rachele(PhdStudent[11])]'s advisor?	'Francoise'	['question_type_local']
+[Tawnya(MastersStudent[1])] is taking [G203(Course[8])]
+[Rachele(PhdStudent[11])] and [Bob(MastersStudent[3])] are taking [that course(Course[8])]
+What office is [Alverta(Professor[9])] in?	'Marine Center'	['question_type_local']
+[Gabrielle(Professor[4])] and [Alverta(Professor[9])] are on [she(PhdStudent[11])]'s committee
+Who is supposed to be teaching [mini course] and is currently on sabbatical?	'Francoise(Professor[10])'	['question_type_global', 'question_three_hop_statement']
+The TA for [G204(Course[4])] is [Tereasa(PhdStudent[13])]
+[that course(Course[4])] is a pass-fail course
+[this student(PhdStudent[13])] has [Alverta(Professor[9])] on the committee
+Who is teaching [G203(Course[8])]?	'Roslyn(Professor[5])'	['question_type_local']
+Which professors have offices in Marine Center	'Alverta(Professor[9])'	['question_type_global', 'question_two_hop_statement']
+What courses is [Tawnya(MastersStudent[1])] TAing?	'G7000(Course[1])'	['question_type_local']
+Who advises [Tereasa(PhdStudent[13])]?	'Francoise'	['question_type_local']
+[G203(Course[8])] is TAed by [Milagros(PhdStudent[8])] and [Kristeen(MastersStudent[7])]
+Create a new [phd] [full_semester_course] called [G302(Course[10])]
+[G302(Course[10])] is a pass-fail course
+Who has an office in [Carlson Building]	'Gabrielle(Professor[4])'	['question_type_global', 'question_two_hop_statement']
+[Rachele(PhdStudent[11])] is TAing [that course(Course[10])]
+Create a new course called [G202(Course[11])]
+[Alverta(Professor[9])] and [Francoise(Professor[10])] are on [Milagros(PhdStudent[8])]'s committee
+[she(Professor[9])] is back from the sabbatical
+[she(Professor[9])] received funding

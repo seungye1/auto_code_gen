@@ -1,0 +1,112 @@
+there is a new [pilot] [chatbot(Project[1])] [project]
+[it(Project[1])] is currently in the [design] stage
+[Andy(Developer[1])] is a [developer] on [that project(Project[1])]
+[Casey(Tester[2])] is a [tester] on [chatbot project(Project[1])]
+[Will(Tester[3])] is a [tester] on [chatbot project(Project[1])]
+[Tereasa(Tester[4])] is a [tester] on [chatbot project(Project[1])]
+there is a new [experimental] [mobile(Project[2])] [project]
+[Casey(Tester[2])] is not working on [chatbot project(Project[1])] anymore
+[this person(Tester[2])] is working on [mobile project(Project[2])]
+[it(Project[2])] is in the [development] stage
+there is a new [pilot] [knowledge base(Project[3])] [project]
+[mobile project(Project[2])] is in the stage of [implementation]
+[wrong pos tag on consecutive words] is a new issue for the [knowledge base project(Project[3])]
+[Casey(Tester[2])] is not working on [mobile project(Project[2])] anymore
+[this project(Project[2])] is assigned to [that person(Tester[2])]
+[knowledge base project(Project[3])] is currently in the [implementation] stage
+[knowledge base project(Project[3])] is now in the [design] stage
+[Casey(Tester[2])] is assigned to [that project(Project[3])] also
+[that test engineer(Tester[2])] is working on [chatbot project(Project[1])] also
+[Andy(Developer[1])] is working on [mobile project(Project[2])] also
+[Roslyn(Developer[5])] is a [developer]
+[that project(Project[2])] is assigned to [this person(Developer[5])]
+[knowledge base project(Project[3])] is assigned to [she(Developer[5])] also
+[it(Project[3])] is assigned to [Andy(Developer[1])] also
+[knowledge base project(Project[3])] is in the stage of [development]
+[Will(Tester[3])] is assigned to [knowledge base project(Project[3])] also
+[this tester(Tester[3])] is working on [mobile project(Project[2])] also
+[Roslyn(Developer[5])] is working on [chatbot project(Project[1])] also
+[null pointer exception during parsing] is a new [bug] submitted by [Andy(Developer[1])] for [it(Project[1])]
+[the issue(Issue[2])] was assigned to [Casey(Tester[2])]
+[Tereasa(Tester[4])] is assigned to [mobile project(Project[2])] also
+[this tester(Tester[4])] is working on [knowledge base project(Project[3])] also
+[mobile project(Project[2])] is in the [testing] stage
+[the wrong pos tag on consecutive words issue(Issue[1])] is assigned to [Roslyn(Developer[5])]
+[she(Developer[5])] resolved [that issue(Issue[1])]
+[saving data throws exception] is a new issue for the [knowledge base project(Project[3])]
+[that issue(Issue[3])] was assigned to [Casey(Tester[2])]
+[Casey(Tester[2])] is not working on [chatbot project(Project[1])] anymore
+[this test engineer(Tester[2])] is assigned to [it(Project[1])] also
+Who was [the saving data throws exception issue(Issue[3])] assigned to?	'Casey(Tester[2])'	['question_type_local']
+[this project(Project[1])] is not assigned to [Andy(Developer[1])]
+[Andy(Developer[1])] is working on [this project(Project[1])] also
+[Casey(Tester[2])] resolved [the bug(Issue[2])]
+[this test engineer(Tester[2])] is no longer assigned to [mobile project(Project[2])]
+[he(Tester[2])] is working on [this project(Project[2])] also
+[Andy(Developer[1])] created a new issue for [knowledge base project(Project[3])]: [tokenization not consistent across platforms]
+[that issue(Issue[4])] was assigned to [Roslyn(Developer[5])]
+[Casey(Tester[2])] submitted a new [proposal] for [chatbot project(Project[1])]: [parsing with parantheses fails]
+[this issue(Issue[5])] is assigned to [Will(Tester[3])]
+[chatbot project(Project[1])] is in the [implementation] stage
+What are the issues assigned to [he(Tester[3])]?	'parsing with parantheses fails(Issue[5])'	['question_type_local']
+[Tereasa(Tester[4])] submitted a new [enhancement] for [chatbot project(Project[1])]: [two consecutive dates identified as single date]
+[this issue(Issue[6])] was assigned to [Tereasa(Tester[4])]
+Are there any issues assigned to [that test engineer(Tester[4])] that are not resolved?	'two consecutive dates identified as single date(Issue[6])'	['question_type_local']
+[that person(Tester[4])] resolved [the two consecutive dates identified as single date issue(Issue[6])]
+[Will(Tester[3])] submitted a new [enhancement] for [chatbot project(Project[1])]: [dcoref always returns null]
+[the issue(Issue[7])] was assigned to [Casey(Tester[2])]
+[that test engineer(Tester[2])] resolved [it(Issue[7])]
+[mobile project(Project[2])] is not assigned to [Casey(Tester[2])]
+[that project(Project[2])] is assigned to [he(Tester[2])] also
+[xml extractor exception] is a new [proposal] for the [that project(Project[2])]
+[that issue(Issue[8])] was assigned to [Will(Tester[3])]
+[Will(Tester[3])] resolved [it(Issue[8])]
+There is a new [bug] for the [mobile project(Project[2])]: [parse example terribly slow]
+[the parse example terribly slow bug(Issue[9])] was assigned to [Will(Tester[3])]
+[Will(Tester[3])] resolved [it(Issue[9])]
+Are there any issues submitted by [Casey(Tester[2])] that are not resolved?	'parsing with parantheses fails(Issue[5])'	['question_type_local']
+[Roslyn(Developer[5])] resolved [the tokenization not consistent across platforms issue(Issue[4])]
+Who was [the saving data throws exception issue(Issue[3])] assigned to?	'Casey(Tester[2])'	['question_type_local']
+[Casey(Tester[2])] is no longer assigned to [knowledge base project(Project[3])]
+[mobile project(Project[2])] is not assigned to [Will(Tester[3])]
+[Will(Tester[3])] is no longer assigned to [knowledge base project(Project[3])]
+[Will(Tester[3])] is working on [mobile project(Project[2])] also
+[knowledge base project(Project[3])] is assigned to [Will(Tester[3])] also
+[Casey(Tester[2])] is working on [that project(Project[3])] also
+[this project(Project[3])] is in the stage of [implementation]
+[it(Project[3])] is in the stage of [development]
+[mobile project(Project[2])] is now in the [implementation] stage
+[mobile project(Project[2])] has moved to the [development] stage
+[knowledge base project(Project[3])] has moved to the [testing] stage
+[knowledge base project(Project[3])] is in the stage of [development]
+[mobile project(Project[2])] has moved to the [testing] stage
+[knowledge base project(Project[3])] is now in the [implementation] stage
+[Casey(Tester[2])] is not working on [chatbot project(Project[1])] anymore
+[he(Tester[2])] is assigned to [this project(Project[1])] also
+[mobile project(Project[2])] is not assigned to [Casey(Tester[2])]
+[it(Project[2])] is assigned to [this tester(Tester[2])] also
+What are the issues submitted by [Tereasa(Tester[4])] that were resolved?	'two consecutive dates identified as single date(Issue[6])'	['question_type_local']
+[Will(Tester[3])] resolved [the parsing with parantheses fails issue(Issue[5])]
+Who submitted [the null pointer exception during parsing issue(Issue[2])]?	'Andy(Developer[1])'	['question_type_local']
+[Casey(Tester[2])] resolved [the saving data throws exception issue(Issue[3])]
+[chatbot project(Project[1])] is in the [testing] stage
+What are the issues submitted by [Andy(Developer[1])]?	'null pointer exception during parsing(Issue[2])', 'tokenization not consistent across platforms(Issue[4])'	['question_type_local']
+[it(Project[1])] is now in the [implementation] stage
+[mobile project(Project[2])] is now in the [design] stage
+[chatbot project(Project[1])] is not assigned to [Andy(Developer[1])]
+[Casey(Tester[2])] is not working on [mobile project(Project[2])] anymore
+[that project(Project[2])] is assigned to [this person(Tester[2])] also
+[chatbot project(Project[1])] is assigned to [Andy(Developer[1])] also
+[Will(Tester[3])] is no longer assigned to [that project(Project[1])]
+[Will(Tester[3])] is working on [that project(Project[1])] also
+[it(Project[1])] is now in the [design] stage
+[that project(Project[1])] is now in the [development] stage
+Who created [the null pointer exception during parsing issue(Issue[2])]?	'Andy(Developer[1])'	['question_type_local']
+[this project(Project[1])] is in the [implementation] stage
+Who created [the null pointer exception during parsing bug(Issue[2])]?	'Andy(Developer[1])'	['question_type_local']
+[that project(Project[1])] is now in the [development] stage
+Who was [the null pointer exception during parsing bug(Issue[2])] assigned to?	'Casey(Tester[2])'	['question_type_local']
+Who is [the two consecutive dates identified as single date enhancement(Issue[6])] assigned to?	'Tereasa(Tester[4])'	['question_type_local']
+[knowledge base project(Project[3])] is in the stage of [testing]
+[knowledge base project(Project[3])] is now in the [design] stage
+[it(Project[3])] has moved to the [testing] stage

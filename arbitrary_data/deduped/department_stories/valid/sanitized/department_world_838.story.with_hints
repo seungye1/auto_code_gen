@@ -1,0 +1,114 @@
+There is a course called [G601(Course[1])]
+[this course(Course[1])] is a pass-fail course
+[that class(Course[1])] is a 12 unit course
+there is a [full] [professor] named [Emma(Professor[1])]
+[that class(Course[1])] will be a full semester course
+Create a new [phd] course called [U302(Course[2])]
+[G601(Course[1])] is a [undergraduate] level course
+[Emma(Professor[1])] is the instructor for [G601(Course[1])]
+[that professor(Professor[1])] research interest is in [supervised learning]
+[this person(Professor[1])] is now on sabbatical
+there is a masters student named [Luanna(MastersStudent[2])]
+[Genevive(Professor[3])] is a [teaching] [professor]
+[Genevive(Professor[3])] currently has funding
+[she(Professor[3])] is on sabbatical
+create a [teaching] [professor] named [Jack(Professor[4])]
+[she(Professor[3])] research interest is in [cold fusion]
+[Willis(MastersStudent[5])] is a masters student
+[that professor(Professor[3])] returned from sabbatical
+[Loyd(Professor[6])] is a [professor]
+there is a [fourth year] PhD student named [Angelita(PhdStudent[7])]
+[she(PhdStudent[7])] is now a [fifth year] student
+[Genevive(Professor[3])] is on [Angelita(PhdStudent[7])]'s committee
+Create a new course called [U102(Course[3])]
+[Luanna(MastersStudent[2])] and [Angelita(PhdStudent[7])] are both enrolled in [U102(Course[3])]
+[U102(Course[3])] is taught by [Jack(Professor[4])]
+[this course(Course[3])] has 8 units
+[Loyd(Professor[6])]'s research interest is [supervised learning]
+[that professor(Professor[6])] is now on sabbatical
+there is a PhD student named [Eun(PhdStudent[8])]
+[Angelita(PhdStudent[7])] has passed the thesis proposal exam
+[Angelita(PhdStudent[7])] has [Loyd(Professor[6])] and [Jack(Professor[4])] on the committee
+create a [teaching] [professor] named [Tawnya(Professor[9])]
+[he(Professor[4])] conducts research in [supervised learning]
+[Jack(Professor[4])] is on sabbatical
+[Jack(Professor[4])] has funding
+[Lizeth(PhdStudent[10])] is a PhD student
+[that student(PhdStudent[10])] failed thesis proposal
+Which phd students taking the U102 course	'Angelita(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+[this student(PhdStudent[10])] failed the qualifiers
+[this student(PhdStudent[10])] is in their [sixth year]
+There is a course called [G201(Course[4])]
+[she(PhdStudent[10])] successfully defended their thesis
+there is a [full] [professor] named [Isaiah(Professor[11])]
+There is a course called [G301(Course[5])]
+[Luanna(MastersStudent[2])] is attending [that course(Course[5])]
+[G301(Course[5])] will be a mini course
+[that class(Course[5])] is TAed by [she(MastersStudent[2])] and [Eun(PhdStudent[8])]
+there is a PhD student named [Francoise(PhdStudent[12])]
+What students are taking G301	'Luanna(MastersStudent[2])'	['question_type_global', 'question_single_statement']
+[Genevive(Professor[3])] went on sabbatical
+There is a [masters] [mini course] called [G9000(Course[6])]
+[Isaiah(Professor[11])] teaches [G9000(Course[6])]
+there is a new masters student named [Will(MastersStudent[13])]
+[Isaiah(Professor[11])] is on sabbatical
+[Kristeen(MastersStudent[14])] is a masters student
+[sixth year] is a [Ashly(PhdStudent[15])] PhD student
+[Angelita(PhdStudent[7])] successfully defended their thesis
+[Will(MastersStudent[13])] and [Lizeth(PhdStudent[10])] are attending [G301(Course[5])]
+[Angelita(PhdStudent[7])] and [Kristeen(MastersStudent[14])] are TAs for [G301(Course[5])]
+[Isaiah(Professor[11])] research interest is in [supervised learning]
+[this professor(Professor[11])] has funding
+[Jack(Professor[4])] advises [Angelita(PhdStudent[7])] and [Lizeth(PhdStudent[10])]
+What are the courses TAed by [Luanna(MastersStudent[2])]?	'G301(Course[5])'	['question_type_local']
+[Francoise(PhdStudent[12])] is attending [G9000(Course[6])]
+[Lizeth(PhdStudent[10])] and [Willis(MastersStudent[5])] are TAing [that course(Course[6])]
+[Genevive(Professor[3])] and [Isaiah(Professor[11])] are on [she(PhdStudent[10])]'s committee
+What [teaching] professors advise students who passed their thesis proposal?	'Jack(Professor[4])'	['question_type_global', 'question_three_hop_statement']
+[Francoise(PhdStudent[12])] and [Eun(PhdStudent[8])] are [Isaiah(Professor[11])]'s student
+Create a new course called [U203(Course[7])]
+[Ashly(PhdStudent[15])] is [Isaiah(Professor[11])]'s student
+[Lizeth(PhdStudent[10])] did not pass the qualifiers
+What courses is [Lizeth(PhdStudent[10])] TAing?	'G9000(Course[6])'	['question_type_local']
+[Jack(Professor[4])] is on [Ashly(PhdStudent[15])]'s committee
+Who is taking the G9000 course	'Francoise(PhdStudent[12])'	['question_type_global', 'question_single_statement']
+What are the courses TAed by [Kristeen(MastersStudent[14])]?	'G301(Course[5])'	['question_type_local']
+[that student(PhdStudent[15])] has [Tawnya(Professor[9])] on the committee
+[this student(PhdStudent[15])] passed thesis defense
+[this student(PhdStudent[15])] has passed the thesis proposal exam
+[Ashly(PhdStudent[15])] has failed the qualifying exam
+What are the courses that [Will(MastersStudent[13])] is enrolled in?	'G301(Course[5])'	['question_type_local']
+[Angelita(PhdStudent[7])] has [Emma(Professor[1])] on the committee
+[this professor(Professor[1])] has funding
+Create a new course called [G610(Course[8])]
+[Loyd(Professor[6])] received funding
+[that class(Course[8])] is full semester
+Which courses did [Will(MastersStudent[13])] enroll in?	'G301(Course[5])'	['question_type_local']
+Which phd students have [that person(Professor[6])] on their committee	'Angelita(PhdStudent[7])'	['question_type_local']
+[this person(Professor[6])] teaches [G610(Course[8])]
+[that course(Course[8])] is a [undergraduate] level course
+[Francoise(PhdStudent[12])] and [Will(MastersStudent[13])] are TAs for [that course(Course[8])]
+[Francoise(PhdStudent[12])] is current in [fourth year]
+[Francoise(PhdStudent[12])] has failed thesis defense
+Which phd students does [Isaiah(Professor[11])] advise?	'Eun(PhdStudent[8])', 'Francoise(PhdStudent[12])', 'Ashly(PhdStudent[15])'	['question_type_local']
+[Ashly(PhdStudent[15])] is TAing [G301(Course[5])]
+[Lizeth(PhdStudent[10])] has [Emma(Professor[1])] on the committee
+[this student(PhdStudent[10])] has passed the qualifying exam
+[this student(PhdStudent[10])] has [Loyd(Professor[6])] and [Tawnya(Professor[9])] on the committee
+[she(Professor[9])]'s research interest is [supervised learning]
+[she(Professor[9])] received funding
+Create a new [phd] level [mini course] called [G204(Course[9])]
+[that person(Professor[9])] went on sabbatical
+What is [Tawnya(Professor[9])] working on?	'supervised learning'	['question_type_local']
+Create a new [phd] course called [U8001(Course[10])]
+What are the courses that [Will(MastersStudent[13])] is enrolled in?	'G301(Course[5])'	['question_type_local']
+[U8001(Course[10])] is set up as a full semester course
+What courses is [Will(MastersStudent[13])] taking?	'G301(Course[5])'	['question_type_local']
+[that class(Course[10])] is taught by [Tawnya(Professor[9])]
+[that class(Course[10])] is 4 units
+[Will(MastersStudent[13])] is attending [this course(Course[10])]
+There is a course called [U303(Course[11])]
+Create a new [undergraduate] level 12 unit course called [G305(Course[12])]
+[U303(Course[11])] is a [phd] course
+[G305(Course[12])] is a pass-fail course
+[G305(Course[12])] will be a full semester course

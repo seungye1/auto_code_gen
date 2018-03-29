@@ -1,0 +1,124 @@
+Create a new [phd] course called [U203(Course[1])]
+there is a [associate] [professor] named [Vivienne(Professor[1])]
+[this course(Course[1])] is taught by [she(Professor[1])]
+[this professor(Professor[1])] received funding
+[U203(Course[1])] will be a mini course
+there is a [teaching] [professor] named [Roslyn(Professor[2])]
+Create a new [masters] level course called [U8001(Course[2])]
+[this person(Professor[2])] has funding
+[this person(Professor[2])] conducts research in [optical physics]
+there is a [assistant] [professor] named [Eun(Professor[3])]
+[Rey(MastersStudent[4])] is a masters student
+[she(Professor[3])] conducts research in [evolutionary biology]
+The TA for [U8001(Course[2])] is [he(MastersStudent[4])]
+[Eun(Professor[3])] is the instructor for [U8001(Course[2])]
+What is [Eun(Professor[3])]'s research focus?	'evolutionary biology'	['question_type_local']
+[fifth year] is a [Andrew(PhdStudent[5])] PhD student
+[that student(PhdStudent[5])] passed the qualifiers
+[U203(Course[1])] is a course in the [english] department
+[Andrew(PhdStudent[5])] is a student in [this course(Course[1])]
+What is [Eun(Professor[3])] research area?	'evolutionary biology'	['question_type_local']
+[he(PhdStudent[5])] is [Eun(Professor[3])]'s student
+What students are taking U203	'Andrew(PhdStudent[5])'	['question_type_global', 'question_single_statement']
+[Vivienne(Professor[1])] is on [he(PhdStudent[5])]'s committee
+What students are going to TA [U8001(Course[2])]?	'Rey(MastersStudent[4])'	['question_type_local']
+[he(PhdStudent[5])] is TAing [U203(Course[1])]
+[Roslyn(Professor[2])] is on [this student(PhdStudent[5])]'s committee
+Who is TAing [U203(Course[1])]?	'Andrew(PhdStudent[5])'	['question_type_local']
+[that student(PhdStudent[5])]'s office is [Hallems Building]
+[he(PhdStudent[5])] is now a [sixth year] student
+there is a masters student named [Jack(MastersStudent[6])]
+[Jack(MastersStudent[6])]'s department is [neuroscience]
+there is a [fifth year] PhD student named [Igor(PhdStudent[7])]
+[Igor(PhdStudent[7])] did not pass the qualifiers
+there is a masters student named [Genevive(MastersStudent[8])]
+[Igor(PhdStudent[7])] failed their thesis defense
+[Igor(PhdStudent[7])] is in [Hallems Building]
+[this person(PhdStudent[7])] failed thesis proposal
+[this student(PhdStudent[7])] is [Eun(Professor[3])]'s student
+There is a [masters] course called [G302(Course[3])]
+[this person(PhdStudent[7])] is now a [sixth year] student
+Who advises [that person(PhdStudent[7])]?	'Eun'	['question_type_local']
+[Cecil(PhdStudent[9])] is a PhD student
+[Cecil(PhdStudent[9])] passed the qualifiers
+[that person(PhdStudent[9])] failed thesis proposal
+[this person(PhdStudent[9])] passed thesis defense
+What is [Eun(Professor[3])] working on?	'evolutionary biology'	['question_type_local']
+there is a [fifth year] PhD student named [Lizeth(PhdStudent[10])]
+[he(PhdStudent[9])] has passed the thesis proposal exam
+[he(PhdStudent[9])] is a [fourth year] student
+there is a masters student named [Angelita(MastersStudent[11])]
+[he(PhdStudent[9])] is now in [fifth year]
+Create a new [masters] [mini course] called [U204(Course[4])]
+[he(PhdStudent[9])] has [Eun(Professor[3])] and [Roslyn(Professor[2])] on the committee
+Who has an office in [Hallems Building]	'Andrew(PhdStudent[5])', 'Igor(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+[fourth year] is a [Peggy(PhdStudent[12])] PhD student
+[Peggy(PhdStudent[12])] passed the qualifiers
+[she(PhdStudent[12])] is funded
+[Igor(PhdStudent[7])] currently has funding
+there is a new [fifth year] PhD student named [Gia(PhdStudent[13])]
+[Roslyn(Professor[2])] and [Vivienne(Professor[1])] are on [Gia(PhdStudent[13])]'s committee
+[Eun(Professor[3])] advises [Cecil(PhdStudent[9])]
+there is a new masters student named [Alverta(MastersStudent[14])]
+[she(MastersStudent[14])]'s department is [neuroscience]
+[Albertha(Professor[15])] is a [associate] [professor]
+[Albertha(Professor[15])] has funding
+[she(Professor[15])] advises [Gia(PhdStudent[13])] and [Peggy(PhdStudent[12])]
+[Gia(PhdStudent[13])] is now a [sixth year] student
+[Gia(PhdStudent[13])] passed thesis proposal
+[Eun(Professor[3])] advises [Lizeth(PhdStudent[10])]
+there is a new masters student named [Isaiah(MastersStudent[16])]
+[she(PhdStudent[10])] passed the qualifiers
+[she(PhdStudent[10])] failed their thesis defense
+[Roslyn(Professor[2])] and [Albertha(Professor[15])] are on [that student(PhdStudent[10])]'s committee
+[Lizeth(PhdStudent[10])] is funded
+[Vivienne(Professor[1])] is on [this student(PhdStudent[10])]'s committee
+Who has an office in [Hallems Building]	'Andrew(PhdStudent[5])', 'Igor(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+[Lizeth(PhdStudent[10])] is in [Hallems Building]
+There is a course called [G601(Course[5])]
+[that course(Course[5])] is taught by [Roslyn(Professor[2])]
+[Cecil(PhdStudent[9])] is a student in [U204(Course[4])]
+Who advises [this person(PhdStudent[9])]?	'Eun'	['question_type_local']
+[Peggy(PhdStudent[12])] is in [Hallems Building]
+[he(PhdStudent[9])] has [Albertha(Professor[15])] and [Vivienne(Professor[1])] on the committee
+Who advises [Cecil(PhdStudent[9])]?	'Eun'	['question_type_local']
+Create a new [masters] level course called [G104(Course[6])]
+[this professor(Professor[1])]'s research interest is [optical physics]
+[that course(Course[6])] is part of the [math] department
+[Angelita(MastersStudent[11])] and [Rey(MastersStudent[4])] are both taking [this course(Course[6])]
+the affiliation of [she(MastersStudent[11])] is [english]
+[Rey(MastersStudent[4])]'s department is [neuroscience]
+Who is teaching [G601(Course[5])]?	'Roslyn(Professor[2])'	['question_type_local']
+Who is part of the [english] department	'Angelita(MastersStudent[11])'	['question_type_global', 'question_single_statement']
+[Igor(PhdStudent[7])] failed the qualifiers
+[Igor(PhdStudent[7])] has [Vivienne(Professor[1])] and [Roslyn(Professor[2])] on the committee
+What professors are on [Igor(PhdStudent[7])]'s committee	'Vivienne(Professor[1])', 'Roslyn(Professor[2])'	['question_type_local']
+[Igor(PhdStudent[7])] has failed the qualifying exam
+What students are in the [english] department?	'Angelita(MastersStudent[11])'	['question_type_global', 'question_two_hop_statement']
+There is a [undergraduate] level course called [U9000(Course[7])]
+[this course(Course[7])] is taught by [Albertha(Professor[15])]
+What courses is [this person(Professor[15])] teaching?	'U9000(Course[7])'	['question_type_local']
+Create a new course called [G7000(Course[8])]
+[that course(Course[8])] is a course in the [math] department
+[that class(Course[8])] will be set up as a mini course
+Who has [Roslyn(Professor[2])] on their phd committee?	'Andrew(PhdStudent[5])', 'Igor(PhdStudent[7])', 'Cecil(PhdStudent[9])', 'Lizeth(PhdStudent[10])', 'Gia(PhdStudent[13])'	['question_type_local']
+[this course(Course[8])] is a [phd] course
+[Lizeth(PhdStudent[10])] is attending [G7000(Course[8])]
+[Lizeth(PhdStudent[10])] passed thesis proposal
+[this person(PhdStudent[10])] successfully defended their thesis
+What are the courses that [Lizeth(PhdStudent[10])] is enrolled in?	'G7000(Course[8])'	['question_type_local']
+What courses is [Albertha(Professor[15])] teaching?	'U9000(Course[7])'	['question_type_local']
+Create a new course called [U104(Course[9])]
+[Roslyn(Professor[2])] has been promoted to [assistant] professor
+What courses is [Rey(MastersStudent[4])] TAing?	'U8001(Course[2])'	['question_type_local']
+[Albertha(Professor[15])] is on [Igor(PhdStudent[7])]'s committee
+Which department is [G7000(Course[8])] part of?	'math'	['question_type_local']
+[Albertha(Professor[15])]'s research interest is [theory]
+What students are in Hallems Building	'Andrew(PhdStudent[5])', 'Igor(PhdStudent[7])', 'Lizeth(PhdStudent[10])', 'Peggy(PhdStudent[12])'	['question_type_global', 'question_two_hop_statement']
+[Eun(Professor[3])] is now an [associate] professor
+Who is [Cecil(PhdStudent[9])]'s advisor?	'Eun'	['question_type_local']
+What are the courses TAed by [Rey(MastersStudent[4])]?	'U8001(Course[2])'	['question_type_local']
+[Angelita(MastersStudent[11])] and [Genevive(MastersStudent[8])] are TAs for [G7000(Course[8])]
+Create a new [masters] level 12 unit course called [G203(Course[10])]
+[that course(Course[10])] is TAed by [Isaiah(MastersStudent[16])] and [Lizeth(PhdStudent[10])]
+[G203(Course[10])] is under the [math] department

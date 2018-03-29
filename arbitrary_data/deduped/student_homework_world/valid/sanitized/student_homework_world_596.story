@@ -1,0 +1,162 @@
+[Genevive] is a [professor]
+[that professor]'s department is [animal science]
+[this professor] is in [LS669]
+[Genevive]'s email is [Genevive@nh.edu]
+there is a [professor] named [Loyd]
+[he]'s email is [Loyd@chk.ru]
+[Loyd] is in [P962]
+the affiliation of [he] is [math]
+What department is [Genevive] affiliated with?	'animal science'	['question_type_local']
+What is [this person]'s email	'Loyd@chk.ru'	['question_type_local']
+What office is [Loyd] in?	'P962'	['question_type_local']
+What is [that professor]'s office?	'P962'	['question_type_local']
+create a [professor] named [Emma]
+the affiliation of [she] is [electrical engineering]
+[that person] is in [P962]
+[Emma]'s email is [Emma@chk.ru]
+What is [that professor]'s office?	'P962'	['question_type_local']
+I am taking a course called [math]
+[Emma] teaches [math]
+Who is teaching [this course]?	'Emma'	['question_type_local']
+[Genevive]'s department is now [math]
+I am taking a course called [algebra]
+[this professor] is the instructor for [algebra]
+I am taking a course called [english]
+[Loyd] is the instructor for [english]
+there is new [english homework 1] for [english]
+I am taking a [biology] course
+I submitted [that assignment] on time
+[that assignment] is [83] points
+[english homework 1] is about [The Environment]
+[biology project 1] is out for [biology]
+The deadline of [that homework] is [March 07]
+which assignments are due after [March 06]?	'english homework 1'	['question_type_global', 'question_two_hop_statement']
+[this project] is worth [93] points
+The deadline of [that project] is [March 05]
+I am taking a [us history] course
+[that assignment] is about [hidden markov models]
+which projects are due before [March 06]?	'biology project 1'	['question_type_global', 'question_two_hop_statement']
+[Genevive]'s department is now [animal science]
+create a [professor] named [Michael]
+When is [biology project 1] due?	'March 05'	['question_type_local']
+show me the homeworks due on [March 07]	'english homework 1'	['question_type_global', 'question_two_hop_statement']
+[he] is in [LS669]
+[this professor]'s department is [animal science]
+which homeworks are due on [March 07]?	'english homework 1'	['question_type_global', 'question_two_hop_statement']
+show me the assignments due on [March 07]	'english homework 1'	['question_type_global', 'question_two_hop_statement']
+[this professor]'s email is [Michael@gmail.com]
+there is new [biology homework 1] for [biology]
+[math homework 1] is released for [math]
+[biology homework 1] is [99] points
+[biology homework 1] is on [suffrage movement]
+what homeworks do I have to do for [Emma]?	'math homework 1'	['question_type_global', 'question_three_hop_statement']
+show me all homeworks i submitted for [Loyd]	'english homework 1'	['question_type_global', 'question_three_hop_statement']
+create a [professor] named [Rachele]
+I submitted [that assignment] and received 99 points
+[that homework] is due on [March 04]
+which homeworks did I submit for [Loyd]?	'english homework 1'	['question_type_global', 'question_three_hop_statement']
+[Michael] is the instructor for [us history]
+[Tereasa] is a [professor]
+[she] is in [LS669]
+[that professor]'s email is [Tereasa@gmail.com]
+[that person] is affiliated with the [electrical engineering] department
+What is [Genevive]'s office?	'LS669'	['question_type_local']
+there is new [us history homework 1] for [us history]
+[that homework] is [91] points
+I submitted [that homework] on time and received 91 points
+The deadline of [us history homework 1] is [March 05]
+Who is the instructor for [us history]?	'Michael'	['question_type_local']
+which projects are due after [March 02]?	'biology project 1'	['question_type_global', 'question_two_hop_statement']
+The deadline of [that homework] moved to [March 08]
+What courses is [Genevive] teaching?	'algebra'	['question_type_local']
+The topic of [that assignment] is [deep learning]
+What is [Michael]'s office?	'LS669'	['question_type_local']
+[english] has a new [english homework 2] released
+[english homework 2] is due on [March 13]
+[this homework] is worth [44] points
+there is new [math homework 2] for [math]
+[english homework 2] is on [nearest neighbor algorithm]
+[math homework 2] is due on [March 13]
+[math homework 2] is worth [39] points
+[math homework 2] is on [clustering]
+I submitted [this assignment] late and received 39 points
+what homeworks do I have to do for [Emma]?	'math homework 1', 'math homework 2'	['question_type_global', 'question_three_hop_statement']
+list all homeworks for [Michael]	'us history homework 1'	['question_type_global', 'question_three_hop_statement']
+What is the topic of [biology project 1]?	'hidden markov models'	['question_type_local']
+show me all assignments that i submitted for [Loyd]	'english homework 1'	['question_type_global', 'question_three_hop_statement']
+what are the assignments that i submitted for [Loyd]	'english homework 1'	['question_type_global', 'question_three_hop_statement']
+I submitted [biology project 1] on time and received 47 points
+how much did I get on [us history homework 1]?	91	['question_type_local']
+list homeworks that are due on [March 13]	'english homework 2', 'math homework 2'	['question_type_global', 'question_two_hop_statement']
+what are the late homeworks that i submitted for [Emma]	'math homework 2'	['question_type_global', 'question_three_hop_statement']
+[us history] has a new [us history project 1] released
+[us history project 1] is about [The Senses]
+change [Michael]'s department to [electrical engineering]
+What office is [Loyd] in?	'P962'	['question_type_local']
+[that assignment] is worth [44] points
+I submitted [that assignment] on time and received 12 points
+[this project] is due on [March 03]
+which assignments are due on [March 03]?	'us history project 1'	['question_type_global', 'question_two_hop_statement']
+[english project 1] is released for [english]
+[english project 1] is about [expectation maximization]
+[english project 1] is worth [73] points
+I submitted [this assignment] and received 58 points
+What is [Emma]'s office?	'P962'	['question_type_local']
+The deadline of [that project] is [March 03]
+there is new [english project 2] for [english]
+I submitted [english project 2]
+[that assignment] is due on [March 17]
+[that project] is [71] points
+[english project 2] is about [Evolution]
+[Genevive]'s department is now [math]
+[english] has a new [english project 3] out
+[that project] is worth [53] points
+list all homeworks for [Michael]	'us history homework 1'	['question_type_global', 'question_three_hop_statement']
+how much did I get on [english project 1]?	58	['question_type_local']
+which homeworks are due after [March 05]?	'english homework 1', 'us history homework 1', 'english homework 2', 'math homework 2'	['question_type_global', 'question_two_hop_statement']
+[that project] is due on [March 19]
+what are all the assignments due for [Loyd]?	'english homework 1', 'english homework 2', 'english project 1', 'english project 2', 'english project 3'	['question_type_global', 'question_three_hop_statement']
+[math project 1] is released for [math]
+I submitted [english project 3] on time and received 53 points
+[math project 1] is due on [March 02]
+When is [biology homework 1] due?	'March 04'	['question_type_local']
+there is new [biology project 2] for [biology]
+I submitted [math project 1]
+[biology project 2] is due on [March 11]
+[biology project 2] is [63] points
+show me the projects due on [March 02]	'math project 1'	['question_type_global', 'question_two_hop_statement']
+what are all the projects due for [Loyd]?	'english project 1', 'english project 2', 'english project 3'	['question_type_global', 'question_three_hop_statement']
+I submitted [this assignment] on time and received 63 points
+The deadline of [that project] moved to [March 14]
+how many points is [us history homework 1]?	91	['question_type_local']
+show me the projects due on [March 02]	'math project 1'	['question_type_global', 'question_two_hop_statement']
+What is the topic of [biology project 1]?	'hidden markov models'	['question_type_local']
+How many points is [math homework 2] worth?	39	['question_type_local']
+what did I get on [us history homework 1]?	91	['question_type_local']
+what homeworks do I have to do for [Emma]?	'math homework 1', 'math homework 2'	['question_type_global', 'question_three_hop_statement']
+Which department is [Emma] in?	'electrical engineering'	['question_type_local']
+how many points did I receive on [english project 3]?	53	['question_type_local']
+What courses is [Loyd] teaching?	'english'	['question_type_local']
+how much did I get on [biology homework 1]?	99	['question_type_local']
+there is new [english project 4] for [english]
+How much is [biology project 2] worth?	63	['question_type_local']
+what are all the projects due for [Loyd]?	'english project 1', 'english project 2', 'english project 3', 'english project 4'	['question_type_global', 'question_three_hop_statement']
+How many points is [english project 3] worth?	53	['question_type_local']
+which homeworks are due after [March 09]?	'english homework 2', 'math homework 2'	['question_type_global', 'question_two_hop_statement']
+[us history] has a new [us history homework 2] released
+[us history homework 2] is due on [March 11]
+I submitted [this assignment]
+[that homework] is [69] points
+How many points did I get on [english project 3]	53	['question_type_local']
+When is [english homework 1] due?	'March 07'	['question_type_local']
+list assignments that are due on [March 04]	'biology homework 1'	['question_type_global', 'question_two_hop_statement']
+which homeworks did I submit for [Michael]?	'us history homework 1', 'us history homework 2'	['question_type_global', 'question_three_hop_statement']
+[algebra] has a new [algebra project 1] released
+list assignments that are due on [March 17]	'english project 2'	['question_type_global', 'question_two_hop_statement']
+The deadline of [that project] is [March 06]
+How many points did I get on [us history homework 1]	91	['question_type_local']
+what projects did i submit for [Michael]?	'us history project 1'	['question_type_global', 'question_three_hop_statement']
+[biology] has a new [biology project 3] out
+I submitted [algebra project 1] on time
+When is the deadline of [us history homework 1]?	'March 08'	['question_type_local']
+which homeworks did I submit late for [Emma]?	'math homework 2'	['question_type_global', 'question_three_hop_statement']

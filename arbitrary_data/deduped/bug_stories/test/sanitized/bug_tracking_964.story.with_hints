@@ -1,0 +1,117 @@
+there is a new [chatbot(Project[1])] [project]
+[chatbot project(Project[1])] is in the [maintenance] stage
+[it(Project[1])] is a [external] project
+there is a new [corporate] [mobile(Project[2])] [project]
+[mobile project(Project[2])] is currently in the [maintenance] stage
+[Willis(Tester[1])] is a [tester]
+[that test engineer(Tester[1])] is working on [it(Project[2])]
+[Hiram(Tester[2])] is a [tester]
+[this tester(Tester[2])] is assigned to [chatbot project(Project[1])]
+[mobile project(Project[2])] is assigned to [this person(Tester[2])] also
+[Marisela(Developer[3])] is a [developer] on [that project(Project[2])]
+[Marisela(Developer[3])] is assigned to [chatbot project(Project[1])] also
+[she(Developer[3])] submitted a new [proposal] for [mobile project(Project[2])]: [minified version fails]
+[that issue(Issue[1])] is assigned to [Hiram(Tester[2])]
+[null pointer exception during parsing] is a new [task] created by [Marisela(Developer[3])] for [chatbot project(Project[1])]
+[Marisela(Developer[3])] created a new [proposal] for [mobile project(Project[2])]: [memory leak bug]
+[xml extractor exception] is a new [task] created by [Hiram(Tester[2])] for [chatbot project(Project[1])]
+[the memory leak bug proposal(Issue[3])] was assigned to [Marisela(Developer[3])]
+[Hanna(Tester[4])] is a [tester]
+[this test engineer(Tester[4])] is assigned to [mobile project(Project[2])]
+[the null pointer exception during parsing task(Issue[2])] is assigned to [Hiram(Tester[2])]
+[this person(Tester[2])] resolved [this issue(Issue[2])]
+there is a new [knowledge base(Project[3])] [project]
+[that person(Tester[2])] is not working on [chatbot project(Project[1])] anymore
+Are there any issues created by [Marisela(Developer[3])] that are not resolved?	'minified version fails(Issue[1])', 'memory leak bug(Issue[3])'	['question_type_local']
+[chatbot project(Project[1])] is assigned to [Hiram(Tester[2])] also
+[Hiram(Tester[2])] is no longer assigned to [mobile project(Project[2])]
+[chatbot project(Project[1])] is assigned to [Hanna(Tester[4])] also
+[Andy(Tester[5])] is a [tester] on [chatbot project(Project[1])]
+[Andy(Tester[5])] is assigned to [mobile project(Project[2])] also
+[knowledge base project(Project[3])] is assigned to [Andy(Tester[5])] also
+[that project(Project[3])] is a [corporate] project
+[Rey(Tester[6])] is a [tester] on [chatbot project(Project[1])]
+[Rey(Tester[6])] is assigned to [mobile project(Project[2])] also
+[Hanna(Tester[4])] is working on [knowledge base project(Project[3])] also
+[this project(Project[3])] is currently in the [maintenance] stage
+[mobile project(Project[2])] is not assigned to [Marisela(Developer[3])]
+[that person(Developer[3])] is no longer assigned to [chatbot project(Project[1])]
+[Marisela(Developer[3])] is assigned to [chatbot project(Project[1])]
+[Hiram(Tester[2])] resolved [the minified version fails issue(Issue[1])]
+[Andy(Tester[5])] created a new [task] for [mobile project(Project[2])]: [initialization broken]
+[Hiram(Tester[2])] is not working on [chatbot project(Project[1])] anymore
+[this person(Tester[2])] is assigned to [mobile project(Project[2])]
+[Hiram(Tester[2])] is assigned to [chatbot project(Project[1])] also
+[this test engineer(Tester[2])] is working on [knowledge base project(Project[3])] also
+[the xml extractor exception issue(Issue[4])] was assigned to [he(Tester[2])]
+[this tester(Tester[2])] resolved [this issue(Issue[4])]
+[Marisela(Developer[3])] is assigned to [mobile project(Project[2])] also
+[mobile project(Project[2])] has moved to the [implementation] stage
+[Hanna(Tester[4])] created a new issue for [knowledge base project(Project[3])]: [fails with apache stack]
+[Rey(Tester[6])] is no longer assigned to [chatbot project(Project[1])]
+[this test engineer(Tester[6])] is assigned to [knowledge base project(Project[3])] also
+[chatbot project(Project[1])] is assigned to [Rey(Tester[6])] also
+[knowledge base project(Project[3])] is not assigned to [that person(Tester[6])]
+[this project(Project[3])] is assigned to [that test engineer(Tester[6])] also
+Who is [the memory leak bug proposal(Issue[3])] assigned to?	'Marisela(Developer[3])'	['question_type_local']
+[Marisela(Developer[3])] is working on [this project(Project[3])] also
+[Willis(Tester[1])] is assigned to [this project(Project[3])] also
+[Andy(Tester[5])] created a new [bug] for [chatbot project(Project[1])]: [versioning needs to be made consistent]
+[the versioning needs to be made consistent issue(Issue[7])] is assigned to [Hanna(Tester[4])]
+[that person(Tester[4])] resolved [the versioning needs to be made consistent issue(Issue[7])]
+[chatbot project(Project[1])] is assigned to [Willis(Tester[1])] also
+Who created [the xml extractor exception task(Issue[4])]?	'Hiram(Tester[2])'	['question_type_local']
+[Marisela(Developer[3])] submitted a new [task] for [mobile project(Project[2])]: [two consecutive dates identified as single date]
+[this issue(Issue[8])] is assigned to [Hiram(Tester[2])]
+[that test engineer(Tester[2])] resolved [the two consecutive dates identified as single date task(Issue[8])]
+[chatbot project(Project[1])] is in the stage of [deployment]
+[this person(Tester[2])] is no longer assigned to [knowledge base project(Project[3])]
+[that test engineer(Tester[2])] is working on [that project(Project[3])] also
+[knowledge base project(Project[3])] is in the stage of [deployment]
+[that project(Project[3])] is in the [maintenance] stage
+[it(Project[3])] is in the [deployment] stage
+Who was [the bug(Issue[7])] assigned to?	'Hanna(Tester[4])'	['question_type_local']
+[this project(Project[3])] is not assigned to [Hiram(Tester[2])]
+[Hiram(Tester[2])] is working on [that project(Project[3])] also
+[it(Project[3])] is in the stage of [maintenance]
+[Marisela(Developer[3])] resolved [the proposal that was last added(Issue[3])]
+Who submitted [the versioning needs to be made consistent bug(Issue[7])]?	'Andy(Tester[5])'	['question_type_local']
+[knowledge base project(Project[3])] has moved to the [testing] stage
+[that project(Project[3])] is now in the [implementation] stage
+[it(Project[3])] has moved to the [deployment] stage
+[that project(Project[3])] has moved to the [testing] stage
+[Willis(Tester[1])] is not working on [mobile project(Project[2])] anymore
+[this tester(Tester[1])] is working on [it(Project[2])] also
+[this person(Tester[1])] is not working on [chatbot project(Project[1])] anymore
+[this person(Tester[1])] is working on [this project(Project[1])] also
+[mobile project(Project[2])] is not assigned to [Hanna(Tester[4])]
+[this tester(Tester[4])] is working on [that project(Project[2])] also
+[chatbot project(Project[1])] is in the [testing] stage
+[mobile project(Project[2])] has moved to the [testing] stage
+[mobile project(Project[2])] is in the stage of [maintenance]
+Who submitted [the minified version fails issue(Issue[1])]?	'Marisela(Developer[3])'	['question_type_local']
+Who submitted [the memory leak bug proposal(Issue[3])]?	'Marisela(Developer[3])'	['question_type_local']
+[knowledge base project(Project[3])] is now in the [deployment] stage
+Who is [the memory leak bug proposal(Issue[3])] assigned to?	'Marisela(Developer[3])'	['question_type_local']
+Are there any issues submitted by [Andy(Tester[5])] that are resolved?	'versioning needs to be made consistent(Issue[7])'	['question_type_local']
+Who was [the task that was last added(Issue[8])] assigned to?	'Hiram(Tester[2])'	['question_type_local']
+[knowledge base project(Project[3])] has moved to the [testing] stage
+[it(Project[3])] is now in the [maintenance] stage
+[Hiram(Tester[2])] is no longer assigned to [mobile project(Project[2])]
+[this tester(Tester[2])] is assigned to [mobile project(Project[2])] also
+[the fails with apache stack issue(Issue[6])] was assigned to [Willis(Tester[1])]
+[he(Tester[1])] resolved [this issue(Issue[6])]
+Who is [the memory leak bug proposal(Issue[3])] assigned to?	'Marisela(Developer[3])'	['question_type_local']
+Who is [the versioning needs to be made consistent bug(Issue[7])] assigned to?	'Hanna(Tester[4])'	['question_type_local']
+Who created [the versioning needs to be made consistent bug(Issue[7])]?	'Andy(Tester[5])'	['question_type_local']
+Who created [the initialization broken task(Issue[5])]?	'Andy(Tester[5])'	['question_type_local']
+[knowledge base project(Project[3])] is not assigned to [Willis(Tester[1])]
+[knowledge base project(Project[3])] is assigned to [Willis(Tester[1])] also
+Who submitted [the xml extractor exception task(Issue[4])]?	'Hiram(Tester[2])'	['question_type_local']
+[this project(Project[3])] has moved to the [testing] stage
+[knowledge base project(Project[3])] has moved to the [maintenance] stage
+Who was [the bug(Issue[7])] assigned to?	'Hanna(Tester[4])'	['question_type_local']
+Who submitted [the initialization broken task(Issue[5])]?	'Andy(Tester[5])'	['question_type_local']
+[Hiram(Tester[2])] is not working on [mobile project(Project[2])] anymore
+[that project(Project[2])] is assigned to [that person(Tester[2])] also
+[the initialization broken issue(Issue[5])] is assigned to [Hanna(Tester[4])]

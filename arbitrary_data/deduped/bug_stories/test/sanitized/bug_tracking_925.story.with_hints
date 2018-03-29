@@ -1,0 +1,104 @@
+there is a new [mobile(Project[1])] [project]
+[it(Project[1])] is a [personal] project
+[that project(Project[1])] is in the [maintenance] stage
+[Cyndi(Developer[1])] is a [developer] on [that project(Project[1])]
+[Alverta(Developer[2])] is a [developer] on [mobile project(Project[1])]
+[Zenaida(Developer[3])] is a [developer]
+[Zenaida(Developer[3])] is working on [mobile project(Project[1])]
+there is a new [personal] [chatbot(Project[2])] [project]
+[chatbot project(Project[2])] is currently in the [maintenance] stage
+[Alverta(Developer[2])] is assigned to [that project(Project[2])] also
+[Peggy(Developer[4])] is a [developer]
+[this person(Developer[4])] is assigned to [chatbot project(Project[2])]
+[that developer(Developer[4])] is not working on [chatbot project(Project[2])] anymore
+[she(Developer[4])] is working on [chatbot project(Project[2])]
+[that person(Developer[4])] is working on [mobile project(Project[1])] also
+[this project(Project[1])] is in the [design] stage
+[that project(Project[1])] is in the stage of [development]
+[Ashly(Developer[5])] is a [developer] on [chatbot project(Project[2])]
+[that person(Developer[5])] is working on [it(Project[1])] also
+there is a new [experimental] [knowledge base(Project[3])] [project]
+[Britney(Tester[6])] is a [tester] on [knowledge base project(Project[3])]
+[it(Project[3])] is currently in the [development] stage
+[Rachele(Developer[7])] is a [developer]
+[Rachele(Developer[7])] is assigned to [knowledge base project(Project[3])]
+[Cyndi(Developer[1])] is assigned to [knowledge base project(Project[3])] also
+[tokenization not consistent across platforms] is a new [bug] submitted by [Britney(Tester[6])] for [knowledge base project(Project[3])]
+[that issue(Issue[1])] is assigned to [Cyndi(Developer[1])]
+[that developer(Developer[1])] resolved [it(Issue[1])]
+[Cyndi(Developer[1])] is assigned to [chatbot project(Project[2])] also
+[Peggy(Developer[4])] is working on [knowledge base project(Project[3])] also
+[Ashly(Developer[5])] is working on [knowledge base project(Project[3])] also
+[she(Developer[5])] is not working on [that project(Project[3])] anymore
+[that person(Developer[5])] is working on [it(Project[3])] also
+[Alverta(Developer[2])] created a new issue for [mobile project(Project[1])]: [fails with apache stack]
+[the issue(Issue[2])] is assigned to [Peggy(Developer[4])]
+[Peggy(Developer[4])] resolved [the issue(Issue[2])]
+Were there any issues submitted by [Alverta(Developer[2])]?	'fails with apache stack(Issue[2])'	['question_type_local']
+[Zenaida(Developer[3])] is assigned to [knowledge base project(Project[3])] also
+[Cyndi(Developer[1])] is not working on [chatbot project(Project[2])] anymore
+[Luanna(Developer[8])] is a [developer]
+[this person(Developer[8])] is assigned to [mobile project(Project[1])]
+[chatbot project(Project[2])] is assigned to [that developer(Developer[8])] also
+[knowledge base project(Project[3])] is assigned to [Luanna(Developer[8])] also
+[Alverta(Developer[2])] created a new issue for [chatbot project(Project[2])]: [saving data throws exception]
+[the saving data throws exception issue(Issue[3])] was assigned to [Alverta(Developer[2])]
+[that developer(Developer[2])] resolved [the saving data throws exception issue(Issue[3])]
+[Gabrielle(Tester[9])] is a [tester]
+[Alverta(Developer[2])] is assigned to [knowledge base project(Project[3])] also
+[Hanna(Developer[10])] is a [developer] on [chatbot project(Project[2])]
+[chatbot project(Project[2])] is not assigned to [Alverta(Developer[2])]
+[it(Project[2])] is assigned to [that developer(Developer[2])] also
+[Zenaida(Developer[3])] submitted a new [proposal] for [mobile project(Project[1])]: [svd is slow]
+[the proposal(Issue[4])] is assigned to [Alverta(Developer[2])]
+[mobile project(Project[1])] is assigned to [Rachele(Developer[7])] also
+[she(Developer[7])] is assigned to [chatbot project(Project[2])] also
+[she(Developer[7])] is no longer assigned to [knowledge base project(Project[3])]
+[Zenaida(Developer[3])] is working on [chatbot project(Project[2])] also
+[this project(Project[2])] is in the [design] stage
+There is a new issue for the [it(Project[2])]: [timeout problem]
+[that issue(Issue[5])] is assigned to [Rachele(Developer[7])]
+[this person(Developer[7])] resolved [this issue(Issue[5])]
+[Rachele(Developer[7])] is working on [knowledge base project(Project[3])] also
+[Alverta(Developer[2])] submitted a new [task] for [knowledge base project(Project[3])]: [changelong needs to be added]
+[that project(Project[3])] is now in the [design] stage
+Are there any issues submitted by [Alverta(Developer[2])] that are resolved?	'fails with apache stack(Issue[2])', 'saving data throws exception(Issue[3])'	['question_type_local']
+[the issue(Issue[6])] was assigned to [Britney(Tester[6])]
+[chatbot project(Project[2])] is in the [development] stage
+There is a new issue for the [knowledge base project(Project[3])]: [wrong pos tag on consecutive words]
+[that issue(Issue[7])] is assigned to [Alverta(Developer[2])]
+[she(Developer[2])] resolved [it(Issue[7])]
+[knowledge base project(Project[3])] is not assigned to [Alverta(Developer[2])]
+[Britney(Tester[6])] resolved [the changelong needs to be added task(Issue[6])]
+[this tester(Tester[6])] is not working on [knowledge base project(Project[3])] anymore
+[this person(Tester[6])] is assigned to [chatbot project(Project[2])]
+[knowledge base project(Project[3])] is assigned to [Britney(Tester[6])] also
+[that project(Project[3])] is in the [development] stage
+Are there any issues created by [Zenaida(Developer[3])] that are not resolved?	'svd is slow(Issue[4])'	['question_type_local']
+[mobile project(Project[1])] is assigned to [Britney(Tester[6])] also
+There is a new issue for the [chatbot project(Project[2])]: [parse example terribly slow]
+[this issue(Issue[8])] was assigned to [Rachele(Developer[7])]
+[that person(Developer[7])] resolved [that issue(Issue[8])]
+There is a new issue for the [mobile project(Project[1])]: [dcoref always returns null]
+[Alverta(Developer[2])] is assigned to [knowledge base project(Project[3])] also
+[chatbot project(Project[2])] is not assigned to [that person(Developer[2])]
+[it(Project[2])] is assigned to [this developer(Developer[2])] also
+Who created [the tokenization not consistent across platforms issue(Issue[1])]?	'Britney(Tester[6])'	['question_type_local']
+[Alverta(Developer[2])] is no longer assigned to [knowledge base project(Project[3])]
+[that project(Project[3])] is assigned to [Alverta(Developer[2])] also
+[this developer(Developer[2])] is no longer assigned to [knowledge base project(Project[3])]
+[this person(Developer[2])] is working on [that project(Project[3])] also
+[that person(Developer[2])] is no longer assigned to [mobile project(Project[1])]
+[Alverta(Developer[2])] is assigned to [it(Project[1])] also
+[this project(Project[1])] is now in the [maintenance] stage
+[knowledge base project(Project[3])] has moved to the [design] stage
+[mobile project(Project[1])] is now in the [design] stage
+[Alverta(Developer[2])] resolved [the proposal(Issue[4])]
+[this developer(Developer[2])] is no longer assigned to [chatbot project(Project[2])]
+[this project(Project[2])] is assigned to [this developer(Developer[2])] also
+[mobile project(Project[1])] is not assigned to [this person(Developer[2])]
+[she(Developer[2])] is assigned to [mobile project(Project[1])] also
+[Cyndi(Developer[1])] is assigned to [chatbot project(Project[2])] also
+[chatbot project(Project[2])] has moved to the [design] stage
+[Rachele(Developer[7])] is not working on [knowledge base project(Project[3])] anymore
+[that developer(Developer[7])] is working on [knowledge base project(Project[3])] also

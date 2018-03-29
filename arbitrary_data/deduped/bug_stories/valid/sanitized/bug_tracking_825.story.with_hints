@@ -1,0 +1,115 @@
+there is a new [external] [knowledge base(Project[1])] [project]
+[Francoise(Tester[1])] is a [tester] on [that project(Project[1])]
+[it(Project[1])] is in the [implementation] stage
+[Lorilee(Developer[2])] is a [developer]
+[that developer(Developer[2])] is working on [this project(Project[1])]
+[it(Project[1])] is now in the [development] stage
+[knowledge base project(Project[1])] is in the stage of [implementation]
+[issue in using training data] is a new [enhancement] for [that project(Project[1])] that [Lorilee(Developer[2])] just created
+there is a new [mobile(Project[2])] [project]
+[the issue(Issue[1])] was assigned to [Francoise(Tester[1])]
+[Hanna(Developer[3])] is a [developer]
+[that test engineer(Tester[1])] is assigned to [mobile project(Project[2])] also
+[Peggy(Tester[4])] is a [tester] on [knowledge base project(Project[1])]
+[that project(Project[2])] is currently in the [maintenance] stage
+[that project(Project[2])] is a [important] project
+[Francoise(Tester[1])] resolved [the issue in using training data issue(Issue[1])]
+[mobile project(Project[2])] is assigned to [Lorilee(Developer[2])] also
+[Zenaida(Tester[5])] is a [tester]
+[that person(Tester[5])] is working on [knowledge base project(Project[1])]
+[this person(Tester[5])] is not working on [this project(Project[1])] anymore
+[that person(Tester[5])] is assigned to [mobile project(Project[2])]
+[Lorilee(Developer[2])] created a new issue for [that project(Project[2])]: [memory leak bug]
+[this issue(Issue[2])] is assigned to [Lorilee(Developer[2])]
+[knowledge base project(Project[1])] is assigned to [Hanna(Developer[3])]
+[mobile project(Project[2])] is assigned to [Hanna(Developer[3])] also
+[Zenaida(Tester[5])] is assigned to [knowledge base project(Project[1])] also
+there is a new [chatbot(Project[3])] [project]
+[Lorilee(Developer[2])] resolved [the memory leak bug issue(Issue[2])]
+[this person(Developer[2])] is assigned to [chatbot project(Project[3])] also
+[that project(Project[3])] is in the stage of [development]
+[chatbot project(Project[3])] is a [open source] project
+[this project(Project[3])] has moved to the [maintenance] stage
+[Peggy(Tester[4])] is assigned to [that project(Project[3])] also
+[knowledge base project(Project[1])] is not assigned to [she(Tester[4])]
+[this tester(Tester[4])] is working on [mobile project(Project[2])] also
+[Hanna(Developer[3])] is working on [chatbot project(Project[3])] also
+[Zenaida(Tester[5])] is working on [this project(Project[3])] also
+[Hanna(Developer[3])] submitted a new [task] for [mobile project(Project[2])]: [xml extractor exception]
+[Lorilee(Developer[2])] is no longer assigned to [knowledge base project(Project[1])]
+[that project(Project[1])] is assigned to [this developer(Developer[2])] also
+[null pointer exception during parsing] is a new [bug] for the [knowledge base project(Project[1])]
+[the issue(Issue[4])] is assigned to [Hanna(Developer[3])]
+[she(Developer[3])] resolved [that issue(Issue[4])]
+[chatbot project(Project[3])] is assigned to [Francoise(Tester[1])] also
+[memory leak while reading tf records] is a new [proposal] for [that project(Project[3])] that [Hanna(Developer[3])] just created
+Who submitted [the memory leak bug issue(Issue[2])]?	'Lorilee(Developer[2])'	['question_type_local']
+[the issue(Issue[5])] is assigned to [Lorilee(Developer[2])]
+[Lorilee(Developer[2])] resolved [the issue(Issue[5])]
+[knowledge base project(Project[1])] is not assigned to [Lorilee(Developer[2])]
+[knowledge base project(Project[1])] is assigned to [Lorilee(Developer[2])] also
+[this person(Developer[2])] created a new [enhancement] for [mobile project(Project[2])]: [dcoref always returns null]
+[this issue(Issue[6])] was assigned to [Zenaida(Tester[5])]
+[this person(Tester[5])] is no longer assigned to [knowledge base project(Project[1])]
+[Zenaida(Tester[5])] is working on [it(Project[1])] also
+[two consecutive dates identified as single date] is a new [proposal] for the [chatbot project(Project[3])]
+[that issue(Issue[7])] is assigned to [Francoise(Tester[1])]
+[this person(Tester[1])] resolved [the proposal(Issue[7])]
+[chatbot project(Project[3])] is not assigned to [Lorilee(Developer[2])]
+[that project(Project[3])] is assigned to [she(Developer[2])] also
+[it(Project[3])] has moved to the [development] stage
+[Zenaida(Tester[5])] created a new issue for [knowledge base project(Project[1])]: [changelong needs to be added]
+[this issue(Issue[8])] was assigned to [Lorilee(Developer[2])]
+[this developer(Developer[2])] resolved [it(Issue[8])]
+[Francoise(Tester[1])] created a new issue for [chatbot project(Project[3])]: [svd is slow]
+[it(Issue[9])] is assigned to [Hanna(Developer[3])]
+[this person(Developer[3])] resolved [that issue(Issue[9])]
+[Lorilee(Developer[2])] is not working on [chatbot project(Project[3])] anymore
+[this project(Project[3])] is assigned to [Lorilee(Developer[2])] also
+There is a new [proposal] for the [mobile project(Project[2])]: [versioning needs to be made consistent]
+[knowledge base project(Project[1])] has moved to the [maintenance] stage
+[that issue(Issue[10])] was assigned to [Francoise(Tester[1])]
+[Francoise(Tester[1])] resolved [the versioning needs to be made consistent proposal(Issue[10])]
+[he(Tester[1])] is not working on [chatbot project(Project[3])] anymore
+[this test engineer(Tester[1])] is assigned to [chatbot project(Project[3])] also
+Who created [the xml extractor exception task(Issue[3])]?	'Hanna(Developer[3])'	['question_type_local']
+[Francoise(Tester[1])] is no longer assigned to [knowledge base project(Project[1])]
+[that test engineer(Tester[1])] is assigned to [knowledge base project(Project[1])] also
+[it(Project[1])] is assigned to [Peggy(Tester[4])] also
+[mobile project(Project[2])] is not assigned to [Francoise(Tester[1])]
+[that test engineer(Tester[1])] is no longer assigned to [chatbot project(Project[3])]
+[mobile project(Project[2])] is assigned to [this test engineer(Tester[1])] also
+[chatbot project(Project[3])] is assigned to [Francoise(Tester[1])] also
+[Francoise(Tester[1])] is not working on [knowledge base project(Project[1])] anymore
+[that project(Project[1])] has moved to the [implementation] stage
+Are there any issues assigned to [Hanna(Developer[3])] that are resolved?	'null pointer exception during parsing(Issue[4])', 'svd is slow(Issue[9])'	['question_type_local']
+[knowledge base project(Project[1])] is in the stage of [maintenance]
+[Francoise(Tester[1])] is assigned to [knowledge base project(Project[1])] also
+[this person(Tester[1])] is not working on [mobile project(Project[2])] anymore
+[this person(Tester[1])] is assigned to [that project(Project[2])] also
+Who submitted [the xml extractor exception task(Issue[3])]?	'Hanna(Developer[3])'	['question_type_local']
+[chatbot project(Project[3])] is not assigned to [he(Tester[1])]
+[that project(Project[3])] is assigned to [Francoise(Tester[1])] also
+[chatbot project(Project[3])] is not assigned to [Francoise(Tester[1])]
+Who is [the bug(Issue[4])] assigned to?	'Hanna(Developer[3])'	['question_type_local']
+[that person(Tester[1])] is working on [that project(Project[3])] also
+What are the issues created by [Lorilee(Developer[2])] that were resolved?	'issue in using training data(Issue[1])', 'memory leak bug(Issue[2])'	['question_type_local']
+What are the issues submitted by [he(Tester[1])]?	'svd is slow(Issue[9])'	['question_type_local']
+Who is [the null pointer exception during parsing issue(Issue[4])] assigned to?	'Hanna(Developer[3])'	['question_type_local']
+Who was [the versioning needs to be made consistent proposal(Issue[10])] assigned to?	'Francoise(Tester[1])'	['question_type_local']
+Who is [the null pointer exception during parsing issue(Issue[4])] assigned to?	'Hanna(Developer[3])'	['question_type_local']
+[Lorilee(Developer[2])] is no longer assigned to [chatbot project(Project[3])]
+[this developer(Developer[2])] is working on [this project(Project[3])] also
+[knowledge base project(Project[1])] is now in the [implementation] stage
+What are the issues submitted by [Francoise(Tester[1])]?	'svd is slow(Issue[9])'	['question_type_local']
+Are there any issues assigned to [Hanna(Developer[3])] that are resolved?	'null pointer exception during parsing(Issue[4])', 'svd is slow(Issue[9])'	['question_type_local']
+[knowledge base project(Project[1])] is now in the [maintenance] stage
+Who submitted [the memory leak while reading tf records proposal(Issue[5])]?	'Hanna(Developer[3])'	['question_type_local']
+Who created [the dcoref always returns null enhancement(Issue[6])]?	'Lorilee(Developer[2])'	['question_type_local']
+[it(Project[1])] is in the [implementation] stage
+[it(Project[1])] is in the stage of [maintenance]
+[it(Project[1])] is in the [development] stage
+Are there any issues submitted by [Francoise(Tester[1])] that are resolved?	'svd is slow(Issue[9])'	['question_type_local']
+[this project(Project[1])] is in the stage of [implementation]
+[Zenaida(Tester[5])] resolved [the dcoref always returns null issue(Issue[6])]
+[chatbot project(Project[3])] is not assigned to [Zenaida(Tester[5])]

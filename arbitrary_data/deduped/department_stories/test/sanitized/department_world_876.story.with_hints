@@ -1,0 +1,109 @@
+Create a new [undergraduate] course called [U310(Course[1])]
+[this course(Course[1])] is 8 units
+[this course(Course[1])] is full semester
+[Britney(Professor[1])] is a [teaching] [professor]
+There is a course called [U8001(Course[2])]
+[Britney(Professor[1])]'s research interest is [conservation biology]
+[Britney(Professor[1])] is the instructor for [U310(Course[1])]
+there is a new masters student named [Marisela(MastersStudent[2])]
+[this student(MastersStudent[2])] is attending [U310(Course[1])]
+[that person(MastersStudent[2])] is TAing [that course(Course[1])]
+[Britney(Professor[1])] went on sabbatical
+Create a new course called [G304(Course[3])]
+[U8001(Course[2])] is a [undergraduate] course
+there is a new PhD student named [Albertha(PhdStudent[3])]
+[that class(Course[2])] is set up as a full semester course
+[Marisela(MastersStudent[2])] is taking [U8001(Course[2])]
+[Albertha(PhdStudent[3])] and [Marisela(MastersStudent[2])] are taking [that course(Course[2])]
+[Albertha(PhdStudent[3])] is [Britney(Professor[1])]'s student
+Create a new course called [G302(Course[4])]
+[this student(PhdStudent[3])] is a TA for [that class(Course[4])]
+[Angelita(Professor[4])] is a [associate] [professor]
+[this professor(Professor[4])] is now on sabbatical
+[G302(Course[4])] is a [phd] course
+[Albertha(PhdStudent[3])] and [Marisela(MastersStudent[2])] are both taking [G302(Course[4])]
+[G302(Course[4])] is a mini course
+[Albertha(PhdStudent[3])] is attending [U310(Course[1])]
+there is a PhD student named [Gia(PhdStudent[5])]
+[Albertha(PhdStudent[3])] failed the qualifiers
+[Albertha(PhdStudent[3])] has [Angelita(Professor[4])] on the committee
+The TA for [U310(Course[1])] is [Gia(PhdStudent[5])]
+[Racquel(PhdStudent[6])] is a PhD student
+[Gia(PhdStudent[5])] successfully defended their thesis
+there is a [first year] PhD student named [Gabrielle(PhdStudent[7])]
+[Gia(PhdStudent[5])] is a [first year] student
+[Peggy(MastersStudent[8])] is a masters student
+[Gia(PhdStudent[5])] has [Britney(Professor[1])] and [Angelita(Professor[4])] on the committee
+Who is teaching [U310(Course[1])]?	'Britney(Professor[1])'	['question_type_local']
+[U8001(Course[2])] will be a 8 unit course
+[Will(MastersStudent[9])] is a masters student
+[Racquel(PhdStudent[6])] and [Gabrielle(PhdStudent[7])] are attending [that course(Course[2])]
+[U8001(Course[2])] is taught by [Angelita(Professor[4])]
+there is a new [fourth year] PhD student named [Lucy(PhdStudent[10])]
+[Gabrielle(PhdStudent[7])] and [that student(PhdStudent[10])] are [Angelita(Professor[4])]'s student
+[Cecil(Professor[11])] is a [assistant] [professor]
+[that professor(Professor[11])]'s research interest is [optical physics]
+[Racquel(PhdStudent[6])] and [Gia(PhdStudent[5])] are [this professor(Professor[11])]'s student
+Create a new course called [U9000(Course[5])]
+[that student(PhdStudent[5])] is in [second year]
+[that student(PhdStudent[5])] is funded
+[Albertha(PhdStudent[3])] and [Gabrielle(PhdStudent[7])] are taking [G302(Course[4])]
+[Cecil(Professor[11])] is on [Albertha(PhdStudent[3])]'s committee
+create a [professor] named [Tawnya(Professor[12])]
+[she(Professor[12])] conducts research in [optical physics]
+[Tawnya(Professor[12])] is an [teaching] professor
+Who is [Gabrielle(PhdStudent[7])]'s advisor?	'Angelita'	['question_type_local']
+[this professor(Professor[12])] is now on sabbatical
+There is a [phd] level [full_semester_course] called [U610(Course[6])]
+there is a new masters student named [Lizeth(MastersStudent[13])]
+[Will(MastersStudent[9])] and [Peggy(MastersStudent[8])] are taking [that class(Course[6])]
+[Hanna(PhdStudent[14])] is a PhD student
+[Angelita(Professor[4])] and [Tawnya(Professor[12])] are on [Racquel(PhdStudent[6])]'s committee
+[Racquel(PhdStudent[6])] is in their [first year]
+[that student(PhdStudent[6])] successfully defended their thesis
+Which phd students have [Britney(Professor[1])] on their committee	'Gia(PhdStudent[5])'	['question_type_local']
+[Gia(PhdStudent[5])] has passed the thesis proposal exam
+[Tawnya(Professor[12])] is on [Gia(PhdStudent[5])]'s committee
+[sixth year] is a [Emmie(PhdStudent[15])] PhD student
+[that student(PhdStudent[15])] passed the qualifiers
+[that person(PhdStudent[15])] has [Angelita(Professor[4])] on the committee
+[second year] is a [Charlott(PhdStudent[16])] PhD student
+[this student(PhdStudent[16])] has passed the thesis defense
+[Isaiah(MastersStudent[17])] is a masters student
+Which phd students taking the U310 course	'Albertha(PhdStudent[3])'	['question_type_global', 'question_two_hop_statement']
+[she(PhdStudent[16])] passed the qualifiers
+[she(PhdStudent[16])] passed thesis proposal
+Create a new [undergraduate] [full_semester_course] called [G301(Course[7])]
+[Charlott(PhdStudent[16])] currently has funding
+There is a course called [U601(Course[8])]
+Create a new [masters] [full_semester_course] called [G9000(Course[9])]
+[Cecil(Professor[11])] teaches [G9000(Course[9])]
+[Britney(Professor[1])] advises [Charlott(PhdStudent[16])] and [Emmie(PhdStudent[15])]
+there is a new masters student named [Genevive(MastersStudent[18])]
+[Charlott(PhdStudent[16])] is in [third year]
+Who is [Charlott(PhdStudent[16])]'s advisor?	'Britney'	['question_type_local']
+[Charlott(PhdStudent[16])] has [Tawnya(Professor[12])] and [Angelita(Professor[4])] on the committee
+there is a new PhD student named [Rachele(PhdStudent[19])]
+[this student(PhdStudent[19])] has failed the thesis proposal exam
+[Rachele(PhdStudent[19])] has passed the qualifying exam
+[Rachele(PhdStudent[19])] is in their [fourth year]
+[that person(PhdStudent[19])] is now a [fifth year] student
+[that student(PhdStudent[19])] has failed the thesis proposal exam
+[Racquel(PhdStudent[6])] failed the qualifiers
+Who is [Racquel(PhdStudent[6])]'s advisor?	'Cecil'	['question_type_local']
+[Rachele(PhdStudent[19])] has passed the thesis proposal exam
+[Hanna(PhdStudent[14])] and [Rachele(PhdStudent[19])] are [Britney(Professor[1])]'s student
+Create a new [phd] course called [U7000(Course[10])]
+[she(PhdStudent[19])] is in [sixth year]
+[Rachele(PhdStudent[19])] is funded
+[Rachele(PhdStudent[19])] passed thesis defense
+Which courses have phd student TAs that are in the second year?	'U310(Course[1])'	['question_type_global', 'question_three_hop_statement']
+Create a new [undergraduate] course called [U103(Course[11])]
+[Cecil(Professor[11])] and [Tawnya(Professor[12])] are on [Rachele(PhdStudent[19])]'s committee
+What students are enrolled in [U8001(Course[2])]?	'Marisela(MastersStudent[2])', 'Albertha(PhdStudent[3])', 'Racquel(PhdStudent[6])', 'Gabrielle(PhdStudent[7])'	['question_type_local']
+[she(Professor[12])] teaches [U7000(Course[10])]
+[that course(Course[10])] will be set up as a mini course
+[that class(Course[10])] is 4 units
+[this course(Course[10])] is TAed by [Hanna(PhdStudent[14])] and [Peggy(MastersStudent[8])]
+[Albertha(PhdStudent[3])] passed thesis defense
+[Albertha(PhdStudent[3])] is in their [second year]

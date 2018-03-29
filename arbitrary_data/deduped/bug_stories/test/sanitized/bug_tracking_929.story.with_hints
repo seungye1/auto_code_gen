@@ -1,0 +1,109 @@
+there is a new [internal] [chatbot(Project[1])] [project]
+[this project(Project[1])] is in the [maintenance] stage
+there is a new [knowledge base(Project[2])] [project]
+[chatbot project(Project[1])] is in the stage of [implementation]
+There is a new issue for the [knowledge base project(Project[2])]: [xml extractor exception]
+[issue in using training data] is a new issue for the [that project(Project[1])]
+[Hanna(Tester[1])] is a [tester] on [knowledge base project(Project[2])]
+[this test engineer(Tester[1])] is working on [chatbot project(Project[1])] also
+[chatbot project(Project[1])] is not assigned to [Hanna(Tester[1])]
+[that project(Project[1])] is assigned to [this test engineer(Tester[1])] also
+[the xml extractor exception issue(Issue[1])] was assigned to [Hanna(Tester[1])]
+[she(Tester[1])] resolved [the issue(Issue[1])]
+[Hanna(Tester[1])] submitted a new [proposal] for [chatbot project(Project[1])]: [versioning needs to be made consistent]
+What are the issues assigned to [she(Tester[1])] that were resolved?	'xml extractor exception(Issue[1])'	['question_type_local']
+[Rachele(Developer[2])] is a [developer] on [chatbot project(Project[1])]
+[the issue(Issue[3])] was assigned to [Hanna(Tester[1])]
+[Charlott(Tester[3])] is a [tester] on [knowledge base project(Project[2])]
+[chatbot project(Project[1])] has moved to the [maintenance] stage
+[chatbot project(Project[1])] is assigned to [Charlott(Tester[3])] also
+There is a new [proposal] for the [it(Project[1])]: [fails with apache stack]
+[the issue(Issue[4])] is assigned to [Charlott(Tester[3])]
+[this tester(Tester[3])] resolved [it(Issue[4])]
+Who was [the xml extractor exception issue(Issue[1])] assigned to?	'Hanna(Tester[1])'	['question_type_local']
+[saving data throws exception] is a new [task] for the [chatbot project(Project[1])]
+[it(Issue[5])] was assigned to [Hanna(Tester[1])]
+[the issue in using training data issue(Issue[2])] was assigned to [Hanna(Tester[1])]
+[she(Tester[1])] resolved [the issue(Issue[2])]
+[Loyd(Developer[4])] is a [developer]
+[he(Developer[4])] is working on [knowledge base project(Project[2])]
+[Hanna(Tester[1])] resolved [the task(Issue[5])]
+[parsing with parantheses fails] is a new issue for the [chatbot project(Project[1])]
+[Emmie(Tester[5])] is a [tester] on [chatbot project(Project[1])]
+[the issue(Issue[6])] was assigned to [Rachele(Developer[2])]
+What are the issues created by [Hanna(Tester[1])]?	'versioning needs to be made consistent(Issue[3])'	['question_type_local']
+[this person(Developer[2])] is assigned to [knowledge base project(Project[2])] also
+[that project(Project[2])] is in the [maintenance] stage
+[it(Project[2])] is a [external] project
+[Emmie(Tester[5])] is assigned to [that project(Project[2])] also
+[chatbot project(Project[1])] has moved to the [deployment] stage
+[timeout problem] is a new [bug] submitted by [Hanna(Tester[1])] for [knowledge base project(Project[2])]
+[Hanna(Tester[1])] created a new issue for [that project(Project[1])]: [initialization broken]
+[the timeout problem bug(Issue[7])] was assigned to [Loyd(Developer[4])]
+[Charlott(Tester[3])] created a new [bug] for [chatbot project(Project[1])]: [changelong needs to be added]
+[it(Issue[9])] is assigned to [Emmie(Tester[5])]
+[Emmie(Tester[5])] resolved [the bug(Issue[9])]
+[Lucy(Developer[6])] is a [developer] on [chatbot project(Project[1])]
+[this developer(Developer[6])] is working on [knowledge base project(Project[2])] also
+[Hanna(Tester[1])] resolved [the versioning needs to be made consistent issue(Issue[3])]
+[Loyd(Developer[4])] is assigned to [chatbot project(Project[1])] also
+[that person(Developer[4])] is no longer assigned to [that project(Project[1])]
+[that person(Developer[4])] is working on [chatbot project(Project[1])] also
+[Andrew(Developer[7])] is a [developer]
+[it(Project[1])] is assigned to [this person(Developer[7])]
+[Roslyn(Tester[8])] is a [tester]
+[that test engineer(Tester[8])] is assigned to [knowledge base project(Project[2])]
+[this person(Tester[8])] is working on [chatbot project(Project[1])] also
+[Stephine(Developer[9])] is a [developer] on [chatbot project(Project[1])]
+[this person(Developer[9])] is working on [knowledge base project(Project[2])] also
+Were there any issues assigned to [Rachele(Developer[2])]?	'parsing with parantheses fails(Issue[6])'	['question_type_local']
+there is a new [mobile(Project[3])] [project]
+[mobile project(Project[3])] is a [external] project
+[mobile project(Project[3])] is in the [deployment] stage
+[chatbot project(Project[1])] has moved to the [implementation] stage
+[Andrew(Developer[7])] is assigned to [mobile project(Project[3])] also
+[Zenaida(Developer[10])] is a [developer] on [knowledge base project(Project[2])]
+[Andrew(Developer[7])] is assigned to [knowledge base project(Project[2])] also
+[this developer(Developer[7])] is no longer assigned to [that project(Project[2])]
+[Stephine(Developer[9])] is assigned to [mobile project(Project[3])] also
+[this developer(Developer[9])] is not working on [chatbot project(Project[1])] anymore
+[that developer(Developer[9])] is working on [chatbot project(Project[1])] also
+[Hanna(Tester[1])] is working on [mobile project(Project[3])] also
+[that project(Project[3])] is now in the [implementation] stage
+[Lucy(Developer[6])] is working on [that project(Project[3])] also
+[Zenaida(Developer[10])] is assigned to [chatbot project(Project[1])] also
+[mobile project(Project[3])] is assigned to [that person(Developer[10])] also
+[Roslyn(Tester[8])] is assigned to [mobile project(Project[3])] also
+[Roslyn(Tester[8])] is no longer assigned to [chatbot project(Project[1])]
+[this project(Project[1])] is assigned to [this tester(Tester[8])] also
+[mobile project(Project[3])] is assigned to [Rachele(Developer[2])] also
+[Emmie(Tester[5])] is working on [it(Project[3])] also
+[Charlott(Tester[3])] is assigned to [that project(Project[3])] also
+[Rachele(Developer[2])] resolved [the parsing with parantheses fails issue(Issue[6])]
+[mobile project(Project[3])] has moved to the [maintenance] stage
+[mobile project(Project[3])] is in the stage of [development]
+What are the issues assigned to [Rachele(Developer[2])]?	'parsing with parantheses fails(Issue[6])'	['question_type_local']
+[it(Project[3])] is now in the [implementation] stage
+[Andrew(Developer[7])] is assigned to [knowledge base project(Project[2])] also
+Who is [the changelong needs to be added bug(Issue[9])] assigned to?	'Emmie(Tester[5])'	['question_type_local']
+[it(Project[2])] is now in the [development] stage
+[Andrew(Developer[7])] is not working on [mobile project(Project[3])] anymore
+[this developer(Developer[7])] is working on [that project(Project[3])] also
+Were there any issues assigned to [Rachele(Developer[2])]?	'parsing with parantheses fails(Issue[6])'	['question_type_local']
+[it(Project[3])] has moved to the [maintenance] stage
+What are the issues assigned to [Rachele(Developer[2])]?	'parsing with parantheses fails(Issue[6])'	['question_type_local']
+[this project(Project[3])] is in the [deployment] stage
+[this project(Project[3])] is in the [implementation] stage
+[Rachele(Developer[2])] is no longer assigned to [chatbot project(Project[1])]
+[Loyd(Developer[4])] resolved [the timeout problem issue(Issue[7])]
+[mobile project(Project[3])] is assigned to [he(Developer[4])] also
+Who was [the xml extractor exception issue(Issue[1])] assigned to?	'Hanna(Tester[1])'	['question_type_local']
+[that project(Project[3])] is in the [development] stage
+[chatbot project(Project[1])] is assigned to [Rachele(Developer[2])] also
+[knowledge base project(Project[2])] is not assigned to [this person(Developer[2])]
+[that developer(Developer[2])] is working on [knowledge base project(Project[2])] also
+[Hanna(Tester[1])] is not working on [chatbot project(Project[1])] anymore
+[Hanna(Tester[1])] is assigned to [chatbot project(Project[1])] also
+[chatbot project(Project[1])] is in the [maintenance] stage
+[Rachele(Developer[2])] is no longer assigned to [knowledge base project(Project[2])]
+[Rachele(Developer[2])] is working on [that project(Project[2])] also

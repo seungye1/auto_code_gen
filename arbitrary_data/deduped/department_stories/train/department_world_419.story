@@ -1,0 +1,232 @@
+Create a new course called [G7000]
+[G7000] is a [masters] level course
+[this course] is set up as a full semester course
+Create a new [phd] [full_semester_course] called [U310]
+there is a masters student named [Lucio]
+the affiliation of [that person] is [english]
+What are the [masters] courses?	'G7000'	['question_type_global', 'question_single_statement']
+[Tom] is a masters student
+there is a new PhD student named [Hanna]
+[he]'s department is [physics]
+Create a new [phd] level course called [U104]
+[Hanna] and [Lucio] are attending [U104]
+[U104] is full semester
+who are the phd students?	'Hanna'	['question_type_global', 'question_single_statement']
+[Hanna] and [Lucio] are both taking [G7000]
+[G7000] is a pass-fail course
+Create a new course called [U601]
+[U601] is a [masters] course
+[this course] will be a mini course
+[this course] is a pass-fail course
+[Lorilee] is a masters student
+[this student] is affiliated with the [history] department
+Which people are in the [physics] department?	'Tom'	['question_type_global', 'question_single_statement']
+which courses have no masters students enrolled?	'U310', 'U601'	['question_type_global', 'question_two_hop_statement']
+[U104] is not a pass-fail course
+What students are enrolled in [G7000]?	'Lucio', 'Hanna'	['question_type_local']
+what courses have no masters students taking them?	'U310', 'U601'	['question_type_global', 'question_two_hop_statement']
+Who is in the [history] department	'Lorilee'	['question_type_global', 'question_single_statement']
+What are all the courses?	'G7000', 'U310', 'U104', 'U601'	['question_type_global', 'question_single_statement']
+[Hanna] has passed the thesis defense
+[this student] passed thesis proposal
+Which courses are offered this semester?	'G7000', 'U310', 'U104', 'U601'	['question_type_global', 'question_single_statement']
+Who is taking the G7000 course	'Lucio', 'Hanna'	['question_type_global', 'question_single_statement']
+[Tom] is TAing [U601]
+which [masters] courses have no masters students enrolled?	'U601'	['question_type_global', 'question_three_hop_statement']
+Which courses are [phd] level courses?	'U310', 'U104'	['question_type_global', 'question_single_statement']
+create a [full] [professor] named [Racquel]
+What courses is [Tom] TAing?	'U601'	['question_type_local']
+Which are some [masters] courses that phd students take?	'G7000'	['question_type_global', 'question_three_hop_statement']
+There is a course called [G202]
+[Racquel] has funding
+[Hanna] is [Racquel]'s student
+Who are the [full] professors?	'Racquel'	['question_type_global', 'question_single_statement']
+[Tereasa] is a [professor]
+[that professor] research interest is in [unsupervised machine learning]
+[that person] currently has funding
+who are the masters students?	'Lucio', 'Tom', 'Lorilee'	['question_type_global', 'question_single_statement']
+Which courses are [full_semester_course]	'G7000', 'U310', 'U104'	['question_type_global', 'question_single_statement']
+which [phd] courses have some phd students enrolled?	'U104'	['question_type_global', 'question_three_hop_statement']
+There is a course called [G101]
+Which courses are TAed by masters students?	'U601'	['question_type_global', 'question_two_hop_statement']
+there is a new masters student named [Roslyn]
+[this course] is a pass-fail course
+Which courses are [masters] level courses?	'G7000', 'U601'	['question_type_global', 'question_single_statement']
+[Racquel] is on sabbatical
+[this person] conducts research in [unsupervised machine learning]
+Which students's advisors are conducting research in [unsupervised machine learning]	'Hanna'	['question_type_global', 'question_two_hop_statement']
+What professors that currently advise students are going on sabbatical?	'Racquel'	['question_type_global', 'question_two_hop_statement']
+there is a [fourth year] PhD student named [Zenaida]
+[this professor] is on [this student]'s committee
+[this student] has failed the thesis proposal exam
+[this student] did not pass the qualifiers
+[Zenaida] is in [fifth year]
+[Zenaida] passed the qualifiers
+Which professors are currently on sabbatical?	'Racquel'	['question_type_global', 'question_single_statement']
+which [masters] courses have no masters students enrolled?	'U601'	['question_type_global', 'question_three_hop_statement']
+which courses have some phd students enrolled?	'G7000', 'U104'	['question_type_global', 'question_two_hop_statement']
+there is a new PhD student named [Genevive]
+[Tereasa] is on [Zenaida]'s committee
+Who are the students in the [english] department	'Lucio'	['question_type_global', 'question_two_hop_statement']
+[Yoshiko] is a masters student
+the affiliation of [Yoshiko] is [english]
+[Hanna] has [Tereasa] on the committee
+which [phd] courses have some masters students enrolled?	'U104'	['question_type_global', 'question_three_hop_statement']
+Which courses have masters student TAs?	'U601'	['question_type_global', 'question_two_hop_statement']
+Which professors advise students who passed their defense?	'Racquel'	['question_type_global', 'question_two_hop_statement']
+There is a course called [U7000]
+[this professor] advises [Genevive] and [Zenaida]
+Who is on sabbatical?	'Racquel'	['question_type_global', 'question_single_statement']
+Create a new course called [U610]
+[that class] is not a pass-fail course
+[Racquel] is the instructor for [this course]
+[U610] is set up as a full semester course
+which students passed the proposal exam?	'Hanna'	['question_type_global', 'question_single_statement']
+What students are advised by a professor with funding?	'Hanna', 'Zenaida', 'Genevive'	['question_type_global', 'question_two_hop_statement']
+[Genevive] and [Hanna] are both taking [U601]
+[Tereasa] teaches [U601]
+what [masters] courses have no masters students taking them?	'U601'	['question_type_global', 'question_three_hop_statement']
+[Zenaida] is TAing [this course]
+Who is enrolled in [that course]?	'Hanna', 'Genevive'	['question_type_local']
+Which professors have an [full] status?	'Racquel'	['question_type_global', 'question_single_statement']
+which [masters] courses have some phd students enrolled?	'G7000', 'U601'	['question_type_global', 'question_three_hop_statement']
+who are the masters students?	'Lucio', 'Tom', 'Lorilee', 'Roslyn', 'Yoshiko'	['question_type_global', 'question_single_statement']
+Which [fifth year] students are advised by professors working on [unsupervised machine learning]?	'Zenaida'	['question_type_global', 'question_three_hop_statement']
+Which students TA a course that is instructed by their advisor?	'Zenaida'	['question_type_global', 'question_three_hop_statement']
+Which are some courses that phd students take?	'G7000', 'U104', 'U601'	['question_type_global', 'question_two_hop_statement']
+there is a new PhD student named [William]
+[he] passed thesis defense
+[that student] is in their [fourth year]
+Which students are advised by professors working on [unsupervised machine learning]?	'Hanna', 'Zenaida', 'Genevive'	['question_type_global', 'question_two_hop_statement']
+What students are TAing a course taught by their advisor?	'Zenaida'	['question_type_global', 'question_three_hop_statement']
+[Willis] is a [assistant] [professor]
+[that student] has [Racquel] on the committee
+Who is teaching [full_semester_course]?	'Racquel'	['question_type_global', 'question_two_hop_statement']
+[Hanna] and [Lorilee] are TAs for [U601]
+Who is taking [U601]?	'Hanna', 'Genevive'	['question_type_local']
+What are all the courses?	'G7000', 'U310', 'U104', 'U601', 'G202', 'G101', 'U7000', 'U610'	['question_type_global', 'question_single_statement']
+Which are some courses that no masters student is taking?	'U310', 'U601', 'G202', 'G101', 'U7000', 'U610'	['question_type_global', 'question_two_hop_statement']
+What students are taking a course taught by their advisor?	'Genevive'	['question_type_global', 'question_three_hop_statement']
+What students are in the [english] department?	'Lucio', 'Yoshiko'	['question_type_global', 'question_two_hop_statement']
+Which professors that are currently on sabbatical need to be teaching [full_semester_course]?	'Racquel'	['question_type_global', 'question_three_hop_statement']
+Which courses are TAed by masters students?	'U601'	['question_type_global', 'question_two_hop_statement']
+[Casey] is a masters student
+the affiliation of [he] is [english]
+Which are some [phd] courses that no phd student is taking?	'U310'	['question_type_global', 'question_three_hop_statement']
+Which students are both taking a course and a TA?	'Hanna'	['question_type_global', 'question_two_hop_statement']
+Who is teaching [masters] courses?	'Tereasa'	['question_type_global', 'question_two_hop_statement']
+which courses have some masters students enrolled?	'G7000', 'U104'	['question_type_global', 'question_two_hop_statement']
+Which professors advise students who passed their defense?	'Racquel'	['question_type_global', 'question_two_hop_statement']
+there is a masters student named [Andy]
+Which students's advisors are conducting research in [unsupervised machine learning]	'Hanna', 'Zenaida', 'Genevive'	['question_type_global', 'question_two_hop_statement']
+Who is teaching [U601]?	'Tereasa'	['question_type_local']
+which students passed the proposal exam?	'Hanna'	['question_type_global', 'question_single_statement']
+which courses have no phd students enrolled?	'U310', 'G202', 'G101', 'U7000', 'U610'	['question_type_global', 'question_two_hop_statement']
+the affiliation of [Andy] is [history]
+who are the professors?	'Racquel', 'Tereasa', 'Willis'	['question_type_global', 'question_single_statement']
+who are the students?	'Lucio', 'Tom', 'Hanna', 'Lorilee', 'Roslyn', 'Zenaida', 'Genevive', 'Yoshiko', 'William', 'Casey', 'Andy'	['question_type_global', 'question_single_statement']
+there is a new PhD student named [Hiram]
+[Hiram] has failed the thesis proposal exam
+Who advises [Zenaida]?	'Tereasa'	['question_type_local']
+Which courses are offered this semester?	'G7000', 'U310', 'U104', 'U601', 'G202', 'G101', 'U7000', 'U610'	['question_type_global', 'question_single_statement']
+which courses have no masters students enrolled?	'U310', 'U601', 'G202', 'G101', 'U7000', 'U610'	['question_type_global', 'question_two_hop_statement']
+[Genevive] is attending [U601]
+Who is teaching [that course]?	'Tereasa'	['question_type_local']
+Which students's advisors are conducting research in [unsupervised machine learning]	'Hanna', 'Zenaida', 'Genevive'	['question_type_global', 'question_two_hop_statement']
+[Tereasa] is now on sabbatical
+What students are enrolled in [U601]?	'Hanna', 'Genevive'	['question_type_local']
+Which courses are TAed by phd students that passed their qualifier exam?	'U601'	['question_type_global', 'question_three_hop_statement']
+[Roslyn] is a student in [U610]
+Which professors are on sabbatical and are also advising students?	'Racquel', 'Tereasa'	['question_type_global', 'question_two_hop_statement']
+What students are in the [english] department?	'Lucio', 'Yoshiko', 'Casey'	['question_type_global', 'question_two_hop_statement']
+[Andy] and [Hiram] are TAing [U610]
+[U610] is a [undergraduate] level course
+Which students are TAing [this course]?	'Andy', 'Hiram'	['question_type_local']
+Which are some courses that no phd student is taking?	'U310', 'G202', 'G101', 'U7000', 'U610'	['question_type_global', 'question_two_hop_statement']
+who are the students?	'Lucio', 'Tom', 'Hanna', 'Lorilee', 'Roslyn', 'Zenaida', 'Genevive', 'Yoshiko', 'William', 'Casey', 'Andy', 'Hiram'	['question_type_global', 'question_single_statement']
+[Cyndi] is a [professor]
+What are the [full_semester_course]?	'G7000', 'U310', 'U104', 'U610'	['question_type_global', 'question_single_statement']
+There is a [undergraduate] [mini course] called [U8001]
+Which students are in their [fifth year]	'Zenaida'	['question_type_global', 'question_single_statement']
+[Roslyn] and [Genevive] are both taking [U8001]
+What courses is [Andy] TAing?	'U610'	['question_type_local']
+Which professors have funding?	'Racquel', 'Tereasa'	['question_type_global', 'question_two_hop_statement']
+What students in fifth year are advised by a professor with funding?	'Zenaida'	['question_type_global', 'question_three_hop_statement']
+What students are taking U8001	'Roslyn', 'Genevive'	['question_type_global', 'question_single_statement']
+[Casey] and [William] are TAs for [U601]
+What students are enrolled in [U601]?	'Hanna', 'Genevive'	['question_type_local']
+who are the masters students?	'Lucio', 'Tom', 'Lorilee', 'Roslyn', 'Yoshiko', 'Casey', 'Andy'	['question_type_global', 'question_single_statement']
+who are the professors?	'Racquel', 'Tereasa', 'Willis', 'Cyndi'	['question_type_global', 'question_single_statement']
+Which are some [undergraduate] courses that phd students take?	'U8001'	['question_type_global', 'question_three_hop_statement']
+Who is teaching [U601]?	'Tereasa'	['question_type_local']
+What students are in the [history] department?	'Lorilee', 'Andy'	['question_type_global', 'question_two_hop_statement']
+[Genevive] is a [first year] student
+[she] is in [Guggenheim Building]
+Who is teaching [U610]?	'Racquel'	['question_type_local']
+Which are some courses that phd students take?	'G7000', 'U104', 'U601', 'U8001'	['question_type_global', 'question_two_hop_statement']
+there is a new [first year] PhD student named [Lucy]
+[Lucy] is in [second year]
+[Lucy]'s office is [Mary Theater]
+[Willis] and [Racquel] are on [Lucy]'s committee
+What students are advised by a professor with funding?	'Hanna', 'Zenaida', 'Genevive'	['question_type_global', 'question_two_hop_statement']
+Which students are advised by professors working on [unsupervised machine learning]?	'Hanna', 'Zenaida', 'Genevive'	['question_type_global', 'question_two_hop_statement']
+There is a course called [G304]
+[that course] is set up as a mini course
+[that class] is a [undergraduate] course
+[G304] is taught by [Cyndi]
+Who is teaching [that course]?	'Cyndi'	['question_type_local']
+Who is on sabbatical?	'Racquel', 'Tereasa'	['question_type_global', 'question_single_statement']
+The TA for [that course] is [Genevive]
+[that course] is not a pass-fail course
+which courses have some phd students enrolled?	'G7000', 'U104', 'U601', 'U8001'	['question_type_global', 'question_two_hop_statement']
+which students passed the qualifying exam?	'Zenaida'	['question_type_global', 'question_single_statement']
+which courses have some masters students enrolled?	'G7000', 'U104', 'U610', 'U8001'	['question_type_global', 'question_two_hop_statement']
+Which students are taking [U610]?	'Roslyn'	['question_type_local']
+Which courses are TAed by phd students?	'U601', 'U610', 'G304'	['question_type_global', 'question_two_hop_statement']
+[Stephine] is a [full] [professor]
+[Roslyn] and [Lucy] are TAing [that course]
+Which professors advise students who passed their defense?	'Racquel'	['question_type_global', 'question_two_hop_statement']
+Which courses have phd student TAs that either have some funding or passed the qualifying exam?	'U601'	['question_type_global', 'question_four_hop_statement']
+[Lucy] is funded
+Who is on [this student]'s committee?	'Racquel', 'Willis'	['question_type_local']
+What professors advise students who passed their thesis qualifiers?	'Tereasa'	['question_type_global', 'question_two_hop_statement']
+Who is in the [english] department	'Lucio', 'Yoshiko', 'Casey'	['question_type_global', 'question_single_statement']
+Which undergraduate courses have phd student TAs?	'U610', 'G304'	['question_type_global', 'question_three_hop_statement']
+Who does [Racquel] advise?	'Hanna'	['question_type_local']
+Which courses are offered this semester?	'G7000', 'U310', 'U104', 'U601', 'G202', 'G101', 'U7000', 'U610', 'U8001', 'G304'	['question_type_global', 'question_single_statement']
+Which professors have an [assistant] status?	'Willis'	['question_type_global', 'question_single_statement']
+What students have funding?	'Lucy'	['question_type_global', 'question_single_statement']
+[this student] successfully defended their thesis
+Which phd students are both taking a course and a TA?	'Hanna', 'Genevive'	['question_type_global', 'question_three_hop_statement']
+Which professors are funded?,	'Racquel', 'Tereasa'	['question_type_global', 'question_two_hop_statement']
+[this student] is now in [third year]
+[she] is in [fourth year]
+Which courses are TAed by phd students?	'U601', 'U610', 'G304'	['question_type_global', 'question_two_hop_statement']
+Which courses are [mini course]	'U601', 'U8001', 'G304'	['question_type_global', 'question_single_statement']
+[she] has passed the thesis proposal exam
+[this person] failed the qualifiers
+What are the courses TAed by [Lucy]?	'G304'	['question_type_local']
+What [full] professors advise students who passed their thesis proposal?	'Racquel'	['question_type_global', 'question_three_hop_statement']
+Which are some [phd] courses that no masters student is taking?	'U310'	['question_type_global', 'question_three_hop_statement']
+Who is teaching [U610]?	'Racquel'	['question_type_local']
+Who is in [Guggenheim Building]	'Genevive'	['question_type_global', 'question_two_hop_statement']
+who are the masters students?	'Lucio', 'Tom', 'Lorilee', 'Roslyn', 'Yoshiko', 'Casey', 'Andy'	['question_type_global', 'question_single_statement']
+[Cyndi] is on [she]'s committee
+What professors advise students who defended successfully?	'Racquel'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by phd students in their fourth year?	'U601', 'G304'	['question_type_global', 'question_three_hop_statement']
+[Tereasa] is on [Lucy]'s committee
+Who is in [Mary Theater]	'Lucy'	['question_type_global', 'question_two_hop_statement']
+Which courses are [masters] level courses?	'G7000', 'U601'	['question_type_global', 'question_single_statement']
+What professors that currently advise students are going on sabbatical?	'Racquel', 'Tereasa'	['question_type_global', 'question_two_hop_statement']
+who are the phd students?	'Hanna', 'Zenaida', 'Genevive', 'William', 'Hiram', 'Lucy'	['question_type_global', 'question_single_statement']
+Which students are taking [U104]?	'Lucio', 'Hanna'	['question_type_local']
+Which students have offices in Mary Theater	'Lucy'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by phd students that passed their qualifier exam or have some funding?	'U601', 'G304'	['question_type_global', 'question_four_hop_statement']
+What courses is [that professor] teaching?	'U601'	['question_type_local']
+Which masters courses have phd student TAs?	'U601'	['question_type_global', 'question_three_hop_statement']
+What students are taking courses and TAing?	'Hanna', 'Roslyn', 'Genevive'	['question_type_global', 'question_two_hop_statement']
+Which students are part of the [physics] department	'Tom'	['question_type_global', 'question_two_hop_statement']
+[Zenaida] is in [Mary Theater]
+[this student] has failed the thesis proposal exam
+Who is [Zenaida]'s advisor?	'Tereasa'	['question_type_local']
+What students currently have their advisor on sabbatical	'Hanna', 'Zenaida', 'Genevive'	['question_type_global', 'question_two_hop_statement']

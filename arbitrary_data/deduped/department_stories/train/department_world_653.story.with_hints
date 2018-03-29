@@ -1,0 +1,243 @@
+there is a PhD student named [Casey(PhdStudent[1])]
+[that student(PhdStudent[1])] is in [Biosciences Building]
+[this person(PhdStudent[1])] passed thesis proposal
+who are the phd students?	'Casey(PhdStudent[1])'	['question_type_global', 'question_single_statement']
+who are the students?	'Casey(PhdStudent[1])'	['question_type_global', 'question_single_statement']
+[that student(PhdStudent[1])] passed thesis defense
+[this person(PhdStudent[1])] is a [second year] student
+[this student(PhdStudent[1])] is funded
+[this person(PhdStudent[1])] did not pass the qualifiers
+[Roslyn(PhdStudent[2])] is a PhD student
+[she(PhdStudent[2])] is in [Irey Theatre]
+[that person(PhdStudent[2])] has passed the qualifying exam
+create a [full] [professor] named [Genevive(Professor[3])]
+[that professor(Professor[3])] is on [that student(PhdStudent[2])]'s committee
+[this student(PhdStudent[2])] has passed the thesis proposal exam
+which students passed the defense?	'Casey(PhdStudent[1])'	['question_type_global', 'question_single_statement']
+[Francoise(PhdStudent[4])] is a PhD student
+There is a [phd] course called [G601(Course[1])]
+what [phd] courses have no phd students taking them?	'G601(Course[1])'	['question_type_global', 'question_three_hop_statement']
+[Roslyn(PhdStudent[2])] and [this student(PhdStudent[4])] are TAs for [that class(Course[1])]
+[G601(Course[1])] is not a pass-fail course
+[that class(Course[1])] is taught by [Genevive(Professor[3])]
+Who has an office in [Biosciences Building]	'Casey(PhdStudent[1])'	['question_type_global', 'question_two_hop_statement']
+which students passed the qualifying exam?	'Roslyn(PhdStudent[2])'	['question_type_global', 'question_single_statement']
+Create a new course called [U7000(Course[2])]
+[this course(Course[2])] is under the [english] department
+[this course(Course[2])] will be a mini course
+What courses is [Genevive(Professor[3])] teaching?	'G601(Course[1])'	['question_type_local']
+[that class(Course[2])] is not a pass-fail course
+[U7000(Course[2])] is 4 units
+The TA for [this course(Course[2])] is [Casey(PhdStudent[1])]
+Which courses are offered this semester in the english department?	'U7000(Course[2])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [G101(Course[3])]
+[G101(Course[3])] part of the [english] department
+There is a course called [U102(Course[4])]
+[U102(Course[4])] is a [undergraduate] level course
+[G101(Course[3])] will be a 2 unit course
+Who is currently TAing [U7000(Course[2])]?	'Casey(PhdStudent[1])'	['question_type_local']
+Which are some courses that no masters student is taking?	'G601(Course[1])', 'U7000(Course[2])', 'G101(Course[3])', 'U102(Course[4])'	['question_type_global', 'question_two_hop_statement']
+which students passed the defense?	'Casey(PhdStudent[1])'	['question_type_global', 'question_single_statement']
+there is a new masters student named [Kristeen(MastersStudent[5])]
+[Kristeen(MastersStudent[5])] and [Roslyn(PhdStudent[2])] are attending [that course(Course[3])]
+[Kristeen(MastersStudent[5])] is a TA for [G101(Course[3])]
+[that class(Course[3])] is a [phd] course
+[Francoise(PhdStudent[4])] and [Roslyn(PhdStudent[2])] are both enrolled in [G101(Course[3])]
+[U7000(Course[2])] is a [phd] course
+Which department is [G101(Course[3])] part of?	'english'	['question_type_local']
+What are the [phd] courses?	'G601(Course[1])', 'U7000(Course[2])', 'G101(Course[3])'	['question_type_global', 'question_single_statement']
+what [phd] courses have no masters students taking them?	'G601(Course[1])', 'U7000(Course[2])'	['question_type_global', 'question_three_hop_statement']
+there is a masters student named [Racquel(MastersStudent[6])]
+[this person(MastersStudent[6])]'s department is [computer science]
+there is a [sixth year] PhD student named [Milagros(PhdStudent[7])]
+[Genevive(Professor[3])] is on [Milagros(PhdStudent[7])]'s committee
+There is a [phd] 4 unit class called [U203(Course[5])]
+[that course(Course[5])] will be a full semester course
+Which courses are [phd] level courses?	'G601(Course[1])', 'U7000(Course[2])', 'G101(Course[3])', 'U203(Course[5])'	['question_type_global', 'question_single_statement']
+What students are taking courses and TAing?	'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])', 'Kristeen(MastersStudent[5])'	['question_type_global', 'question_two_hop_statement']
+[Tom(Professor[8])] is a [professor]
+[Milagros(PhdStudent[7])] is taking [that course(Course[5])]
+Which courses are TAed by phd students?	'G601(Course[1])', 'U7000(Course[2])'	['question_type_global', 'question_two_hop_statement']
+What are the [english] courses?	'U7000(Course[2])', 'G101(Course[3])'	['question_type_global', 'question_single_statement']
+What students are in Biosciences Building	'Casey(PhdStudent[1])'	['question_type_global', 'question_two_hop_statement']
+which [undergraduate] courses have no phd students enrolled?	'U102(Course[4])'	['question_type_global', 'question_three_hop_statement']
+there is a masters student named [Cecil(MastersStudent[9])]
+[she(PhdStudent[7])] is funded
+[she(PhdStudent[7])] has passed the thesis proposal exam
+[she(PhdStudent[7])] has passed the qualifying exam
+Which department is [G101(Course[3])] part of?	'english'	['question_type_local']
+[this student(PhdStudent[7])] has passed the thesis defense
+[Tom(Professor[8])] is on [Milagros(PhdStudent[7])]'s committee
+who are the masters students?	'Kristeen(MastersStudent[5])', 'Racquel(MastersStudent[6])', 'Cecil(MastersStudent[9])'	['question_type_global', 'question_single_statement']
+[Jack(Professor[10])] is a [professor]
+[Tom(Professor[8])] conducts research in [supervised learning]
+[Tom(Professor[8])] is in [Gamow Building]
+[that person(Professor[8])] is an [full] professor
+What courses is [Kristeen(MastersStudent[5])] taking?	'G101(Course[3])'	['question_type_local']
+What courses is [Casey(PhdStudent[1])] TAing?	'U7000(Course[2])'	['question_type_local']
+Which courses are [undergraduate] level courses?	'U102(Course[4])'	['question_type_global', 'question_single_statement']
+what courses have no masters students taking them?	'G601(Course[1])', 'U7000(Course[2])', 'U102(Course[4])', 'U203(Course[5])'	['question_type_global', 'question_two_hop_statement']
+Which students are funded?	'Casey(PhdStudent[1])', 'Milagros(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+[Milagros(PhdStudent[7])] has [Jack(Professor[10])] on the committee
+What courses is [Roslyn(PhdStudent[2])] taking?	'G101(Course[3])'	['question_type_local']
+What students have funding?	'Casey(PhdStudent[1])', 'Milagros(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+[Francoise(PhdStudent[4])] failed the qualifiers
+[Francoise(PhdStudent[4])] has passed the thesis proposal exam
+who are the phd students?	'Casey(PhdStudent[1])', 'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])', 'Milagros(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+Which courses are TAed by phd students that passed their qualifier exam?	'G601(Course[1])'	['question_type_global', 'question_three_hop_statement']
+[that student(PhdStudent[4])] has [Tom(Professor[8])] and [Jack(Professor[10])] on the committee
+[Francoise(PhdStudent[4])]'s office is [JILA Building]
+What professors are on [this student(PhdStudent[4])]'s committee	'Tom(Professor[8])', 'Jack(Professor[10])'	['question_type_local']
+there is a new masters student named [Lizeth(MastersStudent[11])]
+[he(PhdStudent[4])] passed the qualifiers
+What is [Tom(Professor[8])] working on?	'supervised learning'	['question_type_local']
+Who is in [Gamow Building]	'Tom(Professor[8])'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by masters students?	'G101(Course[3])'	['question_type_global', 'question_two_hop_statement']
+what [undergraduate] courses have no phd students taking them?	'U102(Course[4])'	['question_type_global', 'question_three_hop_statement']
+[Francoise(PhdStudent[4])] failed their thesis defense
+[this student(PhdStudent[4])] failed their thesis defense
+[Genevive(Professor[3])] is on [that person(PhdStudent[4])]'s committee
+which students passed the defense?	'Casey(PhdStudent[1])', 'Milagros(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+Which courses are part of the [english] department	'U7000(Course[2])', 'G101(Course[3])'	['question_type_global', 'question_single_statement']
+Who are the [second year] students?	'Casey(PhdStudent[1])'	['question_type_global', 'question_single_statement']
+Who are the professors working on [supervised learning]?	'Tom(Professor[8])'	['question_type_global', 'question_single_statement']
+[Luanna(Professor[12])] is a [professor]
+[Genevive(Professor[3])] advises [Milagros(PhdStudent[7])]
+[this professor(Professor[3])]'s office is [Macky Building]
+What is [Genevive(Professor[3])]'s office?	'Macky Building'	['question_type_local']
+What students are in the [computer science] department?	'Racquel(MastersStudent[6])'	['question_type_global', 'question_two_hop_statement']
+Which courses are 4 unit courses?	'U7000(Course[2])', 'U203(Course[5])'	['question_type_global', 'question_single_statement']
+What are the [full_semester_course]?	'U203(Course[5])'	['question_type_global', 'question_single_statement']
+[Jack(Professor[10])] advises [Roslyn(PhdStudent[2])]
+Which [full] professors advise students who passed their defense?	'Genevive(Professor[3])'	['question_type_global', 'question_three_hop_statement']
+Which professors are conducting research in [supervised learning]	'Tom(Professor[8])'	['question_type_global', 'question_single_statement']
+[Roslyn(PhdStudent[2])] has [Luanna(Professor[12])] on the committee
+[this student(PhdStudent[2])] passed thesis defense
+Which professors advise students who passed their proposal?	'Genevive(Professor[3])', 'Jack(Professor[10])'	['question_type_global', 'question_two_hop_statement']
+Which courses have phd student TAs that are in the second year?	'U7000(Course[2])'	['question_type_global', 'question_three_hop_statement']
+which [undergraduate] courses have no phd students enrolled?	'U102(Course[4])'	['question_type_global', 'question_three_hop_statement']
+[G101(Course[3])] is taught by [Jack(Professor[10])]
+Who is teaching [that course(Course[3])]?	'Jack(Professor[10])'	['question_type_local']
+Which courses are TAed by masters students?	'G101(Course[3])'	['question_type_global', 'question_two_hop_statement']
+[Kristeen(MastersStudent[5])]'s department is [english]
+Which courses did [that student(MastersStudent[5])] enroll in?	'G101(Course[3])'	['question_type_local']
+which students passed the defense?	'Casey(PhdStudent[1])', 'Roslyn(PhdStudent[2])', 'Milagros(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+which students passed the proposal exam?	'Casey(PhdStudent[1])', 'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])', 'Milagros(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+what courses have no masters students taking them?	'G601(Course[1])', 'U7000(Course[2])', 'U102(Course[4])', 'U203(Course[5])'	['question_type_global', 'question_two_hop_statement']
+Which are some [undergraduate] courses that no phd student is taking?	'U102(Course[4])'	['question_type_global', 'question_three_hop_statement']
+[that professor(Professor[10])] is an [distinguished] professor
+[that professor(Professor[10])]'s office is [Macky Building]
+[this person(Professor[10])] advises [Francoise(PhdStudent[4])]
+Which courses have phd student TAs that either have some funding or passed the qualifying exam?	'G601(Course[1])', 'U7000(Course[2])'	['question_type_global', 'question_four_hop_statement']
+What phd students are taking courses and TAing?	'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])'	['question_type_global', 'question_three_hop_statement']
+Which students are in a course that is instructed by their advisor?	'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])'	['question_type_global', 'question_three_hop_statement']
+[Casey(PhdStudent[1])] passed the qualifiers
+What professors are in Macky Building	'Genevive(Professor[3])', 'Jack(Professor[10])'	['question_type_global', 'question_two_hop_statement']
+Create a new course called [U303(Course[6])]
+Which courses are 2 unit courses?	'G101(Course[3])'	['question_type_global', 'question_single_statement']
+which [phd] courses have some phd students enrolled?	'G101(Course[3])', 'U203(Course[5])'	['question_type_global', 'question_three_hop_statement']
+which courses have some phd students enrolled?	'G101(Course[3])', 'U203(Course[5])'	['question_type_global', 'question_two_hop_statement']
+[that course(Course[6])] is full semester
+which students passed the qualifying exam?	'Casey(PhdStudent[1])', 'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])', 'Milagros(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+[U7000(Course[2])] is taught by [Tom(Professor[8])]
+Which courses are TAed by phd students in their second year?	'U7000(Course[2])'	['question_type_global', 'question_three_hop_statement']
+Which courses did [Kristeen(MastersStudent[5])] enroll in?	'G101(Course[3])'	['question_type_local']
+[U7000(Course[2])] is TAed by [Milagros(PhdStudent[7])] and [Racquel(MastersStudent[6])]
+[Francoise(PhdStudent[4])] is enrolled in [U7000(Course[2])]
+Who is in [Gamow Building]	'Tom(Professor[8])'	['question_type_global', 'question_two_hop_statement']
+Who is taking the U203 course	'Milagros(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+Which students are both taking a course and a TA?	'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])', 'Kristeen(MastersStudent[5])', 'Milagros(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+[Lizeth(MastersStudent[11])] is a TA for [U7000(Course[2])]
+[Francoise(PhdStudent[4])] is enrolled in [this course(Course[2])]
+Who is teaching [that class(Course[2])]?	'Tom(Professor[8])'	['question_type_local']
+Which phd students are both taking a course and a TA?	'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])', 'Milagros(PhdStudent[7])'	['question_type_global', 'question_three_hop_statement']
+Which courses in the english department are TAed by masters students?	'U7000(Course[2])', 'G101(Course[3])'	['question_type_global', 'question_three_hop_statement']
+Who has an office in [Macky Building]	'Genevive(Professor[3])', 'Jack(Professor[10])'	['question_type_global', 'question_two_hop_statement']
+[Jack(Professor[10])] is on [Casey(PhdStudent[1])]'s committee
+who are the students?	'Casey(PhdStudent[1])', 'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])', 'Kristeen(MastersStudent[5])', 'Racquel(MastersStudent[6])', 'Milagros(PhdStudent[7])', 'Cecil(MastersStudent[9])', 'Lizeth(MastersStudent[11])'	['question_type_global', 'question_single_statement']
+What students are in the [english] department?	'Kristeen(MastersStudent[5])'	['question_type_global', 'question_two_hop_statement']
+What phd students are taking U7000	'Francoise(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+Who has an office in [JILA Building]	'Francoise(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+which [phd] courses have no masters students enrolled?	'G601(Course[1])', 'U7000(Course[2])', 'U203(Course[5])'	['question_type_global', 'question_three_hop_statement']
+[that professor(Professor[10])] advises [Casey(PhdStudent[1])]
+Who has [Jack(Professor[10])] on their phd committee?	'Casey(PhdStudent[1])', 'Francoise(PhdStudent[4])', 'Milagros(PhdStudent[7])'	['question_type_local']
+who are the masters students?	'Kristeen(MastersStudent[5])', 'Racquel(MastersStudent[6])', 'Cecil(MastersStudent[9])', 'Lizeth(MastersStudent[11])'	['question_type_global', 'question_single_statement']
+What are all the courses?	'G601(Course[1])', 'U7000(Course[2])', 'G101(Course[3])', 'U102(Course[4])', 'U203(Course[5])', 'U303(Course[6])'	['question_type_global', 'question_single_statement']
+[that student(PhdStudent[1])] is taking [G601(Course[1])]
+[that course(Course[1])] has 12 units
+Who is teaching [this course(Course[1])]?	'Genevive(Professor[3])'	['question_type_local']
+What students are taking a course taught by their advisor?	'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])'	['question_type_global', 'question_three_hop_statement']
+Create a new [masters] course called [U201(Course[7])]
+[Cecil(MastersStudent[9])] is TAing [G601(Course[1])]
+What courses is [Jack(Professor[10])] teaching?	'G101(Course[3])'	['question_type_local']
+What masters students are taking G101	'Kristeen(MastersStudent[5])'	['question_type_global', 'question_two_hop_statement']
+[G101(Course[3])] is a pass-fail course
+Which students are TAing [this course(Course[3])]?	'Kristeen(MastersStudent[5])'	['question_type_local']
+what [phd] courses have phd students taking them?	'G601(Course[1])', 'U7000(Course[2])', 'G101(Course[3])', 'U203(Course[5])'	['question_type_global', 'question_three_hop_statement']
+[Luanna(Professor[12])] is in [Biosciences Building]
+What is [Tom(Professor[8])]'s office?	'Gamow Building'	['question_type_local']
+[that professor(Professor[12])] is an [assistant] professor
+Which courses did [Casey(PhdStudent[1])] enroll in?	'G601(Course[1])'	['question_type_local']
+[that professor(Professor[12])] conducts research in [evolutionary biology]
+What is [this person(Professor[12])]'s research focus?	'evolutionary biology'	['question_type_local']
+[Milagros(PhdStudent[7])] has [Luanna(Professor[12])] on the committee
+Which students are both taking a course and a TA?	'Casey(PhdStudent[1])', 'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])', 'Kristeen(MastersStudent[5])', 'Milagros(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+Who is taking the U7000 course	'Francoise(PhdStudent[4])'	['question_type_global', 'question_single_statement']
+Who are the professors working on [supervised learning]?	'Tom(Professor[8])'	['question_type_global', 'question_single_statement']
+For which phd students does [Jack(Professor[10])] serve on a committee?	'Casey(PhdStudent[1])', 'Francoise(PhdStudent[4])', 'Milagros(PhdStudent[7])'	['question_type_local']
+Which courses are TAed by masters students?	'G601(Course[1])', 'U7000(Course[2])', 'G101(Course[3])'	['question_type_global', 'question_two_hop_statement']
+Which professors advise students who passed their proposal?	'Genevive(Professor[3])', 'Jack(Professor[10])'	['question_type_global', 'question_two_hop_statement']
+Which courses are [mini course]	'U7000(Course[2])'	['question_type_global', 'question_single_statement']
+[that student(PhdStudent[7])] is in [Gamow Building]
+Which courses did [Francoise(PhdStudent[4])] enroll in?	'U7000(Course[2])', 'G101(Course[3])'	['question_type_local']
+Which courses are TAed by phd students?	'G601(Course[1])', 'U7000(Course[2])'	['question_type_global', 'question_two_hop_statement']
+Which professors advise students who passed their qualifying exam?	'Genevive(Professor[3])', 'Jack(Professor[10])'	['question_type_global', 'question_two_hop_statement']
+Which are some [undergraduate] courses that no masters student is taking?	'U102(Course[4])'	['question_type_global', 'question_three_hop_statement']
+What professors are in Biosciences Building	'Luanna(Professor[12])'	['question_type_global', 'question_two_hop_statement']
+Which courses have phd student TAs that either have some funding or passed the qualifying exam?	'G601(Course[1])', 'U7000(Course[2])'	['question_type_global', 'question_four_hop_statement']
+Which courses are in the [english] department?	'U7000(Course[2])', 'G101(Course[3])'	['question_type_global', 'question_single_statement']
+which [phd] courses have some masters students enrolled?	'G101(Course[3])'	['question_type_global', 'question_three_hop_statement']
+What are the courses that [this student(PhdStudent[7])] is enrolled in?	'U203(Course[5])'	['question_type_local']
+What are the [full_semester_course]?	'U203(Course[5])', 'U303(Course[6])'	['question_type_global', 'question_single_statement']
+Which professors advise students who passed their defense?	'Genevive(Professor[3])', 'Jack(Professor[10])'	['question_type_global', 'question_two_hop_statement']
+which students passed the defense?	'Casey(PhdStudent[1])', 'Roslyn(PhdStudent[2])', 'Milagros(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+Who is [this student(PhdStudent[7])]'s advisor?	'Genevive'	['question_type_local']
+Which courses are TAed by phd students in their sixth year?	'U7000(Course[2])'	['question_type_global', 'question_three_hop_statement']
+Which courses are TAed by masters students?	'G601(Course[1])', 'U7000(Course[2])', 'G101(Course[3])'	['question_type_global', 'question_two_hop_statement']
+What phd students are taking courses and TAing?	'Casey(PhdStudent[1])', 'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])', 'Milagros(PhdStudent[7])'	['question_type_global', 'question_three_hop_statement']
+Who is on [Milagros(PhdStudent[7])]'s committee?	'Genevive(Professor[3])', 'Tom(Professor[8])', 'Jack(Professor[10])', 'Luanna(Professor[12])'	['question_type_local']
+What students have funding?	'Casey(PhdStudent[1])', 'Milagros(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+What masters students are taking G101	'Kristeen(MastersStudent[5])'	['question_type_global', 'question_two_hop_statement']
+What courses is [that student(PhdStudent[7])] taking?	'U203(Course[5])'	['question_type_local']
+What students are taking courses and TAing?	'Casey(PhdStudent[1])', 'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])', 'Kristeen(MastersStudent[5])', 'Milagros(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+Who is on [this student(PhdStudent[7])]'s committee?	'Genevive(Professor[3])', 'Tom(Professor[8])', 'Jack(Professor[10])', 'Luanna(Professor[12])'	['question_type_local']
+What students are in Gamow Building	'Milagros(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+Who is part of the [computer science] department	'Racquel(MastersStudent[6])'	['question_type_global', 'question_single_statement']
+Which courses in the english department are TAed by masters students?	'U7000(Course[2])', 'G101(Course[3])'	['question_type_global', 'question_three_hop_statement']
+who are the masters students?	'Kristeen(MastersStudent[5])', 'Racquel(MastersStudent[6])', 'Cecil(MastersStudent[9])', 'Lizeth(MastersStudent[11])'	['question_type_global', 'question_single_statement']
+Which courses in the english department have second year phd TAs?	'U7000(Course[2])'	['question_type_global', 'question_three_hop_statement']
+Is [this student(PhdStudent[7])] ready to graduate?	"I don't know"	['question_type_local']
+Who are the [second year] students?	'Casey(PhdStudent[1])'	['question_type_global', 'question_single_statement']
+Who is teaching [G101(Course[3])]?	'Jack(Professor[10])'	['question_type_local']
+Which professors have an [distinguished] status?	'Jack(Professor[10])'	['question_type_global', 'question_single_statement']
+[Genevive(Professor[3])]'s research interest is [theoretical cosmology]
+who are the professors?	'Genevive(Professor[3])', 'Tom(Professor[8])', 'Jack(Professor[10])', 'Luanna(Professor[12])'	['question_type_global', 'question_single_statement']
+Who has an office in [Biosciences Building]	'Casey(PhdStudent[1])', 'Luanna(Professor[12])'	['question_type_global', 'question_two_hop_statement']
+Who has [this professor(Professor[3])] on their phd committee?	'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])', 'Milagros(PhdStudent[7])'	['question_type_local']
+What professors are on [Casey(PhdStudent[1])]'s committee	'Jack(Professor[10])'	['question_type_local']
+Which students are in a course that is instructed by their advisor?	'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])'	['question_type_global', 'question_three_hop_statement']
+[this professor(Professor[3])] is on [Casey(PhdStudent[1])]'s committee
+Who advises [Francoise(PhdStudent[4])]?	'Jack'	['question_type_local']
+Which phd courses are TAed by phd students?	'G601(Course[1])', 'U7000(Course[2])'	['question_type_global', 'question_three_hop_statement']
+Which professors have an [full] status?	'Genevive(Professor[3])', 'Tom(Professor[8])'	['question_type_global', 'question_single_statement']
+Create a new [masters] course called [U104(Course[8])]
+What is [that person(Professor[3])] working on?	'theoretical cosmology'	['question_type_local']
+Which courses are TAed by phd students that passed their qualifier exam and have some funding?	'U7000(Course[2])'	['question_type_global', 'question_four_hop_statement']
+Which courses have phd student TAs that either have some funding or passed the qualifying exam?	'G601(Course[1])', 'U7000(Course[2])'	['question_type_global', 'question_four_hop_statement']
+which courses have no masters students enrolled?	'G601(Course[1])', 'U7000(Course[2])', 'U102(Course[4])', 'U203(Course[5])', 'U303(Course[6])', 'U201(Course[7])', 'U104(Course[8])'	['question_type_global', 'question_two_hop_statement']
+What students are taking courses and TAing?	'Casey(PhdStudent[1])', 'Roslyn(PhdStudent[2])', 'Francoise(PhdStudent[4])', 'Kristeen(MastersStudent[5])', 'Milagros(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+[that course(Course[8])] is taught by [Luanna(Professor[12])]
+Who is teaching [this course(Course[8])]?	'Luanna(Professor[12])'	['question_type_local']
+There is a course called [G202(Course[9])]
+[G202(Course[9])] is not a pass-fail course
+[that class(Course[9])] is a [masters] level course

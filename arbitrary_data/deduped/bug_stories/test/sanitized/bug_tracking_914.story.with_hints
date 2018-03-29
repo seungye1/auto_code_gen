@@ -1,0 +1,105 @@
+there is a new [knowledge base(Project[1])] [project]
+[it(Project[1])] is a [open source] project
+[knowledge base project(Project[1])] is in the stage of [deployment]
+[Andrew(Tester[1])] is a [tester] on [knowledge base project(Project[1])]
+[Andrew(Tester[1])] is not working on [knowledge base project(Project[1])] anymore
+[Andrew(Tester[1])] is assigned to [that project(Project[1])]
+there is a new [chatbot(Project[2])] [project]
+[chatbot project(Project[2])] is a [personal] project
+[that project(Project[2])] is in the stage of [maintenance]
+there is a new [open source] [mobile(Project[3])] [project]
+[mobile project(Project[3])] is in the stage of [implementation]
+[Andy(Tester[2])] is a [tester]
+[Andrew(Tester[1])] is assigned to [chatbot project(Project[2])] also
+[Yoshiko(Developer[3])] is a [developer] on [knowledge base project(Project[1])]
+[that person(Developer[3])] is assigned to [mobile project(Project[3])] also
+[chatbot project(Project[2])] is assigned to [this person(Developer[3])] also
+[chatbot project(Project[2])] is not assigned to [Yoshiko(Developer[3])]
+[that person(Developer[3])] is working on [this project(Project[2])] also
+[mobile project(Project[3])] is assigned to [Andrew(Tester[1])] also
+[Jack(Tester[4])] is a [tester] on [mobile project(Project[3])]
+[Jack(Tester[4])] is assigned to [chatbot project(Project[2])] also
+[this test engineer(Tester[4])] is working on [knowledge base project(Project[1])] also
+[this tester(Tester[4])] is no longer assigned to [mobile project(Project[3])]
+[this project(Project[3])] is assigned to [Jack(Tester[4])] also
+[Francoise(Tester[5])] is a [tester] on [knowledge base project(Project[1])]
+[mobile project(Project[3])] is assigned to [Francoise(Tester[5])] also
+[this tester(Tester[5])] is assigned to [chatbot project(Project[2])] also
+[John(Developer[6])] is a [developer] on [mobile project(Project[3])]
+[knowledge base project(Project[1])] is assigned to [this person(Developer[6])] also
+[Zenaida(Developer[7])] is a [developer] on [it(Project[1])]
+[she(Developer[7])] is assigned to [chatbot project(Project[2])] also
+[John(Developer[6])] is working on [that project(Project[2])] also
+[Emmie(Developer[8])] is a [developer]
+[this project(Project[2])] is assigned to [this person(Developer[8])]
+[Andy(Tester[2])] is assigned to [mobile project(Project[3])]
+[this person(Tester[2])] is working on [knowledge base project(Project[1])] also
+[Andrew(Tester[1])] is not working on [mobile project(Project[3])] anymore
+[it(Project[3])] is in the [deployment] stage
+[Gabrielle(Tester[9])] is a [tester]
+[it(Project[3])] has moved to the [implementation] stage
+[knowledge base project(Project[1])] is assigned to [Gabrielle(Tester[9])]
+[this person(Tester[9])] is working on [mobile project(Project[3])] also
+[this tester(Tester[9])] is working on [chatbot project(Project[2])] also
+[Rachele(Developer[10])] is a [developer] on [mobile project(Project[3])]
+[knowledge base project(Project[1])] is assigned to [Rachele(Developer[10])] also
+[mobile project(Project[3])] is assigned to [Emmie(Developer[8])] also
+[she(Developer[8])] is working on [knowledge base project(Project[1])] also
+[she(Developer[8])] is no longer assigned to [chatbot project(Project[2])]
+[it(Project[2])] is assigned to [that developer(Developer[8])] also
+[Andy(Tester[2])] created a new [bug] for [mobile project(Project[3])]: [changelong needs to be added]
+[that issue(Issue[1])] is assigned to [Emmie(Developer[8])]
+[this person(Developer[8])] resolved [the changelong needs to be added issue(Issue[1])]
+[chatbot project(Project[2])] is not assigned to [Emmie(Developer[8])]
+[chatbot project(Project[2])] has moved to the [deployment] stage
+[it(Project[2])] is in the [implementation] stage
+[it(Project[2])] is now in the [deployment] stage
+[chatbot project(Project[2])] is assigned to [Emmie(Developer[8])] also
+[mobile project(Project[3])] is assigned to [Andrew(Tester[1])] also
+[John(Developer[6])] submitted a new [bug] for [mobile project(Project[3])]: [two consecutive dates identified as single date]
+[initialization broken] is a new [enhancement] for [knowledge base project(Project[1])] that [John(Developer[6])] just created
+[the bug that was last added(Issue[2])] was assigned to [Rachele(Developer[10])]
+[that developer(Developer[10])] resolved [the two consecutive dates identified as single date bug(Issue[2])]
+[Rachele(Developer[10])] is assigned to [chatbot project(Project[2])] also
+Who is [the two consecutive dates identified as single date bug(Issue[2])] assigned to?	'Rachele(Developer[10])'	['question_type_local']
+[dcoref always returns null] is a new [bug] created by [Yoshiko(Developer[3])] for [mobile project(Project[3])]
+[that issue(Issue[4])] was assigned to [John(Developer[6])]
+[this person(Developer[6])] resolved [the issue(Issue[4])]
+[Andy(Tester[2])] created a new issue for [mobile project(Project[3])]: [versioning needs to be made consistent]
+[knowledge base project(Project[1])] is in the [maintenance] stage
+[saving data throws exception] is a new [enhancement] created by [Andy(Tester[2])] for [knowledge base project(Project[1])]
+[knowledge base project(Project[1])] is now in the [deployment] stage
+There is a new [proposal] for the [chatbot project(Project[2])]: [timeout problem]
+[this issue(Issue[7])] was assigned to [Rachele(Developer[10])]
+[Rachele(Developer[10])] resolved [that issue(Issue[7])]
+[John(Developer[6])] created a new issue for [chatbot project(Project[2])]: [tokenization not consistent across platforms]
+[it(Issue[8])] was assigned to [Zenaida(Developer[7])]
+[this person(Developer[7])] resolved [it(Issue[8])]
+[knowledge base project(Project[1])] has moved to the [implementation] stage
+[this person(Developer[7])] is assigned to [mobile project(Project[3])] also
+[this person(Developer[7])] is not working on [knowledge base project(Project[1])] anymore
+[Zenaida(Developer[7])] is assigned to [it(Project[1])] also
+Who was [the proposal(Issue[7])] assigned to?	'Rachele(Developer[10])'	['question_type_local']
+[mobile project(Project[3])] is now in the [deployment] stage
+[Rachele(Developer[10])] created a new issue for [mobile project(Project[3])]: [xml extractor exception]
+[that issue(Issue[9])] is assigned to [Jack(Tester[4])]
+[Jack(Tester[4])] resolved [this issue(Issue[9])]
+[he(Tester[4])] is not working on [knowledge base project(Project[1])] anymore
+[that project(Project[1])] is now in the [evaluation] stage
+[this project(Project[1])] is now in the [implementation] stage
+[Rachele(Developer[10])] is not working on [that project(Project[1])] anymore
+[Rachele(Developer[10])] is assigned to [knowledge base project(Project[1])] also
+What are the issues assigned to [Zenaida(Developer[7])] that were resolved?	'tokenization not consistent across platforms(Issue[8])'	['question_type_local']
+[this project(Project[1])] is in the [evaluation] stage
+[the enhancement that was last added(Issue[6])] is assigned to [Rachele(Developer[10])]
+[that person(Developer[10])] resolved [the saving data throws exception issue(Issue[6])]
+Who created [the changelong needs to be added bug(Issue[1])]?	'Andy(Tester[2])'	['question_type_local']
+[Rachele(Developer[10])] is not working on [knowledge base project(Project[1])] anymore
+[it(Project[1])] is assigned to [Rachele(Developer[10])] also
+[this project(Project[1])] has moved to the [deployment] stage
+[chatbot project(Project[2])] is in the stage of [maintenance]
+[chatbot project(Project[2])] is in the stage of [implementation]
+[this project(Project[2])] is now in the [deployment] stage
+Who is [the enhancement that was last added(Issue[6])] assigned to?	'Rachele(Developer[10])'	['question_type_local']
+[this project(Project[2])] is in the [maintenance] stage
+[knowledge base project(Project[1])] has moved to the [evaluation] stage

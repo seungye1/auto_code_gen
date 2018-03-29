@@ -1,0 +1,108 @@
+there is a new [knowledge base(Project[1])] [project]
+[that project(Project[1])] is in the [testing] stage
+[that project(Project[1])] is a [external] project
+[knowledge base project(Project[1])] is now in the [development] stage
+[Tereasa(Developer[1])] is a [developer] on [knowledge base project(Project[1])]
+[knowledge base project(Project[1])] is now in the [maintenance] stage
+[Marisela(Developer[2])] is a [developer]
+There is a new [enhancement] for the [it(Project[1])]: [fails with apache stack]
+[the fails with apache stack issue(Issue[1])] is assigned to [Tereasa(Developer[1])]
+there is a new [external] [mobile(Project[2])] [project]
+[this project(Project[2])] is assigned to [Tereasa(Developer[1])] also
+[Michael(Developer[3])] is a [developer] on [knowledge base project(Project[1])]
+[Michael(Developer[3])] is working on [that project(Project[2])] also
+[that developer(Developer[3])] created a new issue for [this project(Project[2])]: [svd is slow]
+[this issue(Issue[2])] is assigned to [Michael(Developer[3])]
+[Michael(Developer[3])] resolved [it(Issue[2])]
+[Tereasa(Developer[1])] resolved [the fails with apache stack issue(Issue[1])]
+[dcoref always returns null] is a new [enhancement] created by [Tereasa(Developer[1])] for [mobile project(Project[2])]
+[the issue(Issue[3])] was assigned to [Tereasa(Developer[1])]
+[this developer(Developer[1])] resolved [the issue(Issue[3])]
+[Emma(Developer[4])] is a [developer]
+[Emma(Developer[4])] is assigned to [mobile project(Project[2])]
+[Rey(Tester[5])] is a [tester] on [knowledge base project(Project[1])]
+[Rey(Tester[5])] is no longer assigned to [knowledge base project(Project[1])]
+[Rey(Tester[5])] is assigned to [mobile project(Project[2])]
+[he(Tester[5])] is working on [knowledge base project(Project[1])] also
+[Eun(Tester[6])] is a [tester]
+[this project(Project[1])] is assigned to [Eun(Tester[6])]
+[mobile project(Project[2])] is assigned to [Eun(Tester[6])] also
+[it(Project[2])] is currently in the [development] stage
+[knowledge base project(Project[1])] is now in the [deployment] stage
+[null pointer exception during parsing] is a new issue for the [knowledge base project(Project[1])]
+[this issue(Issue[4])] was assigned to [Eun(Tester[6])]
+[Eun(Tester[6])] created a new issue for [mobile project(Project[2])]: [parse example terribly slow]
+[the issue(Issue[5])] was assigned to [Rey(Tester[5])]
+[this test engineer(Tester[5])] resolved [this issue(Issue[5])]
+[initialization broken] is a new issue for the [mobile project(Project[2])]
+[this issue(Issue[6])] was assigned to [Tereasa(Developer[1])]
+[she(Developer[1])] resolved [the issue(Issue[6])]
+[versioning needs to be made consistent] is a new [task] for the [mobile project(Project[2])]
+[memory leak while reading tf records] is a new [proposal] created by [Rey(Tester[5])] for [knowledge base project(Project[1])]
+[the proposal(Issue[8])] was assigned to [Rey(Tester[5])]
+[that test engineer(Tester[5])] resolved [the memory leak while reading tf records proposal(Issue[8])]
+there is a new [platform] [chatbot(Project[3])] [project]
+[this test engineer(Tester[5])] is working on [that project(Project[3])] also
+[Hanna(Developer[7])] is a [developer] on [mobile project(Project[2])]
+[chatbot project(Project[3])] is in the [testing] stage
+[this person(Developer[7])] is assigned to [chatbot project(Project[3])] also
+[this project(Project[3])] is in the [development] stage
+[Tereasa(Developer[1])] is assigned to [that project(Project[3])] also
+What are the issues submitted by [Eun(Tester[6])] that were resolved?	'parse example terribly slow(Issue[5])'	['question_type_local']
+[that project(Project[3])] is now in the [testing] stage
+[Eun(Tester[6])] resolved [the null pointer exception during parsing issue(Issue[4])]
+[chatbot project(Project[3])] is assigned to [Eun(Tester[6])] also
+[Kristeen(Tester[8])] is a [tester]
+[this tester(Tester[8])] is working on [knowledge base project(Project[1])]
+[Emma(Developer[4])] is assigned to [chatbot project(Project[3])] also
+[Charlott(Developer[9])] is a [developer]
+[she(Developer[9])] is working on [mobile project(Project[2])]
+[that project(Project[2])] is now in the [testing] stage
+[this project(Project[2])] has moved to the [development] stage
+Are there any issues assigned to [Eun(Tester[6])] that are resolved?	'null pointer exception during parsing(Issue[4])'	['question_type_local']
+[that project(Project[2])] is now in the [maintenance] stage
+[Luanna(Tester[10])] is a [tester] on [this project(Project[2])]
+[that test engineer(Tester[10])] is assigned to [knowledge base project(Project[1])] also
+[chatbot project(Project[3])] is assigned to [she(Tester[10])] also
+[Luanna(Tester[10])] is no longer assigned to [mobile project(Project[2])]
+[Luanna(Tester[10])] is assigned to [it(Project[2])] also
+[Emma(Developer[4])] is assigned to [knowledge base project(Project[1])] also
+[Charlott(Developer[9])] is assigned to [this project(Project[1])] also
+[the versioning needs to be made consistent task(Issue[7])] was assigned to [Rey(Tester[5])]
+[Hanna(Developer[7])] is working on [knowledge base project(Project[1])] also
+[she(Developer[7])] is no longer assigned to [that project(Project[1])]
+[this person(Developer[7])] is assigned to [knowledge base project(Project[1])] also
+[Rey(Tester[5])] is no longer assigned to [chatbot project(Project[3])]
+[he(Tester[5])] is working on [chatbot project(Project[3])] also
+[it(Project[3])] is assigned to [Michael(Developer[3])] also
+[that project(Project[3])] has moved to the [maintenance] stage
+[Tereasa(Developer[1])] is no longer assigned to [knowledge base project(Project[1])]
+[knowledge base project(Project[1])] is assigned to [this person(Developer[1])] also
+[she(Developer[1])] is no longer assigned to [that project(Project[1])]
+[this developer(Developer[1])] is working on [that project(Project[1])] also
+[Rey(Tester[5])] resolved [the versioning needs to be made consistent issue(Issue[7])]
+[chatbot project(Project[3])] is not assigned to [Tereasa(Developer[1])]
+[chatbot project(Project[3])] is assigned to [Tereasa(Developer[1])] also
+Are there any issues created by [Eun(Tester[6])] that are resolved?	'parse example terribly slow(Issue[5])'	['question_type_local']
+[Tereasa(Developer[1])] is not working on [knowledge base project(Project[1])] anymore
+[that person(Developer[1])] is assigned to [knowledge base project(Project[1])] also
+[mobile project(Project[2])] is not assigned to [that developer(Developer[1])]
+[it(Project[2])] is assigned to [Tereasa(Developer[1])] also
+[chatbot project(Project[3])] is not assigned to [Eun(Tester[6])]
+[this tester(Tester[6])] is assigned to [it(Project[3])] also
+[that project(Project[3])] is in the stage of [development]
+[this project(Project[3])] is now in the [deployment] stage
+[knowledge base project(Project[1])] is now in the [development] stage
+[knowledge base project(Project[1])] is in the [testing] stage
+What are the issues submitted by [Eun(Tester[6])]?	'parse example terribly slow(Issue[5])'	['question_type_local']
+[Kristeen(Tester[8])] is working on [chatbot project(Project[3])] also
+[she(Tester[8])] is working on [mobile project(Project[2])] also
+Who created [the svd is slow issue(Issue[2])]?	'Michael(Developer[3])'	['question_type_local']
+[knowledge base project(Project[1])] is in the [maintenance] stage
+[mobile project(Project[2])] is in the [development] stage
+Who created [the memory leak while reading tf records proposal(Issue[8])]?	'Rey(Tester[5])'	['question_type_local']
+Were there any issues created by [Michael(Developer[3])]?	'svd is slow(Issue[2])'	['question_type_local']
+What are the issues assigned to [Eun(Tester[6])]?	'null pointer exception during parsing(Issue[4])'	['question_type_local']
+[chatbot project(Project[3])] is assigned to [Marisela(Developer[2])]
+[that developer(Developer[2])] is assigned to [mobile project(Project[2])] also
+[that developer(Developer[2])] is assigned to [knowledge base project(Project[1])] also

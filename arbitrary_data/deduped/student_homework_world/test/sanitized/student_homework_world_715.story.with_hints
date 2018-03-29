@@ -1,0 +1,150 @@
+I am taking a course called [spanish(Course[1])]
+[spanish project 1(Project[1])] is released for [this course(Course[1])]
+The deadline of [spanish project 1(Project[1])] is [March 01]
+[this project(Project[1])] is worth [48] points
+The topic of [that project(Project[1])] is [decision trees]
+[spanish homework 1(Homework[2])] is released for [spanish(Course[1])]
+When is the deadline of [this project(Project[1])]?	'March 01'	['question_type_local']
+which assignments are due after [February 28]?	'spanish project 1(Project[1])'	['question_type_global', 'question_two_hop_statement']
+there is a [professor] named [Charlott(Professor[1])]
+[this person(Professor[1])] is in [025]
+When is [spanish project 1(Project[1])] due?	'March 01'	['question_type_local']
+[Milagros(Professor[2])] is a [professor]
+[Milagros(Professor[2])] is in [461]
+I submitted [spanish homework 1(Homework[2])] on time
+[spanish(Course[1])] has a new [spanish homework 2(Homework[3])] out
+The deadline of [spanish homework 1(Homework[2])] is [March 05]
+[spanish homework 1(Homework[2])] is on [vc dimension]
+[this assignment(Homework[2])] is worth [37] points
+there is new [spanish project 2(Project[4])] for [spanish(Course[1])]
+I submitted [this project(Project[4])] late
+The topic of [that project(Project[4])] is [Cells]
+[that project(Project[4])] is due on [March 16]
+[that project(Project[4])] is worth [40] points
+I am taking a [business communication(Course[2])] course
+[Milagros(Professor[2])] teaches [that class(Course[2])]
+The deadline of [spanish homework 1(Homework[2])] moved to [March 05]
+which homeworks are due after [March 01]?	'spanish homework 1(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+show me the homeworks due on [March 05]	'spanish homework 1(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+When is the deadline of [spanish project 1(Project[1])]?	'March 01'	['question_type_local']
+which assignments are due after [March 03]?	'spanish homework 1(Homework[2])', 'spanish project 2(Project[4])'	['question_type_global', 'question_two_hop_statement']
+How much is [that assignment(Homework[2])] worth?	37	['question_type_local']
+I am taking a course called [accounting(Course[3])]
+[Charlott(Professor[1])] teaches [that course(Course[3])]
+[spanish homework 3(Homework[5])] is released for [spanish(Course[1])]
+[spanish homework 3(Homework[5])] is [43] points
+I submitted [spanish homework 3(Homework[5])] and received 29 points
+[that assignment(Homework[5])] is about [suffrage movement]
+When is the deadline of [spanish homework 1(Homework[2])]?	'March 05'	['question_type_local']
+The deadline of [this homework(Homework[5])] is [March 25]
+create a [professor] named [William(Professor[3])]
+which assignments are due before [March 17]?	'spanish project 1(Project[1])', 'spanish homework 1(Homework[2])', 'spanish project 2(Project[4])'	['question_type_global', 'question_two_hop_statement']
+I am taking a course called [math(Course[4])]
+[this professor(Professor[3])]'s office is [1029]
+[math(Course[4])] is taught by [this person(Professor[3])]
+there is a [professor] named [Racquel(Professor[4])]
+[she(Professor[4])] is in [336]
+[accounting homework 1(Homework[6])] is out for [accounting(Course[3])]
+How much is [spanish homework 1(Homework[2])] worth?	37	['question_type_local']
+which projects are due after [March 13]?	'spanish project 2(Project[4])'	['question_type_global', 'question_two_hop_statement']
+which assignments are due on [March 01]?	'spanish project 1(Project[1])'	['question_type_global', 'question_two_hop_statement']
+[that assignment(Homework[6])] is due on [March 05]
+[this homework(Homework[6])] is worth [23] points
+I submitted [this assignment(Homework[6])] and received 8 points
+What is [Racquel(Professor[4])]'s office?	'336'	['question_type_local']
+list all projects that i submitted late for [spanish]	'spanish project 2(Project[4])'	['question_type_global', 'question_two_hop_statement']
+[accounting homework 2(Homework[7])] is out for [accounting(Course[3])]
+[accounting homework 2(Homework[7])] is due on [March 08]
+[Luanna(Professor[5])] is a [professor]
+[this person(Professor[5])]'s office is [025]
+[math project 1(Project[8])] is released for [math(Course[4])]
+What is the topic of [spanish homework 3(Homework[5])]?	'suffrage movement'	['question_type_local']
+list all projects for [William]	'math project 1(Project[8])'	['question_type_global', 'question_three_hop_statement']
+How many points did I get on [accounting homework 1(Homework[6])]	8	['question_type_local']
+[that assignment(Project[8])] is due on [March 04]
+[this assignment(Project[8])] is [49] points
+I submitted [that assignment(Project[8])] and received 49 points
+which homeworks are due after [March 07]?	'spanish homework 3(Homework[5])', 'accounting homework 2(Homework[7])'	['question_type_global', 'question_two_hop_statement']
+there is a [professor] named [Gia(Professor[6])]
+[Gia(Professor[6])] is in [025]
+When is the deadline of [accounting homework 1(Homework[6])]?	'March 05'	['question_type_local']
+[accounting(Course[3])] has a new [accounting homework 3(Homework[9])] released
+[this homework(Homework[9])] is about [Plants]
+what did I get on [math project 1(Project[8])]?	49	['question_type_local']
+list all projects that i submitted for [William]	'math project 1(Project[8])'	['question_type_global', 'question_three_hop_statement']
+create a [professor] named [Angelita(Professor[7])]
+[that assignment(Homework[9])] is [71] points
+[this homework(Homework[9])] is due on [March 31]
+I submitted [accounting homework 3(Homework[9])] and received 71 points
+When is the deadline of [spanish project 2(Project[4])]?	'March 16'	['question_type_local']
+create a [professor] named [Eun(Professor[8])]
+[that professor(Professor[8])] is in [025]
+What is [Milagros(Professor[2])]'s office?	'461'	['question_type_local']
+[math project 1(Project[8])] is on [Viruses & other Microbes]
+The deadline of [this assignment(Project[8])] moved to [March 02]
+list all projects that i submitted for [William]	'math project 1(Project[8])'	['question_type_global', 'question_three_hop_statement']
+When is the deadline of [accounting homework 2(Homework[7])]?	'March 08'	['question_type_local']
+show me the assignments due on [March 01]	'spanish project 1(Project[1])'	['question_type_global', 'question_two_hop_statement']
+[math project 2(Project[10])] is out for [math(Course[4])]
+The deadline of [math project 2(Project[10])] is [March 16]
+[this assignment(Project[10])] is on [cold war]
+there is a [professor] named [Tereasa(Professor[9])]
+[this professor(Professor[9])]'s office is [1029]
+Which professor is teaching [math(Course[4])]?	'William(Professor[3])'	['question_type_local']
+When is [math project 2(Project[10])] due?	'March 16'	['question_type_local']
+what are the assignments that i submitted for [William]	'math project 1(Project[8])'	['question_type_global', 'question_three_hop_statement']
+[business communication(Course[2])] has a new [business communication project 1(Project[11])] out
+[business communication project 1(Project[11])] is about [k means]
+[this assignment(Project[11])] is worth [25] points
+I submitted [this assignment(Project[11])] and received 25 points
+there is new [math homework 1(Homework[12])] for [math(Course[4])]
+The deadline of [this project(Project[11])] is [March 06]
+there is a new [homework(Homework[13])] for [math(Course[4])]
+there is a [professor] named [Kristeen(Professor[10])]
+The deadline of [that assignment(Homework[13])] is [March 06]
+[business communication(Course[2])] has a new [business communication project 2(Project[14])] out
+[this project(Project[14])] is due on [March 20]
+[this project(Project[14])] is worth [40] points
+I submitted [this assignment(Project[14])] and received 40 points
+[business communication(Course[2])] has a new [business communication homework 1(Homework[15])] released
+[that project(Project[14])] is about [reinforcement learning]
+I submitted [math project 2(Project[10])]
+which projects are due on [March 16]?	'spanish project 2(Project[4])', 'math project 2(Project[10])'	['question_type_global', 'question_two_hop_statement']
+When is the deadline of [math project 1(Project[8])]?	'March 02'	['question_type_local']
+[Angelita(Professor[7])]'s office is [025]
+what did I get on [business communication project 2(Project[14])]?	40	['question_type_local']
+[math project 2(Project[10])] is [13] points
+What is [math project 1(Project[8])] on?	'Viruses & other Microbes'	['question_type_local']
+which projects are due after [March 08]?	'spanish project 2(Project[4])', 'math project 2(Project[10])', 'business communication project 2(Project[14])'	['question_type_global', 'question_two_hop_statement']
+show me the projects due on [March 06]	'business communication project 1(Project[11])'	['question_type_global', 'question_two_hop_statement']
+list all assignments for [William]	'math project 1(Project[8])', 'math project 2(Project[10])', 'math homework 1(Homework[12])', 'math homework 2(Homework[13])'	['question_type_global', 'question_three_hop_statement']
+[math project 3(Project[16])] is released for [math(Course[4])]
+The deadline of [math project 3(Project[16])] is [March 25]
+When is [this assignment(Project[16])] due?	'March 25'	['question_type_local']
+which assignments are due on [March 06]?	'business communication project 1(Project[11])', 'math homework 2(Homework[13])'	['question_type_global', 'question_two_hop_statement']
+I submitted [this project(Project[16])]
+which projects are due after [March 03]?	'spanish project 2(Project[4])', 'math project 2(Project[10])', 'business communication project 1(Project[11])', 'business communication project 2(Project[14])', 'math project 3(Project[16])'	['question_type_global', 'question_two_hop_statement']
+there is new [spanish homework 4(Homework[17])] for [spanish(Course[1])]
+[that homework(Homework[17])] is due on [April 17]
+[that homework(Homework[17])] is about [supervised learning]
+I submitted [this assignment(Homework[17])]
+How many points did I get on [math project 1(Project[8])]	49	['question_type_local']
+What is [Eun(Professor[8])]'s office?	'025'	['question_type_local']
+[this homework(Homework[17])] is worth [51] points
+[math homework 3(Homework[18])] is released for [math(Course[4])]
+[math homework 3(Homework[18])] is [77] points
+What is [Angelita(Professor[7])]'s office?	'025'	['question_type_local']
+The deadline of [this homework(Homework[18])] is [March 22]
+When is the deadline of [business communication project 1(Project[11])]?	'March 06'	['question_type_local']
+[accounting(Course[3])] has a new [accounting project 1(Project[19])] released
+I submitted [that project(Project[19])] on time
+[accounting project 1(Project[19])] is worth [36] points
+[that project(Project[19])] is due on [March 05]
+What is [William(Professor[3])]'s office?	'1029'	['question_type_local']
+list all projects that i submitted late for [spanish]	'spanish project 2(Project[4])'	['question_type_global', 'question_two_hop_statement']
+show me the projects due on [March 06]	'business communication project 1(Project[11])'	['question_type_global', 'question_two_hop_statement']
+What is the topic of [spanish project 2(Project[4])]?	'Cells'	['question_type_local']
+The deadline of [accounting project 1(Project[19])] moved to [March 03]
+which assignments are due on [March 05]?	'spanish homework 1(Homework[2])', 'accounting homework 1(Homework[6])'	['question_type_global', 'question_two_hop_statement']
+there is new [accounting project 2(Project[20])] for [accounting(Course[3])]
+I submitted [accounting project 2(Project[20])] late

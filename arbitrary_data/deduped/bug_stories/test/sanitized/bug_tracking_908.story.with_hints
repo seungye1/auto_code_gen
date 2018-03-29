@@ -1,0 +1,104 @@
+there is a new [platform] [knowledge base(Project[1])] [project]
+[that project(Project[1])] is in the [deployment] stage
+[knowledge base project(Project[1])] has moved to the [implementation] stage
+[Igor(Developer[1])] is a [developer]
+[this project(Project[1])] is assigned to [Igor(Developer[1])]
+[Michael(Developer[2])] is a [developer] on [knowledge base project(Project[1])]
+[this person(Developer[2])] is not working on [knowledge base project(Project[1])] anymore
+[Willis(Developer[3])] is a [developer] on [knowledge base project(Project[1])]
+[this project(Project[1])] is in the [evaluation] stage
+[that project(Project[1])] is in the [development] stage
+[tokenization not consistent across platforms] is a new issue for the [that project(Project[1])]
+[the issue(Issue[1])] was assigned to [Igor(Developer[1])]
+[Francoise(Tester[4])] is a [tester]
+[knowledge base project(Project[1])] is assigned to [that test engineer(Tester[4])]
+[knowledge base project(Project[1])] is now in the [deployment] stage
+There is a new issue for the [it(Project[1])]: [memory leak while reading tf records]
+[that issue(Issue[2])] was assigned to [Igor(Developer[1])]
+[knowledge base project(Project[1])] is assigned to [Michael(Developer[2])]
+[Igor(Developer[1])] resolved [the tokenization not consistent across platforms issue(Issue[1])]
+[this developer(Developer[1])] is not working on [knowledge base project(Project[1])] anymore
+[Gabrielle(Developer[5])] is a [developer] on [knowledge base project(Project[1])]
+[this project(Project[1])] is assigned to [Igor(Developer[1])]
+[Gia(Developer[6])] is a [developer] on [that project(Project[1])]
+[Michael(Developer[2])] created a new issue for [that project(Project[1])]: [fails with apache stack]
+[the issue(Issue[3])] is assigned to [Gabrielle(Developer[5])]
+[Gabrielle(Developer[5])] resolved [the fails with apache stack issue(Issue[3])]
+[that person(Developer[5])] is not working on [knowledge base project(Project[1])] anymore
+[that developer(Developer[5])] is working on [knowledge base project(Project[1])]
+[Gia(Developer[6])] submitted a new [enhancement] for [knowledge base project(Project[1])]: [timeout problem]
+[this issue(Issue[4])] is assigned to [Michael(Developer[2])]
+[this developer(Developer[2])] resolved [the enhancement(Issue[4])]
+there is a new [internal] [mobile(Project[2])] [project]
+[this project(Project[2])] is in the [development] stage
+there is a new [chatbot(Project[3])] [project]
+[chatbot project(Project[3])] is in the [evaluation] stage
+[chatbot project(Project[3])] is a [platform] project
+[Willis(Developer[3])] created a new issue for [knowledge base project(Project[1])]: [parsing with parantheses fails]
+[Igor(Developer[1])] is assigned to [mobile project(Project[2])] also
+[chatbot project(Project[3])] is assigned to [this developer(Developer[1])] also
+[mobile project(Project[2])] is assigned to [Michael(Developer[2])] also
+[this developer(Developer[2])] is working on [chatbot project(Project[3])] also
+[Tereasa(Tester[7])] is a [tester]
+[mobile project(Project[2])] is assigned to [Gabrielle(Developer[5])] also
+[chatbot project(Project[3])] is assigned to [Gabrielle(Developer[5])] also
+[Eun(Developer[8])] is a [developer] on [it(Project[3])]
+Who is [the timeout problem enhancement(Issue[4])] assigned to?	'Michael(Developer[2])'	['question_type_local']
+[that developer(Developer[8])] is working on [knowledge base project(Project[1])] also
+[Marisela(Developer[9])] is a [developer]
+[this project(Project[1])] is assigned to [this person(Developer[9])]
+[this person(Developer[9])] is working on [chatbot project(Project[3])] also
+[Marisela(Developer[9])] is working on [mobile project(Project[2])] also
+[that project(Project[2])] is in the stage of [implementation]
+[Igor(Developer[1])] submitted a new [task] for [mobile project(Project[2])]: [wrong pos tag on consecutive words]
+[that issue(Issue[6])] was assigned to [Igor(Developer[1])]
+[this developer(Developer[1])] resolved [the wrong pos tag on consecutive words issue(Issue[6])]
+[Igor(Developer[1])] is not working on [mobile project(Project[2])] anymore
+[Michael(Developer[2])] created a new [task] for [mobile project(Project[2])]: [null pointer exception during parsing]
+[chatbot project(Project[3])] is not assigned to [Michael(Developer[2])]
+[Michael(Developer[2])] is working on [chatbot project(Project[3])] also
+[Michael(Developer[2])] is no longer assigned to [knowledge base project(Project[1])]
+[that developer(Developer[2])] is assigned to [knowledge base project(Project[1])] also
+[that project(Project[1])] has moved to the [development] stage
+Are there any issues created by [Gia(Developer[6])] that are resolved?	'timeout problem(Issue[4])'	['question_type_local']
+[that project(Project[1])] is in the stage of [deployment]
+[knowledge base project(Project[1])] is in the stage of [evaluation]
+[Igor(Developer[1])] is assigned to [mobile project(Project[2])] also
+There is a new [task] for the [it(Project[2])]: [issue in using training data]
+[mobile project(Project[2])] is in the stage of [deployment]
+[that issue(Issue[8])] is assigned to [Michael(Developer[2])]
+[knowledge base project(Project[1])] is now in the [deployment] stage
+[it(Project[1])] is in the [development] stage
+[this project(Project[1])] is in the stage of [evaluation]
+[it(Project[1])] is now in the [development] stage
+[Gia(Developer[6])] submitted a new [bug] for [knowledge base project(Project[1])]: [parse example terribly slow]
+[that project(Project[1])] is in the [deployment] stage
+[the issue(Issue[9])] was assigned to [Gia(Developer[6])]
+[she(Developer[6])] resolved [the bug(Issue[9])]
+[chatbot project(Project[3])] is assigned to [she(Developer[6])] also
+[Gia(Developer[6])] is assigned to [mobile project(Project[2])] also
+[mobile project(Project[2])] is assigned to [Eun(Developer[8])] also
+[Michael(Developer[2])] created a new [bug] for [mobile project(Project[2])]: [dcoref always returns null]
+[the issue(Issue[10])] is assigned to [Gabrielle(Developer[5])]
+[she(Developer[5])] resolved [it(Issue[10])]
+Who submitted [the wrong pos tag on consecutive words task(Issue[6])]?	'Igor(Developer[1])'	['question_type_local']
+[Gabrielle(Developer[5])] is no longer assigned to [mobile project(Project[2])]
+[knowledge base project(Project[1])] is not assigned to [Gabrielle(Developer[5])]
+[she(Developer[5])] is assigned to [mobile project(Project[2])] also
+[knowledge base project(Project[1])] is assigned to [that person(Developer[5])] also
+[knowledge base project(Project[1])] is now in the [development] stage
+[this project(Project[1])] is now in the [deployment] stage
+Are there any issues assigned to [Michael(Developer[2])] that are not resolved?	'issue in using training data(Issue[8])'	['question_type_local']
+[this project(Project[1])] is now in the [implementation] stage
+[that project(Project[1])] is in the stage of [development]
+[that project(Project[1])] is in the stage of [evaluation]
+[chatbot project(Project[3])] is assigned to [Willis(Developer[3])] also
+[he(Developer[3])] is working on [mobile project(Project[2])] also
+[this project(Project[2])] is assigned to [Tereasa(Tester[7])]
+[this person(Tester[7])] is working on [knowledge base project(Project[1])] also
+[chatbot project(Project[3])] is assigned to [that test engineer(Tester[7])] also
+[she(Tester[7])] is not working on [knowledge base project(Project[1])] anymore
+[that test engineer(Tester[7])] is working on [this project(Project[1])] also
+[Michael(Developer[2])] is no longer assigned to [chatbot project(Project[3])]
+[this person(Developer[2])] is assigned to [this project(Project[3])] also
+[mobile project(Project[2])] is now in the [implementation] stage

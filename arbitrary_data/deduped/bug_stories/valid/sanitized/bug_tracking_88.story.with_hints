@@ -1,0 +1,107 @@
+there is a new [knowledge base(Project[1])] [project]
+[this project(Project[1])] is in the stage of [evaluation]
+[that project(Project[1])] is a [early stage] project
+there is a new [internal] [mobile(Project[2])] [project]
+[mobile project(Project[2])] is in the stage of [maintenance]
+[Rachele(Tester[1])] is a [tester]
+[memory leak while reading tf records] is a new [enhancement] for the [that project(Project[2])]
+[this test engineer(Tester[1])] is assigned to [knowledge base project(Project[1])]
+[Genevive(Developer[2])] is a [developer] on [knowledge base project(Project[1])]
+[Rachele(Tester[1])] is working on [mobile project(Project[2])] also
+[parse example terribly slow] is a new [enhancement] for [mobile project(Project[2])] that [Rachele(Tester[1])] just created
+[this issue(Issue[2])] is assigned to [Rachele(Tester[1])]
+[this person(Tester[1])] resolved [that issue(Issue[2])]
+[knowledge base project(Project[1])] is in the stage of [testing]
+There is a new issue for the [this project(Project[1])]: [dcoref always returns null]
+[Rachele(Tester[1])] is no longer assigned to [mobile project(Project[2])]
+[she(Tester[1])] is assigned to [it(Project[2])] also
+[this project(Project[2])] is now in the [design] stage
+[Will(Developer[3])] is a [developer] on [mobile project(Project[2])]
+What are the issues created by [Rachele(Tester[1])]?	'parse example terribly slow(Issue[2])'	['question_type_local']
+[that project(Project[2])] is assigned to [Genevive(Developer[2])] also
+[Roslyn(Developer[4])] is a [developer]
+[Roslyn(Developer[4])] is working on [knowledge base project(Project[1])]
+[that person(Developer[4])] is working on [mobile project(Project[2])] also
+[knowledge base project(Project[1])] is not assigned to [she(Developer[4])]
+[that developer(Developer[4])] is assigned to [it(Project[1])] also
+[this developer(Developer[4])] is not working on [mobile project(Project[2])] anymore
+[Roslyn(Developer[4])] is assigned to [mobile project(Project[2])] also
+[Alverta(Developer[5])] is a [developer] on [it(Project[2])]
+[knowledge base project(Project[1])] is assigned to [she(Developer[5])] also
+[that project(Project[1])] has moved to the [maintenance] stage
+there is a new [chatbot(Project[3])] [project]
+[Alverta(Developer[5])] created a new issue for [mobile project(Project[2])]: [two consecutive dates identified as single date]
+[this issue(Issue[4])] was assigned to [Roslyn(Developer[4])]
+[this person(Developer[4])] resolved [this issue(Issue[4])]
+[that developer(Developer[4])] is assigned to [chatbot project(Project[3])] also
+[Tereasa(Developer[6])] is a [developer]
+[that project(Project[3])] is a [pilot] project
+[that developer(Developer[6])] is assigned to [it(Project[3])]
+[mobile project(Project[2])] is assigned to [Tereasa(Developer[6])] also
+[this developer(Developer[6])] is assigned to [knowledge base project(Project[1])] also
+[Rachele(Tester[1])] is working on [chatbot project(Project[3])] also
+[that project(Project[3])] is currently in the [evaluation] stage
+[Marisela(Tester[7])] is a [tester] on [mobile project(Project[2])]
+[Danita(Developer[8])] is a [developer] on [knowledge base project(Project[1])]
+[Genevive(Developer[2])] created a new issue for [mobile project(Project[2])]: [fails with apache stack]
+[it(Issue[5])] was assigned to [Alverta(Developer[5])]
+[Alverta(Developer[5])] resolved [the issue(Issue[5])]
+[Casey(Tester[9])] is a [tester]
+[he(Tester[9])] is working on [chatbot project(Project[3])]
+[that person(Tester[9])] is assigned to [mobile project(Project[2])] also
+[knowledge base project(Project[1])] is assigned to [this tester(Tester[9])] also
+There is a new [proposal] for the [knowledge base project(Project[1])]: [xml extractor exception]
+[the proposal(Issue[6])] was assigned to [Rachele(Tester[1])]
+[Will(Developer[3])] is working on [chatbot project(Project[3])] also
+[that project(Project[3])] is now in the [testing] stage
+[knowledge base project(Project[1])] is in the stage of [evaluation]
+[Francoise(Tester[10])] is a [tester] on [knowledge base project(Project[1])]
+[he(Tester[10])] is assigned to [chatbot project(Project[3])] also
+[Roslyn(Developer[4])] created a new [enhancement] for [mobile project(Project[2])]: [tokenization not consistent across platforms]
+[Genevive(Developer[2])] is working on [this project(Project[3])] also
+[the dcoref always returns null issue(Issue[3])] was assigned to [Francoise(Tester[10])]
+[Francoise(Tester[10])] resolved [the issue(Issue[3])]
+[this person(Tester[10])] is working on [mobile project(Project[2])] also
+[Genevive(Developer[2])] is not working on [chatbot project(Project[3])] anymore
+[she(Developer[2])] is working on [this project(Project[3])] also
+[Will(Developer[3])] is working on [knowledge base project(Project[1])] also
+[Rachele(Tester[1])] resolved [the xml extractor exception proposal(Issue[6])]
+[knowledge base project(Project[1])] is assigned to [Marisela(Tester[7])] also
+[chatbot project(Project[3])] is assigned to [Marisela(Tester[7])] also
+[knowledge base project(Project[1])] has moved to the [design] stage
+[memory leak bug] is a new [bug] submitted by [Francoise(Tester[10])] for [knowledge base project(Project[1])]
+What are the issues submitted by [Alverta(Developer[5])]?	'two consecutive dates identified as single date(Issue[4])'	['question_type_local']
+[Roslyn(Developer[4])] is not working on [mobile project(Project[2])] anymore
+[this project(Project[2])] has moved to the [evaluation] stage
+[Roslyn(Developer[4])] is working on [mobile project(Project[2])] also
+Who created [the tokenization not consistent across platforms enhancement(Issue[7])]?	'Roslyn(Developer[4])'	['question_type_local']
+[knowledge base project(Project[1])] is not assigned to [Tereasa(Developer[6])]
+[Rachele(Tester[1])] created a new issue for [chatbot project(Project[3])]: [parsing with parantheses fails]
+[the issue(Issue[9])] was assigned to [Roslyn(Developer[4])]
+[Roslyn(Developer[4])] resolved [that issue(Issue[9])]
+What are the issues submitted by [Genevive(Developer[2])]?	'fails with apache stack(Issue[5])'	['question_type_local']
+Are there any issues submitted by [Genevive(Developer[2])] that are resolved?	'fails with apache stack(Issue[5])'	['question_type_local']
+[Roslyn(Developer[4])] is no longer assigned to [mobile project(Project[2])]
+[Tereasa(Developer[6])] is assigned to [knowledge base project(Project[1])] also
+[Tereasa(Developer[6])] is not working on [chatbot project(Project[3])] anymore
+[she(Developer[6])] is working on [this project(Project[3])] also
+[chatbot project(Project[3])] is in the stage of [design]
+What are the issues submitted by [Alverta(Developer[5])] that were resolved?	'two consecutive dates identified as single date(Issue[4])'	['question_type_local']
+[Roslyn(Developer[4])] is working on [mobile project(Project[2])] also
+[this project(Project[2])] is now in the [design] stage
+[this project(Project[2])] is now in the [maintenance] stage
+[that project(Project[2])] has moved to the [testing] stage
+[it(Project[2])] is not assigned to [Alverta(Developer[5])]
+[Alverta(Developer[5])] is working on [mobile project(Project[2])] also
+[this person(Developer[5])] is working on [chatbot project(Project[3])] also
+[that project(Project[3])] has moved to the [evaluation] stage
+[that project(Project[3])] has moved to the [maintenance] stage
+Who submitted [the parse example terribly slow issue(Issue[2])]?	'Rachele(Tester[1])'	['question_type_local']
+[knowledge base project(Project[1])] is in the stage of [evaluation]
+[Alverta(Developer[5])] is not working on [knowledge base project(Project[1])] anymore
+[she(Developer[5])] is assigned to [knowledge base project(Project[1])] also
+[Genevive(Developer[2])] is not working on [chatbot project(Project[3])] anymore
+[this project(Project[3])] is in the stage of [testing]
+[it(Project[3])] is in the stage of [design]
+[chatbot project(Project[3])] has moved to the [testing] stage
+[chatbot project(Project[3])] has moved to the [design] stage

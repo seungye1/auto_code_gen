@@ -1,0 +1,111 @@
+there is a new [chatbot(Project[1])] [project]
+[that project(Project[1])] is a [early stage] project
+[chatbot project(Project[1])] is in the [implementation] stage
+There is a new [bug] for the [that project(Project[1])]: [initialization broken]
+[Genevive(Developer[1])] is a [developer]
+[chatbot project(Project[1])] has moved to the [development] stage
+[Genevive(Developer[1])] is working on [chatbot project(Project[1])]
+[Zenaida(Tester[2])] is a [tester]
+[she(Tester[2])] is working on [chatbot project(Project[1])]
+[Tawnya(Tester[3])] is a [tester]
+[chatbot project(Project[1])] is in the [implementation] stage
+[Tawnya(Tester[3])] is working on [chatbot project(Project[1])]
+there is a new [early stage] [knowledge base(Project[2])] [project]
+[chatbot project(Project[1])] is in the stage of [maintenance]
+There is a new issue for the [knowledge base project(Project[2])]: [null pointer exception during parsing]
+[that project(Project[1])] is in the [implementation] stage
+there is a new [open source] [mobile(Project[3])] [project]
+[mobile project(Project[3])] is in the [implementation] stage
+[knowledge base project(Project[2])] is assigned to [Zenaida(Tester[2])] also
+[the bug(Issue[1])] is assigned to [Genevive(Developer[1])]
+[Francoise(Developer[4])] is a [developer] on [chatbot project(Project[1])]
+[she(Developer[1])] is working on [knowledge base project(Project[2])] also
+[Genevive(Developer[1])] is working on [mobile project(Project[3])] also
+[Kristeen(Developer[5])] is a [developer]
+[Kristeen(Developer[5])] is working on [this project(Project[3])]
+[Kristeen(Developer[5])] is assigned to [chatbot project(Project[1])] also
+[Genevive(Developer[1])] created a new [proposal] for [chatbot project(Project[1])]: [changelong needs to be added]
+[the issue(Issue[3])] is assigned to [Kristeen(Developer[5])]
+[knowledge base project(Project[2])] is in the stage of [implementation]
+[this project(Project[2])] is in the [maintenance] stage
+[Genevive(Developer[1])] resolved [the initialization broken issue(Issue[1])]
+[Zenaida(Tester[2])] is working on [mobile project(Project[3])] also
+[Loyd(Developer[6])] is a [developer]
+[Loyd(Developer[6])] is assigned to [mobile project(Project[3])]
+[this project(Project[3])] is now in the [maintenance] stage
+[Tawnya(Tester[3])] is working on [that project(Project[3])] also
+[knowledge base project(Project[2])] is assigned to [that person(Tester[3])] also
+[Will(Tester[7])] is a [tester]
+[that person(Tester[7])] is assigned to [chatbot project(Project[1])]
+[mobile project(Project[3])] is assigned to [this test engineer(Tester[7])] also
+[Marisela(Tester[8])] is a [tester]
+[this test engineer(Tester[8])] is working on [chatbot project(Project[1])]
+[Kristeen(Developer[5])] is no longer assigned to [chatbot project(Project[1])]
+[she(Developer[5])] is assigned to [this project(Project[1])] also
+[knowledge base project(Project[2])] is assigned to [Kristeen(Developer[5])] also
+There is a new issue for the [chatbot project(Project[1])]: [timeout problem]
+[Kristeen(Developer[5])] resolved [the changelong needs to be added proposal(Issue[3])]
+[fails with apache stack] is a new issue for the [knowledge base project(Project[2])]
+[that issue(Issue[5])] was assigned to [that person(Developer[5])]
+[Marisela(Tester[8])] is working on [mobile project(Project[3])] also
+[that test engineer(Tester[8])] is assigned to [knowledge base project(Project[2])] also
+[Francoise(Developer[4])] is assigned to [knowledge base project(Project[2])] also
+[Francoise(Developer[4])] is assigned to [mobile project(Project[3])] also
+[Ashly(Developer[9])] is a [developer] on [knowledge base project(Project[2])]
+[chatbot project(Project[1])] is assigned to [this person(Developer[9])] also
+[that developer(Developer[9])] is working on [mobile project(Project[3])] also
+[xml extractor exception] is a new [bug] created by [she(Developer[9])] for [chatbot project(Project[1])]
+[this issue(Issue[6])] is assigned to [Zenaida(Tester[2])]
+[Zenaida(Tester[2])] resolved [it(Issue[6])]
+[Marisela(Tester[8])] created a new issue for [knowledge base project(Project[2])]: [svd is slow]
+[knowledge base project(Project[2])] is not assigned to [Zenaida(Tester[2])]
+[it(Project[2])] is assigned to [that person(Tester[2])] also
+[knowledge base project(Project[2])] has moved to the [development] stage
+Who was [the initialization broken bug(Issue[1])] assigned to?	'Genevive(Developer[1])'	['question_type_local']
+[it(Project[2])] is now in the [implementation] stage
+[the svd is slow issue(Issue[7])] was assigned to [Tawnya(Tester[3])]
+[that test engineer(Tester[3])] resolved [this issue(Issue[7])]
+What are the issues assigned to [Kristeen(Developer[5])] that were not resolved?	'fails with apache stack(Issue[5])'	['question_type_local']
+[the null pointer exception during parsing issue(Issue[2])] was assigned to [Ashly(Developer[9])]
+[she(Developer[9])] resolved [that issue(Issue[2])]
+What are the issues assigned to [Kristeen(Developer[5])] that were not resolved?	'fails with apache stack(Issue[5])'	['question_type_local']
+[mobile project(Project[3])] is not assigned to [Ashly(Developer[9])]
+[this person(Developer[9])] is working on [mobile project(Project[3])] also
+[this project(Project[3])] is now in the [development] stage
+[this project(Project[3])] has moved to the [implementation] stage
+[that project(Project[3])] is in the [maintenance] stage
+[this project(Project[3])] is now in the [development] stage
+Who was [the initialization broken bug(Issue[1])] assigned to?	'Genevive(Developer[1])'	['question_type_local']
+[chatbot project(Project[1])] is in the [maintenance] stage
+[mobile project(Project[3])] has moved to the [maintenance] stage
+What are the issues created by [Marisela(Tester[8])]?	'svd is slow(Issue[7])'	['question_type_local']
+[Will(Tester[7])] is assigned to [knowledge base project(Project[2])] also
+Who was [the initialization broken bug(Issue[1])] assigned to?	'Genevive(Developer[1])'	['question_type_local']
+[knowledge base project(Project[2])] is in the stage of [development]
+[that project(Project[2])] is now in the [maintenance] stage
+[Zenaida(Tester[2])] is no longer assigned to [this project(Project[2])]
+[knowledge base project(Project[2])] has moved to the [implementation] stage
+[that project(Project[2])] is assigned to [Zenaida(Tester[2])] also
+[it(Project[2])] is in the [development] stage
+[chatbot project(Project[1])] is in the [development] stage
+[the timeout problem issue(Issue[4])] is assigned to [Marisela(Tester[8])]
+[this test engineer(Tester[8])] resolved [it(Issue[4])]
+Were there any issues created by [Ashly(Developer[9])]?	'xml extractor exception(Issue[6])'	['question_type_local']
+[this tester(Tester[8])] is not working on [knowledge base project(Project[2])] anymore
+[that person(Tester[8])] is working on [knowledge base project(Project[2])] also
+[Kristeen(Developer[5])] is not working on [mobile project(Project[3])] anymore
+[that developer(Developer[5])] is working on [it(Project[3])] also
+What are the issues assigned to [Genevive(Developer[1])] that were resolved?	'initialization broken(Issue[1])'	['question_type_local']
+[Marisela(Tester[8])] is not working on [this project(Project[3])] anymore
+[it(Project[3])] is assigned to [she(Tester[8])] also
+Who was [the initialization broken bug(Issue[1])] assigned to?	'Genevive(Developer[1])'	['question_type_local']
+[this project(Project[3])] is now in the [development] stage
+[this project(Project[3])] has moved to the [implementation] stage
+Who was [the initialization broken bug(Issue[1])] assigned to?	'Genevive(Developer[1])'	['question_type_local']
+[chatbot project(Project[1])] is in the stage of [maintenance]
+[chatbot project(Project[1])] is now in the [development] stage
+[mobile project(Project[3])] is now in the [development] stage
+Who created [the svd is slow issue(Issue[7])]?	'Marisela(Tester[8])'	['question_type_local']
+[mobile project(Project[3])] is in the [maintenance] stage
+[it(Project[3])] is in the [development] stage
+[Loyd(Developer[6])] is working on [knowledge base project(Project[2])] also

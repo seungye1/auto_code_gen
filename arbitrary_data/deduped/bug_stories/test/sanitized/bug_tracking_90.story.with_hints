@@ -1,0 +1,112 @@
+there is a new [chatbot(Project[1])] [project]
+[chatbot project(Project[1])] is a [corporate] project
+[Racquel(Developer[1])] is a [developer]
+[chatbot project(Project[1])] is in the stage of [design]
+[she(Developer[1])] is assigned to [that project(Project[1])]
+there is a new [external] [knowledge base(Project[2])] [project]
+[knowledge base project(Project[2])] is currently in the [testing] stage
+[Loyd(Developer[2])] is a [developer]
+[knowledge base project(Project[2])] is assigned to [Loyd(Developer[2])]
+[Loyd(Developer[2])] is assigned to [chatbot project(Project[1])] also
+[this person(Developer[2])] is no longer assigned to [knowledge base project(Project[2])]
+[this person(Developer[2])] is assigned to [this project(Project[2])] also
+[Cecil(Tester[3])] is a [tester]
+[Ashly(Developer[4])] is a [developer]
+[chatbot project(Project[1])] is assigned to [this developer(Developer[4])]
+[null pointer exception during parsing] is a new [proposal] created by [Racquel(Developer[1])] for [this project(Project[1])]
+[that issue(Issue[1])] was assigned to [Racquel(Developer[1])]
+[she(Developer[1])] resolved [it(Issue[1])]
+there is a new [mobile(Project[3])] [project]
+[that person(Developer[1])] is assigned to [knowledge base project(Project[2])] also
+[this developer(Developer[1])] is working on [mobile project(Project[3])] also
+[Isaiah(Developer[5])] is a [developer]
+[Isaiah(Developer[5])] is working on [mobile project(Project[3])]
+[this person(Developer[5])] is working on [knowledge base project(Project[2])] also
+[Isaiah(Developer[5])] is working on [chatbot project(Project[1])] also
+[versioning needs to be made consistent] is a new [enhancement] for [knowledge base project(Project[2])] that [Racquel(Developer[1])] just created
+[the issue(Issue[2])] is assigned to [Loyd(Developer[2])]
+[Loyd(Developer[2])] resolved [the versioning needs to be made consistent enhancement(Issue[2])]
+[he(Developer[2])] is assigned to [mobile project(Project[3])] also
+[mobile project(Project[3])] is a [external] project
+[that project(Project[3])] is in the [deployment] stage
+[this project(Project[3])] is now in the [design] stage
+[Ashly(Developer[4])] created a new issue for [chatbot project(Project[1])]: [xml extractor exception]
+[this project(Project[3])] has moved to the [deployment] stage
+[mobile project(Project[3])] is in the stage of [testing]
+What are the issues submitted by [Ashly(Developer[4])] that were not resolved?	'xml extractor exception(Issue[3])'	['question_type_local']
+[knowledge base project(Project[2])] is in the stage of [design]
+[knowledge base project(Project[2])] is now in the [testing] stage
+[Racquel(Developer[1])] is not working on [this project(Project[2])] anymore
+[that person(Developer[1])] is assigned to [knowledge base project(Project[2])] also
+[Isaiah(Developer[5])] created a new issue for [knowledge base project(Project[2])]: [changelong needs to be added]
+[this project(Project[2])] is now in the [design] stage
+[that issue(Issue[4])] is assigned to [Loyd(Developer[2])]
+[chatbot project(Project[1])] is not assigned to [that person(Developer[2])]
+[this project(Project[1])] is in the stage of [deployment]
+[knowledge base project(Project[2])] is in the [testing] stage
+[Loyd(Developer[2])] is working on [chatbot project(Project[1])] also
+[he(Developer[2])] is not working on [chatbot project(Project[1])] anymore
+[that person(Developer[2])] is assigned to [it(Project[1])] also
+[it(Project[1])] is now in the [design] stage
+[Racquel(Developer[1])] created a new issue for [knowledge base project(Project[2])]: [minified version fails]
+[this issue(Issue[5])] is assigned to [Racquel(Developer[1])]
+[this person(Developer[1])] resolved [that issue(Issue[5])]
+Who created [the null pointer exception during parsing proposal(Issue[1])]?	'Racquel(Developer[1])'	['question_type_local']
+[parse example terribly slow] is a new [task] submitted by [that person(Developer[1])] for [chatbot project(Project[1])]
+[this issue(Issue[6])] is assigned to [she(Developer[1])]
+[that person(Developer[1])] resolved [that issue(Issue[6])]
+[Ashly(Developer[4])] submitted a new [proposal] for [chatbot project(Project[1])]: [parsing with parantheses fails]
+[the parsing with parantheses fails issue(Issue[7])] was assigned to [Racquel(Developer[1])]
+[this developer(Developer[1])] resolved [the issue(Issue[7])]
+Who was [the parse example terribly slow task(Issue[6])] assigned to?	'Racquel(Developer[1])'	['question_type_local']
+[chatbot project(Project[1])] is in the stage of [deployment]
+Are there any issues created by [Ashly(Developer[4])] that are not resolved?	'xml extractor exception(Issue[3])'	['question_type_local']
+[fails with apache stack] is a new [enhancement] submitted by [Ashly(Developer[4])] for [it(Project[1])]
+[that project(Project[1])] is now in the [testing] stage
+[this issue(Issue[8])] was assigned to [Racquel(Developer[1])]
+Who is [the null pointer exception during parsing proposal(Issue[1])] assigned to?	'Racquel(Developer[1])'	['question_type_local']
+[that developer(Developer[1])] resolved [the enhancement(Issue[8])]
+[knowledge base project(Project[2])] has moved to the [deployment] stage
+Who submitted [the fails with apache stack enhancement(Issue[8])]?	'Ashly(Developer[4])'	['question_type_local']
+[saving data throws exception] is a new issue for the [it(Project[2])]
+[that project(Project[2])] is in the [testing] stage
+[the issue(Issue[9])] is assigned to [Racquel(Developer[1])]
+[this developer(Developer[1])] resolved [that issue(Issue[9])]
+What are the issues submitted by [Isaiah(Developer[5])] that were not resolved?	'changelong needs to be added(Issue[4])'	['question_type_local']
+[Racquel(Developer[1])] is not working on [mobile project(Project[3])] anymore
+[that developer(Developer[1])] is working on [that project(Project[3])] also
+[this developer(Developer[1])] is no longer assigned to [knowledge base project(Project[2])]
+[that person(Developer[1])] is working on [this project(Project[2])] also
+[the xml extractor exception issue(Issue[3])] was assigned to [Isaiah(Developer[5])]
+[he(Developer[5])] resolved [the issue(Issue[3])]
+[Cecil(Tester[3])] is working on [chatbot project(Project[1])]
+[that person(Tester[3])] is working on [knowledge base project(Project[2])] also
+[that project(Project[2])] is in the stage of [design]
+Are there any issues assigned to [Loyd(Developer[2])] that are not resolved?	'changelong needs to be added(Issue[4])'	['question_type_local']
+[this project(Project[2])] is in the stage of [deployment]
+[it(Project[2])] has moved to the [design] stage
+[it(Project[2])] has moved to the [testing] stage
+[chatbot project(Project[1])] is in the stage of [design]
+[chatbot project(Project[1])] is in the [deployment] stage
+[Loyd(Developer[2])] resolved [the changelong needs to be added issue(Issue[4])]
+[this person(Developer[2])] is not working on [mobile project(Project[3])] anymore
+[Loyd(Developer[2])] is assigned to [this project(Project[3])] also
+[Ashly(Developer[4])] is assigned to [it(Project[3])] also
+[this developer(Developer[4])] is assigned to [knowledge base project(Project[2])] also
+[mobile project(Project[3])] is in the [deployment] stage
+[Cecil(Tester[3])] is assigned to [mobile project(Project[3])] also
+Who submitted [the fails with apache stack issue(Issue[8])]?	'Ashly(Developer[4])'	['question_type_local']
+[that project(Project[3])] is in the [testing] stage
+[mobile project(Project[3])] is now in the [design] stage
+[mobile project(Project[3])] is now in the [testing] stage
+[it(Project[3])] is in the [design] stage
+[Racquel(Developer[1])] is not working on [chatbot project(Project[1])] anymore
+[Racquel(Developer[1])] is working on [chatbot project(Project[1])] also
+Who created [the task(Issue[6])]?	'Racquel(Developer[1])'	['question_type_local']
+Who is [the null pointer exception during parsing proposal(Issue[1])] assigned to?	'Racquel(Developer[1])'	['question_type_local']
+[chatbot project(Project[1])] is now in the [design] stage
+[this project(Project[1])] has moved to the [deployment] stage
+Who submitted [the null pointer exception during parsing proposal(Issue[1])]?	'Racquel(Developer[1])'	['question_type_local']
+[Racquel(Developer[1])] is no longer assigned to [mobile project(Project[3])]
+[this developer(Developer[1])] is assigned to [mobile project(Project[3])] also
+[Cecil(Tester[3])] is no longer assigned to [mobile project(Project[3])]

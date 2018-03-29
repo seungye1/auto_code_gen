@@ -1,0 +1,137 @@
+[Lucio(Professor[1])] is a [professor]
+[Lucio(Professor[1])] currently has funding
+[this person(Professor[1])]'s research interest is [supervised learning]
+[Igor(PhdStudent[2])] is a PhD student
+[this professor(Professor[1])] is on sabbatical
+[this professor(Professor[1])] is an [associate] professor
+[Igor(PhdStudent[2])] is current in [first year]
+[that professor(Professor[1])]'s office is [Hallems Building]
+there is a [associate] [professor] named [William(Professor[3])]
+[Lucio(Professor[1])] advises [Igor(PhdStudent[2])]
+create a [professor] named [Kristeen(Professor[4])]
+[he(PhdStudent[2])] is in [Education Building]
+[he(PhdStudent[2])] successfully defended their thesis
+[this person(PhdStudent[2])] did not pass the qualifiers
+Which phd students does [Lucio(Professor[1])] advise?	'Igor(PhdStudent[2])'	['question_type_local']
+Who is in [Education Building]	'Igor(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+[that student(PhdStudent[2])] is now in [second year]
+[he(PhdStudent[2])] has failed the qualifying exam
+[he(PhdStudent[2])] passed thesis proposal
+[Igor(PhdStudent[2])] is now a [third year] student
+[William(Professor[3])] is on [that student(PhdStudent[2])]'s committee
+[that student(PhdStudent[2])] has failed the qualifying exam
+there is a masters student named [Michael(MastersStudent[5])]
+What is [Lucio(Professor[1])]'s office?	'Hallems Building'	['question_type_local']
+Which professors have offices in Hallems Building	'Lucio(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+Create a new [masters] level course called [G9000(Course[1])]
+[Igor(PhdStudent[2])] is a TA for [that course(Course[1])]
+[Loyd(MastersStudent[6])] is a masters student
+There is a course called [U303(Course[2])]
+[Michael(MastersStudent[5])] and [Loyd(MastersStudent[6])] are taking [U303(Course[2])]
+[Lucio(Professor[1])] teaches [U303(Course[2])]
+create a [assistant] [professor] named [Tom(Professor[7])]
+Who does [Lucio(Professor[1])] advise?	'Igor(PhdStudent[2])'	['question_type_local']
+[Kristeen(Professor[4])] teaches [G9000(Course[1])]
+[this course(Course[1])] is a 4 unit course
+[Michael(MastersStudent[5])] is TAing [that course(Course[1])]
+Who has an office in [Education Building]	'Igor(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+[William(Professor[3])] currently has funding
+[second year] is a [Alverta(PhdStudent[8])] PhD student
+[William(Professor[3])]'s office is [Norlin Library]
+[that professor(Professor[3])] went on sabbatical
+Create a new course called [G103(Course[3])]
+[this course(Course[3])] will be a 2 unit course
+[Loyd(MastersStudent[6])] is enrolled in [G103(Course[3])]
+[Igor(PhdStudent[2])] passed the qualifiers
+The TA for [G9000(Course[1])] is [Alverta(PhdStudent[8])]
+[that course(Course[1])] will be a full semester course
+create a [professor] named [Hiram(Professor[9])]
+[Alverta(PhdStudent[8])] is enrolled in [that course(Course[1])]
+[Alverta(PhdStudent[8])] has passed the thesis defense
+create a [teaching] [professor] named [Zenaida(Professor[10])]
+[this student(PhdStudent[8])] has passed the thesis proposal exam
+[this student(PhdStudent[8])] passed the qualifiers
+[this student(PhdStudent[8])]'s office is [Gamow Building]
+create a [associate] [professor] named [Danita(Professor[11])]
+[this student(PhdStudent[8])] is now a [third year] student
+there is a [full] [professor] named [Lucy(Professor[12])]
+create a [professor] named [Gabrielle(Professor[13])]
+[Alverta(PhdStudent[8])] is [Lucy(Professor[12])]'s student
+[that professor(Professor[12])] currently has funding
+Which students have offices in Gamow Building	'Alverta(PhdStudent[8])'	['question_type_global', 'question_two_hop_statement']
+[Lucy(Professor[12])] is now on sabbatical
+Which phd students does [this person(Professor[12])] advise?	'Alverta(PhdStudent[8])'	['question_type_local']
+Which [third year] students's advisors are conducting research in [supervised learning]	'Igor(PhdStudent[2])'	['question_type_global', 'question_three_hop_statement']
+Who is [Igor(PhdStudent[2])]'s advisor?	'Lucio'	['question_type_local']
+[this professor(Professor[12])] conducts research in [supervised learning]
+[that professor(Professor[12])]'s office is [Gamow Building]
+[U303(Course[2])] will be a 8 unit course
+[U303(Course[2])] is a full semester course
+There is a course called [G301(Course[4])]
+[G301(Course[4])] is full semester
+[that class(Course[4])] will be a 12 unit course
+There is a [phd] level 12 unit course called [G7000(Course[5])]
+[Loyd(MastersStudent[6])] is a TA for [G301(Course[4])]
+[Gabrielle(Professor[13])] teaches [G301(Course[4])]
+[Igor(PhdStudent[2])] is a student in [G301(Course[4])]
+[he(PhdStudent[2])] is in [fourth year]
+[that student(PhdStudent[2])] is now a [fifth year] student
+[Gabrielle(Professor[13])] is on [he(PhdStudent[2])]'s committee
+What phd students are taking G9000	'Alverta(PhdStudent[8])'	['question_type_global', 'question_two_hop_statement']
+[Kristeen(Professor[4])] is on [Igor(PhdStudent[2])]'s committee
+[that student(PhdStudent[2])] is in [sixth year]
+What are the courses TAed by [Alverta(PhdStudent[8])]?	'G9000(Course[1])'	['question_type_local']
+[that professor(Professor[4])]'s research interest is [neurocomputing]
+[that professor(Professor[4])] is an [assistant] professor
+Who has [Kristeen(Professor[4])] on their phd committee?	'Igor(PhdStudent[2])'	['question_type_local']
+[Loyd(MastersStudent[6])] is enrolled in [G9000(Course[1])]
+Who is teaching [U303(Course[2])]?	'Lucio(Professor[1])'	['question_type_local']
+There is a course called [U9000(Course[6])]
+[that course(Course[6])] is a full semester course
+There is a course called [U203(Course[7])]
+[U203(Course[7])] is full semester
+[Zenaida(Professor[10])] went on sabbatical
+What professors are in Gamow Building	'Lucy(Professor[12])'	['question_type_global', 'question_two_hop_statement']
+[that professor(Professor[10])]'s office is [Norlin Library]
+Who is taking [G9000(Course[1])]?	'Loyd(MastersStudent[6])', 'Alverta(PhdStudent[8])'	['question_type_local']
+[she(Professor[10])] has returned from their sabbatical
+There is a [phd] level 2 unit course called [U7000(Course[8])]
+[Loyd(MastersStudent[6])] is a student in [U7000(Course[8])]
+[U7000(Course[8])] will be a full semester course
+[Zenaida(Professor[10])] research interest is in [theoretical cosmology]
+[Zenaida(Professor[10])] has been promoted to [assistant] professor
+[this professor(Professor[10])] received funding
+Which phd students have [Gabrielle(Professor[13])] on their committee	'Igor(PhdStudent[2])'	['question_type_local']
+Who has an office in [Education Building]	'Igor(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+[Michael(MastersStudent[5])] and [Igor(PhdStudent[2])] are attending [G301(Course[4])]
+Who is enrolled in [G301(Course[4])]?	'Igor(PhdStudent[2])', 'Michael(MastersStudent[5])'	['question_type_local']
+Who is in [Education Building]	'Igor(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+Which [third year] students are advised by professors working on [supervised learning]?	'Alverta(PhdStudent[8])'	['question_type_global', 'question_three_hop_statement']
+What courses is [Michael(MastersStudent[5])] TAing?	'G9000(Course[1])'	['question_type_local']
+[Igor(PhdStudent[2])] is enrolled in [G9000(Course[1])]
+[Alverta(PhdStudent[8])] and [Michael(MastersStudent[5])] are both taking [that course(Course[1])]
+What courses is [Kristeen(Professor[4])] teaching?	'G9000(Course[1])'	['question_type_local']
+[Igor(PhdStudent[2])] and [he(MastersStudent[5])] are both enrolled in [G9000(Course[1])]
+Who is taking [G103(Course[3])]?	'Loyd(MastersStudent[6])'	['question_type_local']
+Who is in [Education Building]	'Igor(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+What professors are in Hallems Building	'Lucio(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+Who is teaching [G301(Course[4])]?	'Gabrielle(Professor[13])'	['question_type_local']
+Which courses are TAed by [Igor(PhdStudent[2])]?	'G9000(Course[1])'	['question_type_local']
+What [full] professors advise students who passed their thesis proposal?	'Lucy(Professor[12])'	['question_type_global', 'question_three_hop_statement']
+[Igor(PhdStudent[2])] has [Lucy(Professor[12])] on the committee
+[Loyd(MastersStudent[6])] is a student in [G9000(Course[1])]
+What phd students are taking G301	'Igor(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+[Igor(PhdStudent[2])] is a student in [G9000(Course[1])]
+What courses is [Lucio(Professor[1])] teaching?	'U303(Course[2])'	['question_type_local']
+Who advises [Igor(PhdStudent[2])]?	'Lucio'	['question_type_local']
+What courses is [Michael(MastersStudent[5])] TAing?	'G9000(Course[1])'	['question_type_local']
+There is a course called [G104(Course[9])]
+What courses is [Lucio(Professor[1])] teaching?	'U303(Course[2])'	['question_type_local']
+What students are in Gamow Building	'Alverta(PhdStudent[8])'	['question_type_global', 'question_two_hop_statement']
+[G104(Course[9])] is taught by [William(Professor[3])]
+Which [third year] students's advisors are conducting research in [supervised learning]	'Alverta(PhdStudent[8])'	['question_type_global', 'question_three_hop_statement']
+[that course(Course[9])] is full semester
+[that course(Course[9])] is a [undergraduate] level course
+Create a new course called [G610(Course[10])]
+There is a course called [G101(Course[11])]
+[Michael(MastersStudent[5])] is a student in [G101(Course[11])]

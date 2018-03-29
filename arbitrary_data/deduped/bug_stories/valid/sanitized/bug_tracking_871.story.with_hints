@@ -1,0 +1,111 @@
+there is a new [early stage] [mobile(Project[1])] [project]
+[mobile project(Project[1])] is in the stage of [design]
+there is a new [early stage] [knowledge base(Project[2])] [project]
+[mobile project(Project[1])] is now in the [maintenance] stage
+[knowledge base project(Project[2])] is in the stage of [development]
+[Peggy(Developer[1])] is a [developer] on [mobile project(Project[1])]
+[that developer(Developer[1])] is working on [it(Project[2])] also
+there is a new [corporate] [chatbot(Project[3])] [project]
+[chatbot project(Project[3])] is in the [design] stage
+[Peggy(Developer[1])] is assigned to [chatbot project(Project[3])] also
+[John(Developer[2])] is a [developer]
+[Tom(Developer[3])] is a [developer] on [knowledge base project(Project[2])]
+[John(Developer[2])] is working on [chatbot project(Project[3])]
+[mobile project(Project[1])] is assigned to [that developer(Developer[2])] also
+[Peggy(Developer[1])] created a new issue for [chatbot project(Project[3])]: [svd is slow]
+[Tom(Developer[3])] is working on [mobile project(Project[1])] also
+[that person(Developer[3])] is assigned to [chatbot project(Project[3])] also
+Are there any issues created by [Peggy(Developer[1])] that are not resolved?	'svd is slow(Issue[1])'	['question_type_local']
+[Tawnya(Developer[4])] is a [developer]
+[the svd is slow issue(Issue[1])] was assigned to [Peggy(Developer[1])]
+[Peggy(Developer[1])] is not working on [knowledge base project(Project[2])] anymore
+[it(Project[2])] is assigned to [Peggy(Developer[1])] also
+[initialization broken] is a new [task] for [mobile project(Project[1])] that [John(Developer[2])] just created
+[this issue(Issue[2])] was assigned to [John(Developer[2])]
+[this person(Developer[2])] resolved [it(Issue[2])]
+[John(Developer[2])] is working on [knowledge base project(Project[2])] also
+[that person(Developer[2])] is not working on [this project(Project[2])] anymore
+[this project(Project[2])] is assigned to [that developer(Developer[2])] also
+[John(Developer[2])] created a new [bug] for [it(Project[2])]: [memory leak while reading tf records]
+[the memory leak while reading tf records issue(Issue[3])] was assigned to [Tom(Developer[3])]
+[John(Developer[2])] is not working on [knowledge base project(Project[2])] anymore
+Who submitted [the initialization broken task(Issue[2])]?	'John(Developer[2])'	['question_type_local']
+[Peggy(Developer[1])] created a new [bug] for [knowledge base project(Project[2])]: [fails with apache stack]
+[knowledge base project(Project[2])] is now in the [design] stage
+[this issue(Issue[4])] was assigned to [Peggy(Developer[1])]
+[that person(Developer[1])] resolved [that issue(Issue[4])]
+Who was [the initialization broken task(Issue[2])] assigned to?	'John(Developer[2])'	['question_type_local']
+[knowledge base project(Project[2])] is assigned to [John(Developer[2])] also
+[John(Developer[2])] is not working on [mobile project(Project[1])] anymore
+[Willis(Developer[5])] is a [developer]
+[chatbot project(Project[3])] is assigned to [Tawnya(Developer[4])]
+[Jack(Tester[6])] is a [tester] on [knowledge base project(Project[2])]
+[that test engineer(Tester[6])] is working on [mobile project(Project[1])] also
+[chatbot project(Project[3])] is assigned to [Jack(Tester[6])] also
+[wrong pos tag on consecutive words] is a new issue for the [mobile project(Project[1])]
+[this issue(Issue[5])] was assigned to [Jack(Tester[6])]
+[Jack(Tester[6])] resolved [the issue(Issue[5])]
+[saving data throws exception] is a new [task] for the [knowledge base project(Project[2])]
+[the saving data throws exception task(Issue[6])] was assigned to [Tom(Developer[3])]
+[that person(Developer[3])] resolved [this issue(Issue[6])]
+[Tawnya(Developer[4])] is assigned to [knowledge base project(Project[2])] also
+[that developer(Developer[4])] is working on [mobile project(Project[1])] also
+[that person(Developer[4])] is not working on [chatbot project(Project[3])] anymore
+[it(Project[3])] is assigned to [that person(Developer[4])] also
+[that developer(Developer[4])] is not working on [it(Project[3])] anymore
+[that developer(Developer[4])] is working on [this project(Project[3])] also
+[that project(Project[3])] is in the [maintenance] stage
+[mobile project(Project[1])] is assigned to [John(Developer[2])] also
+Who is [the initialization broken task(Issue[2])] assigned to?	'John(Developer[2])'	['question_type_local']
+There is a new issue for the [chatbot project(Project[3])]: [versioning needs to be made consistent]
+[this issue(Issue[7])] was assigned to [Tawnya(Developer[4])]
+[Tom(Developer[3])] submitted a new [enhancement] for [mobile project(Project[1])]: [tokenization not consistent across platforms]
+[the issue(Issue[8])] is assigned to [Tom(Developer[3])]
+[Tom(Developer[3])] resolved [the tokenization not consistent across platforms enhancement(Issue[8])]
+[this developer(Developer[3])] is no longer assigned to [knowledge base project(Project[2])]
+[chatbot project(Project[3])] is not assigned to [Tom(Developer[3])]
+[knowledge base project(Project[2])] is assigned to [that developer(Developer[3])] also
+[chatbot project(Project[3])] is assigned to [Tom(Developer[3])] also
+[Isaiah(Tester[7])] is a [tester]
+[knowledge base project(Project[2])] is assigned to [Isaiah(Tester[7])]
+[Peggy(Developer[1])] is not working on [mobile project(Project[1])] anymore
+[Peggy(Developer[1])] is working on [this project(Project[1])] also
+[Angelita(Tester[8])] is a [tester] on [knowledge base project(Project[2])]
+[Angelita(Tester[8])] is working on [chatbot project(Project[3])] also
+[mobile project(Project[1])] is assigned to [Angelita(Tester[8])] also
+[Francoise(Developer[9])] is a [developer] on [chatbot project(Project[3])]
+[this project(Project[1])] is not assigned to [Tawnya(Developer[4])]
+Who submitted [the memory leak while reading tf records issue(Issue[3])]?	'John(Developer[2])'	['question_type_local']
+[Tom(Developer[3])] resolved [the memory leak while reading tf records issue(Issue[3])]
+There is a new [proposal] for the [chatbot project(Project[3])]: [changelong needs to be added]
+[the changelong needs to be added issue(Issue[9])] was assigned to [Tawnya(Developer[4])]
+[Tawnya(Developer[4])] resolved [the changelong needs to be added proposal(Issue[9])]
+[Tawnya(Developer[4])] is working on [mobile project(Project[1])] also
+[mobile project(Project[1])] is not assigned to [Tom(Developer[3])]
+[he(Developer[3])] is assigned to [that project(Project[1])] also
+[Eun(Tester[10])] is a [tester] on [chatbot project(Project[3])]
+[knowledge base project(Project[2])] is assigned to [this tester(Tester[10])] also
+What are the issues submitted by [John(Developer[2])] that were resolved?	'initialization broken(Issue[2])', 'memory leak while reading tf records(Issue[3])'	['question_type_local']
+[this project(Project[2])] is in the [development] stage
+Who submitted [the memory leak while reading tf records bug(Issue[3])]?	'John(Developer[2])'	['question_type_local']
+[chatbot project(Project[3])] is not assigned to [Angelita(Tester[8])]
+[she(Tester[8])] is working on [chatbot project(Project[3])] also
+[John(Developer[2])] is not working on [knowledge base project(Project[2])] anymore
+[he(Developer[2])] is assigned to [it(Project[2])] also
+[Isaiah(Tester[7])] is working on [chatbot project(Project[3])] also
+[knowledge base project(Project[2])] is not assigned to [this tester(Tester[7])]
+[that test engineer(Tester[7])] is assigned to [mobile project(Project[1])] also
+[Isaiah(Tester[7])] is assigned to [knowledge base project(Project[2])] also
+Who is [the saving data throws exception task(Issue[6])] assigned to?	'Tom(Developer[3])'	['question_type_local']
+[this person(Tester[7])] is not working on [this project(Project[2])] anymore
+[it(Project[2])] is assigned to [Isaiah(Tester[7])] also
+[this project(Project[2])] is now in the [deployment] stage
+Are there any issues assigned to [Peggy(Developer[1])] that are resolved?	'fails with apache stack(Issue[4])'	['question_type_local']
+[Tawnya(Developer[4])] resolved [the versioning needs to be made consistent issue(Issue[7])]
+Who created [the tokenization not consistent across platforms enhancement(Issue[8])]?	'Tom(Developer[3])'	['question_type_local']
+[Tawnya(Developer[4])] is not working on [knowledge base project(Project[2])] anymore
+[that person(Developer[4])] is working on [knowledge base project(Project[2])] also
+[it(Project[2])] is in the stage of [design]
+[Peggy(Developer[1])] resolved [the svd is slow issue(Issue[1])]
+[knowledge base project(Project[2])] is not assigned to [this person(Developer[1])]
+[knowledge base project(Project[2])] is assigned to [this developer(Developer[1])] also

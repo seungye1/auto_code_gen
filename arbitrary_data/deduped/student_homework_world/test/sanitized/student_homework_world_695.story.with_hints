@@ -1,0 +1,149 @@
+I am taking a [calculus(Course[1])] course
+[calculus homework 1(Homework[1])] is out for [this course(Course[1])]
+I am taking a course called [sociology(Course[2])]
+[that homework(Homework[1])] is on [Viruses & other Microbes]
+[this assignment(Homework[1])] is due on [April 07]
+I submitted [that homework(Homework[1])] late
+[this homework(Homework[1])] is worth [33] points
+When is the deadline of [that assignment(Homework[1])]?	'April 07'	['question_type_local']
+I am taking a course called [algebra(Course[3])]
+[Genevive(Professor[1])] is a [professor]
+[Genevive(Professor[1])] is the instructor for [that course(Course[3])]
+list assignments that are due on [April 07]	'calculus homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+[she(Professor[1])]'s office is [Q129]
+What is [Genevive(Professor[1])]'s office?	'Q129'	['question_type_local']
+which homeworks are due after [April 06]?	'calculus homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+[calculus(Course[1])] has a new [calculus project 1(Project[2])] out
+the affiliation of [that professor(Professor[1])] is [computer science]
+[that person(Professor[1])]'s email is [Genevive@nh.edu]
+there is a [professor] named [Luanna(Professor[2])]
+[Luanna(Professor[2])]'s email is [Luanna@yale.edu]
+[that professor(Professor[2])] is affiliated with the [math] department
+[that person(Professor[2])]'s office is [Q129]
+What is [that professor(Professor[2])]'s email	'Luanna@yale.edu'	['question_type_local']
+which homeworks are due on [April 07]?	'calculus homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+create a [professor] named [William(Professor[3])]
+[he(Professor[3])]'s email is [William@yahoo.com]
+[William(Professor[3])]'s office is [NSH387]
+[that professor(Professor[3])]'s department is [math]
+What office is [Genevive(Professor[1])] in?	'Q129'	['question_type_local']
+which assignments are due before [April 09]?	'calculus homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+[calculus project 1(Project[2])] is worth [83] points
+The topic of [this project(Project[2])] is [grammar induction]
+I submitted [that assignment(Project[2])] on time and received 83 points
+[calculus project 1(Project[2])] is due on [April 10]
+I am taking a course called [english composition(Course[4])]
+[that class(Course[4])] is taught by [William(Professor[3])]
+change [this professor(Professor[3])]'s department to [computer science]
+[Luanna(Professor[2])] is the instructor for [calculus(Course[1])]
+[this course(Course[1])] has a new [calculus homework 2(Homework[3])] out
+[that assignment(Homework[3])] is due on [April 20]
+[calculus homework 2(Homework[3])] is on [introduction]
+Which professor is teaching [calculus(Course[1])]?	'Luanna(Professor[2])'	['question_type_local']
+what assignments did i submit late for [Luanna]?	'calculus homework 1(Homework[1])'	['question_type_global', 'question_three_hop_statement']
+[calculus(Course[1])] has a new [calculus project 2(Project[4])] out
+[this project(Project[4])] is worth [50] points
+The deadline of [this project(Project[4])] is [April 18]
+Who is teaching [calculus(Course[1])]?	'Luanna(Professor[2])'	['question_type_local']
+create a [professor] named [Emmie(Professor[4])]
+[Emmie(Professor[4])]'s office is [Q129]
+the affiliation of [this professor(Professor[4])] is [physics]
+[she(Professor[4])]'s email is [Emmie@gmail.com]
+How many points is [calculus homework 1(Homework[1])] worth?	33	['question_type_local']
+The deadline of [calculus homework 2(Homework[3])] moved to [April 19]
+[that homework(Homework[3])] is [46] points
+there is new [calculus project 3(Project[5])] for [calculus(Course[1])]
+[that project(Project[5])] is about [Plants]
+there is a [professor] named [Hiram(Professor[5])]
+[that professor(Professor[5])] is in [Q 367]
+[he(Professor[5])]'s department is [physics]
+[that person(Professor[5])]'s email is [Hiram@gmail.com]
+[calculus project 3(Project[5])] is due on [May 09]
+[calculus project 3(Project[5])] is [57] points
+how many points is [calculus project 1(Project[2])]?	83	['question_type_local']
+how much did I get on [calculus project 1(Project[2])]?	83	['question_type_local']
+[calculus project 2(Project[4])] is on [decision trees]
+What is [calculus project 1(Project[2])] on?	'grammar induction'	['question_type_local']
+list assignments that are due on [April 07]	'calculus homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+What office is [Emmie(Professor[4])] in?	'Q129'	['question_type_local']
+[english composition project 1(Project[6])] is released for [english composition(Course[4])]
+[english composition project 1(Project[6])] is about [cold war]
+The deadline of [this project(Project[6])] is [April 12]
+I submitted [english composition project 1(Project[6])]
+there is a [professor] named [Lizeth(Professor[6])]
+[that assignment(Project[6])] is [63] points
+What is [Hiram(Professor[5])]'s department?	'physics'	['question_type_local']
+[english composition project 2(Project[7])] is out for [english composition(Course[4])]
+show me the projects due on [April 12]	'english composition project 1(Project[6])'	['question_type_global', 'question_two_hop_statement']
+[english composition project 2(Project[7])] is due on [April 20]
+How many points did I get on [calculus project 1(Project[2])]	83	['question_type_local']
+[this assignment(Project[7])] is [87] points
+I submitted [this project(Project[7])] and received 68 points
+which assignments are due on [April 07]?	'calculus homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+How much is [this assignment(Project[7])] worth?	87	['question_type_local']
+[this project(Project[7])] is now due on [April 21]
+which homeworks are due before [May 12]?	'calculus homework 1(Homework[1])', 'calculus homework 2(Homework[3])'	['question_type_global', 'question_two_hop_statement']
+What office is [Genevive(Professor[1])] in?	'Q129'	['question_type_local']
+I submitted [calculus project 2(Project[4])] late and received 50 points
+[english composition homework 1(Homework[8])] is released for [english composition(Course[4])]
+there is a new [homework(Homework[9])] for [calculus(Course[1])]
+I submitted [english composition homework 1(Homework[8])] late
+there is a new [project(Project[10])] for [english composition(Course[4])]
+[that project(Project[10])] is due on [May 12]
+[this assignment(Project[10])] is [43] points
+I submitted [calculus project 3(Project[5])] and received 32 points
+[sociology project 1(Project[11])] is out for [sociology(Course[2])]
+which homeworks are due after [April 06]?	'calculus homework 1(Homework[1])', 'calculus homework 2(Homework[3])'	['question_type_global', 'question_two_hop_statement']
+[sociology project 1(Project[11])] is [27] points
+What is the topic of [calculus homework 2(Homework[3])]?	'introduction'	['question_type_local']
+The deadline of [this assignment(Project[11])] is [April 08]
+there is new [sociology project 2(Project[12])] for [sociology(Course[2])]
+I submitted [sociology project 2(Project[12])] late
+[this assignment(Project[12])] is worth [29] points
+which homeworks are due after [April 12]?	'calculus homework 2(Homework[3])'	['question_type_global', 'question_two_hop_statement']
+[that project(Project[12])] is due on [April 20]
+show me all late assignments i submitted for [William]	'english composition homework 1(Homework[8])'	['question_type_global', 'question_three_hop_statement']
+[Emmie(Professor[4])] teaches [sociology(Course[2])]
+What office is [William(Professor[3])] in?	'NSH387'	['question_type_local']
+How much is [calculus homework 1(Homework[1])] worth?	33	['question_type_local']
+When is [calculus homework 2(Homework[3])] due?	'April 19'	['question_type_local']
+[algebra project 1(Project[13])] is out for [algebra(Course[3])]
+I submitted [algebra project 1(Project[13])]
+The deadline of [algebra project 1(Project[13])] is [April 14]
+When is [english composition project 2(Project[7])] due?	'April 21'	['question_type_local']
+[that assignment(Project[13])] is [11] points
+Who is teaching [sociology(Course[2])]?	'Emmie(Professor[4])'	['question_type_local']
+show me all late homeworks i submitted for [Luanna]	'calculus homework 1(Homework[1])'	['question_type_global', 'question_three_hop_statement']
+[english composition project 4(Project[14])] is released for [english composition(Course[4])]
+The deadline of [english composition project 4(Project[14])] is [May 02]
+I submitted [this project(Project[14])]
+[this project(Project[14])] is [91] points
+[that assignment(Project[14])] is now due on [April 30]
+[calculus homework 4(Homework[15])] is released for [calculus(Course[1])]
+[that homework(Homework[15])] is due on [May 06]
+I submitted [calculus homework 4(Homework[15])] late
+list all assignments that i submitted for [William]	'english composition project 1(Project[6])', 'english composition project 2(Project[7])', 'english composition homework 1(Homework[8])', 'english composition project 4(Project[14])'	['question_type_global', 'question_three_hop_statement']
+what homeworks did i submit late for [Luanna]?	'calculus homework 1(Homework[1])', 'calculus homework 4(Homework[15])'	['question_type_global', 'question_three_hop_statement']
+[calculus homework 5(Homework[16])] is released for [calculus(Course[1])]
+[calculus homework 5(Homework[16])] is worth [15] points
+I submitted [calculus homework 5(Homework[16])] on time and received 15 points
+How many points is [english composition project 1(Project[6])] worth?	63	['question_type_local']
+The deadline of [that homework(Homework[16])] is [May 30]
+there is new [english composition homework 2(Homework[17])] for [english composition(Course[4])]
+what did I get on [calculus project 2(Project[4])]?	50	['question_type_local']
+show me all late homeworks i submitted for [Luanna]	'calculus homework 1(Homework[1])', 'calculus homework 4(Homework[15])'	['question_type_global', 'question_three_hop_statement']
+[english composition homework 2(Homework[17])] is due on [April 14]
+I submitted [that homework(Homework[17])] late
+How many points is [sociology project 2(Project[12])] worth?	29	['question_type_local']
+what are the assignments that i submitted for [Emmie]	'sociology project 2(Project[12])'	['question_type_global', 'question_three_hop_statement']
+which homeworks are due before [May 12]?	'calculus homework 1(Homework[1])', 'calculus homework 2(Homework[3])', 'calculus homework 4(Homework[15])', 'english composition homework 2(Homework[17])'	['question_type_global', 'question_two_hop_statement']
+I submitted [sociology project 1(Project[11])] on time and received 19 points
+how much did I get on [calculus project 2(Project[4])]?	50	['question_type_local']
+[this homework(Homework[17])] is [68] points
+When is the deadline of [calculus project 1(Project[2])]?	'April 10'	['question_type_local']
+show me all late homeworks i submitted for [Luanna]	'calculus homework 1(Homework[1])', 'calculus homework 4(Homework[15])'	['question_type_global', 'question_three_hop_statement']
+show me all assignments that i submitted for [William]	'english composition project 1(Project[6])', 'english composition project 2(Project[7])', 'english composition homework 1(Homework[8])', 'english composition project 4(Project[14])', 'english composition homework 2(Homework[17])'	['question_type_global', 'question_three_hop_statement']
+How many points is [calculus project 2(Project[4])] worth?	50	['question_type_local']
+how many points is [english composition project 4(Project[14])]?	91	['question_type_local']
+list assignments that are due on [April 08]	'sociology project 1(Project[11])'	['question_type_global', 'question_two_hop_statement']
+[english composition(Course[4])] has a new [english composition project 5(Project[18])] out

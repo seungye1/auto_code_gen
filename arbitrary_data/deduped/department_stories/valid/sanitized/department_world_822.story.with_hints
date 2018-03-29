@@ -1,0 +1,130 @@
+there is a masters student named [Michael(MastersStudent[1])]
+[Michael(MastersStudent[1])]'s department is [applied physics]
+[Tereasa(Professor[2])] is a [assistant] [professor]
+[she(Professor[2])] conducts research in [optical physics]
+[that professor(Professor[2])] has been promoted to [associate] professor
+[this person(Professor[2])] is now on sabbatical
+There is a course called [U103(Course[1])]
+[this course(Course[1])] is 8 units
+[this course(Course[1])] is part of the [electrical engineering] department
+Who is part of the [applied physics] department	'Michael(MastersStudent[1])'	['question_type_global', 'question_single_statement']
+There is a [masters] level course called [U301(Course[2])]
+[Michael(MastersStudent[1])] is a TA for [U103(Course[1])]
+[that person(MastersStudent[1])] is a student in [U103(Course[1])]
+What are the courses TAed by [Michael(MastersStudent[1])]?	'U103(Course[1])'	['question_type_local']
+[Michael(MastersStudent[1])] is enrolled in [U103(Course[1])]
+there is a PhD student named [William(PhdStudent[3])]
+What students are in the [applied physics] department?	'Michael(MastersStudent[1])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [G201(Course[3])]
+[Tereasa(Professor[2])] is on [this person(PhdStudent[3])]'s committee
+[William(PhdStudent[3])] is funded
+Create a new [masters] course called [G601(Course[4])]
+[William(PhdStudent[3])] is a [sixth year] student
+[this student(PhdStudent[3])] has failed the thesis proposal exam
+[U103(Course[1])] is a [phd] course
+create a [teaching] [professor] named [Lizeth(Professor[4])]
+[she(Professor[4])] research interest is in [theoretical cosmology]
+[William(PhdStudent[3])] is [this professor(Professor[4])]'s student
+There is a course called [G301(Course[5])]
+What is [Lizeth(Professor[4])] working on?	'theoretical cosmology'	['question_type_local']
+Create a new course called [G8001(Course[6])]
+[G301(Course[5])] is a pass-fail course
+[Michael(MastersStudent[1])] is attending [U103(Course[1])]
+there is a new masters student named [Emmie(MastersStudent[5])]
+[she(MastersStudent[5])] is affiliated with the [asian studies] department
+there is a [assistant] [professor] named [Gabrielle(Professor[6])]
+[Hanna(PhdStudent[7])] is a PhD student
+[this student(PhdStudent[7])] has passed the thesis defense
+[this person(PhdStudent[7])] is funded
+[Hanna(PhdStudent[7])]'s office is [Henderson Building]
+Which [sixth year] students are advised by professors working on [theoretical cosmology]?	'William(PhdStudent[3])'	['question_type_global', 'question_three_hop_statement']
+[this student(PhdStudent[7])] has passed the thesis proposal exam
+[she(PhdStudent[7])] has [Gabrielle(Professor[6])] and [Tereasa(Professor[2])] on the committee
+[Hanna(PhdStudent[7])] has passed the qualifying exam
+What professors are on [William(PhdStudent[3])]'s committee	'Tereasa(Professor[2])'	['question_type_local']
+[Lizeth(Professor[4])] is on [this student(PhdStudent[7])]'s committee
+[that professor(Professor[4])] went on sabbatical
+Create a new [masters] level course called [U104(Course[7])]
+[this person(Professor[4])] teaches [this course(Course[7])]
+[this course(Course[7])] is a pass-fail course
+[Hanna(PhdStudent[7])] and [William(PhdStudent[3])] are TAs for [U104(Course[7])]
+Which [sixth year] students are advised by professors working on [theoretical cosmology]?	'William(PhdStudent[3])'	['question_type_global', 'question_three_hop_statement']
+[William(PhdStudent[3])] is attending [U103(Course[1])]
+there is a PhD student named [Britney(PhdStudent[8])]
+[she(PhdStudent[8])] has passed the thesis defense
+[third year] is a [Francoise(PhdStudent[9])] PhD student
+[Lizeth(Professor[4])] is on [he(PhdStudent[9])]'s committee
+[U301(Course[2])] is taught by [Tereasa(Professor[2])]
+[U301(Course[2])] is a pass-fail course
+[third year] is a [Cecil(PhdStudent[10])] PhD student
+[he(PhdStudent[10])] passed thesis proposal
+[he(PhdStudent[10])] is funded
+Who are the students in the [applied physics] department	'Michael(MastersStudent[1])'	['question_type_global', 'question_two_hop_statement']
+[that person(PhdStudent[10])] failed their thesis defense
+[Cecil(PhdStudent[10])]'s office is [Economics Building]
+[Francoise(PhdStudent[9])] is [Tereasa(Professor[2])]'s student
+There is a course called [G305(Course[8])]
+[Francoise(PhdStudent[9])] failed thesis proposal
+[this person(PhdStudent[9])] passed thesis defense
+Which courses are offered this semester in the electrical engineering department?	'U103(Course[1])'	['question_type_global', 'question_two_hop_statement']
+[Willis(Professor[11])] is a [full] [professor]
+[U104(Course[7])] is a 2 unit course
+[Britney(PhdStudent[8])] and [Emmie(MastersStudent[5])] are TAs for [that course(Course[7])]
+What are the [electrical engineering] courses?	'U103(Course[1])'	['question_type_global', 'question_single_statement']
+[Britney(PhdStudent[8])] has [Lizeth(Professor[4])] on the committee
+[Britney(PhdStudent[8])] is funded
+Which courses are TAed by [Hanna(PhdStudent[7])]?	'U104(Course[7])'	['question_type_local']
+[Albertha(Professor[12])] is a [professor]
+[Albertha(Professor[12])] is on sabbatical
+[that person(Professor[12])] is an [distinguished] professor
+[this person(Professor[12])]'s research interest is [programming languages]
+[Willis(Professor[11])] and [that professor(Professor[12])] are on [Hanna(PhdStudent[7])]'s committee
+[he(Professor[11])] research interest is in [theoretical cosmology]
+[Hanna(PhdStudent[7])] is [Willis(Professor[11])]'s student
+Which courses in the electrical engineering department are TAed by masters students?	'U103(Course[1])'	['question_type_global', 'question_three_hop_statement']
+[she(PhdStudent[7])] is in their [sixth year]
+There is a [masters] level [full_semester_course] called [G310(Course[9])]
+What are all the courses in the electrical engineering department?	'U103(Course[1])'	['question_type_global', 'question_two_hop_statement']
+[Britney(PhdStudent[8])] has passed the qualifying exam
+Which phd students have [Tereasa(Professor[2])] on their committee	'William(PhdStudent[3])', 'Hanna(PhdStudent[7])'	['question_type_local']
+[Hanna(PhdStudent[7])] is taking [that course(Course[9])]
+Who are [Willis(Professor[11])]'s students?	'Hanna(PhdStudent[7])'	['question_type_local']
+[that course(Course[9])] is a course in the [electrical engineering] department
+[Lizeth(Professor[4])] has been promoted to [assistant] professor
+[this professor(Professor[4])] advises [Cecil(PhdStudent[10])] and [Britney(PhdStudent[8])]
+Which professors are conducting research in [theoretical cosmology]	'Lizeth(Professor[4])', 'Willis(Professor[11])'	['question_type_global', 'question_single_statement']
+[she(PhdStudent[8])] has [Albertha(Professor[12])] and [Gabrielle(Professor[6])] on the committee
+Who is [Britney(PhdStudent[8])]'s advisor?	'Lizeth'	['question_type_local']
+Which students have offices in Henderson Building	'Hanna(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+[Britney(PhdStudent[8])] failed thesis proposal
+[this student(PhdStudent[8])] has [Tereasa(Professor[2])] and [Willis(Professor[11])] on the committee
+Which courses are TAed by [Britney(PhdStudent[8])]?	'U104(Course[7])'	['question_type_local']
+Who has an office in [Henderson Building]	'Hanna(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+[he(Professor[11])] is now on sabbatical
+Which phd students have [Tereasa(Professor[2])] on their committee	'William(PhdStudent[3])', 'Hanna(PhdStudent[7])', 'Britney(PhdStudent[8])'	['question_type_local']
+[he(Professor[11])] has returned from their sabbatical
+Who is teaching [U301(Course[2])]?	'Tereasa(Professor[2])'	['question_type_local']
+Which courses are offered this semester in the electrical engineering department?	'U103(Course[1])', 'G310(Course[9])'	['question_type_global', 'question_two_hop_statement']
+[he(Professor[11])] is on sabbatical
+[Michael(MastersStudent[1])] is enrolled in [U103(Course[1])]
+[that course(Course[1])] is not a pass-fail course
+[Francoise(PhdStudent[9])] and [Cecil(PhdStudent[10])] are taking [this course(Course[1])]
+What students are in the [applied physics] department?	'Michael(MastersStudent[1])'	['question_type_global', 'question_two_hop_statement']
+[Francoise(PhdStudent[9])] has passed the qualifying exam
+What professors are on [Francoise(PhdStudent[9])]'s committee	'Lizeth(Professor[4])'	['question_type_local']
+What students are in Henderson Building	'Hanna(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+[G301(Course[5])] is under the [asian studies] department
+[Hanna(PhdStudent[7])] and [Cecil(PhdStudent[10])] are both enrolled in [that course(Course[5])]
+[Gabrielle(Professor[6])] and [Albertha(Professor[12])] are on [William(PhdStudent[3])]'s committee
+Who is on [William(PhdStudent[3])]'s committee?	'Tereasa(Professor[2])', 'Gabrielle(Professor[6])', 'Albertha(Professor[12])'	['question_type_local']
+[Willis(Professor[11])] is now an [distinguished] professor
+What courses is [Emmie(MastersStudent[5])] TAing?	'U104(Course[7])'	['question_type_local']
+Which professors are conducting research in [theoretical cosmology]	'Lizeth(Professor[4])', 'Willis(Professor[11])'	['question_type_global', 'question_single_statement']
+[Britney(PhdStudent[8])] passed thesis proposal
+Which phd students taking the G310 course	'Hanna(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [U201(Course[10])]
+[Cecil(PhdStudent[10])] is attending [that class(Course[10])]
+[that class(Course[10])] will be a full semester course
+[that class(Course[10])] is a [masters] course
+[this course(Course[10])] is not a pass-fail course
+[that class(Course[10])] is offered in the [electrical engineering] department

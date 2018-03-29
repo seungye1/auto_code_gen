@@ -1,0 +1,107 @@
+there is a new [knowledge base(Project[1])] [project]
+[that project(Project[1])] is currently in the [design] stage
+[it(Project[1])] is a [important] project
+[this project(Project[1])] is in the stage of [development]
+there is a new [pilot] [mobile(Project[2])] [project]
+[mobile project(Project[2])] is currently in the [design] stage
+[knowledge base project(Project[1])] is now in the [design] stage
+[Cyndi(Developer[1])] is a [developer]
+[Angelita(Developer[2])] is a [developer] on [it(Project[1])]
+[Cyndi(Developer[1])] is assigned to [knowledge base project(Project[1])]
+[Angelita(Developer[2])] created a new issue for [knowledge base project(Project[1])]: [issue in using training data]
+[Angelita(Developer[2])] is assigned to [mobile project(Project[2])] also
+[Cyndi(Developer[1])] is working on [this project(Project[2])] also
+[Angelita(Developer[2])] created a new issue for [knowledge base project(Project[1])]: [changelong needs to be added]
+[this issue(Issue[2])] is assigned to [Angelita(Developer[2])]
+[Angelita(Developer[2])] resolved [this issue(Issue[2])]
+[Bob(Tester[3])] is a [tester]
+[Bob(Tester[3])] is assigned to [mobile project(Project[2])]
+[Lorilee(Developer[4])] is a [developer]
+[Lorilee(Developer[4])] is assigned to [knowledge base project(Project[1])]
+[mobile project(Project[2])] is assigned to [Lorilee(Developer[4])] also
+[this project(Project[2])] is not assigned to [Bob(Tester[3])]
+[that person(Tester[3])] is working on [mobile project(Project[2])]
+Are there any issues created by [Angelita(Developer[2])] that are resolved?	'changelong needs to be added(Issue[2])'	['question_type_local']
+[this person(Tester[3])] is working on [knowledge base project(Project[1])] also
+[this test engineer(Tester[3])] is no longer assigned to [mobile project(Project[2])]
+[that project(Project[2])] is assigned to [Bob(Tester[3])] also
+[Lizeth(Tester[5])] is a [tester] on [knowledge base project(Project[1])]
+[that test engineer(Tester[5])] is working on [this project(Project[2])] also
+[Gabrielle(Developer[6])] is a [developer]
+there is a new [pilot] [chatbot(Project[3])] [project]
+[that project(Project[3])] is in the stage of [design]
+[Genevive(Tester[7])] is a [tester]
+[this test engineer(Tester[7])] is assigned to [this project(Project[3])]
+[knowledge base project(Project[1])] is assigned to [this test engineer(Tester[7])] also
+[Genevive(Tester[7])] is working on [mobile project(Project[2])] also
+There is a new issue for the [this project(Project[2])]: [minified version fails]
+[this issue(Issue[3])] is assigned to [Lorilee(Developer[4])]
+[chatbot project(Project[3])] is assigned to [Bob(Tester[3])] also
+[Angelita(Developer[2])] is working on [that project(Project[3])] also
+[Cyndi(Developer[1])] is working on [it(Project[3])] also
+[knowledge base project(Project[1])] is in the [evaluation] stage
+[Genevive(Tester[7])] submitted a new [enhancement] for [chatbot project(Project[3])]: [dcoref always returns null]
+[this issue(Issue[4])] is assigned to [Genevive(Tester[7])]
+[that test engineer(Tester[7])] resolved [the dcoref always returns null enhancement(Issue[4])]
+[Lorilee(Developer[4])] is working on [chatbot project(Project[3])] also
+[Vivienne(Developer[8])] is a [developer]
+[that project(Project[3])] is assigned to [Vivienne(Developer[8])]
+[Will(Tester[9])] is a [tester] on [mobile project(Project[2])]
+[Will(Tester[9])] is assigned to [that project(Project[3])] also
+[Will(Tester[9])] is assigned to [knowledge base project(Project[1])] also
+[the issue in using training data issue(Issue[1])] was assigned to [Bob(Tester[3])]
+[Bob(Tester[3])] resolved [the issue(Issue[1])]
+[Vivienne(Developer[8])] is working on [mobile project(Project[2])] also
+[knowledge base project(Project[1])] is assigned to [that person(Developer[8])] also
+[Lizeth(Tester[5])] is working on [chatbot project(Project[3])] also
+[knowledge base project(Project[1])] is not assigned to [this tester(Tester[5])]
+[fails with apache stack] is a new [task] submitted by [Will(Tester[9])] for [chatbot project(Project[3])]
+[this issue(Issue[5])] is assigned to [Vivienne(Developer[8])]
+[svd is slow] is a new [enhancement] for [mobile project(Project[2])] that [Cyndi(Developer[1])] just created
+[the enhancement(Issue[6])] is assigned to [Will(Tester[9])]
+[Bob(Tester[3])] is not working on [mobile project(Project[2])] anymore
+[this tester(Tester[3])] is working on [mobile project(Project[2])] also
+[Bob(Tester[3])] is not working on [mobile project(Project[2])] anymore
+[this person(Tester[3])] is working on [it(Project[2])] also
+[it(Project[2])] is in the stage of [development]
+[chatbot project(Project[3])] has moved to the [development] stage
+[parse example terribly slow] is a new [task] created by [Bob(Tester[3])] for [chatbot project(Project[3])]
+[the issue(Issue[7])] is assigned to [Vivienne(Developer[8])]
+[this developer(Developer[8])] resolved [the parse example terribly slow issue(Issue[7])]
+[Vivienne(Developer[8])] is no longer assigned to [mobile project(Project[2])]
+[she(Developer[8])] is working on [that project(Project[2])] also
+Are there any issues assigned to [Lorilee(Developer[4])] that are not resolved?	'minified version fails(Issue[3])'	['question_type_local']
+[memory leak bug] is a new issue for the [chatbot project(Project[3])]
+[xml extractor exception] is a new [task] created by [Genevive(Tester[7])] for [chatbot project(Project[3])]
+[the memory leak bug issue(Issue[8])] was assigned to [Vivienne(Developer[8])]
+[Vivienne(Developer[8])] resolved [the issue(Issue[8])]
+[knowledge base project(Project[1])] is now in the [design] stage
+Who submitted [the svd is slow enhancement(Issue[6])]?	'Cyndi(Developer[1])'	['question_type_local']
+[mobile project(Project[2])] is not assigned to [Vivienne(Developer[8])]
+What are the issues created by [Genevive(Tester[7])] that were resolved?	'dcoref always returns null(Issue[4])'	['question_type_local']
+[that developer(Developer[8])] is working on [that project(Project[2])] also
+[mobile project(Project[2])] is in the [evaluation] stage
+[mobile project(Project[2])] is in the [design] stage
+[Vivienne(Developer[8])] is not working on [chatbot project(Project[3])] anymore
+[she(Developer[8])] is working on [that project(Project[3])] also
+Who was [the fails with apache stack task(Issue[5])] assigned to?	'Vivienne(Developer[8])'	['question_type_local']
+[chatbot project(Project[3])] is not assigned to [she(Developer[8])]
+[this project(Project[3])] is assigned to [this person(Developer[8])] also
+[chatbot project(Project[3])] is not assigned to [that person(Developer[8])]
+[Lizeth(Tester[5])] is working on [knowledge base project(Project[1])] also
+[mobile project(Project[2])] is not assigned to [Cyndi(Developer[1])]
+[that person(Developer[1])] is assigned to [it(Project[2])] also
+[Vivienne(Developer[8])] is assigned to [chatbot project(Project[3])] also
+[it(Project[3])] is in the [evaluation] stage
+[mobile project(Project[2])] is now in the [development] stage
+[chatbot project(Project[3])] is in the stage of [design]
+[chatbot project(Project[3])] is in the [evaluation] stage
+[that project(Project[3])] is in the [design] stage
+[that project(Project[3])] has moved to the [evaluation] stage
+[this project(Project[3])] is now in the [design] stage
+What are the issues created by [Will(Tester[9])]?	'fails with apache stack(Issue[5])'	['question_type_local']
+[knowledge base project(Project[1])] is in the [evaluation] stage
+Who submitted [the parse example terribly slow issue(Issue[7])]?	'Bob(Tester[3])'	['question_type_local']
+[knowledge base project(Project[1])] is in the [development] stage
+[that project(Project[1])] is now in the [design] stage
+[mobile project(Project[2])] is now in the [evaluation] stage

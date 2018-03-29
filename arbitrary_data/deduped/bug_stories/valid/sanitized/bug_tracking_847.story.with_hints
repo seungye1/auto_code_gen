@@ -1,0 +1,107 @@
+there is a new [external] [chatbot(Project[1])] [project]
+[that project(Project[1])] is in the [testing] stage
+[that project(Project[1])] has moved to the [design] stage
+[Angelita(Developer[1])] is a [developer] on [chatbot project(Project[1])]
+[this developer(Developer[1])] created a new issue for [that project(Project[1])]: [dcoref always returns null]
+[chatbot project(Project[1])] is not assigned to [that person(Developer[1])]
+[that project(Project[1])] is assigned to [this person(Developer[1])]
+[Andy(Tester[2])] is a [tester]
+[it(Project[1])] is assigned to [this tester(Tester[2])]
+[that test engineer(Tester[2])] is no longer assigned to [chatbot project(Project[1])]
+[it(Project[1])] is assigned to [that person(Tester[2])]
+there is a new [knowledge base(Project[2])] [project]
+[knowledge base project(Project[2])] is in the stage of [deployment]
+[versioning needs to be made consistent] is a new [proposal] submitted by [Angelita(Developer[1])] for [chatbot project(Project[1])]
+[that issue(Issue[2])] is assigned to [Angelita(Developer[1])]
+[Andy(Tester[2])] is working on [knowledge base project(Project[2])] also
+[this project(Project[2])] is a [external] project
+there is a new [mobile(Project[3])] [project]
+[mobile project(Project[3])] is a [external] project
+[that project(Project[3])] is in the [implementation] stage
+[Andy(Tester[2])] is assigned to [it(Project[3])] also
+[Andy(Tester[2])] created a new [proposal] for [chatbot project(Project[1])]: [minified version fails]
+[the minified version fails issue(Issue[3])] was assigned to [Angelita(Developer[1])]
+[this developer(Developer[1])] resolved [this issue(Issue[3])]
+[chatbot project(Project[1])] is not assigned to [Angelita(Developer[1])]
+[mobile project(Project[3])] is assigned to [that person(Developer[1])]
+[chatbot project(Project[1])] is assigned to [this person(Developer[1])] also
+[this developer(Developer[1])] is assigned to [knowledge base project(Project[2])] also
+[John(Developer[3])] is a [developer]
+[this project(Project[2])] is now in the [testing] stage
+[mobile project(Project[3])] is not assigned to [Angelita(Developer[1])]
+[this project(Project[3])] is assigned to [this person(Developer[1])] also
+[Francoise(Developer[4])] is a [developer] on [knowledge base project(Project[2])]
+[Angelita(Developer[1])] created a new [bug] for [knowledge base project(Project[2])]: [saving data throws exception]
+[this developer(Developer[4])] is assigned to [chatbot project(Project[1])] also
+[fails with apache stack] is a new issue for the [mobile project(Project[3])]
+[the issue(Issue[5])] is assigned to [Andy(Tester[2])]
+[chatbot project(Project[1])] is in the stage of [testing]
+[Francoise(Developer[4])] created a new issue for [knowledge base project(Project[2])]: [xml extractor exception]
+[this issue(Issue[6])] is assigned to [Andy(Tester[2])]
+[this person(Tester[2])] resolved [the xml extractor exception issue(Issue[6])]
+Are there any issues assigned to [he(Tester[2])] that are not resolved?	'fails with apache stack(Issue[5])'	['question_type_local']
+Who was [the proposal that was last added(Issue[3])] assigned to?	'Angelita(Developer[1])'	['question_type_local']
+[that person(Tester[2])] is not working on [chatbot project(Project[1])] anymore
+[that test engineer(Tester[2])] is assigned to [that project(Project[1])] also
+Were there any issues created by [Francoise(Developer[4])]?	'xml extractor exception(Issue[6])'	['question_type_local']
+[the dcoref always returns null issue(Issue[1])] was assigned to [Angelita(Developer[1])]
+[this person(Developer[1])] resolved [the issue(Issue[1])]
+[Charlott(Tester[5])] is a [tester]
+[Marisela(Tester[6])] is a [tester] on [chatbot project(Project[1])]
+[knowledge base project(Project[2])] is assigned to [Marisela(Tester[6])] also
+[mobile project(Project[3])] is assigned to [Marisela(Tester[6])] also
+[Angelita(Developer[1])] is not working on [knowledge base project(Project[2])] anymore
+[that project(Project[2])] is assigned to [that developer(Developer[1])] also
+[Tereasa(Tester[7])] is a [tester] on [chatbot project(Project[1])]
+[that test engineer(Tester[7])] is assigned to [mobile project(Project[3])] also
+[Tereasa(Tester[7])] is working on [knowledge base project(Project[2])] also
+[Angelita(Developer[1])] resolved [the versioning needs to be made consistent proposal(Issue[2])]
+[Marisela(Tester[6])] is not working on [knowledge base project(Project[2])] anymore
+[that project(Project[2])] is assigned to [that test engineer(Tester[6])] also
+[Milagros(Tester[8])] is a [tester] on [knowledge base project(Project[2])]
+[knowledge base project(Project[2])] is in the stage of [implementation]
+[that project(Project[2])] is in the stage of [deployment]
+[Tereasa(Tester[7])] submitted a new [bug] for [knowledge base project(Project[2])]: [initialization broken]
+[that issue(Issue[7])] is assigned to [Angelita(Developer[1])]
+[that developer(Developer[1])] resolved [this issue(Issue[7])]
+[Milagros(Tester[8])] is working on [mobile project(Project[3])] also
+[this test engineer(Tester[8])] is working on [chatbot project(Project[1])] also
+There is a new [task] for the [mobile project(Project[3])]: [changelong needs to be added]
+[Andy(Tester[2])] created a new [task] for [mobile project(Project[3])]: [tokenization not consistent across platforms]
+[the changelong needs to be added issue(Issue[8])] was assigned to [Angelita(Developer[1])]
+[that person(Developer[1])] resolved [the issue(Issue[8])]
+[knowledge base project(Project[2])] is in the stage of [testing]
+What are the issues created by [Francoise(Developer[4])]?	'xml extractor exception(Issue[6])'	['question_type_local']
+[John(Developer[3])] is assigned to [mobile project(Project[3])]
+[he(Developer[3])] is working on [knowledge base project(Project[2])] also
+[that developer(Developer[3])] is not working on [mobile project(Project[3])] anymore
+[mobile project(Project[3])] is assigned to [that developer(Developer[3])] also
+[this developer(Developer[3])] is assigned to [chatbot project(Project[1])] also
+[knowledge base project(Project[2])] is not assigned to [he(Developer[3])]
+[this project(Project[2])] is assigned to [that developer(Developer[3])] also
+[this person(Developer[3])] is not working on [this project(Project[2])] anymore
+[this person(Developer[3])] is working on [that project(Project[2])] also
+[that developer(Developer[3])] is not working on [knowledge base project(Project[2])] anymore
+Were there any issues submitted by [Andy(Tester[2])]?	'minified version fails(Issue[3])', 'tokenization not consistent across platforms(Issue[9])'	['question_type_local']
+[that person(Developer[3])] is assigned to [knowledge base project(Project[2])] also
+What are the issues created by [Francoise(Developer[4])] that were resolved?	'xml extractor exception(Issue[6])'	['question_type_local']
+[this person(Developer[3])] is no longer assigned to [chatbot project(Project[1])]
+[chatbot project(Project[1])] has moved to the [implementation] stage
+There is a new [task] for the [knowledge base project(Project[2])]: [timeout problem]
+[this project(Project[1])] is now in the [testing] stage
+What are the issues submitted by [Andy(Tester[2])]?	'minified version fails(Issue[3])', 'tokenization not consistent across platforms(Issue[9])'	['question_type_local']
+[Andy(Tester[2])] resolved [the fails with apache stack issue(Issue[5])]
+[knowledge base project(Project[2])] is not assigned to [Andy(Tester[2])]
+[this tester(Tester[2])] is working on [it(Project[2])] also
+[chatbot project(Project[1])] is in the [deployment] stage
+[Tereasa(Tester[7])] is no longer assigned to [knowledge base project(Project[2])]
+[she(Tester[7])] is assigned to [knowledge base project(Project[2])] also
+[that project(Project[2])] is in the [design] stage
+[that project(Project[2])] is in the [deployment] stage
+[John(Developer[3])] is working on [chatbot project(Project[1])] also
+[this project(Project[1])] has moved to the [testing] stage
+[that project(Project[1])] is in the stage of [implementation]
+[it(Project[1])] is now in the [deployment] stage
+[this project(Project[1])] is in the [implementation] stage
+[it(Project[1])] is in the [deployment] stage
+[that project(Project[1])] is in the stage of [design]

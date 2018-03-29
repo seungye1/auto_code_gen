@@ -1,0 +1,157 @@
+create a [professor] named [Casey(Professor[1])]
+[that professor(Professor[1])]'s email is [Casey@chk.ru]
+What is [he(Professor[1])]'s email	'Casey@chk.ru'	['question_type_local']
+What is [that professor(Professor[1])]'s email	'Casey@chk.ru'	['question_type_local']
+[Angelita(Professor[2])] is a [professor]
+[she(Professor[2])]'s email is [Angelita@yahoo.com]
+[Tom(Professor[3])] is a [professor]
+I am taking a [english(Course[1])] course
+[Casey(Professor[1])] teaches [that course(Course[1])]
+[that class(Course[1])] has a new [english project 1(Project[1])] out
+there is a new [homework(Homework[2])] for [english(Course[1])]
+[that homework(Homework[2])] is worth [24] points
+The deadline of [this homework(Homework[2])] is [March 14]
+The topic of [this assignment(Homework[2])] is [Evolution]
+How much is [english homework 1(Homework[2])] worth?	24	['question_type_local']
+there is new [english project 2(Project[3])] for [english(Course[1])]
+I submitted [that homework(Homework[2])] and received 24 points
+what did I get on [that homework(Homework[2])]?	24	['question_type_local']
+[that project(Project[3])] is worth [15] points
+The deadline of [english project 2(Project[3])] is [March 31]
+The topic of [that assignment(Project[3])] is [nearest neighbor algorithm]
+I am taking a [chemistry(Course[2])] course
+[Tom(Professor[3])] is the instructor for [this course(Course[2])]
+which assignments are due before [April 01]?	'english homework 1(Homework[2])', 'english project 2(Project[3])'	['question_type_global', 'question_two_hop_statement']
+When is [english project 2(Project[3])] due?	'March 31'	['question_type_local']
+how many points did I receive on [english homework 1(Homework[2])]?	24	['question_type_local']
+I am taking a [economics(Course[3])] course
+[this person(Professor[3])]'s email is [Tom@gmail.com]
+What is [english homework 1(Homework[2])] on?	'Evolution'	['question_type_local']
+which projects are due on [March 31]?	'english project 2(Project[3])'	['question_type_global', 'question_two_hop_statement']
+what are the homeworks that i submitted for [Casey]	'english homework 1(Homework[2])'	['question_type_global', 'question_three_hop_statement']
+[Angelita(Professor[2])] is the instructor for [that class(Course[3])]
+I am taking a [biology(Course[4])] course
+how much did I get on [english homework 1(Homework[2])]?	24	['question_type_local']
+which assignments are due after [March 28]?	'english project 2(Project[3])'	['question_type_global', 'question_two_hop_statement']
+When is [english project 2(Project[3])] due?	'March 31'	['question_type_local']
+there is a new [homework(Homework[4])] for [english(Course[1])]
+I submitted [english project 1(Project[1])] late
+The topic of [that project(Project[1])] is [k means]
+[that project(Project[1])] is worth [11] points
+What is [english homework 1(Homework[2])] on?	'Evolution'	['question_type_local']
+which projects are due before [April 03]?	'english project 2(Project[3])'	['question_type_global', 'question_two_hop_statement']
+The deadline of [that assignment(Project[1])] is [March 18]
+[english homework 3(Homework[5])] is released for [english(Course[1])]
+[that homework(Homework[5])] is [69] points
+[this assignment(Homework[5])] is due on [April 13]
+I submitted [that assignment(Homework[5])] and received 26 points
+there is a new [project(Project[6])] for [economics(Course[3])]
+[that homework(Homework[5])] is about [The Environment]
+there is a new [homework(Homework[7])] for [economics(Course[3])]
+I submitted [economics homework 1(Homework[7])] on time
+[this assignment(Homework[7])] is [50] points
+there is a new [project(Project[8])] for [english(Course[1])]
+The deadline of [economics homework 1(Homework[7])] is [March 16]
+The topic of [this homework(Homework[7])] is [Molds & Fungi]
+list homeworks that are due on [March 14]	'english homework 1(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+[economics(Course[3])] has a new [economics homework 2(Homework[9])] out
+[economics homework 2(Homework[9])] is [15] points
+[this assignment(Homework[9])] is due on [March 27]
+[economics homework 2(Homework[9])] is about [graphical models]
+I submitted [that homework(Homework[9])] and received 12 points
+When is [economics homework 1(Homework[7])] due?	'March 16'	['question_type_local']
+I submitted [english project 2(Project[3])] late and received 15 points
+which homeworks are due on [March 14]?	'english homework 1(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+[Peggy(Professor[4])] is a [professor]
+When is [english project 1(Project[1])] due?	'March 18'	['question_type_local']
+[that person(Professor[4])]'s email is [Peggy@yahoo.com]
+there is a new [project(Project[10])] for [chemistry(Course[2])]
+The deadline of [this assignment(Project[10])] is [March 17]
+[that project(Project[10])] is [67] points
+[that project(Project[10])] is on [vc dimension]
+I submitted [that assignment(Project[10])] and received 67 points
+there is new [biology project 1(Project[11])] for [biology(Course[4])]
+[biology project 1(Project[11])] is due on [March 16]
+How much is [english project 2(Project[3])] worth?	15	['question_type_local']
+[biology project 1(Project[11])] is [87] points
+[biology project 1(Project[11])] is about [grammar induction]
+I submitted [this project(Project[11])] late and received 70 points
+which homeworks are due after [March 28]?	'english homework 3(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+how many points did I receive on [economics homework 2(Homework[9])]?	12	['question_type_local']
+How much is [english homework 1(Homework[2])] worth?	24	['question_type_local']
+what projects do I have to do for [Angelita]?	'economics project 1(Project[6])'	['question_type_global', 'question_three_hop_statement']
+When is the deadline of [english project 1(Project[1])]?	'March 18'	['question_type_local']
+which assignments did I submit for [Angelita]?	'economics homework 1(Homework[7])', 'economics homework 2(Homework[9])'	['question_type_global', 'question_three_hop_statement']
+show me the assignments due on [March 16]	'economics homework 1(Homework[7])', 'biology project 1(Project[11])'	['question_type_global', 'question_two_hop_statement']
+which projects are due after [March 14]?	'english project 1(Project[1])', 'english project 2(Project[3])', 'chemistry project 1(Project[10])', 'biology project 1(Project[11])'	['question_type_global', 'question_two_hop_statement']
+there is new [biology homework 1(Homework[12])] for [biology(Course[4])]
+How much is [english homework 3(Homework[5])] worth?	69	['question_type_local']
+When is the deadline of [chemistry project 1(Project[10])]?	'March 17'	['question_type_local']
+list projects that are due on [March 18]	'english project 1(Project[1])'	['question_type_global', 'question_two_hop_statement']
+I submitted [that homework(Homework[12])] on time
+[biology homework 1(Homework[12])] is [53] points
+[this homework(Homework[12])] is about [reinforcement learning]
+[biology homework 1(Homework[12])] is due on [March 16]
+How many points did I get on [economics homework 2(Homework[9])]	12	['question_type_local']
+[english(Course[1])] has a new [english homework 4(Homework[13])] out
+The topic of [english homework 4(Homework[13])] is [deep learning]
+[that assignment(Homework[13])] is worth [74] points
+I submitted [english homework 4(Homework[13])] and received 74 points
+there is new [economics project 2(Project[14])] for [economics(Course[3])]
+[that project(Project[14])] is due on [March 27]
+I submitted [that assignment(Project[14])] late
+[this project(Project[14])] is [56] points
+What is [biology project 1(Project[11])] on?	'grammar induction'	['question_type_local']
+What courses is [Angelita(Professor[2])] teaching?	'economics(Course[3])'	['question_type_local']
+[economics project 2(Project[14])] is now due on [March 30]
+What courses is [Angelita(Professor[2])] teaching?	'economics(Course[3])'	['question_type_local']
+what are the projects that i submitted for [Angelita]	'economics project 2(Project[14])'	['question_type_global', 'question_three_hop_statement']
+[english homework 4(Homework[13])] is due on [April 10]
+there is new [english homework 5(Homework[15])] for [english(Course[1])]
+The deadline of [english homework 5(Homework[15])] is [May 09]
+what did I get on [chemistry project 1(Project[10])]?	67	['question_type_local']
+list assignments that are due on [April 13]	'english homework 3(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+What is [Angelita(Professor[2])]'s email	'Angelita@yahoo.com'	['question_type_local']
+what assignments did i submit for [Tom]?	'chemistry project 1(Project[10])'	['question_type_global', 'question_three_hop_statement']
+[chemistry project 2(Project[16])] is released for [chemistry(Course[2])]
+The deadline of [that project(Project[16])] is [March 23]
+[this assignment(Project[16])] is worth [10] points
+list homeworks that are due on [March 14]	'english homework 1(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+I submitted [that assignment(Project[16])] on time and received 10 points
+What is the topic of [biology project 1(Project[11])]?	'grammar induction'	['question_type_local']
+I am taking a course called [philosophy(Course[5])]
+[this course(Course[5])] is taught by [Peggy(Professor[4])]
+create a [professor] named [Ashly(Professor[5])]
+How many points did I get on [chemistry project 2(Project[16])]	10	['question_type_local']
+What courses is [Peggy(Professor[4])] teaching?	'philosophy(Course[5])'	['question_type_local']
+list all homeworks for [Angelita]	'economics homework 1(Homework[7])', 'economics homework 2(Homework[9])'	['question_type_global', 'question_three_hop_statement']
+[Ashly(Professor[5])]'s email is [Ashly@cmu.edu]
+there is a new [homework(Homework[17])] for [chemistry(Course[2])]
+there is a [professor] named [Albertha(Professor[6])]
+[this professor(Professor[6])]'s email is [Albertha@gmail.com]
+what did I get on [chemistry project 1(Project[10])]?	67	['question_type_local']
+What is [english homework 4(Homework[13])] on?	'deep learning'	['question_type_local']
+[biology project 2(Project[18])] is released for [biology(Course[4])]
+what assignments do I have to do for [Tom]?	'chemistry project 1(Project[10])', 'chemistry project 2(Project[16])', 'chemistry homework 1(Homework[17])'	['question_type_global', 'question_three_hop_statement']
+[that assignment(Project[18])] is [92] points
+what assignments do I have to do for [Angelita]?	'economics project 1(Project[6])', 'economics homework 1(Homework[7])', 'economics homework 2(Homework[9])', 'economics project 2(Project[14])'	['question_type_global', 'question_three_hop_statement']
+I submitted [biology project 2(Project[18])] on time and received 59 points
+there is a [professor] named [Isaiah(Professor[7])]
+How many points did I get on [that project(Project[18])]	59	['question_type_local']
+The deadline of [that project(Project[18])] is [April 02]
+what are the projects that i submitted for [Casey]	'english project 1(Project[1])', 'english project 2(Project[3])'	['question_type_global', 'question_three_hop_statement']
+[Isaiah(Professor[7])]'s email is [Isaiah@gmail.com]
+how many points did I receive on [english project 2(Project[3])]?	15	['question_type_local']
+there is new [economics homework 3(Homework[19])] for [economics(Course[3])]
+create a [professor] named [Emma(Professor[8])]
+[she(Professor[8])]'s email is [Emma@harvard.edu]
+How much is [english homework 3(Homework[5])] worth?	69	['question_type_local']
+[philosophy(Course[5])] has a new [philosophy homework 1(Homework[20])] out
+how much did I get on [english homework 4(Homework[13])]?	74	['question_type_local']
+The deadline of [biology project 1(Project[11])] moved to [March 19]
+How much is [english project 2(Project[3])] worth?	15	['question_type_local']
+[that homework(Homework[20])] is due on [March 17]
+I submitted [philosophy homework 1(Homework[20])] on time
+How much is [biology homework 1(Homework[12])] worth?	53	['question_type_local']
+show me all assignments that i submitted for [Casey]	'english project 1(Project[1])', 'english homework 1(Homework[2])', 'english project 2(Project[3])', 'english homework 3(Homework[5])', 'english homework 4(Homework[13])'	['question_type_global', 'question_three_hop_statement']
+[that assignment(Homework[20])] is worth [74] points

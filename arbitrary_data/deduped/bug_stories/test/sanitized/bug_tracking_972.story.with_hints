@@ -1,0 +1,107 @@
+there is a new [chatbot(Project[1])] [project]
+[chatbot project(Project[1])] is a [early stage] project
+[it(Project[1])] is in the [deployment] stage
+there is a new [mobile(Project[2])] [project]
+[mobile project(Project[2])] is in the [design] stage
+[that project(Project[2])] is a [internal] project
+There is a new issue for the [that project(Project[2])]: [saving data throws exception]
+there is a new [internal] [knowledge base(Project[3])] [project]
+[this project(Project[3])] is in the [deployment] stage
+[chatbot project(Project[1])] is in the stage of [design]
+[versioning needs to be made consistent] is a new [proposal] for the [mobile project(Project[2])]
+[mobile project(Project[2])] is in the stage of [deployment]
+[Alejandra(Developer[1])] is a [developer] on [chatbot project(Project[1])]
+[this project(Project[2])] is in the stage of [design]
+[Genevive(Tester[2])] is a [tester]
+[this person(Tester[2])] is working on [knowledge base project(Project[3])]
+[parsing with parantheses fails] is a new [enhancement] for the [mobile project(Project[2])]
+[mobile project(Project[2])] is in the [development] stage
+[chatbot project(Project[1])] is assigned to [Genevive(Tester[2])] also
+There is a new issue for the [mobile project(Project[2])]: [memory leak while reading tf records]
+[chatbot project(Project[1])] is in the stage of [deployment]
+[Lizeth(Developer[3])] is a [developer]
+[mobile project(Project[2])] is assigned to [she(Developer[3])]
+[Lizeth(Developer[3])] is assigned to [knowledge base project(Project[3])] also
+[this person(Developer[3])] is working on [chatbot project(Project[1])] also
+[the saving data throws exception issue(Issue[1])] is assigned to [that person(Developer[3])]
+[the parsing with parantheses fails issue(Issue[3])] was assigned to [Lizeth(Developer[3])]
+[Stephine(Tester[4])] is a [tester]
+[this tester(Tester[4])] is assigned to [chatbot project(Project[1])]
+[that person(Tester[4])] is assigned to [knowledge base project(Project[3])] also
+[mobile project(Project[2])] is assigned to [that person(Tester[4])] also
+[Willis(Tester[5])] is a [tester]
+[Lizeth(Developer[3])] resolved [the enhancement(Issue[3])]
+[Willis(Tester[5])] is working on [chatbot project(Project[1])]
+[knowledge base project(Project[3])] is assigned to [Willis(Tester[5])] also
+[this person(Tester[5])] is assigned to [mobile project(Project[2])] also
+[it(Project[2])] is assigned to [Genevive(Tester[2])] also
+[Will(Developer[6])] is a [developer]
+[Will(Developer[6])] is assigned to [mobile project(Project[2])]
+[this developer(Developer[6])] is assigned to [chatbot project(Project[1])] also
+[Gia(Tester[7])] is a [tester] on [mobile project(Project[2])]
+[that person(Tester[7])] is working on [this project(Project[1])] also
+[knowledge base project(Project[3])] is assigned to [Alejandra(Developer[1])] also
+[Lizeth(Developer[3])] resolved [the saving data throws exception issue(Issue[1])]
+[Will(Developer[6])] is assigned to [knowledge base project(Project[3])] also
+[that developer(Developer[6])] is not working on [that project(Project[3])] anymore
+[that developer(Developer[6])] is assigned to [that project(Project[3])] also
+[this developer(Developer[6])] is not working on [this project(Project[3])] anymore
+[this developer(Developer[6])] is assigned to [it(Project[3])] also
+[that person(Developer[6])] is no longer assigned to [chatbot project(Project[1])]
+[that project(Project[1])] is assigned to [that person(Developer[6])] also
+There is a new issue for the [it(Project[1])]: [svd is slow]
+[this issue(Issue[5])] is assigned to [Will(Developer[6])]
+[Will(Developer[6])] resolved [it(Issue[5])]
+[Alejandra(Developer[1])] created a new issue for [knowledge base project(Project[3])]: [parse example terribly slow]
+[that issue(Issue[6])] is assigned to [Genevive(Tester[2])]
+[knowledge base project(Project[3])] is in the stage of [design]
+[mobile project(Project[2])] is not assigned to [Genevive(Tester[2])]
+[this project(Project[2])] is assigned to [she(Tester[2])] also
+[it(Project[2])] is in the stage of [deployment]
+What are the issues assigned to [Will(Developer[6])] that were resolved?	'svd is slow(Issue[5])'	['question_type_local']
+[Stephine(Tester[4])] is not working on [knowledge base project(Project[3])] anymore
+[Stephine(Tester[4])] is working on [that project(Project[3])] also
+[this tester(Tester[4])] is not working on [mobile project(Project[2])] anymore
+[she(Tester[4])] is working on [mobile project(Project[2])] also
+[this project(Project[2])] is in the [testing] stage
+[mobile project(Project[2])] is now in the [development] stage
+[it(Project[2])] has moved to the [design] stage
+[Alejandra(Developer[1])] created a new issue for [knowledge base project(Project[3])]: [fails with apache stack]
+[Gia(Tester[7])] created a new issue for [mobile project(Project[2])]: [minified version fails]
+[the minified version fails issue(Issue[8])] is assigned to [Willis(Tester[5])]
+[this tester(Tester[5])] resolved [the issue(Issue[8])]
+[Will(Developer[6])] created a new issue for [mobile project(Project[2])]: [issue in using training data]
+[mobile project(Project[2])] is not assigned to [Will(Developer[6])]
+[it(Project[2])] is assigned to [that developer(Developer[6])] also
+Who was [the saving data throws exception issue(Issue[1])] assigned to?	'Lizeth(Developer[3])'	['question_type_local']
+[this project(Project[2])] is not assigned to [he(Developer[6])]
+[this project(Project[2])] is assigned to [this developer(Developer[6])] also
+[Genevive(Tester[2])] resolved [the parse example terribly slow issue(Issue[6])]
+[knowledge base project(Project[3])] is not assigned to [Willis(Tester[5])]
+[this tester(Tester[5])] is working on [knowledge base project(Project[3])] also
+What are the issues created by [Alejandra(Developer[1])] that were not resolved?	'fails with apache stack(Issue[7])'	['question_type_local']
+[chatbot project(Project[1])] is not assigned to [Alejandra(Developer[1])]
+[Alejandra(Developer[1])] is working on [chatbot project(Project[1])] also
+[this person(Developer[1])] is working on [mobile project(Project[2])] also
+[this person(Developer[1])] is not working on [chatbot project(Project[1])] anymore
+[the versioning needs to be made consistent proposal(Issue[2])] is assigned to [this person(Developer[1])]
+[this person(Developer[1])] resolved [it(Issue[2])]
+[Alejandra(Developer[1])] is assigned to [chatbot project(Project[1])] also
+[the issue in using training data issue(Issue[9])] is assigned to [that developer(Developer[1])]
+[this person(Developer[1])] resolved [it(Issue[9])]
+Who is [the enhancement(Issue[3])] assigned to?	'Lizeth(Developer[3])'	['question_type_local']
+What are the issues assigned to [Genevive(Tester[2])] that were resolved?	'parse example terribly slow(Issue[6])'	['question_type_local']
+[this person(Developer[1])] is not working on [mobile project(Project[2])] anymore
+[this developer(Developer[1])] is working on [mobile project(Project[2])] also
+[knowledge base project(Project[3])] is not assigned to [this developer(Developer[1])]
+[it(Project[3])] is assigned to [that person(Developer[1])] also
+[this project(Project[3])] is in the stage of [deployment]
+[this project(Project[3])] is in the stage of [design]
+Who was [the saving data throws exception issue(Issue[1])] assigned to?	'Lizeth(Developer[3])'	['question_type_local']
+[it(Project[3])] is in the stage of [deployment]
+[chatbot project(Project[1])] is not assigned to [Alejandra(Developer[1])]
+[this person(Developer[1])] is assigned to [chatbot project(Project[1])] also
+[the memory leak while reading tf records issue(Issue[4])] was assigned to [Willis(Tester[5])]
+[this person(Tester[5])] resolved [that issue(Issue[4])]
+[that person(Tester[5])] is not working on [knowledge base project(Project[3])] anymore
+[that project(Project[3])] is assigned to [this tester(Tester[5])] also

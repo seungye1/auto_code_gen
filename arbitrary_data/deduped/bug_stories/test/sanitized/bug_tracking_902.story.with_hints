@@ -1,0 +1,108 @@
+there is a new [mobile(Project[1])] [project]
+[mobile project(Project[1])] is a [corporate] project
+[this project(Project[1])] is currently in the [maintenance] stage
+[Alverta(Developer[1])] is a [developer]
+[Milagros(Tester[2])] is a [tester] on [this project(Project[1])]
+[this tester(Tester[2])] submitted a new [task] for [mobile project(Project[1])]: [xml extractor exception]
+[that issue(Issue[1])] is assigned to [this test engineer(Tester[2])]
+[William(Tester[3])] is a [tester]
+[Gabrielle(Tester[4])] is a [tester] on [mobile project(Project[1])]
+[Milagros(Tester[2])] resolved [the xml extractor exception task(Issue[1])]
+[Eun(Developer[5])] is a [developer] on [mobile project(Project[1])]
+[Danita(Developer[6])] is a [developer]
+[Danita(Developer[6])] is assigned to [mobile project(Project[1])]
+There is a new [task] for the [that project(Project[1])]: [timeout problem]
+[this issue(Issue[2])] was assigned to [Danita(Developer[6])]
+there is a new [knowledge base(Project[2])] [project]
+[knowledge base project(Project[2])] is a [important] project
+[that project(Project[2])] is in the [maintenance] stage
+[this project(Project[2])] is assigned to [William(Tester[3])]
+[William(Tester[3])] is no longer assigned to [knowledge base project(Project[2])]
+there is a new [chatbot(Project[3])] [project]
+[chatbot project(Project[3])] is currently in the [deployment] stage
+[Lucio(Developer[7])] is a [developer] on [mobile project(Project[1])]
+[chatbot project(Project[3])] is assigned to [this developer(Developer[7])] also
+[chatbot project(Project[3])] is a [corporate] project
+[knowledge base project(Project[2])] is assigned to [Milagros(Tester[2])] also
+[chatbot project(Project[3])] is assigned to [Milagros(Tester[2])] also
+Who was [the xml extractor exception task(Issue[1])] assigned to?	'Milagros(Tester[2])'	['question_type_local']
+[Ashly(Developer[8])] is a [developer]
+[Lucio(Developer[7])] created a new issue for [this project(Project[3])]: [null pointer exception during parsing]
+[this issue(Issue[3])] was assigned to [Milagros(Tester[2])]
+[she(Tester[2])] resolved [it(Issue[3])]
+[mobile project(Project[1])] is not assigned to [Milagros(Tester[2])]
+[Milagros(Tester[2])] submitted a new [task] for [knowledge base project(Project[2])]: [issue in using training data]
+[the task(Issue[4])] is assigned to [Milagros(Tester[2])]
+[Danita(Developer[6])] resolved [the timeout problem issue(Issue[2])]
+[that developer(Developer[6])] is working on [knowledge base project(Project[2])] also
+[Danita(Developer[6])] is working on [chatbot project(Project[3])] also
+[chatbot project(Project[3])] is in the [maintenance] stage
+[Milagros(Tester[2])] is assigned to [mobile project(Project[1])] also
+[this project(Project[1])] is in the stage of [design]
+[this project(Project[1])] is in the stage of [maintenance]
+[Vivienne(Developer[9])] is a [developer]
+[chatbot project(Project[3])] is assigned to [she(Developer[9])]
+[she(Developer[9])] is working on [mobile project(Project[1])] also
+[Bob(Tester[10])] is a [tester]
+[Bob(Tester[10])] is assigned to [that project(Project[1])]
+[this person(Tester[10])] is assigned to [knowledge base project(Project[2])] also
+[knowledge base project(Project[2])] is assigned to [Vivienne(Developer[9])] also
+[two consecutive dates identified as single date] is a new issue for the [chatbot project(Project[3])]
+[that issue(Issue[5])] was assigned to [Milagros(Tester[2])]
+[Eun(Developer[5])] is working on [knowledge base project(Project[2])] also
+[chatbot project(Project[3])] is assigned to [Eun(Developer[5])] also
+[wrong pos tag on consecutive words] is a new [task] submitted by [she(Developer[5])] for [mobile project(Project[1])]
+[the wrong pos tag on consecutive words task(Issue[6])] was assigned to [Bob(Tester[10])]
+[Bob(Tester[10])] resolved [it(Issue[6])]
+[chatbot project(Project[3])] is assigned to [he(Tester[10])] also
+[tokenization not consistent across platforms] is a new issue for the [chatbot project(Project[3])]
+[that issue(Issue[7])] is assigned to [Vivienne(Developer[9])]
+[this person(Developer[9])] resolved [the issue(Issue[7])]
+[William(Tester[3])] is working on [chatbot project(Project[3])]
+[knowledge base project(Project[2])] is assigned to [William(Tester[3])] also
+[that test engineer(Tester[3])] is working on [mobile project(Project[1])] also
+[that project(Project[1])] is not assigned to [he(Tester[3])]
+Who was [the null pointer exception during parsing issue(Issue[3])] assigned to?	'Milagros(Tester[2])'	['question_type_local']
+[this project(Project[1])] is assigned to [that person(Tester[3])] also
+[knowledge base project(Project[2])] is not assigned to [Milagros(Tester[2])]
+Who is [the timeout problem task(Issue[2])] assigned to?	'Danita(Developer[6])'	['question_type_local']
+[that test engineer(Tester[2])] is working on [it(Project[2])] also
+[this project(Project[2])] is in the [deployment] stage
+[knowledge base project(Project[2])] is in the stage of [design]
+Who created [the xml extractor exception task(Issue[1])]?	'Milagros(Tester[2])'	['question_type_local']
+[that project(Project[2])] is in the [maintenance] stage
+[Milagros(Tester[2])] created a new issue for [this project(Project[2])]: [versioning needs to be made consistent]
+[the versioning needs to be made consistent issue(Issue[8])] was assigned to [William(Tester[3])]
+[William(Tester[3])] resolved [this issue(Issue[8])]
+What are the issues submitted by [Milagros(Tester[2])] that were not resolved?	'issue in using training data(Issue[4])'	['question_type_local']
+[that test engineer(Tester[3])] is not working on [knowledge base project(Project[2])] anymore
+[knowledge base project(Project[2])] is assigned to [William(Tester[3])] also
+Who created [the null pointer exception during parsing issue(Issue[3])]?	'Lucio(Developer[7])'	['question_type_local']
+[William(Tester[3])] is not working on [mobile project(Project[1])] anymore
+[William(Tester[3])] is assigned to [mobile project(Project[1])] also
+[Milagros(Tester[2])] resolved [the issue in using training data task(Issue[4])]
+[chatbot project(Project[3])] is not assigned to [Eun(Developer[5])]
+[that developer(Developer[5])] is assigned to [that project(Project[3])] also
+[mobile project(Project[1])] is in the stage of [deployment]
+[knowledge base project(Project[2])] is assigned to [Gabrielle(Tester[4])] also
+[this person(Tester[4])] is assigned to [chatbot project(Project[3])] also
+Who submitted [the versioning needs to be made consistent issue(Issue[8])]?	'Milagros(Tester[2])'	['question_type_local']
+[Milagros(Tester[2])] resolved [the two consecutive dates identified as single date issue(Issue[5])]
+[Alverta(Developer[1])] is assigned to [chatbot project(Project[3])]
+[knowledge base project(Project[2])] is assigned to [Alverta(Developer[1])] also
+[chatbot project(Project[3])] is in the stage of [design]
+[chatbot project(Project[3])] has moved to the [maintenance] stage
+[chatbot project(Project[3])] is in the stage of [design]
+Who was [the two consecutive dates identified as single date issue(Issue[5])] assigned to?	'Milagros(Tester[2])'	['question_type_local']
+[chatbot project(Project[3])] is in the [maintenance] stage
+[Gabrielle(Tester[4])] is no longer assigned to [that project(Project[3])]
+[this tester(Tester[4])] is assigned to [chatbot project(Project[3])] also
+[this test engineer(Tester[4])] is not working on [knowledge base project(Project[2])] anymore
+[knowledge base project(Project[2])] is assigned to [Gabrielle(Tester[4])] also
+[it(Project[2])] is assigned to [Lucio(Developer[7])] also
+[this person(Developer[7])] is no longer assigned to [chatbot project(Project[3])]
+[it(Project[3])] is assigned to [he(Developer[7])] also
+[he(Developer[7])] is not working on [chatbot project(Project[3])] anymore
+[he(Developer[7])] is assigned to [chatbot project(Project[3])] also
+[Milagros(Tester[2])] is not working on [this project(Project[3])] anymore
+[this test engineer(Tester[2])] is working on [that project(Project[3])] also

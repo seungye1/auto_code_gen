@@ -1,0 +1,147 @@
+there is a masters student named [Alverta(MastersStudent[1])]
+the affiliation of [this student(MastersStudent[1])] is [asian studies]
+[Hanna(PhdStudent[2])] is a PhD student
+[Hanna(PhdStudent[2])] passed thesis proposal
+[Hanna(PhdStudent[2])] failed their thesis defense
+[Hanna(PhdStudent[2])] has passed the thesis defense
+[this student(PhdStudent[2])] is in their [second year]
+There is a course called [G9000(Course[1])]
+[G9000(Course[1])] is a 4 unit course
+[Alverta(MastersStudent[1])] is enrolled in [G9000(Course[1])]
+[Hanna(PhdStudent[2])] is in [Fleming Building]
+[Hanna(PhdStudent[2])] failed the qualifiers
+Which students are taking [G9000(Course[1])]?	'Alverta(MastersStudent[1])'	['question_type_local']
+What courses is [Alverta(MastersStudent[1])] taking?	'G9000(Course[1])'	['question_type_local']
+[Hanna(PhdStudent[2])] did not pass the qualifiers
+[G9000(Course[1])] is full semester
+There is a [masters] level [full_semester_course] called [U9000(Course[2])]
+[U9000(Course[2])] is TAed by [Alverta(MastersStudent[1])] and [Hanna(PhdStudent[2])]
+What are the courses TAed by [Alverta(MastersStudent[1])]?	'U9000(Course[2])'	['question_type_local']
+[Alverta(MastersStudent[1])] is taking [G9000(Course[1])]
+[U9000(Course[2])] is a 4 unit course
+What courses is [Hanna(PhdStudent[2])] TAing?	'U9000(Course[2])'	['question_type_local']
+[Hanna(PhdStudent[2])] passed the qualifiers
+[Alverta(MastersStudent[1])] and [Hanna(PhdStudent[2])] are taking [G9000(Course[1])]
+there is a [fifth year] PhD student named [Racquel(PhdStudent[3])]
+[Racquel(PhdStudent[3])] failed their thesis defense
+What are the courses TAed by [Alverta(MastersStudent[1])]?	'U9000(Course[2])'	['question_type_local']
+[that student(PhdStudent[3])] did not pass the qualifiers
+[Racquel(PhdStudent[3])] is in [sixth year]
+there is a masters student named [Stephine(MastersStudent[4])]
+[Stephine(MastersStudent[4])] is affiliated with the [psychology] department
+there is a new masters student named [Eun(MastersStudent[5])]
+[Eun(MastersStudent[5])]'s department is [biomedical engineering]
+Create a new course called [U203(Course[3])]
+[Albertha(MastersStudent[6])] is a masters student
+[that person(MastersStudent[6])]'s department is [computer science]
+Which people are in the [biomedical engineering] department?	'Eun(MastersStudent[5])'	['question_type_global', 'question_single_statement']
+Who are the students in the [computer science] department	'Albertha(MastersStudent[6])'	['question_type_global', 'question_two_hop_statement']
+[Hanna(PhdStudent[2])] is now in [third year]
+Which phd students taking the G9000 course	'Hanna(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+Which people are in the [computer science] department?	'Albertha(MastersStudent[6])'	['question_type_global', 'question_single_statement']
+create a [distinguished] [professor] named [Loyd(Professor[7])]
+There is a course called [G305(Course[4])]
+[that class(Course[4])] is a [undergraduate] course
+[Alverta(MastersStudent[1])] and [Racquel(PhdStudent[3])] are taking [that course(Course[4])]
+[William(MastersStudent[8])] is a masters student
+the affiliation of [he(MastersStudent[8])] is [computer science]
+[Charlott(Professor[9])] is a [professor]
+there is a new PhD student named [Igor(PhdStudent[10])]
+[this student(PhdStudent[10])] and [Hanna(PhdStudent[2])] are [that professor(Professor[9])]'s student
+[he(PhdStudent[10])] is a [third year] student
+[he(PhdStudent[10])] is in [Irey Theatre]
+[Igor(PhdStudent[10])] passed thesis defense
+there is a masters student named [Rachele(MastersStudent[11])]
+[Igor(PhdStudent[10])] has [Loyd(Professor[7])] on the committee
+there is a [full] [professor] named [Angelita(Professor[12])]
+Which phd students have [Loyd(Professor[7])] on their committee	'Igor(PhdStudent[10])'	['question_type_local']
+[Isaiah(MastersStudent[13])] is a masters student
+[he(MastersStudent[13])] is affiliated with the [asian studies] department
+What masters students are taking G305	'Alverta(MastersStudent[1])'	['question_type_global', 'question_two_hop_statement']
+Create a new [masters] level course called [G304(Course[5])]
+[Racquel(PhdStudent[3])] is in [Fleming Building]
+[Igor(PhdStudent[10])] passed the qualifiers
+[Charlott(Professor[9])] currently has funding
+the affiliation of [that professor(Professor[9])] is [psychology]
+[this person(Professor[9])] advises [Racquel(PhdStudent[3])]
+[Igor(PhdStudent[10])] has [Angelita(Professor[12])] on the committee
+[Igor(PhdStudent[10])] has passed the thesis proposal exam
+Who is on [Igor(PhdStudent[10])]'s committee?	'Loyd(Professor[7])', 'Angelita(Professor[12])'	['question_type_local']
+[this professor(Professor[12])]'s department is [computer science]
+[that professor(Professor[12])] received funding
+[she(Professor[12])] conducts research in [conservation biology]
+Create a new [masters] course called [G102(Course[6])]
+[this course(Course[6])] is set up as a full semester course
+[Igor(PhdStudent[10])] and [Eun(MastersStudent[5])] are both enrolled in [this course(Course[6])]
+[Eun(MastersStudent[5])] and [Albertha(MastersStudent[6])] are TAing [G102(Course[6])]
+What masters students are taking G9000	'Alverta(MastersStudent[1])'	['question_type_global', 'question_two_hop_statement']
+Which masters students taking the G102 course	'Eun(MastersStudent[5])'	['question_type_global', 'question_two_hop_statement']
+Which courses did [Eun(MastersStudent[5])] enroll in?	'G102(Course[6])'	['question_type_local']
+[Rachele(MastersStudent[11])] and [Racquel(PhdStudent[3])] are taking [G9000(Course[1])]
+[G9000(Course[1])] is taught by [Loyd(Professor[7])]
+[Loyd(Professor[7])]'s research interest is [experimental cosmology]
+Who are the professors working on [experimental cosmology]?	'Loyd(Professor[7])'	['question_type_global', 'question_single_statement']
+the affiliation of [this person(Professor[7])] is [computer science]
+Which department is [that professor(Professor[7])] in?	'computer science'	['question_type_local']
+[Racquel(PhdStudent[3])] has passed the qualifying exam
+What 4 unit courses are taught by those in the [computer science] department?	'G9000(Course[1])'	['question_type_global', 'question_three_hop_statement']
+There is a course called [U601(Course[7])]
+Who is [that person(PhdStudent[3])]'s advisor?	'Charlott'	['question_type_local']
+There is a [phd] level 8 unit course called [G201(Course[8])]
+[U601(Course[7])] is a full semester course
+Which students are taking [G305(Course[4])]?	'Alverta(MastersStudent[1])', 'Racquel(PhdStudent[3])'	['question_type_local']
+[Isaiah(MastersStudent[13])] is a TA for [G201(Course[8])]
+Who does [Charlott(Professor[9])] advise?	'Hanna(PhdStudent[2])', 'Racquel(PhdStudent[3])', 'Igor(PhdStudent[10])'	['question_type_local']
+Who has an office in [Irey Theatre]	'Igor(PhdStudent[10])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [U201(Course[9])]
+[that student(MastersStudent[13])] and [Rachele(MastersStudent[11])] are attending [that class(Course[9])]
+[U201(Course[9])] will be a 2 unit course
+[U201(Course[9])] is set up as a full semester course
+There is a [phd] course called [U304(Course[10])]
+[U201(Course[9])] is taught by [Charlott(Professor[9])]
+What courses are taught by those in the [psychology] department?	'U201(Course[9])'	['question_type_global', 'question_two_hop_statement']
+[Igor(PhdStudent[10])] and [Racquel(PhdStudent[3])] are taking [this course(Course[9])]
+[U201(Course[9])] is TAed by [Igor(PhdStudent[10])] and [William(MastersStudent[8])]
+There is a [undergraduate] level course called [G302(Course[11])]
+[Angelita(Professor[12])] is on [Hanna(PhdStudent[2])]'s committee
+The TA for [G102(Course[6])] is [Rachele(MastersStudent[11])]
+[that course(Course[6])] is taught by [Angelita(Professor[12])]
+Who is on [Hanna(PhdStudent[2])]'s committee?	'Angelita(Professor[12])'	['question_type_local']
+[Stephine(MastersStudent[4])] and [Racquel(PhdStudent[3])] are TAs for [that class(Course[6])]
+What courses is [Stephine(MastersStudent[4])] TAing?	'G102(Course[6])'	['question_type_local']
+Which courses are TAed by [Racquel(PhdStudent[3])]?	'G102(Course[6])'	['question_type_local']
+[Loyd(Professor[7])] currently has funding
+[G102(Course[6])] has 2 units
+What phd students are taking G102	'Igor(PhdStudent[10])'	['question_type_global', 'question_two_hop_statement']
+[that person(Professor[7])] is the [computer science] department head
+Which department is [that professor(Professor[7])] in?	'computer science'	['question_type_local']
+Who are the professors working on [experimental cosmology]?	'Loyd(Professor[7])'	['question_type_global', 'question_single_statement']
+[Hanna(PhdStudent[2])] has [Loyd(Professor[7])] on the committee
+[Rachele(MastersStudent[11])]'s department is [mechanical engineering]
+Who is taking [G102(Course[6])]?	'Eun(MastersStudent[5])', 'Igor(PhdStudent[10])'	['question_type_local']
+Who is taking [G102(Course[6])]?	'Eun(MastersStudent[5])', 'Igor(PhdStudent[10])'	['question_type_local']
+Who is on [Hanna(PhdStudent[2])]'s committee?	'Loyd(Professor[7])', 'Angelita(Professor[12])'	['question_type_local']
+Who is in the [mechanical engineering] department	'Rachele(MastersStudent[11])'	['question_type_global', 'question_single_statement']
+[Igor(PhdStudent[10])] is in [fourth year]
+What are the courses TAed by [Igor(PhdStudent[10])]?	'U201(Course[9])'	['question_type_local']
+[he(PhdStudent[10])] is now in [fifth year]
+Which people are in the [mechanical engineering] department?	'Rachele(MastersStudent[11])'	['question_type_global', 'question_single_statement']
+What courses is [Alverta(MastersStudent[1])] taking?	'G9000(Course[1])', 'G305(Course[4])'	['question_type_local']
+Who is [this person(PhdStudent[10])]'s advisor?	'Charlott'	['question_type_local']
+[that student(PhdStudent[10])] is now a [sixth year] student
+[G305(Course[4])] is 4 units
+[G305(Course[4])] is set up as a mini course
+Who advises [Hanna(PhdStudent[2])]?	'Charlott'	['question_type_local']
+What courses are taught by professors in the [psychology] department?	'U201(Course[9])'	['question_type_global', 'question_two_hop_statement']
+What [full_semester_course] are taught by those in the [psychology] department?	'U201(Course[9])'	['question_type_global', 'question_three_hop_statement']
+What [mini course] are taught by those in the [computer science] department?	'G9000(Course[1])', 'G102(Course[6])'	['question_type_global', 'question_three_hop_statement']
+What students are going to TA [G201(Course[8])]?	'Isaiah(MastersStudent[13])'	['question_type_local']
+What [masters] courses are taught by those in the [psychology] department?	'U201(Course[9])'	['question_type_global', 'question_three_hop_statement']
+What courses is [Igor(PhdStudent[10])] TAing?	'U201(Course[9])'	['question_type_local']
+What [full_semester_course] are taught by those in the [psychology] department?	'U201(Course[9])'	['question_type_global', 'question_three_hop_statement']
+[Alverta(MastersStudent[1])] is taking [U9000(Course[2])]
+What is [Loyd(Professor[7])]'s research focus?	'experimental cosmology'	['question_type_local']
+[Racquel(PhdStudent[3])] passed thesis proposal
+[Racquel(PhdStudent[3])] failed their thesis defense
+What courses are taught by those in the [psychology] department?	'U201(Course[9])'	['question_type_global', 'question_two_hop_statement']
+[Racquel(PhdStudent[3])] failed their thesis defense

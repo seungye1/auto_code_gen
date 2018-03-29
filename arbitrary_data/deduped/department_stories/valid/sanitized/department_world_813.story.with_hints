@@ -1,0 +1,149 @@
+[Gia(MastersStudent[1])] is a masters student
+there is a new masters student named [Jack(MastersStudent[2])]
+there is a masters student named [Loyd(MastersStudent[3])]
+there is a PhD student named [Rey(PhdStudent[4])]
+[Emmie(Professor[5])] is a [distinguished] [professor]
+[that professor(Professor[5])] advises [that student(PhdStudent[4])]
+Who are [this professor(Professor[5])]'s students?	'Rey(PhdStudent[4])'	['question_type_local']
+[this student(PhdStudent[4])] did not pass the qualifiers
+Create a new course called [G104(Course[1])]
+[that person(PhdStudent[4])] failed thesis proposal
+[that student(PhdStudent[4])] has passed the qualifying exam
+[this student(PhdStudent[4])] has failed thesis defense
+[Rey(PhdStudent[4])] is current in [fifth year]
+[that student(PhdStudent[4])] has passed the thesis proposal exam
+There is a course called [G301(Course[2])]
+[that student(PhdStudent[4])] is now a [sixth year] student
+there is a [second year] PhD student named [Isaiah(PhdStudent[6])]
+Who advises [Rey(PhdStudent[4])]?	'Emmie'	['question_type_local']
+there is a new masters student named [Gabrielle(MastersStudent[7])]
+[he(PhdStudent[6])] is now a [third year] student
+[he(PhdStudent[6])]'s office is [Hale Building]
+[that person(PhdStudent[6])] failed their thesis defense
+[that student(PhdStudent[6])] has failed the qualifying exam
+[Marisela(Professor[8])] is a [professor]
+[that student(PhdStudent[6])] passed the qualifiers
+there is a new masters student named [Bob(MastersStudent[9])]
+there is a new masters student named [Hiram(MastersStudent[10])]
+there is a [teaching] [professor] named [Kristeen(Professor[11])]
+there is a new masters student named [Andrew(MastersStudent[12])]
+[she(Professor[11])] advises [Isaiah(PhdStudent[6])]
+Which [teaching] professors advise students who passed their qualifying exam?	'Kristeen(Professor[11])'	['question_type_global', 'question_three_hop_statement']
+There is a [undergraduate] level 12 unit course called [U601(Course[3])]
+[this student(PhdStudent[6])] is now in [fourth year]
+[Emmie(Professor[5])] is on sabbatical
+[that student(PhdStudent[6])] has failed the thesis proposal exam
+There is a [undergraduate] level course called [U302(Course[4])]
+[Isaiah(PhdStudent[6])] is now in [fifth year]
+[Kristeen(Professor[11])] is on [Rey(PhdStudent[4])]'s committee
+[Marisela(Professor[8])] is on [Rey(PhdStudent[4])]'s committee
+What [teaching] professors advise students who passed their thesis qualifiers?	'Kristeen(Professor[11])'	['question_type_global', 'question_three_hop_statement']
+[G301(Course[2])] is set up as a full semester course
+[that professor(Professor[8])] went on sabbatical
+There is a [masters] level [mini course] called [G601(Course[5])]
+[Isaiah(PhdStudent[6])] and [Rey(PhdStudent[4])] are TAs for [this course(Course[5])]
+[G601(Course[5])] is part of the [asian studies] department
+Which students have offices in Hale Building	'Isaiah(PhdStudent[6])'	['question_type_global', 'question_two_hop_statement']
+[Gia(MastersStudent[1])] and [Andrew(MastersStudent[12])] are both enrolled in [this course(Course[5])]
+There is a course called [G201(Course[6])]
+Which courses have phd student TAs that are in the sixth year?	'G601(Course[5])'	['question_type_global', 'question_three_hop_statement']
+[this course(Course[6])] is taught by [Emmie(Professor[5])]
+[that class(Course[6])] is under the [english] department
+[that class(Course[6])] is a [masters] level course
+[this course(Course[6])] will be a mini course
+[Loyd(MastersStudent[3])] and [Andrew(MastersStudent[12])] are both enrolled in [that course(Course[6])]
+The TA for [G201(Course[6])] is [Loyd(MastersStudent[3])]
+What courses is [Rey(PhdStudent[4])] TAing?	'G601(Course[5])'	['question_type_local']
+[Bob(MastersStudent[9])] and [Hiram(MastersStudent[10])] are TAs for [G201(Course[6])]
+[Jack(MastersStudent[2])] and [Isaiah(PhdStudent[6])] are taking [G201(Course[6])]
+[Gabrielle(MastersStudent[7])] and [Andrew(MastersStudent[12])] are TAing [G201(Course[6])]
+For which phd students does [Kristeen(Professor[11])] serve on a committee?	'Rey(PhdStudent[4])'	['question_type_local']
+What courses is [Emmie(Professor[5])] teaching?	'G201(Course[6])'	['question_type_local']
+Who advises [Isaiah(PhdStudent[6])]?	'Kristeen'	['question_type_local']
+Which courses in the asian studies department are TAed by phd students?	'G601(Course[5])'	['question_type_global', 'question_three_hop_statement']
+What are the courses that [Jack(MastersStudent[2])] is enrolled in?	'G201(Course[6])'	['question_type_local']
+Create a new [masters] level 2 unit course called [U103(Course[7])]
+[Rey(PhdStudent[4])] and [Gabrielle(MastersStudent[7])] are attending [U103(Course[7])]
+[Marisela(Professor[8])] is the instructor for [U103(Course[7])]
+[that class(Course[7])] will be set up as a mini course
+[that course(Course[7])] is a course in the [mechanical engineering] department
+There is a course called [G305(Course[8])]
+[G305(Course[8])] part of the [applied physics] department
+There is a course called [G103(Course[9])]
+[Jack(MastersStudent[2])] and [Gia(MastersStudent[1])] are TAs for [G305(Course[8])]
+Who is TAing [G305(Course[8])]?	'Gia(MastersStudent[1])', 'Jack(MastersStudent[2])'	['question_type_local']
+[Hiram(MastersStudent[10])] and [Bob(MastersStudent[9])] are both taking [G201(Course[6])]
+What are the courses TAed by [Gia(MastersStudent[1])]?	'G305(Course[8])'	['question_type_local']
+Which courses did [Loyd(MastersStudent[3])] enroll in?	'G201(Course[6])'	['question_type_local']
+[Marisela(Professor[8])]'s research interest is [conservation biology]
+What courses is [Hiram(MastersStudent[10])] taking?	'G201(Course[6])'	['question_type_local']
+[that professor(Professor[8])] is an [full] professor
+For which phd students does [Marisela(Professor[8])] serve on a committee?	'Rey(PhdStudent[4])'	['question_type_local']
+What students are in Hale Building	'Isaiah(PhdStudent[6])'	['question_type_global', 'question_two_hop_statement']
+Which department is [G305(Course[8])] part of?	'applied physics'	['question_type_local']
+[this person(Professor[8])] is back from the sabbatical
+[this professor(Professor[8])] currently has funding
+Which professors that are currently on sabbatical need to be teaching [mini course]?	'Emmie(Professor[5])'	['question_type_global', 'question_three_hop_statement']
+[Hiram(MastersStudent[10])] is a student in [U103(Course[7])]
+Which professors that are currently not on sabbatical need to be teaching [mini course]?	'Marisela(Professor[8])'	['question_type_global', 'question_three_hop_statement']
+[Gabrielle(MastersStudent[7])] is enrolled in [U103(Course[7])]
+Who is supposed to be teaching [masters] courses and is not currently on sabbatical?	'Marisela(Professor[8])'	['question_type_global', 'question_three_hop_statement']
+Who is enrolled in [U103(Course[7])]?	'Rey(PhdStudent[4])', 'Gabrielle(MastersStudent[7])', 'Hiram(MastersStudent[10])'	['question_type_local']
+[Bob(MastersStudent[9])] is attending [that course(Course[7])]
+Who is teaching [U103(Course[7])]?	'Marisela(Professor[8])'	['question_type_local']
+[Emmie(Professor[5])] conducts research in [applications of machine learning]
+There is a [masters] level course called [G202(Course[10])]
+Who has an office in [Hale Building]	'Isaiah(PhdStudent[6])'	['question_type_global', 'question_two_hop_statement']
+Create a new [masters] [full_semester_course] called [U303(Course[11])]
+[Rey(PhdStudent[4])] is a student in [G202(Course[10])]
+[that course(Course[10])] has 8 units
+[this person(PhdStudent[4])]'s office is [Hale Building]
+Which phd students taking the U103 course	'Rey(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+[Isaiah(PhdStudent[6])] and [that person(PhdStudent[4])] are both enrolled in [G202(Course[10])]
+[G202(Course[10])] is a full semester course
+[Kristeen(Professor[11])] is the instructor for [that course(Course[10])]
+Who is teaching [G202(Course[10])]?	'Kristeen(Professor[11])'	['question_type_local']
+[applied physics] offers [that course(Course[10])]
+Which students have offices in Hale Building	'Rey(PhdStudent[4])', 'Isaiah(PhdStudent[6])'	['question_type_global', 'question_two_hop_statement']
+[Kristeen(Professor[11])] conducts research in [programming languages]
+[Kristeen(Professor[11])] currently has funding
+[this person(Professor[11])] went on sabbatical
+Which professors that are currently not on sabbatical need to be teaching [mini course]?	'Marisela(Professor[8])'	['question_type_global', 'question_three_hop_statement']
+Who does [this professor(Professor[11])] advise?	'Isaiah(PhdStudent[6])'	['question_type_local']
+What students are in Hale Building	'Rey(PhdStudent[4])', 'Isaiah(PhdStudent[6])'	['question_type_global', 'question_two_hop_statement']
+Which courses in the asian studies department are TAed by phd students?	'G601(Course[5])'	['question_type_global', 'question_three_hop_statement']
+Which courses in the english department are TAed by masters students?	'G201(Course[6])'	['question_type_global', 'question_three_hop_statement']
+[Kristeen(Professor[11])] has been promoted to [assistant] professor
+Who is supposed to be teaching [masters] courses and is not currently on sabbatical?	'Marisela(Professor[8])'	['question_type_global', 'question_three_hop_statement']
+Which courses in the asian studies department have sixth year phd TAs?	'G601(Course[5])'	['question_type_global', 'question_three_hop_statement']
+Which courses have phd student TAs that are in the sixth year?	'G601(Course[5])'	['question_type_global', 'question_three_hop_statement']
+What courses is [Kristeen(Professor[11])] teaching?	'G202(Course[10])'	['question_type_local']
+What courses is [Jack(MastersStudent[2])] TAing?	'G305(Course[8])'	['question_type_local']
+Which students are advised by professors working on [programming languages]?	'Isaiah(PhdStudent[6])'	['question_type_global', 'question_two_hop_statement']
+Which students have offices in Hale Building	'Rey(PhdStudent[4])', 'Isaiah(PhdStudent[6])'	['question_type_global', 'question_two_hop_statement']
+Who is in [Hale Building]	'Rey(PhdStudent[4])', 'Isaiah(PhdStudent[6])'	['question_type_global', 'question_two_hop_statement']
+Create a new course called [G203(Course[12])]
+Who is teaching [G202(Course[10])]?	'Kristeen(Professor[11])'	['question_type_local']
+[G203(Course[12])] is 2 units
+[that class(Course[12])] is a [phd] course
+[that course(Course[12])] is under the [mechanical engineering] department
+Which students have offices in Hale Building	'Rey(PhdStudent[4])', 'Isaiah(PhdStudent[6])'	['question_type_global', 'question_two_hop_statement']
+[Andrew(MastersStudent[12])] and [Gia(MastersStudent[1])] are both enrolled in [that class(Course[12])]
+There is a course called [U102(Course[13])]
+[Bob(MastersStudent[9])] is a student in [that course(Course[13])]
+[that course(Course[13])] is a [undergraduate] level course
+[U102(Course[13])] is a 4 unit course
+[Gia(MastersStudent[1])] is taking [U102(Course[13])]
+[that course(Course[13])] will be a full semester course
+[Gabrielle(MastersStudent[7])] and [Loyd(MastersStudent[3])] are attending [U102(Course[13])]
+There is a course called [U204(Course[14])]
+Who is teaching [G201(Course[6])]?	'Emmie(Professor[5])'	['question_type_local']
+Who has an office in [Hale Building]	'Rey(PhdStudent[4])', 'Isaiah(PhdStudent[6])'	['question_type_global', 'question_two_hop_statement']
+Who is in [Hale Building]	'Rey(PhdStudent[4])', 'Isaiah(PhdStudent[6])'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by [Rey(PhdStudent[4])]?	'G601(Course[5])'	['question_type_local']
+[this course(Course[14])] is a [phd] course
+[U204(Course[14])] is a course in the [asian studies] department
+Which students's advisors are conducting research in [programming languages]	'Isaiah(PhdStudent[6])'	['question_type_global', 'question_two_hop_statement']
+[this course(Course[14])] is a 4 unit course
+Which courses in the english department are TAed by masters students?	'G201(Course[6])'	['question_type_global', 'question_three_hop_statement']
+[that course(Course[14])] is set up as a full semester course

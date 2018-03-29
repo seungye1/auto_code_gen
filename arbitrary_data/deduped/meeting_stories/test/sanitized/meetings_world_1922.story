@@ -1,0 +1,111 @@
+[Hanna] is a [person]
+[she]'s affiliation is [Blue Mountain State]
+[Hanna] is not a friend
+[Hanna]'s email is [Hanna@cornell.edu]
+there is a [meeting] [about homework grading]
+[Lucy] is a [person]
+there is a [student] named [Gabrielle]
+there is a [meeting] [about homework grading]
+[she] is not a friend
+[that student]'s email is [Gabrielle@cmu.edu]
+[that student]'s major is [math]
+there is a [student] named [Michael]
+[he] is not a friend
+[Michael]'s major is [math]
+[that student]'s affiliation is [Blue Mountain State]
+there is a [meeting] [to practice presentations]
+[Gabrielle]'s affiliation is [Coolidge College]
+create a [person] named [Igor]
+there is a [meeting] [to practice presentations]
+[that person]'s email is [Igor@nh.edu]
+[Igor]'s affiliation is [Springfield University]
+create a [student] named [Rachele]
+[that student]'s major is [engineering]
+create a new [meeting]
+there is a [meeting] [to prepare for exams]
+there is a [student] named [Britney]
+[Hanna] will attend [this meeting]
+[Hanna] attended [this meeting] on time
+[John] is a [professor]
+[that professor]'s email is [John@gmail.com]
+[he]'s affiliation is [Coolidge College]
+[John]'s department is [animal science]
+[that person] is not a friend
+[that professor]'s office is [463]
+change [that professor]'s department to [psychology]
+create a new [meeting]
+[Rachele] will attend [that meeting]
+there is a [meeting] [to grade papers]
+[Lucy] will attend [the meeting to prepare for exams]
+[Igor] will attend [the meeting]
+[Lucy] attended [this meeting] late
+[Igor] attended [this meeting] on time
+[Lucy] is not a friend
+[she]'s email is [Lucy@yandex.com]
+[she]'s affiliation is [Springfield University]
+What is [she]'s email	'Lucy@yandex.com'	['question_type_local']
+which people affiliated with [Springfield University] were late	'Lucy'	['question_type_global', 'question_two_hop_statement']
+create a new [meeting]
+[Michael]'s email is [Michael@cmu.edu]
+[Igor] is a friend
+[Michael] will attend [the meeting with Igor and Hanna]
+create a new [meeting]
+[Igor] will attend [this meeting]
+[Igor] is not my friend
+actually [that person] is my friend
+[the event that was last added] is [to grade papers]
+[that person] attended [this meeting] on time
+[Michael] will attend [that meeting]
+there is a [meeting] [to practice presentations]
+there is a [meeting] [to prepare for exams]
+[Gabrielle] will attend [the meeting that was last added]
+[Rachele] will attend [the meeting]
+[Gabrielle] attended [that meeting] on time
+[Rachele] attended [the event] late
+[Michael] attended [the meeting with Igor and Michael to prepare for exams] late
+which people affiliated with [Blue Mountain State] were late to [to prepare for exams]	'Michael'	['question_type_global', 'question_three_hop_statement']
+[Rachele]'s affiliation is [Springfield University]
+were any people affiliated with [Blue Mountain State] late	'Michael'	['question_type_global', 'question_two_hop_statement']
+was anyone affiliated with [Blue Mountain State] late to any meetings	'Michael'	['question_type_global', 'question_two_hop_statement']
+create a new [meeting]
+[this meeting] is [about homework grading]
+[Lucy] will attend [that meeting]
+[Lucy] attended [the event] late
+[Hanna] will attend [that meeting]
+there is a [meeting] [about homework grading]
+[Rachele] will attend [that meeting]
+[this student]'s email is [Rachele@yandex.com]
+Change major of [this person] to [math]
+[Michael] will attend [the meeting to prepare for exams with Gabrielle]
+[Michael] attended [the event] on time
+[John] will attend [the meeting]
+What is [this professor]'s email	'John@gmail.com'	['question_type_local']
+create a new [meeting]
+change [John]'s department to [animal science]
+What is [that person]'s email	'John@gmail.com'	['question_type_local']
+[that meeting] is [to grade papers]
+[Britney] will attend [that meeting]
+[this student] attended [that meeting] on time
+[this person]'s major is [math]
+[this person] is not a friend
+[she]'s affiliation is [Springfield University]
+there is a [meeting] [to grade papers]
+create a new [meeting]
+[Lucy] will attend [the event to grade papers that was last added]
+actually [Lucy] is my friend
+create a new [meeting]
+[this meeting] is [to prepare for exams]
+[Michael] will attend [this meeting]
+Who is attending [the meeting with Hanna to prepare for exams]	'Hanna', 'Lucy', 'Michael', 'Igor'	['question_type_local']
+create a new [meeting]
+Change major of [this student] to [biology]
+What is [this person]'s email	'Michael@cmu.edu'	['question_type_local']
+there is a [meeting] [to practice presentations]
+[John] will attend [this meeting]
+there is a [meeting] [about homework grading]
+create a new [meeting]
+were any students affiliated with [Springfield University] late to any meetings	'Rachele'	['question_type_global', 'question_three_hop_statement']
+were any students affiliated with [Springfield University] late	'Rachele'	['question_type_global', 'question_three_hop_statement']
+there is a [meeting] [to grade papers]
+[Gabrielle] will attend [the meeting that was last added]
+[she] attended [that meeting] late

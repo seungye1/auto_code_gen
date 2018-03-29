@@ -1,0 +1,246 @@
+[Roslyn] is a PhD student
+[she] passed thesis defense
+[she] has passed the thesis proposal exam
+which students passed the proposal exam?	'Roslyn'	['question_type_global', 'question_single_statement']
+[this person] is in [Henderson Building]
+create a [associate] [professor] named [Lucy]
+[Loyd] is a masters student
+the affiliation of [Loyd] is [applied physics]
+who are the phd students?	'Roslyn'	['question_type_global', 'question_single_statement']
+[Roslyn] is funded
+[Lucy] is on [Roslyn]'s committee
+there is a new masters student named [Rey]
+[Roslyn] is [she]'s student
+[that professor] is in [CIRES Building]
+[Gabrielle] is a [professor]
+[Lucy] research interest is in [theory]
+[Lucy] went on sabbatical
+which students passed the defense?	'Roslyn'	['question_type_global', 'question_single_statement']
+What professors advise students who passed their thesis proposal?	'Lucy'	['question_type_global', 'question_two_hop_statement']
+create a [teaching] [professor] named [Britney]
+[Britney] research interest is in [neurocomputing]
+[that professor] is affiliated with the [applied physics] department
+[this person] is on sabbatical
+What department is [that person] affiliated with?	'applied physics'	['question_type_local']
+Who are the professors in the [applied physics] department?	'Britney'	['question_type_global', 'question_two_hop_statement']
+What students currently have their advisor on sabbatical	'Roslyn'	['question_type_global', 'question_two_hop_statement']
+Which students are funded?	'Roslyn'	['question_type_global', 'question_single_statement']
+Who are the professors working on [theory]?	'Lucy'	['question_type_global', 'question_single_statement']
+What is [Lucy]'s research focus?	'theory'	['question_type_local']
+there is a new masters student named [Peggy]
+[Peggy] is affiliated with the [applied physics] department
+There is a course called [G104]
+Which professors advise students who passed their defense?	'Lucy'	['question_type_global', 'question_two_hop_statement']
+For which phd students does [Lucy] serve on a committee?	'Roslyn'	['question_type_local']
+Who is advised by a professor who is now on a sabbatical?	'Roslyn'	['question_type_global', 'question_two_hop_statement']
+there is a [sixth year] PhD student named [Racquel]
+[that student] failed thesis proposal
+[Racquel] currently has funding
+Which [associate] professors advise students who passed their defense?	'Lucy'	['question_type_global', 'question_three_hop_statement']
+there is a masters student named [Rachele]
+[Racquel] passed thesis defense
+[Lucy] is affiliated with the [applied physics] department
+[Racquel] is [Lucy]'s student
+Who has [Lucy] on their phd committee?	'Roslyn'	['question_type_local']
+who are the masters students?	'Loyd', 'Rey', 'Peggy', 'Rachele'	['question_type_global', 'question_single_statement']
+[Gabrielle] and [Britney] are on [that student]'s committee
+which courses have no masters students enrolled?	'G104'	['question_type_global', 'question_two_hop_statement']
+Which phd students have [Lucy] on their committee	'Roslyn'	['question_type_local']
+Which students are in their [sixth year]	'Racquel'	['question_type_global', 'question_single_statement']
+[Racquel] passed the qualifiers
+[that student] is in [Henderson Building]
+Who advises [that student]?	'Lucy'	['question_type_local']
+which students passed the defense?	'Roslyn', 'Racquel'	['question_type_global', 'question_single_statement']
+Who are the students in the [applied physics] department	'Loyd', 'Peggy'	['question_type_global', 'question_two_hop_statement']
+what courses have no phd students taking them?	'G104'	['question_type_global', 'question_two_hop_statement']
+[Racquel] passed thesis proposal
+Who are the professors working on [neurocomputing]?	'Britney'	['question_type_global', 'question_single_statement']
+What professors are on [this person]'s committee	'Gabrielle', 'Britney'	['question_type_local']
+who are the masters students?	'Loyd', 'Rey', 'Peggy', 'Rachele'	['question_type_global', 'question_single_statement']
+Which departments are people in [CIRES Building] with?	'applied physics'	['question_type_global', 'question_two_hop_statement']
+Which people are in the [applied physics] department?	'Lucy', 'Loyd', 'Britney', 'Peggy'	['question_type_global', 'question_single_statement']
+who are the students?	'Roslyn', 'Loyd', 'Rey', 'Peggy', 'Racquel', 'Rachele'	['question_type_global', 'question_single_statement']
+[Britney] is in [CIRES Building]
+What professors advise students who passed their thesis qualifiers?	'Lucy'	['question_type_global', 'question_two_hop_statement']
+Which professors are conducting research in [theory]	'Lucy'	['question_type_global', 'question_single_statement']
+which students passed the defense?	'Roslyn', 'Racquel'	['question_type_global', 'question_single_statement']
+[Gabrielle] is the instructor for [G104]
+[this course] will be a full semester course
+[that class] is a [masters] course
+Who has [Britney] on their phd committee?	'Racquel'	['question_type_local']
+what courses have no phd students taking them?	'G104'	['question_type_global', 'question_two_hop_statement']
+[Cyndi] is a [professor]
+[she] is an [distinguished] professor
+which [masters] courses have no masters students enrolled?	'G104'	['question_type_global', 'question_three_hop_statement']
+[Emma] is a [professor]
+[Emma]'s research interest is [theory]
+[that person] is in [Center Building]
+[that person] is affiliated with the [biomedical engineering] department
+Which department is [Lucy] in?	'applied physics'	['question_type_local']
+Which professors are part of the [applied physics] department?	'Lucy', 'Britney'	['question_type_global', 'question_two_hop_statement']
+[G104] will be a 2 unit course
+What professors advise students who passed their thesis qualifiers?	'Lucy'	['question_type_global', 'question_two_hop_statement']
+Create a new [phd] level course called [U202]
+[Roslyn] and [Loyd] are TAs for [U202]
+[Rachele] is attending [U202]
+Who advises [Racquel]?	'Lucy'	['question_type_local']
+What professors that currently advise students are going on sabbatical?	'Lucy'	['question_type_global', 'question_two_hop_statement']
+What is [Lucy]'s office?	'CIRES Building'	['question_type_local']
+Which people are in the [biomedical engineering] department?	'Emma'	['question_type_global', 'question_single_statement']
+the affiliation of [this student] is [applied physics]
+Who is on [Racquel]'s committee?	'Gabrielle', 'Britney'	['question_type_local']
+Who is on sabbatical?	'Lucy', 'Britney'	['question_type_global', 'question_single_statement']
+There is a course called [G304]
+[that class] has 2 units
+What [associate] professors advise students who passed their thesis qualifiers?	'Lucy'	['question_type_global', 'question_three_hop_statement']
+what [masters] courses have no phd students taking them?	'G104'	['question_type_global', 'question_three_hop_statement']
+which [phd] courses have some masters students enrolled?	'U202'	['question_type_global', 'question_three_hop_statement']
+which students passed the defense?	'Roslyn', 'Racquel'	['question_type_global', 'question_single_statement']
+What professors advise students who passed their thesis qualifiers?	'Lucy'	['question_type_global', 'question_two_hop_statement']
+there is a PhD student named [Jack]
+[Emma] and [Cyndi] are on [that student]'s committee
+Which department is [Britney] in?	'applied physics'	['question_type_local']
+Which [sixth year] students's advisors are conducting research in [theory]	'Racquel'	['question_type_global', 'question_three_hop_statement']
+Who are the professors working on [neurocomputing]?	'Britney'	['question_type_global', 'question_single_statement']
+[Roslyn] is current in [fourth year]
+What courses is [that student] TAing?	'U202'	['question_type_local']
+who are the phd students?	'Roslyn', 'Racquel', 'Jack'	['question_type_global', 'question_single_statement']
+[Lucy] advises [Jack]
+Which professors are conducting research in [neurocomputing]	'Britney'	['question_type_global', 'question_single_statement']
+Which [fourth year] students are advised by professors working on [theory]?	'Roslyn'	['question_type_global', 'question_three_hop_statement']
+[Roslyn] is now in [fifth year]
+Which courses are [phd] level courses?	'U202'	['question_type_global', 'question_single_statement']
+What are the [full_semester_course]?	'G104'	['question_type_global', 'question_single_statement']
+[Stephine] is a [professor]
+which students passed the qualifying exam?	'Racquel'	['question_type_global', 'question_single_statement']
+Which are some courses that no phd student is taking?	'G104', 'U202', 'G304'	['question_type_global', 'question_two_hop_statement']
+who are the students?	'Roslyn', 'Loyd', 'Rey', 'Peggy', 'Racquel', 'Rachele', 'Jack'	['question_type_global', 'question_single_statement']
+who are the masters students?	'Loyd', 'Rey', 'Peggy', 'Rachele'	['question_type_global', 'question_single_statement']
+[this professor] went on sabbatical
+Who are the [sixth year] students?	'Racquel'	['question_type_global', 'question_single_statement']
+Who has an office in [CIRES Building]	'Lucy', 'Britney'	['question_type_global', 'question_two_hop_statement']
+[Stephine] research interest is in [neurocomputing]
+[that person]'s department is [biomedical engineering]
+Which courses are TAed by masters students?	'U202'	['question_type_global', 'question_two_hop_statement']
+which students passed the defense?	'Roslyn', 'Racquel'	['question_type_global', 'question_single_statement']
+[that professor] is an [associate] professor
+which [phd] courses have no phd students enrolled?	'U202'	['question_type_global', 'question_three_hop_statement']
+who are the phd students?	'Roslyn', 'Racquel', 'Jack'	['question_type_global', 'question_single_statement']
+there is a PhD student named [Igor]
+[she] is the head of the [biomedical engineering] department
+[Charlott] is a masters student
+What are the courses that [Rachele] is enrolled in?	'U202'	['question_type_local']
+who are the students?	'Roslyn', 'Loyd', 'Rey', 'Peggy', 'Racquel', 'Rachele', 'Jack', 'Igor', 'Charlott'	['question_type_global', 'question_single_statement']
+Which are some [phd] courses that no phd student is taking?	'U202'	['question_type_global', 'question_three_hop_statement']
+What students have funding?	'Roslyn', 'Racquel'	['question_type_global', 'question_single_statement']
+[Racquel] has [Cyndi] and [Emma] on the committee
+What students currently have their advisor on sabbatical	'Roslyn', 'Racquel', 'Jack'	['question_type_global', 'question_two_hop_statement']
+[Roslyn] is attending [U202]
+[that course] will be a full semester course
+[Rey] is TAing [this course]
+Which students are TAing [this course]?	'Roslyn', 'Loyd', 'Rey'	['question_type_local']
+who are the masters students?	'Loyd', 'Rey', 'Peggy', 'Rachele', 'Charlott'	['question_type_global', 'question_single_statement']
+which students passed the defense?	'Roslyn', 'Racquel'	['question_type_global', 'question_single_statement']
+[that person] is affiliated with the [biomedical engineering] department
+Which courses are TAed by masters students?	'U202'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by phd students?	'U202'	['question_type_global', 'question_two_hop_statement']
+Which courses are [full_semester_course]	'G104', 'U202'	['question_type_global', 'question_single_statement']
+Which courses are 2 unit courses?	'G104', 'G304'	['question_type_global', 'question_single_statement']
+What are the courses TAed by [that student]?	'U202'	['question_type_local']
+[U202] has 8 units
+[Igor] and [Rey] are both taking [U202]
+[Igor] passed thesis defense
+[Igor] has [Gabrielle] on the committee
+[this student]'s office is [Center Building]
+What professors are on [Igor]'s committee	'Gabrielle'	['question_type_local']
+Which courses are 8 unit courses?	'U202'	['question_type_global', 'question_single_statement']
+which students passed the proposal exam?	'Roslyn', 'Racquel'	['question_type_global', 'question_single_statement']
+[Roslyn] is in [sixth year]
+Who is [she]'s advisor?	'Lucy'	['question_type_local']
+Which courses are offered this semester?	'G104', 'U202', 'G304'	['question_type_global', 'question_single_statement']
+Which professors advise students who passed their proposal?	'Lucy'	['question_type_global', 'question_two_hop_statement']
+[Gabrielle] is in [CIRES Building]
+Who has [that professor] on their phd committee?	'Racquel', 'Igor'	['question_type_local']
+what courses have no masters students taking them?	'G104', 'G304'	['question_type_global', 'question_two_hop_statement']
+[Lucy] is the [applied physics] department head
+What office is [Lucy] in?	'CIRES Building'	['question_type_local']
+What are the [full_semester_course]?	'G104', 'U202'	['question_type_global', 'question_single_statement']
+What students have funding?	'Roslyn', 'Racquel'	['question_type_global', 'question_single_statement']
+[Gabrielle] is affiliated with the [neuroscience] department
+What courses is [Gabrielle] teaching?	'G104'	['question_type_local']
+Where are the offices of those in the [applied physics] department?	'CIRES Building'	['question_type_global', 'question_two_hop_statement']
+Which courses are [full_semester_course]	'G104', 'U202'	['question_type_global', 'question_single_statement']
+What are all the courses?	'G104', 'U202', 'G304'	['question_type_global', 'question_single_statement']
+[Gabrielle] is an [assistant] professor
+which students passed the qualifying exam?	'Racquel'	['question_type_global', 'question_single_statement']
+[Gabrielle] is now on sabbatical
+[this person]'s research interest is [theory]
+What office is [Gabrielle] in?	'CIRES Building'	['question_type_local']
+Who is advised by a professor who is now on a sabbatical?	'Roslyn', 'Racquel', 'Jack'	['question_type_global', 'question_two_hop_statement']
+[Emma] advises [Igor]
+[Emma] is an [full] professor
+What students are enrolled in [U202]?	'Roslyn', 'Rey', 'Rachele', 'Igor'	['question_type_local']
+Which are some courses that no phd student is taking?	'G104', 'G304'	['question_type_global', 'question_two_hop_statement']
+Who is supposed to be teaching [full_semester_course] and is currently on sabbatical?	'Gabrielle'	['question_type_global', 'question_three_hop_statement']
+Who is teaching [masters] courses?	'Gabrielle'	['question_type_global', 'question_two_hop_statement']
+What masters students are taking U202	'Rey', 'Rachele'	['question_type_global', 'question_two_hop_statement']
+There is a course called [U302]
+[U302] is a 4 unit course
+[that course] will be a full semester course
+Which courses have phd student TAs that either have some funding or passed the qualifying exam?	'U202'	['question_type_global', 'question_four_hop_statement']
+[Lucy] teaches [that class]
+Which courses are offered this semester?	'G104', 'U202', 'G304', 'U302'	['question_type_global', 'question_single_statement']
+which students passed the qualifying exam?	'Racquel'	['question_type_global', 'question_single_statement']
+[Emma] teaches [U202]
+Who is enrolled in [U202]?	'Roslyn', 'Rey', 'Rachele', 'Igor'	['question_type_local']
+which [phd] courses have some phd students enrolled?	'U202'	['question_type_global', 'question_three_hop_statement']
+There is a [undergraduate] course called [G102]
+[that class] has 2 units
+[Roslyn] is taking [this course]
+What professors that currently advise students are going on sabbatical?	'Lucy'	['question_type_global', 'question_two_hop_statement']
+What departments are people in [CIRES Building] affiliated with?	'applied physics', 'neuroscience'	['question_type_global', 'question_two_hop_statement']
+Which courses are [masters] level courses?	'G104'	['question_type_global', 'question_single_statement']
+Who advises [Racquel]?	'Lucy'	['question_type_local']
+What students are taking G102	'Roslyn'	['question_type_global', 'question_single_statement']
+Create a new course called [U601]
+[that class] will be a 4 unit course
+[that class] is taught by [Cyndi]
+Which courses have masters student TAs?	'U202'	['question_type_global', 'question_two_hop_statement']
+What are the courses that [Rachele] is enrolled in?	'U202'	['question_type_local']
+What students are advised by the head of the department?	'Roslyn', 'Racquel', 'Jack'	['question_type_global', 'question_two_hop_statement']
+[this course] is full semester
+Which students are in their [sixth year]	'Roslyn', 'Racquel'	['question_type_global', 'question_single_statement']
+Which students are in a course that is instructed by their advisor?	'Igor'	['question_type_global', 'question_three_hop_statement']
+[Emma] is on sabbatical
+Who has [that person] on their phd committee?	'Racquel', 'Jack'	['question_type_local']
+What are the [undergraduate] courses?	'G102'	['question_type_global', 'question_single_statement']
+What [associate] professors advise students who defended successfully?	'Lucy'	['question_type_global', 'question_three_hop_statement']
+who are the masters students?	'Loyd', 'Rey', 'Peggy', 'Rachele', 'Charlott'	['question_type_global', 'question_single_statement']
+What is [Gabrielle] research area?	'theory'	['question_type_local']
+Which courses are offered this semester?	'G104', 'U202', 'G304', 'U302', 'G102', 'U601'	['question_type_global', 'question_single_statement']
+Who does [this person] advise?	'Igor'	['question_type_local']
+Which courses are [undergraduate] level courses?	'G102'	['question_type_global', 'question_single_statement']
+which courses have no phd students enrolled?	'G104', 'G304', 'U302', 'U601'	['question_type_global', 'question_two_hop_statement']
+Which students are in their [sixth year]	'Roslyn', 'Racquel'	['question_type_global', 'question_single_statement']
+[this course] is TAed by [Rachele] and [Charlott]
+What is [Lucy]'s department?	'applied physics'	['question_type_local']
+Which courses have masters student TAs?	'U202', 'U601'	['question_type_global', 'question_two_hop_statement']
+[Charlott] is affiliated with the [neuroscience] department
+What courses is [Loyd] TAing?	'U202'	['question_type_local']
+who are the students?	'Roslyn', 'Loyd', 'Rey', 'Peggy', 'Racquel', 'Rachele', 'Jack', 'Igor', 'Charlott'	['question_type_global', 'question_single_statement']
+There is a [masters] level [full_semester_course] called [G301]
+What are the courses TAed by [Loyd]?	'U202'	['question_type_local']
+What professors advise students who passed their thesis qualifiers?	'Lucy'	['question_type_global', 'question_two_hop_statement']
+which students passed the defense?	'Roslyn', 'Racquel', 'Igor'	['question_type_global', 'question_single_statement']
+which courses have no masters students enrolled?	'G104', 'G304', 'U302', 'G102', 'U601', 'G301'	['question_type_global', 'question_two_hop_statement']
+[Stephine] teaches [G301]
+What department is [Lucy] affiliated with?	'applied physics'	['question_type_local']
+Which are some courses that no masters student is taking?	'G104', 'G304', 'U302', 'G102', 'U601', 'G301'	['question_type_global', 'question_two_hop_statement']
+Which [associate] professors advise students who passed their defense?	'Lucy'	['question_type_global', 'question_three_hop_statement']
+Which courses are TAed by masters students?	'U202', 'U601'	['question_type_global', 'question_two_hop_statement']
+What courses are taught by professors in the [biomedical engineering] department?	'U202', 'G301'	['question_type_global', 'question_two_hop_statement']
+Which courses are [masters] level courses?	'G104', 'G301'	['question_type_global', 'question_single_statement']
+What are all the courses?	'G104', 'U202', 'G304', 'U302', 'G102', 'U601', 'G301'	['question_type_global', 'question_single_statement']
+what courses have no masters students taking them?	'G104', 'G304', 'U302', 'G102', 'U601', 'G301'	['question_type_global', 'question_two_hop_statement']
+Create a new [phd] course called [U201]
+What is [that professor]'s department?	'biomedical engineering'	['question_type_local']

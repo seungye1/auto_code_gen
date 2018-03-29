@@ -1,0 +1,130 @@
+[second year] is a [Genevive(PhdStudent[1])] PhD student
+[Genevive(PhdStudent[1])] did not pass the qualifiers
+[that student(PhdStudent[1])] is now a [third year] student
+[this person(PhdStudent[1])] did not pass the qualifiers
+[this person(PhdStudent[1])] has failed the thesis proposal exam
+[Genevive(PhdStudent[1])] failed the qualifiers
+[this person(PhdStudent[1])] has passed the thesis defense
+there is a [professor] named [Francoise(Professor[2])]
+[this professor(Professor[2])] research interest is in [programming languages]
+[that professor(Professor[2])] is an [distinguished] professor
+there is a [second year] PhD student named [Isaiah(PhdStudent[3])]
+[Genevive(PhdStudent[1])] is [Francoise(Professor[2])]'s student
+Which professors are conducting research in [programming languages]	'Francoise(Professor[2])'	['question_type_global', 'question_single_statement']
+create a [professor] named [Luanna(Professor[4])]
+[this professor(Professor[4])] research interest is in [supervised learning]
+Create a new course called [G9000(Course[1])]
+there is a PhD student named [Britney(PhdStudent[5])]
+[this person(PhdStudent[5])] has passed the qualifying exam
+There is a [masters] level course called [U304(Course[2])]
+[this person(PhdStudent[5])] has [Luanna(Professor[4])] on the committee
+[Britney(PhdStudent[5])] has failed the thesis proposal exam
+What is [Francoise(Professor[2])] working on?	'programming languages'	['question_type_local']
+[Genevive(PhdStudent[1])] has [this professor(Professor[4])] on the committee
+[Britney(PhdStudent[5])] is in their [third year]
+[that student(PhdStudent[5])] failed their thesis defense
+What professors are on [this person(PhdStudent[5])]'s committee	'Luanna(Professor[4])'	['question_type_local']
+[Francoise(Professor[2])] is on [Britney(PhdStudent[5])]'s committee
+There is a [phd] course called [G302(Course[3])]
+[Isaiah(PhdStudent[3])] and [Genevive(PhdStudent[1])] are TAs for [G302(Course[3])]
+[Luanna(Professor[4])] is the instructor for [G302(Course[3])]
+Create a new course called [U302(Course[4])]
+[Isaiah(PhdStudent[3])] is [Luanna(Professor[4])]'s student
+[history] offers [G302(Course[3])]
+[that course(Course[3])] will be a full semester course
+[Britney(PhdStudent[5])] has passed the thesis proposal exam
+[Britney(PhdStudent[5])] is now in [fourth year]
+[second year] is a [Hanna(PhdStudent[6])] PhD student
+[Britney(PhdStudent[5])] successfully defended their thesis
+[Luanna(Professor[4])] is an [assistant] professor
+[Hanna(PhdStudent[6])] is [Luanna(Professor[4])]'s student
+[Willis(Professor[7])] is a [professor]
+[he(Professor[7])] is an [full] professor
+[Britney(PhdStudent[5])] is [this person(Professor[7])]'s student
+there is a [professor] named [Eun(Professor[8])]
+[that professor(Professor[8])] is an [assistant] professor
+[she(Professor[8])] research interest is in [programming languages]
+[Danita(MastersStudent[9])] is a masters student
+[Genevive(PhdStudent[1])] passed the qualifiers
+[Genevive(PhdStudent[1])] passed thesis proposal
+[Britney(PhdStudent[5])] has [Eun(Professor[8])] on the committee
+[Britney(PhdStudent[5])] is in [fifth year]
+there is a new masters student named [Cecil(MastersStudent[10])]
+Which professors are conducting research in [programming languages]	'Francoise(Professor[2])', 'Eun(Professor[8])'	['question_type_global', 'question_single_statement']
+[Isaiah(PhdStudent[3])] has passed the thesis proposal exam
+Who advises [Isaiah(PhdStudent[3])]?	'Luanna'	['question_type_local']
+Who are [Willis(Professor[7])]'s students?	'Britney(PhdStudent[5])'	['question_type_local']
+Which courses are TAed by [Isaiah(PhdStudent[3])]?	'G302(Course[3])'	['question_type_local']
+[Hiram(MastersStudent[11])] is a masters student
+[Isaiah(PhdStudent[3])] has passed the thesis defense
+there is a new masters student named [Roslyn(MastersStudent[12])]
+Who advises [Britney(PhdStudent[5])]?	'Willis'	['question_type_local']
+What is [Luanna(Professor[4])] research area?	'supervised learning'	['question_type_local']
+[Zenaida(Professor[13])] is a [assistant] [professor]
+there is a new PhD student named [Bob(PhdStudent[14])]
+[he(PhdStudent[14])] is a [fifth year] student
+there is a new PhD student named [Loyd(PhdStudent[15])]
+[Loyd(PhdStudent[15])] failed their thesis defense
+[that person(PhdStudent[15])] is in their [first year]
+Which professors are conducting research in [supervised learning]	'Luanna(Professor[4])'	['question_type_global', 'question_single_statement']
+create a [professor] named [Rachele(Professor[16])]
+[this student(PhdStudent[15])] has [Willis(Professor[7])] on the committee
+[Loyd(PhdStudent[15])] passed the qualifiers
+[Hanna(PhdStudent[6])] is taking [G302(Course[3])]
+The TA for [G302(Course[3])] is [Hiram(MastersStudent[11])]
+What are the [history] courses?	'G302(Course[3])'	['question_type_global', 'question_single_statement']
+[Danita(MastersStudent[9])] and [Cecil(MastersStudent[10])] are taking [G302(Course[3])]
+Create a new [undergraduate] course called [U204(Course[5])]
+[that class(Course[5])] is full semester
+[Francoise(Professor[2])] teaches [that class(Course[5])]
+[Loyd(PhdStudent[15])] and [Bob(PhdStudent[14])] are TAs for [U204(Course[5])]
+[Loyd(PhdStudent[15])] has [Rachele(Professor[16])] on the committee
+Create a new course called [G8001(Course[6])]
+[Bob(PhdStudent[14])] is [that professor(Professor[16])]'s student
+Which courses in the history department are TAed by phd students?	'G302(Course[3])'	['question_type_global', 'question_three_hop_statement']
+[this professor(Professor[16])] is an [teaching] professor
+Create a new [undergraduate] [full_semester_course] called [G7000(Course[7])]
+[Hiram(MastersStudent[11])] is enrolled in [G7000(Course[7])]
+There is a [masters] level course called [U102(Course[8])]
+[this course(Course[8])] is taught by [Eun(Professor[8])]
+[Bob(PhdStudent[14])] is enrolled in [this course(Course[8])]
+[U102(Course[8])] is under the [computer science] department
+The TA for [that course(Course[8])] is [Britney(PhdStudent[5])]
+[Hiram(MastersStudent[11])] and [Roslyn(MastersStudent[12])] are both taking [U102(Course[8])]
+[Luanna(Professor[4])] is now an [associate] professor
+[that professor(Professor[4])] advises [Loyd(PhdStudent[15])]
+Which courses are TAed by [Hiram(MastersStudent[11])]?	'G302(Course[3])'	['question_type_local']
+Which department is [U102(Course[8])] part of?	'computer science'	['question_type_local']
+[Willis(Professor[7])]'s research interest is [conservation biology]
+Create a new [undergraduate] [full_semester_course] called [G301(Course[9])]
+[Zenaida(Professor[13])] is on [Britney(PhdStudent[5])]'s committee
+Which courses in the history department are TAed by phd students?	'G302(Course[3])'	['question_type_global', 'question_three_hop_statement']
+[U304(Course[2])] will be a full semester course
+[Cecil(MastersStudent[10])] and [Hanna(PhdStudent[6])] are TAs for [that course(Course[2])]
+What are the [history] courses?	'G302(Course[3])'	['question_type_global', 'question_single_statement']
+[Hanna(PhdStudent[6])] has [Willis(Professor[7])] and [Eun(Professor[8])] on the committee
+Which department is [G302(Course[3])] part of?	'history'	['question_type_local']
+Who is [Loyd(PhdStudent[15])]'s advisor?	'Luanna'	['question_type_local']
+What courses is [Hiram(MastersStudent[11])] TAing?	'G302(Course[3])'	['question_type_local']
+[he(Professor[7])] is now an [distinguished] professor
+What is [Luanna(Professor[4])] working on?	'supervised learning'	['question_type_local']
+Which courses in the history department have phd TAs?	'G302(Course[3])'	['question_type_global', 'question_three_hop_statement']
+For which phd students does [Willis(Professor[7])] serve on a committee?	'Hanna(PhdStudent[6])', 'Loyd(PhdStudent[15])'	['question_type_local']
+[Isaiah(PhdStudent[3])] is in [third year]
+Which courses are in the [computer science] department?	'U102(Course[8])'	['question_type_global', 'question_single_statement']
+Who advises [Hanna(PhdStudent[6])]?	'Luanna'	['question_type_local']
+[Rachele(Professor[16])] and [Eun(Professor[8])] are on [Genevive(PhdStudent[1])]'s committee
+Who is [Genevive(PhdStudent[1])]'s advisor?	'Francoise'	['question_type_local']
+What department is [G302(Course[3])] offered in?	'history'	['question_type_local']
+[Zenaida(Professor[13])] is on [Genevive(PhdStudent[1])]'s committee
+What are all the courses in the history department?	'G302(Course[3])'	['question_type_global', 'question_two_hop_statement']
+Who advises [Genevive(PhdStudent[1])]?	'Francoise'	['question_type_local']
+Create a new course called [U610(Course[10])]
+[Zenaida(Professor[13])] conducts research in [evolutionary biology]
+[this course(Course[10])] is offered in the [electrical engineering] department
+[this professor(Professor[13])] teaches [that class(Course[10])]
+[Loyd(PhdStudent[15])] is attending [U610(Course[10])]
+Create a new course called [U201(Course[11])]
+Who advises [Hanna(PhdStudent[6])]?	'Luanna'	['question_type_local']
+There is a course called [G101(Course[12])]
+[U201(Course[11])] is full semester

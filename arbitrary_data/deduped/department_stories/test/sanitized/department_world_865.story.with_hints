@@ -1,0 +1,135 @@
+There is a [masters] 4 unit class called [U202(Course[1])]
+[this course(Course[1])] will be a full semester course
+Create a new course called [G601(Course[2])]
+create a [teaching] [professor] named [Milagros(Professor[1])]
+[this course(Course[2])] is a course in the [neuroscience] department
+[that course(Course[2])] is a [undergraduate] course
+[G601(Course[2])] will be a full semester course
+[this course(Course[2])] will be a 12 unit course
+[that class(Course[2])] is taught by [Milagros(Professor[1])]
+[that person(Professor[1])] research interest is in [applications of machine learning]
+Who is teaching [G601(Course[2])]?	'Milagros(Professor[1])'	['question_type_local']
+[that professor(Professor[1])] has funding
+What is [she(Professor[1])]'s research focus?	'applications of machine learning'	['question_type_local']
+[this person(Professor[1])]'s department is [english]
+[U202(Course[1])] part of the [neuroscience] department
+there is a [teaching] [professor] named [Yoshiko(Professor[2])]
+[Alverta(PhdStudent[3])] is a PhD student
+[that professor(Professor[2])] has funding
+[that professor(Professor[2])]'s department is [computer science]
+Which department is [G601(Course[2])] in?	'neuroscience'	['question_type_local']
+What courses are taught by those in the [english] department?	'G601(Course[2])'	['question_type_global', 'question_two_hop_statement']
+The TA for [U202(Course[1])] is [Alverta(PhdStudent[3])]
+there is a new masters student named [Angelita(MastersStudent[4])]
+the affiliation of [Angelita(MastersStudent[4])] is [english]
+What 12 unit courses are taught by professors in the [english] department?	'G601(Course[2])'	['question_type_global', 'question_three_hop_statement']
+[she(MastersStudent[4])] and [Alverta(PhdStudent[3])] are both enrolled in [G601(Course[2])]
+Who is teaching [G601(Course[2])]?	'Milagros(Professor[1])'	['question_type_local']
+[Tawnya(Professor[5])] is a [associate] [professor]
+[that student(PhdStudent[3])] is [this professor(Professor[5])]'s student
+What 12 unit courses are taught by those in the [english] department?	'G601(Course[2])'	['question_type_global', 'question_three_hop_statement']
+[this professor(Professor[5])] is affiliated with the [applied physics] department
+[Loyd(Professor[6])] is a [professor]
+What 4 unit courses are taught by those in the [english] department?	'G601(Course[2])'	['question_type_global', 'question_three_hop_statement']
+Who is currently TAing [U202(Course[1])]?	'Alverta(PhdStudent[3])'	['question_type_local']
+[fourth year] is a [Emmie(PhdStudent[7])] PhD student
+[Loyd(Professor[6])] is an [assistant] professor
+[this professor(Professor[6])] is affiliated with the [computer science] department
+there is a masters student named [Britney(MastersStudent[8])]
+[that professor(Professor[6])] research interest is in [operating systems]
+[that student(MastersStudent[8])]'s department is [neuroscience]
+[Gabrielle(Professor[9])] is a [associate] [professor]
+[this professor(Professor[9])]'s department is [neuroscience]
+Who is teaching [G601(Course[2])]?	'Milagros(Professor[1])'	['question_type_local']
+Create a new [phd] level course called [U8001(Course[3])]
+[this person(Professor[9])] currently has funding
+[first year] is a [Eun(PhdStudent[10])] PhD student
+[that student(PhdStudent[10])] successfully defended their thesis
+[Rey(MastersStudent[11])] is a masters student
+[Gabrielle(Professor[9])] is on [Eun(PhdStudent[10])]'s committee
+[this student(PhdStudent[10])] is in [Engineering Building]
+[Emmie(PhdStudent[7])] successfully defended their thesis
+[Eun(PhdStudent[10])] passed the qualifiers
+Create a new course called [U7000(Course[4])]
+the affiliation of [Rey(MastersStudent[11])] is [computer science]
+What students are going to TA [U202(Course[1])]?	'Alverta(PhdStudent[3])'	['question_type_local']
+[first year] is a [Lizeth(PhdStudent[12])] PhD student
+[Milagros(Professor[1])] is on [Lizeth(PhdStudent[12])]'s committee
+Which phd students have [Gabrielle(Professor[9])] on their committee	'Eun(PhdStudent[10])'	['question_type_local']
+there is a [second year] PhD student named [Michael(PhdStudent[13])]
+[this student(PhdStudent[13])] passed thesis proposal
+[this person(PhdStudent[13])]'s office is [Engineering Building]
+[that student(PhdStudent[13])] is now a [third year] student
+there is a new masters student named [Vivienne(MastersStudent[14])]
+[Michael(PhdStudent[13])] successfully defended their thesis
+create a [teaching] [professor] named [Andrew(Professor[15])]
+[that student(PhdStudent[13])] passed the qualifiers
+[Loyd(Professor[6])] advises [Emmie(PhdStudent[7])]
+[Michael(PhdStudent[13])] is a student in [G601(Course[2])]
+[Igor(Professor[16])] is a [associate] [professor]
+Who has [Milagros(Professor[1])] on their phd committee?	'Lizeth(PhdStudent[12])'	['question_type_local']
+What 4 unit courses are taught by professors in the [english] department?	'G601(Course[2])'	['question_type_global', 'question_three_hop_statement']
+create a [assistant] [professor] named [Alejandra(Professor[17])]
+[Alejandra(Professor[17])] currently has funding
+[Alejandra(Professor[17])]'s research interest is [operating systems]
+[Eun(PhdStudent[10])] and [Michael(PhdStudent[13])] are [Milagros(Professor[1])]'s student
+[he(PhdStudent[13])] is in [fourth year]
+there is a [professor] named [Marisela(Professor[18])]
+[Andrew(Professor[15])] teaches [U8001(Course[3])]
+[Rey(MastersStudent[11])] is attending [U8001(Course[3])]
+[U8001(Course[3])] is a mini course
+[Lucio(Professor[19])] is a [professor]
+[Milagros(Professor[1])] advises [Lizeth(PhdStudent[12])]
+Which students have offices in Engineering Building	'Eun(PhdStudent[10])', 'Michael(PhdStudent[13])'	['question_type_global', 'question_two_hop_statement']
+Which professors are part of the [applied physics] department?	'Tawnya(Professor[5])'	['question_type_global', 'question_two_hop_statement']
+[this student(PhdStudent[12])] has passed the qualifying exam
+[she(PhdStudent[12])] has [Lucio(Professor[19])] and [Yoshiko(Professor[2])] on the committee
+[Lizeth(PhdStudent[12])] has failed the thesis proposal exam
+Which phd students taking the G601 course	'Alverta(PhdStudent[3])', 'Michael(PhdStudent[13])'	['question_type_global', 'question_two_hop_statement']
+[Lizeth(PhdStudent[12])]'s office is [Carlson Building]
+[that student(PhdStudent[12])] has failed thesis defense
+[Igor(Professor[16])] is on [Lizeth(PhdStudent[12])]'s committee
+There is a course called [G303(Course[5])]
+[Angelita(MastersStudent[4])] and [Eun(PhdStudent[10])] are TAs for [that course(Course[5])]
+[G303(Course[5])] is a [masters] level course
+[Michael(PhdStudent[13])] and [Emmie(PhdStudent[7])] are attending [this course(Course[5])]
+Which professors are part of the [english] department?	'Milagros(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+[he(PhdStudent[13])] is now in [fifth year]
+What students are in Engineering Building	'Eun(PhdStudent[10])', 'Michael(PhdStudent[13])'	['question_type_global', 'question_two_hop_statement']
+[she(PhdStudent[7])] has failed the qualifying exam
+What courses are taught by those in the [english] department?	'G601(Course[2])'	['question_type_global', 'question_two_hop_statement']
+[Alverta(PhdStudent[3])] is attending [U202(Course[1])]
+Create a new course called [U9000(Course[6])]
+[U9000(Course[6])] is a course in the [computer science] department
+The TA for [that class(Course[6])] is [Lizeth(PhdStudent[12])]
+[that class(Course[6])] has 2 units
+[Yoshiko(Professor[2])] teaches [that course(Course[6])]
+Who is teaching [U9000(Course[6])]?	'Yoshiko(Professor[2])'	['question_type_local']
+What students are in Carlson Building	'Lizeth(PhdStudent[12])'	['question_type_global', 'question_two_hop_statement']
+[Vivienne(MastersStudent[14])]'s department is [neuroscience]
+[Lizeth(PhdStudent[12])] is enrolled in [U9000(Course[6])]
+Which students are part of the [computer science] department	'Rey(MastersStudent[11])'	['question_type_global', 'question_two_hop_statement']
+[this person(PhdStudent[12])] passed thesis proposal
+[this person(PhdStudent[12])] is now in [second year]
+What department is [U9000(Course[6])] offered in?	'computer science'	['question_type_local']
+[this student(PhdStudent[12])] is now in [third year]
+[Lizeth(PhdStudent[12])] has passed the thesis defense
+What masters students are taking U8001	'Rey(MastersStudent[11])'	['question_type_global', 'question_two_hop_statement']
+[Lucio(Professor[19])] is an [associate] professor
+What [mini course] are taught by professors in the [english] department?	'G601(Course[2])'	['question_type_global', 'question_three_hop_statement']
+the affiliation of [that professor(Professor[19])] is [neuroscience]
+[Lucio(Professor[19])]'s research interest is [computational biology]
+Which students are in their [first year]	'Eun(PhdStudent[10])'	['question_type_global', 'question_single_statement']
+What [mini course] are taught by those in the [english] department?	'G601(Course[2])'	['question_type_global', 'question_three_hop_statement']
+[Alverta(PhdStudent[3])] and [Eun(PhdStudent[10])] are both enrolled in [U202(Course[1])]
+[Rey(MastersStudent[11])] and [Vivienne(MastersStudent[14])] are TAs for [U202(Course[1])]
+Who is [Lizeth(PhdStudent[12])]'s advisor?	'Milagros'	['question_type_local']
+What professors are on [Eun(PhdStudent[10])]'s committee	'Gabrielle(Professor[9])'	['question_type_local']
+What courses are taught by professors in the [english] department?	'G601(Course[2])'	['question_type_global', 'question_two_hop_statement']
+[he(MastersStudent[11])] and [Lizeth(PhdStudent[12])] are both enrolled in [U202(Course[1])]
+What students are taking U9000	'Lizeth(PhdStudent[12])'	['question_type_global', 'question_single_statement']
+What 2 unit courses are taught by professors in the [computer science] department?	'U9000(Course[6])'	['question_type_global', 'question_three_hop_statement']
+Which courses in the neuroscience department are TAed by masters students?	'U202(Course[1])'	['question_type_global', 'question_three_hop_statement']
+[Igor(Professor[16])] and [Alejandra(Professor[17])] are on [Eun(PhdStudent[10])]'s committee
+What students are in Carlson Building	'Lizeth(PhdStudent[12])'	['question_type_global', 'question_two_hop_statement']
+[Lizeth(PhdStudent[12])] has [Loyd(Professor[6])] on the committee

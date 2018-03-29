@@ -1,0 +1,114 @@
+There is a [undergraduate] course called [G305(Course[1])]
+[mechanical engineering] offers [this course(Course[1])]
+[G305(Course[1])] is a mini course
+Create a new [masters] [mini course] called [G310(Course[2])]
+[G310(Course[2])] has 12 units
+there is a new masters student named [Marisela(MastersStudent[1])]
+[Marisela(MastersStudent[1])] is affiliated with the [computer science] department
+The TA for [G310(Course[2])] is [Marisela(MastersStudent[1])]
+[Marisela(MastersStudent[1])] is enrolled in [this course(Course[2])]
+[G305(Course[1])] is a 8 unit course
+Create a new course called [U301(Course[3])]
+there is a [professor] named [Emma(Professor[2])]
+[U301(Course[3])] is a full semester course
+[she(Professor[2])] teaches [U301(Course[3])]
+[this course(Course[3])] is part of the [computer science] department
+There is a [undergraduate] course called [U104(Course[4])]
+[U301(Course[3])] is a [undergraduate] course
+[U301(Course[3])] is 12 units
+Who is TAing [G310(Course[2])]?	'Marisela(MastersStudent[1])'	['question_type_local']
+There is a course called [G601(Course[5])]
+[G601(Course[5])] is set up as a full semester course
+[that course(Course[5])] is a [phd] level course
+[Marisela(MastersStudent[1])] is taking [G601(Course[5])]
+there is a [third year] PhD student named [Hiram(PhdStudent[3])]
+[Emma(Professor[2])] is on [Hiram(PhdStudent[3])]'s committee
+[that student(PhdStudent[3])] has passed the thesis proposal exam
+[he(PhdStudent[3])] passed thesis defense
+[that student(PhdStudent[3])] passed the qualifiers
+[Emma(Professor[2])]'s research interest is [computational biology]
+[he(PhdStudent[3])] is [Emma(Professor[2])]'s student
+[that professor(Professor[2])] is now on sabbatical
+[G601(Course[5])] is 12 units
+Which [third year] students's advisors are conducting research in [computational biology]	'Hiram(PhdStudent[3])'	['question_type_global', 'question_three_hop_statement']
+[that professor(Professor[2])] is an [associate] professor
+Which students are TAing [G310(Course[2])]?	'Marisela(MastersStudent[1])'	['question_type_local']
+[Hiram(PhdStudent[3])] is TAing [G601(Course[5])]
+[Hiram(PhdStudent[3])] is enrolled in [this course(Course[5])]
+[Marisela(MastersStudent[1])] and [this student(PhdStudent[3])] are taking [U301(Course[3])]
+What students are going to TA [G310(Course[2])]?	'Marisela(MastersStudent[1])'	['question_type_local']
+Which [third year] students are advised by professors working on [computational biology]?	'Hiram(PhdStudent[3])'	['question_type_global', 'question_three_hop_statement']
+Which department is [U301(Course[3])] in?	'computer science'	['question_type_local']
+There is a [phd] course called [U310(Course[6])]
+[that person(PhdStudent[3])] is now a [fourth year] student
+There is a course called [U302(Course[7])]
+[this student(PhdStudent[3])] is now in [fifth year]
+There is a course called [G103(Course[8])]
+[animal science] offers [that class(Course[8])]
+[sixth year] is a [Rachele(PhdStudent[4])] PhD student
+[that course(Course[8])] is a 2 unit course
+[this student(PhdStudent[4])] is enrolled in [that course(Course[8])]
+Which [fifth year] students are advised by professors working on [computational biology]?	'Hiram(PhdStudent[3])'	['question_type_global', 'question_three_hop_statement']
+[that class(Course[8])] is full semester
+[that course(Course[8])] is a [masters] course
+There is a [masters] course called [U201(Course[9])]
+[Rachele(PhdStudent[4])] is attending [G103(Course[8])]
+[Zenaida(MastersStudent[5])] is a masters student
+[Rachele(PhdStudent[4])] has passed the thesis defense
+there is a [assistant] [professor] named [Albertha(Professor[6])]
+[that professor(Professor[6])]'s research interest is [conservation biology]
+[she(Professor[6])] advises [Rachele(PhdStudent[4])]
+[this professor(Professor[6])] is on sabbatical
+create a [professor] named [Cyndi(Professor[7])]
+there is a new PhD student named [Vivienne(PhdStudent[8])]
+[Cyndi(Professor[7])] is an [distinguished] professor
+[that professor(Professor[7])] is now on sabbatical
+[that person(Professor[7])]'s research interest is [optical physics]
+[Gabrielle(MastersStudent[9])] is a masters student
+What students are enrolled in [G310(Course[2])]?	'Marisela(MastersStudent[1])'	['question_type_local']
+Which department is [G103(Course[8])] part of?	'animal science'	['question_type_local']
+there is a masters student named [Tom(MastersStudent[10])]
+[he(MastersStudent[10])]'s department is [mechanical engineering]
+Which [fifth year] students's advisors are conducting research in [computational biology]	'Hiram(PhdStudent[3])'	['question_type_global', 'question_three_hop_statement']
+[G601(Course[5])] is part of the [computer science] department
+create a [professor] named [Lizeth(Professor[11])]
+[Lizeth(Professor[11])] is now on sabbatical
+[Lizeth(Professor[11])] is an [assistant] professor
+[Hiram(PhdStudent[3])] is now in [sixth year]
+there is a masters student named [Igor(MastersStudent[12])]
+[fifth year] is a [Isaiah(PhdStudent[13])] PhD student
+[Isaiah(PhdStudent[13])] is now in [sixth year]
+there is a new masters student named [Peggy(MastersStudent[14])]
+[she(MastersStudent[14])]'s department is [computer science]
+[Albertha(Professor[6])] advises [Isaiah(PhdStudent[13])] and [Vivienne(PhdStudent[8])]
+there is a new PhD student named [Britney(PhdStudent[15])]
+[Britney(PhdStudent[15])] successfully defended their thesis
+[this student(PhdStudent[15])] did not pass the qualifiers
+create a [professor] named [Loyd(Professor[16])]
+[that professor(Professor[16])] went on sabbatical
+There is a course called [U8001(Course[10])]
+[this person(Professor[16])] research interest is in [optical physics]
+[that course(Course[10])] is full semester
+there is a [associate] [professor] named [Eun(Professor[17])]
+[that course(Course[10])] is a [undergraduate] level course
+[that class(Course[10])] is a 12 unit course
+[Albertha(Professor[6])] teaches [that course(Course[10])]
+[Britney(PhdStudent[15])] is a [first year] student
+[that student(PhdStudent[15])] passed thesis proposal
+[she(PhdStudent[15])] is now a [second year] student
+[Eun(Professor[17])] and [Cyndi(Professor[7])] are on [Britney(PhdStudent[15])]'s committee
+[Cyndi(Professor[7])] advises [Britney(PhdStudent[15])]
+What department is [U301(Course[3])] offered in?	'computer science'	['question_type_local']
+[Lizeth(Professor[11])] and [Albertha(Professor[6])] are on [that student(PhdStudent[15])]'s committee
+[Lizeth(Professor[11])] conducts research in [optical physics]
+[Rachele(PhdStudent[4])] has failed the thesis proposal exam
+[Isaiah(PhdStudent[13])] successfully defended their thesis
+[Cyndi(Professor[7])] and [Lizeth(Professor[11])] are on [he(PhdStudent[13])]'s committee
+What is [Emma(Professor[2])]'s research focus?	'computational biology'	['question_type_local']
+[Lizeth(Professor[11])] is on [Rachele(PhdStudent[4])]'s committee
+[this student(PhdStudent[4])] passed the qualifiers
+[this student(PhdStudent[4])] passed thesis proposal
+Create a new [masters] course called [G302(Course[11])]
+[Isaiah(PhdStudent[13])] is a student in [G302(Course[11])]
+[Vivienne(PhdStudent[8])] and [Peggy(MastersStudent[14])] are TAing [G302(Course[11])]
+What students are enrolled in [G302(Course[11])]?	'Isaiah(PhdStudent[13])'	['question_type_local']

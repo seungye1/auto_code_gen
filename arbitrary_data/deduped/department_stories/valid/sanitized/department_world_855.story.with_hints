@@ -1,0 +1,139 @@
+[Andy(Professor[1])] is a [full] [professor]
+[that professor(Professor[1])]'s office is [Computing Center]
+[Andy(Professor[1])] conducts research in [unsupervised machine learning]
+[Lorilee(PhdStudent[2])] is a PhD student
+[Lorilee(PhdStudent[2])] is in their [fifth year]
+What is [Andy(Professor[1])]'s office?	'Computing Center'	['question_type_local']
+[this student(PhdStudent[2])] is [Andy(Professor[1])]'s student
+[Alverta(Professor[3])] is a [professor]
+[this student(PhdStudent[2])] has [this professor(Professor[3])] on the committee
+What office is [Andy(Professor[1])] in?	'Computing Center'	['question_type_local']
+[that student(PhdStudent[2])] failed the qualifiers
+[Lorilee(PhdStudent[2])] passed the qualifiers
+[she(PhdStudent[2])] passed thesis proposal
+Who advises [she(PhdStudent[2])]?	'Andy'	['question_type_local']
+Who are [Andy(Professor[1])]'s students?	'Lorilee(PhdStudent[2])'	['question_type_local']
+there is a new PhD student named [Danita(PhdStudent[4])]
+create a [associate] [professor] named [Peggy(Professor[5])]
+[this student(PhdStudent[4])] has [Andy(Professor[1])] on the committee
+[that student(PhdStudent[4])] is in their [second year]
+[Albertha(Professor[6])] is a [teaching] [professor]
+[that professor(Professor[6])] is in [Henderson Building]
+[Danita(PhdStudent[4])] passed thesis defense
+[third year] is a [Eun(PhdStudent[7])] PhD student
+[Danita(PhdStudent[4])] has passed the thesis proposal exam
+Who is on [Danita(PhdStudent[4])]'s committee?	'Andy(Professor[1])'	['question_type_local']
+[Eun(PhdStudent[7])] has passed the thesis defense
+[Eun(PhdStudent[7])] has [Andy(Professor[1])] and [Peggy(Professor[5])] on the committee
+[Danita(PhdStudent[4])] and [Eun(PhdStudent[7])] are [Andy(Professor[1])]'s student
+there is a new [fifth year] PhD student named [William(PhdStudent[8])]
+[William(PhdStudent[8])] has failed the thesis proposal exam
+[that student(PhdStudent[8])] has [Alverta(Professor[3])] on the committee
+[he(PhdStudent[8])] successfully defended their thesis
+create a [professor] named [Loyd(Professor[9])]
+[this student(PhdStudent[8])] has [Andy(Professor[1])] on the committee
+[Lorilee(PhdStudent[2])] has passed the thesis defense
+there is a masters student named [Will(MastersStudent[10])]
+there is a new masters student named [John(MastersStudent[11])]
+[John(MastersStudent[11])]'s department is [physics]
+there is a masters student named [Emmie(MastersStudent[12])]
+What is [Andy(Professor[1])]'s office?	'Computing Center'	['question_type_local']
+Which [fifth year] students are advised by professors working on [unsupervised machine learning]?	'Lorilee(PhdStudent[2])'	['question_type_global', 'question_three_hop_statement']
+[William(PhdStudent[8])] has [Peggy(Professor[5])] and [Albertha(Professor[6])] on the committee
+[William(PhdStudent[8])] failed the qualifiers
+Who are the students in the [physics] department	'John(MastersStudent[11])'	['question_type_global', 'question_two_hop_statement']
+[this student(PhdStudent[8])] has passed the qualifying exam
+There is a course called [U102(Course[1])]
+[he(PhdStudent[8])] has passed the thesis proposal exam
+[this course(Course[1])] is TAed by [Eun(PhdStudent[7])] and [Emmie(MastersStudent[12])]
+[U102(Course[1])] is a [masters] level course
+Which professors have offices in Computing Center	'Andy(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+[Will(MastersStudent[10])]'s department is [english]
+[Lorilee(PhdStudent[2])] is now in [sixth year]
+For which phd students does [Albertha(Professor[6])] serve on a committee?	'William(PhdStudent[8])'	['question_type_local']
+Who is in [Henderson Building]	'Albertha(Professor[6])'	['question_type_global', 'question_two_hop_statement']
+[Cecil(Professor[13])] is a [professor]
+[he(Professor[13])] is in [Denison Building]
+Create a new [undergraduate] [mini course] called [U104(Course[2])]
+[Eun(PhdStudent[7])] has passed the thesis proposal exam
+What professors are in Computing Center	'Andy(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+The TA for [U104(Course[2])] is [Danita(PhdStudent[4])]
+[that student(PhdStudent[4])] is now a [third year] student
+there is a [fifth year] PhD student named [Michael(PhdStudent[14])]
+[he(PhdStudent[14])] has passed the thesis proposal exam
+Which professors have offices in Denison Building	'Cecil(Professor[13])'	['question_type_global', 'question_two_hop_statement']
+there is a [associate] [professor] named [Marisela(Professor[15])]
+[he(PhdStudent[14])] failed their thesis defense
+the affiliation of [Emmie(MastersStudent[12])] is [electrical engineering]
+What courses is [Emmie(MastersStudent[12])] TAing?	'U102(Course[1])'	['question_type_local']
+What professors are in Computing Center	'Andy(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+[William(PhdStudent[8])] is [Cecil(Professor[13])]'s student
+Create a new course called [U310(Course[3])]
+[U310(Course[3])] is a full semester course
+[Lorilee(PhdStudent[2])] and [Emmie(MastersStudent[12])] are both taking [that class(Course[3])]
+[Marisela(Professor[15])] and [Peggy(Professor[5])] are on [Lorilee(PhdStudent[2])]'s committee
+[Albertha(Professor[6])] research interest is in [programming languages]
+[Andy(Professor[1])] advises [Michael(PhdStudent[14])]
+[this student(PhdStudent[14])] has passed the thesis defense
+[that person(PhdStudent[14])] has passed the qualifying exam
+[Alverta(Professor[3])] is on [this person(PhdStudent[14])]'s committee
+[Cecil(Professor[13])] teaches [U310(Course[3])]
+[this course(Course[3])] is a [undergraduate] course
+Which [fifth year] students's advisors are conducting research in [unsupervised machine learning]	'Michael(PhdStudent[14])'	['question_type_global', 'question_three_hop_statement']
+Who is taking the U310 course	'Lorilee(PhdStudent[2])', 'Emmie(MastersStudent[12])'	['question_type_global', 'question_single_statement']
+Create a new [phd] level 4 unit course called [G9000(Course[4])]
+[Albertha(Professor[6])] is on [Lorilee(PhdStudent[2])]'s committee
+What professors are in Computing Center	'Andy(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+The TA for [U310(Course[3])] is [John(MastersStudent[11])]
+Who is in [Denison Building]	'Cecil(Professor[13])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [G302(Course[5])]
+[that course(Course[5])] is a [phd] level course
+[that class(Course[5])] is a full semester course
+For which phd students does [Peggy(Professor[5])] serve on a committee?	'Lorilee(PhdStudent[2])', 'Eun(PhdStudent[7])', 'William(PhdStudent[8])'	['question_type_local']
+What professors are in Computing Center	'Andy(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+[Andy(Professor[1])] is the instructor for [G302(Course[5])]
+Who is in [Denison Building]	'Cecil(Professor[13])'	['question_type_global', 'question_two_hop_statement']
+Who is part of the [english] department	'Will(MastersStudent[10])'	['question_type_global', 'question_single_statement']
+[Alverta(Professor[3])]'s office is [Biosciences Building]
+[she(Professor[3])]'s research interest is [unsupervised machine learning]
+What [full] professors advise students who passed their thesis proposal?	'Andy(Professor[1])'	['question_type_global', 'question_three_hop_statement']
+[Danita(PhdStudent[4])] is now a [fourth year] student
+[that student(PhdStudent[4])] failed the qualifiers
+Who is in [Computing Center]	'Andy(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+Create a new course called [U302(Course[6])]
+[that course(Course[6])] is set up as a full semester course
+[that class(Course[6])] is a [undergraduate] course
+[Lorilee(PhdStudent[2])] is a TA for [that class(Course[6])]
+[Loyd(Professor[9])] is on [that student(PhdStudent[2])]'s committee
+Which [sixth year] students are advised by professors working on [unsupervised machine learning]?	'Lorilee(PhdStudent[2])'	['question_type_global', 'question_three_hop_statement']
+What [full] professors advise students who passed their thesis qualifiers?	'Andy(Professor[1])'	['question_type_global', 'question_three_hop_statement']
+[he(Professor[9])]'s research interest is [programming languages]
+[this professor(Professor[9])]'s office is [Discovery Center]
+What is [Loyd(Professor[9])]'s office?	'Discovery Center'	['question_type_local']
+What courses is [Eun(PhdStudent[7])] TAing?	'U102(Course[1])'	['question_type_local']
+What is [Alverta(Professor[3])]'s office?	'Biosciences Building'	['question_type_local']
+What office is [that professor(Professor[9])] in?	'Discovery Center'	['question_type_local']
+What students are taking U310	'Lorilee(PhdStudent[2])', 'Emmie(MastersStudent[12])'	['question_type_global', 'question_single_statement']
+[Will(MastersStudent[10])] is a TA for [G302(Course[5])]
+There is a [masters] level course called [G101(Course[7])]
+[Loyd(Professor[9])] and [Marisela(Professor[15])] are on [Eun(PhdStudent[7])]'s committee
+What professors are in Discovery Center	'Loyd(Professor[9])'	['question_type_global', 'question_two_hop_statement']
+Create a new [phd] level course called [G305(Course[8])]
+[she(Professor[15])] is in [Center Building]
+[that professor(Professor[15])] research interest is in [unsupervised machine learning]
+[G302(Course[5])] is TAed by [Michael(PhdStudent[14])] and [William(PhdStudent[8])]
+What courses is [William(PhdStudent[8])] TAing?	'G302(Course[5])'	['question_type_local']
+[Marisela(Professor[15])] and [Loyd(Professor[9])] are on [William(PhdStudent[8])]'s committee
+[Eun(PhdStudent[7])] has failed the qualifying exam
+Which students are part of the [electrical engineering] department	'Emmie(MastersStudent[12])'	['question_type_global', 'question_two_hop_statement']
+Who has an office in [Henderson Building]	'Albertha(Professor[6])'	['question_type_global', 'question_two_hop_statement']
+[this student(PhdStudent[7])] has [Cecil(Professor[13])] on the committee
+[U102(Course[1])] is set up as a full semester course
+What is [Andy(Professor[1])]'s research focus?	'unsupervised machine learning'	['question_type_local']
+[Alverta(Professor[3])] teaches [U102(Course[1])]
+[Danita(PhdStudent[4])] and [Michael(PhdStudent[14])] are both enrolled in [U102(Course[1])]
+Which professors have offices in Biosciences Building	'Alverta(Professor[3])'	['question_type_global', 'question_two_hop_statement']
+Create a new [masters] course called [G303(Course[9])]
+[Loyd(Professor[9])] teaches [G303(Course[9])]
+[Lorilee(PhdStudent[2])] is enrolled in [that class(Course[9])]
+What masters students are taking U310	'Emmie(MastersStudent[12])'	['question_type_global', 'question_two_hop_statement']

@@ -1,0 +1,108 @@
+there is a new [open source] [knowledge base(Project[1])] [project]
+[that project(Project[1])] is in the [maintenance] stage
+[parse example terribly slow] is a new [task] for the [that project(Project[1])]
+[that project(Project[1])] is in the stage of [evaluation]
+[Andy(Tester[1])] is a [tester]
+[Andy(Tester[1])] is working on [knowledge base project(Project[1])]
+there is a new [chatbot(Project[2])] [project]
+[chatbot project(Project[2])] is a [experimental] project
+[chatbot project(Project[2])] is in the [evaluation] stage
+[knowledge base project(Project[1])] has moved to the [testing] stage
+[Tom(Developer[2])] is a [developer]
+[that person(Developer[2])] is assigned to [it(Project[1])]
+there is a new [mobile(Project[3])] [project]
+[mobile project(Project[3])] is in the stage of [testing]
+[it(Project[3])] is a [experimental] project
+[Andy(Tester[1])] is assigned to [it(Project[3])] also
+[Zenaida(Tester[3])] is a [tester]
+[this test engineer(Tester[3])] is working on [that project(Project[3])]
+[Angelita(Tester[4])] is a [tester] on [knowledge base project(Project[1])]
+[this project(Project[3])] is assigned to [Angelita(Tester[4])] also
+[Andy(Tester[1])] is assigned to [chatbot project(Project[2])] also
+[mobile project(Project[3])] is in the stage of [maintenance]
+[Marisela(Tester[5])] is a [tester] on [knowledge base project(Project[1])]
+[chatbot project(Project[2])] is assigned to [this test engineer(Tester[5])] also
+[mobile project(Project[3])] is assigned to [this person(Tester[5])] also
+[chatbot project(Project[2])] is assigned to [Zenaida(Tester[3])] also
+[dcoref always returns null] is a new [enhancement] for [knowledge base project(Project[1])] that [Marisela(Tester[5])] just created
+[the enhancement(Issue[2])] was assigned to [Angelita(Tester[4])]
+[this tester(Tester[4])] resolved [the issue(Issue[2])]
+[Andrew(Tester[6])] is a [tester]
+[he(Tester[6])] is working on [mobile project(Project[3])]
+[this tester(Tester[6])] is no longer assigned to [mobile project(Project[3])]
+[this tester(Tester[6])] is working on [it(Project[3])]
+[Casey(Tester[7])] is a [tester] on [mobile project(Project[3])]
+[this tester(Tester[7])] is assigned to [knowledge base project(Project[1])] also
+[Milagros(Developer[8])] is a [developer] on [mobile project(Project[3])]
+[mobile project(Project[3])] has moved to the [testing] stage
+[she(Developer[8])] is assigned to [knowledge base project(Project[1])] also
+[Milagros(Developer[8])] is working on [chatbot project(Project[2])] also
+[Angelita(Tester[4])] is assigned to [chatbot project(Project[2])] also
+[she(Tester[4])] is no longer assigned to [mobile project(Project[3])]
+[that person(Tester[4])] is working on [it(Project[3])] also
+[Zenaida(Tester[3])] is not working on [mobile project(Project[3])] anymore
+[this test engineer(Tester[3])] is working on [knowledge base project(Project[1])] also
+[Zenaida(Tester[3])] is assigned to [mobile project(Project[3])] also
+[Milagros(Developer[8])] created a new issue for [knowledge base project(Project[1])]: [xml extractor exception]
+[this project(Project[3])] has moved to the [evaluation] stage
+There is a new issue for the [mobile project(Project[3])]: [memory leak bug]
+[the issue(Issue[4])] is assigned to [Andy(Tester[1])]
+[that person(Tester[1])] resolved [it(Issue[4])]
+[he(Tester[1])] is no longer assigned to [chatbot project(Project[2])]
+[that person(Tester[1])] is working on [chatbot project(Project[2])] also
+There is a new issue for the [mobile project(Project[3])]: [tokenization not consistent across platforms]
+[that issue(Issue[5])] is assigned to [Zenaida(Tester[3])]
+[Casey(Tester[7])] created a new issue for [knowledge base project(Project[1])]: [parsing with parantheses fails]
+[this issue(Issue[6])] was assigned to [Milagros(Developer[8])]
+[this person(Developer[8])] resolved [the issue(Issue[6])]
+[chatbot project(Project[2])] is in the stage of [maintenance]
+[Andy(Tester[1])] is not working on [chatbot project(Project[2])] anymore
+[chatbot project(Project[2])] is assigned to [Andy(Tester[1])] also
+[the xml extractor exception issue(Issue[3])] was assigned to [Angelita(Tester[4])]
+[that person(Tester[4])] resolved [it(Issue[3])]
+[Angelita(Tester[4])] created a new issue for [mobile project(Project[3])]: [memory leak while reading tf records]
+Who submitted [the issue(Issue[7])]?	'Angelita(Tester[4])'	['question_type_local']
+[the issue(Issue[7])] is assigned to [Marisela(Tester[5])]
+[that test engineer(Tester[5])] resolved [it(Issue[7])]
+[this person(Tester[5])] created a new issue for [chatbot project(Project[2])]: [timeout problem]
+[the issue(Issue[8])] was assigned to [she(Tester[5])]
+[Marisela(Tester[5])] resolved [that issue(Issue[8])]
+[Angelita(Tester[4])] created a new issue for [chatbot project(Project[2])]: [null pointer exception during parsing]
+[this issue(Issue[9])] was assigned to [Angelita(Tester[4])]
+[she(Tester[4])] is not working on [knowledge base project(Project[1])] anymore
+[Tom(Developer[2])] is assigned to [chatbot project(Project[2])] also
+[he(Developer[2])] is working on [mobile project(Project[3])] also
+[mobile project(Project[3])] is now in the [testing] stage
+[Andy(Tester[1])] is not working on [knowledge base project(Project[1])] anymore
+[knowledge base project(Project[1])] is assigned to [this person(Tester[1])] also
+[Angelita(Tester[4])] is assigned to [knowledge base project(Project[1])] also
+Who was [the parsing with parantheses fails issue(Issue[6])] assigned to?	'Milagros(Developer[8])'	['question_type_local']
+[this tester(Tester[4])] resolved [the null pointer exception during parsing issue(Issue[9])]
+[chatbot project(Project[2])] is assigned to [Andrew(Tester[6])] also
+Who is [the timeout problem issue(Issue[8])] assigned to?	'Marisela(Tester[5])'	['question_type_local']
+[chatbot project(Project[2])] has moved to the [evaluation] stage
+[this project(Project[2])] is in the [testing] stage
+[that project(Project[2])] has moved to the [maintenance] stage
+[this project(Project[2])] is in the stage of [evaluation]
+[that project(Project[2])] is in the stage of [testing]
+[that project(Project[2])] is not assigned to [Tom(Developer[2])]
+Who is [the timeout problem issue(Issue[8])] assigned to?	'Marisela(Tester[5])'	['question_type_local']
+[this project(Project[2])] is assigned to [that developer(Developer[2])] also
+[it(Project[2])] is now in the [maintenance] stage
+Who is [the timeout problem issue(Issue[8])] assigned to?	'Marisela(Tester[5])'	['question_type_local']
+[chatbot project(Project[2])] has moved to the [testing] stage
+[it(Project[2])] is in the stage of [maintenance]
+[Zenaida(Tester[3])] resolved [the tokenization not consistent across platforms issue(Issue[5])]
+[Zenaida(Tester[3])] is no longer assigned to [knowledge base project(Project[1])]
+[this project(Project[1])] is assigned to [Andrew(Tester[6])] also
+[Angelita(Tester[4])] is not working on [chatbot project(Project[2])] anymore
+[this tester(Tester[4])] is assigned to [chatbot project(Project[2])] also
+Are there any issues submitted by [Casey(Tester[7])] that are resolved?	'parsing with parantheses fails(Issue[6])'	['question_type_local']
+Who was [the dcoref always returns null enhancement(Issue[2])] assigned to?	'Angelita(Tester[4])'	['question_type_local']
+[Angelita(Tester[4])] is not working on [mobile project(Project[3])] anymore
+[that test engineer(Tester[4])] is working on [that project(Project[3])] also
+What are the issues submitted by [Casey(Tester[7])] that were resolved?	'parsing with parantheses fails(Issue[6])'	['question_type_local']
+[this person(Tester[4])] is no longer assigned to [chatbot project(Project[2])]
+[this test engineer(Tester[4])] is assigned to [that project(Project[2])] also
+[mobile project(Project[3])] is in the [maintenance] stage
+[chatbot project(Project[2])] is in the stage of [evaluation]

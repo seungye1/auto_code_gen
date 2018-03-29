@@ -1,0 +1,220 @@
+[Bob] is a [professor]
+[this professor] is on sabbatical
+There is a course called [G201]
+[G201] is a [undergraduate] course
+[Bob] teaches [G201]
+[that course] will be a full semester course
+[that class] is a pass-fail course
+there is a masters student named [Tom]
+Which are some [undergraduate] courses that no phd student is taking?	'G201'	['question_type_global', 'question_three_hop_statement']
+Which courses are [full_semester_course]	'G201'	['question_type_global', 'question_single_statement']
+[that person] is taking [that class]
+There is a course called [U9000]
+[that course] is not a pass-fail course
+[that class] is full semester
+[Tom] is taking [G201]
+What courses is [Bob] teaching?	'G201'	['question_type_local']
+who are the professors?	'Bob'	['question_type_global', 'question_single_statement']
+[Bob]'s office is [Norlin Library]
+the affiliation of [this professor] is [computer science]
+Create a new course called [G305]
+[G305] is a full semester course
+[that course] is a pass-fail course
+[Tom] is taking [G305]
+What students are enrolled in [that course]?	'Tom'	['question_type_local']
+there is a new [fifth year] PhD student named [Francoise]
+[Francoise] has passed the thesis defense
+[this person]'s office is [Gamow Building]
+Which people are in the [computer science] department?	'Bob'	['question_type_global', 'question_single_statement']
+[he] is in [sixth year]
+[this student] has [Bob] on the committee
+Which are some courses that no phd student is taking?	'G201', 'U9000', 'G305'	['question_type_global', 'question_two_hop_statement']
+There is a course called [G7000]
+[this professor] is an [full] professor
+What courses is [Tom] taking?	'G201', 'G305'	['question_type_local']
+What [undergraduate] courses are taught by professors in the [computer science] department?	'G201'	['question_type_global', 'question_three_hop_statement']
+[this course] is not a pass-fail course
+[that class] is a [undergraduate] level course
+[that class] is full semester
+[Francoise] passed the qualifiers
+There is a [masters] level 12 unit course called [U101]
+[that course] is a mini course
+Which courses are [mini course]	'U101'	['question_type_global', 'question_single_statement']
+there is a masters student named [Isaiah]
+[Willis] is a masters student
+What are the courses that [Tom] is enrolled in?	'G201', 'G305'	['question_type_local']
+[Cecil] is a [professor]
+[this professor]'s research interest is [operating systems]
+[this person]'s office is [CIRES Building]
+[this professor] advises [Francoise]
+Who advises [this student]?	'Cecil'	['question_type_local']
+who are the phd students?	'Francoise'	['question_type_global', 'question_single_statement']
+there is a new PhD student named [Lucio]
+Which professors currently on sabbatical are supposed to be teaching [undergraduate] courses?	'Bob'	['question_type_global', 'question_three_hop_statement']
+Which people are in the [computer science] department?	'Bob'	['question_type_global', 'question_single_statement']
+Create a new [masters] course called [U203]
+The TA for [this course] is [Isaiah]
+[Willis] is a student in [U203]
+who are the professors?	'Bob', 'Cecil'	['question_type_global', 'question_single_statement']
+Who are the [sixth year] students?	'Francoise'	['question_type_global', 'question_single_statement']
+What 12 unit courses are taught by professors in the [computer science] department?	'G201'	['question_type_global', 'question_three_hop_statement']
+What [masters] courses are taught by those in the [computer science] department?	'G201'	['question_type_global', 'question_three_hop_statement']
+[Lucio] is funded
+Who is teaching [G201]?	'Bob'	['question_type_local']
+What are the [sixth year] phd students	'Francoise'	['question_type_global', 'question_single_statement']
+there is a masters student named [Will]
+Who is enrolled in [U203]?	'Willis'	['question_type_local']
+Which courses are offered this semester?	'G201', 'U9000', 'G305', 'G7000', 'U101', 'U203'	['question_type_global', 'question_single_statement']
+Who is on sabbatical?	'Bob'	['question_type_global', 'question_single_statement']
+What masters students are taking U203	'Willis'	['question_type_global', 'question_two_hop_statement']
+What 12 unit courses are taught by those in the [computer science] department?	'G201'	['question_type_global', 'question_three_hop_statement']
+who are the professors?	'Bob', 'Cecil'	['question_type_global', 'question_single_statement']
+Which are some [undergraduate] courses that no masters student is taking?	'G7000'	['question_type_global', 'question_three_hop_statement']
+[Bob] research interest is in [conservation biology]
+[this professor] has funding
+there is a PhD student named [Kristeen]
+[she] passed thesis proposal
+[that person] passed the qualifiers
+who are the phd students?	'Francoise', 'Lucio', 'Kristeen'	['question_type_global', 'question_single_statement']
+Which are some courses that no phd student is taking?	'G201', 'U9000', 'G305', 'G7000', 'U101', 'U203'	['question_type_global', 'question_two_hop_statement']
+there is a new masters student named [Milagros]
+What courses is [Bob] teaching?	'G201'	['question_type_local']
+which students passed the proposal exam?	'Kristeen'	['question_type_global', 'question_single_statement']
+Which professors advise students who passed their defense?	'Cecil'	['question_type_global', 'question_two_hop_statement']
+Who has an office in [Norlin Library]	'Bob'	['question_type_global', 'question_two_hop_statement']
+Where are the offices of those in the [computer science] department?	'Norlin Library'	['question_type_global', 'question_two_hop_statement']
+What professors are on [Francoise]'s committee	'Bob'	['question_type_local']
+Which professors are teaching [full_semester_course]?	'Bob'	['question_type_global', 'question_two_hop_statement']
+[Lizeth] is a [professor]
+What courses is [Isaiah] TAing?	'U203'	['question_type_local']
+What [full_semester_course] are taught by those in the [computer science] department?	'G201'	['question_type_global', 'question_three_hop_statement']
+[Bob] advises [Lucio]
+What courses is [that professor] teaching?	'G201'	['question_type_local']
+Who is in the [computer science] department	'Bob'	['question_type_global', 'question_single_statement']
+Where are the offices of those in the [computer science] department?	'Norlin Library'	['question_type_global', 'question_two_hop_statement']
+[this student] is a student in [U203]
+[Lizeth] teaches [U203]
+What [masters] courses are taught by professors in the [computer science] department?	'G201'	['question_type_global', 'question_three_hop_statement']
+what courses have phd students taking them?	'U203'	['question_type_global', 'question_two_hop_statement']
+there is a [assistant] [professor] named [Emmie]
+[Lizeth]'s research interest is [conservation biology]
+What courses is [Lizeth] teaching?	'U203'	['question_type_local']
+What [undergraduate] courses are taught by those in the [computer science] department?	'G201'	['question_type_global', 'question_three_hop_statement']
+What [mini course] are taught by professors in the [computer science] department?	'G201'	['question_type_global', 'question_three_hop_statement']
+[Cecil] teaches [U9000]
+Who are the [full] professors?	'Bob'	['question_type_global', 'question_single_statement']
+What courses are taught by professors in the [computer science] department?	'G201'	['question_type_global', 'question_two_hop_statement']
+Which professors advise students who passed their qualifying exam?	'Cecil'	['question_type_global', 'question_two_hop_statement']
+[Alverta] is a PhD student
+[this student] passed thesis defense
+[that student] passed thesis proposal
+Where are the offices of those in the [computer science] department?	'Norlin Library'	['question_type_global', 'question_two_hop_statement']
+Which are some [masters] courses that phd students take?	'U203'	['question_type_global', 'question_three_hop_statement']
+there is a [professor] named [Danita]
+[that student]'s office is [Environmental Building]
+there is a new [fifth year] PhD student named [Lorilee]
+[Alverta] has passed the qualifying exam
+What [full_semester_course] are taught by those in the [computer science] department?	'G201'	['question_type_global', 'question_three_hop_statement']
+What are the 12 unit courses?	'U101'	['question_type_global', 'question_single_statement']
+there is a masters student named [Charlott]
+[Alverta] is in their [second year]
+which students passed the qualifying exam?	'Francoise', 'Kristeen', 'Alverta'	['question_type_global', 'question_single_statement']
+which [undergraduate] courses have no masters students enrolled?	'G7000'	['question_type_global', 'question_three_hop_statement']
+there is a PhD student named [Eun]
+Which professors are currently on sabbatical?	'Bob'	['question_type_global', 'question_single_statement']
+[Willis] is taking [U9000]
+[that course] is a [undergraduate] level course
+Who is teaching [this course]?	'Cecil'	['question_type_local']
+Which are some [undergraduate] courses that masters students take?	'G201', 'U9000'	['question_type_global', 'question_three_hop_statement']
+[Racquel] is a [teaching] [professor]
+What professors are in the [computer science] department?	'Bob'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by masters students?	'U203'	['question_type_global', 'question_two_hop_statement']
+Which professors advise students who passed their defense?	'Cecil'	['question_type_global', 'question_two_hop_statement']
+[Francoise] and [Tom] are both enrolled in [U9000]
+Who are the [assistant] professors?	'Emmie'	['question_type_global', 'question_single_statement']
+What are the 12 unit courses?	'U101'	['question_type_global', 'question_single_statement']
+What professors advise students who passed their thesis qualifiers?	'Cecil'	['question_type_global', 'question_two_hop_statement']
+Create a new course called [U302]
+[that class] is not a pass-fail course
+[Will] and [Willis] are both taking [this course]
+[U302] is a [phd] level course
+which [undergraduate] courses have some phd students enrolled?	'U9000'	['question_type_global', 'question_three_hop_statement']
+Which professors have funding?	'Bob'	['question_type_global', 'question_two_hop_statement']
+what courses have masters students taking them?	'G201', 'U9000', 'G305', 'U203', 'U302'	['question_type_global', 'question_two_hop_statement']
+which [masters] courses have some masters students enrolled?	'U203'	['question_type_global', 'question_three_hop_statement']
+Who are the professors in the [computer science] department?	'Bob'	['question_type_global', 'question_two_hop_statement']
+[Eun] is [Bob]'s student
+What is [this professor] research area?	'conservation biology'	['question_type_local']
+What students are in Gamow Building	'Francoise'	['question_type_global', 'question_two_hop_statement']
+Which are some courses that masters students take?	'G201', 'U9000', 'G305', 'U203', 'U302'	['question_type_global', 'question_two_hop_statement']
+[Lorilee] is [he]'s student
+What courses is [this professor] teaching?	'G201'	['question_type_local']
+Who is on sabbatical this semester?	'Bob'	['question_type_global', 'question_single_statement']
+Which students are funded?	'Lucio'	['question_type_global', 'question_single_statement']
+Who are the [sixth year] students?	'Francoise'	['question_type_global', 'question_single_statement']
+[she] has passed the thesis proposal exam
+[that student] is in [Gamow Building]
+which students passed the proposal exam?	'Kristeen', 'Alverta', 'Lorilee'	['question_type_global', 'question_single_statement']
+Who are the [teaching] professors?	'Racquel'	['question_type_global', 'question_single_statement']
+What 12 unit courses are taught by professors in the [computer science] department?	'G201'	['question_type_global', 'question_three_hop_statement']
+[Lucio] passed the qualifiers
+who are the professors?	'Bob', 'Cecil', 'Lizeth', 'Emmie', 'Danita', 'Racquel'	['question_type_global', 'question_single_statement']
+Who is teaching [full_semester_course]?	'Bob', 'Cecil'	['question_type_global', 'question_two_hop_statement']
+Create a new [undergraduate] [mini course] called [G9000]
+[Lucio] is in their [second year]
+Which are some courses that masters students take?	'G201', 'U9000', 'G305', 'U203', 'U302'	['question_type_global', 'question_two_hop_statement']
+Which professors that are currently on sabbatical need to be teaching [full_semester_course]?	'Bob'	['question_type_global', 'question_three_hop_statement']
+what [masters] courses have phd students taking them?	'U203'	['question_type_global', 'question_three_hop_statement']
+[Lucio] is now in [third year]
+Which professors are teaching [full_semester_course]?	'Bob', 'Cecil'	['question_type_global', 'question_two_hop_statement']
+[Lucio] is in [Advising Center]
+What [phd] courses are taught by those in the [computer science] department?	'G201'	['question_type_global', 'question_three_hop_statement']
+What are all the courses?	'G201', 'U9000', 'G305', 'G7000', 'U101', 'U203', 'U302', 'G9000'	['question_type_global', 'question_single_statement']
+[this person] failed their thesis defense
+Create a new course called [U103]
+[this person] has [Racquel] on the committee
+Who is teaching [masters] courses?	'Lizeth'	['question_type_global', 'question_two_hop_statement']
+[Racquel]'s office is [Koenig Building]
+[Kristeen] is [she]'s student
+Which students are in their [third year]	'Lucio'	['question_type_global', 'question_single_statement']
+[this professor] has been promoted to [assistant] professor
+[this professor]'s research interest is [theoretical cosmology]
+Who is teaching [G201]?	'Bob'	['question_type_local']
+What students are taking a course taught by their advisor?	'Francoise'	['question_type_global', 'question_three_hop_statement']
+what [phd] courses have masters students taking them?	'U302'	['question_type_global', 'question_three_hop_statement']
+[Racquel] received funding
+Who are the [third year] students?	'Lucio'	['question_type_global', 'question_single_statement']
+Which students have offices in Advising Center	'Lucio'	['question_type_global', 'question_two_hop_statement']
+Who is taking the G305 course	'Tom'	['question_type_global', 'question_single_statement']
+[Lorilee] successfully defended their thesis
+[this student] currently has funding
+Who is taking the U9000 course	'Tom', 'Francoise', 'Willis'	['question_type_global', 'question_single_statement']
+Which professors have funding?	'Bob'	['question_type_global', 'question_two_hop_statement']
+Who has an office in [Koenig Building]	'Racquel'	['question_type_global', 'question_two_hop_statement']
+who are the students?	'Tom', 'Francoise', 'Isaiah', 'Willis', 'Lucio', 'Will', 'Kristeen', 'Milagros', 'Alverta', 'Lorilee', 'Charlott', 'Eun'	['question_type_global', 'question_single_statement']
+What [masters] courses are taught by professors in the [computer science] department?	'G201'	['question_type_global', 'question_three_hop_statement']
+Which students are funded?	'Lucio', 'Lorilee'	['question_type_global', 'question_single_statement']
+the affiliation of [Cecil] is [biomedical engineering]
+What is [this professor]'s department?	'biomedical engineering'	['question_type_local']
+what courses have no masters students taking them?	'G7000', 'U101', 'G9000', 'U103'	['question_type_global', 'question_two_hop_statement']
+What students are in Environmental Building	'Alverta'	['question_type_global', 'question_two_hop_statement']
+Who are the professors working on [conservation biology]?	'Bob', 'Lizeth'	['question_type_global', 'question_single_statement']
+Who is on sabbatical this semester?	'Bob'	['question_type_global', 'question_single_statement']
+Which are some courses that masters students take?	'G201', 'U9000', 'G305', 'U203', 'U302'	['question_type_global', 'question_two_hop_statement']
+Which students are in their [second year]	'Alverta'	['question_type_global', 'question_single_statement']
+Who are the professors in the [computer science] department?	'Bob'	['question_type_global', 'question_two_hop_statement']
+[that professor] received funding
+[that person] went on sabbatical
+What courses is [this professor] teaching?	'U9000'	['question_type_local']
+Who in sixth year has an advisor with funding?	'Francoise'	['question_type_global', 'question_three_hop_statement']
+What masters students are taking U302	'Willis', 'Will'	['question_type_global', 'question_two_hop_statement']
+[Will] and [Eun] are both enrolled in [G201]
+What are the [mini course]?	'U101', 'G9000'	['question_type_global', 'question_single_statement']
+which students passed the proposal exam?	'Kristeen', 'Alverta', 'Lorilee'	['question_type_global', 'question_single_statement']
+[she] passed the qualifiers
+which students passed the defense?	'Francoise', 'Alverta', 'Lorilee'	['question_type_global', 'question_single_statement']
+What students are in Advising Center	'Lucio'	['question_type_global', 'question_two_hop_statement']
+[Kristeen] is a [first year] student
+Who has an advisor with funding?	'Francoise', 'Lucio', 'Kristeen', 'Lorilee', 'Eun'	['question_type_global', 'question_two_hop_statement']
+What are the [undergraduate] courses?	'G201', 'U9000', 'G7000', 'G9000'	['question_type_global', 'question_single_statement']
+Who is advised by a professor who is now on a sabbatical?	'Francoise', 'Lucio', 'Lorilee', 'Eun'	['question_type_global', 'question_two_hop_statement']

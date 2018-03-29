@@ -1,0 +1,105 @@
+there is a new [chatbot(Project[1])] [project]
+[chatbot project(Project[1])] is in the [testing] stage
+[it(Project[1])] is a [early stage] project
+[that project(Project[1])] has moved to the [development] stage
+[Danita(Developer[1])] is a [developer]
+[that person(Developer[1])] is assigned to [chatbot project(Project[1])]
+there is a new [knowledge base(Project[2])] [project]
+[knowledge base project(Project[2])] is in the [design] stage
+[this project(Project[2])] is a [early stage] project
+[parse example terribly slow] is a new [enhancement] for [chatbot project(Project[1])] that [Danita(Developer[1])] just created
+[this issue(Issue[1])] is assigned to [Danita(Developer[1])]
+Who was [the issue(Issue[1])] assigned to?	'Danita(Developer[1])'	['question_type_local']
+[this developer(Developer[1])] is working on [knowledge base project(Project[2])] also
+[Will(Tester[2])] is a [tester]
+[this project(Project[2])] is assigned to [he(Tester[2])]
+[Jack(Developer[3])] is a [developer] on [chatbot project(Project[1])]
+[this project(Project[2])] is assigned to [this person(Developer[3])] also
+[it(Project[2])] is now in the [testing] stage
+[Genevive(Developer[4])] is a [developer] on [knowledge base project(Project[2])]
+[Casey(Tester[5])] is a [tester] on [chatbot project(Project[1])]
+[he(Tester[5])] is working on [knowledge base project(Project[2])] also
+[Genevive(Developer[4])] is assigned to [chatbot project(Project[1])] also
+[Danita(Developer[1])] resolved [the parse example terribly slow issue(Issue[1])]
+[Willis(Tester[6])] is a [tester]
+there is a new [personal] [mobile(Project[3])] [project]
+[this project(Project[3])] is currently in the [development] stage
+[that project(Project[3])] is assigned to [Genevive(Developer[4])] also
+[Hanna(Developer[7])] is a [developer]
+[Bob(Tester[8])] is a [tester] on [chatbot project(Project[1])]
+[Hanna(Developer[7])] is assigned to [chatbot project(Project[1])]
+[Will(Tester[2])] is assigned to [mobile project(Project[3])] also
+[it(Project[3])] is now in the [testing] stage
+[Jack(Developer[3])] is working on [it(Project[3])] also
+[memory leak bug] is a new [enhancement] submitted by [Hanna(Developer[7])] for [chatbot project(Project[1])]
+[the issue(Issue[2])] is assigned to [Danita(Developer[1])]
+[mobile project(Project[3])] is in the stage of [development]
+[Andy(Tester[9])] is a [tester]
+[he(Tester[9])] is assigned to [knowledge base project(Project[2])]
+[mobile project(Project[3])] is assigned to [Andy(Tester[9])] also
+[Hanna(Developer[7])] created a new issue for [chatbot project(Project[1])]: [dcoref always returns null]
+[this project(Project[3])] has moved to the [design] stage
+[that project(Project[3])] has moved to the [development] stage
+[Hiram(Developer[10])] is a [developer] on [chatbot project(Project[1])]
+[Hiram(Developer[10])] is working on [knowledge base project(Project[2])] also
+[mobile project(Project[3])] is assigned to [that developer(Developer[10])] also
+[chatbot project(Project[1])] is assigned to [Will(Tester[2])] also
+[Danita(Developer[1])] is working on [mobile project(Project[3])] also
+[knowledge base project(Project[2])] is now in the [design] stage
+There is a new issue for the [chatbot project(Project[1])]: [versioning needs to be made consistent]
+[that project(Project[2])] is in the stage of [development]
+[this issue(Issue[4])] is assigned to [Genevive(Developer[4])]
+[this developer(Developer[4])] resolved [this issue(Issue[4])]
+There is a new issue for the [knowledge base project(Project[2])]: [minified version fails]
+[this issue(Issue[5])] is assigned to [Casey(Tester[5])]
+[that test engineer(Tester[5])] resolved [the issue(Issue[5])]
+[that test engineer(Tester[5])] is assigned to [mobile project(Project[3])] also
+[this person(Tester[5])] is no longer assigned to [chatbot project(Project[1])]
+[this test engineer(Tester[5])] is assigned to [chatbot project(Project[1])] also
+[it(Project[1])] is in the [design] stage
+[memory leak while reading tf records] is a new [proposal] for [mobile project(Project[3])] that [Casey(Tester[5])] just created
+[this issue(Issue[6])] was assigned to [Andy(Tester[9])]
+[he(Tester[9])] resolved [the issue(Issue[6])]
+[that test engineer(Tester[9])] is assigned to [chatbot project(Project[1])] also
+[it(Project[1])] is now in the [development] stage
+[this project(Project[1])] is in the stage of [design]
+[mobile project(Project[3])] is not assigned to [Genevive(Developer[4])]
+[saving data throws exception] is a new [proposal] for the [that project(Project[3])]
+[the issue(Issue[7])] was assigned to [Casey(Tester[5])]
+[this person(Tester[5])] resolved [it(Issue[7])]
+[two consecutive dates identified as single date] is a new [proposal] created by [Hiram(Developer[10])] for [knowledge base project(Project[2])]
+[the two consecutive dates identified as single date issue(Issue[8])] is assigned to [Danita(Developer[1])]
+[that person(Developer[1])] resolved [the issue(Issue[8])]
+There is a new issue for the [mobile project(Project[3])]: [fails with apache stack]
+[chatbot project(Project[1])] is not assigned to [this person(Developer[1])]
+[Danita(Developer[1])] is no longer assigned to [mobile project(Project[3])]
+[this developer(Developer[1])] is working on [that project(Project[3])] also
+[this developer(Developer[1])] is assigned to [chatbot project(Project[1])] also
+[that project(Project[1])] is in the stage of [development]
+Are there any issues assigned to [Andy(Tester[9])] that are resolved?	'memory leak while reading tf records(Issue[6])'	['question_type_local']
+[Genevive(Developer[4])] is assigned to [mobile project(Project[3])] also
+[this developer(Developer[4])] is not working on [chatbot project(Project[1])] anymore
+[that person(Developer[4])] is working on [this project(Project[1])] also
+[Casey(Tester[5])] submitted a new [proposal] for [knowledge base project(Project[2])]: [wrong pos tag on consecutive words]
+[knowledge base project(Project[2])] has moved to the [design] stage
+[this issue(Issue[10])] was assigned to [Will(Tester[2])]
+[that test engineer(Tester[2])] resolved [the issue(Issue[10])]
+[Danita(Developer[1])] resolved [the enhancement that was last added(Issue[2])]
+Who was [the wrong pos tag on consecutive words proposal(Issue[10])] assigned to?	'Will(Tester[2])'	['question_type_local']
+[knowledge base project(Project[2])] is not assigned to [Will(Tester[2])]
+[this person(Tester[2])] is no longer assigned to [chatbot project(Project[1])]
+[this person(Tester[2])] is working on [knowledge base project(Project[2])] also
+[Will(Tester[2])] is assigned to [chatbot project(Project[1])] also
+Who was [the saving data throws exception issue(Issue[7])] assigned to?	'Casey(Tester[5])'	['question_type_local']
+[Genevive(Developer[4])] is no longer assigned to [knowledge base project(Project[2])]
+[Casey(Tester[5])] is no longer assigned to [chatbot project(Project[1])]
+[that project(Project[1])] is assigned to [Casey(Tester[5])] also
+What are the issues assigned to [that test engineer(Tester[5])] that were resolved?	'minified version fails(Issue[5])', 'saving data throws exception(Issue[7])'	['question_type_local']
+[that project(Project[1])] is now in the [design] stage
+[mobile project(Project[3])] is in the [testing] stage
+[Danita(Developer[1])] is no longer assigned to [knowledge base project(Project[2])]
+[Danita(Developer[1])] is working on [knowledge base project(Project[2])] also
+[this developer(Developer[1])] is no longer assigned to [mobile project(Project[3])]
+[that person(Developer[1])] is working on [mobile project(Project[3])] also
+[it(Project[3])] is in the stage of [development]
+[this project(Project[3])] is in the stage of [testing]

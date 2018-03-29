@@ -1,0 +1,108 @@
+there is a new [open source] [chatbot(Project[1])] [project]
+[this project(Project[1])] is currently in the [development] stage
+[Willis(Tester[1])] is a [tester]
+[Peggy(Tester[2])] is a [tester]
+[he(Tester[1])] is working on [chatbot project(Project[1])]
+[it(Project[1])] is assigned to [Peggy(Tester[2])]
+[Lucy(Developer[3])] is a [developer]
+[that person(Developer[3])] is working on [chatbot project(Project[1])]
+[Cecil(Tester[4])] is a [tester]
+there is a new [important] [knowledge base(Project[2])] [project]
+[that project(Project[2])] is assigned to [Cecil(Tester[4])]
+[chatbot project(Project[1])] is assigned to [Cecil(Tester[4])] also
+there is a new [mobile(Project[3])] [project]
+[knowledge base project(Project[2])] is assigned to [Peggy(Tester[2])] also
+[mobile project(Project[3])] is assigned to [this person(Tester[2])] also
+[mobile project(Project[3])] is a [corporate] project
+[memory leak while reading tf records] is a new [enhancement] submitted by [Cecil(Tester[4])] for [knowledge base project(Project[2])]
+[this project(Project[3])] is in the [development] stage
+[that issue(Issue[1])] was assigned to [Peggy(Tester[2])]
+[that test engineer(Tester[2])] resolved [this issue(Issue[1])]
+[that test engineer(Tester[2])] is not working on [knowledge base project(Project[2])] anymore
+[Peggy(Tester[2])] is assigned to [knowledge base project(Project[2])] also
+There is a new issue for the [it(Project[2])]: [saving data throws exception]
+[that issue(Issue[2])] is assigned to [Peggy(Tester[2])]
+[Peggy(Tester[2])] resolved [this issue(Issue[2])]
+[Cecil(Tester[4])] is assigned to [mobile project(Project[3])] also
+[mobile project(Project[3])] is in the [design] stage
+[Britney(Tester[5])] is a [tester] on [chatbot project(Project[1])]
+[knowledge base project(Project[2])] is assigned to [this person(Tester[5])] also
+[knowledge base project(Project[2])] is currently in the [maintenance] stage
+[Britney(Tester[5])] is working on [mobile project(Project[3])] also
+[Casey(Tester[6])] is a [tester]
+[Casey(Tester[6])] is working on [knowledge base project(Project[2])]
+[changelong needs to be added] is a new [enhancement] submitted by [Britney(Tester[5])] for [it(Project[2])]
+[the changelong needs to be added enhancement(Issue[3])] was assigned to [Peggy(Tester[2])]
+[Peggy(Tester[2])] resolved [the changelong needs to be added issue(Issue[3])]
+[Jack(Tester[7])] is a [tester]
+[knowledge base project(Project[2])] is assigned to [Jack(Tester[7])]
+[this tester(Tester[7])] is assigned to [mobile project(Project[3])] also
+[mobile project(Project[3])] is now in the [development] stage
+[mobile project(Project[3])] has moved to the [design] stage
+[that project(Project[3])] is in the stage of [maintenance]
+[Genevive(Tester[8])] is a [tester]
+[chatbot project(Project[1])] is assigned to [Jack(Tester[7])] also
+[Gia(Tester[9])] is a [tester] on [chatbot project(Project[1])]
+[minified version fails] is a new [proposal] for [mobile project(Project[3])] that [Cecil(Tester[4])] just created
+[the minified version fails proposal(Issue[4])] is assigned to [Jack(Tester[7])]
+[Jack(Tester[7])] resolved [that issue(Issue[4])]
+[Rachele(Developer[10])] is a [developer] on [knowledge base project(Project[2])]
+[Casey(Tester[6])] created a new issue for [knowledge base project(Project[2])]: [fails with apache stack]
+[Rachele(Developer[10])] is assigned to [mobile project(Project[3])] also
+[this developer(Developer[10])] is working on [chatbot project(Project[1])] also
+[she(Developer[10])] is no longer assigned to [mobile project(Project[3])]
+[that person(Developer[10])] is working on [this project(Project[3])] also
+Were there any issues created by [Cecil(Tester[4])]?	'memory leak while reading tf records(Issue[1])', 'minified version fails(Issue[4])'	['question_type_local']
+[dcoref always returns null] is a new [enhancement] created by [Jack(Tester[7])] for [knowledge base project(Project[2])]
+[that project(Project[3])] is now in the [development] stage
+[Casey(Tester[6])] is assigned to [mobile project(Project[3])] also
+[chatbot project(Project[1])] is assigned to [that person(Tester[6])] also
+Were there any issues created by [Cecil(Tester[4])]?	'memory leak while reading tf records(Issue[1])', 'minified version fails(Issue[4])'	['question_type_local']
+[Genevive(Tester[8])] is assigned to [chatbot project(Project[1])]
+[this test engineer(Tester[8])] is assigned to [mobile project(Project[3])] also
+[knowledge base project(Project[2])] is assigned to [Genevive(Tester[8])] also
+[this project(Project[2])] has moved to the [design] stage
+[knowledge base project(Project[2])] is in the stage of [maintenance]
+[parsing with parantheses fails] is a new [proposal] for the [mobile project(Project[3])]
+[the dcoref always returns null enhancement(Issue[6])] was assigned to [Jack(Tester[7])]
+[Jack(Tester[7])] resolved [the dcoref always returns null enhancement(Issue[6])]
+[null pointer exception during parsing] is a new [enhancement] submitted by [Rachele(Developer[10])] for [mobile project(Project[3])]
+[the null pointer exception during parsing issue(Issue[8])] was assigned to [that test engineer(Tester[7])]
+[knowledge base project(Project[2])] is in the [development] stage
+[mobile project(Project[3])] is not assigned to [Jack(Tester[7])]
+[he(Tester[7])] is assigned to [it(Project[3])] also
+[knowledge base project(Project[2])] is in the stage of [maintenance]
+[Jack(Tester[7])] is not working on [chatbot project(Project[1])] anymore
+[this project(Project[1])] is assigned to [this test engineer(Tester[7])] also
+[it(Project[1])] is in the stage of [design]
+[that project(Project[1])] is now in the [development] stage
+[knowledge base project(Project[2])] has moved to the [design] stage
+[mobile project(Project[3])] is not assigned to [Britney(Tester[5])]
+[Britney(Tester[5])] is assigned to [mobile project(Project[3])] also
+[the fails with apache stack issue(Issue[5])] is assigned to [Peggy(Tester[2])]
+[she(Tester[2])] resolved [this issue(Issue[5])]
+Who was [the changelong needs to be added enhancement(Issue[3])] assigned to?	'Peggy(Tester[2])'	['question_type_local']
+[knowledge base project(Project[2])] is not assigned to [Peggy(Tester[2])]
+[Peggy(Tester[2])] is working on [knowledge base project(Project[2])] also
+[Peggy(Tester[2])] is not working on [mobile project(Project[3])] anymore
+[it(Project[3])] is assigned to [this person(Tester[2])] also
+[Peggy(Tester[2])] is no longer assigned to [knowledge base project(Project[2])]
+[that project(Project[2])] is assigned to [that test engineer(Tester[2])] also
+[this project(Project[2])] is assigned to [Lucy(Developer[3])] also
+[it(Project[2])] is now in the [development] stage
+[knowledge base project(Project[2])] is in the [design] stage
+[Casey(Tester[6])] is not working on [knowledge base project(Project[2])] anymore
+[this test engineer(Tester[6])] is working on [knowledge base project(Project[2])] also
+[Peggy(Tester[2])] is no longer assigned to [chatbot project(Project[1])]
+[this tester(Tester[2])] is working on [chatbot project(Project[1])] also
+[knowledge base project(Project[2])] has moved to the [maintenance] stage
+[knowledge base project(Project[2])] is now in the [design] stage
+Who was [the changelong needs to be added enhancement(Issue[3])] assigned to?	'Peggy(Tester[2])'	['question_type_local']
+[chatbot project(Project[1])] is now in the [design] stage
+Were there any issues submitted by [Casey(Tester[6])]?	'fails with apache stack(Issue[5])'	['question_type_local']
+[knowledge base project(Project[2])] is now in the [maintenance] stage
+[knowledge base project(Project[2])] has moved to the [development] stage
+Who was [the dcoref always returns null enhancement(Issue[6])] assigned to?	'Jack(Tester[7])'	['question_type_local']
+[Cecil(Tester[4])] is not working on [mobile project(Project[3])] anymore
+[that project(Project[3])] is assigned to [Cecil(Tester[4])] also
+Who is [the minified version fails proposal(Issue[4])] assigned to?	'Jack(Tester[7])'	['question_type_local']

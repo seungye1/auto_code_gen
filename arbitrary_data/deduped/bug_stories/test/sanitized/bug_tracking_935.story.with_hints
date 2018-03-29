@@ -1,0 +1,107 @@
+there is a new [mobile(Project[1])] [project]
+[it(Project[1])] is in the stage of [maintenance]
+[mobile project(Project[1])] is a [internal] project
+[it(Project[1])] is in the [evaluation] stage
+[dcoref always returns null] is a new [task] for the [this project(Project[1])]
+There is a new [task] for the [this project(Project[1])]: [tokenization not consistent across platforms]
+There is a new issue for the [mobile project(Project[1])]: [issue in using training data]
+[mobile project(Project[1])] is in the [testing] stage
+[initialization broken] is a new issue for the [mobile project(Project[1])]
+there is a new [chatbot(Project[2])] [project]
+[this project(Project[2])] is a [experimental] project
+[it(Project[2])] is in the [evaluation] stage
+[Cyndi(Developer[1])] is a [developer] on [mobile project(Project[1])]
+[memory leak while reading tf records] is a new [proposal] for the [that project(Project[2])]
+[chatbot project(Project[2])] is assigned to [this developer(Developer[1])] also
+[this person(Developer[1])] submitted a new [proposal] for [it(Project[2])]: [parse example terribly slow]
+[the proposal(Issue[6])] was assigned to [Cyndi(Developer[1])]
+[that person(Developer[1])] resolved [that issue(Issue[6])]
+[Hanna(Developer[2])] is a [developer]
+[chatbot project(Project[2])] is assigned to [Hanna(Developer[2])]
+[it(Project[2])] is in the [maintenance] stage
+[the memory leak while reading tf records proposal(Issue[5])] is assigned to [Hanna(Developer[2])]
+[that person(Developer[2])] resolved [it(Issue[5])]
+[that person(Developer[2])] is assigned to [mobile project(Project[1])] also
+[Zenaida(Developer[3])] is a [developer]
+[Lucy(Developer[4])] is a [developer] on [chatbot project(Project[2])]
+[Zenaida(Developer[3])] is assigned to [mobile project(Project[1])]
+[Charlott(Tester[5])] is a [tester]
+[that project(Project[1])] is assigned to [Charlott(Tester[5])]
+[that test engineer(Tester[5])] is working on [chatbot project(Project[2])] also
+there is a new [knowledge base(Project[3])] [project]
+[Zenaida(Developer[3])] is working on [chatbot project(Project[2])] also
+[knowledge base project(Project[3])] is assigned to [Hanna(Developer[2])] also
+[that project(Project[3])] is a [early stage] project
+[knowledge base project(Project[3])] is in the stage of [testing]
+[this project(Project[3])] is in the stage of [maintenance]
+[knowledge base project(Project[3])] has moved to the [evaluation] stage
+[it(Project[3])] is in the [testing] stage
+[Zenaida(Developer[3])] is assigned to [that project(Project[3])] also
+[Zenaida(Developer[3])] is no longer assigned to [chatbot project(Project[2])]
+[Zenaida(Developer[3])] is working on [chatbot project(Project[2])] also
+[that person(Developer[3])] created a new [task] for [knowledge base project(Project[3])]: [xml extractor exception]
+[the issue(Issue[7])] was assigned to [Hanna(Developer[2])]
+[this developer(Developer[2])] resolved [it(Issue[7])]
+[Cyndi(Developer[1])] is assigned to [knowledge base project(Project[3])] also
+[the issue in using training data issue(Issue[3])] was assigned to [Charlott(Tester[5])]
+[that test engineer(Tester[5])] resolved [it(Issue[3])]
+[this test engineer(Tester[5])] is assigned to [knowledge base project(Project[3])] also
+[chatbot project(Project[2])] is in the [testing] stage
+[knowledge base project(Project[3])] has moved to the [maintenance] stage
+[Zenaida(Developer[3])] is no longer assigned to [mobile project(Project[1])]
+[mobile project(Project[1])] is assigned to [that person(Developer[3])] also
+[Zenaida(Developer[3])] is not working on [knowledge base project(Project[3])] anymore
+Were there any issues assigned to [Charlott(Tester[5])]?	'issue in using training data(Issue[3])'	['question_type_local']
+[this developer(Developer[3])] is working on [this project(Project[3])] also
+[knowledge base project(Project[3])] is in the stage of [testing]
+[chatbot project(Project[2])] is in the stage of [evaluation]
+[chatbot project(Project[2])] is now in the [testing] stage
+[this project(Project[2])] is now in the [maintenance] stage
+Who is [the parse example terribly slow proposal(Issue[6])] assigned to?	'Cyndi(Developer[1])'	['question_type_local']
+[it(Project[2])] has moved to the [testing] stage
+[that project(Project[2])] is in the [maintenance] stage
+[Zenaida(Developer[3])] is no longer assigned to [chatbot project(Project[2])]
+[that person(Developer[3])] is not working on [knowledge base project(Project[3])] anymore
+[the dcoref always returns null issue(Issue[1])] is assigned to [Cyndi(Developer[1])]
+[that person(Developer[1])] resolved [the dcoref always returns null task(Issue[1])]
+[Cyndi(Developer[1])] is no longer assigned to [knowledge base project(Project[3])]
+[that project(Project[3])] is assigned to [that developer(Developer[1])] also
+What are the issues created by [this person(Developer[1])]?	'parse example terribly slow(Issue[6])'	['question_type_local']
+[knowledge base project(Project[3])] is assigned to [Zenaida(Developer[3])] also
+[she(Developer[3])] is working on [chatbot project(Project[2])] also
+[this project(Project[2])] is in the stage of [testing]
+[that project(Project[2])] is now in the [maintenance] stage
+[this project(Project[2])] is in the [testing] stage
+[chatbot project(Project[2])] is now in the [evaluation] stage
+[this project(Project[2])] has moved to the [testing] stage
+[it(Project[2])] is in the stage of [maintenance]
+[mobile project(Project[1])] is now in the [evaluation] stage
+[chatbot project(Project[2])] is in the [testing] stage
+[mobile project(Project[1])] is in the [maintenance] stage
+[Lucy(Developer[4])] is working on [knowledge base project(Project[3])] also
+[this person(Developer[4])] is assigned to [mobile project(Project[1])] also
+[knowledge base project(Project[3])] is in the stage of [evaluation]
+[mobile project(Project[1])] is in the stage of [testing]
+Were there any issues submitted by [Zenaida(Developer[3])]?	'xml extractor exception(Issue[7])'	['question_type_local']
+[mobile project(Project[1])] is now in the [maintenance] stage
+[mobile project(Project[1])] has moved to the [evaluation] stage
+[this project(Project[1])] has moved to the [maintenance] stage
+[mobile project(Project[1])] is now in the [testing] stage
+[mobile project(Project[1])] is in the stage of [maintenance]
+[that project(Project[1])] is in the stage of [evaluation]
+[mobile project(Project[1])] is now in the [testing] stage
+[this project(Project[1])] is in the [maintenance] stage
+[this project(Project[1])] is in the stage of [evaluation]
+[that project(Project[1])] is now in the [testing] stage
+Who is [the xml extractor exception task(Issue[7])] assigned to?	'Hanna(Developer[2])'	['question_type_local']
+[Lucy(Developer[4])] is no longer assigned to [it(Project[1])]
+[Lucy(Developer[4])] is assigned to [this project(Project[1])] also
+[knowledge base project(Project[3])] has moved to the [testing] stage
+[mobile project(Project[1])] is in the [maintenance] stage
+What are the issues assigned to [Charlott(Tester[5])] that were resolved?	'issue in using training data(Issue[3])'	['question_type_local']
+[knowledge base project(Project[3])] has moved to the [evaluation] stage
+[the initialization broken issue(Issue[4])] was assigned to [Lucy(Developer[4])]
+[that developer(Developer[4])] resolved [the issue(Issue[4])]
+Who was [the parse example terribly slow proposal(Issue[6])] assigned to?	'Cyndi(Developer[1])'	['question_type_local']
+[mobile project(Project[1])] is not assigned to [Lucy(Developer[4])]
+[Lucy(Developer[4])] is working on [it(Project[1])] also

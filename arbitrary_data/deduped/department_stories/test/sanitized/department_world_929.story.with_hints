@@ -1,0 +1,119 @@
+There is a course called [G601(Course[1])]
+[this course(Course[1])] is a pass-fail course
+there is a masters student named [Milagros(MastersStudent[1])]
+[that class(Course[1])] has 2 units
+[Zenaida(Professor[2])] is a [professor]
+[G601(Course[1])] is taught by [this professor(Professor[2])]
+[Milagros(MastersStudent[1])] is TAing [this course(Course[1])]
+[Milagros(MastersStudent[1])] is attending [G601(Course[1])]
+[Zenaida(Professor[2])] is in [Henderson Building]
+[Zenaida(Professor[2])] went on sabbatical
+[this professor(Professor[2])]'s research interest is [supervised learning]
+[Milagros(MastersStudent[1])]'s department is [history]
+[that professor(Professor[2])] is back from the sabbatical
+What students are in the [history] department?	'Milagros(MastersStudent[1])'	['question_type_global', 'question_two_hop_statement']
+Who is in [Henderson Building]	'Zenaida(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+there is a PhD student named [Hiram(PhdStudent[3])]
+There is a course called [G310(Course[2])]
+[this student(PhdStudent[3])] successfully defended their thesis
+[Hiram(PhdStudent[3])] failed thesis proposal
+Who is in the [history] department	'Milagros(MastersStudent[1])'	['question_type_global', 'question_single_statement']
+What professors are in Henderson Building	'Zenaida(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+[Yoshiko(MastersStudent[4])] is a masters student
+[Yoshiko(MastersStudent[4])]'s department is [english]
+there is a [fourth year] PhD student named [Genevive(PhdStudent[5])]
+[Genevive(PhdStudent[5])] has [Zenaida(Professor[2])] on the committee
+create a [distinguished] [professor] named [Roslyn(Professor[6])]
+[Roslyn(Professor[6])] is in [Advising Center]
+[that professor(Professor[6])] conducts research in [supervised learning]
+[that professor(Professor[6])] is on sabbatical
+What is [Zenaida(Professor[2])]'s research focus?	'supervised learning'	['question_type_local']
+[G601(Course[1])] is a [masters] level course
+Who is supposed to be teaching [masters] courses and is not currently on sabbatical?	'Zenaida(Professor[2])'	['question_type_global', 'question_three_hop_statement']
+[that class(Course[1])] is full semester
+What is [Roslyn(Professor[6])] research area?	'supervised learning'	['question_type_local']
+[Rey(Professor[7])] is a [professor]
+[Rey(Professor[7])]'s office is [Advising Center]
+[he(Professor[7])] is on sabbatical
+Who is supposed to be teaching [full_semester_course] and is currently not on sabbatical?	'Zenaida(Professor[2])'	['question_type_global', 'question_three_hop_statement']
+What office is [that person(Professor[7])] in?	'Advising Center'	['question_type_local']
+[that person(Professor[7])] conducts research in [evolutionary biology]
+[G601(Course[1])] is TAed by [Yoshiko(MastersStudent[4])] and [Genevive(PhdStudent[5])]
+[Cyndi(MastersStudent[8])] is a masters student
+[Cyndi(MastersStudent[8])]'s department is [psychology]
+What professors are in Henderson Building	'Zenaida(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+there is a PhD student named [Andy(PhdStudent[9])]
+[he(PhdStudent[9])] has [Roslyn(Professor[6])] and [Zenaida(Professor[2])] on the committee
+there is a masters student named [Kristeen(MastersStudent[10])]
+[Zenaida(Professor[2])] advises [Genevive(PhdStudent[5])]
+Create a new [masters] level course called [G8001(Course[3])]
+[this person(PhdStudent[5])] failed thesis proposal
+[first year] is a [Racquel(PhdStudent[11])] PhD student
+[Genevive(PhdStudent[5])] has [Rey(Professor[7])] on the committee
+Which professors that are currently not on sabbatical need to be teaching [full_semester_course]?	'Zenaida(Professor[2])'	['question_type_global', 'question_three_hop_statement']
+there is a new PhD student named [Marisela(PhdStudent[12])]
+[this student(PhdStudent[12])] passed thesis defense
+[Michael(Professor[13])] is a [professor]
+[this professor(Professor[13])] research interest is in [evolutionary biology]
+[Michael(Professor[13])]'s office is [Henderson Building]
+[that professor(Professor[13])] advises [Marisela(PhdStudent[12])] and [Racquel(PhdStudent[11])]
+[Charlott(MastersStudent[14])] is a masters student
+[Igor(PhdStudent[15])] is a PhD student
+the affiliation of [she(MastersStudent[14])] is [english]
+[G8001(Course[3])] is a pass-fail course
+[G8001(Course[3])] is TAed by [Kristeen(MastersStudent[10])] and [Racquel(PhdStudent[11])]
+there is a new masters student named [Cecil(MastersStudent[16])]
+[she(PhdStudent[11])] has passed the thesis proposal exam
+Create a new course called [U610(Course[4])]
+[U610(Course[4])] is a [undergraduate] level course
+there is a new masters student named [Ashly(MastersStudent[17])]
+[U610(Course[4])] is a full semester course
+[that course(Course[4])] is not a pass-fail course
+[Ashly(MastersStudent[17])]'s department is [history]
+[Stephine(MastersStudent[18])] is a masters student
+Create a new [phd] level 4 unit course called [G9000(Course[5])]
+[Ashly(MastersStudent[17])] and [Igor(PhdStudent[15])] are TAing [that class(Course[5])]
+[G9000(Course[5])] is a pass-fail course
+[Genevive(PhdStudent[5])] passed thesis defense
+[Kristeen(MastersStudent[10])] and [Hiram(PhdStudent[3])] are both enrolled in [G8001(Course[3])]
+[G8001(Course[3])] is a full semester course
+there is a [third year] PhD student named [Tom(PhdStudent[19])]
+[he(PhdStudent[19])] failed the qualifiers
+[this person(PhdStudent[19])] passed thesis proposal
+Which professors that are currently not on sabbatical need to be teaching [full_semester_course]?	'Zenaida(Professor[2])'	['question_type_global', 'question_three_hop_statement']
+[that student(PhdStudent[19])] passed the qualifiers
+[Tom(PhdStudent[19])] has passed the thesis defense
+[Kristeen(MastersStudent[10])] is affiliated with the [history] department
+[Roslyn(Professor[6])] advises [Tom(PhdStudent[19])]
+Which professors that are currently not on sabbatical need to be teaching [full_semester_course]?	'Zenaida(Professor[2])'	['question_type_global', 'question_three_hop_statement']
+[Zenaida(Professor[2])] advises [Hiram(PhdStudent[3])] and [Igor(PhdStudent[15])]
+For which phd students does [Zenaida(Professor[2])] serve on a committee?	'Genevive(PhdStudent[5])', 'Andy(PhdStudent[9])'	['question_type_local']
+[Hiram(PhdStudent[3])] passed the qualifiers
+[Igor(PhdStudent[15])] passed the qualifiers
+[Igor(PhdStudent[15])] currently has funding
+[Igor(PhdStudent[15])] has [Rey(Professor[7])] and [Roslyn(Professor[6])] on the committee
+[Roslyn(Professor[6])] advises [Andy(PhdStudent[9])]
+Create a new course called [U302(Course[6])]
+[that course(Course[6])] is set up as a full semester course
+[that course(Course[6])] is 8 units
+[that course(Course[6])] is a [phd] level course
+There is a [masters] level course called [G304(Course[7])]
+[Stephine(MastersStudent[18])] and [Tom(PhdStudent[19])] are TAs for [U302(Course[6])]
+[Racquel(PhdStudent[11])] and [Andy(PhdStudent[9])] are both taking [U302(Course[6])]
+[Michael(Professor[13])] teaches [U302(Course[6])]
+[that course(Course[6])] is not a pass-fail course
+There is a course called [U204(Course[8])]
+[Hiram(PhdStudent[3])] is TAing [U204(Course[8])]
+[that class(Course[8])] is taught by [Rey(Professor[7])]
+[that class(Course[8])] is set up as a full semester course
+Which professors have offices in Henderson Building	'Zenaida(Professor[2])', 'Michael(Professor[13])'	['question_type_global', 'question_two_hop_statement']
+[Tom(PhdStudent[19])] is attending [G601(Course[1])]
+Create a new course called [G302(Course[9])]
+[Zenaida(Professor[2])] is on [Tom(PhdStudent[19])]'s committee
+Who is [Genevive(PhdStudent[5])]'s advisor?	'Zenaida'	['question_type_local']
+[Tom(PhdStudent[19])] is in [fourth year]
+[this student(PhdStudent[19])] is funded
+What professors are on [Tom(PhdStudent[19])]'s committee	'Zenaida(Professor[2])'	['question_type_local']
+Create a new course called [G102(Course[10])]
+[G102(Course[10])] is a [masters] level course
+[that class(Course[10])] is taught by [Roslyn(Professor[6])]

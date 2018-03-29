@@ -1,0 +1,144 @@
+there is a [professor] named [Igor(Professor[1])]
+[that person(Professor[1])] went on sabbatical
+Create a new course called [G203(Course[1])]
+the affiliation of [Igor(Professor[1])] is [electrical engineering]
+[Igor(Professor[1])] is an [teaching] professor
+[this professor(Professor[1])] conducts research in [operating systems]
+[he(Professor[1])] returned from sabbatical
+Which department is [he(Professor[1])] in?	'electrical engineering'	['question_type_local']
+there is a [third year] PhD student named [Zenaida(PhdStudent[2])]
+[this professor(Professor[1])] advises [that student(PhdStudent[2])]
+Which students are advised by professors working on [operating systems]?	'Zenaida(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+Create a new course called [G303(Course[2])]
+[that course(Course[2])] part of the [english] department
+[this course(Course[2])] is a pass-fail course
+[that course(Course[2])] is a [masters] level course
+there is a new masters student named [Milagros(MastersStudent[3])]
+there is a new masters student named [Tom(MastersStudent[4])]
+[he(MastersStudent[4])]'s department is [english]
+[G303(Course[2])] is taught by [Igor(Professor[1])]
+[G303(Course[2])] will be a full semester course
+[this course(Course[2])] has 2 units
+there is a [distinguished] [professor] named [Albertha(Professor[5])]
+[this person(Professor[5])]'s research interest is [conservation biology]
+Which professors that are currently not on sabbatical need to be teaching [full_semester_course]?	'Igor(Professor[1])'	['question_type_global', 'question_three_hop_statement']
+[Bob(Professor[6])] is a [associate] [professor]
+the affiliation of [she(Professor[5])] is [english]
+[she(Professor[5])] is now on sabbatical
+there is a PhD student named [Rey(PhdStudent[7])]
+Who advises [Zenaida(PhdStudent[2])]?	'Igor'	['question_type_local']
+Which courses are offered this semester in the english department?	'G303(Course[2])'	['question_type_global', 'question_two_hop_statement']
+[Bob(Professor[6])] conducts research in [computational biology]
+[that professor(Professor[6])] advises [that student(PhdStudent[7])]
+[this professor(Professor[6])] is affiliated with the [english] department
+[this student(PhdStudent[7])] passed thesis proposal
+there is a [professor] named [Will(Professor[8])]
+[this professor(Professor[8])] is an [teaching] professor
+[Will(Professor[8])] went on sabbatical
+there is a new PhD student named [Lucio(PhdStudent[9])]
+[this professor(Professor[8])] is now an [assistant] professor
+[this student(PhdStudent[9])] is [this professor(Professor[8])]'s student
+[G203(Course[1])] is not a pass-fail course
+[Zenaida(PhdStudent[2])] and [Rey(PhdStudent[7])] are TAs for [this course(Course[1])]
+[Michael(MastersStudent[10])] is a masters student
+[Michael(MastersStudent[10])] is affiliated with the [english] department
+Which courses are offered this semester in the english department?	'G303(Course[2])'	['question_type_global', 'question_two_hop_statement']
+There is a [masters] level [mini course] called [G7000(Course[3])]
+there is a PhD student named [Loyd(PhdStudent[11])]
+[this course(Course[3])] is a course in the [math] department
+[Will(Professor[8])] teaches [G7000(Course[3])]
+Who is teaching [G7000(Course[3])]?	'Will(Professor[8])'	['question_type_local']
+What [full_semester_course] are taught by those in the [electrical engineering] department?	'G303(Course[2])'	['question_type_global', 'question_three_hop_statement']
+[that professor(Professor[8])] advises [Loyd(PhdStudent[11])]
+What courses are taught by those in the [electrical engineering] department?	'G303(Course[2])'	['question_type_global', 'question_two_hop_statement']
+[Milagros(MastersStudent[3])]'s department is [math]
+What courses is [Rey(PhdStudent[7])] TAing?	'G203(Course[1])'	['question_type_local']
+[he(PhdStudent[11])] failed the qualifiers
+[Will(Professor[8])] conducts research in [optical physics]
+the affiliation of [that professor(Professor[8])] is [math]
+Which phd students does [that person(Professor[8])] advise?	'Lucio(PhdStudent[9])', 'Loyd(PhdStudent[11])'	['question_type_local']
+Create a new course called [G202(Course[4])]
+[that class(Course[4])] is a [undergraduate] course
+[G202(Course[4])] is a pass-fail course
+[Michael(MastersStudent[10])] and [Milagros(MastersStudent[3])] are TAs for [that course(Course[4])]
+Who are the professors working on [computational biology]?	'Bob(Professor[6])'	['question_type_global', 'question_single_statement']
+There is a course called [U7000(Course[5])]
+What 2 unit courses are taught by professors in the [electrical engineering] department?	'G303(Course[2])'	['question_type_global', 'question_three_hop_statement']
+There is a course called [G8001(Course[6])]
+[U7000(Course[5])] will be a full semester course
+[Rey(PhdStudent[7])] and [Milagros(MastersStudent[3])] are taking [U7000(Course[5])]
+[U7000(Course[5])] is a [masters] course
+[Bob(Professor[6])] teaches [that course(Course[5])]
+What 2 unit courses are taught by professors in the [math] department?	'G7000(Course[3])'	['question_type_global', 'question_three_hop_statement']
+[this course(Course[5])] is a pass-fail course
+What [undergraduate] courses are taught by those in the [math] department?	'G7000(Course[3])'	['question_type_global', 'question_three_hop_statement']
+[Michael(MastersStudent[10])] and [Rey(PhdStudent[7])] are taking [U7000(Course[5])]
+[U7000(Course[5])] is TAed by [Tom(MastersStudent[4])] and [Lucio(PhdStudent[9])]
+What department is [Bob(Professor[6])] affiliated with?	'english'	['question_type_local']
+[Lucio(PhdStudent[9])] is in [Duane Building]
+[this person(PhdStudent[9])] has passed the thesis defense
+[this person(PhdStudent[9])] failed the qualifiers
+Which students are taking [U7000(Course[5])]?	'Milagros(MastersStudent[3])', 'Rey(PhdStudent[7])', 'Michael(MastersStudent[10])'	['question_type_local']
+[Albertha(Professor[5])] teaches [G202(Course[4])]
+[G202(Course[4])] is under the [english] department
+Create a new [phd] course called [U303(Course[7])]
+[G202(Course[4])] is full semester
+[Loyd(PhdStudent[11])] is TAing [G202(Course[4])]
+[Loyd(PhdStudent[11])] has [Albertha(Professor[5])] on the committee
+[Zenaida(PhdStudent[2])] passed thesis defense
+What is [Will(Professor[8])]'s research focus?	'optical physics'	['question_type_local']
+[U7000(Course[5])] is 4 units
+[U7000(Course[5])] part of the [electrical engineering] department
+[Zenaida(PhdStudent[2])] and [Michael(MastersStudent[10])] are attending [this course(Course[5])]
+Who is teaching [U7000(Course[5])]?	'Bob(Professor[6])'	['question_type_local']
+Who are the professors working on [computational biology]?	'Bob(Professor[6])'	['question_type_global', 'question_single_statement']
+What [mini course] are taught by professors in the [math] department?	'G7000(Course[3])'	['question_type_global', 'question_three_hop_statement']
+[Loyd(PhdStudent[11])] and [Rey(PhdStudent[7])] are both enrolled in [G303(Course[2])]
+Which professors that are currently not on sabbatical need to be teaching [full_semester_course]?	'Igor(Professor[1])'	['question_type_global', 'question_three_hop_statement']
+What [undergraduate] courses are taught by those in the [english] department?	'G202(Course[4])', 'U7000(Course[5])'	['question_type_global', 'question_three_hop_statement']
+Who has an office in [Duane Building]	'Lucio(PhdStudent[9])'	['question_type_global', 'question_two_hop_statement']
+There is a [phd] level [mini course] called [G101(Course[8])]
+[Rey(PhdStudent[7])] is in their [fifth year]
+There is a course called [U202(Course[9])]
+[this student(PhdStudent[7])] failed their thesis defense
+[that person(PhdStudent[7])]'s office is [Biosciences Building]
+What [masters] courses are taught by professors in the [electrical engineering] department?	'G303(Course[2])'	['question_type_global', 'question_three_hop_statement']
+[Milagros(MastersStudent[3])] and [Rey(PhdStudent[7])] are both taking [G202(Course[4])]
+Which professors currently not on sabbatical are supposed to be teaching [masters] courses?	'Igor(Professor[1])'	['question_type_global', 'question_three_hop_statement']
+What [undergraduate] courses are taught by those in the [math] department?	'G7000(Course[3])'	['question_type_global', 'question_three_hop_statement']
+Who is teaching [G7000(Course[3])]?	'Will(Professor[8])'	['question_type_local']
+Which students are part of the [math] department	'Milagros(MastersStudent[3])'	['question_type_global', 'question_two_hop_statement']
+What [masters] courses are taught by professors in the [math] department?	'G7000(Course[3])'	['question_type_global', 'question_three_hop_statement']
+Which courses in the english department have phd TAs?	'G202(Course[4])'	['question_type_global', 'question_three_hop_statement']
+[he(PhdStudent[7])] currently has funding
+[Rey(PhdStudent[7])] has failed thesis defense
+[he(PhdStudent[7])] is now a [sixth year] student
+What courses are taught by those in the [math] department?	'G7000(Course[3])'	['question_type_global', 'question_two_hop_statement']
+What courses are taught by professors in the [math] department?	'G7000(Course[3])'	['question_type_global', 'question_two_hop_statement']
+Which [teaching] professors advise students who passed their defense?	'Igor(Professor[1])'	['question_type_global', 'question_three_hop_statement']
+[Loyd(PhdStudent[11])] has failed the thesis proposal exam
+[Loyd(PhdStudent[11])] is in [Carlson Building]
+There is a course called [G102(Course[10])]
+[Lucio(PhdStudent[9])] is taking [that class(Course[10])]
+[this course(Course[10])] will be a 4 unit course
+What 2 unit courses are taught by professors in the [electrical engineering] department?	'G303(Course[2])'	['question_type_global', 'question_three_hop_statement']
+[this course(Course[10])] is a [phd] level course
+What [full_semester_course] are taught by professors in the [electrical engineering] department?	'G303(Course[2])'	['question_type_global', 'question_three_hop_statement']
+What [full_semester_course] are taught by those in the [math] department?	'G7000(Course[3])'	['question_type_global', 'question_three_hop_statement']
+Who are [Igor(Professor[1])]'s students?	'Zenaida(PhdStudent[2])'	['question_type_local']
+[that class(Course[10])] is not a pass-fail course
+Which students are taking [G102(Course[10])]?	'Lucio(PhdStudent[9])'	['question_type_local']
+[this course(Course[10])] is set up as a full semester course
+What [undergraduate] courses are taught by those in the [math] department?	'G7000(Course[3])'	['question_type_global', 'question_three_hop_statement']
+[Rey(PhdStudent[7])] is attending [this course(Course[10])]
+What are all the courses in the math department?	'G7000(Course[3])'	['question_type_global', 'question_two_hop_statement']
+Which courses are in the [english] department?	'G303(Course[2])', 'G202(Course[4])'	['question_type_global', 'question_single_statement']
+[Rey(PhdStudent[7])] passed the qualifiers
+[that person(PhdStudent[7])] successfully defended their thesis
+Create a new course called [G104(Course[11])]
+[Loyd(PhdStudent[11])] is a student in [that class(Course[11])]
+[that course(Course[11])] is 8 units
+[Igor(Professor[1])] is on [Lucio(PhdStudent[9])]'s committee
+Who has an office in [Biosciences Building]	'Rey(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+[this professor(Professor[1])] has been promoted to [assistant] professor
+What 2 unit courses are taught by those in the [english] department?	'G202(Course[4])', 'U7000(Course[5])'	['question_type_global', 'question_three_hop_statement']

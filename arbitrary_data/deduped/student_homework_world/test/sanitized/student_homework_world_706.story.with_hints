@@ -1,0 +1,152 @@
+I am taking a [accounting(Course[1])] course
+I am taking a course called [statistics(Course[2])]
+[Cecil(Professor[1])] is a [professor]
+[that person(Professor[1])] is in [P267]
+the affiliation of [this professor(Professor[1])] is [computer science]
+[accounting project 1(Project[1])] is released for [accounting(Course[1])]
+[accounting project 1(Project[1])] is about [Genetics]
+I submitted [this assignment(Project[1])] on time
+[that assignment(Project[1])] is worth [22] points
+[this assignment(Project[1])] is due on [January 27]
+create a [professor] named [Roslyn(Professor[2])]
+[Roslyn(Professor[2])]'s department is [applied physics]
+[this person(Professor[2])]'s office is [983]
+How many points is [accounting project 1(Project[1])] worth?	22	['question_type_local']
+What is [accounting project 1(Project[1])] on?	'Genetics'	['question_type_local']
+which projects are due on [January 27]?	'accounting project 1(Project[1])'	['question_type_global', 'question_two_hop_statement']
+list the professors in the [computer science] department	'Cecil(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+[accounting(Course[1])] has a new [accounting homework 1(Homework[2])] out
+[statistics(Course[2])] has a new [statistics homework 1(Homework[3])] out
+[statistics homework 1(Homework[3])] is [63] points
+The deadline of [that assignment(Homework[3])] is [January 26]
+I submitted [this assignment(Homework[3])] and received 63 points
+[Cecil(Professor[1])]'s department is now [applied physics]
+how many points did I receive on [statistics homework 1(Homework[3])]?	63	['question_type_local']
+show me the assignments due on [January 27]	'accounting project 1(Project[1])'	['question_type_global', 'question_two_hop_statement']
+[statistics homework 2(Homework[4])] is released for [statistics(Course[2])]
+How many points is [accounting project 1(Project[1])] worth?	22	['question_type_local']
+[Roslyn(Professor[2])] is the instructor for [statistics(Course[2])]
+show me the projects due on [January 27]	'accounting project 1(Project[1])'	['question_type_global', 'question_two_hop_statement']
+[Genevive(Professor[3])] is a [professor]
+How many points did I get on [statistics homework 1(Homework[3])]	63	['question_type_local']
+[Bob(Professor[4])] is a [professor]
+the affiliation of [she(Professor[3])] is [neuroscience]
+[Genevive(Professor[3])] is in [P267]
+show me the assignments due on [January 26]	'statistics homework 1(Homework[3])'	['question_type_global', 'question_two_hop_statement']
+[accounting project 2(Project[5])] is released for [accounting(Course[1])]
+there is a [professor] named [John(Professor[5])]
+The topic of [accounting project 2(Project[5])] is [Viruses & other Microbes]
+[this project(Project[5])] is worth [25] points
+What office is [Roslyn(Professor[2])] in?	'983'	['question_type_local']
+which assignments are due on [January 26]?	'statistics homework 1(Homework[3])'	['question_type_global', 'question_two_hop_statement']
+[that assignment(Project[5])] is due on [January 31]
+I submitted [this project(Project[5])] and received 24 points
+I submitted [accounting homework 1(Homework[2])]
+[that homework(Homework[2])] is worth [46] points
+When is [accounting project 2(Project[5])] due?	'January 31'	['question_type_local']
+[accounting(Course[1])] has a new [accounting project 3(Project[6])] released
+I submitted [accounting project 3(Project[6])]
+[accounting project 3(Project[6])] is worth [39] points
+there is a new [project(Project[7])] for [accounting(Course[1])]
+I submitted [accounting project 4(Project[7])] late
+[this project(Project[7])] is worth [57] points
+The topic of [that project(Project[7])] is [Animals]
+what are the assignments that i submitted for [Roslyn]	'statistics homework 1(Homework[3])'	['question_type_global', 'question_three_hop_statement']
+what assignments do I have to do for [Roslyn]?	'statistics homework 1(Homework[3])', 'statistics homework 2(Homework[4])'	['question_type_global', 'question_three_hop_statement']
+list all assignments that i submitted late for [accounting]	'accounting project 4(Project[7])'	['question_type_global', 'question_two_hop_statement']
+[that assignment(Project[7])] is due on [March 10]
+[accounting(Course[1])] has a new [accounting project 5(Project[8])] out
+The topic of [accounting project 5(Project[8])] is [Cells]
+How much is [accounting project 2(Project[5])] worth?	25	['question_type_local']
+[that project(Project[8])] is due on [March 23]
+I submitted [this assignment(Project[8])]
+What office is [Roslyn(Professor[2])] in?	'983'	['question_type_local']
+[accounting project 3(Project[6])] is due on [February 22]
+I am taking a [chemistry(Course[3])] course
+[that class(Course[3])] is taught by [Genevive(Professor[3])]
+what did I get on [accounting project 2(Project[5])]?	24	['question_type_local']
+When is the deadline of [accounting project 5(Project[8])]?	'March 23'	['question_type_local']
+[statistics homework 3(Homework[9])] is released for [statistics(Course[2])]
+[this assignment(Homework[9])] is due on [February 25]
+[statistics homework 3(Homework[9])] is on [supervised learning]
+[this homework(Homework[9])] is worth [75] points
+I submitted [that homework(Homework[9])] and received 75 points
+there is new [chemistry homework 1(Homework[10])] for [chemistry(Course[3])]
+how many points is [accounting project 4(Project[7])]?	57	['question_type_local']
+[chemistry homework 1(Homework[10])] is worth [43] points
+The deadline of [that homework(Homework[10])] is [January 29]
+What is [accounting project 1(Project[1])] on?	'Genetics'	['question_type_local']
+what assignments do I have to do for [Genevive]?	'chemistry homework 1(Homework[10])'	['question_type_global', 'question_three_hop_statement']
+I submitted [chemistry homework 1(Homework[10])] late and received 43 points
+How many points is [accounting project 4(Project[7])] worth?	57	['question_type_local']
+there is new [statistics homework 4(Homework[11])] for [statistics(Course[2])]
+list all homeworks that i submitted late for [Genevive]	'chemistry homework 1(Homework[10])'	['question_type_global', 'question_three_hop_statement']
+[statistics homework 4(Homework[11])] is due on [March 02]
+I submitted [this homework(Homework[11])] on time
+[this homework(Homework[11])] is [10] points
+[Eun(Professor[6])] is a [professor]
+[this professor(Professor[6])]'s office is [P267]
+the affiliation of [this professor(Professor[6])] is [neuroscience]
+How much is [accounting project 3(Project[6])] worth?	39	['question_type_local']
+show me the assignments due on [January 29]	'chemistry homework 1(Homework[10])'	['question_type_global', 'question_two_hop_statement']
+[accounting project 6(Project[12])] is out for [accounting(Course[1])]
+I submitted [that project(Project[12])]
+[this project(Project[12])] is due on [April 11]
+there is new [statistics project 1(Project[13])] for [statistics(Course[2])]
+[accounting project 6(Project[12])] is [73] points
+[statistics project 1(Project[13])] is due on [January 29]
+[statistics project 1(Project[13])] is worth [60] points
+list all assignments that i submitted for [Genevive]	'chemistry homework 1(Homework[10])'	['question_type_global', 'question_three_hop_statement']
+I submitted [that assignment(Project[13])] late and received 60 points
+[accounting(Course[1])] has a new [accounting project 7(Project[14])] out
+I submitted [accounting project 7(Project[14])] on time
+[that project(Project[14])] is [52] points
+How many points is [statistics homework 1(Homework[3])] worth?	63	['question_type_local']
+there is a new [project(Project[15])] for [accounting(Course[1])]
+The deadline of [accounting project 8(Project[15])] is [April 15]
+I submitted [this project(Project[15])]
+what projects did i submit late for [accounting]?	'accounting project 4(Project[7])'	['question_type_global', 'question_two_hop_statement']
+which assignments are due after [February 01]?	'accounting project 3(Project[6])', 'accounting project 4(Project[7])', 'accounting project 5(Project[8])', 'statistics homework 3(Homework[9])', 'statistics homework 4(Homework[11])', 'accounting project 6(Project[12])', 'accounting project 8(Project[15])'	['question_type_global', 'question_two_hop_statement']
+what homeworks do I have to do for [Genevive]?	'chemistry homework 1(Homework[10])'	['question_type_global', 'question_three_hop_statement']
+[that assignment(Project[15])] is worth [34] points
+which projects are due after [February 23]?	'accounting project 4(Project[7])', 'accounting project 5(Project[8])', 'accounting project 6(Project[12])', 'accounting project 8(Project[15])'	['question_type_global', 'question_two_hop_statement']
+How many points is [accounting project 7(Project[14])] worth?	52	['question_type_local']
+list assignments that are due on [April 15]	'accounting project 8(Project[15])'	['question_type_global', 'question_two_hop_statement']
+The deadline of [accounting project 8(Project[15])] moved to [April 12]
+[accounting(Course[1])] has a new [accounting project 9(Project[16])] out
+How many points is [accounting homework 1(Homework[2])] worth?	46	['question_type_local']
+show me the assignments due on [April 11]	'accounting project 6(Project[12])'	['question_type_global', 'question_two_hop_statement']
+[accounting project 9(Project[16])] is [27] points
+how many points did I receive on [statistics homework 3(Homework[9])]?	75	['question_type_local']
+what homeworks do I have to do for [Genevive]?	'chemistry homework 1(Homework[10])'	['question_type_global', 'question_three_hop_statement']
+list all homeworks for [Genevive]	'chemistry homework 1(Homework[10])'	['question_type_global', 'question_three_hop_statement']
+what projects did i submit late for [accounting]?	'accounting project 4(Project[7])'	['question_type_global', 'question_two_hop_statement']
+The deadline of [that assignment(Project[16])] is [April 17]
+I submitted [that project(Project[16])] and received 27 points
+the affiliation of [John(Professor[5])] is [computer science]
+[John(Professor[5])] is in [P267]
+list all assignments that i submitted late for [Genevive]	'chemistry homework 1(Homework[10])'	['question_type_global', 'question_three_hop_statement']
+[chemistry project 1(Project[17])] is released for [chemistry(Course[3])]
+[this project(Project[17])] is [31] points
+I submitted [that project(Project[17])] on time and received 31 points
+The deadline of [this assignment(Project[17])] is [January 26]
+there is a new [homework(Homework[18])] for [accounting(Course[1])]
+how many points is [chemistry homework 1(Homework[10])]?	43	['question_type_local']
+What is [accounting project 5(Project[8])] on?	'Cells'	['question_type_local']
+what assignments did i submit for [Roslyn]?	'statistics homework 1(Homework[3])', 'statistics homework 3(Homework[9])', 'statistics homework 4(Homework[11])', 'statistics project 1(Project[13])'	['question_type_global', 'question_three_hop_statement']
+which homeworks did I submit late for [Genevive]?	'chemistry homework 1(Homework[10])'	['question_type_global', 'question_three_hop_statement']
+there is new [accounting homework 3(Homework[19])] for [accounting(Course[1])]
+[accounting homework 2(Homework[18])] is worth [39] points
+I submitted [accounting homework 2(Homework[18])] and received 39 points
+The deadline of [this assignment(Homework[18])] is [January 31]
+[chemistry homework 2(Homework[20])] is released for [chemistry(Course[3])]
+What is [John(Professor[5])]'s office?	'P267'	['question_type_local']
+what are all the assignments due for [Roslyn]?	'statistics homework 1(Homework[3])', 'statistics homework 2(Homework[4])', 'statistics homework 3(Homework[9])', 'statistics homework 4(Homework[11])', 'statistics project 1(Project[13])'	['question_type_global', 'question_three_hop_statement']
+[chemistry homework 2(Homework[20])] is [33] points
+I submitted [that homework(Homework[20])] late and received 33 points
+How much is [accounting project 8(Project[15])] worth?	34	['question_type_local']
+list all projects that i submitted late for [Roslyn]	'statistics project 1(Project[13])'	['question_type_global', 'question_three_hop_statement']
+show me all late homeworks i submitted for [Genevive]	'chemistry homework 1(Homework[10])', 'chemistry homework 2(Homework[20])'	['question_type_global', 'question_three_hop_statement']
+show me all homeworks i submitted for [Roslyn]	'statistics homework 1(Homework[3])', 'statistics homework 3(Homework[9])', 'statistics homework 4(Homework[11])'	['question_type_global', 'question_three_hop_statement']
+[accounting(Course[1])] has a new [accounting project 10(Project[21])] out
+[this homework(Homework[20])] is due on [February 06]

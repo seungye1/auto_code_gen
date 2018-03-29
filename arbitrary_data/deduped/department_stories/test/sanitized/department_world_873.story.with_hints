@@ -1,0 +1,136 @@
+there is a new [sixth year] PhD student named [Emmie(PhdStudent[1])]
+[this person(PhdStudent[1])] passed the qualifiers
+There is a course called [G201(Course[1])]
+[that class(Course[1])] is a course in the [biomedical engineering] department
+[that class(Course[1])] is 4 units
+[Emmie(PhdStudent[1])] is taking [G201(Course[1])]
+[that class(Course[1])] is a pass-fail course
+[that person(PhdStudent[1])] is taking [that course(Course[1])]
+[this course(Course[1])] is a [masters] course
+Which students are taking [G201(Course[1])]?	'Emmie(PhdStudent[1])'	['question_type_local']
+What phd students are taking G201	'Emmie(PhdStudent[1])'	['question_type_global', 'question_two_hop_statement']
+There is a [undergraduate] level 4 unit course called [U7000(Course[2])]
+[Emmie(PhdStudent[1])] is TAing [G201(Course[1])]
+[Peggy(Professor[2])] is a [full] [professor]
+[this student(PhdStudent[1])] successfully defended their thesis
+there is a [sixth year] PhD student named [Rey(PhdStudent[3])]
+[he(PhdStudent[3])]'s office is [Community Building]
+[Genevive(Professor[4])] is a [professor]
+[he(PhdStudent[3])] did not pass the qualifiers
+[Peggy(Professor[2])] is on [Rey(PhdStudent[3])]'s committee
+[this professor(Professor[2])] advises [this student(PhdStudent[3])]
+[she(Professor[2])] is in [Community Building]
+What professors are in Community Building	'Peggy(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+Who is enrolled in [G201(Course[1])]?	'Emmie(PhdStudent[1])'	['question_type_local']
+[Emmie(PhdStudent[1])] failed thesis proposal
+there is a new [first year] PhD student named [Albertha(PhdStudent[5])]
+[Albertha(PhdStudent[5])] has [Genevive(Professor[4])] and [Peggy(Professor[2])] on the committee
+[Albertha(PhdStudent[5])] currently has funding
+Which courses are in the [biomedical engineering] department?	'G201(Course[1])'	['question_type_global', 'question_single_statement']
+[Albertha(PhdStudent[5])] passed the qualifiers
+What students are going to TA [G201(Course[1])]?	'Emmie(PhdStudent[1])'	['question_type_local']
+there is a new PhD student named [Ashly(PhdStudent[6])]
+create a [professor] named [Lucio(Professor[7])]
+[Genevive(Professor[4])] is on [this student(PhdStudent[6])]'s committee
+[Rey(PhdStudent[3])] is TAing [G201(Course[1])]
+[G201(Course[1])] will be a full semester course
+[Peggy(Professor[2])] advises [Ashly(PhdStudent[6])]
+[this professor(Professor[2])] research interest is in [computational biology]
+[this professor(Professor[2])] is now on sabbatical
+What is [Peggy(Professor[2])]'s research focus?	'computational biology'	['question_type_local']
+There is a course called [U102(Course[3])]
+[she(Professor[2])] advises [Emmie(PhdStudent[1])] and [Albertha(PhdStudent[5])]
+Who is [Rey(PhdStudent[3])]'s advisor?	'Peggy'	['question_type_local']
+Which courses are offered this semester in the biomedical engineering department?	'G201(Course[1])'	['question_type_global', 'question_two_hop_statement']
+create a [professor] named [Loyd(Professor[8])]
+[this professor(Professor[8])] is now on sabbatical
+What professors are in Community Building	'Peggy(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+create a [assistant] [professor] named [Charlott(Professor[9])]
+[he(Professor[8])] research interest is in [unsupervised machine learning]
+[he(Professor[8])]'s office is [Eaton Building]
+What office is [he(Professor[8])] in?	'Eaton Building'	['question_type_local']
+[Rachele(MastersStudent[10])] is a masters student
+Which students are taking [G201(Course[1])]?	'Emmie(PhdStudent[1])'	['question_type_local']
+[Charlott(Professor[9])] is on [Emmie(PhdStudent[1])]'s committee
+[Emmie(PhdStudent[1])] has passed the thesis proposal exam
+there is a PhD student named [Andy(PhdStudent[11])]
+[she(PhdStudent[1])] is funded
+[Emmie(PhdStudent[1])] has [Genevive(Professor[4])] on the committee
+[Rey(PhdStudent[3])] passed thesis defense
+What professors are in Community Building	'Peggy(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+[U7000(Course[2])] is not a pass-fail course
+[this course(Course[2])] is a course in the [physics] department
+[Ashly(PhdStudent[6])] is attending [this course(Course[2])]
+[U7000(Course[2])] is TAed by [Albertha(PhdStudent[5])] and [that person(PhdStudent[6])]
+[U7000(Course[2])] will be a full semester course
+[Loyd(Professor[8])] teaches [U7000(Course[2])]
+Who is teaching [U7000(Course[2])]?	'Loyd(Professor[8])'	['question_type_local']
+Create a new [masters] level 2 unit course called [G601(Course[4])]
+[that person(Professor[8])] advises [Andy(PhdStudent[11])]
+there is a [fifth year] PhD student named [John(PhdStudent[12])]
+[Loyd(Professor[8])] is on [John(PhdStudent[12])]'s committee
+[this professor(Professor[8])] is an [full] professor
+Which phd students have [he(Professor[8])] on their committee	'John(PhdStudent[12])'	['question_type_local']
+Create a new [phd] course called [U302(Course[5])]
+[Loyd(Professor[8])] advises [John(PhdStudent[12])]
+there is a new [fourth year] PhD student named [Kristeen(PhdStudent[13])]
+[Lucio(Professor[7])] is on [he(PhdStudent[12])]'s committee
+There is a [undergraduate] level course called [U601(Course[6])]
+[this professor(Professor[7])]'s office is [Ward Building]
+[this person(Professor[7])] is now on sabbatical
+[that professor(Professor[7])] is an [assistant] professor
+[second year] is a [Tawnya(PhdStudent[14])] PhD student
+[Lucio(Professor[7])] research interest is in [evolution]
+[G201(Course[1])] is taught by [Charlott(Professor[9])]
+Which [first year] students's advisors are conducting research in [computational biology]	'Albertha(PhdStudent[5])'	['question_type_global', 'question_three_hop_statement']
+Create a new [phd] course called [U203(Course[7])]
+The TA for [that course(Course[7])] is [Kristeen(PhdStudent[13])]
+[that class(Course[7])] is part of the [psychology] department
+[she(PhdStudent[13])] failed the qualifiers
+[Lucio(Professor[7])] advises [Kristeen(PhdStudent[13])] and [Tawnya(PhdStudent[14])]
+Who does [Lucio(Professor[7])] advise?	'Kristeen(PhdStudent[13])', 'Tawnya(PhdStudent[14])'	['question_type_local']
+What is [Lucio(Professor[7])]'s office?	'Ward Building'	['question_type_local']
+Which courses in the physics department are TAed by phd students?	'U7000(Course[2])'	['question_type_global', 'question_three_hop_statement']
+[Kristeen(PhdStudent[13])] did not pass the qualifiers
+[Kristeen(PhdStudent[13])]'s office is [Ward Building]
+Which phd students does [Lucio(Professor[7])] advise?	'Kristeen(PhdStudent[13])', 'Tawnya(PhdStudent[14])'	['question_type_local']
+[Albertha(PhdStudent[5])]'s office is [Community Building]
+[Albertha(PhdStudent[5])] passed thesis proposal
+there is a new [third year] PhD student named [Isaiah(PhdStudent[15])]
+[he(PhdStudent[15])] has failed thesis defense
+[Isaiah(PhdStudent[15])]'s office is [Mathematics Building]
+[that person(PhdStudent[15])] is now a [fourth year] student
+What students are in Ward Building	'Kristeen(PhdStudent[13])'	['question_type_global', 'question_two_hop_statement']
+[Tawnya(PhdStudent[14])]'s office is [Macky Building]
+[Tawnya(PhdStudent[14])] is funded
+Who is [this person(PhdStudent[14])]'s advisor?	'Lucio'	['question_type_local']
+Which professors are teaching [masters] courses?	'Charlott(Professor[9])'	['question_type_global', 'question_two_hop_statement']
+What professors are in Community Building	'Peggy(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+[that person(PhdStudent[14])] is in [third year]
+Who advises [this person(PhdStudent[14])]?	'Lucio'	['question_type_local']
+[that person(PhdStudent[14])] passed thesis proposal
+What students are in Macky Building	'Tawnya(PhdStudent[14])'	['question_type_global', 'question_two_hop_statement']
+[Tawnya(PhdStudent[14])] has failed thesis defense
+Which students have offices in Mathematics Building	'Isaiah(PhdStudent[15])'	['question_type_global', 'question_two_hop_statement']
+[Kristeen(PhdStudent[13])] currently has funding
+[Kristeen(PhdStudent[13])] has passed the qualifying exam
+Which courses are TAed by [Emmie(PhdStudent[1])]?	'G201(Course[1])'	['question_type_local']
+[Rey(PhdStudent[3])] is a student in [U7000(Course[2])]
+What professors are in Community Building	'Peggy(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [G7000(Course[8])]
+[this person(PhdStudent[3])] has passed the qualifying exam
+Which [full] professors advise students who passed their proposal?	'Peggy(Professor[2])'	['question_type_global', 'question_three_hop_statement']
+[that course(Course[8])] is a pass-fail course
+[that person(PhdStudent[3])] is enrolled in [that course(Course[8])]
+[that class(Course[8])] is a full semester course
+[that class(Course[8])] is under the [physics] department
+What courses is [Loyd(Professor[8])] teaching?	'U7000(Course[2])'	['question_type_local']
+[U302(Course[5])] is part of the [biomedical engineering] department
+[Rachele(MastersStudent[10])] and [Andy(PhdStudent[11])] are TAing [U302(Course[5])]
+[U302(Course[5])] will be a mini course
+Who is teaching [U7000(Course[2])]?	'Loyd(Professor[8])'	['question_type_local']
+What students are in Ward Building	'Kristeen(PhdStudent[13])'	['question_type_global', 'question_two_hop_statement']
+[that person(PhdStudent[11])] has passed the thesis proposal exam
+[that student(PhdStudent[11])]'s office is [Macky Building]
+[this student(PhdStudent[11])] currently has funding
+What students are taking G201	'Emmie(PhdStudent[1])'	['question_type_global', 'question_single_statement']

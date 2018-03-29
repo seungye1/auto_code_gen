@@ -1,0 +1,110 @@
+there is a new [knowledge base(Project[1])] [project]
+[this project(Project[1])] is in the [evaluation] stage
+[it(Project[1])] is a [experimental] project
+[Hanna(Developer[1])] is a [developer]
+[it(Project[1])] has moved to the [testing] stage
+[that developer(Developer[1])] is assigned to [this project(Project[1])]
+[Peggy(Tester[2])] is a [tester] on [knowledge base project(Project[1])]
+[Lizeth(Tester[3])] is a [tester] on [knowledge base project(Project[1])]
+[Peggy(Tester[2])] created a new issue for [knowledge base project(Project[1])]: [wrong pos tag on consecutive words]
+[Casey(Developer[4])] is a [developer] on [knowledge base project(Project[1])]
+[Michael(Tester[5])] is a [tester] on [knowledge base project(Project[1])]
+[the wrong pos tag on consecutive words issue(Issue[1])] is assigned to [Peggy(Tester[2])]
+[that test engineer(Tester[2])] resolved [this issue(Issue[1])]
+There is a new issue for the [knowledge base project(Project[1])]: [initialization broken]
+[it(Issue[2])] is assigned to [that test engineer(Tester[2])]
+[that test engineer(Tester[2])] resolved [this issue(Issue[2])]
+[Hanna(Developer[1])] is no longer assigned to [knowledge base project(Project[1])]
+[knowledge base project(Project[1])] is assigned to [Hanna(Developer[1])]
+There is a new issue for the [it(Project[1])]: [memory leak bug]
+[Lizeth(Tester[3])] created a new issue for [that project(Project[1])]: [memory leak while reading tf records]
+[the memory leak bug issue(Issue[3])] is assigned to [Hanna(Developer[1])]
+[she(Developer[1])] resolved [this issue(Issue[3])]
+there is a new [pilot] [mobile(Project[2])] [project]
+[mobile project(Project[2])] is in the stage of [development]
+[it(Project[2])] is in the [testing] stage
+[Hanna(Developer[1])] is working on [that project(Project[2])] also
+[she(Developer[1])] submitted a new [proposal] for [mobile project(Project[2])]: [fails with apache stack]
+[the issue(Issue[5])] is assigned to [Hanna(Developer[1])]
+[this developer(Developer[1])] resolved [it(Issue[5])]
+[knowledge base project(Project[1])] is now in the [development] stage
+there is a new [chatbot(Project[3])] [project]
+[chatbot project(Project[3])] is in the [design] stage
+[it(Project[3])] is a [experimental] project
+[Charlott(Tester[6])] is a [tester] on [mobile project(Project[2])]
+[that person(Tester[6])] is working on [chatbot project(Project[3])] also
+[she(Tester[6])] is no longer assigned to [mobile project(Project[2])]
+[Peggy(Tester[2])] is assigned to [it(Project[2])] also
+[chatbot project(Project[3])] is assigned to [Peggy(Tester[2])] also
+[that person(Tester[2])] created a new [enhancement] for [it(Project[3])]: [null pointer exception during parsing]
+[svd is slow] is a new [bug] submitted by [Hanna(Developer[1])] for [mobile project(Project[2])]
+[the null pointer exception during parsing issue(Issue[6])] was assigned to [Peggy(Tester[2])]
+[this person(Tester[2])] resolved [the null pointer exception during parsing enhancement(Issue[6])]
+[Hanna(Developer[1])] is working on [chatbot project(Project[3])] also
+[it(Project[3])] is not assigned to [that developer(Developer[1])]
+[this developer(Developer[1])] is assigned to [it(Project[3])] also
+[xml extractor exception] is a new [task] submitted by [Charlott(Tester[6])] for [this project(Project[3])]
+[Tawnya(Tester[7])] is a [tester] on [mobile project(Project[2])]
+[this tester(Tester[7])] is assigned to [knowledge base project(Project[1])] also
+[Danita(Tester[8])] is a [tester] on [chatbot project(Project[3])]
+[the bug(Issue[7])] is assigned to [Peggy(Tester[2])]
+[Angelita(Tester[9])] is a [tester]
+[Angelita(Tester[9])] is assigned to [knowledge base project(Project[1])]
+[mobile project(Project[2])] is assigned to [Michael(Tester[5])] also
+[Stephine(Tester[10])] is a [tester]
+[Peggy(Tester[2])] resolved [the svd is slow issue(Issue[7])]
+Who submitted [the null pointer exception during parsing enhancement(Issue[6])]?	'Peggy(Tester[2])'	['question_type_local']
+[Angelita(Tester[9])] is working on [mobile project(Project[2])] also
+[the memory leak while reading tf records issue(Issue[4])] was assigned to [Hanna(Developer[1])]
+[this developer(Developer[1])] resolved [the memory leak while reading tf records issue(Issue[4])]
+[knowledge base project(Project[1])] has moved to the [design] stage
+[the task(Issue[8])] was assigned to [this developer(Developer[1])]
+[she(Developer[1])] resolved [it(Issue[8])]
+[chatbot project(Project[3])] is assigned to [Casey(Developer[4])] also
+[mobile project(Project[2])] is assigned to [Casey(Developer[4])] also
+[that project(Project[2])] is in the stage of [design]
+[it(Project[2])] has moved to the [evaluation] stage
+Who was [the svd is slow bug(Issue[7])] assigned to?	'Peggy(Tester[2])'	['question_type_local']
+Who submitted [the fails with apache stack proposal(Issue[5])]?	'Hanna(Developer[1])'	['question_type_local']
+[this project(Project[2])] is now in the [development] stage
+[Angelita(Tester[9])] is working on [chatbot project(Project[3])] also
+[it(Project[3])] is in the [evaluation] stage
+Who created [the memory leak while reading tf records issue(Issue[4])]?	'Lizeth(Tester[3])'	['question_type_local']
+[that project(Project[3])] is in the stage of [design]
+[Michael(Tester[5])] is assigned to [it(Project[3])] also
+[this project(Project[3])] is in the stage of [development]
+[knowledge base project(Project[1])] is assigned to [Charlott(Tester[6])] also
+[this tester(Tester[6])] is working on [mobile project(Project[2])] also
+[mobile project(Project[2])] is in the [design] stage
+[it(Project[2])] has moved to the [development] stage
+[knowledge base project(Project[1])] is in the [testing] stage
+Who submitted [the task(Issue[8])]?	'Charlott(Tester[6])'	['question_type_local']
+[mobile project(Project[2])] is not assigned to [Hanna(Developer[1])]
+[this project(Project[2])] is assigned to [this person(Developer[1])] also
+[Hanna(Developer[1])] is not working on [knowledge base project(Project[1])] anymore
+[Hanna(Developer[1])] is assigned to [knowledge base project(Project[1])] also
+[Angelita(Tester[9])] is not working on [that project(Project[1])] anymore
+[knowledge base project(Project[1])] is assigned to [this person(Tester[9])] also
+[Tawnya(Tester[7])] is assigned to [chatbot project(Project[3])] also
+Who submitted [the null pointer exception during parsing enhancement(Issue[6])]?	'Peggy(Tester[2])'	['question_type_local']
+[mobile project(Project[2])] is now in the [testing] stage
+Who is [the initialization broken issue(Issue[2])] assigned to?	'Peggy(Tester[2])'	['question_type_local']
+[mobile project(Project[2])] is now in the [design] stage
+[this project(Project[2])] has moved to the [testing] stage
+Who created [the xml extractor exception task(Issue[8])]?	'Charlott(Tester[6])'	['question_type_local']
+[mobile project(Project[2])] is now in the [evaluation] stage
+Who was [the xml extractor exception task(Issue[8])] assigned to?	'Hanna(Developer[1])'	['question_type_local']
+[Danita(Tester[8])] is working on [knowledge base project(Project[1])] also
+[mobile project(Project[2])] is assigned to [Danita(Tester[8])] also
+[knowledge base project(Project[1])] is not assigned to [Danita(Tester[8])]
+[knowledge base project(Project[1])] is assigned to [Danita(Tester[8])] also
+[Michael(Tester[5])] is not working on [chatbot project(Project[3])] anymore
+[it(Project[3])] is in the stage of [evaluation]
+Who was [the memory leak bug issue(Issue[3])] assigned to?	'Hanna(Developer[1])'	['question_type_local']
+[this project(Project[3])] is now in the [design] stage
+[mobile project(Project[2])] is in the stage of [design]
+[chatbot project(Project[3])] has moved to the [testing] stage
+[Charlott(Tester[6])] is no longer assigned to [mobile project(Project[2])]
+[it(Project[2])] is assigned to [this test engineer(Tester[6])] also
+[knowledge base project(Project[1])] is not assigned to [Lizeth(Tester[3])]
+[this tester(Tester[3])] is assigned to [mobile project(Project[2])]

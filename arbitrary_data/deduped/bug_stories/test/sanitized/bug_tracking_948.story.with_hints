@@ -1,0 +1,105 @@
+there is a new [knowledge base(Project[1])] [project]
+[knowledge base project(Project[1])] is a [pilot] project
+[it(Project[1])] is currently in the [design] stage
+[Willis(Developer[1])] is a [developer] on [knowledge base project(Project[1])]
+[Emma(Developer[2])] is a [developer] on [knowledge base project(Project[1])]
+[Angelita(Developer[3])] is a [developer] on [knowledge base project(Project[1])]
+[Luanna(Developer[4])] is a [developer] on [knowledge base project(Project[1])]
+[Luanna(Developer[4])] is no longer assigned to [knowledge base project(Project[1])]
+[Andrew(Developer[5])] is a [developer]
+[Willis(Developer[1])] is not working on [knowledge base project(Project[1])] anymore
+[Willis(Developer[1])] is assigned to [knowledge base project(Project[1])]
+[he(Developer[1])] is no longer assigned to [this project(Project[1])]
+[he(Developer[1])] is assigned to [that project(Project[1])]
+[that project(Project[1])] is assigned to [Luanna(Developer[4])]
+[Ashly(Tester[6])] is a [tester]
+there is a new [chatbot(Project[2])] [project]
+[that person(Tester[6])] is assigned to [knowledge base project(Project[1])]
+[Francoise(Developer[7])] is a [developer]
+[this project(Project[1])] is assigned to [this developer(Developer[7])]
+[that person(Developer[7])] is assigned to [chatbot project(Project[2])] also
+[chatbot project(Project[2])] is a [external] project
+[chatbot project(Project[2])] is currently in the [design] stage
+[it(Project[2])] is now in the [evaluation] stage
+[Albertha(Tester[8])] is a [tester] on [knowledge base project(Project[1])]
+[Luanna(Developer[4])] is working on [that project(Project[2])] also
+[Willis(Developer[1])] is assigned to [chatbot project(Project[2])] also
+there is a new [mobile(Project[3])] [project]
+[mobile project(Project[3])] is currently in the [implementation] stage
+[mobile project(Project[3])] is a [external] project
+[that project(Project[3])] is assigned to [Francoise(Developer[7])] also
+[it(Project[3])] is in the [deployment] stage
+[mobile project(Project[3])] is now in the [implementation] stage
+[this project(Project[3])] is assigned to [Willis(Developer[1])] also
+[that person(Developer[1])] is no longer assigned to [knowledge base project(Project[1])]
+[Luanna(Developer[4])] created a new [proposal] for [chatbot project(Project[2])]: [null pointer exception during parsing]
+[Emma(Developer[2])] is working on [chatbot project(Project[2])] also
+[Willis(Developer[1])] is working on [knowledge base project(Project[1])] also
+[it(Project[1])] is not assigned to [Willis(Developer[1])]
+[that person(Developer[1])] is not working on [chatbot project(Project[2])] anymore
+Who submitted [the proposal(Issue[1])]?	'Luanna(Developer[4])'	['question_type_local']
+[that developer(Developer[1])] is assigned to [it(Project[2])] also
+[that person(Developer[1])] is working on [knowledge base project(Project[1])] also
+[that developer(Developer[1])] is no longer assigned to [it(Project[1])]
+[Ashly(Tester[6])] is working on [mobile project(Project[3])] also
+[Francoise(Developer[7])] created a new [enhancement] for [chatbot project(Project[2])]: [parsing with parantheses fails]
+[that project(Project[3])] is now in the [design] stage
+[Luanna(Developer[4])] is working on [that project(Project[3])] also
+[xml extractor exception] is a new issue for the [that project(Project[3])]
+[this issue(Issue[3])] was assigned to [Francoise(Developer[7])]
+[knowledge base project(Project[1])] is not assigned to [that developer(Developer[7])]
+[mobile project(Project[3])] is not assigned to [he(Developer[7])]
+[he(Developer[7])] is not working on [chatbot project(Project[2])] anymore
+[mobile project(Project[3])] is assigned to [this person(Developer[7])]
+[Francoise(Developer[7])] is assigned to [chatbot project(Project[2])] also
+Who created [the parsing with parantheses fails enhancement(Issue[2])]?	'Francoise(Developer[7])'	['question_type_local']
+[mobile project(Project[3])] is assigned to [Angelita(Developer[3])] also
+[Francoise(Developer[7])] resolved [the xml extractor exception issue(Issue[3])]
+[Francoise(Developer[7])] is assigned to [knowledge base project(Project[1])] also
+[chatbot project(Project[2])] is not assigned to [Francoise(Developer[7])]
+[this developer(Developer[7])] is assigned to [it(Project[2])] also
+[Willis(Developer[1])] is working on [knowledge base project(Project[1])] also
+[Ashly(Tester[6])] is working on [chatbot project(Project[2])] also
+[this project(Project[2])] has moved to the [design] stage
+[tokenization not consistent across platforms] is a new [enhancement] submitted by [Albertha(Tester[8])] for [knowledge base project(Project[1])]
+[this issue(Issue[4])] is assigned to [Willis(Developer[1])]
+[this developer(Developer[1])] resolved [that issue(Issue[4])]
+[Ashly(Tester[6])] submitted a new [bug] for [mobile project(Project[3])]: [memory leak while reading tf records]
+[the memory leak while reading tf records issue(Issue[5])] was assigned to [Francoise(Developer[7])]
+[Francoise(Developer[7])] resolved [that issue(Issue[5])]
+[the null pointer exception during parsing issue(Issue[1])] was assigned to [that person(Developer[7])]
+[that developer(Developer[7])] resolved [that issue(Issue[1])]
+[that developer(Developer[7])] is no longer assigned to [knowledge base project(Project[1])]
+What are the issues created by [Ashly(Tester[6])]?	'memory leak while reading tf records(Issue[5])'	['question_type_local']
+[knowledge base project(Project[1])] is assigned to [he(Developer[7])] also
+[mobile project(Project[3])] is not assigned to [that person(Developer[7])]
+[knowledge base project(Project[1])] is in the stage of [implementation]
+[Emma(Developer[2])] created a new issue for [chatbot project(Project[2])]: [parse example terribly slow]
+[that issue(Issue[6])] is assigned to [Emma(Developer[2])]
+[Emma(Developer[2])] is working on [mobile project(Project[3])] also
+[Francoise(Developer[7])] is assigned to [that project(Project[3])] also
+[Francoise(Developer[7])] is not working on [chatbot project(Project[2])] anymore
+[this developer(Developer[7])] is assigned to [chatbot project(Project[2])] also
+[Emma(Developer[2])] resolved [the parse example terribly slow issue(Issue[6])]
+Who submitted [it(Issue[6])]?	'Emma(Developer[2])'	['question_type_local']
+[this person(Developer[2])] is not working on [knowledge base project(Project[1])] anymore
+[timeout problem] is a new [proposal] submitted by [Francoise(Developer[7])] for [that project(Project[1])]
+[this issue(Issue[7])] was assigned to [Luanna(Developer[4])]
+[she(Developer[4])] resolved [the timeout problem issue(Issue[7])]
+[knowledge base project(Project[1])] is assigned to [Emma(Developer[2])] also
+Who is [the tokenization not consistent across platforms enhancement(Issue[4])] assigned to?	'Willis(Developer[1])'	['question_type_local']
+There is a new issue for the [mobile project(Project[3])]: [memory leak bug]
+[the issue(Issue[8])] was assigned to [Ashly(Tester[6])]
+[Ashly(Tester[6])] resolved [it(Issue[8])]
+[this test engineer(Tester[6])] is not working on [knowledge base project(Project[1])] anymore
+[she(Tester[6])] is assigned to [knowledge base project(Project[1])] also
+[chatbot project(Project[2])] is assigned to [Angelita(Developer[3])] also
+[knowledge base project(Project[1])] is in the [deployment] stage
+[mobile project(Project[3])] is not assigned to [Francoise(Developer[7])]
+[this project(Project[3])] is assigned to [Francoise(Developer[7])] also
+[that project(Project[3])] is not assigned to [Emma(Developer[2])]
+[Angelita(Developer[3])] created a new [bug] for [knowledge base project(Project[1])]: [two consecutive dates identified as single date]
+[the issue(Issue[9])] is assigned to [Ashly(Tester[6])]
+[this person(Tester[6])] resolved [this issue(Issue[9])]
+[chatbot project(Project[2])] is assigned to [Albertha(Tester[8])] also
+[mobile project(Project[3])] is assigned to [she(Tester[8])] also

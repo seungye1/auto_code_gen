@@ -1,0 +1,221 @@
+there is a [third year] PhD student named [Lucio(PhdStudent[1])]
+who are the students?	'Lucio(PhdStudent[1])'	['question_type_global', 'question_single_statement']
+Which students are in their [third year]	'Lucio(PhdStudent[1])'	['question_type_global', 'question_single_statement']
+Create a new course called [G301(Course[1])]
+[Lucio(PhdStudent[1])] is enrolled in [that course(Course[1])]
+[that course(Course[1])] will be a 2 unit course
+[that course(Course[1])] is a mini course
+Which students are taking [that class(Course[1])]?	'Lucio(PhdStudent[1])'	['question_type_local']
+there is a new PhD student named [Kristeen(PhdStudent[2])]
+[that course(Course[1])] is a pass-fail course
+[G301(Course[1])] is a [undergraduate] course
+Which courses did [Lucio(PhdStudent[1])] enroll in?	'G301(Course[1])'	['question_type_local']
+which [undergraduate] courses have no masters students enrolled?	'G301(Course[1])'	['question_type_global', 'question_three_hop_statement']
+Which students are taking [G301(Course[1])]?	'Lucio(PhdStudent[1])'	['question_type_local']
+there is a new masters student named [Will(MastersStudent[3])]
+[that student(MastersStudent[3])] is affiliated with the [electrical engineering] department
+who are the masters students?	'Will(MastersStudent[3])'	['question_type_global', 'question_single_statement']
+there is a new [fifth year] PhD student named [Alejandra(PhdStudent[4])]
+create a [professor] named [William(Professor[5])]
+[that student(PhdStudent[4])] has failed the thesis proposal exam
+[this student(PhdStudent[4])] passed thesis defense
+[this student(PhdStudent[4])] is now a [sixth year] student
+[this person(PhdStudent[4])] has [William(Professor[5])] on the committee
+which courses have some phd students enrolled?	'G301(Course[1])'	['question_type_global', 'question_two_hop_statement']
+create a [professor] named [Igor(Professor[6])]
+[Igor(Professor[6])] is an [associate] professor
+[Igor(Professor[6])]'s department is [computer science]
+Which courses are [undergraduate] level courses?	'G301(Course[1])'	['question_type_global', 'question_single_statement']
+Which are some [undergraduate] courses that no masters student is taking?	'G301(Course[1])'	['question_type_global', 'question_three_hop_statement']
+Who is part of the [computer science] department	'Igor(Professor[6])'	['question_type_global', 'question_single_statement']
+[Vivienne(PhdStudent[7])] is a PhD student
+who are the phd students?	'Lucio(PhdStudent[1])', 'Kristeen(PhdStudent[2])', 'Alejandra(PhdStudent[4])', 'Vivienne(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+who are the students?	'Lucio(PhdStudent[1])', 'Kristeen(PhdStudent[2])', 'Will(MastersStudent[3])', 'Alejandra(PhdStudent[4])', 'Vivienne(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+[Vivienne(PhdStudent[7])] is [this professor(Professor[6])]'s student
+[Gabrielle(MastersStudent[8])] is a masters student
+[Vivienne(PhdStudent[7])] failed the qualifiers
+[Vivienne(PhdStudent[7])] is in their [sixth year]
+who are the professors?	'William(Professor[5])', 'Igor(Professor[6])'	['question_type_global', 'question_single_statement']
+Which phd students have [William(Professor[5])] on their committee	'Alejandra(PhdStudent[4])'	['question_type_local']
+[Gabrielle(MastersStudent[8])] and [Alejandra(PhdStudent[4])] are both taking [G301(Course[1])]
+Which phd students taking the G301 course	'Lucio(PhdStudent[1])', 'Alejandra(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+there is a new [first year] PhD student named [Angelita(PhdStudent[9])]
+[Alejandra(PhdStudent[4])] has [Igor(Professor[6])] on the committee
+[Vivienne(PhdStudent[7])] passed thesis proposal
+[that student(PhdStudent[7])] passed the qualifiers
+the affiliation of [Gabrielle(MastersStudent[8])] is [electrical engineering]
+What are the courses that [Gabrielle(MastersStudent[8])] is enrolled in?	'G301(Course[1])'	['question_type_local']
+[G301(Course[1])] is taught by [William(Professor[5])]
+which students passed the proposal exam?	'Vivienne(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+[that class(Course[1])] is TAed by [Alejandra(PhdStudent[4])] and [Gabrielle(MastersStudent[8])]
+Who is currently TAing [G301(Course[1])]?	'Alejandra(PhdStudent[4])', 'Gabrielle(MastersStudent[8])'	['question_type_local']
+Which professors advise students who passed their qualifying exam?	'Igor(Professor[6])'	['question_type_global', 'question_two_hop_statement']
+[William(Professor[5])] is on [Vivienne(PhdStudent[7])]'s committee
+Which masters students taking the G301 course	'Gabrielle(MastersStudent[8])'	['question_type_global', 'question_two_hop_statement']
+What are the [first year] phd students	'Angelita(PhdStudent[9])'	['question_type_global', 'question_single_statement']
+[Bob(Professor[10])] is a [assistant] [professor]
+Which courses are TAed by [Gabrielle(MastersStudent[8])]?	'G301(Course[1])'	['question_type_local']
+Which courses are [mini course]	'G301(Course[1])'	['question_type_global', 'question_single_statement']
+[William(Professor[5])] has funding
+[William(Professor[5])]'s department is [neuroscience]
+[he(Professor[5])] is in [Bruce Building]
+[Bob(Professor[10])] is on [Vivienne(PhdStudent[7])]'s committee
+[she(PhdStudent[7])] has passed the thesis defense
+Which courses are offered this semester?	'G301(Course[1])'	['question_type_global', 'question_single_statement']
+[Igor(Professor[6])] research interest is in [theoretical cosmology]
+[he(Professor[6])] advises [Kristeen(PhdStudent[2])] and [Lucio(PhdStudent[1])]
+which students passed the qualifying exam?	'Vivienne(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+Which professors advise students who passed their defense?	'Igor(Professor[6])'	['question_type_global', 'question_two_hop_statement']
+Who is teaching [undergraduate] courses?	'William(Professor[5])'	['question_type_global', 'question_two_hop_statement']
+What are the courses TAed by [Gabrielle(MastersStudent[8])]?	'G301(Course[1])'	['question_type_local']
+There is a course called [U301(Course[2])]
+[that student(PhdStudent[1])] is attending [this course(Course[2])]
+Who is taking [that class(Course[2])]?	'Lucio(PhdStudent[1])'	['question_type_local']
+Which students are part of the [electrical engineering] department	'Will(MastersStudent[3])', 'Gabrielle(MastersStudent[8])'	['question_type_global', 'question_two_hop_statement']
+there is a new PhD student named [Cyndi(PhdStudent[11])]
+[William(Professor[5])] is on [she(PhdStudent[11])]'s committee
+Which courses have masters student TAs?	'G301(Course[1])'	['question_type_global', 'question_two_hop_statement']
+What professors advise students who passed their thesis qualifiers?	'Igor(Professor[6])'	['question_type_global', 'question_two_hop_statement']
+[first year] is a [Racquel(PhdStudent[12])] PhD student
+which students passed the proposal exam?	'Vivienne(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+which students passed the qualifying exam?	'Vivienne(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+[Igor(Professor[6])] is on [Racquel(PhdStudent[12])]'s committee
+[that student(PhdStudent[12])] has passed the qualifying exam
+which courses have no masters students enrolled?	'U301(Course[2])'	['question_type_global', 'question_two_hop_statement']
+Which are some courses that no masters student is taking?	'U301(Course[2])'	['question_type_global', 'question_two_hop_statement']
+For which phd students does [this professor(Professor[6])] serve on a committee?	'Alejandra(PhdStudent[4])', 'Racquel(PhdStudent[12])'	['question_type_local']
+Which are some [undergraduate] courses that masters students take?	'G301(Course[1])'	['question_type_global', 'question_three_hop_statement']
+Create a new [masters] level 8 unit course called [U103(Course[3])]
+[Alejandra(PhdStudent[4])] is enrolled in [that course(Course[3])]
+Which students's advisors are conducting research in [theoretical cosmology]	'Lucio(PhdStudent[1])', 'Kristeen(PhdStudent[2])', 'Vivienne(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+which students passed the proposal exam?	'Vivienne(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+Which [sixth year] students's advisors are conducting research in [theoretical cosmology]	'Vivienne(PhdStudent[7])'	['question_type_global', 'question_three_hop_statement']
+Which are some courses that phd students take?	'G301(Course[1])', 'U301(Course[2])', 'U103(Course[3])'	['question_type_global', 'question_two_hop_statement']
+What phd students are taking courses and TAing?	'Alejandra(PhdStudent[4])'	['question_type_global', 'question_three_hop_statement']
+which students passed the defense?	'Alejandra(PhdStudent[4])', 'Vivienne(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+there is a new masters student named [Lucy(MastersStudent[13])]
+[Lucy(MastersStudent[13])] is affiliated with the [neuroscience] department
+What phd students are taking U103	'Alejandra(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+[Lucio(PhdStudent[1])] passed thesis proposal
+[Bob(Professor[10])] and [William(Professor[5])] are on [Lucio(PhdStudent[1])]'s committee
+What are the courses that [Lucio(PhdStudent[1])] is enrolled in?	'G301(Course[1])', 'U301(Course[2])'	['question_type_local']
+what courses have no masters students taking them?	'U301(Course[2])', 'U103(Course[3])'	['question_type_global', 'question_two_hop_statement']
+Which are some [masters] courses that phd students take?	'U103(Course[3])'	['question_type_global', 'question_three_hop_statement']
+there is a masters student named [Andrew(MastersStudent[14])]
+[this student(MastersStudent[14])]'s department is [electrical engineering]
+Which courses are offered this semester?	'G301(Course[1])', 'U301(Course[2])', 'U103(Course[3])'	['question_type_global', 'question_single_statement']
+Who is part of the [neuroscience] department	'William(Professor[5])', 'Lucy(MastersStudent[13])'	['question_type_global', 'question_single_statement']
+there is a new PhD student named [John(PhdStudent[15])]
+Who are the professors working on [theoretical cosmology]?	'Igor(Professor[6])'	['question_type_global', 'question_single_statement']
+Which professors advise students who passed their proposal?	'Igor(Professor[6])'	['question_type_global', 'question_two_hop_statement']
+Which are some courses that no masters student is taking?	'U301(Course[2])', 'U103(Course[3])'	['question_type_global', 'question_two_hop_statement']
+Who is teaching [mini course]?	'William(Professor[5])'	['question_type_global', 'question_two_hop_statement']
+[U301(Course[2])] is not a pass-fail course
+[this course(Course[2])] is 8 units
+[U301(Course[2])] is set up as a full semester course
+What professors are on [Cyndi(PhdStudent[11])]'s committee	'William(Professor[5])'	['question_type_local']
+Which professors are conducting research in [theoretical cosmology]	'Igor(Professor[6])'	['question_type_global', 'question_single_statement']
+there is a [professor] named [Willis(Professor[16])]
+[Willis(Professor[16])] research interest is in [theoretical cosmology]
+What phd students are taking courses and TAing?	'Alejandra(PhdStudent[4])'	['question_type_global', 'question_three_hop_statement']
+which courses have some phd students enrolled?	'G301(Course[1])', 'U301(Course[2])', 'U103(Course[3])'	['question_type_global', 'question_two_hop_statement']
+Which students are part of the [electrical engineering] department	'Will(MastersStudent[3])', 'Gabrielle(MastersStudent[8])', 'Andrew(MastersStudent[14])'	['question_type_global', 'question_two_hop_statement']
+What are the 8 unit courses?	'U301(Course[2])', 'U103(Course[3])'	['question_type_global', 'question_single_statement']
+What students are enrolled in [G301(Course[1])]?	'Lucio(PhdStudent[1])', 'Alejandra(PhdStudent[4])', 'Gabrielle(MastersStudent[8])'	['question_type_local']
+which students passed the proposal exam?	'Lucio(PhdStudent[1])', 'Vivienne(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+What phd students are taking U301	'Lucio(PhdStudent[1])'	['question_type_global', 'question_two_hop_statement']
+[Alejandra(PhdStudent[4])] is [William(Professor[5])]'s student
+[he(Professor[5])] heads the [neuroscience] department
+What courses is [that professor(Professor[5])] teaching?	'G301(Course[1])'	['question_type_local']
+What phd students are taking courses and TAing?	'Alejandra(PhdStudent[4])'	['question_type_global', 'question_three_hop_statement']
+What courses is [she(PhdStudent[4])] TAing?	'G301(Course[1])'	['question_type_local']
+[Tawnya(MastersStudent[17])] is a masters student
+[this student(MastersStudent[17])]'s department is [neuroscience]
+[U103(Course[3])] is set up as a full semester course
+[that course(Course[3])] is taught by [Willis(Professor[16])]
+which students passed the qualifying exam?	'Vivienne(PhdStudent[7])', 'Racquel(PhdStudent[12])'	['question_type_global', 'question_single_statement']
+Which professors have an [associate] status?	'Igor(Professor[6])'	['question_type_global', 'question_single_statement']
+who are the professors?	'William(Professor[5])', 'Igor(Professor[6])', 'Bob(Professor[10])', 'Willis(Professor[16])'	['question_type_global', 'question_single_statement']
+there is a masters student named [Tereasa(MastersStudent[18])]
+[this student(MastersStudent[18])]'s department is [computer science]
+which [undergraduate] courses have some phd students enrolled?	'G301(Course[1])'	['question_type_global', 'question_three_hop_statement']
+Which students are in a course that is instructed by their advisor?	'Alejandra(PhdStudent[4])'	['question_type_global', 'question_three_hop_statement']
+there is a new masters student named [Milagros(MastersStudent[19])]
+[Milagros(MastersStudent[19])]'s department is [neuroscience]
+which students passed the proposal exam?	'Lucio(PhdStudent[1])', 'Vivienne(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+create a [professor] named [Albertha(Professor[20])]
+[that professor(Professor[20])] has funding
+[this professor(Professor[20])]'s office is [Benson Building]
+[Albertha(Professor[20])]'s research interest is [computational biology]
+Which departments are people in [Bruce Building] with?	'neuroscience'	['question_type_global', 'question_two_hop_statement']
+What courses are taught by professors in the [neuroscience] department?	'G301(Course[1])'	['question_type_global', 'question_two_hop_statement']
+What professors advise students who defended successfully?	'William(Professor[5])', 'Igor(Professor[6])'	['question_type_global', 'question_two_hop_statement']
+What is [Albertha(Professor[20])]'s office?	'Benson Building'	['question_type_local']
+who are the phd students?	'Lucio(PhdStudent[1])', 'Kristeen(PhdStudent[2])', 'Alejandra(PhdStudent[4])', 'Vivienne(PhdStudent[7])', 'Angelita(PhdStudent[9])', 'Cyndi(PhdStudent[11])', 'Racquel(PhdStudent[12])', 'John(PhdStudent[15])'	['question_type_global', 'question_single_statement']
+What courses is [Alejandra(PhdStudent[4])] taking?	'G301(Course[1])', 'U103(Course[3])'	['question_type_local']
+What phd students are taking courses and TAing?	'Alejandra(PhdStudent[4])'	['question_type_global', 'question_three_hop_statement']
+What students are advised by a professor with funding?	'Alejandra(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+What are the [mini course]?	'G301(Course[1])'	['question_type_global', 'question_single_statement']
+who are the masters students?	'Will(MastersStudent[3])', 'Gabrielle(MastersStudent[8])', 'Lucy(MastersStudent[13])', 'Andrew(MastersStudent[14])', 'Tawnya(MastersStudent[17])', 'Tereasa(MastersStudent[18])', 'Milagros(MastersStudent[19])'	['question_type_global', 'question_single_statement']
+[Albertha(Professor[20])] is an [full] professor
+[she(Professor[20])] is affiliated with the [computer science] department
+What department is [Albertha(Professor[20])] affiliated with?	'computer science'	['question_type_local']
+Who are the professors working on [computational biology]?	'Albertha(Professor[20])'	['question_type_global', 'question_single_statement']
+What department is [this person(Professor[20])] affiliated with?	'computer science'	['question_type_local']
+Which students have an advisor who heads the department?	'Alejandra(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+What professors are in Benson Building	'Albertha(Professor[20])'	['question_type_global', 'question_two_hop_statement']
+[Cyndi(PhdStudent[11])] is a [fourth year] student
+[that student(PhdStudent[11])] has passed the thesis defense
+Which courses are 8 unit courses?	'U301(Course[2])', 'U103(Course[3])'	['question_type_global', 'question_single_statement']
+Create a new [undergraduate] level course called [U601(Course[4])]
+[that class(Course[4])] will be a full semester course
+Who has an office in [Benson Building]	'Albertha(Professor[20])'	['question_type_global', 'question_two_hop_statement']
+Who is in [Bruce Building]	'William(Professor[5])'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by phd students?	'G301(Course[1])'	['question_type_global', 'question_two_hop_statement']
+[Igor(Professor[6])] teaches [this course(Course[4])]
+Which [associate] professors advise students who passed their qualifying exam?	'Igor(Professor[6])'	['question_type_global', 'question_three_hop_statement']
+[he(Professor[6])] advises [Racquel(PhdStudent[12])]
+[this professor(Professor[6])] is in [Bruce Building]
+Create a new [undergraduate] level [mini course] called [G103(Course[5])]
+[that professor(Professor[6])] heads the [computer science] department
+who are the masters students?	'Will(MastersStudent[3])', 'Gabrielle(MastersStudent[8])', 'Lucy(MastersStudent[13])', 'Andrew(MastersStudent[14])', 'Tawnya(MastersStudent[17])', 'Tereasa(MastersStudent[18])', 'Milagros(MastersStudent[19])'	['question_type_global', 'question_single_statement']
+Which courses are [full_semester_course]	'U301(Course[2])', 'U103(Course[3])', 'U601(Course[4])'	['question_type_global', 'question_single_statement']
+[Albertha(Professor[20])] is on [Vivienne(PhdStudent[7])]'s committee
+Who is [Vivienne(PhdStudent[7])]'s advisor?	'Igor'	['question_type_local']
+What [associate] professors advise students who passed their thesis proposal?	'Igor(Professor[6])'	['question_type_global', 'question_three_hop_statement']
+Create a new course called [G204(Course[6])]
+[G204(Course[6])] has 4 units
+What courses are taught by those in the [neuroscience] department?	'G301(Course[1])'	['question_type_global', 'question_two_hop_statement']
+Which students are in a course that is instructed by their advisor?	'Alejandra(PhdStudent[4])'	['question_type_global', 'question_three_hop_statement']
+Which courses have masters student TAs?	'G301(Course[1])'	['question_type_global', 'question_two_hop_statement']
+who are the students?	'Lucio(PhdStudent[1])', 'Kristeen(PhdStudent[2])', 'Will(MastersStudent[3])', 'Alejandra(PhdStudent[4])', 'Vivienne(PhdStudent[7])', 'Gabrielle(MastersStudent[8])', 'Angelita(PhdStudent[9])', 'Cyndi(PhdStudent[11])', 'Racquel(PhdStudent[12])', 'Lucy(MastersStudent[13])', 'Andrew(MastersStudent[14])', 'John(PhdStudent[15])', 'Tawnya(MastersStudent[17])', 'Tereasa(MastersStudent[18])', 'Milagros(MastersStudent[19])'	['question_type_global', 'question_single_statement']
+[that course(Course[6])] is a full semester course
+[Angelita(PhdStudent[9])] and [Cyndi(PhdStudent[11])] are TAs for [that class(Course[6])]
+[G204(Course[6])] is a [phd] level course
+Which students are TAing [this course(Course[6])]?	'Angelita(PhdStudent[9])', 'Cyndi(PhdStudent[11])'	['question_type_local']
+who are the masters students?	'Will(MastersStudent[3])', 'Gabrielle(MastersStudent[8])', 'Lucy(MastersStudent[13])', 'Andrew(MastersStudent[14])', 'Tawnya(MastersStudent[17])', 'Tereasa(MastersStudent[18])', 'Milagros(MastersStudent[19])'	['question_type_global', 'question_single_statement']
+What students are taking courses and TAing?	'Alejandra(PhdStudent[4])', 'Gabrielle(MastersStudent[8])'	['question_type_global', 'question_two_hop_statement']
+[Kristeen(PhdStudent[2])] and [Will(MastersStudent[3])] are both enrolled in [G204(Course[6])]
+[G204(Course[6])] is not a pass-fail course
+Who is currently TAing [this course(Course[6])]?	'Angelita(PhdStudent[9])', 'Cyndi(PhdStudent[11])'	['question_type_local']
+Which courses are offered this semester?	'G301(Course[1])', 'U301(Course[2])', 'U103(Course[3])', 'U601(Course[4])', 'G103(Course[5])', 'G204(Course[6])'	['question_type_global', 'question_single_statement']
+Which courses did [Gabrielle(MastersStudent[8])] enroll in?	'G301(Course[1])'	['question_type_local']
+Which are some courses that no masters student is taking?	'U301(Course[2])', 'U103(Course[3])', 'U601(Course[4])', 'G103(Course[5])'	['question_type_global', 'question_two_hop_statement']
+Which courses are [mini course]	'G301(Course[1])', 'G103(Course[5])'	['question_type_global', 'question_single_statement']
+who are the phd students?	'Lucio(PhdStudent[1])', 'Kristeen(PhdStudent[2])', 'Alejandra(PhdStudent[4])', 'Vivienne(PhdStudent[7])', 'Angelita(PhdStudent[9])', 'Cyndi(PhdStudent[11])', 'Racquel(PhdStudent[12])', 'John(PhdStudent[15])'	['question_type_global', 'question_single_statement']
+Which courses did [Lucio(PhdStudent[1])] enroll in?	'G301(Course[1])', 'U301(Course[2])'	['question_type_local']
+which students passed the proposal exam?	'Lucio(PhdStudent[1])', 'Vivienne(PhdStudent[7])'	['question_type_global', 'question_single_statement']
+Which courses are offered this semester?	'G301(Course[1])', 'U301(Course[2])', 'U103(Course[3])', 'U601(Course[4])', 'G103(Course[5])', 'G204(Course[6])'	['question_type_global', 'question_single_statement']
+What are the courses that [Kristeen(PhdStudent[2])] is enrolled in?	'G204(Course[6])'	['question_type_local']
+Who are the professors working on [computational biology]?	'Albertha(Professor[20])'	['question_type_global', 'question_single_statement']
+Create a new course called [U204(Course[7])]
+[U204(Course[7])] is not a pass-fail course
+[this course(Course[7])] is full semester
+which students passed the defense?	'Alejandra(PhdStudent[4])', 'Vivienne(PhdStudent[7])', 'Cyndi(PhdStudent[11])'	['question_type_global', 'question_single_statement']
+What are all the courses?	'G301(Course[1])', 'U301(Course[2])', 'U103(Course[3])', 'U601(Course[4])', 'G103(Course[5])', 'G204(Course[6])', 'U204(Course[7])'	['question_type_global', 'question_single_statement']
+[Tawnya(MastersStudent[17])] and [Milagros(MastersStudent[19])] are TAing [G301(Course[1])]
+Which students are both taking a course and a TA?	'Alejandra(PhdStudent[4])', 'Gabrielle(MastersStudent[8])'	['question_type_global', 'question_two_hop_statement']
+Create a new course called [G201(Course[8])]
+[that class(Course[8])] is a [masters] level course
+What students are taking G301	'Lucio(PhdStudent[1])', 'Alejandra(PhdStudent[4])', 'Gabrielle(MastersStudent[8])'	['question_type_global', 'question_single_statement']
+Who are the professors in the [neuroscience] department?	'William(Professor[5])'	['question_type_global', 'question_two_hop_statement']

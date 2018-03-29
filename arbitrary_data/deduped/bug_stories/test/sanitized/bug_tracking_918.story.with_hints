@@ -1,0 +1,111 @@
+there is a new [chatbot(Project[1])] [project]
+[this project(Project[1])] is a [pilot] project
+[this project(Project[1])] is in the stage of [maintenance]
+[Lucy(Developer[1])] is a [developer]
+[Britney(Tester[2])] is a [tester]
+[this test engineer(Tester[2])] is working on [chatbot project(Project[1])]
+[Angelita(Tester[3])] is a [tester] on [that project(Project[1])]
+[Britney(Tester[2])] is not working on [chatbot project(Project[1])] anymore
+[Britney(Tester[2])] is working on [chatbot project(Project[1])]
+[it(Project[1])] is now in the [development] stage
+[Britney(Tester[2])] submitted a new [task] for [that project(Project[1])]: [saving data throws exception]
+there is a new [corporate] [knowledge base(Project[2])] [project]
+[this issue(Issue[1])] is assigned to [Angelita(Tester[3])]
+[Angelita(Tester[3])] resolved [the issue(Issue[1])]
+[Loyd(Developer[4])] is a [developer]
+[this test engineer(Tester[3])] is assigned to [knowledge base project(Project[2])] also
+[she(Tester[3])] is no longer assigned to [that project(Project[2])]
+[knowledge base project(Project[2])] is in the [maintenance] stage
+[this project(Project[2])] is assigned to [Angelita(Tester[3])] also
+Who submitted [the saving data throws exception issue(Issue[1])]?	'Britney(Tester[2])'	['question_type_local']
+[wrong pos tag on consecutive words] is a new issue for the [chatbot project(Project[1])]
+[that issue(Issue[2])] was assigned to [Britney(Tester[2])]
+[Britney(Tester[2])] is assigned to [knowledge base project(Project[2])] also
+[Britney(Tester[2])] resolved [the wrong pos tag on consecutive words issue(Issue[2])]
+Who is [that issue(Issue[2])] assigned to?	'Britney(Tester[2])'	['question_type_local']
+there is a new [corporate] [mobile(Project[3])] [project]
+[mobile project(Project[3])] is currently in the [maintenance] stage
+Who was [the saving data throws exception task(Issue[1])] assigned to?	'Angelita(Tester[3])'	['question_type_local']
+[Britney(Tester[2])] is assigned to [it(Project[3])] also
+[Loyd(Developer[4])] is assigned to [chatbot project(Project[1])]
+[that developer(Developer[4])] is working on [mobile project(Project[3])] also
+[that developer(Developer[4])] is working on [knowledge base project(Project[2])] also
+[Angelita(Tester[3])] is working on [mobile project(Project[3])] also
+[Racquel(Developer[5])] is a [developer] on [this project(Project[3])]
+Who created [the saving data throws exception task(Issue[1])]?	'Britney(Tester[2])'	['question_type_local']
+[fails with apache stack] is a new [proposal] for the [knowledge base project(Project[2])]
+[the issue(Issue[3])] is assigned to [Britney(Tester[2])]
+[Lucio(Developer[6])] is a [developer] on [mobile project(Project[3])]
+[he(Developer[6])] is working on [chatbot project(Project[1])] also
+[Andrew(Developer[7])] is a [developer]
+[Andrew(Developer[7])] is assigned to [mobile project(Project[3])]
+[memory leak while reading tf records] is a new [task] submitted by [Loyd(Developer[4])] for [knowledge base project(Project[2])]
+[this issue(Issue[4])] was assigned to [Loyd(Developer[4])]
+[this person(Developer[4])] resolved [that issue(Issue[4])]
+[Angelita(Tester[3])] is no longer assigned to [mobile project(Project[3])]
+[mobile project(Project[3])] is assigned to [Angelita(Tester[3])] also
+[that project(Project[3])] is now in the [implementation] stage
+[changelong needs to be added] is a new [task] created by [Andrew(Developer[7])] for [it(Project[3])]
+Who was [the fails with apache stack proposal(Issue[3])] assigned to?	'Britney(Tester[2])'	['question_type_local']
+[knowledge base project(Project[2])] is assigned to [Lucio(Developer[6])] also
+There is a new [enhancement] for the [mobile project(Project[3])]: [parse example terribly slow]
+[the parse example terribly slow issue(Issue[6])] was assigned to [Angelita(Tester[3])]
+[that test engineer(Tester[3])] resolved [the parse example terribly slow enhancement(Issue[6])]
+[this tester(Tester[3])] is no longer assigned to [knowledge base project(Project[2])]
+[this project(Project[2])] is assigned to [this test engineer(Tester[3])] also
+[knowledge base project(Project[2])] has moved to the [development] stage
+[it(Project[2])] is in the [maintenance] stage
+[xml extractor exception] is a new [enhancement] created by [Loyd(Developer[4])] for [knowledge base project(Project[2])]
+[this issue(Issue[7])] was assigned to [Lucio(Developer[6])]
+[Lucio(Developer[6])] resolved [the xml extractor exception enhancement(Issue[7])]
+[memory leak bug] is a new [proposal] for [chatbot project(Project[1])] that [Lucio(Developer[6])] just created
+[chatbot project(Project[1])] is not assigned to [he(Developer[6])]
+[Lucio(Developer[6])] is assigned to [chatbot project(Project[1])] also
+[chatbot project(Project[1])] is in the [maintenance] stage
+[chatbot project(Project[1])] has moved to the [development] stage
+Who created [the changelong needs to be added task(Issue[5])]?	'Andrew(Developer[7])'	['question_type_local']
+[Lucy(Developer[1])] is assigned to [chatbot project(Project[1])]
+Who was [the parse example terribly slow enhancement(Issue[6])] assigned to?	'Angelita(Tester[3])'	['question_type_local']
+[mobile project(Project[3])] is assigned to [Lucy(Developer[1])] also
+[knowledge base project(Project[2])] is assigned to [Lucy(Developer[1])] also
+[parsing with parantheses fails] is a new [proposal] for [mobile project(Project[3])] that [she(Developer[1])] just created
+[the proposal(Issue[9])] was assigned to [Racquel(Developer[5])]
+[Racquel(Developer[5])] resolved [the parsing with parantheses fails issue(Issue[9])]
+[mobile project(Project[3])] is not assigned to [she(Developer[5])]
+[Andrew(Developer[7])] is assigned to [chatbot project(Project[1])] also
+[knowledge base project(Project[2])] is assigned to [this person(Developer[7])] also
+[Britney(Tester[2])] created a new issue for [knowledge base project(Project[2])]: [minified version fails]
+Are there any issues assigned to [Britney(Tester[2])] that are not resolved?	'fails with apache stack(Issue[3])'	['question_type_local']
+[that issue(Issue[10])] is assigned to [Loyd(Developer[4])]
+[this developer(Developer[4])] resolved [the minified version fails issue(Issue[10])]
+[the changelong needs to be added task(Issue[5])] was assigned to [Lucio(Developer[6])]
+[he(Developer[6])] resolved [the changelong needs to be added task(Issue[5])]
+[the memory leak bug proposal(Issue[8])] was assigned to [Britney(Tester[2])]
+[this tester(Tester[2])] resolved [the memory leak bug proposal(Issue[8])]
+[knowledge base project(Project[2])] is not assigned to [this test engineer(Tester[2])]
+[that project(Project[2])] is assigned to [she(Tester[2])] also
+[mobile project(Project[3])] is assigned to [Racquel(Developer[5])]
+[this developer(Developer[5])] is assigned to [knowledge base project(Project[2])] also
+[that person(Developer[5])] is working on [chatbot project(Project[1])] also
+Who created [the saving data throws exception issue(Issue[1])]?	'Britney(Tester[2])'	['question_type_local']
+[it(Project[1])] is now in the [implementation] stage
+[Britney(Tester[2])] resolved [the fails with apache stack proposal(Issue[3])]
+[chatbot project(Project[1])] is now in the [development] stage
+[that project(Project[1])] is in the stage of [implementation]
+Who is [the wrong pos tag on consecutive words issue(Issue[2])] assigned to?	'Britney(Tester[2])'	['question_type_local']
+[mobile project(Project[3])] is not assigned to [Angelita(Tester[3])]
+[mobile project(Project[3])] has moved to the [maintenance] stage
+[that project(Project[3])] has moved to the [implementation] stage
+[Angelita(Tester[3])] is working on [mobile project(Project[3])] also
+[that person(Tester[3])] is not working on [chatbot project(Project[1])] anymore
+[this person(Tester[3])] is working on [it(Project[1])] also
+[that project(Project[1])] is in the stage of [maintenance]
+[this project(Project[1])] is now in the [implementation] stage
+[it(Project[1])] is in the [maintenance] stage
+[chatbot project(Project[1])] has moved to the [development] stage
+[it(Project[1])] is now in the [maintenance] stage
+Who is [the saving data throws exception task(Issue[1])] assigned to?	'Angelita(Tester[3])'	['question_type_local']
+[that project(Project[1])] is not assigned to [Lucy(Developer[1])]
+[this project(Project[1])] is assigned to [she(Developer[1])] also
+[that project(Project[1])] is now in the [implementation] stage
+[this project(Project[1])] has moved to the [maintenance] stage

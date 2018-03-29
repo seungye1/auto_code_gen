@@ -1,0 +1,106 @@
+there is a new [external] [chatbot(Project[1])] [project]
+[chatbot project(Project[1])] is in the [implementation] stage
+[Gabrielle(Tester[1])] is a [tester]
+[Casey(Developer[2])] is a [developer]
+[Gabrielle(Tester[1])] is assigned to [chatbot project(Project[1])]
+[Casey(Developer[2])] is assigned to [that project(Project[1])]
+[that developer(Developer[2])] is no longer assigned to [this project(Project[1])]
+[Tawnya(Developer[3])] is a [developer]
+[Tawnya(Developer[3])] is working on [this project(Project[1])]
+[Francoise(Developer[4])] is a [developer]
+[this project(Project[1])] is in the [evaluation] stage
+[this person(Developer[4])] is assigned to [this project(Project[1])]
+[parsing with parantheses fails] is a new [proposal] for [that project(Project[1])] that [Tawnya(Developer[3])] just created
+[the parsing with parantheses fails issue(Issue[1])] was assigned to [Gabrielle(Tester[1])]
+[Gabrielle(Tester[1])] resolved [the issue(Issue[1])]
+[chatbot project(Project[1])] is assigned to [Casey(Developer[2])]
+[Vivienne(Tester[5])] is a [tester] on [that project(Project[1])]
+There is a new [bug] for the [this project(Project[1])]: [wrong pos tag on consecutive words]
+[the issue(Issue[2])] was assigned to [Casey(Developer[2])]
+[Casey(Developer[2])] resolved [the wrong pos tag on consecutive words bug(Issue[2])]
+there is a new [knowledge base(Project[2])] [project]
+[Francoise(Developer[4])] is working on [it(Project[2])] also
+[this project(Project[2])] is a [external] project
+[this project(Project[2])] is in the stage of [design]
+[Danita(Developer[6])] is a [developer] on [chatbot project(Project[1])]
+[chatbot project(Project[1])] is in the [implementation] stage
+Who is [the parsing with parantheses fails proposal(Issue[1])] assigned to?	'Gabrielle(Tester[1])'	['question_type_local']
+[that person(Developer[6])] is assigned to [knowledge base project(Project[2])] also
+[Casey(Developer[2])] created a new issue for [chatbot project(Project[1])]: [initialization broken]
+[the issue(Issue[3])] was assigned to [Gabrielle(Tester[1])]
+[she(Tester[1])] resolved [it(Issue[3])]
+[Gabrielle(Tester[1])] is working on [knowledge base project(Project[2])] also
+there is a new [mobile(Project[3])] [project]
+[mobile project(Project[3])] is assigned to [Danita(Developer[6])] also
+[mobile project(Project[3])] is a [experimental] project
+[this project(Project[3])] is currently in the [implementation] stage
+[it(Project[3])] is in the stage of [evaluation]
+[Will(Developer[7])] is a [developer] on [chatbot project(Project[1])]
+[Casey(Developer[2])] created a new issue for [chatbot project(Project[1])]: [null pointer exception during parsing]
+[knowledge base project(Project[2])] is assigned to [Will(Developer[7])] also
+There is a new [bug] for the [chatbot project(Project[1])]: [xml extractor exception]
+[that issue(Issue[5])] is assigned to [Gabrielle(Tester[1])]
+[that person(Tester[1])] resolved [the bug(Issue[5])]
+[Gabrielle(Tester[1])] is working on [mobile project(Project[3])] also
+[it(Project[3])] is in the [implementation] stage
+[minified version fails] is a new [task] submitted by [Will(Developer[7])] for [knowledge base project(Project[2])]
+[the minified version fails issue(Issue[6])] was assigned to [Gabrielle(Tester[1])]
+[this tester(Tester[1])] resolved [that issue(Issue[6])]
+[Francoise(Developer[4])] created a new [bug] for [knowledge base project(Project[2])]: [timeout problem]
+[it(Issue[7])] was assigned to [Danita(Developer[6])]
+[Danita(Developer[6])] resolved [the issue(Issue[7])]
+[Igor(Tester[8])] is a [tester]
+[that test engineer(Tester[8])] is working on [knowledge base project(Project[2])]
+[chatbot project(Project[1])] is assigned to [Igor(Tester[8])] also
+[Kristeen(Developer[9])] is a [developer] on [chatbot project(Project[1])]
+[knowledge base project(Project[2])] is assigned to [Casey(Developer[2])] also
+[this person(Developer[2])] is assigned to [mobile project(Project[3])] also
+What are the issues submitted by [that developer(Developer[2])]?	'initialization broken(Issue[3])', 'null pointer exception during parsing(Issue[4])'	['question_type_local']
+[Francoise(Developer[4])] created a new issue for [knowledge base project(Project[2])]: [parse example terribly slow]
+[the null pointer exception during parsing issue(Issue[4])] was assigned to [Danita(Developer[6])]
+[that person(Developer[6])] resolved [it(Issue[4])]
+[Michael(Developer[10])] is a [developer] on [knowledge base project(Project[2])]
+[he(Developer[10])] is working on [mobile project(Project[3])] also
+Who created [the bug that was last added(Issue[7])]?	'Francoise(Developer[4])'	['question_type_local']
+[Igor(Tester[8])] is assigned to [this project(Project[3])] also
+[chatbot project(Project[1])] is assigned to [Michael(Developer[10])] also
+[it(Project[1])] is in the stage of [design]
+[this project(Project[1])] has moved to the [implementation] stage
+[it(Project[1])] is now in the [design] stage
+Who is [the timeout problem bug(Issue[7])] assigned to?	'Danita(Developer[6])'	['question_type_local']
+[Francoise(Developer[4])] is assigned to [mobile project(Project[3])] also
+[this person(Developer[4])] is no longer assigned to [knowledge base project(Project[2])]
+[that developer(Developer[4])] is working on [that project(Project[2])] also
+[Kristeen(Developer[9])] is working on [knowledge base project(Project[2])] also
+[this person(Developer[9])] is working on [mobile project(Project[3])] also
+[knowledge base project(Project[2])] is not assigned to [Kristeen(Developer[9])]
+[knowledge base project(Project[2])] is assigned to [Kristeen(Developer[9])] also
+[Casey(Developer[2])] is no longer assigned to [mobile project(Project[3])]
+[it(Project[3])] is assigned to [that developer(Developer[2])] also
+[that project(Project[3])] is now in the [evaluation] stage
+[this project(Project[3])] is in the stage of [design]
+[it(Project[3])] is now in the [evaluation] stage
+[mobile project(Project[3])] has moved to the [design] stage
+What are the issues submitted by [Francoise(Developer[4])] that were not resolved?	'parse example terribly slow(Issue[8])'	['question_type_local']
+[that project(Project[3])] is in the [evaluation] stage
+[that project(Project[3])] is in the [design] stage
+[this project(Project[3])] is in the [implementation] stage
+[it(Project[3])] is in the [evaluation] stage
+[Tawnya(Developer[3])] is working on [knowledge base project(Project[2])] also
+[that person(Developer[3])] is assigned to [mobile project(Project[3])] also
+[mobile project(Project[3])] has moved to the [design] stage
+[it(Project[3])] is in the [implementation] stage
+Who created [the timeout problem bug(Issue[7])]?	'Francoise(Developer[4])'	['question_type_local']
+[knowledge base project(Project[2])] is in the stage of [evaluation]
+[knowledge base project(Project[2])] is in the [implementation] stage
+[Will(Developer[7])] is assigned to [mobile project(Project[3])] also
+[he(Developer[7])] is no longer assigned to [chatbot project(Project[1])]
+[Will(Developer[7])] is assigned to [chatbot project(Project[1])] also
+[this project(Project[1])] has moved to the [implementation] stage
+[this project(Project[1])] has moved to the [evaluation] stage
+[that project(Project[1])] is in the [implementation] stage
+[Francoise(Developer[4])] is no longer assigned to [mobile project(Project[3])]
+[mobile project(Project[3])] is assigned to [Francoise(Developer[4])] also
+[he(Developer[4])] is not working on [knowledge base project(Project[2])] anymore
+[that developer(Developer[4])] is working on [knowledge base project(Project[2])] also
+[knowledge base project(Project[2])] is in the [design] stage

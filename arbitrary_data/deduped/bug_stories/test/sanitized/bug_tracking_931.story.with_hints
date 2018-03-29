@@ -1,0 +1,113 @@
+there is a new [chatbot(Project[1])] [project]
+[it(Project[1])] is a [experimental] project
+[this project(Project[1])] is currently in the [development] stage
+[Marisela(Developer[1])] is a [developer]
+[Marisela(Developer[1])] is assigned to [it(Project[1])]
+[she(Developer[1])] is not working on [chatbot project(Project[1])] anymore
+[that developer(Developer[1])] is assigned to [it(Project[1])]
+[chatbot project(Project[1])] is in the stage of [maintenance]
+there is a new [personal] [mobile(Project[2])] [project]
+[mobile project(Project[2])] is in the [maintenance] stage
+[mobile project(Project[2])] is assigned to [Marisela(Developer[1])] also
+there is a new [personal] [knowledge base(Project[3])] [project]
+[knowledge base project(Project[3])] is in the stage of [testing]
+[Lorilee(Tester[2])] is a [tester]
+[that person(Tester[2])] is working on [mobile project(Project[2])]
+[that test engineer(Tester[2])] is working on [chatbot project(Project[1])] also
+[knowledge base project(Project[3])] is assigned to [Lorilee(Tester[2])] also
+[mobile project(Project[2])] is not assigned to [that person(Tester[2])]
+[this test engineer(Tester[2])] is working on [this project(Project[2])] also
+[minified version fails] is a new [proposal] for the [chatbot project(Project[1])]
+[this project(Project[2])] has moved to the [testing] stage
+[Cyndi(Developer[3])] is a [developer]
+[that person(Developer[3])] is working on [it(Project[2])]
+[Cyndi(Developer[3])] is assigned to [chatbot project(Project[1])] also
+[knowledge base project(Project[3])] is assigned to [this person(Developer[3])] also
+[Tawnya(Developer[4])] is a [developer]
+[Peggy(Developer[5])] is a [developer]
+[Tawnya(Developer[4])] is working on [knowledge base project(Project[3])]
+[Willis(Developer[6])] is a [developer] on [chatbot project(Project[1])]
+[it(Project[3])] is assigned to [Marisela(Developer[1])] also
+[it(Project[3])] is now in the [development] stage
+[this project(Project[3])] is in the stage of [maintenance]
+[it(Project[3])] is now in the [testing] stage
+[Peggy(Developer[5])] is working on [knowledge base project(Project[3])]
+[she(Developer[5])] is not working on [it(Project[3])] anymore
+[Peggy(Developer[5])] is assigned to [it(Project[3])]
+[the minified version fails proposal(Issue[1])] was assigned to [Lorilee(Tester[2])]
+[mobile project(Project[2])] is not assigned to [Lorilee(Tester[2])]
+[mobile project(Project[2])] is assigned to [Lorilee(Tester[2])] also
+[chatbot project(Project[1])] is in the stage of [development]
+[Cyndi(Developer[3])] created a new [enhancement] for [mobile project(Project[2])]: [issue in using training data]
+[the issue in using training data enhancement(Issue[2])] was assigned to [Cyndi(Developer[3])]
+[this person(Developer[3])] resolved [the issue in using training data enhancement(Issue[2])]
+[Peggy(Developer[5])] is working on [mobile project(Project[2])] also
+[chatbot project(Project[1])] is assigned to [this person(Developer[5])] also
+[that project(Project[1])] is assigned to [Tawnya(Developer[4])] also
+[mobile project(Project[2])] is assigned to [that developer(Developer[4])] also
+[mobile project(Project[2])] is in the [maintenance] stage
+[it(Project[2])] has moved to the [development] stage
+[it(Project[2])] is now in the [maintenance] stage
+[this project(Project[2])] is in the [testing] stage
+[this project(Project[2])] is now in the [development] stage
+Who is [the minified version fails proposal(Issue[1])] assigned to?	'Lorilee(Tester[2])'	['question_type_local']
+Are there any issues assigned to [Lorilee(Tester[2])] that are not resolved?	'minified version fails(Issue[1])'	['question_type_local']
+[two consecutive dates identified as single date] is a new [proposal] for [chatbot project(Project[1])] that [Willis(Developer[6])] just created
+[this issue(Issue[3])] is assigned to [Tawnya(Developer[4])]
+[that developer(Developer[4])] resolved [the two consecutive dates identified as single date issue(Issue[3])]
+[this person(Developer[4])] created a new issue for [chatbot project(Project[1])]: [xml extractor exception]
+[that issue(Issue[4])] was assigned to [Marisela(Developer[1])]
+[Marisela(Developer[1])] resolved [it(Issue[4])]
+[mobile project(Project[2])] is not assigned to [Marisela(Developer[1])]
+[she(Developer[1])] is assigned to [it(Project[2])] also
+[tokenization not consistent across platforms] is a new [proposal] submitted by [Peggy(Developer[5])] for [it(Project[2])]
+[the tokenization not consistent across platforms issue(Issue[5])] was assigned to [Peggy(Developer[5])]
+[that developer(Developer[5])] resolved [the issue(Issue[5])]
+[Lorilee(Tester[2])] is no longer assigned to [mobile project(Project[2])]
+[this test engineer(Tester[2])] is working on [that project(Project[2])] also
+[that test engineer(Tester[2])] is not working on [knowledge base project(Project[3])] anymore
+[that project(Project[3])] is assigned to [Lorilee(Tester[2])] also
+What are the issues submitted by [Willis(Developer[6])] that were resolved?	'two consecutive dates identified as single date(Issue[3])'	['question_type_local']
+What are the issues assigned to [this person(Tester[2])] that were not resolved?	'minified version fails(Issue[1])'	['question_type_local']
+[knowledge base project(Project[3])] is in the stage of [maintenance]
+[this project(Project[3])] is now in the [testing] stage
+What are the issues assigned to [Tawnya(Developer[4])] that were resolved?	'two consecutive dates identified as single date(Issue[3])'	['question_type_local']
+[Marisela(Developer[1])] created a new [proposal] for [that project(Project[3])]: [memory leak bug]
+[the proposal(Issue[6])] is assigned to [Marisela(Developer[1])]
+[this developer(Developer[1])] resolved [this issue(Issue[6])]
+[mobile project(Project[2])] has moved to the [maintenance] stage
+Who was [the xml extractor exception issue(Issue[4])] assigned to?	'Marisela(Developer[1])'	['question_type_local']
+[svd is slow] is a new [enhancement] submitted by [this developer(Developer[1])] for [it(Project[2])]
+[the issue(Issue[7])] was assigned to [Marisela(Developer[1])]
+[chatbot project(Project[1])] is not assigned to [Marisela(Developer[1])]
+[this developer(Developer[1])] is assigned to [this project(Project[1])] also
+Who is [the two consecutive dates identified as single date proposal(Issue[3])] assigned to?	'Tawnya(Developer[4])'	['question_type_local']
+[knowledge base project(Project[3])] is not assigned to [she(Developer[1])]
+[Marisela(Developer[1])] is assigned to [knowledge base project(Project[3])] also
+[this project(Project[3])] is in the [maintenance] stage
+[Lorilee(Tester[2])] resolved [the minified version fails proposal(Issue[1])]
+[Marisela(Developer[1])] resolved [the svd is slow enhancement(Issue[7])]
+[she(Developer[1])] is not working on [chatbot project(Project[1])] anymore
+[knowledge base project(Project[3])] is not assigned to [Tawnya(Developer[4])]
+[Tawnya(Developer[4])] is assigned to [this project(Project[3])] also
+[mobile project(Project[2])] is now in the [testing] stage
+Are there any issues created by [Marisela(Developer[1])] that are resolved?	'memory leak bug(Issue[6])', 'svd is slow(Issue[7])'	['question_type_local']
+[mobile project(Project[2])] is now in the [development] stage
+[it(Project[2])] is in the stage of [maintenance]
+[Marisela(Developer[1])] is working on [chatbot project(Project[1])] also
+[that project(Project[1])] is in the [maintenance] stage
+[chatbot project(Project[1])] is not assigned to [Marisela(Developer[1])]
+[chatbot project(Project[1])] is assigned to [Marisela(Developer[1])] also
+[mobile project(Project[2])] is in the stage of [testing]
+[chatbot project(Project[1])] is in the [testing] stage
+Were there any issues submitted by [Willis(Developer[6])]?	'two consecutive dates identified as single date(Issue[3])'	['question_type_local']
+[Marisela(Developer[1])] is not working on [mobile project(Project[2])] anymore
+[Marisela(Developer[1])] is working on [that project(Project[2])] also
+Were there any issues submitted by [that person(Developer[1])]?	'memory leak bug(Issue[6])', 'svd is slow(Issue[7])'	['question_type_local']
+[Marisela(Developer[1])] is no longer assigned to [chatbot project(Project[1])]
+[Marisela(Developer[1])] is assigned to [this project(Project[1])] also
+Who created [the enhancement that was last added(Issue[7])]?	'Marisela(Developer[1])'	['question_type_local']
+Who is [the minified version fails proposal(Issue[1])] assigned to?	'Lorilee(Tester[2])'	['question_type_local']
+Who submitted [the issue in using training data enhancement(Issue[2])]?	'Cyndi(Developer[3])'	['question_type_local']
+[Peggy(Developer[5])] is no longer assigned to [mobile project(Project[2])]
+[Peggy(Developer[5])] is assigned to [mobile project(Project[2])] also

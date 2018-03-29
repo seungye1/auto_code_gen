@@ -1,0 +1,162 @@
+[Genevive(Professor[1])] is a [professor]
+[that professor(Professor[1])]'s department is [animal science]
+[this professor(Professor[1])] is in [LS669]
+[Genevive(Professor[1])]'s email is [Genevive@nh.edu]
+there is a [professor] named [Loyd(Professor[2])]
+[he(Professor[2])]'s email is [Loyd@chk.ru]
+[Loyd(Professor[2])] is in [P962]
+the affiliation of [he(Professor[2])] is [math]
+What department is [Genevive(Professor[1])] affiliated with?	'animal science'	['question_type_local']
+What is [this person(Professor[2])]'s email	'Loyd@chk.ru'	['question_type_local']
+What office is [Loyd(Professor[2])] in?	'P962'	['question_type_local']
+What is [that professor(Professor[2])]'s office?	'P962'	['question_type_local']
+create a [professor] named [Emma(Professor[3])]
+the affiliation of [she(Professor[3])] is [electrical engineering]
+[that person(Professor[3])] is in [P962]
+[Emma(Professor[3])]'s email is [Emma@chk.ru]
+What is [that professor(Professor[3])]'s office?	'P962'	['question_type_local']
+I am taking a course called [math(Course[1])]
+[Emma(Professor[3])] teaches [math(Course[1])]
+Who is teaching [this course(Course[1])]?	'Emma(Professor[3])'	['question_type_local']
+[Genevive(Professor[1])]'s department is now [math]
+I am taking a course called [algebra(Course[2])]
+[this professor(Professor[1])] is the instructor for [algebra(Course[2])]
+I am taking a course called [english(Course[3])]
+[Loyd(Professor[2])] is the instructor for [english(Course[3])]
+there is new [english homework 1(Homework[1])] for [english(Course[3])]
+I am taking a [biology(Course[4])] course
+I submitted [that assignment(Homework[1])] on time
+[that assignment(Homework[1])] is [83] points
+[english homework 1(Homework[1])] is about [The Environment]
+[biology project 1(Project[2])] is out for [biology(Course[4])]
+The deadline of [that homework(Homework[1])] is [March 07]
+which assignments are due after [March 06]?	'english homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+[this project(Project[2])] is worth [93] points
+The deadline of [that project(Project[2])] is [March 05]
+I am taking a [us history(Course[5])] course
+[that assignment(Project[2])] is about [hidden markov models]
+which projects are due before [March 06]?	'biology project 1(Project[2])'	['question_type_global', 'question_two_hop_statement']
+[Genevive(Professor[1])]'s department is now [animal science]
+create a [professor] named [Michael(Professor[4])]
+When is [biology project 1(Project[2])] due?	'March 05'	['question_type_local']
+show me the homeworks due on [March 07]	'english homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+[he(Professor[4])] is in [LS669]
+[this professor(Professor[4])]'s department is [animal science]
+which homeworks are due on [March 07]?	'english homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+show me the assignments due on [March 07]	'english homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+[this professor(Professor[4])]'s email is [Michael@gmail.com]
+there is new [biology homework 1(Homework[3])] for [biology(Course[4])]
+[math homework 1(Homework[4])] is released for [math(Course[1])]
+[biology homework 1(Homework[3])] is [99] points
+[biology homework 1(Homework[3])] is on [suffrage movement]
+what homeworks do I have to do for [Emma]?	'math homework 1(Homework[4])'	['question_type_global', 'question_three_hop_statement']
+show me all homeworks i submitted for [Loyd]	'english homework 1(Homework[1])'	['question_type_global', 'question_three_hop_statement']
+create a [professor] named [Rachele(Professor[5])]
+I submitted [that assignment(Homework[3])] and received 99 points
+[that homework(Homework[3])] is due on [March 04]
+which homeworks did I submit for [Loyd]?	'english homework 1(Homework[1])'	['question_type_global', 'question_three_hop_statement']
+[Michael(Professor[4])] is the instructor for [us history(Course[5])]
+[Tereasa(Professor[6])] is a [professor]
+[she(Professor[6])] is in [LS669]
+[that professor(Professor[6])]'s email is [Tereasa@gmail.com]
+[that person(Professor[6])] is affiliated with the [electrical engineering] department
+What is [Genevive(Professor[1])]'s office?	'LS669'	['question_type_local']
+there is new [us history homework 1(Homework[5])] for [us history(Course[5])]
+[that homework(Homework[5])] is [91] points
+I submitted [that homework(Homework[5])] on time and received 91 points
+The deadline of [us history homework 1(Homework[5])] is [March 05]
+Who is the instructor for [us history(Course[5])]?	'Michael(Professor[4])'	['question_type_local']
+which projects are due after [March 02]?	'biology project 1(Project[2])'	['question_type_global', 'question_two_hop_statement']
+The deadline of [that homework(Homework[5])] moved to [March 08]
+What courses is [Genevive(Professor[1])] teaching?	'algebra(Course[2])'	['question_type_local']
+The topic of [that assignment(Homework[5])] is [deep learning]
+What is [Michael(Professor[4])]'s office?	'LS669'	['question_type_local']
+[english(Course[3])] has a new [english homework 2(Homework[6])] released
+[english homework 2(Homework[6])] is due on [March 13]
+[this homework(Homework[6])] is worth [44] points
+there is new [math homework 2(Homework[7])] for [math(Course[1])]
+[english homework 2(Homework[6])] is on [nearest neighbor algorithm]
+[math homework 2(Homework[7])] is due on [March 13]
+[math homework 2(Homework[7])] is worth [39] points
+[math homework 2(Homework[7])] is on [clustering]
+I submitted [this assignment(Homework[7])] late and received 39 points
+what homeworks do I have to do for [Emma]?	'math homework 1(Homework[4])', 'math homework 2(Homework[7])'	['question_type_global', 'question_three_hop_statement']
+list all homeworks for [Michael]	'us history homework 1(Homework[5])'	['question_type_global', 'question_three_hop_statement']
+What is the topic of [biology project 1(Project[2])]?	'hidden markov models'	['question_type_local']
+show me all assignments that i submitted for [Loyd]	'english homework 1(Homework[1])'	['question_type_global', 'question_three_hop_statement']
+what are the assignments that i submitted for [Loyd]	'english homework 1(Homework[1])'	['question_type_global', 'question_three_hop_statement']
+I submitted [biology project 1(Project[2])] on time and received 47 points
+how much did I get on [us history homework 1(Homework[5])]?	91	['question_type_local']
+list homeworks that are due on [March 13]	'english homework 2(Homework[6])', 'math homework 2(Homework[7])'	['question_type_global', 'question_two_hop_statement']
+what are the late homeworks that i submitted for [Emma]	'math homework 2(Homework[7])'	['question_type_global', 'question_three_hop_statement']
+[us history(Course[5])] has a new [us history project 1(Project[8])] released
+[us history project 1(Project[8])] is about [The Senses]
+change [Michael(Professor[4])]'s department to [electrical engineering]
+What office is [Loyd(Professor[2])] in?	'P962'	['question_type_local']
+[that assignment(Project[8])] is worth [44] points
+I submitted [that assignment(Project[8])] on time and received 12 points
+[this project(Project[8])] is due on [March 03]
+which assignments are due on [March 03]?	'us history project 1(Project[8])'	['question_type_global', 'question_two_hop_statement']
+[english project 1(Project[9])] is released for [english(Course[3])]
+[english project 1(Project[9])] is about [expectation maximization]
+[english project 1(Project[9])] is worth [73] points
+I submitted [this assignment(Project[9])] and received 58 points
+What is [Emma(Professor[3])]'s office?	'P962'	['question_type_local']
+The deadline of [that project(Project[9])] is [March 03]
+there is new [english project 2(Project[10])] for [english(Course[3])]
+I submitted [english project 2(Project[10])]
+[that assignment(Project[10])] is due on [March 17]
+[that project(Project[10])] is [71] points
+[english project 2(Project[10])] is about [Evolution]
+[Genevive(Professor[1])]'s department is now [math]
+[english(Course[3])] has a new [english project 3(Project[11])] out
+[that project(Project[11])] is worth [53] points
+list all homeworks for [Michael]	'us history homework 1(Homework[5])'	['question_type_global', 'question_three_hop_statement']
+how much did I get on [english project 1(Project[9])]?	58	['question_type_local']
+which homeworks are due after [March 05]?	'english homework 1(Homework[1])', 'us history homework 1(Homework[5])', 'english homework 2(Homework[6])', 'math homework 2(Homework[7])'	['question_type_global', 'question_two_hop_statement']
+[that project(Project[11])] is due on [March 19]
+what are all the assignments due for [Loyd]?	'english homework 1(Homework[1])', 'english homework 2(Homework[6])', 'english project 1(Project[9])', 'english project 2(Project[10])', 'english project 3(Project[11])'	['question_type_global', 'question_three_hop_statement']
+[math project 1(Project[12])] is released for [math(Course[1])]
+I submitted [english project 3(Project[11])] on time and received 53 points
+[math project 1(Project[12])] is due on [March 02]
+When is [biology homework 1(Homework[3])] due?	'March 04'	['question_type_local']
+there is new [biology project 2(Project[13])] for [biology(Course[4])]
+I submitted [math project 1(Project[12])]
+[biology project 2(Project[13])] is due on [March 11]
+[biology project 2(Project[13])] is [63] points
+show me the projects due on [March 02]	'math project 1(Project[12])'	['question_type_global', 'question_two_hop_statement']
+what are all the projects due for [Loyd]?	'english project 1(Project[9])', 'english project 2(Project[10])', 'english project 3(Project[11])'	['question_type_global', 'question_three_hop_statement']
+I submitted [this assignment(Project[13])] on time and received 63 points
+The deadline of [that project(Project[13])] moved to [March 14]
+how many points is [us history homework 1(Homework[5])]?	91	['question_type_local']
+show me the projects due on [March 02]	'math project 1(Project[12])'	['question_type_global', 'question_two_hop_statement']
+What is the topic of [biology project 1(Project[2])]?	'hidden markov models'	['question_type_local']
+How many points is [math homework 2(Homework[7])] worth?	39	['question_type_local']
+what did I get on [us history homework 1(Homework[5])]?	91	['question_type_local']
+what homeworks do I have to do for [Emma]?	'math homework 1(Homework[4])', 'math homework 2(Homework[7])'	['question_type_global', 'question_three_hop_statement']
+Which department is [Emma(Professor[3])] in?	'electrical engineering'	['question_type_local']
+how many points did I receive on [english project 3(Project[11])]?	53	['question_type_local']
+What courses is [Loyd(Professor[2])] teaching?	'english(Course[3])'	['question_type_local']
+how much did I get on [biology homework 1(Homework[3])]?	99	['question_type_local']
+there is new [english project 4(Project[14])] for [english(Course[3])]
+How much is [biology project 2(Project[13])] worth?	63	['question_type_local']
+what are all the projects due for [Loyd]?	'english project 1(Project[9])', 'english project 2(Project[10])', 'english project 3(Project[11])', 'english project 4(Project[14])'	['question_type_global', 'question_three_hop_statement']
+How many points is [english project 3(Project[11])] worth?	53	['question_type_local']
+which homeworks are due after [March 09]?	'english homework 2(Homework[6])', 'math homework 2(Homework[7])'	['question_type_global', 'question_two_hop_statement']
+[us history(Course[5])] has a new [us history homework 2(Homework[15])] released
+[us history homework 2(Homework[15])] is due on [March 11]
+I submitted [this assignment(Homework[15])]
+[that homework(Homework[15])] is [69] points
+How many points did I get on [english project 3(Project[11])]	53	['question_type_local']
+When is [english homework 1(Homework[1])] due?	'March 07'	['question_type_local']
+list assignments that are due on [March 04]	'biology homework 1(Homework[3])'	['question_type_global', 'question_two_hop_statement']
+which homeworks did I submit for [Michael]?	'us history homework 1(Homework[5])', 'us history homework 2(Homework[15])'	['question_type_global', 'question_three_hop_statement']
+[algebra(Course[2])] has a new [algebra project 1(Project[16])] released
+list assignments that are due on [March 17]	'english project 2(Project[10])'	['question_type_global', 'question_two_hop_statement']
+The deadline of [that project(Project[16])] is [March 06]
+How many points did I get on [us history homework 1(Homework[5])]	91	['question_type_local']
+what projects did i submit for [Michael]?	'us history project 1(Project[8])'	['question_type_global', 'question_three_hop_statement']
+[biology(Course[4])] has a new [biology project 3(Project[17])] out
+I submitted [algebra project 1(Project[16])] on time
+When is the deadline of [us history homework 1(Homework[5])]?	'March 08'	['question_type_local']
+which homeworks did I submit late for [Emma]?	'math homework 2(Homework[7])'	['question_type_global', 'question_three_hop_statement']

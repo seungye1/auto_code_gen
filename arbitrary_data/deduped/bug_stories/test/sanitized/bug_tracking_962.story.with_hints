@@ -1,0 +1,108 @@
+there is a new [early stage] [mobile(Project[1])] [project]
+[mobile project(Project[1])] is currently in the [deployment] stage
+[Andy(Developer[1])] is a [developer]
+[it(Project[1])] is assigned to [this developer(Developer[1])]
+[this developer(Developer[1])] created a new issue for [mobile project(Project[1])]: [memory leak bug]
+[this issue(Issue[1])] is assigned to [Andy(Developer[1])]
+[he(Developer[1])] resolved [that issue(Issue[1])]
+Who is [the issue(Issue[1])] assigned to?	'Andy(Developer[1])'	['question_type_local']
+[Luanna(Tester[2])] is a [tester]
+[Luanna(Tester[2])] is assigned to [mobile project(Project[1])]
+there is a new [chatbot(Project[2])] [project]
+[chatbot project(Project[2])] is in the stage of [implementation]
+[it(Project[2])] is a [early stage] project
+[Yoshiko(Developer[3])] is a [developer] on [mobile project(Project[1])]
+[Emma(Tester[4])] is a [tester] on [mobile project(Project[1])]
+[chatbot project(Project[2])] is assigned to [that developer(Developer[3])] also
+[Andy(Developer[1])] is no longer assigned to [mobile project(Project[1])]
+[that person(Developer[1])] is assigned to [mobile project(Project[1])]
+[Lucy(Developer[5])] is a [developer] on [it(Project[1])]
+[chatbot project(Project[2])] is assigned to [this person(Developer[5])] also
+there is a new [knowledge base(Project[3])] [project]
+[knowledge base project(Project[3])] is a [early stage] project
+[knowledge base project(Project[3])] is in the stage of [maintenance]
+[Vivienne(Developer[6])] is a [developer] on [knowledge base project(Project[3])]
+[this developer(Developer[6])] is assigned to [chatbot project(Project[2])] also
+[that project(Project[2])] is assigned to [Andy(Developer[1])] also
+[Andy(Developer[1])] is working on [knowledge base project(Project[3])] also
+[Emma(Tester[4])] created a new issue for [mobile project(Project[1])]: [issue in using training data]
+What are the issues submitted by [Emma(Tester[4])] that were not resolved?	'issue in using training data(Issue[2])'	['question_type_local']
+[Vivienne(Developer[6])] created a new issue for [chatbot project(Project[2])]: [initialization broken]
+[the initialization broken issue(Issue[3])] was assigned to [Yoshiko(Developer[3])]
+[this developer(Developer[3])] resolved [that issue(Issue[3])]
+Who was [this issue(Issue[3])] assigned to?	'Yoshiko(Developer[3])'	['question_type_local']
+[Yoshiko(Developer[3])] is working on [knowledge base project(Project[3])] also
+[xml extractor exception] is a new [task] created by [this person(Developer[3])] for [chatbot project(Project[2])]
+What are the issues submitted by [Andy(Developer[1])] that were resolved?	'memory leak bug(Issue[1])'	['question_type_local']
+[changelong needs to be added] is a new issue for the [mobile project(Project[1])]
+[the changelong needs to be added issue(Issue[5])] was assigned to [Yoshiko(Developer[3])]
+[chatbot project(Project[2])] is now in the [deployment] stage
+[Luanna(Tester[2])] created a new issue for [mobile project(Project[1])]: [fails with apache stack]
+[that issue(Issue[6])] is assigned to [Andy(Developer[1])]
+[he(Developer[1])] resolved [this issue(Issue[6])]
+[mobile project(Project[1])] is not assigned to [Andy(Developer[1])]
+[that person(Developer[1])] is working on [that project(Project[1])] also
+[parsing with parantheses fails] is a new [enhancement] submitted by [Vivienne(Developer[6])] for [knowledge base project(Project[3])]
+[this issue(Issue[7])] was assigned to [Andy(Developer[1])]
+[he(Developer[1])] resolved [it(Issue[7])]
+[Andy(Developer[1])] is not working on [chatbot project(Project[2])] anymore
+[that project(Project[2])] is assigned to [he(Developer[1])] also
+[Lucy(Developer[5])] is assigned to [knowledge base project(Project[3])] also
+[mobile project(Project[1])] is assigned to [Vivienne(Developer[6])] also
+[that project(Project[1])] is now in the [implementation] stage
+[that project(Project[1])] is in the stage of [design]
+[it(Project[1])] has moved to the [deployment] stage
+[it(Project[1])] is in the [maintenance] stage
+[the xml extractor exception issue(Issue[4])] is assigned to [Vivienne(Developer[6])]
+[this person(Developer[6])] resolved [it(Issue[4])]
+[chatbot project(Project[2])] is in the stage of [maintenance]
+[she(Developer[6])] is not working on [this project(Project[2])] anymore
+[that person(Developer[6])] is no longer assigned to [mobile project(Project[1])]
+[it(Project[1])] is assigned to [this person(Developer[6])] also
+[that developer(Developer[6])] is assigned to [chatbot project(Project[2])] also
+Are there any issues assigned to [Yoshiko(Developer[3])] that are not resolved?	'changelong needs to be added(Issue[5])'	['question_type_local']
+[chatbot project(Project[2])] is in the [design] stage
+Who was [the enhancement(Issue[7])] assigned to?	'Andy(Developer[1])'	['question_type_local']
+[chatbot project(Project[2])] has moved to the [implementation] stage
+[that project(Project[2])] is in the stage of [design]
+[it(Project[2])] has moved to the [implementation] stage
+[Luanna(Tester[2])] is assigned to [knowledge base project(Project[3])] also
+[this project(Project[3])] is in the stage of [design]
+[knowledge base project(Project[3])] has moved to the [deployment] stage
+[this project(Project[3])] has moved to the [maintenance] stage
+[that project(Project[3])] is in the [design] stage
+[this project(Project[3])] is now in the [maintenance] stage
+[Yoshiko(Developer[3])] is not working on [mobile project(Project[1])] anymore
+[Vivienne(Developer[6])] is not working on [chatbot project(Project[2])] anymore
+[this person(Developer[6])] is assigned to [it(Project[2])] also
+[Vivienne(Developer[6])] is no longer assigned to [chatbot project(Project[2])]
+[Vivienne(Developer[6])] is assigned to [chatbot project(Project[2])] also
+[chatbot project(Project[2])] is in the [deployment] stage
+[it(Project[2])] is in the [maintenance] stage
+[this project(Project[2])] is in the stage of [deployment]
+Who is [the xml extractor exception task(Issue[4])] assigned to?	'Vivienne(Developer[6])'	['question_type_local']
+Who was [the xml extractor exception task(Issue[4])] assigned to?	'Vivienne(Developer[6])'	['question_type_local']
+[knowledge base project(Project[3])] is not assigned to [Vivienne(Developer[6])]
+[she(Developer[6])] is working on [knowledge base project(Project[3])] also
+[Yoshiko(Developer[3])] is assigned to [mobile project(Project[1])] also
+[the issue in using training data issue(Issue[2])] was assigned to [Andy(Developer[1])]
+[Andy(Developer[1])] resolved [that issue(Issue[2])]
+[chatbot project(Project[2])] is now in the [maintenance] stage
+[knowledge base project(Project[3])] is not assigned to [Andy(Developer[1])]
+[that developer(Developer[1])] is assigned to [this project(Project[3])] also
+[mobile project(Project[1])] is now in the [implementation] stage
+[knowledge base project(Project[3])] is in the [implementation] stage
+[Vivienne(Developer[6])] is not working on [knowledge base project(Project[3])] anymore
+[Vivienne(Developer[6])] is working on [knowledge base project(Project[3])] also
+[Yoshiko(Developer[3])] resolved [the changelong needs to be added issue(Issue[5])]
+[Vivienne(Developer[6])] is no longer assigned to [knowledge base project(Project[3])]
+[that person(Developer[6])] is working on [knowledge base project(Project[3])] also
+[this developer(Developer[6])] is not working on [knowledge base project(Project[3])] anymore
+[knowledge base project(Project[3])] is assigned to [that person(Developer[6])] also
+[mobile project(Project[1])] is not assigned to [she(Developer[6])]
+[this person(Developer[6])] is working on [mobile project(Project[1])] also
+[that person(Developer[6])] is no longer assigned to [mobile project(Project[1])]
+[that project(Project[1])] is assigned to [that developer(Developer[6])] also
+[this project(Project[1])] is not assigned to [Vivienne(Developer[6])]
+[she(Developer[6])] is assigned to [that project(Project[1])] also
+[Luanna(Tester[2])] is assigned to [chatbot project(Project[2])] also

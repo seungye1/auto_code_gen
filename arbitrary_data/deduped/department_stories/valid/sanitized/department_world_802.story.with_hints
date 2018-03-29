@@ -1,0 +1,145 @@
+there is a masters student named [Francoise(MastersStudent[1])]
+there is a masters student named [Andy(MastersStudent[2])]
+[Kristeen(Professor[3])] is a [professor]
+[this professor(Professor[3])] is on sabbatical
+Create a new [undergraduate] level 2 unit course called [G310(Course[1])]
+the affiliation of [that professor(Professor[3])] is [animal science]
+[that professor(Professor[3])]'s research interest is [theoretical cosmology]
+[Andy(MastersStudent[2])] and [Francoise(MastersStudent[1])] are TAs for [G310(Course[1])]
+[Andy(MastersStudent[2])] is a student in [G310(Course[1])]
+[John(Professor[4])] is a [professor]
+there is a new masters student named [Isaiah(MastersStudent[5])]
+[John(Professor[4])] research interest is in [cold fusion]
+[John(Professor[4])] is affiliated with the [animal science] department
+What are the courses TAed by [Andy(MastersStudent[2])]?	'G310(Course[1])'	['question_type_local']
+There is a course called [U103(Course[2])]
+[that professor(Professor[4])] is now on sabbatical
+[John(Professor[4])] is an [assistant] professor
+Who is TAing [G310(Course[1])]?	'Francoise(MastersStudent[1])', 'Andy(MastersStudent[2])'	['question_type_local']
+Which professors are conducting research in [theoretical cosmology]	'Kristeen(Professor[3])'	['question_type_global', 'question_single_statement']
+there is a masters student named [Genevive(MastersStudent[6])]
+there is a new PhD student named [Bob(PhdStudent[7])]
+[Kristeen(Professor[3])] is on [he(PhdStudent[7])]'s committee
+[this student(PhdStudent[7])] successfully defended their thesis
+Create a new [undergraduate] level [mini course] called [U303(Course[3])]
+[this person(PhdStudent[7])] has passed the thesis proposal exam
+there is a [sixth year] PhD student named [Rey(PhdStudent[8])]
+[Bob(PhdStudent[7])] passed the qualifiers
+there is a [sixth year] PhD student named [Igor(PhdStudent[9])]
+[Bob(PhdStudent[7])] is in their [sixth year]
+there is a PhD student named [Eun(PhdStudent[10])]
+[she(PhdStudent[10])] passed thesis proposal
+[Eun(PhdStudent[10])] failed the qualifiers
+[Eun(PhdStudent[10])] is current in [third year]
+[Eun(PhdStudent[10])] passed the qualifiers
+there is a [assistant] [professor] named [Roslyn(Professor[11])]
+[that professor(Professor[11])]'s research interest is [conservation biology]
+[Lorilee(Professor[12])] is a [associate] [professor]
+[Roslyn(Professor[11])]'s department is [physics]
+there is a new masters student named [Ashly(MastersStudent[13])]
+[Eun(PhdStudent[10])] is [that professor(Professor[11])]'s student
+[Lorilee(Professor[12])] is now on sabbatical
+[that professor(Professor[12])] is on [Bob(PhdStudent[7])]'s committee
+What is [John(Professor[4])]'s department?	'animal science'	['question_type_local']
+there is a masters student named [Tom(MastersStudent[14])]
+[that professor(Professor[12])]'s research interest is [cold fusion]
+[that professor(Professor[12])] is affiliated with the [animal science] department
+[Lorilee(Professor[12])] has funding
+There is a [masters] [full_semester_course] called [G7000(Course[4])]
+[Roslyn(Professor[11])] is on [Bob(PhdStudent[7])]'s committee
+[Igor(PhdStudent[9])] is [Roslyn(Professor[11])]'s student
+[John(Professor[4])] and [Kristeen(Professor[3])] are on [Eun(PhdStudent[10])]'s committee
+[Bob(PhdStudent[7])] is [Kristeen(Professor[3])]'s student
+Who does [Kristeen(Professor[3])] advise?	'Bob(PhdStudent[7])'	['question_type_local']
+[Tom(MastersStudent[14])] and [Igor(PhdStudent[9])] are TAing [G7000(Course[4])]
+[John(Professor[4])] currently has funding
+[John(Professor[4])] is back from the sabbatical
+There is a [undergraduate] level 12 unit course called [U101(Course[5])]
+What is [Kristeen(Professor[3])] working on?	'theoretical cosmology'	['question_type_local']
+What is [Roslyn(Professor[11])]'s research focus?	'conservation biology'	['question_type_local']
+[Rey(PhdStudent[8])] is [Roslyn(Professor[11])]'s student
+Create a new course called [U104(Course[6])]
+[that class(Course[6])] will be a full semester course
+[Eun(PhdStudent[10])] is a TA for [that course(Course[6])]
+[that student(PhdStudent[10])] successfully defended their thesis
+Who is [that person(PhdStudent[10])]'s advisor?	'Roslyn'	['question_type_local']
+[this student(PhdStudent[10])] is in [fourth year]
+What courses is [Eun(PhdStudent[10])] TAing?	'U104(Course[6])'	['question_type_local']
+Which professors are conducting research in [theoretical cosmology]	'Kristeen(Professor[3])'	['question_type_global', 'question_single_statement']
+Which [fourth year] students are advised by professors working on [conservation biology]?	'Eun(PhdStudent[10])'	['question_type_global', 'question_three_hop_statement']
+What courses is [Igor(PhdStudent[9])] TAing?	'G7000(Course[4])'	['question_type_local']
+[Eun(PhdStudent[10])] is now a [fifth year] student
+[that person(PhdStudent[10])] has [Lorilee(Professor[12])] on the committee
+Which masters courses have phd student TAs?	'G7000(Course[4])'	['question_type_global', 'question_three_hop_statement']
+There is a course called [G204(Course[7])]
+[that class(Course[7])] is taught by [John(Professor[4])]
+[this course(Course[7])] will be a full semester course
+What [assistant] professors advise students who passed their thesis qualifiers?	'Roslyn(Professor[11])'	['question_type_global', 'question_three_hop_statement']
+Create a new course called [G304(Course[8])]
+[G304(Course[8])] has 4 units
+What 12 unit courses are taught by professors in the [animal science] department?	'G204(Course[7])'	['question_type_global', 'question_three_hop_statement']
+The TA for [this course(Course[8])] is [Genevive(MastersStudent[6])]
+Who advises [Bob(PhdStudent[7])]?	'Kristeen'	['question_type_local']
+What [assistant] professors advise students who passed their thesis qualifiers?	'Roslyn(Professor[11])'	['question_type_global', 'question_three_hop_statement']
+Which [assistant] professors advise students who passed their defense?	'Roslyn(Professor[11])'	['question_type_global', 'question_three_hop_statement']
+Which courses are TAed by [Francoise(MastersStudent[1])]?	'G310(Course[1])'	['question_type_local']
+[Kristeen(Professor[3])] is an [assistant] professor
+Which [sixth year] students's advisors are conducting research in [theoretical cosmology]	'Bob(PhdStudent[7])'	['question_type_global', 'question_three_hop_statement']
+What are the courses TAed by [Francoise(MastersStudent[1])]?	'G310(Course[1])'	['question_type_local']
+Which [sixth year] students are advised by professors working on [conservation biology]?	'Rey(PhdStudent[8])', 'Igor(PhdStudent[9])'	['question_type_global', 'question_three_hop_statement']
+What courses are taught by professors in the [animal science] department?	'G204(Course[7])'	['question_type_global', 'question_two_hop_statement']
+[Francoise(MastersStudent[1])] is taking [U103(Course[2])]
+[this course(Course[2])] is a [phd] course
+[U103(Course[2])] has 8 units
+The TA for [this course(Course[2])] is [Isaiah(MastersStudent[5])]
+[Rey(PhdStudent[8])] and [Bob(PhdStudent[7])] are TAs for [U104(Course[6])]
+What courses is [Igor(PhdStudent[9])] TAing?	'G7000(Course[4])'	['question_type_local']
+[Bob(PhdStudent[7])] has [John(Professor[4])] on the committee
+Who is TAing [G310(Course[1])]?	'Francoise(MastersStudent[1])', 'Andy(MastersStudent[2])'	['question_type_local']
+There is a [undergraduate] level course called [G305(Course[9])]
+What are the courses TAed by [Francoise(MastersStudent[1])]?	'G310(Course[1])'	['question_type_local']
+Which [sixth year] students are advised by professors working on [theoretical cosmology]?	'Bob(PhdStudent[7])'	['question_type_global', 'question_three_hop_statement']
+[Kristeen(Professor[3])] is not on sabbatical anymore
+[Genevive(MastersStudent[6])] and [Isaiah(MastersStudent[5])] are both enrolled in [that course(Course[9])]
+[G305(Course[9])] has 12 units
+Who is currently TAing [U103(Course[2])]?	'Isaiah(MastersStudent[5])'	['question_type_local']
+What [phd] courses are taught by professors in the [animal science] department?	'G204(Course[7])'	['question_type_global', 'question_three_hop_statement']
+[Ashly(MastersStudent[13])] is TAing [G305(Course[9])]
+What are the courses TAed by [Andy(MastersStudent[2])]?	'G310(Course[1])'	['question_type_local']
+Which courses are TAed by [Isaiah(MastersStudent[5])]?	'U103(Course[2])'	['question_type_local']
+[Eun(PhdStudent[10])] is enrolled in [G305(Course[9])]
+[that course(Course[9])] will be a mini course
+[Francoise(MastersStudent[1])] and [Andy(MastersStudent[2])] are both taking [G305(Course[9])]
+What are the courses TAed by [Francoise(MastersStudent[1])]?	'G310(Course[1])'	['question_type_local']
+Which courses are TAed by [Isaiah(MastersStudent[5])]?	'U103(Course[2])'	['question_type_local']
+What courses are taught by those in the [animal science] department?	'G204(Course[7])'	['question_type_global', 'question_two_hop_statement']
+What courses is [Eun(PhdStudent[10])] TAing?	'U104(Course[6])'	['question_type_local']
+Which courses are TAed by [Genevive(MastersStudent[6])]?	'G304(Course[8])'	['question_type_local']
+[Igor(PhdStudent[9])] passed thesis defense
+Which courses are TAed by [Tom(MastersStudent[14])]?	'G7000(Course[4])'	['question_type_local']
+[Igor(PhdStudent[9])] did not pass the qualifiers
+[this student(PhdStudent[9])] has passed the thesis proposal exam
+[that person(PhdStudent[9])] passed the qualifiers
+What students are taking U103	'Francoise(MastersStudent[1])'	['question_type_global', 'question_single_statement']
+Which courses are TAed by [Isaiah(MastersStudent[5])]?	'U103(Course[2])'	['question_type_local']
+[Kristeen(Professor[3])] is the instructor for [U101(Course[5])]
+[that course(Course[5])] is a full semester course
+[Lorilee(Professor[12])] teaches [G305(Course[9])]
+[Tom(MastersStudent[14])] is taking [that course(Course[9])]
+What courses is [that person(MastersStudent[14])] TAing?	'G7000(Course[4])'	['question_type_local']
+[Bob(PhdStudent[7])] is a student in [U104(Course[6])]
+[that course(Course[6])] is a [undergraduate] level course
+There is a course called [G103(Course[10])]
+[Roslyn(Professor[11])] is the instructor for [G103(Course[10])]
+[G103(Course[10])] is a full semester course
+[G103(Course[10])] will be a 2 unit course
+[Rey(PhdStudent[8])] and [Ashly(MastersStudent[13])] are both taking [G103(Course[10])]
+Who is teaching [G103(Course[10])]?	'Roslyn(Professor[11])'	['question_type_local']
+[he(PhdStudent[8])] has passed the qualifying exam
+[he(PhdStudent[8])] passed thesis defense
+Who is currently TAing [U103(Course[2])]?	'Isaiah(MastersStudent[5])'	['question_type_local']
+[that person(PhdStudent[8])] failed thesis proposal
+Which phd students does [Kristeen(Professor[3])] advise?	'Bob(PhdStudent[7])'	['question_type_local']
+What [mini course] are taught by professors in the [physics] department?	'G103(Course[10])'	['question_type_global', 'question_three_hop_statement']
+[John(Professor[4])] and [Kristeen(Professor[3])] are on [he(PhdStudent[8])]'s committee
+Which courses did [Rey(PhdStudent[8])] enroll in?	'G103(Course[10])'	['question_type_local']

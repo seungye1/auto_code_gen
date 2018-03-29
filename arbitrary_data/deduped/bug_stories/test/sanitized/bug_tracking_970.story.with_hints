@@ -1,0 +1,108 @@
+there is a new [knowledge base(Project[1])] [project]
+[knowledge base project(Project[1])] is a [corporate] project
+[this project(Project[1])] is in the stage of [evaluation]
+[Kristeen(Developer[1])] is a [developer]
+There is a new issue for the [this project(Project[1])]: [xml extractor exception]
+[Kristeen(Developer[1])] is assigned to [knowledge base project(Project[1])]
+[this project(Project[1])] is not assigned to [this person(Developer[1])]
+[she(Developer[1])] is assigned to [this project(Project[1])]
+There is a new issue for the [it(Project[1])]: [dcoref always returns null]
+[the xml extractor exception issue(Issue[1])] is assigned to [Kristeen(Developer[1])]
+[that developer(Developer[1])] resolved [the issue(Issue[1])]
+[parse example terribly slow] is a new [enhancement] for [knowledge base project(Project[1])] that [Kristeen(Developer[1])] just created
+[Rachele(Developer[2])] is a [developer] on [knowledge base project(Project[1])]
+[knowledge base project(Project[1])] is in the [development] stage
+[Igor(Tester[3])] is a [tester] on [knowledge base project(Project[1])]
+[Britney(Developer[4])] is a [developer] on [that project(Project[1])]
+[knowledge base project(Project[1])] is not assigned to [Britney(Developer[4])]
+[it(Project[1])] is assigned to [that developer(Developer[4])]
+[Will(Developer[5])] is a [developer]
+[this developer(Developer[5])] is assigned to [it(Project[1])]
+[fails with apache stack] is a new [task] for [knowledge base project(Project[1])] that [Rachele(Developer[2])] just created
+[that issue(Issue[4])] is assigned to [Kristeen(Developer[1])]
+[two consecutive dates identified as single date] is a new issue for the [knowledge base project(Project[1])]
+[the issue(Issue[5])] was assigned to [Britney(Developer[4])]
+[that person(Developer[4])] resolved [the issue(Issue[5])]
+[that person(Developer[4])] is no longer assigned to [knowledge base project(Project[1])]
+[Britney(Developer[4])] is working on [this project(Project[1])]
+[this project(Project[1])] is now in the [testing] stage
+[Rachele(Developer[2])] created a new [bug] for [that project(Project[1])]: [saving data throws exception]
+[the issue(Issue[6])] was assigned to [Britney(Developer[4])]
+there is a new [mobile(Project[2])] [project]
+[Britney(Developer[4])] is no longer assigned to [knowledge base project(Project[1])]
+there is a new [chatbot(Project[3])] [project]
+[knowledge base project(Project[1])] has moved to the [design] stage
+There is a new [proposal] for the [mobile project(Project[2])]: [changelong needs to be added]
+[the dcoref always returns null issue(Issue[2])] was assigned to [Kristeen(Developer[1])]
+[that developer(Developer[1])] resolved [that issue(Issue[2])]
+[mobile project(Project[2])] is assigned to [that person(Developer[1])] also
+[mobile project(Project[2])] is in the [testing] stage
+[it(Project[2])] is a [personal] project
+[chatbot project(Project[3])] is assigned to [Kristeen(Developer[1])] also
+[this project(Project[3])] is a [corporate] project
+[that project(Project[3])] is in the [design] stage
+[tokenization not consistent across platforms] is a new [proposal] for [mobile project(Project[2])] that [Kristeen(Developer[1])] just created
+[this issue(Issue[8])] is assigned to [Kristeen(Developer[1])]
+[that developer(Developer[1])] resolved [this issue(Issue[8])]
+[this developer(Developer[1])] is not working on [mobile project(Project[2])] anymore
+[knowledge base project(Project[1])] is assigned to [Britney(Developer[4])]
+[Britney(Developer[4])] is working on [mobile project(Project[2])] also
+[Britney(Developer[4])] is working on [chatbot project(Project[3])] also
+[this developer(Developer[4])] is not working on [knowledge base project(Project[1])] anymore
+[Britney(Developer[4])] is assigned to [this project(Project[1])] also
+[it(Project[1])] has moved to the [testing] stage
+[mobile project(Project[2])] is assigned to [Kristeen(Developer[1])] also
+[Kristeen(Developer[1])] resolved [the task(Issue[4])]
+[chatbot project(Project[3])] is assigned to [Will(Developer[5])] also
+[this developer(Developer[5])] is working on [mobile project(Project[2])] also
+[Britney(Developer[4])] resolved [the saving data throws exception bug(Issue[6])]
+[knowledge base project(Project[1])] is not assigned to [Will(Developer[5])]
+[Rachele(Developer[2])] is working on [chatbot project(Project[3])] also
+[this person(Developer[2])] is assigned to [mobile project(Project[2])] also
+[Kristeen(Developer[1])] is no longer assigned to [knowledge base project(Project[1])]
+[that project(Project[1])] is assigned to [she(Developer[1])] also
+[knowledge base project(Project[1])] is now in the [evaluation] stage
+[the enhancement(Issue[3])] was assigned to [Rachele(Developer[2])]
+[that developer(Developer[2])] resolved [the issue(Issue[3])]
+Who submitted [the saving data throws exception bug(Issue[6])]?	'Rachele(Developer[2])'	['question_type_local']
+Who is [the issue(Issue[3])] assigned to?	'Rachele(Developer[2])'	['question_type_local']
+Who created [the saving data throws exception bug(Issue[6])]?	'Rachele(Developer[2])'	['question_type_local']
+[Will(Developer[5])] is working on [knowledge base project(Project[1])] also
+[that person(Developer[5])] is not working on [chatbot project(Project[3])] anymore
+[this developer(Developer[5])] is assigned to [this project(Project[3])] also
+Who was [the task(Issue[4])] assigned to?	'Kristeen(Developer[1])'	['question_type_local']
+[this project(Project[3])] is in the [development] stage
+[knowledge base project(Project[1])] is not assigned to [Britney(Developer[4])]
+Were there any issues assigned to [Rachele(Developer[2])]?	'parse example terribly slow(Issue[3])'	['question_type_local']
+[mobile project(Project[2])] is not assigned to [Britney(Developer[4])]
+[that project(Project[2])] is assigned to [Britney(Developer[4])] also
+[Britney(Developer[4])] is no longer assigned to [chatbot project(Project[3])]
+[that developer(Developer[4])] is working on [knowledge base project(Project[1])] also
+[it(Project[1])] is not assigned to [Will(Developer[5])]
+[he(Developer[5])] is assigned to [it(Project[1])] also
+[that project(Project[1])] is in the [testing] stage
+[that project(Project[1])] is now in the [development] stage
+[chatbot project(Project[3])] is assigned to [Britney(Developer[4])] also
+[knowledge base project(Project[1])] is in the stage of [design]
+[chatbot project(Project[3])] is in the [design] stage
+Were there any issues assigned to [Rachele(Developer[2])]?	'parse example terribly slow(Issue[3])'	['question_type_local']
+[knowledge base project(Project[1])] is now in the [evaluation] stage
+[chatbot project(Project[3])] is in the [testing] stage
+[knowledge base project(Project[1])] is now in the [testing] stage
+[knowledge base project(Project[1])] is now in the [development] stage
+Who created [the proposal that was last added(Issue[8])]?	'Kristeen(Developer[1])'	['question_type_local']
+[Igor(Tester[3])] is no longer assigned to [knowledge base project(Project[1])]
+[that person(Tester[3])] is working on [mobile project(Project[2])]
+[that person(Tester[3])] is working on [knowledge base project(Project[1])] also
+[chatbot project(Project[3])] is assigned to [Igor(Tester[3])] also
+[knowledge base project(Project[1])] is now in the [design] stage
+[Britney(Developer[4])] is not working on [mobile project(Project[2])] anymore
+[this project(Project[2])] is assigned to [Britney(Developer[4])] also
+Who created [the saving data throws exception bug(Issue[6])]?	'Rachele(Developer[2])'	['question_type_local']
+[Kristeen(Developer[1])] is not working on [chatbot project(Project[3])] anymore
+[it(Project[3])] is assigned to [Kristeen(Developer[1])] also
+[knowledge base project(Project[1])] is in the stage of [development]
+[knowledge base project(Project[1])] is now in the [testing] stage
+[this project(Project[1])] is in the stage of [design]
+[it(Project[1])] is now in the [testing] stage
+[that project(Project[1])] is now in the [development] stage

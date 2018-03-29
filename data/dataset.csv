@@ -1,0 +1,136 @@
+Timestamp,Have you ever done statistical coding? (R/Pandas),Average of temperature,Highest temperature value,Lowest temperature value,Correlation between temperature and feeling_temperature,"Linear relationship of temperature and humidity (temperature is the predictor/explanatory variable, humidity is the response variable)",Prediction of humidity when temperature is 12.,mean(WeatherHistory$temperature),min(WeatherHistory$temperature),max(WeatherHistory$temperature),"cor(WeatherHistory$temperature, WeatherHistory$feeling_temperature)","mod = lm(humidity ~ temperature, WeatherHistory)","predict(mod, newdata=data.frame(temperature=12))"
+3/22/2018 15:01:29,No,"What's the average temperature? 
+What's the mean temperature? 
+What's the temperature on any average day?","What is the maximum temperature? 
+What's the hottest temperature?
+Give me the highest temperature degree. ","What is the lowest temperature? 
+What's the coldest temperature?
+Give me the lowest temperature degree. ","What's the relationship b/w temperature and feeling_temperature?
+How does temperature influence feeling_temperature?
+Does temperature have an affect on feeling_temperature?","What's the relationship b/w temperature and humidity?
+How does temperature influence humidity?
+Does temperature have an affect on humidity?","What is the humidity when temperature is 12?
+Temperature is 12 and humidity is what?
+Give me the expected humidity when temperature is 12. ",,,,,,
+3/22/2018 15:16:09,No,"What is the average temperature?
+Find the average temperature. 
+Tell me the average temperature. ","What is the highest temperature value?
+Find the highest temperature value. 
+Tell me the highest temperature value. ","What is the lowest temperature value?
+Find the lowest temperature value. 
+Tell me the lowest temperature value. ","What is the correlation between temperature and feeling_temperature?
+Find the correlation between temperature and feeling temperature. 
+Tell me the correlation between temperature and feeling temperature. ","How does humidity respond to a change in temperature?
+How strong is the linear relationship between humidity and temperature?
+Can a change in temperature predict a change in humidity?","Predict the humidity level when the temperature is 12. 
+What is the humidity when the temperature is 12?
+What would the humidity be given a temperature of 12?",,,,,,
+3/22/2018 15:20:32,Yes,,,,,,,Can you take the average of all temperatures in the weather history data base.,Please find the coldest temperature in the weather history data base. ,Find the hottest temperature in the database ,What is the correlation between temperature and feeling temperature in the database.,Find a linear regression between humidity and temperature,Based on the regression can you find the predicted value of humidity when temperature is 12 degrees celsius
+3/22/2018 15:34:46,Yes,,,,,,,"What's the average of temperature?
+What's mean of the temperature in the data set?
+What's the average temperature in celsius?","What's the lowest temperature in weather history?
+What's the minimum temperature of all temperatures?
+What's the coldest temperature?","What's the highest temperature in weather history?
+What's the max temperature of all temperatures?
+What's the hottest temperature?","What's the correlation between actual and feeling temperature?
+Is there a correlation between actual and feeling temperature?
+COuld you find the correlation between actual and feeling temperature?","What's the relationship between humidity and temperature?
+Can you make a relationship between humidity and temperature?
+What's the linear regression of humidity on temperature?","Can you predict from the model what humidity is associated with temperature 12?
+What's the predicted humidity whenm temperature is 12?
+What's the predicted value of humidity when temperature is 12 degrees celsius?"
+3/22/2018 15:42:13,No,"What's the average temperature?
+Of the listed temperatures, what is the mean?
+What is the mean temperature?
+Give the average temperature.
+Tell me the average temperature.","Of the listed temperature values, which is the highest?
+What is the highest temperature listed?
+Which listed temperature is the greatest?
+Give me the highest temperature value.
+What is the highest temperature value?
+What's the highest temperature value?
+","Of the listed temperature values, which is the lowest?
+What is the lowest temperature listed?
+Which listed temperature is the least?
+Give me the lowest temperature value.
+What is the lowest temperature value?
+What's the lowest temperature value?","What is the actual temperature and feeling temperature?
+Give me the actual temperature and feeling temperature.
+Tell me what it feels like outside, and what's the actual temperature?
+What temperature does it feel like outside, and tell me the actual temperature.
+Is the feeling temperature higher than the actual temperature (and vice-versa)?
+By how much is the feeling temperature higher than the actual temperature (and vice-versa)?","What's the relationship between temperature and humidity? 
+How correlated are temperature and humidity?
+How are temperature and humidity correlated? 
+To what extent are temperature and humidity? ","What's the humidity at 12 degrees?
+At 12 degrees, what's the predicted humidity?
+What is the humidity at the current temperature?
+What is the humidity at the predicted temperature at 12 pm?
+At 12 degrees, what will the humidity be?",,,,,,
+3/22/2018 15:59:02,No,"what is the average temperature?
+what's the mean temperature?
+how is the temperature usually?
+what is the typical temperature?","how hot does it get?
+how hot has it ever gotten?
+what is the highest temperature recorded?","how cold does it get?
+what's the coldest it's ever been?
+what is the lowest temperature recorded?","does the weather feel like what was forecasted?
+to what extent does the temperature forecasted match the actual temperature?
+is the temperature accurate to how it feels?","what is the relationship between temperature and humidity?
+how does temperature affect humidity?
+is temperature correlated with humidity?","when it is 12 degrees Celsius, what will the humidity be?  
+what will the humidity be when it's 12 degrees celsius?
+can I have the forecasted humidity level for when it's 12 degrees? ",,,,,,
+3/22/2018 17:06:57,Yes,,,,,,,"What is the mean temperature?
+Give me the mean of temperature.
+Tell me what the mean of the temperature is. ","What is the minimum  of temperature?
+What is the minimum temperature entry in the dataset?
+Tell me what the minimum temperature is.   ","What is the maximum of temperature?
+What is the maximum temperature entry in the dataset? 
+Give me the maximum of temperature.","What is the correlation between temperature and feeling temperature?
+How correlated is temperature from feeling temperature? 
+Give me the correlation between temperature and feeling temperature. ","What is the linear model of temperature predicting humidity ?
+What is the regression model of temperature predicting humidity? 
+What is the regression equation of temperature predicting humidity?","Given that temperature is 12 predict what the value of humidity would be.
+What is the humidity when the temperature is 12? 
+When the temperature is 12, what is the value of humidity? "
+3/22/2018 17:16:45,No,what is the average temperature?,what is the highest temperature recorded?,what is the lowest temperature recorded?,is there a correlation beteeen temperature and feeling_temperature?,is there a linear relationship between temperature and humidity?,what is your prediction of humidity when the temperature is 12,,,,,,
+3/22/2018 19:15:18,Yes,,,,,,,"What is the average temperature of the Weather History dataset?
+Can you tell me what the average temperature of the dataset is?
+Find the total mean temperature.","What is the lowest temperature of the Weather History dataset?
+Can you tell me what the temperature was on the coldest day?
+How cold did it get based on the dataset?","What is the highest temperature of the Weather History dataset?
+Can you tell me what the temperature was on the hottest day?
+How hot did it get based on the dataset?","What is the correlation between temperature and feeling temperature?
+Describe the relationship of temperature and feeling temperature based on their correlation.
+Tell me the numeric correlation value of temperature and feeling temperature.","Create a linear model of humidity through temperature in the Weather History data frame.
+Describe the relationship of each variable in the Weather History data frame by creating a linear model.
+Can you tell me difference in relationship of humidity and temperature?","Predict the the linear model when the temperature is at 12 degrees.
+Find the temperature linear model at 12 degrees.
+Describe the linear model at temp = 12 degrees by using prediction."
+3/23/2018 12:32:56,No,"What is the average temperature? 
+What’s the average temperature today?
+Could you check the average temperature today?","What is the highest temperature value?
+What’s the highest temperature today?
+How high does the temperature go?","What is the lowest temperature value?
+What’s the lowest temperature today?
+What’s the coldest temperature today?","What is the correlation between _ and _?
+What’s the relationship between _ and _?
+Do you see any correlation between _ and _?","What is the linear relationship of _ and _?
+Do you notice any linear relationship between _ and _?
+Look for a linear relationship between _ and _.","What is your prediction of humidity when temperature is 12?
+Predict the humidity when temperature is 12.
+What do you think the humidity should be when the temperature is 12?",,,,,,
+3/26/2018 21:16:57,Yes,,,,,,,"What is the mean of the temperatures in the data WeatherHistory?
+Can you give me the average temperature of the data WeatherHistory?
+Give the mean temperature of the data WeatherHistory.","What is the minimum of the temperatures in the data WeatherHistory?
+Can you give me the lowest temperature of the data WeatherHistory?
+Give the minimum temperature of the data WeatherHistory.","What is the maximum of the temperatures in the data WeatherHistory?
+Can you give me the highest recorded temperature of the data WeatherHistory?
+Give the maximum recorded temperature of the data WeatherHistory.","Calculate the correlation value between the variables temperature and feeling_temperature.
+What is the correlation between the variables temperature and feeling_temperature?
+Can you give the correlation value between the variables temperature and feeling_temperature?","Fit a linear model between humidity and temperature. 
+Create a regression model of temperature on humidity.
+Can you create a linear model of temperature on humidity?","Calculate the  μ̂ , β̂ 1, and β̂ 2 using the predict function and model described in the previous question.
+Can you calculate the predicted values for the model described in the previous question?
+Please give the predicted values for the model described in the previous question."

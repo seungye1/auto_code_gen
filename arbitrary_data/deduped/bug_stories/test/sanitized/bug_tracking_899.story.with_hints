@@ -1,0 +1,113 @@
+there is a new [pilot] [mobile(Project[1])] [project]
+[mobile project(Project[1])] is in the [deployment] stage
+[two consecutive dates identified as single date] is a new issue for the [this project(Project[1])]
+there is a new [open source] [knowledge base(Project[2])] [project]
+[this project(Project[2])] is in the stage of [testing]
+[memory leak bug] is a new [task] for the [mobile project(Project[1])]
+[Rachele(Tester[1])] is a [tester] on [knowledge base project(Project[2])]
+[this test engineer(Tester[1])] is assigned to [mobile project(Project[1])] also
+[that test engineer(Tester[1])] submitted a new [proposal] for [knowledge base project(Project[2])]: [timeout problem]
+[this issue(Issue[3])] is assigned to [Rachele(Tester[1])]
+[mobile project(Project[1])] is not assigned to [Rachele(Tester[1])]
+[this tester(Tester[1])] is assigned to [that project(Project[1])] also
+Are there any issues assigned to [that person(Tester[1])] that are not resolved?	'timeout problem(Issue[3])'	['question_type_local']
+[Charlott(Tester[2])] is a [tester]
+[saving data throws exception] is a new [bug] submitted by [Rachele(Tester[1])] for [mobile project(Project[1])]
+[the two consecutive dates identified as single date issue(Issue[1])] is assigned to [Rachele(Tester[1])]
+[Rachele(Tester[1])] resolved [this issue(Issue[1])]
+Who is [the proposal(Issue[3])] assigned to?	'Rachele(Tester[1])'	['question_type_local']
+[the bug(Issue[4])] is assigned to [this person(Tester[1])]
+[Racquel(Developer[3])] is a [developer] on [mobile project(Project[1])]
+[Racquel(Developer[3])] is working on [knowledge base project(Project[2])] also
+There is a new issue for the [this project(Project[2])]: [parse example terribly slow]
+[the issue(Issue[5])] was assigned to [Rachele(Tester[1])]
+[Britney(Tester[4])] is a [tester]
+[mobile project(Project[1])] is assigned to [Britney(Tester[4])]
+[Rachele(Tester[1])] resolved [the parse example terribly slow issue(Issue[5])]
+[that person(Tester[1])] created a new issue for [mobile project(Project[1])]: [initialization broken]
+there is a new [chatbot(Project[3])] [project]
+[the issue(Issue[6])] was assigned to [Rachele(Tester[1])]
+[this tester(Tester[1])] resolved [this issue(Issue[6])]
+[minified version fails] is a new [proposal] for the [chatbot project(Project[3])]
+[that test engineer(Tester[1])] is assigned to [chatbot project(Project[3])] also
+[chatbot project(Project[3])] is in the stage of [testing]
+[this project(Project[3])] is a [open source] project
+[Racquel(Developer[3])] is not working on [mobile project(Project[1])] anymore
+[chatbot project(Project[3])] is assigned to [Racquel(Developer[3])] also
+[that person(Developer[3])] is working on [mobile project(Project[1])] also
+[chatbot project(Project[3])] is assigned to [Britney(Tester[4])] also
+[Tom(Developer[5])] is a [developer]
+[knowledge base project(Project[2])] is assigned to [Tom(Developer[5])]
+[chatbot project(Project[3])] is assigned to [this person(Developer[5])] also
+[Rachele(Tester[1])] resolved [the saving data throws exception bug(Issue[4])]
+[Roslyn(Tester[6])] is a [tester] on [knowledge base project(Project[2])]
+[Jack(Developer[7])] is a [developer] on [knowledge base project(Project[2])]
+[she(Tester[6])] is working on [chatbot project(Project[3])] also
+[mobile project(Project[1])] is assigned to [this tester(Tester[6])] also
+[Roslyn(Tester[6])] created a new [proposal] for [chatbot project(Project[3])]: [parsing with parantheses fails]
+[this issue(Issue[8])] was assigned to [Racquel(Developer[3])]
+[Rachele(Tester[1])] resolved [the timeout problem issue(Issue[3])]
+[chatbot project(Project[3])] is in the stage of [development]
+[Britney(Tester[4])] is working on [knowledge base project(Project[2])] also
+[mobile project(Project[1])] is not assigned to [that person(Tester[4])]
+[Britney(Tester[4])] is assigned to [mobile project(Project[1])] also
+[Lucy(Developer[8])] is a [developer]
+Who submitted [the proposal that was last added(Issue[8])]?	'Roslyn(Tester[6])'	['question_type_local']
+[this project(Project[1])] is assigned to [Lucy(Developer[8])]
+[mobile project(Project[1])] is now in the [testing] stage
+[svd is slow] is a new [task] created by [Tom(Developer[5])] for [chatbot project(Project[3])]
+[the issue(Issue[9])] was assigned to [Tom(Developer[5])]
+[that person(Developer[5])] resolved [that issue(Issue[9])]
+[Rachele(Tester[1])] created a new issue for [mobile project(Project[1])]: [fails with apache stack]
+[that issue(Issue[10])] was assigned to [Britney(Tester[4])]
+[that test engineer(Tester[4])] resolved [this issue(Issue[10])]
+Who is [the parsing with parantheses fails proposal(Issue[8])] assigned to?	'Racquel(Developer[3])'	['question_type_local']
+[Tom(Developer[5])] is working on [mobile project(Project[1])] also
+[it(Project[1])] is in the stage of [development]
+What are the issues assigned to [Racquel(Developer[3])]?	'parsing with parantheses fails(Issue[8])'	['question_type_local']
+Who was [the saving data throws exception issue(Issue[4])] assigned to?	'Rachele(Tester[1])'	['question_type_local']
+[the minified version fails proposal(Issue[7])] is assigned to [Racquel(Developer[3])]
+[this person(Developer[3])] resolved [the minified version fails issue(Issue[7])]
+Who created [the timeout problem proposal(Issue[3])]?	'Rachele(Tester[1])'	['question_type_local']
+What are the issues assigned to [Britney(Tester[4])] that were resolved?	'fails with apache stack(Issue[10])'	['question_type_local']
+[knowledge base project(Project[2])] is in the [deployment] stage
+[Jack(Developer[7])] is assigned to [mobile project(Project[1])] also
+[Racquel(Developer[3])] resolved [the proposal that was last added(Issue[8])]
+[Racquel(Developer[3])] is not working on [mobile project(Project[1])] anymore
+[she(Developer[3])] is working on [it(Project[1])] also
+Who is [the minified version fails proposal(Issue[7])] assigned to?	'Racquel(Developer[3])'	['question_type_local']
+[Tom(Developer[5])] is not working on [chatbot project(Project[3])] anymore
+[that project(Project[3])] is assigned to [this developer(Developer[5])] also
+[Charlott(Tester[2])] is working on [mobile project(Project[1])]
+[knowledge base project(Project[2])] is assigned to [Charlott(Tester[2])] also
+[Charlott(Tester[2])] is working on [chatbot project(Project[3])] also
+[Charlott(Tester[2])] is not working on [knowledge base project(Project[2])] anymore
+[she(Tester[2])] is working on [knowledge base project(Project[2])] also
+[that project(Project[2])] is in the [testing] stage
+[it(Project[2])] is now in the [development] stage
+[it(Project[2])] is in the stage of [testing]
+[Rachele(Tester[1])] is no longer assigned to [chatbot project(Project[3])]
+[it(Project[3])] is assigned to [this tester(Tester[1])] also
+Who was [the saving data throws exception issue(Issue[4])] assigned to?	'Rachele(Tester[1])'	['question_type_local']
+[it(Project[3])] is in the stage of [testing]
+[mobile project(Project[1])] is in the stage of [deployment]
+[chatbot project(Project[3])] is in the stage of [development]
+[chatbot project(Project[3])] is in the [testing] stage
+[knowledge base project(Project[2])] has moved to the [deployment] stage
+[knowledge base project(Project[2])] is now in the [testing] stage
+[that project(Project[2])] is in the stage of [deployment]
+[it(Project[2])] is not assigned to [Britney(Tester[4])]
+[that person(Tester[4])] is working on [this project(Project[2])] also
+[the memory leak bug task(Issue[2])] is assigned to [Roslyn(Tester[6])]
+[Roslyn(Tester[6])] resolved [that issue(Issue[2])]
+[Roslyn(Tester[6])] is not working on [chatbot project(Project[3])] anymore
+Who was [the proposal that was last added(Issue[8])] assigned to?	'Racquel(Developer[3])'	['question_type_local']
+[this project(Project[3])] is assigned to [she(Tester[6])] also
+[chatbot project(Project[3])] is in the stage of [development]
+[Rachele(Tester[1])] is no longer assigned to [mobile project(Project[1])]
+[Charlott(Tester[2])] is no longer assigned to [knowledge base project(Project[2])]
+[this test engineer(Tester[2])] is assigned to [it(Project[2])] also
+Who was [the saving data throws exception bug(Issue[4])] assigned to?	'Rachele(Tester[1])'	['question_type_local']
+[chatbot project(Project[3])] is assigned to [Jack(Developer[7])] also
+Who was [the minified version fails proposal(Issue[7])] assigned to?	'Racquel(Developer[3])'	['question_type_local']
+[chatbot project(Project[3])] is in the stage of [testing]

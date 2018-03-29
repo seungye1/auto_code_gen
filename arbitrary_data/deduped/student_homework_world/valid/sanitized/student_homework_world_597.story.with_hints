@@ -1,0 +1,174 @@
+[Eun(Professor[1])] is a [professor]
+[Eun(Professor[1])] is affiliated with the [neuroscience] department
+change [this professor(Professor[1])]'s department to [biomedical engineering]
+create a [professor] named [Andy(Professor[2])]
+[he(Professor[2])] is affiliated with the [neuroscience] department
+create a [professor] named [Andrew(Professor[3])]
+[Charlott(Professor[4])] is a [professor]
+[Charlott(Professor[4])]'s department is [psychology]
+the affiliation of [Andrew(Professor[3])] is [neuroscience]
+[Milagros(Professor[5])] is a [professor]
+the affiliation of [she(Professor[5])] is [psychology]
+Which department is [Andrew(Professor[3])] in?	'neuroscience'	['question_type_local']
+I am taking a course called [spanish(Course[1])]
+What department is [Eun(Professor[1])] affiliated with?	'biomedical engineering'	['question_type_local']
+[this course(Course[1])] has a new [spanish homework 1(Homework[1])] out
+[Charlott(Professor[4])] is the instructor for [spanish(Course[1])]
+Which department is [Eun(Professor[1])] in?	'biomedical engineering'	['question_type_local']
+I am taking a [english composition(Course[2])] course
+[english composition homework 1(Homework[2])] is out for [that class(Course[2])]
+I submitted [this homework(Homework[2])] on time
+The deadline of [english composition homework 1(Homework[2])] is [May 20]
+there is a [professor] named [Isaiah(Professor[6])]
+The topic of [this homework(Homework[2])] is [introduction]
+[this homework(Homework[2])] is [57] points
+[Charlott(Professor[4])]'s department is now [neuroscience]
+I am taking a course called [biology(Course[3])]
+[Eun(Professor[1])] teaches [biology(Course[3])]
+show me the homeworks due on [May 20]	'english composition homework 1(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+which assignments are due before [May 21]?	'english composition homework 1(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+What is [Eun(Professor[1])]'s department?	'biomedical engineering'	['question_type_local']
+which assignments are due on [May 20]?	'english composition homework 1(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+I am taking a course called [philosophy(Course[4])]
+[Isaiah(Professor[6])] teaches [philosophy(Course[4])]
+[that professor(Professor[6])]'s department is [biomedical engineering]
+[english composition(Course[2])] has a new [english composition homework 2(Homework[3])] out
+[that person(Professor[6])]'s department is now [psychology]
+[he(Professor[6])]'s department is now [neuroscience]
+[english composition(Course[2])] is taught by [Andrew(Professor[3])]
+[spanish homework 1(Homework[1])] is on [deep learning]
+[that assignment(Homework[1])] is due on [May 15]
+I submitted [spanish homework 1(Homework[1])]
+[english composition homework 2(Homework[3])] is worth [60] points
+The topic of [english composition homework 2(Homework[3])] is [The Environment]
+Who is the instructor for [philosophy(Course[4])]?	'Isaiah(Professor[6])'	['question_type_local']
+[spanish homework 2(Homework[4])] is released for [spanish(Course[1])]
+[spanish homework 2(Homework[4])] is due on [May 24]
+[that assignment(Homework[4])] is worth [78] points
+[spanish homework 2(Homework[4])] is about [Plants]
+Which professor is teaching [biology(Course[3])]?	'Eun(Professor[1])'	['question_type_local']
+there is new [spanish project 1(Project[5])] for [spanish(Course[1])]
+[that project(Project[5])] is worth [21] points
+When is [spanish homework 2(Homework[4])] due?	'May 24'	['question_type_local']
+The topic of [that project(Project[5])] is [Molds & Fungi]
+[this assignment(Project[5])] is due on [May 17]
+Which department is [Eun(Professor[1])] in?	'biomedical engineering'	['question_type_local']
+I submitted [spanish project 1(Project[5])] on time and received 13 points
+What is the topic of [english composition homework 1(Homework[2])]?	'introduction'	['question_type_local']
+what assignments do I have to do for [Charlott]?	'spanish homework 1(Homework[1])', 'spanish homework 2(Homework[4])', 'spanish project 1(Project[5])'	['question_type_global', 'question_three_hop_statement']
+[biology homework 1(Homework[6])] is released for [biology(Course[3])]
+list all projects that i submitted for [Charlott]	'spanish project 1(Project[5])'	['question_type_global', 'question_three_hop_statement']
+[spanish homework 3(Homework[7])] is out for [spanish(Course[1])]
+The topic of [spanish homework 3(Homework[7])] is [Cloning]
+[this homework(Homework[7])] is worth [73] points
+I submitted [this assignment(Homework[7])] and received 19 points
+[spanish homework 3(Homework[7])] is due on [June 04]
+What is [Eun(Professor[1])]'s department?	'biomedical engineering'	['question_type_local']
+which assignments are due after [May 19]?	'english composition homework 1(Homework[2])', 'spanish homework 2(Homework[4])', 'spanish homework 3(Homework[7])'	['question_type_global', 'question_two_hop_statement']
+what assignments do I have to do for [Charlott]?	'spanish homework 1(Homework[1])', 'spanish homework 2(Homework[4])', 'spanish project 1(Project[5])', 'spanish homework 3(Homework[7])'	['question_type_global', 'question_three_hop_statement']
+what are all the homeworks due for [Andrew]?	'english composition homework 1(Homework[2])', 'english composition homework 2(Homework[3])'	['question_type_global', 'question_three_hop_statement']
+[philosophy(Course[4])] has a new [philosophy homework 1(Homework[8])] released
+When is the deadline of [spanish project 1(Project[5])]?	'May 17'	['question_type_local']
+list assignments that are due on [June 04]	'spanish homework 3(Homework[7])'	['question_type_global', 'question_two_hop_statement']
+How many points did I get on [spanish project 1(Project[5])]	13	['question_type_local']
+there is a new [project(Project[9])] for [english composition(Course[2])]
+The topic of [that homework(Homework[8])] is [vc dimension]
+[that homework(Homework[8])] is worth [47] points
+what assignments do I have to do for [Andrew]?	'english composition homework 1(Homework[2])', 'english composition homework 2(Homework[3])', 'english composition project 1(Project[9])'	['question_type_global', 'question_three_hop_statement']
+The deadline of [that homework(Homework[8])] is [May 16]
+I submitted [that assignment(Homework[8])] late and received 47 points
+What is the topic of [spanish homework 2(Homework[4])]?	'Plants'	['question_type_local']
+which assignments are due after [May 23]?	'spanish homework 2(Homework[4])', 'spanish homework 3(Homework[7])'	['question_type_global', 'question_two_hop_statement']
+What is [english composition homework 1(Homework[2])] on?	'introduction'	['question_type_local']
+list all homeworks that i submitted late for [Isaiah]	'philosophy homework 1(Homework[8])'	['question_type_global', 'question_three_hop_statement']
+show me the assignments due on [May 16]	'philosophy homework 1(Homework[8])'	['question_type_global', 'question_two_hop_statement']
+show me the assignments due on [May 20]	'english composition homework 1(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+what are all the assignments due for [Eun]?	'biology homework 1(Homework[6])'	['question_type_global', 'question_three_hop_statement']
+[spanish project 2(Project[10])] is out for [spanish(Course[1])]
+[this project(Project[10])] is worth [36] points
+[that project(Project[10])] is due on [May 22]
+I submitted [this assignment(Project[10])] and received 34 points
+what homeworks do I have to do for [Eun]?	'biology homework 1(Homework[6])'	['question_type_global', 'question_three_hop_statement']
+what are the homeworks that i submitted for [Andrew]	'english composition homework 1(Homework[2])'	['question_type_global', 'question_three_hop_statement']
+how many points did I receive on [spanish project 2(Project[10])]?	34	['question_type_local']
+what are all the assignments due for [Charlott]?	'spanish homework 1(Homework[1])', 'spanish homework 2(Homework[4])', 'spanish project 1(Project[5])', 'spanish homework 3(Homework[7])', 'spanish project 2(Project[10])'	['question_type_global', 'question_three_hop_statement']
+change [Charlott(Professor[4])]'s department to [psychology]
+there is a new [project(Project[11])] for [biology(Course[3])]
+[biology project 1(Project[11])] is [46] points
+list all homeworks that i submitted late for [Isaiah]	'philosophy homework 1(Homework[8])'	['question_type_global', 'question_three_hop_statement']
+what are the homeworks that i submitted for [Andrew]	'english composition homework 1(Homework[2])'	['question_type_global', 'question_three_hop_statement']
+[that assignment(Project[11])] is due on [May 20]
+I submitted [biology project 1(Project[11])] late and received 46 points
+which homeworks are due on [May 20]?	'english composition homework 1(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+what did I get on [philosophy homework 1(Homework[8])]?	47	['question_type_local']
+What is [spanish homework 2(Homework[4])] on?	'Plants'	['question_type_local']
+When is [spanish homework 3(Homework[7])] due?	'June 04'	['question_type_local']
+What courses is [Andrew(Professor[3])] teaching?	'english composition(Course[2])'	['question_type_local']
+[spanish homework 4(Homework[12])] is out for [spanish(Course[1])]
+[that homework(Homework[12])] is due on [June 17]
+I submitted [that homework(Homework[12])]
+there is a new [project(Project[13])] for [english composition(Course[2])]
+[that project(Project[13])] is worth [71] points
+The deadline of [this project(Project[13])] is [May 22]
+Which department is [Eun(Professor[1])] in?	'biomedical engineering'	['question_type_local']
+I submitted [this project(Project[13])] and received 71 points
+[biology homework 2(Homework[14])] is released for [biology(Course[3])]
+How much is [spanish homework 3(Homework[7])] worth?	73	['question_type_local']
+How many points is [philosophy homework 1(Homework[8])] worth?	47	['question_type_local']
+[spanish project 3(Project[15])] is out for [spanish(Course[1])]
+[spanish project 3(Project[15])] is due on [June 16]
+I submitted [that project(Project[15])]
+[that assignment(Project[15])] is worth [89] points
+[spanish homework 4(Homework[12])] is [97] points
+there is new [spanish homework 5(Homework[16])] for [spanish(Course[1])]
+[spanish homework 5(Homework[16])] is worth [13] points
+how many points is [philosophy homework 1(Homework[8])]?	47	['question_type_local']
+which homeworks are due after [May 13]?	'spanish homework 1(Homework[1])', 'english composition homework 1(Homework[2])', 'spanish homework 2(Homework[4])', 'spanish homework 3(Homework[7])', 'philosophy homework 1(Homework[8])', 'spanish homework 4(Homework[12])'	['question_type_global', 'question_two_hop_statement']
+The deadline of [spanish homework 5(Homework[16])] is [July 07]
+How many points did I get on [spanish homework 3(Homework[7])]	19	['question_type_local']
+which assignments are due after [June 03]?	'spanish homework 3(Homework[7])', 'spanish homework 4(Homework[12])', 'spanish project 3(Project[15])', 'spanish homework 5(Homework[16])'	['question_type_global', 'question_two_hop_statement']
+I submitted [this homework(Homework[16])] on time and received 6 points
+what homeworks did i submit late for [Isaiah]?	'philosophy homework 1(Homework[8])'	['question_type_global', 'question_three_hop_statement']
+show me all homeworks i submitted for [Isaiah]	'philosophy homework 1(Homework[8])'	['question_type_global', 'question_three_hop_statement']
+list all assignments that i submitted late for [Isaiah]	'philosophy homework 1(Homework[8])'	['question_type_global', 'question_three_hop_statement']
+how many points is [spanish homework 4(Homework[12])]?	97	['question_type_local']
+list all projects that i submitted for [Andrew]	'english composition project 2(Project[13])'	['question_type_global', 'question_three_hop_statement']
+which assignments did I submit for [Andrew]?	'english composition homework 1(Homework[2])', 'english composition project 2(Project[13])'	['question_type_global', 'question_three_hop_statement']
+there is new [biology project 2(Project[17])] for [biology(Course[3])]
+list all projects for [Eun]	'biology project 1(Project[11])', 'biology project 2(Project[17])'	['question_type_global', 'question_three_hop_statement']
+I submitted [that project(Project[17])] on time
+The deadline of [this project(Project[17])] is [May 22]
+[that project(Project[17])] is worth [93] points
+how much did I get on [spanish project 1(Project[5])]?	13	['question_type_local']
+show me all projects i submitted for [Charlott]	'spanish project 1(Project[5])', 'spanish project 2(Project[10])', 'spanish project 3(Project[15])'	['question_type_global', 'question_three_hop_statement']
+[philosophy homework 2(Homework[18])] is out for [philosophy(Course[4])]
+I submitted [this homework(Homework[18])] on time
+how much did I get on [spanish project 2(Project[10])]?	34	['question_type_local']
+list all assignments that i submitted for [Isaiah]	'philosophy homework 1(Homework[8])', 'philosophy homework 2(Homework[18])'	['question_type_global', 'question_three_hop_statement']
+[this homework(Homework[18])] is worth [23] points
+The deadline of [this assignment(Homework[18])] is [May 24]
+list all homeworks that i submitted for [Andrew]	'english composition homework 1(Homework[2])'	['question_type_global', 'question_three_hop_statement']
+show me all assignments that i submitted for [Charlott]	'spanish homework 1(Homework[1])', 'spanish project 1(Project[5])', 'spanish homework 3(Homework[7])', 'spanish project 2(Project[10])', 'spanish homework 4(Homework[12])', 'spanish project 3(Project[15])', 'spanish homework 5(Homework[16])'	['question_type_global', 'question_three_hop_statement']
+change [Charlott(Professor[4])]'s department to [neuroscience]
+What is [spanish homework 3(Homework[7])] on?	'Cloning'	['question_type_local']
+When is [spanish project 1(Project[5])] due?	'May 17'	['question_type_local']
+what are all the assignments due for [Eun]?	'biology homework 1(Homework[6])', 'biology project 1(Project[11])', 'biology homework 2(Homework[14])', 'biology project 2(Project[17])'	['question_type_global', 'question_three_hop_statement']
+show me the assignments due on [July 07]	'spanish homework 5(Homework[16])'	['question_type_global', 'question_two_hop_statement']
+list all projects for [Andrew]	'english composition project 1(Project[9])', 'english composition project 2(Project[13])'	['question_type_global', 'question_three_hop_statement']
+what are all the assignments due for [Charlott]?	'spanish homework 1(Homework[1])', 'spanish homework 2(Homework[4])', 'spanish project 1(Project[5])', 'spanish homework 3(Homework[7])', 'spanish project 2(Project[10])', 'spanish homework 4(Homework[12])', 'spanish project 3(Project[15])', 'spanish homework 5(Homework[16])'	['question_type_global', 'question_three_hop_statement']
+which projects did I submit for [Andrew]?	'english composition project 2(Project[13])'	['question_type_global', 'question_three_hop_statement']
+what assignments did i submit for [Isaiah]?	'philosophy homework 1(Homework[8])', 'philosophy homework 2(Homework[18])'	['question_type_global', 'question_three_hop_statement']
+How much is [biology project 1(Project[11])] worth?	46	['question_type_local']
+list assignments that are due on [May 22]	'spanish project 2(Project[10])', 'english composition project 2(Project[13])', 'biology project 2(Project[17])'	['question_type_global', 'question_two_hop_statement']
+[spanish(Course[1])] has a new [spanish project 4(Project[19])] out
+[spanish homework 1(Homework[1])] is [62] points
+show me the assignments due on [May 17]	'spanish project 1(Project[5])'	['question_type_global', 'question_two_hop_statement']
+[spanish(Course[1])] has a new [spanish homework 6(Homework[20])] out
+I submitted [spanish homework 6(Homework[20])] late
+[that homework(Homework[20])] is worth [41] points
+[that homework(Homework[20])] is due on [July 19]
+how many points did I receive on [spanish homework 3(Homework[7])]?	19	['question_type_local']
+show me all assignments that i submitted for [Charlott]	'spanish homework 1(Homework[1])', 'spanish project 1(Project[5])', 'spanish homework 3(Homework[7])', 'spanish project 2(Project[10])', 'spanish homework 4(Homework[12])', 'spanish project 3(Project[15])', 'spanish homework 5(Homework[16])', 'spanish homework 6(Homework[20])'	['question_type_global', 'question_three_hop_statement']
+I submitted [spanish project 4(Project[19])]
+When is [english composition project 2(Project[13])] due?	'May 22'	['question_type_local']
+[this project(Project[19])] is [60] points

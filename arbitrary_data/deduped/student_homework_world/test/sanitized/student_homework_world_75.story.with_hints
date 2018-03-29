@@ -1,0 +1,155 @@
+[Hiram(Professor[1])] is a [professor]
+I am taking a course called [algebra(Course[1])]
+[that course(Course[1])] is taught by [Hiram(Professor[1])]
+[that class(Course[1])] has a new [algebra homework 1(Homework[1])] released
+[algebra homework 1(Homework[1])] is worth [11] points
+I am taking a course called [sociology(Course[2])]
+there is a [professor] named [Igor(Professor[2])]
+[Igor(Professor[2])] teaches [this course(Course[2])]
+I am taking a [biology(Course[3])] course
+I am taking a [math(Course[4])] course
+[algebra(Course[1])] has a new [algebra project 1(Project[2])] released
+The deadline of [this assignment(Project[2])] is [February 08]
+[algebra project 1(Project[2])] is on [svm]
+I submitted [algebra project 1(Project[2])] late
+The deadline of [that assignment(Project[2])] moved to [February 10]
+[that assignment(Project[2])] is [30] points
+there is new [biology project 1(Project[3])] for [biology(Course[3])]
+[biology project 1(Project[3])] is [16] points
+[biology project 1(Project[3])] is about [bayesian models]
+I submitted [that project(Project[3])] and received 16 points
+What is [this project(Project[3])] on?	'bayesian models'	['question_type_local']
+which assignments are due on [February 10]?	'algebra project 1(Project[2])'	['question_type_global', 'question_two_hop_statement']
+[this assignment(Project[3])] is due on [February 06]
+[sociology project 1(Project[4])] is out for [sociology(Course[2])]
+[sociology project 1(Project[4])] is due on [February 06]
+[that assignment(Project[4])] is worth [87] points
+[that assignment(Project[4])] is about [deep learning]
+[biology(Course[3])] has a new [biology homework 1(Homework[5])] out
+I submitted [sociology project 1(Project[4])] and received 87 points
+[this homework(Homework[5])] is worth [94] points
+I submitted [that homework(Homework[5])] late and received 94 points
+The topic of [that homework(Homework[5])] is [Viruses & other Microbes]
+list all assignments that i submitted for [Igor]	'sociology project 1(Project[4])'	['question_type_global', 'question_three_hop_statement']
+show me all late assignments i submitted for [Hiram]	'algebra project 1(Project[2])'	['question_type_global', 'question_three_hop_statement']
+[algebra project 1(Project[2])] is now due on [February 10]
+The deadline of [biology project 1(Project[3])] moved to [February 06]
+how many points is [biology project 1(Project[3])]?	16	['question_type_local']
+[sociology project 2(Project[6])] is out for [sociology(Course[2])]
+I submitted [sociology project 2(Project[6])] late
+The deadline of [this project(Project[6])] is [February 12]
+[sociology project 2(Project[6])] is [28] points
+[this assignment(Project[6])] is on [kernels]
+[that assignment(Project[6])] is now due on [February 10]
+What is the topic of [sociology project 2(Project[6])]?	'kernels'	['question_type_local']
+there is new [sociology homework 1(Homework[7])] for [sociology(Course[2])]
+What is [algebra project 1(Project[2])] on?	'svm'	['question_type_local']
+what homeworks do I have to do for [Igor]?	'sociology homework 1(Homework[7])'	['question_type_global', 'question_three_hop_statement']
+[Lucio(Professor[3])] is a [professor]
+[sociology homework 1(Homework[7])] is [86] points
+The deadline of [this homework(Homework[7])] is [February 05]
+[sociology homework 1(Homework[7])] is about [introduction]
+I submitted [this assignment(Homework[7])] late and received 49 points
+how many points did I receive on [sociology project 1(Project[4])]?	87	['question_type_local']
+How many points is [biology project 1(Project[3])] worth?	16	['question_type_local']
+[biology homework 1(Homework[5])] is due on [February 06]
+[math homework 1(Homework[8])] is released for [math(Course[4])]
+[math homework 1(Homework[8])] is worth [29] points
+I submitted [that homework(Homework[8])] on time and received 5 points
+[this homework(Homework[8])] is on [clustering]
+how much did I get on [math homework 1(Homework[8])]?	5	['question_type_local']
+[algebra project 2(Project[9])] is released for [algebra(Course[1])]
+[that homework(Homework[8])] is due on [February 10]
+which projects are due on [February 06]?	'biology project 1(Project[3])', 'sociology project 1(Project[4])'	['question_type_global', 'question_two_hop_statement']
+[this project(Project[9])] is due on [February 22]
+[this project(Project[9])] is [74] points
+When is the deadline of [sociology homework 1(Homework[7])]?	'February 05'	['question_type_local']
+list assignments that are due on [February 10]	'algebra project 1(Project[2])', 'sociology project 2(Project[6])', 'math homework 1(Homework[8])'	['question_type_global', 'question_two_hop_statement']
+there is new [biology project 2(Project[10])] for [biology(Course[3])]
+The deadline of [biology project 2(Project[10])] is [February 20]
+The topic of [that assignment(Project[10])] is [vc dimension]
+[this project(Project[10])] is worth [47] points
+which projects are due before [February 08]?	'biology project 1(Project[3])', 'sociology project 1(Project[4])'	['question_type_global', 'question_two_hop_statement']
+[biology(Course[3])] has a new [biology project 3(Project[11])] out
+[biology project 3(Project[11])] is worth [21] points
+I submitted [biology project 3(Project[11])] late and received 21 points
+[that project(Project[11])] is due on [March 03]
+how much did I get on [sociology homework 1(Homework[7])]?	49	['question_type_local']
+show me the projects due on [February 10]	'algebra project 1(Project[2])', 'sociology project 2(Project[6])'	['question_type_global', 'question_two_hop_statement']
+When is [biology project 3(Project[11])] due?	'March 03'	['question_type_local']
+[biology project 4(Project[12])] is released for [biology(Course[3])]
+I submitted [biology project 4(Project[12])]
+[biology project 4(Project[12])] is due on [March 18]
+[biology project 4(Project[12])] is now due on [March 21]
+how many points did I receive on [biology homework 1(Homework[5])]?	94	['question_type_local']
+there is a [professor] named [Tom(Professor[4])]
+list all homeworks that i submitted late for [Igor]	'sociology homework 1(Homework[7])'	['question_type_global', 'question_three_hop_statement']
+[biology homework 2(Homework[13])] is out for [biology(Course[3])]
+[this assignment(Homework[13])] is worth [37] points
+[Charlott(Professor[5])] is a [professor]
+How many points is [sociology homework 1(Homework[7])] worth?	86	['question_type_local']
+what projects did i submit for [Hiram]?	'algebra project 1(Project[2])'	['question_type_global', 'question_three_hop_statement']
+create a [professor] named [Vivienne(Professor[6])]
+When is [biology project 2(Project[10])] due?	'February 20'	['question_type_local']
+[math project 1(Project[14])] is out for [math(Course[4])]
+[this assignment(Project[14])] is due on [February 11]
+How many points did I get on [sociology project 1(Project[4])]	87	['question_type_local']
+I submitted [math project 1(Project[14])]
+[that project(Project[14])] is worth [100] points
+What is the topic of [sociology homework 1(Homework[7])]?	'introduction'	['question_type_local']
+how many points did I receive on [sociology homework 1(Homework[7])]?	49	['question_type_local']
+how many points is [biology project 1(Project[3])]?	16	['question_type_local']
+what are the projects that i submitted for [Igor]	'sociology project 1(Project[4])', 'sociology project 2(Project[6])'	['question_type_global', 'question_three_hop_statement']
+[Tom(Professor[4])] is the instructor for [math(Course[4])]
+what did I get on [biology project 1(Project[3])]?	16	['question_type_local']
+show me all late assignments i submitted for [Hiram]	'algebra project 1(Project[2])'	['question_type_global', 'question_three_hop_statement']
+[biology project 4(Project[12])] is now due on [March 23]
+what assignments did i submit for [Hiram]?	'algebra project 1(Project[2])'	['question_type_global', 'question_three_hop_statement']
+what are the late assignments that i submitted for [Hiram]	'algebra project 1(Project[2])'	['question_type_global', 'question_three_hop_statement']
+How many points did I get on [biology homework 1(Homework[5])]	94	['question_type_local']
+which homeworks are due on [February 10]?	'math homework 1(Homework[8])'	['question_type_global', 'question_two_hop_statement']
+The deadline of [math homework 1(Homework[8])] moved to [February 11]
+What is the topic of [sociology homework 1(Homework[7])]?	'introduction'	['question_type_local']
+list all assignments for [Igor]	'sociology project 1(Project[4])', 'sociology project 2(Project[6])', 'sociology homework 1(Homework[7])'	['question_type_global', 'question_three_hop_statement']
+which homeworks are due after [February 08]?	'math homework 1(Homework[8])'	['question_type_global', 'question_two_hop_statement']
+there is new [algebra homework 2(Homework[15])] for [algebra(Course[1])]
+I submitted [algebra homework 2(Homework[15])] late
+how much did I get on [sociology project 1(Project[4])]?	87	['question_type_local']
+[this homework(Homework[15])] is worth [10] points
+[biology(Course[3])] has a new [biology homework 3(Homework[16])] released
+[biology homework 3(Homework[16])] is worth [29] points
+I submitted [biology homework 3(Homework[16])] on time and received 29 points
+how much did I get on [that assignment(Homework[16])]?	29	['question_type_local']
+The deadline of [this homework(Homework[16])] is [February 28]
+what are all the assignments due for [Tom]?	'math homework 1(Homework[8])', 'math project 1(Project[14])'	['question_type_global', 'question_three_hop_statement']
+how much did I get on [biology homework 1(Homework[5])]?	94	['question_type_local']
+there is new [sociology project 3(Project[17])] for [sociology(Course[2])]
+I submitted [that project(Project[17])]
+[that assignment(Project[17])] is due on [March 06]
+[math project 2(Project[18])] is out for [math(Course[4])]
+[sociology project 3(Project[17])] is [12] points
+How many points is [sociology homework 1(Homework[7])] worth?	86	['question_type_local']
+[biology(Course[3])] is taught by [Charlott(Professor[5])]
+what assignments did i submit late for [Hiram]?	'algebra project 1(Project[2])', 'algebra homework 2(Homework[15])'	['question_type_global', 'question_three_hop_statement']
+create a [professor] named [Andy(Professor[7])]
+what assignments do I have to do for [Igor]?	'sociology project 1(Project[4])', 'sociology project 2(Project[6])', 'sociology homework 1(Homework[7])', 'sociology project 3(Project[17])'	['question_type_global', 'question_three_hop_statement']
+What is [math homework 1(Homework[8])] on?	'clustering'	['question_type_local']
+show me the assignments due on [February 05]	'sociology homework 1(Homework[7])'	['question_type_global', 'question_two_hop_statement']
+How many points is [biology project 1(Project[3])] worth?	16	['question_type_local']
+[algebra homework 2(Homework[15])] is due on [February 18]
+what are all the homeworks due for [Tom]?	'math homework 1(Homework[8])'	['question_type_global', 'question_three_hop_statement']
+what projects did i submit for [Igor]?	'sociology project 1(Project[4])', 'sociology project 2(Project[6])', 'sociology project 3(Project[17])'	['question_type_global', 'question_three_hop_statement']
+what did I get on [biology homework 3(Homework[16])]?	29	['question_type_local']
+list assignments that are due on [February 20]	'biology project 2(Project[10])'	['question_type_global', 'question_two_hop_statement']
+list all assignments for [Igor]	'sociology project 1(Project[4])', 'sociology project 2(Project[6])', 'sociology homework 1(Homework[7])', 'sociology project 3(Project[17])'	['question_type_global', 'question_three_hop_statement']
+The deadline of [algebra homework 2(Homework[15])] moved to [February 18]
+what did I get on [sociology homework 1(Homework[7])]?	49	['question_type_local']
+what assignments do I have to do for [Hiram]?	'algebra homework 1(Homework[1])', 'algebra project 1(Project[2])', 'algebra project 2(Project[9])', 'algebra homework 2(Homework[15])'	['question_type_global', 'question_three_hop_statement']
+what homeworks did i submit for [Igor]?	'sociology homework 1(Homework[7])'	['question_type_global', 'question_three_hop_statement']
+[algebra homework 3(Homework[19])] is released for [algebra(Course[1])]
+I submitted [algebra homework 3(Homework[19])]
+The deadline of [that assignment(Homework[19])] is [February 22]
+[this assignment(Homework[19])] is [46] points
+[sociology project 4(Project[20])] is out for [sociology(Course[2])]
+there is a new [project(Project[21])] for [math(Course[4])]
+[sociology project 4(Project[20])] is due on [March 14]

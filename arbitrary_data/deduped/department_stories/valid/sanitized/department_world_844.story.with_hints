@@ -1,0 +1,136 @@
+[Gabrielle(MastersStudent[1])] is a masters student
+[that student(MastersStudent[1])] is affiliated with the [english] department
+there is a [teaching] [professor] named [Alverta(Professor[2])]
+[that professor(Professor[2])] is on sabbatical
+there is a [professor] named [Emma(Professor[3])]
+[Emma(Professor[3])] is in [Lesser House]
+[that professor(Professor[3])] went on sabbatical
+[Alverta(Professor[2])] is in [Hale Building]
+[Alverta(Professor[2])] is not on sabbatical anymore
+create a [assistant] [professor] named [Casey(Professor[4])]
+[he(Professor[4])] conducts research in [programming languages]
+[Casey(Professor[4])] is in [Muenzinger Building]
+Who is part of the [english] department	'Gabrielle(MastersStudent[1])'	['question_type_global', 'question_single_statement']
+Which people are in the [english] department?	'Gabrielle(MastersStudent[1])'	['question_type_global', 'question_single_statement']
+create a [associate] [professor] named [Milagros(Professor[5])]
+[he(Professor[4])] is now on sabbatical
+[she(Professor[5])]'s office is [Muenzinger Building]
+What is [Casey(Professor[4])]'s office?	'Muenzinger Building'	['question_type_local']
+there is a new PhD student named [Eun(PhdStudent[6])]
+[Milagros(Professor[5])] is now on sabbatical
+[this professor(Professor[5])] conducts research in [programming languages]
+[Milagros(Professor[5])] advises [Eun(PhdStudent[6])]
+there is a [full] [professor] named [Albertha(Professor[7])]
+[this student(PhdStudent[6])] has failed the thesis proposal exam
+[Emma(Professor[3])] conducts research in [programming languages]
+What professors are in Muenzinger Building	'Casey(Professor[4])', 'Milagros(Professor[5])'	['question_type_global', 'question_two_hop_statement']
+Create a new [phd] level course called [G9000(Course[1])]
+[Eun(PhdStudent[6])] is a student in [G9000(Course[1])]
+The TA for [that course(Course[1])] is [Gabrielle(MastersStudent[1])]
+What students are going to TA [this course(Course[1])]?	'Gabrielle(MastersStudent[1])'	['question_type_local']
+there is a new masters student named [Michael(MastersStudent[8])]
+Create a new [phd] course called [G7000(Course[2])]
+[Michael(MastersStudent[8])] is TAing [G7000(Course[2])]
+[Eun(PhdStudent[6])] is a student in [this course(Course[2])]
+Which people are in the [english] department?	'Gabrielle(MastersStudent[1])'	['question_type_global', 'question_single_statement']
+There is a [phd] course called [G102(Course[3])]
+[this course(Course[3])] is taught by [Casey(Professor[4])]
+The TA for [that class(Course[3])] is [Eun(PhdStudent[6])]
+there is a new [fifth year] PhD student named [Angelita(PhdStudent[9])]
+[Eun(PhdStudent[6])] has passed the qualifying exam
+Which courses did [Eun(PhdStudent[6])] enroll in?	'G9000(Course[1])', 'G7000(Course[2])'	['question_type_local']
+[Angelita(PhdStudent[9])] is [Milagros(Professor[5])]'s student
+Who is [that student(PhdStudent[9])]'s advisor?	'Milagros'	['question_type_local']
+there is a new masters student named [Isaiah(MastersStudent[10])]
+[he(MastersStudent[10])] is affiliated with the [math] department
+What office is [Emma(Professor[3])] in?	'Lesser House'	['question_type_local']
+there is a new PhD student named [Hiram(PhdStudent[11])]
+there is a new masters student named [Zenaida(MastersStudent[12])]
+the affiliation of [she(MastersStudent[12])] is [english]
+What courses is [Casey(Professor[4])] teaching?	'G102(Course[3])'	['question_type_local']
+there is a PhD student named [Hanna(PhdStudent[13])]
+[Hanna(PhdStudent[13])] is funded
+[this student(PhdStudent[13])] is current in [first year]
+[Hanna(PhdStudent[13])] passed the qualifiers
+[that student(PhdStudent[13])] passed thesis proposal
+What office is [Casey(Professor[4])] in?	'Muenzinger Building'	['question_type_local']
+What is [Emma(Professor[3])]'s research focus?	'programming languages'	['question_type_local']
+there is a new [third year] PhD student named [Charlott(PhdStudent[14])]
+[Charlott(PhdStudent[14])] is funded
+Create a new [phd] level [mini course] called [U201(Course[4])]
+[that class(Course[4])] is a 8 unit course
+[Charlott(PhdStudent[14])] is TAing [this course(Course[4])]
+Which professors currently on sabbatical are supposed to be teaching [phd] courses?	'Casey(Professor[4])'	['question_type_global', 'question_three_hop_statement']
+[Michael(MastersStudent[8])] is attending [G7000(Course[2])]
+[this course(Course[2])] is set up as a full semester course
+[that class(Course[2])] has 8 units
+[Hanna(PhdStudent[13])] and [Hiram(PhdStudent[11])] are [Casey(Professor[4])]'s student
+What courses is [Casey(Professor[4])] teaching?	'G102(Course[3])'	['question_type_local']
+Which professors have offices in Muenzinger Building	'Casey(Professor[4])', 'Milagros(Professor[5])'	['question_type_global', 'question_two_hop_statement']
+[he(PhdStudent[11])] has failed the qualifying exam
+[this person(PhdStudent[11])] passed thesis defense
+[he(PhdStudent[11])] is funded
+[that student(PhdStudent[11])] passed the qualifiers
+[this person(PhdStudent[11])] is a [fifth year] student
+[Charlott(PhdStudent[14])] is [Casey(Professor[4])]'s student
+Who has an office in [Lesser House]	'Emma(Professor[3])'	['question_type_global', 'question_two_hop_statement']
+Create a new course called [U9000(Course[5])]
+[Emma(Professor[3])] teaches [U9000(Course[5])]
+[Hiram(PhdStudent[11])] and [Hanna(PhdStudent[13])] are TAs for [U9000(Course[5])]
+[Hanna(PhdStudent[13])] successfully defended their thesis
+There is a [masters] [full_semester_course] called [U310(Course[6])]
+[Michael(MastersStudent[8])] is attending [this course(Course[6])]
+[Milagros(Professor[5])] teaches [U310(Course[6])]
+Which phd students taking the G9000 course	'Eun(PhdStudent[6])'	['question_type_global', 'question_two_hop_statement']
+Create a new [phd] course called [G305(Course[7])]
+Which students are taking [G7000(Course[2])]?	'Eun(PhdStudent[6])', 'Michael(MastersStudent[8])'	['question_type_local']
+Who has an office in [Muenzinger Building]	'Casey(Professor[4])', 'Milagros(Professor[5])'	['question_type_global', 'question_two_hop_statement']
+[Angelita(PhdStudent[9])] and [Zenaida(MastersStudent[12])] are both enrolled in [U310(Course[6])]
+What professors are in Muenzinger Building	'Casey(Professor[4])', 'Milagros(Professor[5])'	['question_type_global', 'question_two_hop_statement']
+There is a [undergraduate] course called [U101(Course[8])]
+[Albertha(Professor[7])] is the instructor for [that class(Course[8])]
+[Hanna(PhdStudent[13])] and [Charlott(PhdStudent[14])] are both taking [this course(Course[8])]
+[Charlott(PhdStudent[14])] has passed the qualifying exam
+What are the courses TAed by [this person(PhdStudent[14])]?	'U201(Course[4])'	['question_type_local']
+What students are taking U310	'Michael(MastersStudent[8])', 'Angelita(PhdStudent[9])', 'Zenaida(MastersStudent[12])'	['question_type_global', 'question_single_statement']
+Who has an office in [Hale Building]	'Alverta(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+[Charlott(PhdStudent[14])] is in [fourth year]
+[that person(PhdStudent[14])] has passed the thesis defense
+[Charlott(PhdStudent[14])] is now a [fifth year] student
+There is a [undergraduate] level [full_semester_course] called [G202(Course[9])]
+Which professors currently on sabbatical are supposed to be teaching [phd] courses?	'Casey(Professor[4])'	['question_type_global', 'question_three_hop_statement']
+Which professors have offices in Lesser House	'Emma(Professor[3])'	['question_type_global', 'question_two_hop_statement']
+[that class(Course[9])] will be a 2 unit course
+[Michael(MastersStudent[8])] and [Hanna(PhdStudent[13])] are taking [G202(Course[9])]
+[Casey(Professor[4])] is not on sabbatical anymore
+Which students are part of the [english] department	'Gabrielle(MastersStudent[1])', 'Zenaida(MastersStudent[12])'	['question_type_global', 'question_two_hop_statement']
+What professors are in Muenzinger Building	'Casey(Professor[4])', 'Milagros(Professor[5])'	['question_type_global', 'question_two_hop_statement']
+What professors are in Lesser House	'Emma(Professor[3])'	['question_type_global', 'question_two_hop_statement']
+[Alverta(Professor[2])] is the instructor for [G7000(Course[2])]
+[Angelita(PhdStudent[9])] is enrolled in [G7000(Course[2])]
+What courses is [Albertha(Professor[7])] teaching?	'U101(Course[8])'	['question_type_local']
+[Zenaida(MastersStudent[12])] is a student in [this course(Course[2])]
+[U201(Course[4])] is TAed by [Isaiah(MastersStudent[10])] and [this person(MastersStudent[12])]
+Create a new course called [U202(Course[10])]
+Create a new [phd] course called [U102(Course[11])]
+[U102(Course[11])] is set up as a full semester course
+[Angelita(PhdStudent[9])] is a TA for [that class(Course[11])]
+[Michael(MastersStudent[8])] is a student in [that course(Course[11])]
+[that class(Course[11])] has 12 units
+[Charlott(PhdStudent[14])] has [Alverta(Professor[2])] on the committee
+[that student(PhdStudent[14])] passed thesis proposal
+[G9000(Course[1])] is set up as a full semester course
+[Isaiah(MastersStudent[10])] and [Michael(MastersStudent[8])] are taking [this course(Course[1])]
+What courses is [Zenaida(MastersStudent[12])] TAing?	'U201(Course[4])'	['question_type_local']
+Who is in [Lesser House]	'Emma(Professor[3])'	['question_type_global', 'question_two_hop_statement']
+[Michael(MastersStudent[8])] is affiliated with the [math] department
+Who is in [Muenzinger Building]	'Casey(Professor[4])', 'Milagros(Professor[5])'	['question_type_global', 'question_two_hop_statement']
+[Alverta(Professor[2])] research interest is in [programming languages]
+Which courses did [Isaiah(MastersStudent[10])] enroll in?	'G9000(Course[1])'	['question_type_local']
+Create a new [undergraduate] level course called [U302(Course[12])]
+[U302(Course[12])] is full semester
+Which masters students taking the G7000 course	'Michael(MastersStudent[8])', 'Zenaida(MastersStudent[12])'	['question_type_global', 'question_two_hop_statement']
+[that class(Course[12])] is a 4 unit course
+Who is TAing [U102(Course[11])]?	'Angelita(PhdStudent[9])'	['question_type_local']
+[Isaiah(MastersStudent[10])] is a student in [that course(Course[12])]
+What masters students are taking G7000	'Michael(MastersStudent[8])', 'Zenaida(MastersStudent[12])'	['question_type_global', 'question_two_hop_statement']

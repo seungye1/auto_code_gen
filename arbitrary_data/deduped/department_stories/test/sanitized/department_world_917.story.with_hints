@@ -1,0 +1,145 @@
+Create a new course called [G101(Course[1])]
+[that class(Course[1])] is a [undergraduate] level course
+there is a masters student named [Michael(MastersStudent[1])]
+[that course(Course[1])] is offered in the [asian studies] department
+[that class(Course[1])] is not a pass-fail course
+create a [assistant] [professor] named [Danita(Professor[2])]
+[this professor(Professor[2])] conducts research in [molecular biology]
+Create a new course called [G8001(Course[2])]
+[that course(Course[2])] is a full semester course
+[Michael(MastersStudent[1])] is enrolled in [G8001(Course[2])]
+there is a PhD student named [Stephine(PhdStudent[3])]
+[fifth year] is a [Cyndi(PhdStudent[4])] PhD student
+[Danita(Professor[2])] is on [Stephine(PhdStudent[3])]'s committee
+[Tawnya(MastersStudent[5])] is a masters student
+[that professor(Professor[2])]'s office is [Ward Building]
+[that professor(Professor[2])] advises [Cyndi(PhdStudent[4])]
+[that professor(Professor[2])] advises [Stephine(PhdStudent[3])]
+Who is in [Ward Building]	'Danita(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+[G101(Course[1])] is set up as a full semester course
+there is a new masters student named [Andy(MastersStudent[6])]
+[Cyndi(PhdStudent[4])] is TAing [G101(Course[1])]
+[Danita(Professor[2])] is the instructor for [G101(Course[1])]
+[Stephine(PhdStudent[3])] is attending [that class(Course[1])]
+[Cyndi(PhdStudent[4])] has passed the thesis proposal exam
+[Cyndi(PhdStudent[4])]'s office is [Hallems Building]
+Who is taking the G101 course	'Stephine(PhdStudent[3])'	['question_type_global', 'question_single_statement']
+[this student(PhdStudent[4])] has passed the qualifying exam
+There is a [phd] level 4 unit course called [U102(Course[3])]
+[that class(Course[3])] is under the [psychology] department
+[Tawnya(MastersStudent[5])] is taking [U102(Course[3])]
+there is a [fourth year] PhD student named [John(PhdStudent[7])]
+[John(PhdStudent[7])] passed the qualifiers
+[this person(PhdStudent[7])] passed thesis proposal
+Create a new course called [G102(Course[4])]
+[that student(PhdStudent[7])] is in [Economics Building]
+[this student(PhdStudent[7])] is in [fifth year]
+[G102(Course[4])] is a course in the [psychology] department
+[that course(Course[4])] will be a 8 unit course
+[G102(Course[4])] is a [phd] level course
+What courses is [Tawnya(MastersStudent[5])] taking?	'U102(Course[3])'	['question_type_local']
+[Cyndi(PhdStudent[4])] is in [sixth year]
+[Loyd(PhdStudent[8])] is a PhD student
+Create a new course called [U610(Course[5])]
+[he(PhdStudent[8])] passed the qualifiers
+[that course(Course[5])] is set up as a full semester course
+[this course(Course[5])] is 8 units
+[Tawnya(MastersStudent[5])] is a TA for [that class(Course[5])]
+[Stephine(PhdStudent[3])] is a student in [U610(Course[5])]
+create a [professor] named [Britney(Professor[9])]
+[that professor(Professor[9])] research interest is in [molecular biology]
+Create a new course called [U202(Course[6])]
+[that professor(Professor[9])]'s office is [Muenzinger Building]
+[John(PhdStudent[7])] is [Britney(Professor[9])]'s student
+[G102(Course[4])] will be a full semester course
+[G102(Course[4])] is TAed by [Michael(MastersStudent[1])] and [Loyd(PhdStudent[8])]
+Which courses are TAed by [Tawnya(MastersStudent[5])]?	'U610(Course[5])'	['question_type_local']
+Who is in [Hallems Building]	'Cyndi(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+create a [assistant] [professor] named [Ashly(Professor[10])]
+[he(PhdStudent[8])]'s office is [Ward Building]
+Which department is [that student(PhdStudent[8])] in?	"I don't know"	['question_type_local']
+There is a [phd] level course called [U301(Course[7])]
+[that person(PhdStudent[8])] successfully defended their thesis
+[Ashly(Professor[10])] is on [Loyd(PhdStudent[8])]'s committee
+[that student(PhdStudent[8])] is a [fifth year] student
+[G102(Course[4])] is taught by [Ashly(Professor[10])]
+What is [Danita(Professor[2])]'s office?	'Ward Building'	['question_type_local']
+Create a new course called [U204(Course[8])]
+[this course(Course[8])] is a pass-fail course
+there is a masters student named [Luanna(MastersStudent[11])]
+[Luanna(MastersStudent[11])] and [John(PhdStudent[7])] are TAs for [U204(Course[8])]
+[Stephine(PhdStudent[3])] is a TA for [U610(Course[5])]
+[Michael(MastersStudent[1])] and [Loyd(PhdStudent[8])] are both taking [U610(Course[5])]
+Create a new course called [U104(Course[9])]
+[Loyd(PhdStudent[8])] passed thesis proposal
+[Andy(MastersStudent[6])] is a TA for [that course(Course[9])]
+[Luanna(MastersStudent[11])] and [that person(MastersStudent[6])] are both enrolled in [that course(Course[9])]
+Which courses in the psychology department are TAed by phd students?	'G102(Course[4])'	['question_type_global', 'question_three_hop_statement']
+[asian studies] offers [U104(Course[9])]
+Which courses did [Luanna(MastersStudent[11])] enroll in?	'U104(Course[9])'	['question_type_local']
+[this course(Course[9])] is a [masters] level course
+What is [Danita(Professor[2])]'s office?	'Ward Building'	['question_type_local']
+Which courses in the asian studies department are TAed by masters students?	'U104(Course[9])'	['question_type_global', 'question_three_hop_statement']
+Create a new course called [G201(Course[10])]
+[Britney(Professor[9])] is the instructor for [U104(Course[9])]
+Who advises [John(PhdStudent[7])]?	'Britney'	['question_type_local']
+[G101(Course[1])] has 4 units
+Who is teaching [G101(Course[1])]?	'Danita(Professor[2])'	['question_type_local']
+[Danita(Professor[2])] is now on sabbatical
+[this professor(Professor[2])] advises [Loyd(PhdStudent[8])]
+[Loyd(PhdStudent[8])] has [Britney(Professor[9])] on the committee
+What is [Britney(Professor[9])] research area?	'molecular biology'	['question_type_local']
+[that professor(Professor[9])] went on sabbatical
+What courses is [that person(Professor[9])] teaching?	'U104(Course[9])'	['question_type_local']
+Which courses in the asian studies department are TAed by phd students?	'G101(Course[1])'	['question_type_global', 'question_three_hop_statement']
+For which phd students does [this professor(Professor[9])] serve on a committee?	'Loyd(PhdStudent[8])'	['question_type_local']
+What courses is [Luanna(MastersStudent[11])] TAing?	'U204(Course[8])'	['question_type_local']
+[U610(Course[5])] is offered in the [psychology] department
+[Cyndi(PhdStudent[4])] and [Luanna(MastersStudent[11])] are taking [U610(Course[5])]
+What students are enrolled in [U102(Course[3])]?	'Tawnya(MastersStudent[5])'	['question_type_local']
+What courses is [Luanna(MastersStudent[11])] TAing?	'U204(Course[8])'	['question_type_local']
+Who is on [Stephine(PhdStudent[3])]'s committee?	'Danita(Professor[2])'	['question_type_local']
+What students are in Ward Building	'Loyd(PhdStudent[8])'	['question_type_global', 'question_two_hop_statement']
+[Cyndi(PhdStudent[4])] has passed the thesis defense
+Which courses did [Tawnya(MastersStudent[5])] enroll in?	'U102(Course[3])'	['question_type_local']
+[Cyndi(PhdStudent[4])] has [Britney(Professor[9])] and [Ashly(Professor[10])] on the committee
+[Ashly(Professor[10])] went on sabbatical
+[this professor(Professor[10])] is in [Muenzinger Building]
+Who has [Ashly(Professor[10])] on their phd committee?	'Cyndi(PhdStudent[4])', 'Loyd(PhdStudent[8])'	['question_type_local']
+[that professor(Professor[10])] research interest is in [molecular biology]
+What is [Danita(Professor[2])]'s office?	'Ward Building'	['question_type_local']
+[U204(Course[8])] has 8 units
+Which department is [U610(Course[5])] part of?	'psychology'	['question_type_local']
+What is [Britney(Professor[9])]'s research focus?	'molecular biology'	['question_type_local']
+What courses is [Danita(Professor[2])] teaching?	'G101(Course[1])'	['question_type_local']
+Which courses in the asian studies department are TAed by phd students?	'G101(Course[1])'	['question_type_global', 'question_three_hop_statement']
+[that course(Course[8])] is offered in the [psychology] department
+Who is currently TAing [U204(Course[8])]?	'John(PhdStudent[7])', 'Luanna(MastersStudent[11])'	['question_type_local']
+Which professors have offices in Ward Building	'Danita(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+[Tawnya(MastersStudent[5])] and [Stephine(PhdStudent[3])] are attending [that course(Course[8])]
+[U204(Course[8])] is set up as a full semester course
+[that class(Course[8])] is a [undergraduate] course
+[John(PhdStudent[7])] has failed thesis defense
+What courses is [Loyd(PhdStudent[8])] taking?	'U610(Course[5])'	['question_type_local']
+Which [fifth year] students are advised by professors working on [molecular biology]?	'John(PhdStudent[7])', 'Loyd(PhdStudent[8])'	['question_type_global', 'question_three_hop_statement']
+[U104(Course[9])] is a pass-fail course
+Who has an office in [Hallems Building]	'Cyndi(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+What are the courses TAed by [Tawnya(MastersStudent[5])]?	'U610(Course[5])'	['question_type_local']
+[John(PhdStudent[7])] has passed the thesis defense
+[that student(PhdStudent[7])] is in [sixth year]
+[U104(Course[9])] is a full semester course
+[Tawnya(MastersStudent[5])] is attending [U104(Course[9])]
+What students are in Hallems Building	'Cyndi(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+Who is [Cyndi(PhdStudent[4])]'s advisor?	'Danita'	['question_type_local']
+What is [Britney(Professor[9])]'s research focus?	'molecular biology'	['question_type_local']
+[that class(Course[9])] is 2 units
+Who is teaching [G101(Course[1])]?	'Danita(Professor[2])'	['question_type_local']
+What students are in Economics Building	'John(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+What department is [G102(Course[4])] offered in?	'psychology'	['question_type_local']
+What office is [Danita(Professor[2])] in?	'Ward Building'	['question_type_local']
+[Stephine(PhdStudent[3])] passed the qualifiers
+[that student(PhdStudent[3])] is current in [fifth year]
+What courses is [Tawnya(MastersStudent[5])] taking?	'U102(Course[3])', 'U204(Course[8])', 'U104(Course[9])'	['question_type_local']
+What courses is [Michael(MastersStudent[1])] TAing?	'G102(Course[4])'	['question_type_local']
+What department is [U610(Course[5])] offered in?	'psychology'	['question_type_local']
+[Stephine(PhdStudent[3])] is in [Hallems Building]

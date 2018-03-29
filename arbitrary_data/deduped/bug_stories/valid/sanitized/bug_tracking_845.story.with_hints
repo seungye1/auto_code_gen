@@ -1,0 +1,111 @@
+there is a new [knowledge base(Project[1])] [project]
+[knowledge base project(Project[1])] is a [platform] project
+[that project(Project[1])] is in the stage of [implementation]
+[that project(Project[1])] is in the stage of [evaluation]
+[timeout problem] is a new issue for the [this project(Project[1])]
+[that project(Project[1])] has moved to the [deployment] stage
+[knowledge base project(Project[1])] is in the [evaluation] stage
+[that project(Project[1])] is in the [deployment] stage
+[Angelita(Tester[1])] is a [tester] on [this project(Project[1])]
+[that project(Project[1])] is in the [evaluation] stage
+[Cyndi(Developer[2])] is a [developer]
+[Loyd(Developer[3])] is a [developer] on [knowledge base project(Project[1])]
+[knowledge base project(Project[1])] is assigned to [Cyndi(Developer[2])]
+there is a new [chatbot(Project[2])] [project]
+There is a new [enhancement] for the [chatbot project(Project[2])]: [initialization broken]
+[Loyd(Developer[3])] is working on [that project(Project[2])] also
+[Cyndi(Developer[2])] is assigned to [chatbot project(Project[2])] also
+[Angelita(Tester[1])] is assigned to [chatbot project(Project[2])] also
+[it(Project[2])] is a [open source] project
+[it(Project[2])] is in the stage of [evaluation]
+[Loyd(Developer[3])] submitted a new [proposal] for [that project(Project[2])]: [two consecutive dates identified as single date]
+[Kristeen(Developer[4])] is a [developer]
+[the issue(Issue[3])] was assigned to [Loyd(Developer[3])]
+[this developer(Developer[3])] resolved [the two consecutive dates identified as single date issue(Issue[3])]
+there is a new [open source] [mobile(Project[3])] [project]
+[mobile project(Project[3])] is currently in the [implementation] stage
+[it(Project[3])] is assigned to [Angelita(Tester[1])] also
+[Tawnya(Developer[5])] is a [developer] on [mobile project(Project[3])]
+[Cyndi(Developer[2])] created a new issue for [knowledge base project(Project[1])]: [svd is slow]
+[the issue(Issue[4])] was assigned to [Loyd(Developer[3])]
+[chatbot project(Project[2])] has moved to the [implementation] stage
+[mobile project(Project[3])] is assigned to [this person(Developer[3])] also
+[Loyd(Developer[3])] created a new [enhancement] for [chatbot project(Project[2])]: [null pointer exception during parsing]
+[the null pointer exception during parsing issue(Issue[5])] is assigned to [Cyndi(Developer[2])]
+[that person(Developer[2])] resolved [the null pointer exception during parsing enhancement(Issue[5])]
+[mobile project(Project[3])] is assigned to [that person(Developer[2])] also
+[chatbot project(Project[2])] has moved to the [evaluation] stage
+[Loyd(Developer[3])] submitted a new [enhancement] for [knowledge base project(Project[1])]: [xml extractor exception]
+[that issue(Issue[6])] is assigned to [Cyndi(Developer[2])]
+[this person(Developer[2])] created a new issue for [mobile project(Project[3])]: [memory leak while reading tf records]
+[Roslyn(Tester[6])] is a [tester]
+[this issue(Issue[7])] is assigned to [Cyndi(Developer[2])]
+[this person(Developer[2])] resolved [this issue(Issue[7])]
+[John(Developer[7])] is a [developer] on [mobile project(Project[3])]
+[Loyd(Developer[3])] created a new issue for [mobile project(Project[3])]: [fails with apache stack]
+[the issue(Issue[8])] is assigned to [Tawnya(Developer[5])]
+[Peggy(Developer[8])] is a [developer]
+[knowledge base project(Project[1])] is assigned to [Tawnya(Developer[5])] also
+Who submitted [the null pointer exception during parsing enhancement(Issue[5])]?	'Loyd(Developer[3])'	['question_type_local']
+[chatbot project(Project[2])] is assigned to [Tawnya(Developer[5])] also
+Are there any issues submitted by [Loyd(Developer[3])] that are not resolved?	'xml extractor exception(Issue[6])', 'fails with apache stack(Issue[8])'	['question_type_local']
+[changelong needs to be added] is a new issue for the [this project(Project[2])]
+[that project(Project[2])] has moved to the [development] stage
+[knowledge base project(Project[1])] is in the stage of [implementation]
+Who submitted [the enhancement that was last added(Issue[6])]?	'Loyd(Developer[3])'	['question_type_local']
+[Cyndi(Developer[2])] resolved [the enhancement that was last added(Issue[6])]
+Who submitted [the null pointer exception during parsing enhancement(Issue[5])]?	'Loyd(Developer[3])'	['question_type_local']
+[that developer(Developer[2])] is no longer assigned to [knowledge base project(Project[1])]
+[that project(Project[1])] is assigned to [Cyndi(Developer[2])] also
+[knowledge base project(Project[1])] is not assigned to [Angelita(Tester[1])]
+[this person(Tester[1])] is working on [that project(Project[1])] also
+[Angelita(Tester[1])] is no longer assigned to [chatbot project(Project[2])]
+[that person(Tester[1])] is working on [chatbot project(Project[2])] also
+[Loyd(Developer[3])] resolved [the svd is slow issue(Issue[4])]
+[knowledge base project(Project[1])] has moved to the [evaluation] stage
+[the timeout problem issue(Issue[1])] is assigned to [Angelita(Tester[1])]
+[that person(Tester[1])] resolved [that issue(Issue[1])]
+Who submitted [the issue(Issue[1])]?	"I don't know"	['question_type_local']
+[mobile project(Project[3])] is not assigned to [this test engineer(Tester[1])]
+[she(Tester[1])] is working on [this project(Project[3])] also
+[Tawnya(Developer[5])] resolved [the fails with apache stack issue(Issue[8])]
+Who submitted [this issue(Issue[8])]?	'Loyd(Developer[3])'	['question_type_local']
+[the initialization broken issue(Issue[2])] was assigned to [Loyd(Developer[3])]
+[Loyd(Developer[3])] resolved [the issue(Issue[2])]
+[this developer(Developer[3])] is not working on [chatbot project(Project[2])] anymore
+[this developer(Developer[3])] is assigned to [that project(Project[2])] also
+Who is [the timeout problem issue(Issue[1])] assigned to?	'Angelita(Tester[1])'	['question_type_local']
+[chatbot project(Project[2])] is not assigned to [Loyd(Developer[3])]
+[chatbot project(Project[2])] is assigned to [that person(Developer[3])] also
+[chatbot project(Project[2])] is in the stage of [implementation]
+[knowledge base project(Project[1])] is assigned to [Roslyn(Tester[6])]
+[that person(Tester[6])] is assigned to [chatbot project(Project[2])] also
+[that project(Project[2])] is in the stage of [deployment]
+[chatbot project(Project[2])] is in the [evaluation] stage
+[it(Project[2])] has moved to the [implementation] stage
+[knowledge base project(Project[1])] has moved to the [deployment] stage
+[Tawnya(Developer[5])] is not working on [chatbot project(Project[2])] anymore
+[it(Project[2])] has moved to the [development] stage
+[chatbot project(Project[2])] has moved to the [evaluation] stage
+[it(Project[2])] is in the stage of [implementation]
+[mobile project(Project[3])] is now in the [development] stage
+[mobile project(Project[3])] is not assigned to [Loyd(Developer[3])]
+[he(Developer[3])] is assigned to [mobile project(Project[3])] also
+[this project(Project[3])] is not assigned to [Loyd(Developer[3])]
+[it(Project[3])] is in the stage of [implementation]
+[Cyndi(Developer[2])] is not working on [mobile project(Project[3])] anymore
+[this person(Developer[2])] is assigned to [it(Project[3])] also
+[that project(Project[3])] has moved to the [evaluation] stage
+[the changelong needs to be added issue(Issue[9])] is assigned to [Angelita(Tester[1])]
+Who is [the null pointer exception during parsing enhancement(Issue[5])] assigned to?	'Cyndi(Developer[2])'	['question_type_local']
+[chatbot project(Project[2])] is not assigned to [this test engineer(Tester[1])]
+[chatbot project(Project[2])] is assigned to [Angelita(Tester[1])] also
+[knowledge base project(Project[1])] is not assigned to [Angelita(Tester[1])]
+[she(Tester[1])] is working on [this project(Project[1])] also
+[Loyd(Developer[3])] is working on [mobile project(Project[3])] also
+[this person(Developer[3])] is no longer assigned to [knowledge base project(Project[1])]
+Who was [the enhancement that was last added(Issue[6])] assigned to?	'Cyndi(Developer[2])'	['question_type_local']
+[he(Developer[3])] is working on [knowledge base project(Project[1])] also
+[mobile project(Project[3])] is not assigned to [Loyd(Developer[3])]
+[this project(Project[3])] is assigned to [that developer(Developer[3])] also
+Who created [the null pointer exception during parsing enhancement(Issue[5])]?	'Loyd(Developer[3])'	['question_type_local']

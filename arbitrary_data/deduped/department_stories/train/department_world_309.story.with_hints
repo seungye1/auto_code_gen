@@ -1,0 +1,228 @@
+there is a [professor] named [William(Professor[1])]
+[he(Professor[1])] is an [distinguished] professor
+What is [that person(Professor[1])]'s department?	"I don't know"	['question_type_local']
+[William(Professor[1])] received funding
+[this person(Professor[1])]'s research interest is [molecular biology]
+there is a [fifth year] PhD student named [Igor(PhdStudent[2])]
+[this student(PhdStudent[2])] passed thesis defense
+[this person(PhdStudent[2])] is now in [sixth year]
+[this person(PhdStudent[2])] has passed the qualifying exam
+What are the courses TAed by [he(PhdStudent[2])]?	"I don't know"	['question_type_local']
+[Igor(PhdStudent[2])] has passed the thesis proposal exam
+create a [professor] named [Andrew(Professor[3])]
+[Andrew(Professor[3])]'s research interest is [cold fusion]
+[Igor(PhdStudent[2])] is [Andrew(Professor[3])]'s student
+Which professors are conducting research in [cold fusion]	'Andrew(Professor[3])'	['question_type_global', 'question_single_statement']
+who are the phd students?	'Igor(PhdStudent[2])'	['question_type_global', 'question_single_statement']
+there is a masters student named [Albertha(MastersStudent[4])]
+Which [sixth year] students are advised by professors working on [cold fusion]?	'Igor(PhdStudent[2])'	['question_type_global', 'question_three_hop_statement']
+Who are the professors working on [cold fusion]?	'Andrew(Professor[3])'	['question_type_global', 'question_single_statement']
+Who advises [he(PhdStudent[2])]?	'Andrew'	['question_type_local']
+who are the students?	'Igor(PhdStudent[2])', 'Albertha(MastersStudent[4])'	['question_type_global', 'question_single_statement']
+[he(PhdStudent[2])] currently has funding
+Who advises [Igor(PhdStudent[2])]?	'Andrew'	['question_type_local']
+[Igor(PhdStudent[2])] has [William(Professor[1])] on the committee
+there is a new [third year] PhD student named [Danita(PhdStudent[5])]
+[this student(PhdStudent[5])] has passed the qualifying exam
+Which students are in their [third year]	'Danita(PhdStudent[5])'	['question_type_global', 'question_single_statement']
+Create a new course called [U301(Course[1])]
+[Danita(PhdStudent[5])] is in [fourth year]
+[Igor(PhdStudent[2])] is enrolled in [U301(Course[1])]
+Who are the [distinguished] professors?	'William(Professor[1])'	['question_type_global', 'question_single_statement']
+[that class(Course[1])] is part of the [mechanical engineering] department
+[that course(Course[1])] is a [undergraduate] level course
+[Danita(PhdStudent[5])] and [Albertha(MastersStudent[4])] are both taking [U301(Course[1])]
+[Andrew(Professor[3])] teaches [U301(Course[1])]
+What students are enrolled in [U301(Course[1])]?	'Igor(PhdStudent[2])', 'Albertha(MastersStudent[4])', 'Danita(PhdStudent[5])'	['question_type_local']
+Which students's advisors are conducting research in [cold fusion]	'Igor(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+Which department is [that course(Course[1])] part of?	'mechanical engineering'	['question_type_local']
+[Albertha(MastersStudent[4])] is TAing [U301(Course[1])]
+[that person(MastersStudent[4])] and [Igor(PhdStudent[2])] are taking [this course(Course[1])]
+[Andrew(Professor[3])] is an [full] professor
+What courses is [this professor(Professor[3])] teaching?	'U301(Course[1])'	['question_type_local']
+Who is teaching [U301(Course[1])]?	'Andrew(Professor[3])'	['question_type_local']
+Which [sixth year] students are advised by professors working on [cold fusion]?	'Igor(PhdStudent[2])'	['question_type_global', 'question_three_hop_statement']
+For which phd students does [William(Professor[1])] serve on a committee?	'Igor(PhdStudent[2])'	['question_type_local']
+Who are the [fourth year] students?	'Danita(PhdStudent[5])'	['question_type_global', 'question_single_statement']
+What are all the courses in the mechanical engineering department?	'U301(Course[1])'	['question_type_global', 'question_two_hop_statement']
+who are the students?	'Igor(PhdStudent[2])', 'Albertha(MastersStudent[4])', 'Danita(PhdStudent[5])'	['question_type_global', 'question_single_statement']
+There is a [undergraduate] [full_semester_course] called [G310(Course[2])]
+[Andrew(Professor[3])] is now an [distinguished] professor
+[Danita(PhdStudent[5])] is [Andrew(Professor[3])]'s student
+Who advises [she(PhdStudent[5])]?	'Andrew'	['question_type_local']
+What are the [undergraduate] courses?	'U301(Course[1])', 'G310(Course[2])'	['question_type_global', 'question_single_statement']
+Who are [this professor(Professor[3])]'s students?	'Igor(PhdStudent[2])', 'Danita(PhdStudent[5])'	['question_type_local']
+there is a PhD student named [John(PhdStudent[6])]
+[Danita(PhdStudent[5])] failed their thesis defense
+Which [distinguished] professors advise students who passed their qualifying exam?	'Andrew(Professor[3])'	['question_type_global', 'question_three_hop_statement']
+[he(PhdStudent[6])] is current in [sixth year]
+What [distinguished] professors advise students who passed their thesis proposal?	'Andrew(Professor[3])'	['question_type_global', 'question_three_hop_statement']
+Which courses are part of the [mechanical engineering] department	'U301(Course[1])'	['question_type_global', 'question_single_statement']
+What [distinguished] professors advise students who passed their thesis qualifiers?	'Andrew(Professor[3])'	['question_type_global', 'question_three_hop_statement']
+what [undergraduate] courses have phd students taking them?	'U301(Course[1])'	['question_type_global', 'question_three_hop_statement']
+[Igor(PhdStudent[2])] and [Albertha(MastersStudent[4])] are both taking [U301(Course[1])]
+create a [assistant] [professor] named [Marisela(Professor[7])]
+[Marisela(Professor[7])] advises [John(PhdStudent[6])]
+Which [fourth year] students's advisors are conducting research in [cold fusion]	'Danita(PhdStudent[5])'	['question_type_global', 'question_three_hop_statement']
+There is a [masters] level 12 unit course called [G201(Course[3])]
+[G201(Course[3])] is a course in the [asian studies] department
+[G201(Course[3])] will be a full semester course
+Which department is [this course(Course[3])] in?	'asian studies'	['question_type_local']
+what [undergraduate] courses have no masters students taking them?	'G310(Course[2])'	['question_type_global', 'question_three_hop_statement']
+Who is taking the U301 course	'Igor(PhdStudent[2])', 'Albertha(MastersStudent[4])', 'Danita(PhdStudent[5])'	['question_type_global', 'question_single_statement']
+[Igor(PhdStudent[2])] has [Marisela(Professor[7])] on the committee
+Which students are in their [fourth year]	'Danita(PhdStudent[5])'	['question_type_global', 'question_single_statement']
+Which professors advise students who passed their qualifying exam?	'Andrew(Professor[3])'	['question_type_global', 'question_two_hop_statement']
+Which phd students does [that professor(Professor[7])] advise?	'John(PhdStudent[6])'	['question_type_local']
+[Yoshiko(Professor[8])] is a [assistant] [professor]
+[Marisela(Professor[7])] received funding
+What students are advised by a professor with funding?	'John(PhdStudent[6])'	['question_type_global', 'question_two_hop_statement']
+there is a new masters student named [Eun(MastersStudent[9])]
+What is [Andrew(Professor[3])] working on?	'cold fusion'	['question_type_local']
+who are the students?	'Igor(PhdStudent[2])', 'Albertha(MastersStudent[4])', 'Danita(PhdStudent[5])', 'John(PhdStudent[6])', 'Eun(MastersStudent[9])'	['question_type_global', 'question_single_statement']
+which students passed the qualifying exam?	'Igor(PhdStudent[2])', 'Danita(PhdStudent[5])'	['question_type_global', 'question_single_statement']
+Which are some [masters] courses that no phd student is taking?	'G201(Course[3])'	['question_type_global', 'question_three_hop_statement']
+Who are the professors working on [molecular biology]?	'William(Professor[1])'	['question_type_global', 'question_single_statement']
+[Rachele(Professor[10])] is a [professor]
+[this professor(Professor[10])] is an [associate] professor
+Which courses did [Albertha(MastersStudent[4])] enroll in?	'U301(Course[1])'	['question_type_local']
+who are the masters students?	'Albertha(MastersStudent[4])', 'Eun(MastersStudent[9])'	['question_type_global', 'question_single_statement']
+[Rachele(Professor[10])] received funding
+Which courses are 12 unit courses?	'G201(Course[3])'	['question_type_global', 'question_single_statement']
+there is a PhD student named [Emmie(PhdStudent[11])]
+[this student(PhdStudent[11])] successfully defended their thesis
+[that person(PhdStudent[11])] has passed the thesis proposal exam
+there is a masters student named [Casey(MastersStudent[12])]
+[she(PhdStudent[11])] is in their [third year]
+[she(PhdStudent[11])] has [Andrew(Professor[3])] on the committee
+Which are some courses that no phd student is taking?	'G310(Course[2])', 'G201(Course[3])'	['question_type_global', 'question_two_hop_statement']
+Which professors advise students who passed their defense?	'Andrew(Professor[3])'	['question_type_global', 'question_two_hop_statement']
+there is a masters student named [Charlott(MastersStudent[13])]
+Who is on [Igor(PhdStudent[2])]'s committee?	'William(Professor[1])', 'Marisela(Professor[7])'	['question_type_local']
+What students in sixth year are advised by a professor with funding?	'John(PhdStudent[6])'	['question_type_global', 'question_three_hop_statement']
+Which courses in the mechanical engineering department are TAed by masters students?	'U301(Course[1])'	['question_type_global', 'question_three_hop_statement']
+Which professors have an [assistant] status?	'Marisela(Professor[7])', 'Yoshiko(Professor[8])'	['question_type_global', 'question_single_statement']
+who are the students?	'Igor(PhdStudent[2])', 'Albertha(MastersStudent[4])', 'Danita(PhdStudent[5])', 'John(PhdStudent[6])', 'Eun(MastersStudent[9])', 'Emmie(PhdStudent[11])', 'Casey(MastersStudent[12])', 'Charlott(MastersStudent[13])'	['question_type_global', 'question_single_statement']
+what courses have phd students taking them?	'U301(Course[1])'	['question_type_global', 'question_two_hop_statement']
+create a [professor] named [Alejandra(Professor[14])]
+who are the masters students?	'Albertha(MastersStudent[4])', 'Eun(MastersStudent[9])', 'Casey(MastersStudent[12])', 'Charlott(MastersStudent[13])'	['question_type_global', 'question_single_statement']
+who are the phd students?	'Igor(PhdStudent[2])', 'Danita(PhdStudent[5])', 'John(PhdStudent[6])', 'Emmie(PhdStudent[11])'	['question_type_global', 'question_single_statement']
+there is a masters student named [Hiram(MastersStudent[15])]
+[Emmie(PhdStudent[11])] is [this professor(Professor[14])]'s student
+[this professor(Professor[14])] is an [distinguished] professor
+Which professors advise students who passed their proposal?	'Andrew(Professor[3])', 'Alejandra(Professor[14])'	['question_type_global', 'question_two_hop_statement']
+Create a new course called [U310(Course[4])]
+[U310(Course[4])] is a [phd] course
+Which courses are TAed by masters students?	'U301(Course[1])'	['question_type_global', 'question_two_hop_statement']
+[fifth year] is a [Tom(PhdStudent[16])] PhD student
+[that class(Course[4])] will be a full semester course
+[asian studies] offers [this course(Course[4])]
+[Igor(PhdStudent[2])] is a TA for [U310(Course[4])]
+which students passed the qualifying exam?	'Igor(PhdStudent[2])', 'Danita(PhdStudent[5])'	['question_type_global', 'question_single_statement']
+Which are some [masters] courses that no phd student is taking?	'G201(Course[3])'	['question_type_global', 'question_three_hop_statement']
+What are the [full_semester_course]?	'G310(Course[2])', 'G201(Course[3])', 'U310(Course[4])'	['question_type_global', 'question_single_statement']
+Which courses have funded phd student TAs that passed the qualifying exam?	'U310(Course[4])'	['question_type_global', 'question_four_hop_statement']
+[Andrew(Professor[3])] advises [Tom(PhdStudent[16])]
+What courses is [this professor(Professor[3])] teaching?	'U301(Course[1])'	['question_type_local']
+What professors advise students who defended successfully?	'Andrew(Professor[3])', 'Alejandra(Professor[14])'	['question_type_global', 'question_two_hop_statement']
+Create a new [undergraduate] course called [U610(Course[5])]
+[John(PhdStudent[6])] is TAing [that course(Course[5])]
+[Yoshiko(Professor[8])] is the instructor for [that course(Course[5])]
+[that class(Course[5])] is full semester
+What courses is [Andrew(Professor[3])] teaching?	'U301(Course[1])'	['question_type_local']
+Which courses are TAed by masters students?	'U301(Course[1])'	['question_type_global', 'question_two_hop_statement']
+what courses have no masters students taking them?	'G310(Course[2])', 'G201(Course[3])', 'U310(Course[4])', 'U610(Course[5])'	['question_type_global', 'question_two_hop_statement']
+[this course(Course[5])] is TAed by [Hiram(MastersStudent[15])] and [Eun(MastersStudent[9])]
+Who is teaching [U610(Course[5])]?	'Yoshiko(Professor[8])'	['question_type_local']
+Which are some courses that no phd student is taking?	'G310(Course[2])', 'G201(Course[3])', 'U310(Course[4])', 'U610(Course[5])'	['question_type_global', 'question_two_hop_statement']
+What is [Andrew(Professor[3])] working on?	'cold fusion'	['question_type_local']
+[Will(Professor[17])] is a [professor]
+Which courses are TAed by [that student(MastersStudent[9])]?	'U610(Course[5])'	['question_type_local']
+Which professors advise students who passed their qualifying exam?	'Andrew(Professor[3])'	['question_type_global', 'question_two_hop_statement']
+[Zenaida(MastersStudent[18])] is a masters student
+[Will(Professor[17])] conducts research in [molecular biology]
+[he(Professor[17])] currently has funding
+[he(Professor[17])] is an [full] professor
+Which courses are 12 unit courses?	'G201(Course[3])'	['question_type_global', 'question_single_statement']
+Which are some courses that masters students take?	'U301(Course[1])'	['question_type_global', 'question_two_hop_statement']
+There is a [phd] level [full_semester_course] called [U104(Course[6])]
+[that class(Course[6])] is part of the [asian studies] department
+[Hanna(MastersStudent[19])] is a masters student
+What are the courses TAed by [Eun(MastersStudent[9])]?	'U610(Course[5])'	['question_type_local']
+Which [sixth year] students are advised by professors working on [cold fusion]?	'Igor(PhdStudent[2])'	['question_type_global', 'question_three_hop_statement']
+Which courses have phd student TAs that either have some funding or passed the qualifying exam?	'U310(Course[4])'	['question_type_global', 'question_four_hop_statement']
+there is a new [fifth year] PhD student named [Gabrielle(PhdStudent[20])]
+[Gabrielle(PhdStudent[20])] has passed the thesis proposal exam
+Which undergraduate courses have phd student TAs?	'U610(Course[5])'	['question_type_global', 'question_three_hop_statement']
+[she(PhdStudent[20])] passed the qualifiers
+[that person(PhdStudent[20])] is [Will(Professor[17])]'s student
+Who is teaching [full_semester_course]?	'Yoshiko(Professor[8])'	['question_type_global', 'question_two_hop_statement']
+who are the professors?	'William(Professor[1])', 'Andrew(Professor[3])', 'Marisela(Professor[7])', 'Yoshiko(Professor[8])', 'Rachele(Professor[10])', 'Alejandra(Professor[14])', 'Will(Professor[17])'	['question_type_global', 'question_single_statement']
+[U301(Course[1])] is a mini course
+What are all the courses in the asian studies department?	'G201(Course[3])', 'U310(Course[4])', 'U104(Course[6])'	['question_type_global', 'question_two_hop_statement']
+Which department is [U310(Course[4])] in?	'asian studies'	['question_type_local']
+What students have funding?	'Igor(PhdStudent[2])'	['question_type_global', 'question_single_statement']
+who are the masters students?	'Albertha(MastersStudent[4])', 'Eun(MastersStudent[9])', 'Casey(MastersStudent[12])', 'Charlott(MastersStudent[13])', 'Hiram(MastersStudent[15])', 'Zenaida(MastersStudent[18])', 'Hanna(MastersStudent[19])'	['question_type_global', 'question_single_statement']
+[John(PhdStudent[6])] and [Igor(PhdStudent[2])] are taking [this course(Course[1])]
+Which courses in the asian studies department are TAed by phd students?	'U310(Course[4])'	['question_type_global', 'question_three_hop_statement']
+Which courses are TAed by masters students?	'U301(Course[1])', 'U610(Course[5])'	['question_type_global', 'question_two_hop_statement']
+Which courses are 12 unit courses?	'G201(Course[3])'	['question_type_global', 'question_single_statement']
+Which courses have funded phd student TAs that passed the qualifying exam?	'U310(Course[4])'	['question_type_global', 'question_four_hop_statement']
+What students are taking a course taught by their advisor?	'Igor(PhdStudent[2])', 'Danita(PhdStudent[5])'	['question_type_global', 'question_three_hop_statement']
+[Igor(PhdStudent[2])] has [Yoshiko(Professor[8])] on the committee
+What courses is [Albertha(MastersStudent[4])] taking?	'U301(Course[1])'	['question_type_local']
+Which courses are in the [mechanical engineering] department?	'U301(Course[1])'	['question_type_global', 'question_single_statement']
+who are the masters students?	'Albertha(MastersStudent[4])', 'Eun(MastersStudent[9])', 'Casey(MastersStudent[12])', 'Charlott(MastersStudent[13])', 'Hiram(MastersStudent[15])', 'Zenaida(MastersStudent[18])', 'Hanna(MastersStudent[19])'	['question_type_global', 'question_single_statement']
+Which professors are conducting research in [cold fusion]	'Andrew(Professor[3])'	['question_type_global', 'question_single_statement']
+what courses have no phd students taking them?	'G310(Course[2])', 'G201(Course[3])', 'U310(Course[4])', 'U610(Course[5])', 'U104(Course[6])'	['question_type_global', 'question_two_hop_statement']
+Which professors are teaching [full_semester_course]?	'Yoshiko(Professor[8])'	['question_type_global', 'question_two_hop_statement']
+What are the courses that [this student(PhdStudent[2])] is enrolled in?	'U301(Course[1])'	['question_type_local']
+Which courses have masters student TAs?	'U301(Course[1])', 'U610(Course[5])'	['question_type_global', 'question_two_hop_statement']
+what courses have no masters students taking them?	'G310(Course[2])', 'G201(Course[3])', 'U310(Course[4])', 'U610(Course[5])', 'U104(Course[6])'	['question_type_global', 'question_two_hop_statement']
+[U610(Course[5])] is TAed by [Charlott(MastersStudent[13])] and [Emmie(PhdStudent[11])]
+Who is currently TAing [U610(Course[5])]?	'John(PhdStudent[6])', 'Eun(MastersStudent[9])', 'Emmie(PhdStudent[11])', 'Charlott(MastersStudent[13])', 'Hiram(MastersStudent[15])'	['question_type_local']
+Which courses are TAed by phd students that passed their qualifier exam or have some funding?	'U310(Course[4])'	['question_type_global', 'question_four_hop_statement']
+which [phd] courses have no masters students enrolled?	'U310(Course[4])', 'U104(Course[6])'	['question_type_global', 'question_three_hop_statement']
+What are the [undergraduate] courses?	'U301(Course[1])', 'G310(Course[2])', 'U610(Course[5])'	['question_type_global', 'question_single_statement']
+[Andrew(Professor[3])] currently has funding
+Who are the [third year] students?	'Emmie(PhdStudent[11])'	['question_type_global', 'question_single_statement']
+[Hanna(MastersStudent[19])] is TAing [U310(Course[4])]
+[Alejandra(Professor[14])] teaches [this course(Course[4])]
+[Hiram(MastersStudent[15])] is taking [that course(Course[4])]
+Which students are TAing [that class(Course[4])]?	'Igor(PhdStudent[2])', 'Hanna(MastersStudent[19])'	['question_type_local']
+Which students are advised by professors working on [cold fusion]?	'Igor(PhdStudent[2])', 'Danita(PhdStudent[5])', 'Tom(PhdStudent[16])'	['question_type_global', 'question_two_hop_statement']
+Which professors have an [full] status?	'Will(Professor[17])'	['question_type_global', 'question_single_statement']
+[Tom(PhdStudent[16])] is in [sixth year]
+[Yoshiko(Professor[8])] and [Will(Professor[17])] are on [Tom(PhdStudent[16])]'s committee
+Who is on [Tom(PhdStudent[16])]'s committee?	'Yoshiko(Professor[8])', 'Will(Professor[17])'	['question_type_local']
+[Marisela(Professor[7])] conducts research in [cold fusion]
+which students passed the proposal exam?	'Igor(PhdStudent[2])', 'Emmie(PhdStudent[11])', 'Gabrielle(PhdStudent[20])'	['question_type_global', 'question_single_statement']
+Who are the [fifth year] students?	'Gabrielle(PhdStudent[20])'	['question_type_global', 'question_single_statement']
+Which courses are TAed by masters students?	'U301(Course[1])', 'U310(Course[4])', 'U610(Course[5])'	['question_type_global', 'question_two_hop_statement']
+Which professors advise students who passed their qualifying exam?	'Andrew(Professor[3])', 'Will(Professor[17])'	['question_type_global', 'question_two_hop_statement']
+Create a new course called [U303(Course[7])]
+Which courses have funded phd student TAs that passed the qualifying exam?	'U310(Course[4])'	['question_type_global', 'question_four_hop_statement']
+Who are the professors working on [molecular biology]?	'William(Professor[1])', 'Will(Professor[17])'	['question_type_global', 'question_single_statement']
+[that course(Course[7])] is a full semester course
+[that course(Course[7])] is a [undergraduate] level course
+[William(Professor[1])] teaches [U303(Course[7])]
+Which courses are TAed by phd students?	'U310(Course[4])', 'U610(Course[5])'	['question_type_global', 'question_two_hop_statement']
+Which courses have masters student TAs?	'U301(Course[1])', 'U310(Course[4])', 'U610(Course[5])'	['question_type_global', 'question_two_hop_statement']
+who are the phd students?	'Igor(PhdStudent[2])', 'Danita(PhdStudent[5])', 'John(PhdStudent[6])', 'Emmie(PhdStudent[11])', 'Tom(PhdStudent[16])', 'Gabrielle(PhdStudent[20])'	['question_type_global', 'question_single_statement']
+Which phd courses are TAed by phd students?	'U310(Course[4])'	['question_type_global', 'question_three_hop_statement']
+Create a new course called [G9000(Course[8])]
+What courses is [William(Professor[1])] teaching?	'U303(Course[7])'	['question_type_local']
+Which courses have phd student TAs that are in the third year?	'U610(Course[5])'	['question_type_global', 'question_three_hop_statement']
+Who in fourth year has an advisor with funding?	'Danita(PhdStudent[5])'	['question_type_global', 'question_three_hop_statement']
+[that class(Course[8])] is a [undergraduate] level course
+What courses is [John(PhdStudent[6])] TAing?	'U610(Course[5])'	['question_type_local']
+What professors advise students who defended successfully?	'Andrew(Professor[3])', 'Alejandra(Professor[14])'	['question_type_global', 'question_two_hop_statement']
+What are all the courses?	'U301(Course[1])', 'G310(Course[2])', 'G201(Course[3])', 'U310(Course[4])', 'U610(Course[5])', 'U104(Course[6])', 'U303(Course[7])', 'G9000(Course[8])'	['question_type_global', 'question_single_statement']
+Which courses have masters student TAs?	'U301(Course[1])', 'U310(Course[4])', 'U610(Course[5])'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by [Albertha(MastersStudent[4])]?	'U301(Course[1])'	['question_type_local']
+[Marisela(Professor[7])] teaches [G9000(Course[8])]
+Who is [Gabrielle(PhdStudent[20])]'s advisor?	'Will'	['question_type_local']
+What are the 12 unit courses?	'G201(Course[3])'	['question_type_global', 'question_single_statement']
+What are the [mechanical engineering] courses?	'U301(Course[1])'	['question_type_global', 'question_single_statement']
+There is a course called [G305(Course[9])]
+Who is teaching [mini course]?	'Andrew(Professor[3])'	['question_type_global', 'question_two_hop_statement']

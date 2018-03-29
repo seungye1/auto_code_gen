@@ -1,0 +1,121 @@
+there is a new [personal] [knowledge base(Project[1])] [project]
+[knowledge base project(Project[1])] is currently in the [maintenance] stage
+there is a new [platform] [chatbot(Project[2])] [project]
+[chatbot project(Project[2])] is currently in the [maintenance] stage
+[fails with apache stack] is a new [task] for the [this project(Project[2])]
+[Tawnya(Developer[1])] is a [developer] on [chatbot project(Project[2])]
+[the issue(Issue[1])] is assigned to [that developer(Developer[1])]
+[minified version fails] is a new issue for the [knowledge base project(Project[1])]
+[that developer(Developer[1])] is assigned to [knowledge base project(Project[1])] also
+[that developer(Developer[1])] created a new [bug] for [chatbot project(Project[2])]: [initialization broken]
+[that issue(Issue[3])] was assigned to [Tawnya(Developer[1])]
+[the minified version fails issue(Issue[2])] is assigned to [Tawnya(Developer[1])]
+[Tawnya(Developer[1])] is not working on [chatbot project(Project[2])] anymore
+[that project(Project[2])] is assigned to [that person(Developer[1])] also
+[Eun(Developer[2])] is a [developer] on [knowledge base project(Project[1])]
+there is a new [mobile(Project[3])] [project]
+[it(Project[3])] is a [external] project
+[this project(Project[3])] is in the [design] stage
+Who was [the bug(Issue[3])] assigned to?	'Tawnya(Developer[1])'	['question_type_local']
+[this project(Project[3])] is in the stage of [evaluation]
+[John(Developer[3])] is a [developer]
+[Tawnya(Developer[1])] resolved [the fails with apache stack issue(Issue[1])]
+[Hiram(Developer[4])] is a [developer]
+[chatbot project(Project[2])] is assigned to [he(Developer[4])]
+[this person(Developer[4])] is assigned to [knowledge base project(Project[1])] also
+[this developer(Developer[4])] is assigned to [mobile project(Project[3])] also
+[Danita(Tester[5])] is a [tester] on [chatbot project(Project[2])]
+[this test engineer(Tester[5])] is working on [knowledge base project(Project[1])] also
+[mobile project(Project[3])] is assigned to [Danita(Tester[5])] also
+[Tawnya(Developer[1])] is working on [that project(Project[3])] also
+[that project(Project[3])] has moved to the [deployment] stage
+There is a new [enhancement] for the [chatbot project(Project[2])]: [svd is slow]
+[Hiram(Developer[4])] created a new issue for [knowledge base project(Project[1])]: [dcoref always returns null]
+[the dcoref always returns null issue(Issue[5])] is assigned to [Danita(Tester[5])]
+[Danita(Tester[5])] resolved [it(Issue[5])]
+[this tester(Tester[5])] is not working on [chatbot project(Project[2])] anymore
+There is a new issue for the [knowledge base project(Project[1])]: [versioning needs to be made consistent]
+[Tawnya(Developer[1])] created a new issue for [chatbot project(Project[2])]: [timeout problem]
+[the timeout problem issue(Issue[7])] is assigned to [Hiram(Developer[4])]
+[Hiram(Developer[4])] resolved [it(Issue[7])]
+[he(Developer[4])] is not working on [mobile project(Project[3])] anymore
+[Hiram(Developer[4])] is assigned to [mobile project(Project[3])] also
+[Danita(Tester[5])] submitted a new [enhancement] for [it(Project[3])]: [tokenization not consistent across platforms]
+[the tokenization not consistent across platforms issue(Issue[8])] was assigned to [Hiram(Developer[4])]
+[that person(Developer[4])] is not working on [chatbot project(Project[2])] anymore
+[this project(Project[2])] is assigned to [Hiram(Developer[4])] also
+Were there any issues submitted by [Danita(Tester[5])]?	'tokenization not consistent across platforms(Issue[8])'	['question_type_local']
+[knowledge base project(Project[1])] is not assigned to [Tawnya(Developer[1])]
+[this project(Project[1])] is assigned to [this person(Developer[1])] also
+[Danita(Tester[5])] submitted a new [bug] for [that project(Project[1])]: [wrong pos tag on consecutive words]
+[this issue(Issue[9])] is assigned to [Eun(Developer[2])]
+[she(Developer[2])] resolved [the wrong pos tag on consecutive words issue(Issue[9])]
+[Eun(Developer[2])] is assigned to [mobile project(Project[3])] also
+[Eun(Developer[2])] is assigned to [chatbot project(Project[2])] also
+[this project(Project[2])] is now in the [deployment] stage
+[it(Project[2])] is in the [maintenance] stage
+What are the issues submitted by [Tawnya(Developer[1])] that were not resolved?	'initialization broken(Issue[3])'	['question_type_local']
+[chatbot project(Project[2])] is assigned to [Danita(Tester[5])] also
+Who was [the enhancement that was last added(Issue[8])] assigned to?	'Hiram(Developer[4])'	['question_type_local']
+[that project(Project[2])] is in the stage of [design]
+[Hiram(Developer[4])] resolved [the tokenization not consistent across platforms enhancement(Issue[8])]
+[mobile project(Project[3])] is not assigned to [Hiram(Developer[4])]
+Who submitted [the initialization broken bug(Issue[3])]?	'Tawnya(Developer[1])'	['question_type_local']
+[he(Developer[4])] is assigned to [it(Project[3])] also
+[the versioning needs to be made consistent issue(Issue[6])] was assigned to [Eun(Developer[2])]
+[that person(Developer[2])] resolved [the issue(Issue[6])]
+Who is [the initialization broken bug(Issue[3])] assigned to?	'Tawnya(Developer[1])'	['question_type_local']
+Who was [the issue(Issue[6])] assigned to?	'Eun(Developer[2])'	['question_type_local']
+Are there any issues submitted by [Tawnya(Developer[1])] that are not resolved?	'initialization broken(Issue[3])'	['question_type_local']
+Are there any issues created by [Tawnya(Developer[1])] that are not resolved?	'initialization broken(Issue[3])'	['question_type_local']
+[Tawnya(Developer[1])] resolved [the minified version fails issue(Issue[2])]
+[Tawnya(Developer[1])] is not working on [knowledge base project(Project[1])] anymore
+[Tawnya(Developer[1])] is working on [knowledge base project(Project[1])] also
+Are there any issues assigned to [that developer(Developer[1])] that are not resolved?	'initialization broken(Issue[3])'	['question_type_local']
+[chatbot project(Project[2])] has moved to the [maintenance] stage
+[the svd is slow issue(Issue[4])] is assigned to [Danita(Tester[5])]
+[that person(Tester[5])] resolved [the issue(Issue[4])]
+Who submitted [the wrong pos tag on consecutive words bug(Issue[9])]?	'Danita(Tester[5])'	['question_type_local']
+Who was [the timeout problem issue(Issue[7])] assigned to?	'Hiram(Developer[4])'	['question_type_local']
+[Hiram(Developer[4])] is no longer assigned to [chatbot project(Project[2])]
+[it(Project[2])] is assigned to [this developer(Developer[4])] also
+[that person(Developer[4])] is no longer assigned to [it(Project[2])]
+[Hiram(Developer[4])] is working on [it(Project[2])] also
+[Hiram(Developer[4])] is not working on [mobile project(Project[3])] anymore
+[he(Developer[4])] is assigned to [mobile project(Project[3])] also
+Who is [the svd is slow enhancement(Issue[4])] assigned to?	'Danita(Tester[5])'	['question_type_local']
+[Eun(Developer[2])] is not working on [knowledge base project(Project[1])] anymore
+[that project(Project[1])] is assigned to [this person(Developer[2])] also
+[Hiram(Developer[4])] is no longer assigned to [knowledge base project(Project[1])]
+[that person(Developer[4])] is assigned to [that project(Project[1])] also
+[this person(Developer[4])] is no longer assigned to [chatbot project(Project[2])]
+Are there any issues created by [Danita(Tester[5])] that are resolved?	'tokenization not consistent across platforms(Issue[8])', 'wrong pos tag on consecutive words(Issue[9])'	['question_type_local']
+[it(Project[2])] is assigned to [that person(Developer[4])] also
+[Eun(Developer[2])] is no longer assigned to [it(Project[2])]
+[this developer(Developer[2])] is working on [chatbot project(Project[2])] also
+Who created [the enhancement that was last added(Issue[8])]?	'Danita(Tester[5])'	['question_type_local']
+[this project(Project[2])] is now in the [evaluation] stage
+[knowledge base project(Project[1])] has moved to the [design] stage
+[knowledge base project(Project[1])] has moved to the [evaluation] stage
+Who created [the timeout problem issue(Issue[7])]?	'Tawnya(Developer[1])'	['question_type_local']
+Who is [the tokenization not consistent across platforms enhancement(Issue[8])] assigned to?	'Hiram(Developer[4])'	['question_type_local']
+[this project(Project[1])] has moved to the [design] stage
+[knowledge base project(Project[1])] is in the [evaluation] stage
+[John(Developer[3])] is assigned to [this project(Project[1])]
+[this person(Developer[3])] is working on [mobile project(Project[3])] also
+[this developer(Developer[3])] is assigned to [chatbot project(Project[2])] also
+[this project(Project[2])] has moved to the [deployment] stage
+Were there any issues created by [Tawnya(Developer[1])]?	'initialization broken(Issue[3])', 'timeout problem(Issue[7])'	['question_type_local']
+[that project(Project[2])] has moved to the [evaluation] stage
+[that project(Project[2])] has moved to the [maintenance] stage
+Who is [the svd is slow enhancement(Issue[4])] assigned to?	'Danita(Tester[5])'	['question_type_local']
+What are the issues submitted by [Hiram(Developer[4])]?	'dcoref always returns null(Issue[5])'	['question_type_local']
+[that project(Project[2])] has moved to the [evaluation] stage
+[that project(Project[2])] is now in the [deployment] stage
+Who was [the timeout problem issue(Issue[7])] assigned to?	'Hiram(Developer[4])'	['question_type_local']
+[mobile project(Project[3])] is in the [maintenance] stage
+[chatbot project(Project[2])] is in the [maintenance] stage
+[chatbot project(Project[2])] has moved to the [design] stage
+[this project(Project[2])] is in the stage of [maintenance]
+[knowledge base project(Project[1])] is in the stage of [deployment]
+[knowledge base project(Project[1])] is in the stage of [evaluation]

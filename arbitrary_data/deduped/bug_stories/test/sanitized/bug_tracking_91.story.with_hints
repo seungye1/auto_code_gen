@@ -1,0 +1,104 @@
+there is a new [experimental] [mobile(Project[1])] [project]
+[that project(Project[1])] is in the [evaluation] stage
+[Gia(Tester[1])] is a [tester]
+[this test engineer(Tester[1])] is working on [mobile project(Project[1])]
+[Andy(Developer[2])] is a [developer]
+[this developer(Developer[2])] is working on [mobile project(Project[1])]
+[Igor(Developer[3])] is a [developer]
+[Lucio(Tester[4])] is a [tester]
+[Igor(Developer[3])] is assigned to [mobile project(Project[1])]
+there is a new [knowledge base(Project[2])] [project]
+[knowledge base project(Project[2])] is in the stage of [deployment]
+[Tereasa(Developer[5])] is a [developer]
+[this project(Project[2])] is a [experimental] project
+[that person(Developer[5])] is assigned to [mobile project(Project[1])]
+[knowledge base project(Project[2])] is assigned to [Gia(Tester[1])] also
+[that test engineer(Tester[1])] is not working on [mobile project(Project[1])] anymore
+[that person(Tester[1])] is working on [mobile project(Project[1])] also
+There is a new issue for the [this project(Project[1])]: [dcoref always returns null]
+[this issue(Issue[1])] is assigned to [Tereasa(Developer[5])]
+[knowledge base project(Project[2])] is assigned to [this developer(Developer[5])] also
+there is a new [chatbot(Project[3])] [project]
+[chatbot project(Project[3])] is currently in the [evaluation] stage
+[this project(Project[3])] is a [platform] project
+[knowledge base project(Project[2])] is in the stage of [development]
+[Gia(Tester[1])] is assigned to [chatbot project(Project[3])] also
+[Eun(Tester[6])] is a [tester] on [knowledge base project(Project[2])]
+[Eun(Tester[6])] is working on [mobile project(Project[1])] also
+[timeout problem] is a new issue for the [knowledge base project(Project[2])]
+[this issue(Issue[2])] is assigned to [Tereasa(Developer[5])]
+[Hiram(Developer[7])] is a [developer]
+[chatbot project(Project[3])] is assigned to [Tereasa(Developer[5])] also
+[she(Developer[5])] is not working on [mobile project(Project[1])] anymore
+[Michael(Developer[8])] is a [developer] on [knowledge base project(Project[2])]
+[mobile project(Project[1])] has moved to the [deployment] stage
+[Tereasa(Developer[5])] is assigned to [mobile project(Project[1])] also
+[Racquel(Developer[9])] is a [developer] on [mobile project(Project[1])]
+[knowledge base project(Project[2])] is assigned to [that person(Developer[9])] also
+[chatbot project(Project[3])] is assigned to [this developer(Developer[9])] also
+[chatbot project(Project[3])] has moved to the [deployment] stage
+[knowledge base project(Project[2])] is in the [maintenance] stage
+[Racquel(Developer[9])] created a new issue for [knowledge base project(Project[2])]: [issue in using training data]
+[Racquel(Developer[9])] created a new issue for [mobile project(Project[1])]: [minified version fails]
+[the issue in using training data issue(Issue[3])] was assigned to [Michael(Developer[8])]
+[that developer(Developer[8])] resolved [it(Issue[3])]
+[Andy(Developer[2])] is working on [chatbot project(Project[3])] also
+[knowledge base project(Project[2])] is assigned to [that person(Developer[2])] also
+[Michael(Developer[8])] is assigned to [chatbot project(Project[3])] also
+[this person(Developer[8])] is not working on [chatbot project(Project[3])] anymore
+[chatbot project(Project[3])] is assigned to [Michael(Developer[8])] also
+[mobile project(Project[1])] is assigned to [this developer(Developer[8])] also
+[this person(Developer[8])] is not working on [knowledge base project(Project[2])] anymore
+[this developer(Developer[8])] is working on [knowledge base project(Project[2])] also
+[tokenization not consistent across platforms] is a new [proposal] submitted by [Eun(Tester[6])] for [mobile project(Project[1])]
+[this issue(Issue[5])] was assigned to [Eun(Tester[6])]
+[she(Tester[6])] resolved [the tokenization not consistent across platforms issue(Issue[5])]
+[this person(Tester[6])] is assigned to [chatbot project(Project[3])] also
+Who was [the issue in using training data issue(Issue[3])] assigned to?	'Michael(Developer[8])'	['question_type_local']
+Who submitted [the tokenization not consistent across platforms issue(Issue[5])]?	'Eun(Tester[6])'	['question_type_local']
+[initialization broken] is a new [bug] for the [knowledge base project(Project[2])]
+[this project(Project[3])] is now in the [evaluation] stage
+[that issue(Issue[6])] is assigned to [Eun(Tester[6])]
+[that person(Tester[6])] resolved [it(Issue[6])]
+There is a new [proposal] for the [knowledge base project(Project[2])]: [parsing with parantheses fails]
+[this issue(Issue[7])] is assigned to [Tereasa(Developer[5])]
+[that person(Developer[5])] resolved [the proposal(Issue[7])]
+[chatbot project(Project[3])] is not assigned to [that developer(Developer[5])]
+[Tereasa(Developer[5])] is working on [chatbot project(Project[3])] also
+[Igor(Developer[3])] is assigned to [knowledge base project(Project[2])] also
+[the minified version fails issue(Issue[4])] was assigned to [Tereasa(Developer[5])]
+[that developer(Developer[5])] resolved [the issue(Issue[4])]
+[Eun(Tester[6])] is no longer assigned to [knowledge base project(Project[2])]
+[this tester(Tester[6])] is assigned to [that project(Project[2])] also
+[this test engineer(Tester[6])] is not working on [chatbot project(Project[3])] anymore
+[that project(Project[3])] is assigned to [this person(Tester[6])] also
+There is a new issue for the [that project(Project[3])]: [wrong pos tag on consecutive words]
+[this issue(Issue[8])] was assigned to [Michael(Developer[8])]
+[that developer(Developer[8])] resolved [that issue(Issue[8])]
+[this developer(Developer[8])] created a new issue for [knowledge base project(Project[2])]: [memory leak bug]
+[the issue(Issue[9])] was assigned to [Racquel(Developer[9])]
+[Racquel(Developer[9])] resolved [that issue(Issue[9])]
+[chatbot project(Project[3])] is assigned to [Hiram(Developer[7])]
+Who submitted [the tokenization not consistent across platforms issue(Issue[5])]?	'Eun(Tester[6])'	['question_type_local']
+[that person(Developer[7])] is assigned to [knowledge base project(Project[2])] also
+[that developer(Developer[7])] is working on [mobile project(Project[1])] also
+[mobile project(Project[1])] is in the stage of [evaluation]
+[Michael(Developer[8])] is no longer assigned to [knowledge base project(Project[2])]
+[mobile project(Project[1])] is not assigned to [Michael(Developer[8])]
+[it(Project[1])] is assigned to [this person(Developer[8])] also
+[knowledge base project(Project[2])] is assigned to [this developer(Developer[8])] also
+[it(Project[2])] is in the stage of [deployment]
+[that project(Project[2])] is in the [development] stage
+[Tereasa(Developer[5])] is not working on [that project(Project[2])] anymore
+[that developer(Developer[5])] is no longer assigned to [chatbot project(Project[3])]
+[Tereasa(Developer[5])] is no longer assigned to [mobile project(Project[1])]
+[knowledge base project(Project[2])] is assigned to [Tereasa(Developer[5])]
+[mobile project(Project[1])] is assigned to [Tereasa(Developer[5])] also
+[Lucio(Tester[4])] is assigned to [chatbot project(Project[3])]
+[this person(Tester[4])] is assigned to [knowledge base project(Project[2])] also
+[chatbot project(Project[3])] is assigned to [Igor(Developer[3])] also
+Who submitted [the tokenization not consistent across platforms proposal(Issue[5])]?	'Eun(Tester[6])'	['question_type_local']
+[that project(Project[3])] is in the [deployment] stage
+[this project(Project[3])] has moved to the [evaluation] stage
+[that project(Project[3])] is assigned to [Tereasa(Developer[5])] also
+[chatbot project(Project[3])] has moved to the [maintenance] stage

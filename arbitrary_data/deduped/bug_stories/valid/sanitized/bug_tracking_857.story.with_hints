@@ -1,0 +1,117 @@
+there is a new [open source] [mobile(Project[1])] [project]
+[it(Project[1])] is currently in the [maintenance] stage
+There is a new issue for the [this project(Project[1])]: [issue in using training data]
+[two consecutive dates identified as single date] is a new issue for the [mobile project(Project[1])]
+there is a new [knowledge base(Project[2])] [project]
+[that project(Project[2])] is a [early stage] project
+[knowledge base project(Project[2])] is in the [design] stage
+[Igor(Tester[1])] is a [tester] on [mobile project(Project[1])]
+[Igor(Tester[1])] is assigned to [that project(Project[2])] also
+[it(Project[2])] is now in the [maintenance] stage
+[tokenization not consistent across platforms] is a new [task] for [mobile project(Project[1])] that [Igor(Tester[1])] just created
+[that issue(Issue[3])] is assigned to [Igor(Tester[1])]
+[that test engineer(Tester[1])] resolved [the tokenization not consistent across platforms issue(Issue[3])]
+Who was [the issue(Issue[3])] assigned to?	'Igor(Tester[1])'	['question_type_local']
+there is a new [chatbot(Project[3])] [project]
+[it(Project[3])] is assigned to [this tester(Tester[1])] also
+[this project(Project[3])] is a [external] project
+[chatbot project(Project[3])] is currently in the [design] stage
+[Igor(Tester[1])] submitted a new [task] for [mobile project(Project[1])]: [changelong needs to be added]
+[the issue(Issue[4])] is assigned to [Igor(Tester[1])]
+[Igor(Tester[1])] resolved [it(Issue[4])]
+[the issue in using training data issue(Issue[1])] is assigned to [he(Tester[1])]
+[Igor(Tester[1])] resolved [it(Issue[1])]
+[Eun(Developer[2])] is a [developer]
+[that test engineer(Tester[1])] is not working on [mobile project(Project[1])] anymore
+[this test engineer(Tester[1])] is assigned to [that project(Project[1])] also
+[Igor(Tester[1])] is not working on [chatbot project(Project[3])] anymore
+[that project(Project[3])] is assigned to [Igor(Tester[1])] also
+[the two consecutive dates identified as single date issue(Issue[2])] was assigned to [he(Tester[1])]
+[this person(Tester[1])] resolved [it(Issue[2])]
+[chatbot project(Project[3])] is now in the [testing] stage
+[this tester(Tester[1])] created a new [proposal] for [knowledge base project(Project[2])]: [svd is slow]
+[this issue(Issue[5])] was assigned to [Igor(Tester[1])]
+There is a new issue for the [mobile project(Project[1])]: [parsing with parantheses fails]
+[Cecil(Tester[3])] is a [tester] on [knowledge base project(Project[2])]
+[the parsing with parantheses fails issue(Issue[6])] was assigned to [Igor(Tester[1])]
+[this tester(Tester[1])] resolved [that issue(Issue[6])]
+[this test engineer(Tester[1])] is not working on [knowledge base project(Project[2])] anymore
+[this project(Project[2])] is assigned to [Igor(Tester[1])] also
+[Rachele(Tester[4])] is a [tester] on [knowledge base project(Project[2])]
+Who was [the svd is slow proposal(Issue[5])] assigned to?	'Igor(Tester[1])'	['question_type_local']
+[Luanna(Developer[5])] is a [developer] on [mobile project(Project[1])]
+[knowledge base project(Project[2])] is assigned to [Luanna(Developer[5])] also
+[Eun(Developer[2])] is working on [mobile project(Project[1])]
+[mobile project(Project[1])] is not assigned to [that person(Developer[2])]
+[this person(Developer[2])] is working on [this project(Project[1])]
+[it(Project[1])] is now in the [testing] stage
+[Eun(Developer[2])] is assigned to [chatbot project(Project[3])] also
+[Eun(Developer[2])] is assigned to [knowledge base project(Project[2])] also
+[that person(Developer[2])] is no longer assigned to [this project(Project[2])]
+[Lucy(Developer[6])] is a [developer] on [mobile project(Project[1])]
+[that person(Developer[6])] is assigned to [chatbot project(Project[3])] also
+[Eun(Developer[2])] is working on [knowledge base project(Project[2])] also
+[it(Project[2])] has moved to the [design] stage
+[Rachele(Tester[4])] is assigned to [mobile project(Project[1])] also
+[this person(Tester[4])] is working on [chatbot project(Project[3])] also
+[Igor(Tester[1])] is not working on [chatbot project(Project[3])] anymore
+[memory leak bug] is a new [task] submitted by [Lucy(Developer[6])] for [mobile project(Project[1])]
+[this issue(Issue[7])] is assigned to [Lucy(Developer[6])]
+[Lucy(Developer[6])] is assigned to [knowledge base project(Project[2])] also
+[fails with apache stack] is a new [proposal] submitted by [Luanna(Developer[5])] for [this project(Project[2])]
+[the fails with apache stack proposal(Issue[8])] is assigned to [Rachele(Tester[4])]
+[this tester(Tester[4])] resolved [that issue(Issue[8])]
+[knowledge base project(Project[2])] has moved to the [testing] stage
+What are the issues submitted by [Igor(Tester[1])] that were resolved?	'tokenization not consistent across platforms(Issue[3])', 'changelong needs to be added(Issue[4])'	['question_type_local']
+[this project(Project[2])] has moved to the [maintenance] stage
+Who is [the fails with apache stack issue(Issue[8])] assigned to?	'Rachele(Tester[4])'	['question_type_local']
+[Igor(Tester[1])] resolved [the svd is slow proposal(Issue[5])]
+[that person(Tester[1])] is working on [chatbot project(Project[3])] also
+[Luanna(Developer[5])] is assigned to [chatbot project(Project[3])] also
+[Igor(Tester[1])] is not working on [that project(Project[3])] anymore
+[chatbot project(Project[3])] is assigned to [Igor(Tester[1])] also
+Who submitted [the tokenization not consistent across platforms task(Issue[3])]?	'Igor(Tester[1])'	['question_type_local']
+[chatbot project(Project[3])] is in the [maintenance] stage
+[chatbot project(Project[3])] has moved to the [design] stage
+Who created [the tokenization not consistent across platforms issue(Issue[3])]?	'Igor(Tester[1])'	['question_type_local']
+[it(Project[3])] has moved to the [testing] stage
+[chatbot project(Project[3])] is in the stage of [design]
+[it(Project[3])] is in the stage of [testing]
+[knowledge base project(Project[2])] is not assigned to [Lucy(Developer[6])]
+[Lucy(Developer[6])] is working on [this project(Project[2])] also
+What are the issues assigned to [this developer(Developer[6])] that were not resolved?	'memory leak bug(Issue[7])'	['question_type_local']
+Who is [the changelong needs to be added task(Issue[4])] assigned to?	'Igor(Tester[1])'	['question_type_local']
+Are there any issues assigned to [she(Developer[6])] that are not resolved?	'memory leak bug(Issue[7])'	['question_type_local']
+[chatbot project(Project[3])] is not assigned to [Lucy(Developer[6])]
+[this person(Developer[6])] is working on [that project(Project[3])] also
+[this developer(Developer[6])] is no longer assigned to [this project(Project[3])]
+Who created [the fails with apache stack proposal(Issue[8])]?	'Luanna(Developer[5])'	['question_type_local']
+[this person(Developer[6])] is working on [chatbot project(Project[3])] also
+Who created [the svd is slow proposal(Issue[5])]?	'Igor(Tester[1])'	['question_type_local']
+[it(Project[3])] has moved to the [maintenance] stage
+Who is [the tokenization not consistent across platforms task(Issue[3])] assigned to?	'Igor(Tester[1])'	['question_type_local']
+[chatbot project(Project[3])] has moved to the [testing] stage
+[it(Project[3])] is in the stage of [design]
+[chatbot project(Project[3])] is now in the [testing] stage
+[chatbot project(Project[3])] has moved to the [maintenance] stage
+Are there any issues assigned to [Lucy(Developer[6])] that are not resolved?	'memory leak bug(Issue[7])'	['question_type_local']
+[it(Project[3])] has moved to the [design] stage
+[that project(Project[3])] is now in the [maintenance] stage
+Who created [the svd is slow proposal(Issue[5])]?	'Igor(Tester[1])'	['question_type_local']
+[Igor(Tester[1])] is not working on [knowledge base project(Project[2])] anymore
+[that project(Project[2])] is assigned to [he(Tester[1])] also
+[that person(Tester[1])] is not working on [mobile project(Project[1])] anymore
+[it(Project[1])] is assigned to [that test engineer(Tester[1])] also
+Who created [the changelong needs to be added task(Issue[4])]?	'Igor(Tester[1])'	['question_type_local']
+[that project(Project[1])] has moved to the [design] stage
+[chatbot project(Project[3])] is in the stage of [design]
+[chatbot project(Project[3])] has moved to the [testing] stage
+[chatbot project(Project[3])] is in the [maintenance] stage
+Who submitted [the task that was last added(Issue[7])]?	'Lucy(Developer[6])'	['question_type_local']
+Who is [the tokenization not consistent across platforms task(Issue[3])] assigned to?	'Igor(Tester[1])'	['question_type_local']
+[Lucy(Developer[6])] resolved [the task that was last added(Issue[7])]
+[mobile project(Project[1])] is now in the [testing] stage
+[mobile project(Project[1])] is now in the [design] stage
+[mobile project(Project[1])] is now in the [testing] stage
+[knowledge base project(Project[2])] is not assigned to [Igor(Tester[1])]
+[this tester(Tester[1])] is working on [that project(Project[2])] also

@@ -1,0 +1,109 @@
+there is a new [knowledge base(Project[1])] [project]
+[it(Project[1])] is a [experimental] project
+[it(Project[1])] is in the [testing] stage
+[wrong pos tag on consecutive words] is a new [bug] for the [knowledge base project(Project[1])]
+[Eun(Tester[1])] is a [tester]
+[knowledge base project(Project[1])] is assigned to [that test engineer(Tester[1])]
+[Ashly(Developer[2])] is a [developer] on [knowledge base project(Project[1])]
+there is a new [important] [mobile(Project[2])] [project]
+[this person(Developer[2])] is working on [it(Project[2])] also
+[Eun(Tester[1])] is not working on [knowledge base project(Project[1])] anymore
+[Eun(Tester[1])] is assigned to [knowledge base project(Project[1])]
+[she(Tester[1])] is assigned to [mobile project(Project[2])] also
+[this person(Tester[1])] is no longer assigned to [mobile project(Project[2])]
+[this tester(Tester[1])] is working on [mobile project(Project[2])] also
+[she(Tester[1])] is no longer assigned to [knowledge base project(Project[1])]
+[that test engineer(Tester[1])] is working on [this project(Project[1])] also
+[mobile project(Project[2])] is currently in the [implementation] stage
+there is a new [chatbot(Project[3])] [project]
+[chatbot project(Project[3])] is currently in the [evaluation] stage
+[that project(Project[3])] is a [experimental] project
+[chatbot project(Project[3])] is now in the [implementation] stage
+[Eun(Tester[1])] is working on [it(Project[3])] also
+[Cyndi(Developer[3])] is a [developer]
+[this person(Developer[3])] is working on [mobile project(Project[2])]
+[this person(Developer[3])] is assigned to [chatbot project(Project[3])] also
+[Hiram(Tester[4])] is a [tester] on [chatbot project(Project[3])]
+[Hiram(Tester[4])] is assigned to [knowledge base project(Project[1])] also
+[Eun(Tester[1])] created a new issue for [mobile project(Project[2])]: [tokenization not consistent across platforms]
+[the issue(Issue[2])] is assigned to [Eun(Tester[1])]
+[Eun(Tester[1])] resolved [it(Issue[2])]
+[knowledge base project(Project[1])] is assigned to [Cyndi(Developer[3])] also
+There is a new issue for the [knowledge base project(Project[1])]: [parse example terribly slow]
+[that project(Project[1])] has moved to the [evaluation] stage
+[this issue(Issue[3])] was assigned to [Hiram(Tester[4])]
+[knowledge base project(Project[1])] is in the stage of [implementation]
+[Hanna(Developer[5])] is a [developer]
+[knowledge base project(Project[1])] is in the [development] stage
+[initialization broken] is a new [bug] for [chatbot project(Project[3])] that [Cyndi(Developer[3])] just created
+[the issue(Issue[4])] is assigned to [Eun(Tester[1])]
+[that person(Tester[1])] resolved [the bug(Issue[4])]
+[Ashly(Developer[2])] is working on [chatbot project(Project[3])] also
+[Hiram(Tester[4])] resolved [the parse example terribly slow issue(Issue[3])]
+[Andy(Developer[6])] is a [developer]
+[this developer(Developer[6])] is working on [mobile project(Project[2])]
+[Kristeen(Tester[7])] is a [tester]
+[that person(Tester[7])] is working on [knowledge base project(Project[1])]
+[parsing with parantheses fails] is a new [bug] for [it(Project[1])] that [Cyndi(Developer[3])] just created
+[knowledge base project(Project[1])] is in the [evaluation] stage
+[the parsing with parantheses fails bug(Issue[5])] is assigned to [Cyndi(Developer[3])]
+[she(Developer[3])] resolved [it(Issue[5])]
+[Eun(Tester[1])] created a new issue for [knowledge base project(Project[1])]: [changelong needs to be added]
+[Alejandra(Tester[8])] is a [tester] on [chatbot project(Project[3])]
+[that test engineer(Tester[8])] is assigned to [mobile project(Project[2])] also
+[Peggy(Tester[9])] is a [tester] on [it(Project[2])]
+[knowledge base project(Project[1])] is assigned to [Peggy(Tester[9])] also
+[the wrong pos tag on consecutive words bug(Issue[1])] is assigned to [Kristeen(Tester[7])]
+[chatbot project(Project[3])] is assigned to [Kristeen(Tester[7])] also
+[this test engineer(Tester[7])] is assigned to [mobile project(Project[2])] also
+[versioning needs to be made consistent] is a new [bug] submitted by [Eun(Tester[1])] for [chatbot project(Project[3])]
+[Bob(Developer[10])] is a [developer] on [mobile project(Project[2])]
+[this developer(Developer[10])] is working on [knowledge base project(Project[1])] also
+[that person(Developer[10])] is no longer assigned to [mobile project(Project[2])]
+[that project(Project[2])] is assigned to [he(Developer[10])] also
+[that developer(Developer[10])] is assigned to [chatbot project(Project[3])] also
+[knowledge base project(Project[1])] is not assigned to [Ashly(Developer[2])]
+[that project(Project[1])] is assigned to [she(Developer[2])] also
+[Eun(Tester[1])] is no longer assigned to [mobile project(Project[2])]
+[that test engineer(Tester[1])] is working on [mobile project(Project[2])] also
+[this person(Tester[1])] is not working on [mobile project(Project[2])] anymore
+[this test engineer(Tester[1])] is assigned to [mobile project(Project[2])] also
+[fails with apache stack] is a new [enhancement] submitted by [Ashly(Developer[2])] for [knowledge base project(Project[1])]
+[the fails with apache stack issue(Issue[8])] was assigned to [Hiram(Tester[4])]
+[that test engineer(Tester[4])] resolved [it(Issue[8])]
+[Hiram(Tester[4])] is working on [mobile project(Project[2])] also
+[svd is slow] is a new issue for the [chatbot project(Project[3])]
+[the svd is slow issue(Issue[9])] is assigned to [Cyndi(Developer[3])]
+[that developer(Developer[3])] resolved [the svd is slow issue(Issue[9])]
+Who was [the fails with apache stack enhancement(Issue[8])] assigned to?	'Hiram(Tester[4])'	['question_type_local']
+Who submitted [the parsing with parantheses fails bug(Issue[5])]?	'Cyndi(Developer[3])'	['question_type_local']
+[mobile project(Project[2])] is not assigned to [Cyndi(Developer[3])]
+[that project(Project[2])] is assigned to [Cyndi(Developer[3])] also
+[she(Developer[3])] is no longer assigned to [knowledge base project(Project[1])]
+[mobile project(Project[2])] is not assigned to [this developer(Developer[3])]
+[that project(Project[2])] has moved to the [development] stage
+[that project(Project[2])] is in the stage of [evaluation]
+Are there any issues assigned to [Kristeen(Tester[7])] that are not resolved?	'wrong pos tag on consecutive words(Issue[1])'	['question_type_local']
+[Cyndi(Developer[3])] is working on [knowledge base project(Project[1])] also
+What are the issues created by [Eun(Tester[1])] that were resolved?	'tokenization not consistent across platforms(Issue[2])'	['question_type_local']
+[that developer(Developer[3])] is working on [mobile project(Project[2])] also
+[this project(Project[2])] is in the stage of [development]
+[mobile project(Project[2])] is now in the [testing] stage
+[Kristeen(Tester[7])] is no longer assigned to [chatbot project(Project[3])]
+[this tester(Tester[7])] is working on [this project(Project[3])] also
+[knowledge base project(Project[1])] is not assigned to [Kristeen(Tester[7])]
+[it(Project[1])] has moved to the [development] stage
+[Kristeen(Tester[7])] is working on [knowledge base project(Project[1])] also
+[that project(Project[1])] is in the [testing] stage
+Who created [the bug that was last added(Issue[7])]?	'Eun(Tester[1])'	['question_type_local']
+[that project(Project[1])] is in the [implementation] stage
+Who submitted [the tokenization not consistent across platforms issue(Issue[2])]?	'Eun(Tester[1])'	['question_type_local']
+[knowledge base project(Project[1])] is now in the [evaluation] stage
+Are there any issues assigned to [Kristeen(Tester[7])] that are not resolved?	'wrong pos tag on consecutive words(Issue[1])'	['question_type_local']
+[mobile project(Project[2])] is not assigned to [Ashly(Developer[2])]
+[this project(Project[2])] is assigned to [that developer(Developer[2])] also
+[this project(Project[2])] is in the stage of [implementation]
+[knowledge base project(Project[1])] is assigned to [Alejandra(Tester[8])] also
+Were there any issues assigned to [Hiram(Tester[4])]?	'parse example terribly slow(Issue[3])', 'fails with apache stack(Issue[8])'	['question_type_local']
+[it(Project[1])] is not assigned to [Kristeen(Tester[7])]
+[that project(Project[1])] is assigned to [Kristeen(Tester[7])] also

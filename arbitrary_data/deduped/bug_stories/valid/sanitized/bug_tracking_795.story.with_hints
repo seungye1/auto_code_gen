@@ -1,0 +1,118 @@
+there is a new [mobile(Project[1])] [project]
+[this project(Project[1])] is currently in the [testing] stage
+[that project(Project[1])] is a [personal] project
+[this project(Project[1])] is in the stage of [design]
+[this project(Project[1])] is in the stage of [testing]
+[mobile project(Project[1])] is in the [design] stage
+[Igor(Tester[1])] is a [tester]
+[that person(Tester[1])] is assigned to [that project(Project[1])]
+there is a new [open source] [chatbot(Project[2])] [project]
+[chatbot project(Project[2])] is in the [development] stage
+[Igor(Tester[1])] is working on [it(Project[2])] also
+there is a new [knowledge base(Project[3])] [project]
+[Luanna(Tester[2])] is a [tester] on [chatbot project(Project[2])]
+[mobile project(Project[1])] is assigned to [that test engineer(Tester[2])] also
+[it(Project[1])] has moved to the [testing] stage
+[Luanna(Tester[2])] submitted a new [bug] for [this project(Project[1])]: [changelong needs to be added]
+[Igor(Tester[1])] is working on [knowledge base project(Project[3])] also
+[it(Project[3])] is in the [testing] stage
+[knowledge base project(Project[3])] is a [open source] project
+[mobile project(Project[1])] is in the stage of [deployment]
+[Marisela(Developer[3])] is a [developer]
+[Danita(Developer[4])] is a [developer]
+[Danita(Developer[4])] is working on [chatbot project(Project[2])]
+[mobile project(Project[1])] is assigned to [Danita(Developer[4])] also
+[Igor(Tester[1])] created a new [bug] for [knowledge base project(Project[3])]: [initialization broken]
+[the issue(Issue[2])] is assigned to [Igor(Tester[1])]
+[Igor(Tester[1])] resolved [the initialization broken issue(Issue[2])]
+Who was [the bug(Issue[2])] assigned to?	'Igor(Tester[1])'	['question_type_local']
+Who was [the issue(Issue[2])] assigned to?	'Igor(Tester[1])'	['question_type_local']
+[mobile project(Project[1])] has moved to the [development] stage
+[Alverta(Tester[5])] is a [tester] on [mobile project(Project[1])]
+[it(Project[1])] is in the [design] stage
+[this tester(Tester[5])] is working on [knowledge base project(Project[3])] also
+[Alverta(Tester[5])] is no longer assigned to [it(Project[3])]
+[Loyd(Tester[6])] is a [tester]
+[that person(Tester[6])] is assigned to [knowledge base project(Project[3])]
+[Michael(Developer[7])] is a [developer]
+[he(Developer[7])] is assigned to [chatbot project(Project[2])]
+[knowledge base project(Project[3])] is assigned to [that developer(Developer[7])] also
+[mobile project(Project[1])] is assigned to [Marisela(Developer[3])]
+[knowledge base project(Project[3])] is assigned to [Marisela(Developer[3])] also
+[that person(Developer[3])] is assigned to [chatbot project(Project[2])] also
+[knowledge base project(Project[3])] is not assigned to [that person(Developer[3])]
+[it(Project[3])] has moved to the [design] stage
+[mobile project(Project[1])] is in the [testing] stage
+[Marisela(Developer[3])] is assigned to [knowledge base project(Project[3])] also
+[mobile project(Project[1])] is assigned to [Michael(Developer[7])] also
+[this developer(Developer[7])] is no longer assigned to [knowledge base project(Project[3])]
+[this person(Developer[7])] is working on [it(Project[3])] also
+[Luanna(Tester[2])] created a new issue for [chatbot project(Project[2])]: [memory leak while reading tf records]
+There is a new issue for the [mobile project(Project[1])]: [memory leak bug]
+[the memory leak bug issue(Issue[4])] is assigned to [Igor(Tester[1])]
+[this person(Tester[1])] resolved [that issue(Issue[4])]
+[Danita(Developer[4])] is working on [knowledge base project(Project[3])] also
+Who submitted [the initialization broken issue(Issue[2])]?	'Igor(Tester[1])'	['question_type_local']
+[she(Developer[4])] is not working on [chatbot project(Project[2])] anymore
+[tokenization not consistent across platforms] is a new [task] submitted by [Igor(Tester[1])] for [knowledge base project(Project[3])]
+[the issue(Issue[5])] was assigned to [Danita(Developer[4])]
+[this person(Developer[4])] resolved [the issue(Issue[5])]
+[chatbot project(Project[2])] is assigned to [she(Developer[4])] also
+[this project(Project[2])] is in the stage of [deployment]
+[Danita(Developer[4])] created a new issue for [knowledge base project(Project[3])]: [timeout problem]
+[the timeout problem issue(Issue[6])] was assigned to [Danita(Developer[4])]
+[she(Developer[4])] resolved [the timeout problem issue(Issue[6])]
+There is a new issue for the [mobile project(Project[1])]: [saving data throws exception]
+[Alverta(Tester[5])] is working on [chatbot project(Project[2])] also
+[Loyd(Tester[6])] is assigned to [mobile project(Project[1])] also
+What are the issues created by [Danita(Developer[4])]?	'timeout problem(Issue[6])'	['question_type_local']
+[that project(Project[1])] has moved to the [development] stage
+[wrong pos tag on consecutive words] is a new [task] for the [it(Project[1])]
+[the memory leak while reading tf records issue(Issue[3])] is assigned to [Alverta(Tester[5])]
+[this test engineer(Tester[5])] resolved [that issue(Issue[3])]
+[that person(Tester[5])] is assigned to [knowledge base project(Project[3])] also
+[Igor(Tester[1])] created a new [proposal] for [that project(Project[3])]: [parsing with parantheses fails]
+[this issue(Issue[9])] is assigned to [Loyd(Tester[6])]
+[he(Tester[6])] is assigned to [chatbot project(Project[2])] also
+[knowledge base project(Project[3])] is not assigned to [Michael(Developer[7])]
+[Michael(Developer[7])] is working on [that project(Project[3])] also
+[mobile project(Project[1])] is now in the [design] stage
+Who was [the parsing with parantheses fails proposal(Issue[9])] assigned to?	'Loyd(Tester[6])'	['question_type_local']
+There is a new [enhancement] for the [mobile project(Project[1])]: [null pointer exception during parsing]
+[that issue(Issue[10])] was assigned to [Alverta(Tester[5])]
+[Alverta(Tester[5])] resolved [the issue(Issue[10])]
+Who was [the bug that was last added(Issue[2])] assigned to?	'Igor(Tester[1])'	['question_type_local']
+What are the issues created by [Danita(Developer[4])]?	'timeout problem(Issue[6])'	['question_type_local']
+[chatbot project(Project[2])] is not assigned to [she(Tester[5])]
+[that test engineer(Tester[5])] is not working on [mobile project(Project[1])] anymore
+[Alverta(Tester[5])] is working on [mobile project(Project[1])] also
+[that person(Tester[5])] is assigned to [chatbot project(Project[2])] also
+Were there any issues created by [Danita(Developer[4])]?	'timeout problem(Issue[6])'	['question_type_local']
+Who submitted [the memory leak while reading tf records issue(Issue[3])]?	'Luanna(Tester[2])'	['question_type_local']
+Who is [the memory leak while reading tf records issue(Issue[3])] assigned to?	'Alverta(Tester[5])'	['question_type_local']
+[Danita(Developer[4])] is not working on [mobile project(Project[1])] anymore
+[this project(Project[1])] is assigned to [that developer(Developer[4])] also
+[that project(Project[1])] has moved to the [deployment] stage
+[Marisela(Developer[3])] is no longer assigned to [chatbot project(Project[2])]
+[this developer(Developer[3])] is assigned to [that project(Project[2])] also
+[Danita(Developer[4])] is no longer assigned to [chatbot project(Project[2])]
+[this person(Developer[4])] is working on [that project(Project[2])] also
+Who was [the timeout problem issue(Issue[6])] assigned to?	'Danita(Developer[4])'	['question_type_local']
+Are there any issues submitted by [Igor(Tester[1])] that are not resolved?	'parsing with parantheses fails(Issue[9])'	['question_type_local']
+[knowledge base project(Project[3])] is assigned to [Luanna(Tester[2])] also
+[that person(Tester[2])] is not working on [mobile project(Project[1])] anymore
+Who was [the parsing with parantheses fails proposal(Issue[9])] assigned to?	'Loyd(Tester[6])'	['question_type_local']
+[Luanna(Tester[2])] is working on [this project(Project[1])] also
+[chatbot project(Project[2])] is not assigned to [this person(Tester[2])]
+[knowledge base project(Project[3])] is not assigned to [Luanna(Tester[2])]
+[it(Project[3])] is assigned to [this person(Tester[2])] also
+[Luanna(Tester[2])] is assigned to [chatbot project(Project[2])] also
+Who submitted [the parsing with parantheses fails proposal(Issue[9])]?	'Igor(Tester[1])'	['question_type_local']
+Were there any issues created by [Danita(Developer[4])]?	'timeout problem(Issue[6])'	['question_type_local']
+[Michael(Developer[7])] is not working on [mobile project(Project[1])] anymore
+Who was [the timeout problem issue(Issue[6])] assigned to?	'Danita(Developer[4])'	['question_type_local']
+[mobile project(Project[1])] is in the stage of [testing]
+[Marisela(Developer[3])] is not working on [knowledge base project(Project[3])] anymore
+Who created [the initialization broken issue(Issue[2])]?	'Igor(Tester[1])'	['question_type_local']
+What are the issues submitted by [Danita(Developer[4])] that were resolved?	'timeout problem(Issue[6])'	['question_type_local']
+[that person(Developer[3])] is assigned to [it(Project[3])] also

@@ -1,0 +1,185 @@
+I am taking a course called [religion]
+create a [professor] named [Eun]
+[this person] is the instructor for [that class]
+[Alejandra] is a [professor]
+the affiliation of [Alejandra] is [mechanical engineering]
+[religion] has a new [religion project 1] released
+change [she]'s department to [psychology]
+[Eun] is affiliated with the [english] department
+who are the professors affiliated with [english]?	'Eun'	['question_type_global', 'question_two_hop_statement']
+[Hiram] is a [professor]
+the affiliation of [he] is [psychology]
+[Francoise] is a [professor]
+Who is the instructor for [religion]?	'Eun'	['question_type_local']
+there is a [professor] named [Willis]
+[Francoise]'s department is [mechanical engineering]
+[religion] has a new [religion project 2] released
+[this project] is worth [88] points
+I submitted [religion project 2] late and received 7 points
+The deadline of [that assignment] is [May 26]
+The topic of [religion project 2] is [deep learning]
+I am taking a course called [spanish]
+[Alejandra] teaches [spanish]
+change [that professor]'s department to [english]
+how much did I get on [religion project 2]?	7	['question_type_local']
+what are all the projects due for [Eun]?	'religion project 1', 'religion project 2'	['question_type_global', 'question_three_hop_statement']
+[religion project 1] is worth [88] points
+[religion project 1] is about [k means]
+I submitted [this project] late and received 88 points
+[this project] is due on [May 08]
+[Francoise]'s department is now [english]
+[Hiram]'s department is now [applied physics]
+how much did I get on [religion project 1]?	88	['question_type_local']
+what assignments did i submit for [Eun]?	'religion project 1', 'religion project 2'	['question_type_global', 'question_three_hop_statement']
+What is [religion project 1] on?	'k means'	['question_type_local']
+what projects do I have to do for [Eun]?	'religion project 1', 'religion project 2'	['question_type_global', 'question_three_hop_statement']
+there is a new [project] for [spanish]
+I submitted [that assignment] late
+[that project] is worth [69] points
+[that assignment] is on [reinforcement learning]
+[this assignment] is due on [May 10]
+which projects are due on [May 08]?	'religion project 1'	['question_type_global', 'question_two_hop_statement']
+[Willis] is affiliated with the [computer science] department
+what did I get on [religion project 2]?	7	['question_type_local']
+what assignments do I have to do for [Eun]?	'religion project 1', 'religion project 2'	['question_type_global', 'question_three_hop_statement']
+How many points is [religion project 1] worth?	88	['question_type_local']
+what are all the projects due for [Alejandra]?	'spanish project 1'	['question_type_global', 'question_three_hop_statement']
+change [Eun]'s department to [applied physics]
+When is [religion project 2] due?	'May 26'	['question_type_local']
+change [he]'s department to [english]
+what are the assignments that i submitted for [Alejandra]	'spanish project 1'	['question_type_global', 'question_three_hop_statement']
+I am taking a course called [philosophy]
+[Francoise] teaches [philosophy]
+there is new [spanish project 2] for [spanish]
+[that project] is on [The Senses]
+How much is [spanish project 1] worth?	69	['question_type_local']
+[that project] is due on [May 22]
+[this project] is worth [37] points
+[philosophy project 1] is released for [philosophy]
+[philosophy project 1] is on [Genetics]
+[this project] is due on [May 11]
+I submitted [that project] late
+[this assignment] is [61] points
+how many points did I receive on [religion project 1]?	88	['question_type_local']
+When is [religion project 2] due?	'May 26'	['question_type_local']
+[philosophy project 2] is released for [philosophy]
+[philosophy project 2] is due on [May 16]
+[philosophy project 2] is [90] points
+When is the deadline of [religion project 1]?	'May 08'	['question_type_local']
+list all projects for [Alejandra]	'spanish project 1', 'spanish project 2'	['question_type_global', 'question_three_hop_statement']
+Who is teaching [philosophy]?	'Francoise'	['question_type_local']
+list all assignments that i submitted for [Francoise]	'philosophy project 1'	['question_type_global', 'question_three_hop_statement']
+[religion] has a new [religion homework 1] out
+[that homework] is due on [May 14]
+I submitted [this assignment]
+[spanish homework 1] is released for [spanish]
+[spanish homework 1] is due on [May 09]
+[this homework] is [39] points
+I submitted [this assignment] and received 17 points
+what assignments do I have to do for [Alejandra]?	'spanish project 1', 'spanish project 2', 'spanish homework 1'	['question_type_global', 'question_three_hop_statement']
+list all assignments for [Alejandra]	'spanish project 1', 'spanish project 2', 'spanish homework 1'	['question_type_global', 'question_three_hop_statement']
+list projects that are due on [May 11]	'philosophy project 1'	['question_type_global', 'question_two_hop_statement']
+list projects that are due on [May 16]	'philosophy project 2'	['question_type_global', 'question_two_hop_statement']
+When is the deadline of [that assignment]?	'May 09'	['question_type_local']
+there is a new [project] for [religion]
+I submitted [this project] on time
+which homeworks are due before [May 17]?	'religion homework 1', 'spanish homework 1'	['question_type_global', 'question_two_hop_statement']
+[spanish] has a new [spanish homework 2] released
+I submitted [spanish homework 2]
+[this homework] is worth [51] points
+how many points did I receive on [spanish homework 1]?	17	['question_type_local']
+I am taking a [physics] course
+change [Francoise]'s department to [applied physics]
+[this course] is taught by [Hiram]
+which homeworks are due after [May 13]?	'religion homework 1'	['question_type_global', 'question_two_hop_statement']
+[philosophy] has a new [philosophy project 3] released
+The deadline of [philosophy project 3] is [May 24]
+I submitted [that project]
+[philosophy] has a new [philosophy project 4] out
+[philosophy project 4] is due on [June 01]
+[philosophy project 3] is [84] points
+how many points is [religion project 2]?	88	['question_type_local']
+I submitted [philosophy project 4]
+[philosophy project 4] is [57] points
+I submitted [spanish project 2] on time and received 37 points
+which assignments are due after [May 26]?	'philosophy project 4'	['question_type_global', 'question_two_hop_statement']
+list all assignments that i submitted for [Francoise]	'philosophy project 1', 'philosophy project 3', 'philosophy project 4'	['question_type_global', 'question_three_hop_statement']
+there is new [spanish homework 3] for [spanish]
+I submitted [spanish homework 3]
+What courses is [Hiram] teaching?	'physics'	['question_type_local']
+show me all projects i submitted for [Francoise]	'philosophy project 1', 'philosophy project 3', 'philosophy project 4'	['question_type_global', 'question_three_hop_statement']
+[this homework] is worth [90] points
+[spanish homework 3] is due on [June 02]
+How much is [philosophy project 1] worth?	61	['question_type_local']
+how many points is [philosophy project 3]?	84	['question_type_local']
+The deadline of [that assignment] moved to [June 02]
+When is [philosophy project 2] due?	'May 16'	['question_type_local']
+which projects are due on [May 26]?	'religion project 2'	['question_type_global', 'question_two_hop_statement']
+The deadline of [that homework] moved to [May 30]
+what are the homeworks that i submitted for [Eun]	'religion homework 1'	['question_type_global', 'question_three_hop_statement']
+how many points did I receive on [religion project 2]?	7	['question_type_local']
+what homeworks do I have to do for [Eun]?	'religion homework 1'	['question_type_global', 'question_three_hop_statement']
+When is the deadline of [religion project 2]?	'May 26'	['question_type_local']
+list projects that are due on [May 10]	'spanish project 1'	['question_type_global', 'question_two_hop_statement']
+how many points did I receive on [spanish project 2]?	37	['question_type_local']
+which homeworks are due after [May 16]?	'spanish homework 3'	['question_type_global', 'question_two_hop_statement']
+The deadline of [spanish homework 2] is [May 20]
+what assignments did i submit late for [Francoise]?	'philosophy project 1'	['question_type_global', 'question_three_hop_statement']
+how many points did I receive on [religion project 2]?	7	['question_type_local']
+which projects are due on [May 10]?	'spanish project 1'	['question_type_global', 'question_two_hop_statement']
+[religion homework 1] is [66] points
+How many points is [spanish homework 2] worth?	51	['question_type_local']
+show me the assignments due on [May 10]	'spanish project 1'	['question_type_global', 'question_two_hop_statement']
+When is the deadline of [religion project 1]?	'May 08'	['question_type_local']
+list assignments that are due on [May 20]	'spanish homework 2'	['question_type_global', 'question_two_hop_statement']
+[physics] has a new [physics homework 1] out
+[physics homework 1] is [13] points
+I submitted [physics homework 1] late and received 10 points
+[that homework] is due on [May 07]
+Who is teaching [religion]?	'Eun'	['question_type_local']
+How many points did I get on [religion project 2]	7	['question_type_local']
+which assignments are due on [May 26]?	'religion project 2'	['question_type_global', 'question_two_hop_statement']
+list assignments that are due on [May 14]	'religion homework 1'	['question_type_global', 'question_two_hop_statement']
+When is [philosophy project 3] due?	'May 24'	['question_type_local']
+When is [spanish project 2] due?	'May 22'	['question_type_local']
+How many points is [religion project 1] worth?	88	['question_type_local']
+list all assignments for [Francoise]	'philosophy project 1', 'philosophy project 2', 'philosophy project 3', 'philosophy project 4'	['question_type_global', 'question_three_hop_statement']
+what homeworks do I have to do for [Eun]?	'religion homework 1'	['question_type_global', 'question_three_hop_statement']
+Which professor is teaching [religion]?	'Eun'	['question_type_local']
+what are all the assignments due for [Alejandra]?	'spanish project 1', 'spanish project 2', 'spanish homework 1', 'spanish homework 2', 'spanish homework 3'	['question_type_global', 'question_three_hop_statement']
+[spanish] has a new [spanish project 3] out
+The deadline of [spanish project 3] is [May 30]
+I submitted [this assignment] on time
+[that assignment] is [74] points
+list all assignments that i submitted for [Hiram]	'physics homework 1'	['question_type_global', 'question_three_hop_statement']
+what projects did i submit late for [Alejandra]?	'spanish project 1'	['question_type_global', 'question_three_hop_statement']
+What is the topic of [religion project 2]?	'deep learning'	['question_type_local']
+list assignments that are due on [May 20]	'spanish homework 2'	['question_type_global', 'question_two_hop_statement']
+list all projects for [Alejandra]	'spanish project 1', 'spanish project 2', 'spanish project 3'	['question_type_global', 'question_three_hop_statement']
+When is [philosophy project 4] due?	'June 01'	['question_type_local']
+list all assignments for [Hiram]	'physics homework 1'	['question_type_global', 'question_three_hop_statement']
+[spanish homework 2] is now due on [May 18]
+[spanish project 3] is now due on [May 28]
+[religion project 3] is [71] points
+which homeworks are due after [May 27]?	'spanish homework 3'	['question_type_global', 'question_two_hop_statement']
+[spanish project 3] is now due on [May 30]
+what are the assignments that i submitted for [Eun]	'religion project 1', 'religion project 2', 'religion homework 1', 'religion project 3'	['question_type_global', 'question_three_hop_statement']
+When is the deadline of [spanish homework 3]?	'May 30'	['question_type_local']
+[religion project 3] is due on [June 02]
+How much is [philosophy project 4] worth?	57	['question_type_local']
+show me the assignments due on [May 09]	'spanish homework 1'	['question_type_global', 'question_two_hop_statement']
+The deadline of [philosophy project 3] moved to [May 25]
+The deadline of [religion project 1] moved to [May 11]
+show me all late assignments i submitted for [Francoise]	'philosophy project 1'	['question_type_global', 'question_three_hop_statement']
+list all projects that i submitted late for [Eun]	'religion project 1', 'religion project 2'	['question_type_global', 'question_three_hop_statement']
+which homeworks are due after [May 27]?	'spanish homework 3'	['question_type_global', 'question_two_hop_statement']
+How many points did I get on [physics homework 1]	10	['question_type_local']
+what assignments do I have to do for [Eun]?	'religion project 1', 'religion project 2', 'religion homework 1', 'religion project 3'	['question_type_global', 'question_three_hop_statement']
+Who is the instructor for [spanish]?	'Alejandra'	['question_type_local']
+there is a new [project] for [philosophy]
+how many points did I receive on [physics homework 1]?	10	['question_type_local']
+change [Francoise]'s department to [computer science]
+list assignments that are due on [June 01]	'philosophy project 4'	['question_type_global', 'question_two_hop_statement']
+which projects are due after [May 27]?	'religion project 3', 'philosophy project 4', 'spanish project 3'	['question_type_global', 'question_two_hop_statement']
+I submitted [this assignment]
+[philosophy project 5] is [37] points

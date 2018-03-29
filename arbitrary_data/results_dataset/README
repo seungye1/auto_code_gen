@@ -1,0 +1,68 @@
+Feedback dataset v0.1
+
+
+Each file maps back to the original *.unlabeled dataset file. For example:
+
+ train_0_0.dataset.unlabeled => train_0_0.dataset.results.valid
+
+Each *.valid file contains a subset of the instances in the corresponding *.unlabeled file that have feedback from turkers.
+
+A *.valid file contains information on the predictions paired with human feedback. A unit in this file is a group that looks like this:
+
+****************************************************************************************************
+instance                                     instance_168__wrong_14__AWNZK81AJ1ZZ3__BONUS
+entities                                     {"TOPIC_CONTEXT": "the shareholder agreement", "ENTITY_TOPIC_1": "the financial reports", "TIME_CONTEXT": "June 11th", "PERSON_CONTEXT": "Andy", "ORG_CONTEXT": "Nokia"}
+prediction                                   wrong_14_1
+beam_index                                   1
+utterance                                    did anyone employed there speak to him about [the financial reports] after that time?
+raw_utterance                                did anyone employed there speak to him about ENTITY_TOPIC_1 after that time?
+correct formula                              (call findCommEvent ( call getPeopleFromContext ) ( call getPeopleByOrg (call getOrgsFromContext) ) (call getTopicFromUtterance (string ENTITY_TOPIC_1)) (call getTimePeriodAfter (call getTimeFromContext)))
+correct nlg                                  find communications between [Andy] and people employed at [Nokia] about [the financial reports], that occured after [June 11th]
+pred formula                                 (call findCommEvent ( call getPersonQuestioned ) ( call getPeopleFromContext ) (call getTopicFromUtterance (string ENTITY_TOPIC_1)) (call getTimePeriodDuring (call getTimeFromContext)))
+pred nlg                                     find communications between the person questioned and [Andy] about [the financial reports], during [June 11th]
+turker feedback                              I mean did ANYONE speak to Andy, and AFTER June 11th, not during.
+turker num_corrections                       2
+turker worker_id                             AWNZK81AJ1ZZ3
+turker assignment_id                         BONUS
+----------------------------------------------------------------------------------------------------
+beam_formula                                 scenarios/instance_168/group_subsets/train_0_0.dataset.results.valid/wrong_26_0           (call findCommEvent ( call getPersonQuestioned ) ( call getPeopleFromContext ) (call getTopicFromUtterance (string ENTITY_TOPIC_1)) (call getTimePeriodAll))
+beam_nlg                                     scenarios/instance_168/group_subsets/train_0_0.dataset.results.valid/wrong_26_0           find communications between the person questioned and [Andy] about [the financial reports] at any time
+
+beam_formula                                 scenarios/instance_168/group_subsets/train_0_0.dataset.results.valid/wrong_14_1           (call findCommEvent ( call getPersonQuestioned ) ( call getPeopleFromContext ) (call getTopicFromUtterance (string ENTITY_TOPIC_1)) (call getTimePeriodDuring (call getTimeFromContext)))
+beam_nlg                                     scenarios/instance_168/group_subsets/train_0_0.dataset.results.valid/wrong_14_1           find communications between the person questioned and [Andy] about [the financial reports], during [June 11th]
+  ... < many more lines >
+
+
+Below is an explanation only for the important lines (the non-important lines are replaced with ...)
+
+
+****************************************************************************************************
+instance                                     // unique id of this feedback 
+entities                                     // entity slots and values (including feedback) 
+prediction                                   // ... 
+beam_index                                   // index of this instance in the beam
+utterance                                    // input utterance shown to turker, with slots filled in
+raw_utterance                                // input utterance with slots not filled 
+correct formula                              // gold (correct) logical form for this utterance (no slots filled) 
+correct nlg                                  // NLG of correct logical form (slots filled with context entities)
+pred formula                                 // predicted logical form for this utterance (may be the same as "correct formula" when prediction is correct)
+pred nlg                                     // NLG of predicted logical form
+turker feedback                              // Turker's feedback towards the NLG of the predicted logical form.
+turker num_corrections                       // Turker's estimate of how many corrections to the NLG they made in their feedback
+turker worker_id                             ... 
+turker assignment_id                         ... 
+----------------------------------------------------------------------------------------------------
+
+     // below there is a list of logical forms ONLY in the BEAM during parsing with Sempre
+     // each candidate logical form is given in a pair with a corresponding NLG of that logical form. There is a newline between each formula/nlg pair
+     // predicted logical form (also from the table above) are always guaranteed to be in this list
+     // logical-form/nlg pairs below are SORTED in the beam, with the first one being the most likely prediction
+
+beam_formula                                 scenarios/instance_168/group_subsets/train_0_0.dataset.results.valid/wrong_26_0           (call findCommEvent ( call getPersonQuestioned ) ( call getPeopleFromContext ) (call getTopicFromUtterance (string ENTITY_TOPIC_1)) (call getTimePeriodAll))
+beam_nlg                                     scenarios/instance_168/group_subsets/train_0_0.dataset.results.valid/wrong_26_0           find communications between the person questioned and [Andy] about [the financial reports] at any time
+
+beam_formula                                 scenarios/instance_168/group_subsets/train_0_0.dataset.results.valid/wrong_14_1           (call findCommEvent ( call getPersonQuestioned ) ( call getPeopleFromContext ) (call getTopicFromUtterance (string ENTITY_TOPIC_1)) (call getTimePeriodDuring (call getTimeFromContext)))
+beam_nlg                                     scenarios/instance_168/group_subsets/train_0_0.dataset.results.valid/wrong_14_1           find communications between the person questioned and [Andy] about [the financial reports], during [June 11th]
+
+
+  ... < many more lines > ...

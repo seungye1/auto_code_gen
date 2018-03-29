@@ -1,0 +1,159 @@
+I am taking a [accounting(Course[1])] course
+there is a new [project(Project[1])] for [accounting(Course[1])]
+[accounting(Course[1])] has a new [accounting homework 1(Homework[2])] out
+The deadline of [accounting project 1(Project[1])] is [January 22]
+The topic of [that project(Project[1])] is [vc dimension]
+I submitted [this project(Project[1])] on time
+[this project(Project[1])] is [16] points
+which assignments are due on [January 22]?	'accounting project 1(Project[1])'	['question_type_global', 'question_two_hop_statement']
+there is a new [project(Project[3])] for [accounting(Course[1])]
+[accounting project 2(Project[3])] is due on [January 24]
+[that assignment(Project[3])] is worth [15] points
+[accounting(Course[1])] has a new [accounting homework 2(Homework[4])] released
+I submitted [this project(Project[3])] and received 14 points
+[accounting project 2(Project[3])] is about [Plants]
+When is the deadline of [this project(Project[3])]?	'January 24'	['question_type_local']
+list assignments that are due on [January 24]	'accounting project 2(Project[3])'	['question_type_global', 'question_two_hop_statement']
+I am taking a course called [religion(Course[2])]
+[accounting(Course[1])] has a new [accounting homework 3(Homework[5])] out
+The deadline of [that homework(Homework[5])] is [February 10]
+I submitted [that homework(Homework[5])] on time
+[that assignment(Homework[5])] is worth [85] points
+which assignments are due after [January 23]?	'accounting project 2(Project[3])', 'accounting homework 3(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+there is new [religion project 1(Project[6])] for [religion(Course[2])]
+[this project(Project[6])] is [26] points
+[religion project 1(Project[6])] is about [The Senses]
+I submitted [that project(Project[6])] and received 3 points
+how many points is [accounting project 2(Project[3])]?	15	['question_type_local']
+there is a new [homework(Homework[7])] for [accounting(Course[1])]
+[Rey(Professor[1])] is a [professor]
+[that professor(Professor[1])]'s email is [Rey@yale.edu]
+How much is [accounting homework 3(Homework[5])] worth?	85	['question_type_local']
+I am taking a [math(Course[3])] course
+[that person(Professor[1])] is the instructor for [this course(Course[3])]
+[math homework 1(Homework[8])] is released for [that class(Course[3])]
+[math homework 2(Homework[9])] is released for [math(Course[3])]
+[math homework 2(Homework[9])] is about [graphical models]
+I submitted [that assignment(Homework[9])]
+there is a new [project(Project[10])] for [religion(Course[2])]
+[that project(Project[10])] is on [grammar induction]
+[that project(Project[10])] is due on [January 24]
+[that assignment(Project[10])] is [79] points
+The deadline of [accounting project 1(Project[1])] moved to [January 22]
+how many points did I receive on [accounting project 2(Project[3])]?	14	['question_type_local']
+what homeworks do I have to do for [Rey]?	'math homework 1(Homework[8])', 'math homework 2(Homework[9])'	['question_type_global', 'question_three_hop_statement']
+which assignments are due after [February 07]?	'accounting homework 3(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+I am taking a [us history(Course[4])] course
+[Isaiah(Professor[2])] is a [professor]
+[this person(Professor[2])]'s email is [Isaiah@cornell.edu]
+how many points is [accounting homework 3(Homework[5])]?	85	['question_type_local']
+what homeworks did i submit for [Rey]?	'math homework 2(Homework[9])'	['question_type_global', 'question_three_hop_statement']
+show me the homeworks due on [February 10]	'accounting homework 3(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+How many points is [accounting project 2(Project[3])] worth?	15	['question_type_local']
+which projects are due before [January 25]?	'accounting project 1(Project[1])', 'accounting project 2(Project[3])', 'religion project 2(Project[10])'	['question_type_global', 'question_two_hop_statement']
+create a [professor] named [Lizeth(Professor[3])]
+[math homework 2(Homework[9])] is worth [58] points
+[this assignment(Homework[9])] is due on [January 24]
+create a [professor] named [Peggy(Professor[4])]
+[that professor(Professor[4])]'s email is [Peggy@chk.ru]
+[religion project 1(Project[6])] is due on [January 18]
+which homeworks did I submit for [Rey]?	'math homework 2(Homework[9])'	['question_type_global', 'question_three_hop_statement']
+The deadline of [accounting homework 2(Homework[4])] is [January 28]
+there is a new [homework(Homework[11])] for [religion(Course[2])]
+[religion homework 1(Homework[11])] is [84] points
+The deadline of [that homework(Homework[11])] is [January 20]
+I submitted [religion homework 1(Homework[11])] and received 34 points
+What is [Peggy(Professor[4])]'s email	'Peggy@chk.ru'	['question_type_local']
+which assignments are due before [January 21]?	'religion project 1(Project[6])', 'religion homework 1(Homework[11])'	['question_type_global', 'question_two_hop_statement']
+which homeworks are due on [January 28]?	'accounting homework 2(Homework[4])'	['question_type_global', 'question_two_hop_statement']
+[Lucy(Professor[5])] is a [professor]
+[this person(Professor[5])]'s email is [Lucy@msn.com]
+How many points did I get on [accounting project 2(Project[3])]	14	['question_type_local']
+show me all assignments that i submitted for [Rey]	'math homework 2(Homework[9])'	['question_type_global', 'question_three_hop_statement']
+[religion(Course[2])] has a new [religion homework 2(Homework[12])] out
+[that homework(Homework[12])] is [44] points
+I submitted [that assignment(Homework[12])] late and received 0 points
+which homeworks are due before [January 21]?	'religion homework 1(Homework[11])'	['question_type_global', 'question_two_hop_statement']
+[math homework 1(Homework[8])] is due on [January 16]
+I submitted [math homework 1(Homework[8])]
+which assignments are due before [January 21]?	'religion project 1(Project[6])', 'math homework 1(Homework[8])', 'religion homework 1(Homework[11])'	['question_type_global', 'question_two_hop_statement']
+which assignments are due after [January 26]?	'accounting homework 2(Homework[4])', 'accounting homework 3(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+there is a [professor] named [Gabrielle(Professor[6])]
+[she(Professor[6])]'s email is [Gabrielle@harvard.edu]
+[math homework 1(Homework[8])] is worth [74] points
+How much is [accounting homework 3(Homework[5])] worth?	85	['question_type_local']
+How much is [religion homework 1(Homework[11])] worth?	84	['question_type_local']
+there is a new [homework(Homework[13])] for [math(Course[3])]
+[math homework 3(Homework[13])] is [78] points
+[this assignment(Homework[13])] is due on [February 07]
+I submitted [this homework(Homework[13])] on time and received 78 points
+[religion(Course[2])] is taught by [Isaiah(Professor[2])]
+When is the deadline of [accounting homework 3(Homework[5])]?	'February 10'	['question_type_local']
+there is new [accounting project 3(Project[14])] for [accounting(Course[1])]
+The deadline of [accounting project 3(Project[14])] is [January 29]
+[accounting project 3(Project[14])] is now due on [February 01]
+I submitted [this project(Project[14])] on time
+[accounting(Course[1])] has a new [accounting project 4(Project[15])] out
+When is the deadline of [religion homework 1(Homework[11])]?	'January 20'	['question_type_local']
+When is [accounting project 1(Project[1])] due?	'January 22'	['question_type_local']
+create a [professor] named [Stephine(Professor[7])]
+I submitted [this project(Project[15])]
+[that project(Project[15])] is [18] points
+show me the homeworks due on [February 07]	'math homework 3(Homework[13])'	['question_type_global', 'question_two_hop_statement']
+list all homeworks for [Rey]	'math homework 1(Homework[8])', 'math homework 2(Homework[9])', 'math homework 3(Homework[13])'	['question_type_global', 'question_three_hop_statement']
+[that assignment(Project[15])] is due on [February 09]
+[math homework 4(Homework[16])] is out for [math(Course[3])]
+[that homework(Homework[16])] is due on [March 01]
+[this homework(Homework[16])] is [10] points
+I submitted [this homework(Homework[16])] on time and received 7 points
+Who is teaching [math(Course[3])]?	'Rey(Professor[1])'	['question_type_local']
+show me the homeworks due on [March 01]	'math homework 4(Homework[16])'	['question_type_global', 'question_two_hop_statement']
+there is a [professor] named [Jack(Professor[8])]
+[that person(Professor[8])]'s email is [Jack@cornell.edu]
+how many points is [math homework 3(Homework[13])]?	78	['question_type_local']
+show me all late homeworks i submitted for [Isaiah]	'religion homework 2(Homework[12])'	['question_type_global', 'question_three_hop_statement']
+what projects did i submit for [Isaiah]?	'religion project 1(Project[6])'	['question_type_global', 'question_three_hop_statement']
+which assignments are due after [January 28]?	'accounting homework 3(Homework[5])', 'math homework 3(Homework[13])', 'accounting project 3(Project[14])', 'accounting project 4(Project[15])', 'math homework 4(Homework[16])'	['question_type_global', 'question_two_hop_statement']
+how many points is [accounting project 1(Project[1])]?	16	['question_type_local']
+How many points did I get on [religion homework 2(Homework[12])]	0	['question_type_local']
+there is a new [project(Project[17])] for [math(Course[3])]
+I submitted [that assignment(Project[17])] on time
+[math project 1(Project[17])] is [96] points
+The deadline of [that project(Project[17])] is [January 18]
+[us history(Course[4])] has a new [us history project 1(Project[18])] released
+[us history project 1(Project[18])] is due on [January 19]
+list all assignments for [Rey]	'math homework 1(Homework[8])', 'math homework 2(Homework[9])', 'math homework 3(Homework[13])', 'math homework 4(Homework[16])', 'math project 1(Project[17])'	['question_type_global', 'question_three_hop_statement']
+which projects did I submit for [Rey]?	'math project 1(Project[17])'	['question_type_global', 'question_three_hop_statement']
+which projects are due after [January 25]?	'accounting project 3(Project[14])', 'accounting project 4(Project[15])'	['question_type_global', 'question_two_hop_statement']
+I submitted [that project(Project[18])] on time
+[that assignment(Project[18])] is worth [73] points
+how much did I get on [accounting project 2(Project[3])]?	14	['question_type_local']
+What is the topic of [religion project 2(Project[10])]?	'grammar induction'	['question_type_local']
+show me the assignments due on [March 01]	'math homework 4(Homework[16])'	['question_type_global', 'question_two_hop_statement']
+show me the assignments due on [January 24]	'accounting project 2(Project[3])', 'math homework 2(Homework[9])', 'religion project 2(Project[10])'	['question_type_global', 'question_two_hop_statement']
+which homeworks are due after [February 13]?	'math homework 4(Homework[16])'	['question_type_global', 'question_two_hop_statement']
+[accounting project 1(Project[1])] is now due on [January 22]
+How many points is [math homework 3(Homework[13])] worth?	78	['question_type_local']
+there is new [religion homework 3(Homework[19])] for [religion(Course[2])]
+The deadline of [religion homework 3(Homework[19])] is [February 10]
+I submitted [religion project 2(Project[10])] and received 27 points
+The deadline of [accounting project 3(Project[14])] moved to [February 01]
+[accounting project 3(Project[14])] is [40] points
+I submitted [accounting homework 2(Homework[4])] on time
+what did I get on [religion homework 1(Homework[11])]?	34	['question_type_local']
+list homeworks that are due on [January 16]	'math homework 1(Homework[8])'	['question_type_global', 'question_two_hop_statement']
+[this homework(Homework[4])] is worth [62] points
+show me the projects due on [February 01]	'accounting project 3(Project[14])'	['question_type_global', 'question_two_hop_statement']
+which projects did I submit for [Isaiah]?	'religion project 1(Project[6])', 'religion project 2(Project[10])'	['question_type_global', 'question_three_hop_statement']
+which projects are due after [February 08]?	'accounting project 4(Project[15])'	['question_type_global', 'question_two_hop_statement']
+I submitted [accounting homework 1(Homework[2])] late
+When is [accounting homework 3(Homework[5])] due?	'February 10'	['question_type_local']
+The deadline of [accounting homework 1(Homework[2])] is [January 17]
+[that homework(Homework[2])] is worth [73] points
+When is [accounting homework 2(Homework[4])] due?	'January 28'	['question_type_local']
+which assignments are due after [February 04]?	'accounting homework 3(Homework[5])', 'math homework 3(Homework[13])', 'accounting project 4(Project[15])', 'math homework 4(Homework[16])', 'religion homework 3(Homework[19])'	['question_type_global', 'question_two_hop_statement']
+what are the projects that i submitted for [Rey]	'math project 1(Project[17])'	['question_type_global', 'question_three_hop_statement']
+show me the homeworks due on [January 24]	'math homework 2(Homework[9])'	['question_type_global', 'question_two_hop_statement']
+how many points did I receive on [religion project 1(Project[6])]?	3	['question_type_local']
+which projects are due after [January 24]?	'accounting project 3(Project[14])', 'accounting project 4(Project[15])'	['question_type_global', 'question_two_hop_statement']
+there is new [accounting project 5(Project[20])] for [accounting(Course[1])]

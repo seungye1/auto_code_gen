@@ -1,0 +1,115 @@
+create a [professor] named [Charlott(Professor[1])]
+[this person(Professor[1])]'s office is [Mary Theater]
+[this professor(Professor[1])] is on sabbatical
+[this professor(Professor[1])]'s research interest is [unsupervised machine learning]
+[Will(Professor[2])] is a [teaching] [professor]
+[he(Professor[2])] research interest is in [unsupervised machine learning]
+What office is [Charlott(Professor[1])] in?	'Mary Theater'	['question_type_local']
+[this person(Professor[2])] went on sabbatical
+[this professor(Professor[2])]'s office is [Benson Building]
+there is a PhD student named [Ashly(PhdStudent[3])]
+create a [professor] named [Willis(Professor[4])]
+What is [Will(Professor[2])] working on?	'unsupervised machine learning'	['question_type_local']
+[second year] is a [Tom(PhdStudent[5])] PhD student
+[this professor(Professor[4])] is in [Hale Building]
+[that student(PhdStudent[5])] has passed the thesis defense
+[this student(PhdStudent[5])] is in [Benson Building]
+[this person(PhdStudent[5])] has [Willis(Professor[4])] and [Charlott(Professor[1])] on the committee
+[Tom(PhdStudent[5])] has passed the thesis proposal exam
+[this student(PhdStudent[5])] has [Will(Professor[2])] on the committee
+There is a course called [U104(Course[1])]
+[that course(Course[1])] is a [undergraduate] level course
+[Will(Professor[2])] teaches [U104(Course[1])]
+[Ashly(PhdStudent[3])] and [Tom(PhdStudent[5])] are attending [this course(Course[1])]
+[U104(Course[1])] is a full semester course
+[Isaiah(MastersStudent[6])] is a masters student
+[this course(Course[1])] is 12 units
+[that class(Course[1])] is a pass-fail course
+[Isaiah(MastersStudent[6])] is attending [U104(Course[1])]
+What are the courses that [Isaiah(MastersStudent[6])] is enrolled in?	'U104(Course[1])'	['question_type_local']
+[Tom(PhdStudent[5])] is now a [third year] student
+Who is teaching [U104(Course[1])]?	'Will(Professor[2])'	['question_type_local']
+[Ashly(PhdStudent[3])] has passed the thesis defense
+[she(PhdStudent[3])] passed thesis proposal
+[this student(PhdStudent[3])] is current in [first year]
+[Ashly(PhdStudent[3])] has [Will(Professor[2])] and [Willis(Professor[4])] on the committee
+[Ashly(PhdStudent[3])] passed the qualifiers
+[Ashly(PhdStudent[3])]'s office is [MacAllister Center]
+What is [Charlott(Professor[1])] working on?	'unsupervised machine learning'	['question_type_local']
+[Will(Professor[2])] currently has funding
+What office is [Will(Professor[2])] in?	'Benson Building'	['question_type_local']
+there is a [professor] named [Casey(Professor[7])]
+[Casey(Professor[7])] is on sabbatical
+[Casey(Professor[7])] has funding
+There is a [undergraduate] course called [U304(Course[2])]
+[that person(Professor[7])]'s office is [MacAllister Center]
+[Tom(PhdStudent[5])] and [Ashly(PhdStudent[3])] are [Casey(Professor[7])]'s student
+create a [professor] named [Tawnya(Professor[8])]
+[this student(PhdStudent[3])] has [Charlott(Professor[1])] on the committee
+Which professors currently on sabbatical are supposed to be teaching [undergraduate] courses?	'Will(Professor[2])'	['question_type_global', 'question_three_hop_statement']
+Create a new course called [U310(Course[3])]
+[this course(Course[3])] is a pass-fail course
+[U310(Course[3])] is under the [neuroscience] department
+[this course(Course[3])] is a [undergraduate] course
+[that course(Course[3])] will be a full semester course
+[Willis(Professor[4])] is the instructor for [that course(Course[3])]
+there is a [first year] PhD student named [Jack(PhdStudent[9])]
+[that student(PhdStudent[9])] has passed the qualifying exam
+[Jack(PhdStudent[9])] is in [Imig Building]
+there is a new masters student named [Gia(MastersStudent[10])]
+[he(PhdStudent[9])] is now a [second year] student
+There is a [undergraduate] 12 unit class called [U103(Course[4])]
+[that class(Course[4])] is a pass-fail course
+[Jack(PhdStudent[9])] and [Gia(MastersStudent[10])] are TAing [that course(Course[4])]
+there is a [first year] PhD student named [William(PhdStudent[11])]
+Which courses are in the [neuroscience] department?	'U310(Course[3])'	['question_type_global', 'question_single_statement']
+Create a new course called [U301(Course[5])]
+[U301(Course[5])] is under the [neuroscience] department
+[that class(Course[5])] is a [undergraduate] course
+[Tawnya(Professor[8])] is on [Ashly(PhdStudent[3])]'s committee
+[U103(Course[4])] is a course in the [electrical engineering] department
+[Casey(Professor[7])] advises [William(PhdStudent[11])] and [Jack(PhdStudent[9])]
+There is a [undergraduate] course called [G103(Course[6])]
+[this person(PhdStudent[9])] is now a [third year] student
+[this person(PhdStudent[9])] passed thesis proposal
+Create a new course called [U101(Course[7])]
+[Jack(PhdStudent[9])] passed thesis defense
+[Marisela(Professor[12])] is a [full] [professor]
+[Tawnya(Professor[8])] is on [he(PhdStudent[9])]'s committee
+[this professor(Professor[8])]'s research interest is [unsupervised machine learning]
+[Jack(PhdStudent[9])] is enrolled in [U104(Course[1])]
+[Willis(Professor[4])] conducts research in [theoretical cosmology]
+[Tom(PhdStudent[5])] and [William(PhdStudent[11])] are TAing [U103(Course[4])]
+[William(PhdStudent[11])] and [Isaiah(MastersStudent[6])] are taking [U310(Course[3])]
+there is a new masters student named [Angelita(MastersStudent[13])]
+there is a masters student named [Andy(MastersStudent[14])]
+[William(PhdStudent[11])] passed thesis defense
+[Andy(MastersStudent[14])] and [Ashly(PhdStudent[3])] are TAing [U310(Course[3])]
+[U310(Course[3])] is a 2 unit course
+Who is TAing [U310(Course[3])]?	'Ashly(PhdStudent[3])', 'Andy(MastersStudent[14])'	['question_type_local']
+[Isaiah(MastersStudent[6])] and [Angelita(MastersStudent[13])] are both taking [that class(Course[3])]
+Which masters students taking the U104 course	'Isaiah(MastersStudent[6])'	['question_type_global', 'question_two_hop_statement']
+What masters students are taking U104	'Isaiah(MastersStudent[6])'	['question_type_global', 'question_two_hop_statement']
+[Tawnya(Professor[8])] is in [Mary Theater]
+[Ashly(PhdStudent[3])] is in [second year]
+Create a new [phd] course called [U203(Course[8])]
+[this course(Course[8])] is offered in the [psychology] department
+[Angelita(MastersStudent[13])] and [Isaiah(MastersStudent[6])] are TAing [U203(Course[8])]
+Which courses are part of the [electrical engineering] department	'U103(Course[4])'	['question_type_global', 'question_single_statement']
+[Angelita(MastersStudent[13])] is enrolled in [U103(Course[4])]
+create a [associate] [professor] named [Eun(Professor[15])]
+[this professor(Professor[15])]'s office is [Center Building]
+[this person(Professor[15])] is now on sabbatical
+Which courses are TAed by [Gia(MastersStudent[10])]?	'U103(Course[4])'	['question_type_local']
+there is a [third year] PhD student named [Rey(PhdStudent[16])]
+[Rey(PhdStudent[16])] is [Will(Professor[2])]'s student
+Which courses in the neuroscience department have second year phd TAs?	'U310(Course[3])'	['question_type_global', 'question_three_hop_statement']
+[this student(PhdStudent[16])] has passed the thesis defense
+[that person(PhdStudent[16])] has passed the qualifying exam
+[that student(PhdStudent[16])] passed thesis proposal
+Create a new course called [U202(Course[9])]
+[that course(Course[9])] is set up as a full semester course
+[that course(Course[9])] has 2 units
+[this course(Course[9])] is part of the [english] department
+[Casey(Professor[7])] is back from the sabbatical
+Which masters students taking the U104 course	'Isaiah(MastersStudent[6])'	['question_type_global', 'question_two_hop_statement']

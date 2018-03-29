@@ -1,0 +1,247 @@
+there is a new PhD student named [Bob(PhdStudent[1])]
+[Bob(PhdStudent[1])] passed thesis proposal
+there is a new [second year] PhD student named [Racquel(PhdStudent[2])]
+[Bob(PhdStudent[1])]'s office is [Hallems Building]
+[she(PhdStudent[2])] failed thesis proposal
+[Milagros(Professor[3])] is a [professor]
+[that professor(Professor[3])]'s research interest is [cold fusion]
+[this professor(Professor[3])] is an [teaching] professor
+Which students are in their [second year]	'Racquel(PhdStudent[2])'	['question_type_global', 'question_single_statement']
+[this professor(Professor[3])] is affiliated with the [asian studies] department
+What is [Milagros(Professor[3])]'s department?	'asian studies'	['question_type_local']
+What is [that person(Professor[3])]'s department?	'asian studies'	['question_type_local']
+There is a course called [G204(Course[1])]
+[Bob(PhdStudent[1])] and [Racquel(PhdStudent[2])] are TAing [G204(Course[1])]
+[third year] is a [Willis(PhdStudent[4])] PhD student
+[she(PhdStudent[2])] has passed the thesis defense
+[she(PhdStudent[2])]'s office is [JILA Building]
+which students passed the proposal exam?	'Bob(PhdStudent[1])'	['question_type_global', 'question_single_statement']
+there is a masters student named [Yoshiko(MastersStudent[5])]
+What are the courses TAed by [Racquel(PhdStudent[2])]?	'G204(Course[1])'	['question_type_local']
+Which professors have an [teaching] status?	'Milagros(Professor[3])'	['question_type_global', 'question_single_statement']
+[Milagros(Professor[3])] teaches [G204(Course[1])]
+[Bob(PhdStudent[1])] is enrolled in [that course(Course[1])]
+create a [professor] named [William(Professor[6])]
+[Racquel(PhdStudent[2])] is [William(Professor[6])]'s student
+[this professor(Professor[6])] is an [teaching] professor
+the affiliation of [this professor(Professor[6])] is [physics]
+Who are the professors working on [cold fusion]?	'Milagros(Professor[3])'	['question_type_global', 'question_single_statement']
+What students are in JILA Building	'Racquel(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+[Milagros(Professor[3])] is in [Hallems Building]
+[Milagros(Professor[3])] is on sabbatical
+there is a [assistant] [professor] named [Lucio(Professor[7])]
+[Lucio(Professor[7])] advises [Bob(PhdStudent[1])] and [Willis(PhdStudent[4])]
+What phd students are taking courses and TAing?	'Bob(PhdStudent[1])'	['question_type_global', 'question_three_hop_statement']
+there is a [third year] PhD student named [Rachele(PhdStudent[8])]
+[she(PhdStudent[8])] has failed the thesis proposal exam
+[Rachele(PhdStudent[8])] did not pass the qualifiers
+Which department is [Milagros(Professor[3])] in?	'asian studies'	['question_type_local']
+What are all the courses?	'G204(Course[1])'	['question_type_global', 'question_single_statement']
+Create a new [phd] course called [G303(Course[2])]
+[that class(Course[2])] has 8 units
+[Willis(PhdStudent[4])] and [Rachele(PhdStudent[8])] are TAing [G303(Course[2])]
+[Lucio(Professor[7])] teaches [G303(Course[2])]
+What students are in Hallems Building	'Bob(PhdStudent[1])'	['question_type_global', 'question_two_hop_statement']
+[G204(Course[1])] is a [masters] level course
+The TA for [G204(Course[1])] is [Yoshiko(MastersStudent[5])]
+[this course(Course[1])] is not a pass-fail course
+What professors advise students who passed their thesis proposal?	'Lucio(Professor[7])'	['question_type_global', 'question_two_hop_statement']
+Which courses have masters student TAs?	'G204(Course[1])'	['question_type_global', 'question_two_hop_statement']
+[William(Professor[6])] has funding
+[Rachele(PhdStudent[8])] is [William(Professor[6])]'s student
+which students passed the proposal exam?	'Bob(PhdStudent[1])'	['question_type_global', 'question_single_statement']
+who are the students?	'Bob(PhdStudent[1])', 'Racquel(PhdStudent[2])', 'Willis(PhdStudent[4])', 'Yoshiko(MastersStudent[5])', 'Rachele(PhdStudent[8])'	['question_type_global', 'question_single_statement']
+[this student(PhdStudent[8])] passed thesis defense
+[she(PhdStudent[8])] is in [Marine Center]
+Which courses are offered this semester?	'G204(Course[1])', 'G303(Course[2])'	['question_type_global', 'question_single_statement']
+[she(PhdStudent[8])] has [Lucio(Professor[7])] and [Milagros(Professor[3])] on the committee
+[Rachele(PhdStudent[8])] has passed the qualifying exam
+What students are taking courses and TAing?	'Bob(PhdStudent[1])'	['question_type_global', 'question_two_hop_statement']
+which courses have no masters students enrolled?	'G204(Course[1])', 'G303(Course[2])'	['question_type_global', 'question_two_hop_statement']
+which [masters] courses have some phd students enrolled?	'G204(Course[1])'	['question_type_global', 'question_three_hop_statement']
+What are the 8 unit courses?	'G303(Course[2])'	['question_type_global', 'question_single_statement']
+[Lucio(Professor[7])] is on sabbatical
+Which are some courses that phd students take?	'G204(Course[1])'	['question_type_global', 'question_two_hop_statement']
+create a [professor] named [Gabrielle(Professor[9])]
+[she(Professor[9])] is affiliated with the [animal science] department
+[Gabrielle(Professor[9])] conducts research in [cold fusion]
+What students are advised by a professor with funding?	'Racquel(PhdStudent[2])', 'Rachele(PhdStudent[8])'	['question_type_global', 'question_two_hop_statement']
+What students are TAing a course taught by their advisor?	'Willis(PhdStudent[4])'	['question_type_global', 'question_three_hop_statement']
+[she(Professor[9])] is on sabbatical
+Which department is [Gabrielle(Professor[9])] in?	'animal science'	['question_type_local']
+What professors advise students who defended successfully?	'William(Professor[6])'	['question_type_global', 'question_two_hop_statement']
+[Willis(PhdStudent[4])] passed thesis proposal
+Which courses are offered this semester?	'G204(Course[1])', 'G303(Course[2])'	['question_type_global', 'question_single_statement']
+Which courses have phd student TAs that are in the second year?	'G204(Course[1])'	['question_type_global', 'question_three_hop_statement']
+there is a new PhD student named [Lizeth(PhdStudent[10])]
+[Lizeth(PhdStudent[10])]'s office is [Marine Center]
+Who has an office in [Marine Center]	'Rachele(PhdStudent[8])', 'Lizeth(PhdStudent[10])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [G304(Course[3])]
+[that class(Course[3])] is not a pass-fail course
+[G304(Course[3])] is a [phd] level course
+[Rachele(PhdStudent[8])] is taking [G304(Course[3])]
+Which professors advise students who passed their proposal?	'Lucio(Professor[7])'	['question_type_global', 'question_two_hop_statement']
+[Gabrielle(Professor[9])] is on [this student(PhdStudent[8])]'s committee
+What professors are on [this student(PhdStudent[8])]'s committee	'Milagros(Professor[3])', 'Lucio(Professor[7])', 'Gabrielle(Professor[9])'	['question_type_local']
+Which courses are TAed by masters students?	'G204(Course[1])'	['question_type_global', 'question_two_hop_statement']
+which students passed the proposal exam?	'Bob(PhdStudent[1])', 'Willis(PhdStudent[4])'	['question_type_global', 'question_single_statement']
+[Lucio(Professor[7])] advises [Lizeth(PhdStudent[10])]
+the affiliation of [Lucio(Professor[7])] is [asian studies]
+What courses is [that professor(Professor[7])] teaching?	'G303(Course[2])'	['question_type_local']
+who are the professors?	'Milagros(Professor[3])', 'William(Professor[6])', 'Lucio(Professor[7])', 'Gabrielle(Professor[9])'	['question_type_global', 'question_single_statement']
+[Gabrielle(Professor[9])] is back from the sabbatical
+What professors advise students who passed their thesis qualifiers?	'William(Professor[6])'	['question_type_global', 'question_two_hop_statement']
+Which phd students taking the G204 course	'Bob(PhdStudent[1])'	['question_type_global', 'question_two_hop_statement']
+What is [she(Professor[9])]'s research focus?	'cold fusion'	['question_type_local']
+What students are taking courses and TAing?	'Bob(PhdStudent[1])', 'Rachele(PhdStudent[8])'	['question_type_global', 'question_two_hop_statement']
+there is a new masters student named [Michael(MastersStudent[11])]
+[this professor(Professor[9])]'s office is [Marine Center]
+For which phd students does [Lucio(Professor[7])] serve on a committee?	'Rachele(PhdStudent[8])'	['question_type_local']
+Which are some courses that phd students take?	'G204(Course[1])', 'G304(Course[3])'	['question_type_global', 'question_two_hop_statement']
+Which professors advise students who passed their defense?	'William(Professor[6])'	['question_type_global', 'question_two_hop_statement']
+Who has an office in [Hallems Building]	'Bob(PhdStudent[1])', 'Milagros(Professor[3])'	['question_type_global', 'question_two_hop_statement']
+[she(Professor[9])] is an [teaching] professor
+who are the phd students?	'Bob(PhdStudent[1])', 'Racquel(PhdStudent[2])', 'Willis(PhdStudent[4])', 'Rachele(PhdStudent[8])', 'Lizeth(PhdStudent[10])'	['question_type_global', 'question_single_statement']
+What students are advised by a professor with funding?	'Racquel(PhdStudent[2])', 'Rachele(PhdStudent[8])'	['question_type_global', 'question_two_hop_statement']
+What students are TAing a course taught by their advisor?	'Willis(PhdStudent[4])'	['question_type_global', 'question_three_hop_statement']
+[that person(Professor[9])] has funding
+What office is [that person(Professor[9])] in?	'Marine Center'	['question_type_local']
+Which professors are conducting research in [cold fusion]	'Milagros(Professor[3])', 'Gabrielle(Professor[9])'	['question_type_global', 'question_single_statement']
+What are the [third year] phd students	'Willis(PhdStudent[4])', 'Rachele(PhdStudent[8])'	['question_type_global', 'question_single_statement']
+Which students have offices in Hallems Building	'Bob(PhdStudent[1])'	['question_type_global', 'question_two_hop_statement']
+there is a masters student named [Loyd(MastersStudent[12])]
+Which courses have masters student TAs?	'G204(Course[1])'	['question_type_global', 'question_two_hop_statement']
+Which professors advise students who passed their proposal?	'Lucio(Professor[7])'	['question_type_global', 'question_two_hop_statement']
+Which are some courses that no masters student is taking?	'G204(Course[1])', 'G303(Course[2])', 'G304(Course[3])'	['question_type_global', 'question_two_hop_statement']
+Which professors currently on sabbatical are supposed to be teaching [masters] courses?	'Milagros(Professor[3])'	['question_type_global', 'question_three_hop_statement']
+There is a [undergraduate] 8 unit class called [U310(Course[4])]
+[William(Professor[6])] teaches [that course(Course[4])]
+Who is teaching [this course(Course[4])]?	'William(Professor[6])'	['question_type_local']
+which students passed the qualifying exam?	'Rachele(PhdStudent[8])'	['question_type_global', 'question_single_statement']
+there is a new PhD student named [Casey(PhdStudent[13])]
+[Casey(PhdStudent[13])] is current in [second year]
+there is a new masters student named [John(MastersStudent[14])]
+[Casey(PhdStudent[13])] passed thesis defense
+Who are [Lucio(Professor[7])]'s students?	'Bob(PhdStudent[1])', 'Willis(PhdStudent[4])', 'Lizeth(PhdStudent[10])'	['question_type_local']
+[Rachele(PhdStudent[8])] passed thesis proposal
+who are the phd students?	'Bob(PhdStudent[1])', 'Racquel(PhdStudent[2])', 'Willis(PhdStudent[4])', 'Rachele(PhdStudent[8])', 'Lizeth(PhdStudent[10])', 'Casey(PhdStudent[13])'	['question_type_global', 'question_single_statement']
+Who is supposed to be teaching [phd] courses but is currently on sabbatical?	'Lucio(Professor[7])'	['question_type_global', 'question_three_hop_statement']
+[he(PhdStudent[13])] has passed the qualifying exam
+[William(Professor[6])]'s office is [Hallems Building]
+[William(Professor[6])] is now on sabbatical
+Who are [this person(Professor[6])]'s students?	'Racquel(PhdStudent[2])', 'Rachele(PhdStudent[8])'	['question_type_local']
+Which are some courses that phd students take?	'G204(Course[1])', 'G304(Course[3])'	['question_type_global', 'question_two_hop_statement']
+Create a new [masters] level course called [G7000(Course[5])]
+[that class(Course[5])] is full semester
+The TA for [that course(Course[5])] is [Casey(PhdStudent[13])]
+[that course(Course[5])] is taught by [Gabrielle(Professor[9])]
+Who is teaching [that class(Course[5])]?	'Gabrielle(Professor[9])'	['question_type_local']
+who are the students?	'Bob(PhdStudent[1])', 'Racquel(PhdStudent[2])', 'Willis(PhdStudent[4])', 'Yoshiko(MastersStudent[5])', 'Rachele(PhdStudent[8])', 'Lizeth(PhdStudent[10])', 'Michael(MastersStudent[11])', 'Loyd(MastersStudent[12])', 'Casey(PhdStudent[13])', 'John(MastersStudent[14])'	['question_type_global', 'question_single_statement']
+Which courses are 8 unit courses?	'G303(Course[2])', 'U310(Course[4])'	['question_type_global', 'question_single_statement']
+What students are taking courses and TAing?	'Bob(PhdStudent[1])', 'Rachele(PhdStudent[8])'	['question_type_global', 'question_two_hop_statement']
+Who are the professors working on [cold fusion]?	'Milagros(Professor[3])', 'Gabrielle(Professor[9])'	['question_type_global', 'question_single_statement']
+What courses are taught by those in the [asian studies] department?	'G204(Course[1])', 'G303(Course[2])'	['question_type_global', 'question_two_hop_statement']
+What courses are taught by professors in the [physics] department?	'U310(Course[4])'	['question_type_global', 'question_two_hop_statement']
+What is [this person(Professor[9])] working on?	'cold fusion'	['question_type_local']
+Which courses are TAed by phd students that passed their qualifier exam or have some funding?	'G303(Course[2])', 'G7000(Course[5])'	['question_type_global', 'question_four_hop_statement']
+[that professor(Professor[9])] is the head of the [animal science] department
+For which phd students does [she(Professor[9])] serve on a committee?	'Rachele(PhdStudent[8])'	['question_type_local']
+who are the masters students?	'Yoshiko(MastersStudent[5])', 'Michael(MastersStudent[11])', 'Loyd(MastersStudent[12])', 'John(MastersStudent[14])'	['question_type_global', 'question_single_statement']
+Which professors are teaching [masters] courses?	'Milagros(Professor[3])', 'Gabrielle(Professor[9])'	['question_type_global', 'question_two_hop_statement']
+what [phd] courses have phd students taking them?	'G304(Course[3])'	['question_type_global', 'question_three_hop_statement']
+What offices do people in the [physics] department have?	'Hallems Building'	['question_type_global', 'question_two_hop_statement']
+[Michael(MastersStudent[11])] and [Willis(PhdStudent[4])] are taking [G304(Course[3])]
+What professors are in the [asian studies] department?	'Milagros(Professor[3])', 'Lucio(Professor[7])'	['question_type_global', 'question_two_hop_statement']
+What 8 unit courses are taught by professors in the [asian studies] department?	'G204(Course[1])', 'G303(Course[2])'	['question_type_global', 'question_three_hop_statement']
+What professors are in the [animal science] department?	'Gabrielle(Professor[9])'	['question_type_global', 'question_two_hop_statement']
+Who has an advisor with funding?	'Racquel(PhdStudent[2])', 'Rachele(PhdStudent[8])'	['question_type_global', 'question_two_hop_statement']
+Create a new [phd] course called [U101(Course[6])]
+[he(PhdStudent[4])] is now in [fourth year]
+[this person(PhdStudent[4])] has [Gabrielle(Professor[9])] on the committee
+[Casey(PhdStudent[13])] is [Gabrielle(Professor[9])]'s student
+What professors advise students who defended successfully?	'William(Professor[6])', 'Gabrielle(Professor[9])'	['question_type_global', 'question_two_hop_statement']
+Who is teaching [phd] courses?	'Lucio(Professor[7])'	['question_type_global', 'question_two_hop_statement']
+Who advises [Bob(PhdStudent[1])]?	'Lucio'	['question_type_local']
+Who is teaching [undergraduate] courses?	'William(Professor[6])'	['question_type_global', 'question_two_hop_statement']
+Which students have offices in JILA Building	'Racquel(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+What students are going to TA [G303(Course[2])]?	'Willis(PhdStudent[4])', 'Rachele(PhdStudent[8])'	['question_type_local']
+What are the [phd] courses?	'G303(Course[2])', 'G304(Course[3])', 'U101(Course[6])'	['question_type_global', 'question_single_statement']
+Which courses are offered this semester?	'G204(Course[1])', 'G303(Course[2])', 'G304(Course[3])', 'U310(Course[4])', 'G7000(Course[5])', 'U101(Course[6])'	['question_type_global', 'question_single_statement']
+What [masters] courses are taught by those in the [asian studies] department?	'G204(Course[1])', 'G303(Course[2])'	['question_type_global', 'question_three_hop_statement']
+Create a new [undergraduate] level 8 unit course called [U304(Course[7])]
+[this person(PhdStudent[13])] has [Lucio(Professor[7])] on the committee
+Who is supposed to be teaching [masters] courses and is not currently on sabbatical?	'Gabrielle(Professor[9])'	['question_type_global', 'question_three_hop_statement']
+[Lucio(Professor[7])] is in [CIRES Building]
+Which phd students have [he(Professor[7])] on their committee	'Rachele(PhdStudent[8])', 'Casey(PhdStudent[13])'	['question_type_local']
+who are the students?	'Bob(PhdStudent[1])', 'Racquel(PhdStudent[2])', 'Willis(PhdStudent[4])', 'Yoshiko(MastersStudent[5])', 'Rachele(PhdStudent[8])', 'Lizeth(PhdStudent[10])', 'Michael(MastersStudent[11])', 'Loyd(MastersStudent[12])', 'Casey(PhdStudent[13])', 'John(MastersStudent[14])'	['question_type_global', 'question_single_statement']
+which courses have some phd students enrolled?	'G204(Course[1])', 'G304(Course[3])'	['question_type_global', 'question_two_hop_statement']
+There is a [masters] course called [G9000(Course[8])]
+What professors advise students who passed their thesis qualifiers?	'William(Professor[6])', 'Gabrielle(Professor[9])'	['question_type_global', 'question_two_hop_statement']
+[Bob(PhdStudent[1])] passed thesis defense
+[Bob(PhdStudent[1])] is a [third year] student
+What professors advise students who defended successfully?	'William(Professor[6])', 'Lucio(Professor[7])', 'Gabrielle(Professor[9])'	['question_type_global', 'question_two_hop_statement']
+[Michael(MastersStudent[11])] and [John(MastersStudent[14])] are TAing [G204(Course[1])]
+[G204(Course[1])] is a full semester course
+Which courses are TAed by [Racquel(PhdStudent[2])]?	'G204(Course[1])'	['question_type_local']
+Which professors are part of the [animal science] department?	'Gabrielle(Professor[9])'	['question_type_global', 'question_two_hop_statement']
+Who is in [JILA Building]	'Racquel(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+What [full_semester_course] are taught by professors in the [physics] department?	'U310(Course[4])'	['question_type_global', 'question_three_hop_statement']
+Who are the professors in the [asian studies] department?	'Milagros(Professor[3])', 'Lucio(Professor[7])'	['question_type_global', 'question_two_hop_statement']
+which students passed the proposal exam?	'Bob(PhdStudent[1])', 'Willis(PhdStudent[4])', 'Rachele(PhdStudent[8])'	['question_type_global', 'question_single_statement']
+Which courses are TAed by phd students?	'G204(Course[1])', 'G303(Course[2])', 'G7000(Course[5])'	['question_type_global', 'question_two_hop_statement']
+Which courses are [full_semester_course]	'G204(Course[1])', 'G7000(Course[5])'	['question_type_global', 'question_single_statement']
+Which students are TAs for courses that have a department head as an instructor?	'Casey(PhdStudent[13])'	['question_type_global', 'question_three_hop_statement']
+[Michael(MastersStudent[11])] is attending [G204(Course[1])]
+Which phd students does [William(Professor[6])] advise?	'Racquel(PhdStudent[2])', 'Rachele(PhdStudent[8])'	['question_type_local']
+What [full_semester_course] are taught by professors in the [animal science] department?	'G7000(Course[5])'	['question_type_global', 'question_three_hop_statement']
+which students passed the qualifying exam?	'Rachele(PhdStudent[8])', 'Casey(PhdStudent[13])'	['question_type_global', 'question_single_statement']
+[Milagros(Professor[3])] has funding
+What are all the courses?	'G204(Course[1])', 'G303(Course[2])', 'G304(Course[3])', 'U310(Course[4])', 'G7000(Course[5])', 'U101(Course[6])', 'U304(Course[7])', 'G9000(Course[8])'	['question_type_global', 'question_single_statement']
+Which courses are TAed by [John(MastersStudent[14])]?	'G204(Course[1])'	['question_type_local']
+Which professors advise students who passed their qualifying exam?	'William(Professor[6])', 'Gabrielle(Professor[9])'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by phd students that passed their qualifier exam or have some funding?	'G303(Course[2])', 'G7000(Course[5])'	['question_type_global', 'question_four_hop_statement']
+Which phd courses have phd student TAs?	'G303(Course[2])'	['question_type_global', 'question_three_hop_statement']
+what courses have phd students taking them?	'G204(Course[1])', 'G304(Course[3])'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by [Michael(MastersStudent[11])]?	'G204(Course[1])'	['question_type_local']
+Which students have an advisor who heads the department?	'Casey(PhdStudent[13])'	['question_type_global', 'question_two_hop_statement']
+What [teaching] professors advise students who passed their thesis proposal?	'William(Professor[6])'	['question_type_global', 'question_three_hop_statement']
+What professors advise students who defended successfully?	'William(Professor[6])', 'Lucio(Professor[7])', 'Gabrielle(Professor[9])'	['question_type_global', 'question_two_hop_statement']
+Which [assistant] professors advise students who passed their proposal?	'Lucio(Professor[7])'	['question_type_global', 'question_three_hop_statement']
+Which professors that are currently not on sabbatical need to be teaching [full_semester_course]?	'Gabrielle(Professor[9])'	['question_type_global', 'question_three_hop_statement']
+What courses is [Yoshiko(MastersStudent[5])] TAing?	'G204(Course[1])'	['question_type_local']
+what courses have no phd students taking them?	'G303(Course[2])', 'U310(Course[4])', 'G7000(Course[5])', 'U101(Course[6])', 'U304(Course[7])', 'G9000(Course[8])'	['question_type_global', 'question_two_hop_statement']
+Which phd courses have phd student TAs?	'G303(Course[2])'	['question_type_global', 'question_three_hop_statement']
+Who are the professors working on [cold fusion]?	'Milagros(Professor[3])', 'Gabrielle(Professor[9])'	['question_type_global', 'question_single_statement']
+Create a new [masters] level 8 unit course called [G101(Course[9])]
+[that person(Professor[3])] is the head of the [asian studies] department
+Who is [Bob(PhdStudent[1])]'s advisor?	'Lucio'	['question_type_local']
+Which students are advised by professors working on [cold fusion]?	'Casey(PhdStudent[13])'	['question_type_global', 'question_two_hop_statement']
+which [masters] courses have no phd students enrolled?	'G7000(Course[5])', 'G9000(Course[8])', 'G101(Course[9])'	['question_type_global', 'question_three_hop_statement']
+what courses have no masters students taking them?	'G303(Course[2])', 'U310(Course[4])', 'G7000(Course[5])', 'U101(Course[6])', 'U304(Course[7])', 'G9000(Course[8])', 'G101(Course[9])'	['question_type_global', 'question_two_hop_statement']
+Which professors currently not on sabbatical are supposed to be teaching [masters] courses?	'Gabrielle(Professor[9])'	['question_type_global', 'question_three_hop_statement']
+Who is supposed to be teaching [full_semester_course] and is currently not on sabbatical?	'Gabrielle(Professor[9])'	['question_type_global', 'question_three_hop_statement']
+Which professors advise students who passed their defense?	'William(Professor[6])', 'Lucio(Professor[7])', 'Gabrielle(Professor[9])'	['question_type_global', 'question_two_hop_statement']
+Which professors have an [assistant] status?	'Lucio(Professor[7])'	['question_type_global', 'question_single_statement']
+What students are in Hallems Building	'Bob(PhdStudent[1])'	['question_type_global', 'question_two_hop_statement']
+[William(Professor[6])] is on [Casey(PhdStudent[13])]'s committee
+[that student(PhdStudent[13])]'s office is [Ketchum Building]
+What [full_semester_course] are taught by professors in the [asian studies] department?	'G204(Course[1])', 'G303(Course[2])'	['question_type_global', 'question_three_hop_statement']
+who are the masters students?	'Yoshiko(MastersStudent[5])', 'Michael(MastersStudent[11])', 'Loyd(MastersStudent[12])', 'John(MastersStudent[14])'	['question_type_global', 'question_single_statement']
+[G204(Course[1])] is a 2 unit course
+Who is teaching [G204(Course[1])]?	'Milagros(Professor[3])'	['question_type_local']
+Which students have an advisor who heads the department?	'Casey(PhdStudent[13])'	['question_type_global', 'question_two_hop_statement']
+[Bob(PhdStudent[1])] passed the qualifiers
+What courses is [he(PhdStudent[1])] taking?	'G204(Course[1])'	['question_type_local']
+Which professors advise students who passed their qualifying exam?	'William(Professor[6])', 'Lucio(Professor[7])', 'Gabrielle(Professor[9])'	['question_type_global', 'question_two_hop_statement']
+Which phd courses are TAed by phd students?	'G303(Course[2])'	['question_type_global', 'question_three_hop_statement']
+What courses is [that student(PhdStudent[1])] taking?	'G204(Course[1])'	['question_type_local']
+What professors advise students who passed their thesis proposal?	'William(Professor[6])', 'Lucio(Professor[7])'	['question_type_global', 'question_two_hop_statement']
+Who is supposed to be teaching [full_semester_course] and is currently not on sabbatical?	'Gabrielle(Professor[9])'	['question_type_global', 'question_three_hop_statement']
+Which students have an advisor who heads the department?	'Casey(PhdStudent[13])'	['question_type_global', 'question_two_hop_statement']
+What are the 2 unit courses?	'G204(Course[1])'	['question_type_global', 'question_single_statement']
+Which courses are TAed by [this person(PhdStudent[1])]?	'G204(Course[1])'	['question_type_local']
+Who is in [CIRES Building]	'Lucio(Professor[7])'	['question_type_global', 'question_two_hop_statement']
+Which professors have offices in Hallems Building	'Milagros(Professor[3])', 'William(Professor[6])'	['question_type_global', 'question_two_hop_statement']
+[Lizeth(PhdStudent[10])] has passed the qualifying exam
+[she(PhdStudent[10])] has passed the thesis proposal exam
+What masters students are taking G204	'Michael(MastersStudent[11])'	['question_type_global', 'question_two_hop_statement']

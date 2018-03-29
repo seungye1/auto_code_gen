@@ -1,0 +1,132 @@
+there is a new masters student named [Milagros(MastersStudent[1])]
+[Milagros(MastersStudent[1])] is affiliated with the [biomedical engineering] department
+[Bob(Professor[2])] is a [professor]
+there is a new [third year] PhD student named [Andrew(PhdStudent[3])]
+[this student(PhdStudent[3])] has passed the thesis defense
+there is a new PhD student named [Alverta(PhdStudent[4])]
+[Bob(Professor[2])] is on [Andrew(PhdStudent[3])]'s committee
+[that student(PhdStudent[3])] is funded
+[this professor(Professor[2])] is on sabbatical
+[this student(PhdStudent[3])] has failed the thesis proposal exam
+[Alverta(PhdStudent[4])] passed thesis defense
+[Emmie(MastersStudent[5])] is a masters student
+[Alverta(PhdStudent[4])] passed the qualifiers
+[Emmie(MastersStudent[5])]'s department is [asian studies]
+For which phd students does [Bob(Professor[2])] serve on a committee?	'Andrew(PhdStudent[3])'	['question_type_local']
+[Alverta(PhdStudent[4])] has failed the thesis proposal exam
+What professors are on [Andrew(PhdStudent[3])]'s committee	'Bob(Professor[2])'	['question_type_local']
+There is a [masters] course called [U201(Course[1])]
+[Alverta(PhdStudent[4])] is in [JILA Building]
+What students are in the [biomedical engineering] department?	'Milagros(MastersStudent[1])'	['question_type_global', 'question_two_hop_statement']
+Who has an office in [JILA Building]	'Alverta(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+[this student(PhdStudent[4])] currently has funding
+there is a masters student named [Hiram(MastersStudent[6])]
+[Alverta(PhdStudent[4])] failed thesis proposal
+there is a [distinguished] [professor] named [Gia(Professor[7])]
+[Alverta(PhdStudent[4])] is a [fifth year] student
+[Andrew(PhdStudent[3])] is in [Fleming Building]
+[she(PhdStudent[4])] passed thesis proposal
+[Andrew(PhdStudent[3])] has passed the qualifying exam
+there is a new PhD student named [Yoshiko(PhdStudent[8])]
+There is a course called [U103(Course[2])]
+[that course(Course[2])] is taught by [Bob(Professor[2])]
+there is a new PhD student named [Stephine(PhdStudent[9])]
+[Bob(Professor[2])] currently has funding
+create a [professor] named [Angelita(Professor[10])]
+[he(Professor[2])] conducts research in [programming languages]
+What students are in JILA Building	'Alverta(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+Who has an office in [Fleming Building]	'Andrew(PhdStudent[3])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [G201(Course[3])]
+[G201(Course[3])] is full semester
+[Milagros(MastersStudent[1])] and [Emmie(MastersStudent[5])] are taking [this course(Course[3])]
+there is a masters student named [Igor(MastersStudent[11])]
+there is a [professor] named [Charlott(Professor[12])]
+the affiliation of [Igor(MastersStudent[11])] is [asian studies]
+Who is in [JILA Building]	'Alverta(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+[this professor(Professor[12])] is an [teaching] professor
+[Charlott(Professor[12])] currently has funding
+Create a new course called [U8001(Course[4])]
+[that person(Professor[12])] advises [Andrew(PhdStudent[3])]
+What [teaching] professors advise students who defended successfully?	'Charlott(Professor[12])'	['question_type_global', 'question_three_hop_statement']
+[that student(PhdStudent[3])] failed thesis proposal
+[Andrew(PhdStudent[3])] failed thesis proposal
+[Angelita(Professor[10])] is on [Andrew(PhdStudent[3])]'s committee
+[Andrew(PhdStudent[3])] is now in [fourth year]
+Who is on [Andrew(PhdStudent[3])]'s committee?	'Bob(Professor[2])', 'Angelita(Professor[10])'	['question_type_local']
+Who is in [JILA Building]	'Alverta(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+Which students have offices in JILA Building	'Alverta(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+[Yoshiko(PhdStudent[8])] and [Stephine(PhdStudent[9])] are [Bob(Professor[2])]'s student
+What is [Bob(Professor[2])] working on?	'programming languages'	['question_type_local']
+[Stephine(PhdStudent[9])] has passed the thesis proposal exam
+[this student(PhdStudent[9])] has [Gia(Professor[7])] and [Angelita(Professor[10])] on the committee
+[Stephine(PhdStudent[9])] currently has funding
+[this student(PhdStudent[9])] is a [fifth year] student
+[this person(PhdStudent[9])] is now a [sixth year] student
+[Stephine(PhdStudent[9])] failed their thesis defense
+[Stephine(PhdStudent[9])] has passed the qualifying exam
+[G201(Course[3])] has 12 units
+[Angelita(Professor[10])] is the instructor for [that course(Course[3])]
+[this course(Course[3])] is a [undergraduate] course
+[Alverta(PhdStudent[4])] is [Bob(Professor[2])]'s student
+[Bob(Professor[2])] is back from the sabbatical
+[Gia(Professor[7])] and [Angelita(Professor[10])] are on [that student(PhdStudent[4])]'s committee
+Which department is [Yoshiko(PhdStudent[8])] in?	"I don't know"	['question_type_local']
+[Gia(Professor[7])] conducts research in [neurocomputing]
+What are the courses that [Emmie(MastersStudent[5])] is enrolled in?	'G201(Course[3])'	['question_type_local']
+[Yoshiko(PhdStudent[8])] failed their thesis defense
+[this student(PhdStudent[8])] is current in [fifth year]
+Who advises [she(PhdStudent[8])]?	'Bob'	['question_type_local']
+[Yoshiko(PhdStudent[8])] has [Charlott(Professor[12])] on the committee
+[Yoshiko(PhdStudent[8])]'s office is [McKenna Building]
+Which [teaching] professors advise students who passed their qualifying exam?	'Charlott(Professor[12])'	['question_type_global', 'question_three_hop_statement']
+[that professor(Professor[12])] research interest is in [neurocomputing]
+[Charlott(Professor[12])] is now on sabbatical
+[Emmie(MastersStudent[5])] and [Andrew(PhdStudent[3])] are both taking [G201(Course[3])]
+the affiliation of [Hiram(MastersStudent[6])] is [history]
+Who advises [Andrew(PhdStudent[3])]?	'Charlott'	['question_type_local']
+Create a new course called [U304(Course[5])]
+Which [teaching] professors advise students who passed their qualifying exam?	'Charlott(Professor[12])'	['question_type_global', 'question_three_hop_statement']
+Which students have offices in Fleming Building	'Andrew(PhdStudent[3])'	['question_type_global', 'question_two_hop_statement']
+[U304(Course[5])] is taught by [Gia(Professor[7])]
+[that course(Course[5])] is a 4 unit course
+[that class(Course[5])] is full semester
+[that course(Course[5])] is TAed by [Igor(MastersStudent[11])] and [Andrew(PhdStudent[3])]
+Who is teaching [U304(Course[5])]?	'Gia(Professor[7])'	['question_type_local']
+What is [Bob(Professor[2])]'s department?	"I don't know"	['question_type_local']
+What students are in JILA Building	'Alverta(PhdStudent[4])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [U104(Course[6])]
+[Gia(Professor[7])] is on [Andrew(PhdStudent[3])]'s committee
+[Andrew(PhdStudent[3])] is in [fifth year]
+[he(PhdStudent[3])] is now a [sixth year] student
+Who is enrolled in [G201(Course[3])]?	'Milagros(MastersStudent[1])', 'Andrew(PhdStudent[3])', 'Emmie(MastersStudent[5])'	['question_type_local']
+[Charlott(Professor[12])] is on [Stephine(PhdStudent[9])]'s committee
+Who is [Stephine(PhdStudent[9])]'s advisor?	'Bob'	['question_type_local']
+What [teaching] professors advise students who defended successfully?	'Charlott(Professor[12])'	['question_type_global', 'question_three_hop_statement']
+[this student(PhdStudent[9])] is in [Biosciences Building]
+Who has an office in [Fleming Building]	'Andrew(PhdStudent[3])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [U102(Course[7])]
+[that course(Course[7])] is set up as a full semester course
+Which students have offices in Biosciences Building	'Stephine(PhdStudent[9])'	['question_type_global', 'question_two_hop_statement']
+[that class(Course[7])] is a [phd] course
+[that class(Course[7])] is a 8 unit course
+Which [sixth year] students's advisors are conducting research in [neurocomputing]	'Andrew(PhdStudent[3])'	['question_type_global', 'question_three_hop_statement']
+[Alverta(PhdStudent[4])] is in [sixth year]
+[Stephine(PhdStudent[9])] is taking [that course(Course[7])]
+There is a course called [G103(Course[8])]
+[G103(Course[8])] is a [undergraduate] level course
+[that class(Course[8])] is 2 units
+[that class(Course[8])] is taught by [Charlott(Professor[12])]
+Who is [Alverta(PhdStudent[4])]'s advisor?	'Bob'	['question_type_local']
+Create a new [phd] level 4 unit course called [G202(Course[9])]
+There is a [masters] level course called [G204(Course[10])]
+[G202(Course[9])] is a full semester course
+Who is [Stephine(PhdStudent[9])]'s advisor?	'Bob'	['question_type_local']
+[Angelita(Professor[10])] is an [assistant] professor
+[Yoshiko(PhdStudent[8])] is now a [sixth year] student
+[this professor(Professor[10])] research interest is in [neurocomputing]
+[Angelita(Professor[10])] is on sabbatical
+Which students have offices in Biosciences Building	'Stephine(PhdStudent[9])'	['question_type_global', 'question_two_hop_statement']
+What are the courses TAed by [Igor(MastersStudent[11])]?	'U304(Course[5])'	['question_type_local']
+[Stephine(PhdStudent[9])] failed their thesis defense
+[Angelita(Professor[10])] has funding
+[Andrew(PhdStudent[3])] passed thesis proposal

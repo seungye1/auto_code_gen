@@ -1,0 +1,161 @@
+I am taking a course called [statistics(Course[1])]
+I am taking a [algebra(Course[2])] course
+I am taking a [physics(Course[3])] course
+[algebra project 1(Project[1])] is out for [algebra(Course[2])]
+[that assignment(Project[1])] is on [vc dimension]
+[algebra project 1(Project[1])] is [17] points
+[statistics(Course[1])] has a new [statistics homework 1(Homework[2])] out
+The deadline of [statistics homework 1(Homework[2])] is [April 26]
+[statistics homework 2(Homework[3])] is out for [statistics(Course[1])]
+I submitted [statistics homework 1(Homework[2])]
+[statistics homework 1(Homework[2])] is [50] points
+there is new [algebra project 2(Project[4])] for [algebra(Course[2])]
+[algebra project 2(Project[4])] is [75] points
+I submitted [this project(Project[4])] and received 75 points
+[that assignment(Project[4])] is on [clustering]
+The deadline of [this assignment(Project[4])] is [April 30]
+there is a [professor] named [Loyd(Professor[1])]
+The deadline of [algebra project 2(Project[4])] moved to [April 28]
+When is the deadline of [that project(Project[4])]?	'April 28'	['question_type_local']
+show me the projects due on [April 28]	'algebra project 2(Project[4])'	['question_type_global', 'question_two_hop_statement']
+The deadline of [algebra project 1(Project[1])] is [April 20]
+I submitted [algebra project 1(Project[1])] and received 10 points
+[statistics homework 1(Homework[2])] is about [logistic regression]
+what did I get on [this project(Project[1])]?	10	['question_type_local']
+create a [professor] named [Gabrielle(Professor[2])]
+[that person(Professor[2])] is in [P962]
+[this professor(Professor[2])]'s email is [Gabrielle@nh.edu]
+How many points is [algebra project 1(Project[1])] worth?	17	['question_type_local']
+When is the deadline of [algebra project 2(Project[4])]?	'April 28'	['question_type_local']
+show me the homeworks due on [April 26]	'statistics homework 1(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+[algebra(Course[2])] has a new [algebra homework 1(Homework[5])] released
+[algebra homework 1(Homework[5])] is worth [32] points
+I submitted [algebra homework 1(Homework[5])] and received 32 points
+The deadline of [this homework(Homework[5])] is [April 24]
+How much is [statistics homework 1(Homework[2])] worth?	50	['question_type_local']
+which projects are due before [April 26]?	'algebra project 1(Project[1])'	['question_type_global', 'question_two_hop_statement']
+[this assignment(Homework[5])] is on [Cells]
+[physics(Course[3])] is taught by [Loyd(Professor[1])]
+I am taking a course called [english(Course[4])]
+[Gabrielle(Professor[2])] is the instructor for [english(Course[4])]
+[physics homework 1(Homework[6])] is released for [physics(Course[3])]
+[that homework(Homework[6])] is [84] points
+I submitted [physics homework 1(Homework[6])] late and received 84 points
+The topic of [this homework(Homework[6])] is [supervised learning]
+How much is [that homework(Homework[6])] worth?	84	['question_type_local']
+list all assignments that i submitted for [Loyd]	'physics homework 1(Homework[6])'	['question_type_global', 'question_three_hop_statement']
+[physics homework 1(Homework[6])] is due on [April 23]
+How much is [statistics homework 1(Homework[2])] worth?	50	['question_type_local']
+which projects are due on [April 20]?	'algebra project 1(Project[1])'	['question_type_global', 'question_two_hop_statement']
+there is a [professor] named [Milagros(Professor[3])]
+[that person(Professor[3])]'s email is [Milagros@nh.edu]
+[Milagros(Professor[3])] is in [P962]
+What office is [this professor(Professor[3])] in?	'P962'	['question_type_local']
+what did I get on [algebra project 1(Project[1])]?	10	['question_type_local']
+there is new [physics project 1(Project[7])] for [physics(Course[3])]
+I submitted [this assignment(Project[7])]
+The deadline of [that project(Project[7])] is [April 20]
+[this assignment(Project[7])] is [51] points
+how many points is [algebra homework 1(Homework[5])]?	32	['question_type_local']
+How much is [algebra homework 1(Homework[5])] worth?	32	['question_type_local']
+[Loyd(Professor[1])]'s email is [Loyd@yandex.com]
+[he(Professor[1])]'s office is [461]
+When is the deadline of [algebra homework 1(Homework[5])]?	'April 24'	['question_type_local']
+how many points is [algebra homework 1(Homework[5])]?	32	['question_type_local']
+What is [Gabrielle(Professor[2])]'s office?	'P962'	['question_type_local']
+[physics project 2(Project[8])] is released for [physics(Course[3])]
+[this assignment(Project[8])] is due on [May 06]
+I submitted [physics project 2(Project[8])]
+[that assignment(Project[8])] is [19] points
+[statistics(Course[1])] has a new [statistics homework 3(Homework[9])] out
+I submitted [that homework(Homework[9])]
+The deadline of [this homework(Homework[9])] is [May 18]
+[english(Course[4])] has a new [english homework 1(Homework[10])] out
+there is a new [homework(Homework[11])] for [physics(Course[3])]
+I submitted [english homework 1(Homework[10])] late
+[physics homework 2(Homework[11])] is [46] points
+The deadline of [physics homework 2(Homework[11])] is [April 26]
+I submitted [that homework(Homework[11])] and received 32 points
+[physics homework 2(Homework[11])] is now due on [April 26]
+what did I get on [physics homework 1(Homework[6])]?	84	['question_type_local']
+list all assignments that i submitted late for [Loyd]	'physics homework 1(Homework[6])'	['question_type_global', 'question_three_hop_statement']
+[Yoshiko(Professor[4])] is a [professor]
+What office is [Gabrielle(Professor[2])] in?	'P962'	['question_type_local']
+how many points is [physics project 1(Project[7])]?	51	['question_type_local']
+what did I get on [algebra project 1(Project[1])]?	10	['question_type_local']
+which assignments are due after [May 16]?	'statistics homework 3(Homework[9])'	['question_type_global', 'question_two_hop_statement']
+[english project 1(Project[12])] is out for [english(Course[4])]
+[that person(Professor[4])] is in [778]
+[this person(Professor[4])]'s email is [Yoshiko@yandex.com]
+The deadline of [physics project 1(Project[7])] moved to [April 18]
+The deadline of [this assignment(Project[7])] moved to [April 17]
+what homeworks do I have to do for [Loyd]?	'physics homework 1(Homework[6])', 'physics homework 2(Homework[11])'	['question_type_global', 'question_three_hop_statement']
+show me all late homeworks i submitted for [Gabrielle]	'english homework 1(Homework[10])'	['question_type_global', 'question_three_hop_statement']
+When is the deadline of [algebra project 1(Project[1])]?	'April 20'	['question_type_local']
+which homeworks are due after [April 26]?	'statistics homework 3(Homework[9])'	['question_type_global', 'question_two_hop_statement']
+what homeworks did i submit late for [Loyd]?	'physics homework 1(Homework[6])'	['question_type_global', 'question_three_hop_statement']
+there is a [professor] named [Rachele(Professor[5])]
+[this professor(Professor[5])] is in [P962]
+[she(Professor[5])]'s email is [Rachele@yahoo.com]
+which assignments are due on [April 17]?	'physics project 1(Project[7])'	['question_type_global', 'question_two_hop_statement']
+What is [Loyd(Professor[1])]'s email	'Loyd@yandex.com'	['question_type_local']
+When is [physics project 1(Project[7])] due?	'April 17'	['question_type_local']
+list all assignments for [Loyd]	'physics homework 1(Homework[6])', 'physics project 1(Project[7])', 'physics project 2(Project[8])', 'physics homework 2(Homework[11])'	['question_type_global', 'question_three_hop_statement']
+How many points did I get on [algebra project 1(Project[1])]	10	['question_type_local']
+there is a [professor] named [Igor(Professor[6])]
+[Igor(Professor[6])]'s email is [Igor@harvard.edu]
+[Igor(Professor[6])]'s office is [778]
+what are all the assignments due for [Loyd]?	'physics homework 1(Homework[6])', 'physics project 1(Project[7])', 'physics project 2(Project[8])', 'physics homework 2(Homework[11])'	['question_type_global', 'question_three_hop_statement']
+which projects are due on [April 17]?	'physics project 1(Project[7])'	['question_type_global', 'question_two_hop_statement']
+[statistics project 1(Project[13])] is released for [statistics(Course[1])]
+[that assignment(Project[13])] is [11] points
+how much did I get on [algebra project 2(Project[4])]?	75	['question_type_local']
+[english project 2(Project[14])] is out for [english(Course[4])]
+[english project 2(Project[14])] is worth [28] points
+I submitted [this project(Project[14])] on time and received 28 points
+which projects are due after [April 23]?	'algebra project 2(Project[4])', 'physics project 2(Project[8])'	['question_type_global', 'question_two_hop_statement']
+how many points did I receive on [algebra homework 1(Homework[5])]?	32	['question_type_local']
+[that project(Project[14])] is due on [May 06]
+What office is [Gabrielle(Professor[2])] in?	'P962'	['question_type_local']
+which assignments are due on [May 18]?	'statistics homework 3(Homework[9])'	['question_type_global', 'question_two_hop_statement']
+which homeworks are due on [April 24]?	'algebra homework 1(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+What is [Rachele(Professor[5])]'s office?	'P962'	['question_type_local']
+[statistics(Course[1])] has a new [statistics homework 4(Homework[15])] out
+I submitted [that homework(Homework[15])] late
+[this homework(Homework[15])] is worth [97] points
+The deadline of [that homework(Homework[15])] is [June 03]
+how much did I get on [physics homework 1(Homework[6])]?	84	['question_type_local']
+what are the late assignments that i submitted for [Gabrielle]	'english homework 1(Homework[10])'	['question_type_global', 'question_three_hop_statement']
+How many points did I get on [physics homework 2(Homework[11])]	32	['question_type_local']
+what assignments did i submit late for [Gabrielle]?	'english homework 1(Homework[10])'	['question_type_global', 'question_three_hop_statement']
+which assignments are due after [May 15]?	'statistics homework 3(Homework[9])', 'statistics homework 4(Homework[15])'	['question_type_global', 'question_two_hop_statement']
+which assignments are due on [April 24]?	'algebra homework 1(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+The deadline of [this assignment(Homework[15])] moved to [June 02]
+list projects that are due on [May 06]	'physics project 2(Project[8])', 'english project 2(Project[14])'	['question_type_global', 'question_two_hop_statement']
+list all homeworks that i submitted late for [Loyd]	'physics homework 1(Homework[6])'	['question_type_global', 'question_three_hop_statement']
+list all homeworks that i submitted late for [Gabrielle]	'english homework 1(Homework[10])'	['question_type_global', 'question_three_hop_statement']
+When is the deadline of [algebra project 2(Project[4])]?	'April 28'	['question_type_local']
+list assignments that are due on [April 28]	'algebra project 2(Project[4])'	['question_type_global', 'question_two_hop_statement']
+what are the late assignments that i submitted for [Loyd]	'physics homework 1(Homework[6])'	['question_type_global', 'question_three_hop_statement']
+there is new [algebra project 3(Project[16])] for [algebra(Course[2])]
+[this homework(Homework[15])] is now due on [June 03]
+[this project(Project[16])] is due on [May 03]
+[algebra project 3(Project[16])] is [76] points
+there is a new [homework(Homework[17])] for [english(Course[4])]
+I submitted [algebra project 3(Project[16])] and received 39 points
+[that homework(Homework[17])] is worth [82] points
+[this homework(Homework[17])] is due on [May 10]
+I submitted [this assignment(Homework[17])] and received 75 points
+[algebra(Course[2])] has a new [algebra project 4(Project[18])] released
+[that project(Project[18])] is due on [May 18]
+[that project(Project[18])] is worth [100] points
+what did I get on [english project 2(Project[14])]?	28	['question_type_local']
+show me all late assignments i submitted for [statistics]	'statistics homework 4(Homework[15])'	['question_type_global', 'question_two_hop_statement']
+list all homeworks for [Loyd]	'physics homework 1(Homework[6])', 'physics homework 2(Homework[11])'	['question_type_global', 'question_three_hop_statement']
+[statistics(Course[1])] has a new [statistics homework 5(Homework[19])] released
+[this homework(Homework[19])] is due on [May 17]
+I submitted [statistics homework 5(Homework[19])] late
+what homeworks did i submit late for [Gabrielle]?	'english homework 1(Homework[10])'	['question_type_global', 'question_three_hop_statement']
+[statistics project 1(Project[13])] is due on [April 23]
+[that homework(Homework[19])] is worth [14] points
+what did I get on [algebra homework 1(Homework[5])]?	32	['question_type_local']

@@ -1,0 +1,116 @@
+there is a new [mobile(Project[1])] [project]
+[that project(Project[1])] is in the [design] stage
+[this project(Project[1])] is a [important] project
+[Cecil(Tester[1])] is a [tester]
+[it(Project[1])] is assigned to [this test engineer(Tester[1])]
+[Hiram(Tester[2])] is a [tester] on [this project(Project[1])]
+[Rey(Developer[3])] is a [developer] on [mobile project(Project[1])]
+[Cecil(Tester[1])] is not working on [mobile project(Project[1])] anymore
+[Hiram(Tester[2])] created a new issue for [that project(Project[1])]: [svd is slow]
+[the issue(Issue[1])] was assigned to [Rey(Developer[3])]
+[this person(Developer[3])] resolved [the svd is slow issue(Issue[1])]
+[Hiram(Tester[2])] created a new [bug] for [mobile project(Project[1])]: [versioning needs to be made consistent]
+[that issue(Issue[2])] is assigned to [that developer(Developer[3])]
+there is a new [important] [knowledge base(Project[2])] [project]
+[that developer(Developer[3])] is working on [knowledge base project(Project[2])] also
+there is a new [chatbot(Project[3])] [project]
+[chatbot project(Project[3])] is in the stage of [implementation]
+[chatbot project(Project[3])] is a [important] project
+[that project(Project[3])] is now in the [maintenance] stage
+[Alejandra(Tester[4])] is a [tester]
+[mobile project(Project[1])] is assigned to [Alejandra(Tester[4])]
+[Cecil(Tester[1])] is assigned to [chatbot project(Project[3])]
+[minified version fails] is a new issue for the [it(Project[3])]
+[Rey(Developer[3])] is assigned to [chatbot project(Project[3])] also
+[mobile project(Project[1])] is in the stage of [maintenance]
+[John(Tester[5])] is a [tester] on [mobile project(Project[1])]
+[chatbot project(Project[3])] is assigned to [John(Tester[5])] also
+[knowledge base project(Project[2])] is currently in the [maintenance] stage
+[Andy(Developer[6])] is a [developer] on [knowledge base project(Project[2])]
+[Andy(Developer[6])] is assigned to [chatbot project(Project[3])] also
+Who was [the versioning needs to be made consistent issue(Issue[2])] assigned to?	'Rey(Developer[3])'	['question_type_local']
+[Kristeen(Developer[7])] is a [developer]
+[Kristeen(Developer[7])] is assigned to [knowledge base project(Project[2])]
+[Kristeen(Developer[7])] is assigned to [mobile project(Project[1])] also
+[chatbot project(Project[3])] is assigned to [this person(Developer[7])] also
+[timeout problem] is a new [bug] created by [Alejandra(Tester[4])] for [mobile project(Project[1])]
+[the issue(Issue[4])] is assigned to [Hiram(Tester[2])]
+[knowledge base project(Project[2])] is assigned to [Cecil(Tester[1])] also
+[Alejandra(Tester[4])] is assigned to [chatbot project(Project[3])] also
+[she(Tester[4])] is assigned to [knowledge base project(Project[2])] also
+[this person(Tester[4])] is not working on [it(Project[2])] anymore
+[it(Project[2])] is assigned to [this tester(Tester[4])] also
+[Rey(Developer[3])] resolved [the versioning needs to be made consistent bug(Issue[2])]
+[Cecil(Tester[1])] is assigned to [mobile project(Project[1])] also
+[knowledge base project(Project[2])] is assigned to [John(Tester[5])] also
+[that person(Tester[5])] created a new issue for [chatbot project(Project[3])]: [saving data throws exception]
+[the issue(Issue[5])] was assigned to [John(Tester[5])]
+[John(Tester[5])] resolved [it(Issue[5])]
+[Andy(Developer[6])] created a new issue for [knowledge base project(Project[2])]: [null pointer exception during parsing]
+What are the issues created by [John(Tester[5])] that were resolved?	'saving data throws exception(Issue[5])'	['question_type_local']
+[that issue(Issue[6])] is assigned to [Alejandra(Tester[4])]
+[she(Tester[4])] resolved [that issue(Issue[6])]
+Are there any issues created by [Hiram(Tester[2])] that are resolved?	'svd is slow(Issue[1])', 'versioning needs to be made consistent(Issue[2])'	['question_type_local']
+[Kristeen(Developer[7])] created a new issue for [chatbot project(Project[3])]: [memory leak while reading tf records]
+[it(Issue[7])] was assigned to [that person(Tester[4])]
+[knowledge base project(Project[2])] is in the stage of [implementation]
+[Alejandra(Tester[4])] resolved [the memory leak while reading tf records issue(Issue[7])]
+[this person(Tester[4])] is no longer assigned to [mobile project(Project[1])]
+[this test engineer(Tester[4])] is no longer assigned to [knowledge base project(Project[2])]
+[this tester(Tester[4])] is assigned to [it(Project[2])] also
+Who submitted [the versioning needs to be made consistent bug(Issue[2])]?	'Hiram(Tester[2])'	['question_type_local']
+[this person(Tester[4])] is working on [mobile project(Project[1])] also
+[that person(Tester[4])] is no longer assigned to [that project(Project[1])]
+[this person(Tester[4])] is assigned to [mobile project(Project[1])] also
+[Hiram(Tester[2])] resolved [the timeout problem bug(Issue[4])]
+What are the issues created by [Andy(Developer[6])]?	'null pointer exception during parsing(Issue[6])'	['question_type_local']
+[knowledge base project(Project[2])] is not assigned to [Cecil(Tester[1])]
+[this test engineer(Tester[1])] is working on [it(Project[2])] also
+[chatbot project(Project[3])] is now in the [implementation] stage
+What are the issues submitted by [John(Tester[5])]?	'saving data throws exception(Issue[5])'	['question_type_local']
+[Rey(Developer[3])] is not working on [knowledge base project(Project[2])] anymore
+[knowledge base project(Project[2])] has moved to the [maintenance] stage
+[knowledge base project(Project[2])] is now in the [design] stage
+[this project(Project[2])] is now in the [maintenance] stage
+[knowledge base project(Project[2])] is in the stage of [design]
+Who submitted [the bug that was last added(Issue[4])]?	'Alejandra(Tester[4])'	['question_type_local']
+[Rey(Developer[3])] is assigned to [it(Project[2])] also
+[knowledge base project(Project[2])] is in the [maintenance] stage
+Who created [the null pointer exception during parsing issue(Issue[6])]?	'Andy(Developer[6])'	['question_type_local']
+[mobile project(Project[1])] is in the [implementation] stage
+[knowledge base project(Project[2])] is in the [design] stage
+[knowledge base project(Project[2])] is now in the [maintenance] stage
+Who was [the versioning needs to be made consistent issue(Issue[2])] assigned to?	'Rey(Developer[3])'	['question_type_local']
+Who created [the null pointer exception during parsing issue(Issue[6])]?	'Andy(Developer[6])'	['question_type_local']
+[that project(Project[2])] is in the [implementation] stage
+[that project(Project[2])] is in the [design] stage
+[Alejandra(Tester[4])] is not working on [chatbot project(Project[3])] anymore
+[that project(Project[3])] is assigned to [that person(Tester[4])] also
+[this tester(Tester[4])] is no longer assigned to [knowledge base project(Project[2])]
+Who submitted [the versioning needs to be made consistent issue(Issue[2])]?	'Hiram(Tester[2])'	['question_type_local']
+[this test engineer(Tester[4])] is not working on [chatbot project(Project[3])] anymore
+[that test engineer(Tester[4])] is working on [it(Project[3])] also
+[Alejandra(Tester[4])] is working on [knowledge base project(Project[2])] also
+[Hiram(Tester[2])] is no longer assigned to [mobile project(Project[1])]
+[that person(Tester[2])] is assigned to [chatbot project(Project[3])]
+Who submitted [the saving data throws exception issue(Issue[5])]?	'John(Tester[5])'	['question_type_local']
+[this person(Tester[2])] is assigned to [mobile project(Project[1])] also
+Who submitted [the null pointer exception during parsing issue(Issue[6])]?	'Andy(Developer[6])'	['question_type_local']
+[chatbot project(Project[3])] is not assigned to [Hiram(Tester[2])]
+[that person(Tester[2])] is assigned to [knowledge base project(Project[2])] also
+[Kristeen(Developer[7])] is not working on [knowledge base project(Project[2])] anymore
+[knowledge base project(Project[2])] has moved to the [implementation] stage
+[that project(Project[2])] has moved to the [maintenance] stage
+[it(Project[2])] is now in the [implementation] stage
+What are the issues submitted by [Hiram(Tester[2])]?	'svd is slow(Issue[1])', 'versioning needs to be made consistent(Issue[2])'	['question_type_local']
+[Hiram(Tester[2])] is assigned to [chatbot project(Project[3])] also
+[knowledge base project(Project[2])] is in the [design] stage
+[chatbot project(Project[3])] has moved to the [maintenance] stage
+[knowledge base project(Project[2])] is now in the [maintenance] stage
+[Alejandra(Tester[4])] is not working on [knowledge base project(Project[2])] anymore
+[that project(Project[2])] is assigned to [that person(Tester[4])] also
+[mobile project(Project[1])] is in the stage of [maintenance]
+[mobile project(Project[1])] is in the [implementation] stage
+Who submitted [the null pointer exception during parsing issue(Issue[6])]?	'Andy(Developer[6])'	['question_type_local']
+Who is [the timeout problem bug(Issue[4])] assigned to?	'Hiram(Tester[2])'	['question_type_local']
+[knowledge base project(Project[2])] is in the stage of [design]

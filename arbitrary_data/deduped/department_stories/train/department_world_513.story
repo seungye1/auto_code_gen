@@ -1,0 +1,233 @@
+Create a new [phd] level 12 unit course called [U310]
+[that class] will be a full semester course
+there is a masters student named [Britney]
+[Britney] is TAing [U310]
+Which students are TAing [this course]?	'Britney'	['question_type_local']
+there is a [associate] [professor] named [Emmie]
+[that professor] received funding
+[this professor]'s research interest is [experimental cosmology]
+What is [she] research area?	'experimental cosmology'	['question_type_local']
+who are the masters students?	'Britney'	['question_type_global', 'question_single_statement']
+[Britney] is affiliated with the [neuroscience] department
+What courses is [that student] TAing?	'U310'	['question_type_local']
+create a [professor] named [Jack]
+Which courses are TAed by [this student]?	'U310'	['question_type_local']
+Which professors have an [associate] status?	'Emmie'	['question_type_global', 'question_single_statement']
+[he]'s research interest is [programming languages]
+What students are in the [neuroscience] department?	'Britney'	['question_type_global', 'question_two_hop_statement']
+there is a new PhD student named [Emma]
+[he] is in [Environmental Building]
+[Emma] has [Jack] and [Emmie] on the committee
+[Emma] passed thesis proposal
+Which people are in the [neuroscience] department?	'Britney'	['question_type_global', 'question_single_statement']
+who are the phd students?	'Emma'	['question_type_global', 'question_single_statement']
+there is a new masters student named [Racquel]
+the affiliation of [Racquel] is [physics]
+which courses have no masters students enrolled?	'U310'	['question_type_global', 'question_two_hop_statement']
+There is a course called [U7000]
+[Racquel] and [Emma] are TAs for [U7000]
+[Emmie] is the instructor for [U7000]
+What students are going to TA [that course]?	'Emma', 'Racquel'	['question_type_local']
+who are the professors?	'Emmie', 'Jack'	['question_type_global', 'question_single_statement']
+[that course] is a [masters] course
+there is a PhD student named [Andrew]
+[this course] is a course in the [mechanical engineering] department
+Who is teaching [U7000]?	'Emmie'	['question_type_local']
+Who has an office in [Environmental Building]	'Jack'	['question_type_global', 'question_two_hop_statement']
+Who are the [associate] professors?	'Emmie'	['question_type_global', 'question_single_statement']
+there is a PhD student named [Igor]
+[that student] has passed the thesis proposal exam
+What are the courses TAed by [Racquel]?	'U7000'	['question_type_local']
+There is a course called [U304]
+[this student] is a [sixth year] student
+the affiliation of [Emmie] is [mechanical engineering]
+Who has [that professor] on their phd committee?	'Emma'	['question_type_local']
+Which professors are teaching [masters] courses?	'Emmie'	['question_type_global', 'question_two_hop_statement']
+[that professor]'s office is [MacAllister Center]
+For which phd students does [that person] serve on a committee?	'Emma'	['question_type_local']
+which [masters] courses have no phd students enrolled?	'U7000'	['question_type_global', 'question_three_hop_statement']
+there is a new [fourth year] PhD student named [Peggy]
+[Peggy] is funded
+Who are the professors in the [mechanical engineering] department?	'Emmie'	['question_type_global', 'question_two_hop_statement']
+who are the phd students?	'Emma', 'Andrew', 'Igor', 'Peggy'	['question_type_global', 'question_single_statement']
+[U7000] will be a mini course
+Which courses are TAed by [Britney]?	'U310'	['question_type_local']
+there is a [first year] PhD student named [William]
+[that course] has 4 units
+Which courses are TAed by [Emma]?	'U7000'	['question_type_local']
+who are the masters students?	'Britney', 'Racquel'	['question_type_global', 'question_single_statement']
+Who are the [associate] professors?	'Emmie'	['question_type_global', 'question_single_statement']
+Who is in the [neuroscience] department	'Britney'	['question_type_global', 'question_single_statement']
+[Jack] and [Emmie] are on [this student]'s committee
+[William] has passed the thesis defense
+Which students are in their [fourth year]	'Peggy'	['question_type_global', 'question_single_statement']
+which courses have no masters students enrolled?	'U310', 'U7000', 'U304'	['question_type_global', 'question_two_hop_statement']
+What [masters] courses are taught by professors in the [mechanical engineering] department?	'U7000'	['question_type_global', 'question_three_hop_statement']
+Which departments are people in [MacAllister Center] with?	'mechanical engineering'	['question_type_global', 'question_two_hop_statement']
+What are all the courses in the mechanical engineering department?	'U7000'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by masters students?	'U310', 'U7000'	['question_type_global', 'question_two_hop_statement']
+There is a course called [U103]
+[Jack] is the instructor for [this course]
+Who are the professors in the [mechanical engineering] department?	'Emmie'	['question_type_global', 'question_two_hop_statement']
+What [phd] courses are taught by professors in the [mechanical engineering] department?	'U7000'	['question_type_global', 'question_three_hop_statement']
+there is a masters student named [Andy]
+[this professor] advises [Andrew]
+What office is [Jack] in?	'Environmental Building'	['question_type_local']
+the affiliation of [Jack] is [physics]
+[that professor] currently has funding
+there is a [fourth year] PhD student named [Tom]
+[Jack] advises [Igor]
+Who does [Jack] advise?	'Andrew', 'Igor'	['question_type_local']
+What professors advise students who passed their thesis proposal?	'Jack'	['question_type_global', 'question_two_hop_statement']
+What [full_semester_course] are taught by professors in the [mechanical engineering] department?	'U7000'	['question_type_global', 'question_three_hop_statement']
+Which courses have masters student TAs?	'U310', 'U7000'	['question_type_global', 'question_two_hop_statement']
+[Peggy] is now in [fifth year]
+Where are the offices of those in the [physics] department?	'Environmental Building'	['question_type_global', 'question_two_hop_statement']
+There is a [undergraduate] course called [U202]
+[physics] offers [that class]
+[this course] is a 4 unit course
+What courses is [Emmie] teaching?	'U7000'	['question_type_local']
+who are the professors?	'Emmie', 'Jack'	['question_type_global', 'question_single_statement']
+[that class] is set up as a full semester course
+who are the students?	'Britney', 'Emma', 'Racquel', 'Andrew', 'Igor', 'Peggy', 'William', 'Andy', 'Tom'	['question_type_global', 'question_single_statement']
+What [undergraduate] courses are taught by professors in the [mechanical engineering] department?	'U7000'	['question_type_global', 'question_three_hop_statement']
+Which courses are 12 unit courses?	'U310'	['question_type_global', 'question_single_statement']
+Create a new course called [G610]
+[Igor] and [Andrew] are TAing [G610]
+[Emma] and [Andrew] are taking [U7000]
+What professors are in Environmental Building	'Jack'	['question_type_global', 'question_two_hop_statement']
+[Bob] is a [professor]
+[this student] has passed the thesis proposal exam
+[Andrew] has [Bob] and [Emmie] on the committee
+[Andrew] currently has funding
+Who advises [Igor]?	'Jack'	['question_type_local']
+Which phd students are both taking a course and a TA?	'Emma', 'Andrew'	['question_type_global', 'question_three_hop_statement']
+Create a new [masters] course called [U204]
+there is a new [sixth year] PhD student named [Albertha]
+[this course] is a course in the [mechanical engineering] department
+[Emma] is taking [U204]
+What are the [mini course]?	'U7000'	['question_type_global', 'question_single_statement']
+who are the phd students?	'Emma', 'Andrew', 'Igor', 'Peggy', 'William', 'Tom', 'Albertha'	['question_type_global', 'question_single_statement']
+[Emmie] and [Bob] are on [Igor]'s committee
+[Igor] did not pass the qualifiers
+What are the courses TAed by [this student]?	'G610'	['question_type_local']
+what [masters] courses have phd students taking them?	'U7000', 'U204'	['question_type_global', 'question_three_hop_statement']
+Which professors advise students who passed their proposal?	'Jack'	['question_type_global', 'question_two_hop_statement']
+There is a course called [U104]
+[Igor] has passed the thesis defense
+[he] is funded
+Who is [he]'s advisor?	'Jack'	['question_type_local']
+who are the masters students?	'Britney', 'Racquel', 'Andy'	['question_type_global', 'question_single_statement']
+There is a course called [U8001]
+What students are taking courses and TAing?	'Emma', 'Andrew'	['question_type_global', 'question_two_hop_statement']
+Which people are in the [neuroscience] department?	'Britney'	['question_type_global', 'question_single_statement']
+Which courses are TAed by phd students?	'U7000', 'G610'	['question_type_global', 'question_two_hop_statement']
+Who are the [sixth year] students?	'Igor', 'Albertha'	['question_type_global', 'question_single_statement']
+which students passed the defense?	'Igor', 'William'	['question_type_global', 'question_single_statement']
+What [mini course] are taught by those in the [mechanical engineering] department?	'U7000'	['question_type_global', 'question_three_hop_statement']
+there is a new masters student named [Luanna]
+[that course] will be a full semester course
+[that course] is offered in the [physics] department
+Who is teaching [U7000]?	'Emmie'	['question_type_local']
+Who are the [associate] professors?	'Emmie'	['question_type_global', 'question_single_statement']
+Who has an advisor with funding?	'Andrew', 'Igor'	['question_type_global', 'question_two_hop_statement']
+[that class] is a [undergraduate] course
+What is [Jack]'s department?	'physics'	['question_type_local']
+Which courses are TAed by masters students?	'U310', 'U7000'	['question_type_global', 'question_two_hop_statement']
+Which are some [phd] courses that no masters student is taking?	'U310'	['question_type_global', 'question_three_hop_statement']
+who are the professors?	'Emmie', 'Jack', 'Bob'	['question_type_global', 'question_single_statement']
+[that class] is taught by [Bob]
+The TA for [that course] is [Albertha]
+which students passed the defense?	'Igor', 'William'	['question_type_global', 'question_single_statement']
+Which are some [phd] courses that no phd student is taking?	'U310'	['question_type_global', 'question_three_hop_statement']
+Which courses did [Emma] enroll in?	'U7000', 'U204'	['question_type_local']
+[this student] has passed the qualifying exam
+[Emmie] advises [Tom] and [she]
+Who has [Emmie] on their phd committee?	'Emma', 'Andrew', 'Igor', 'William'	['question_type_local']
+which [undergraduate] courses have no phd students enrolled?	'U202', 'U8001'	['question_type_global', 'question_three_hop_statement']
+which students passed the proposal exam?	'Emma', 'Andrew', 'Igor'	['question_type_global', 'question_single_statement']
+What departments are people in [Environmental Building] affiliated with?	'physics'	['question_type_global', 'question_two_hop_statement']
+[U8001] will be a 4 unit course
+Who is teaching [U8001]?	'Bob'	['question_type_local']
+Which courses in the physics department have phd TAs?	'U8001'	['question_type_global', 'question_three_hop_statement']
+[Bob] is on [Emma]'s committee
+Which courses have masters student TAs?	'U310', 'U7000'	['question_type_global', 'question_two_hop_statement']
+which courses have no masters students enrolled?	'U310', 'U7000', 'U304', 'U103', 'U202', 'G610', 'U204', 'U104', 'U8001'	['question_type_global', 'question_two_hop_statement']
+who are the phd students?	'Emma', 'Andrew', 'Igor', 'Peggy', 'William', 'Tom', 'Albertha'	['question_type_global', 'question_single_statement']
+[Emmie] advises [Peggy] and [she]
+Which professors have an [associate] status?	'Emmie'	['question_type_global', 'question_single_statement']
+What [masters] courses are taught by those in the [mechanical engineering] department?	'U7000'	['question_type_global', 'question_three_hop_statement']
+What [associate] professors advise students who passed their thesis proposal?	'Emmie'	['question_type_global', 'question_three_hop_statement']
+Which students are in a course that is instructed by their advisor?	'Emma'	['question_type_global', 'question_three_hop_statement']
+[Peggy] failed thesis proposal
+Who has an office in [MacAllister Center]	'Emmie'	['question_type_global', 'question_two_hop_statement']
+Which phd students taking the U7000 course	'Emma', 'Andrew'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by phd students?	'U7000', 'G610', 'U8001'	['question_type_global', 'question_two_hop_statement']
+Create a new course called [G8001]
+[G8001] is a [phd] level course
+[G8001] will be a 2 unit course
+What are all the courses?	'U310', 'U7000', 'U304', 'U103', 'U202', 'G610', 'U204', 'U104', 'U8001', 'G8001'	['question_type_global', 'question_single_statement']
+who are the students?	'Britney', 'Emma', 'Racquel', 'Andrew', 'Igor', 'Peggy', 'William', 'Andy', 'Tom', 'Albertha', 'Luanna'	['question_type_global', 'question_single_statement']
+What 2 unit courses are taught by those in the [mechanical engineering] department?	'U7000'	['question_type_global', 'question_three_hop_statement']
+There is a course called [G9000]
+[G8001] is a course in the [mechanical engineering] department
+Which courses have phd student TAs that passed the qualifying exam?	'U8001'	['question_type_global', 'question_three_hop_statement']
+[Peggy] and [Britney] are both taking [G9000]
+[G9000] is a full semester course
+What students are enrolled in [G9000]?	'Britney', 'Peggy'	['question_type_local']
+Which courses have phd student TAs that either have some funding or passed the qualifying exam?	'G610', 'U8001'	['question_type_global', 'question_four_hop_statement']
+What [associate] professors advise students who passed their thesis proposal?	'Emmie'	['question_type_global', 'question_three_hop_statement']
+[Igor] is taking [G9000]
+[that course] is a [undergraduate] level course
+which students passed the proposal exam?	'Emma', 'Andrew', 'Igor'	['question_type_global', 'question_single_statement']
+Which courses are 2 unit courses?	'G8001'	['question_type_global', 'question_single_statement']
+Which courses are [masters] level courses?	'U7000', 'U204'	['question_type_global', 'question_single_statement']
+Who is part of the [neuroscience] department	'Britney'	['question_type_global', 'question_single_statement']
+[William] is [Bob]'s student
+[this professor] received funding
+[this professor]'s department is [physics]
+Who is [Tom]'s advisor?	'Emmie'	['question_type_local']
+What are the [sixth year] phd students	'Igor', 'Albertha'	['question_type_global', 'question_single_statement']
+Which students's advisors are conducting research in [experimental cosmology]	'Emma', 'Peggy', 'Tom', 'Albertha'	['question_type_global', 'question_two_hop_statement']
+who are the masters students?	'Britney', 'Racquel', 'Andy', 'Luanna'	['question_type_global', 'question_single_statement']
+Which professors have an [associate] status?	'Emmie'	['question_type_global', 'question_single_statement']
+which students passed the defense?	'Igor', 'William'	['question_type_global', 'question_single_statement']
+which students passed the qualifying exam?	'Albertha'	['question_type_global', 'question_single_statement']
+What professors are in Environmental Building	'Jack'	['question_type_global', 'question_two_hop_statement']
+[that person]'s office is [JILA Building]
+Which department is [he] in?	'physics'	['question_type_local']
+Who is in the [mechanical engineering] department	'Emmie'	['question_type_global', 'question_single_statement']
+who are the masters students?	'Britney', 'Racquel', 'Andy', 'Luanna'	['question_type_global', 'question_single_statement']
+what courses have masters students taking them?	'G9000'	['question_type_global', 'question_two_hop_statement']
+Which courses in the mechanical engineering department have phd TAs?	'U7000'	['question_type_global', 'question_three_hop_statement']
+Which [associate] professors advise students who passed their qualifying exam?	'Emmie'	['question_type_global', 'question_three_hop_statement']
+[William] has failed the qualifying exam
+Which people are in the [physics] department?	'Jack', 'Racquel', 'Bob'	['question_type_global', 'question_single_statement']
+Which phd students does [that professor] advise?	'William'	['question_type_local']
+Which masters courses have phd student TAs?	'U7000'	['question_type_global', 'question_three_hop_statement']
+There is a course called [G305]
+[this course] is 12 units
+[G305] is a [undergraduate] course
+Which courses are TAed by [Britney]?	'U310'	['question_type_local']
+Which are some courses that masters students take?	'G9000'	['question_type_global', 'question_two_hop_statement']
+Which courses have phd student TAs that either have some funding or passed the qualifying exam?	'G610', 'U8001'	['question_type_global', 'question_four_hop_statement']
+[G305] is full semester
+[Tom] is enrolled in [G305]
+What offices do people in the [mechanical engineering] department have?	'MacAllister Center'	['question_type_global', 'question_two_hop_statement']
+[this course] is TAed by [William] and [Andy]
+Which masters courses are TAed by phd students?	'U7000'	['question_type_global', 'question_three_hop_statement']
+Create a new [undergraduate] [full_semester_course] called [U601]
+Which students are funded?	'Andrew', 'Igor', 'Peggy'	['question_type_global', 'question_single_statement']
+Who are the students in the [neuroscience] department	'Britney'	['question_type_global', 'question_two_hop_statement']
+which students passed the defense?	'Igor', 'William'	['question_type_global', 'question_single_statement']
+What students are in the [physics] department?	'Racquel'	['question_type_global', 'question_two_hop_statement']
+[Andy] is affiliated with the [mechanical engineering] department
+Which are some courses that no phd student is taking?	'U310', 'U304', 'U103', 'U202', 'G610', 'U104', 'U8001', 'G8001', 'U601'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by [that person]?	'G305'	['question_type_local']
+Which are some [undergraduate] courses that no phd student is taking?	'U202', 'U8001', 'U601'	['question_type_global', 'question_three_hop_statement']
+who are the masters students?	'Britney', 'Racquel', 'Andy', 'Luanna'	['question_type_global', 'question_single_statement']
+Who are the professors in the [mechanical engineering] department?	'Emmie'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by masters students?	'U310', 'U7000', 'G305'	['question_type_global', 'question_two_hop_statement']
+who are the students?	'Britney', 'Emma', 'Racquel', 'Andrew', 'Igor', 'Peggy', 'William', 'Andy', 'Tom', 'Albertha', 'Luanna'	['question_type_global', 'question_single_statement']
+[this course] part of the [neuroscience] department
+Which courses are TAed by phd students that passed their qualifier exam?	'U8001'	['question_type_global', 'question_three_hop_statement']

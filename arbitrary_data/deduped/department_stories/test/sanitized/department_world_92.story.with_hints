@@ -1,0 +1,142 @@
+create a [professor] named [Lizeth(Professor[1])]
+[she(Professor[1])]'s office is [Muenzinger Building]
+[Angelita(MastersStudent[2])] is a masters student
+[that student(MastersStudent[2])] is affiliated with the [neuroscience] department
+There is a course called [G301(Course[1])]
+The TA for [that class(Course[1])] is [Angelita(MastersStudent[2])]
+[that course(Course[1])] is a pass-fail course
+[Angelita(MastersStudent[2])] is taking [G301(Course[1])]
+Which courses did [Angelita(MastersStudent[2])] enroll in?	'G301(Course[1])'	['question_type_local']
+[Cecil(Professor[3])] is a [distinguished] [professor]
+[Cecil(Professor[3])] is in [JILA Building]
+What is [Lizeth(Professor[1])]'s office?	'Muenzinger Building'	['question_type_local']
+Which masters students taking the G301 course	'Angelita(MastersStudent[2])'	['question_type_global', 'question_two_hop_statement']
+Which students are taking [G301(Course[1])]?	'Angelita(MastersStudent[2])'	['question_type_local']
+[Lizeth(Professor[1])] is an [assistant] professor
+[she(Professor[1])] conducts research in [applications of machine learning]
+[this professor(Professor[1])] is affiliated with the [electrical engineering] department
+Which professors are part of the [electrical engineering] department?	'Lizeth(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+the [electrical engineering] department is headed by [Lizeth(Professor[1])]
+What is [this professor(Professor[1])]'s office?	'Muenzinger Building'	['question_type_local']
+there is a [fifth year] PhD student named [Tom(PhdStudent[4])]
+[he(PhdStudent[4])]'s office is [Hale Building]
+[Cecil(Professor[3])] is on [this person(PhdStudent[4])]'s committee
+[that student(PhdStudent[4])] has passed the thesis proposal exam
+What is [that student(PhdStudent[4])]'s department?	"I don't know"	['question_type_local']
+there is a new [first year] PhD student named [Isaiah(PhdStudent[5])]
+[Cecil(Professor[3])] and [Lizeth(Professor[1])] are on [Isaiah(PhdStudent[5])]'s committee
+[Isaiah(PhdStudent[5])]'s office is [Hale Building]
+There is a [undergraduate] [full_semester_course] called [U203(Course[2])]
+[that class(Course[2])] is not a pass-fail course
+[Cecil(Professor[3])] is the instructor for [U203(Course[2])]
+[Isaiah(PhdStudent[5])] successfully defended their thesis
+there is a [assistant] [professor] named [Vivienne(Professor[6])]
+[Isaiah(PhdStudent[5])] has passed the qualifying exam
+Which phd students have [Lizeth(Professor[1])] on their committee	'Isaiah(PhdStudent[5])'	['question_type_local']
+[Lizeth(Professor[1])] has been promoted to [associate] professor
+[U203(Course[2])] is 4 units
+[Tom(PhdStudent[4])] has passed the qualifying exam
+[Lizeth(Professor[1])] and [Vivienne(Professor[6])] are on [Tom(PhdStudent[4])]'s committee
+[Tom(PhdStudent[4])] is funded
+What students are in Hale Building	'Tom(PhdStudent[4])', 'Isaiah(PhdStudent[5])'	['question_type_global', 'question_two_hop_statement']
+There is a [masters] level [mini course] called [G610(Course[3])]
+[this person(PhdStudent[4])] passed thesis defense
+there is a new masters student named [Cyndi(MastersStudent[7])]
+[he(PhdStudent[4])] is in [sixth year]
+[Cecil(Professor[3])] conducts research in [theory]
+What is [Lizeth(Professor[1])]'s office?	'Muenzinger Building'	['question_type_local']
+there is a new masters student named [Emmie(MastersStudent[8])]
+[this student(MastersStudent[8])]'s department is [neuroscience]
+[Isaiah(PhdStudent[5])] has failed the thesis proposal exam
+[Cecil(Professor[3])]'s department is [psychology]
+What is [this professor(Professor[3])]'s office?	'JILA Building'	['question_type_local']
+there is a new PhD student named [Eun(PhdStudent[9])]
+[she(PhdStudent[9])]'s office is [Muenzinger Building]
+[she(PhdStudent[9])] is funded
+What is [Cecil(Professor[3])]'s office?	'JILA Building'	['question_type_local']
+What [masters] courses are taught by those in the [psychology] department?	'U203(Course[2])'	['question_type_global', 'question_three_hop_statement']
+[Eun(PhdStudent[9])] has [Lizeth(Professor[1])] on the committee
+[Gabrielle(PhdStudent[10])] is a PhD student
+[this student(PhdStudent[10])] has passed the qualifying exam
+[this student(PhdStudent[10])]'s office is [JILA Building]
+[Gabrielle(PhdStudent[10])] successfully defended their thesis
+[Vivienne(Professor[6])] is on [that student(PhdStudent[10])]'s committee
+Who has an office in [Muenzinger Building]	'Lizeth(Professor[1])', 'Eun(PhdStudent[9])'	['question_type_global', 'question_two_hop_statement']
+Create a new [phd] level 12 unit course called [U104(Course[4])]
+[she(Professor[6])]'s research interest is [applications of machine learning]
+[she(Professor[6])] is in [Muenzinger Building]
+What courses is [Angelita(MastersStudent[2])] taking?	'G301(Course[1])'	['question_type_local']
+What [mini course] are taught by those in the [psychology] department?	'U203(Course[2])'	['question_type_global', 'question_three_hop_statement']
+What students are in Hale Building	'Tom(PhdStudent[4])', 'Isaiah(PhdStudent[5])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [G204(Course[5])]
+[Eun(PhdStudent[9])] is [Vivienne(Professor[6])]'s student
+the affiliation of [that professor(Professor[6])] is [electrical engineering]
+Who are the professors in the [psychology] department?	'Cecil(Professor[3])'	['question_type_global', 'question_two_hop_statement']
+[G301(Course[1])] is set up as a mini course
+[that class(Course[1])] is offered in the [psychology] department
+[Eun(PhdStudent[9])] is taking [G301(Course[1])]
+[Lizeth(Professor[1])] is the instructor for [this course(Course[1])]
+[G301(Course[1])] is TAed by [Eun(PhdStudent[9])] and [Tom(PhdStudent[4])]
+Who is taking [G301(Course[1])]?	'Angelita(MastersStudent[2])', 'Eun(PhdStudent[9])'	['question_type_local']
+Which department is [Lizeth(Professor[1])] in?	'electrical engineering'	['question_type_local']
+[Isaiah(PhdStudent[5])] is funded
+[Vivienne(Professor[6])] is on [Isaiah(PhdStudent[5])]'s committee
+Who is on [Isaiah(PhdStudent[5])]'s committee?	'Lizeth(Professor[1])', 'Cecil(Professor[3])', 'Vivienne(Professor[6])'	['question_type_local']
+[Cecil(Professor[3])] heads the [psychology] department
+What department is [he(Professor[3])] affiliated with?	'psychology'	['question_type_local']
+[Gabrielle(PhdStudent[10])] and [Tom(PhdStudent[4])] are [Vivienne(Professor[6])]'s student
+[she(PhdStudent[10])] passed thesis proposal
+[she(PhdStudent[10])] is funded
+[Lizeth(Professor[1])] and [Cecil(Professor[3])] are on [that student(PhdStudent[10])]'s committee
+[Isaiah(PhdStudent[5])] is [Vivienne(Professor[6])]'s student
+Which courses in the psychology department are TAed by masters students?	'G301(Course[1])'	['question_type_global', 'question_three_hop_statement']
+Which courses are part of the [psychology] department	'G301(Course[1])'	['question_type_global', 'question_single_statement']
+[U104(Course[4])] will be a full semester course
+There is a [undergraduate] 4 unit class called [G104(Course[6])]
+[U104(Course[4])] is TAed by [Gabrielle(PhdStudent[10])] and [Cyndi(MastersStudent[7])]
+[Cyndi(MastersStudent[7])]'s department is [psychology]
+Create a new [phd] level course called [G202(Course[7])]
+[that class(Course[7])] is 2 units
+[Gabrielle(PhdStudent[10])] and [Tom(PhdStudent[4])] are both taking [this course(Course[7])]
+Which department is [Cecil(Professor[3])] in?	'psychology'	['question_type_local']
+Which professors are conducting research in [theory]	'Cecil(Professor[3])'	['question_type_global', 'question_single_statement']
+What students are in Muenzinger Building	'Eun(PhdStudent[9])'	['question_type_global', 'question_two_hop_statement']
+[G301(Course[1])] is a 12 unit course
+What 4 unit courses are taught by professors in the [psychology] department?	'U203(Course[2])'	['question_type_global', 'question_three_hop_statement']
+[that course(Course[1])] is a [masters] level course
+[Cyndi(MastersStudent[7])] and [Eun(PhdStudent[9])] are both enrolled in [G301(Course[1])]
+What is [Vivienne(Professor[6])]'s department?	'electrical engineering'	['question_type_local']
+What courses is [Gabrielle(PhdStudent[10])] TAing?	'U104(Course[4])'	['question_type_local']
+There is a course called [U101(Course[8])]
+[that student(PhdStudent[9])] failed the qualifiers
+[that class(Course[8])] is a pass-fail course
+[this course(Course[8])] is a [undergraduate] course
+[Cyndi(MastersStudent[7])] is attending [that course(Course[8])]
+[she(MastersStudent[7])] is taking [U203(Course[2])]
+[U203(Course[2])] is under the [psychology] department
+Where are the offices of those in the [psychology] department?	'JILA Building'	['question_type_global', 'question_two_hop_statement']
+[Eun(PhdStudent[9])] is current in [fourth year]
+[Cecil(Professor[3])] is on [Eun(PhdStudent[9])]'s committee
+[Lizeth(Professor[1])] has been promoted to [full] professor
+There is a [masters] level course called [G305(Course[9])]
+What department is [U203(Course[2])] offered in?	'psychology'	['question_type_local']
+What office is [Cecil(Professor[3])] in?	'JILA Building'	['question_type_local']
+Which courses are TAed by [Cyndi(MastersStudent[7])]?	'U104(Course[4])'	['question_type_local']
+[Gabrielle(PhdStudent[10])] is a [first year] student
+[this person(PhdStudent[10])] is now a [second year] student
+Who has an office in [Muenzinger Building]	'Lizeth(Professor[1])', 'Vivienne(Professor[6])', 'Eun(PhdStudent[9])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [G9000(Course[10])]
+[Isaiah(PhdStudent[5])] is TAing [this course(Course[10])]
+[G9000(Course[10])] is taught by [Vivienne(Professor[6])]
+[that class(Course[10])] is a pass-fail course
+[that course(Course[10])] is a [phd] course
+[Tom(PhdStudent[4])] and [Emmie(MastersStudent[8])] are both taking [G9000(Course[10])]
+What courses is [Gabrielle(PhdStudent[10])] TAing?	'U104(Course[4])'	['question_type_local']
+What students are in Hale Building	'Tom(PhdStudent[4])', 'Isaiah(PhdStudent[5])'	['question_type_global', 'question_two_hop_statement']
+Which courses in the psychology department have masters TAs?	'G301(Course[1])'	['question_type_global', 'question_three_hop_statement']
+Who has an office in [JILA Building]	'Cecil(Professor[3])', 'Gabrielle(PhdStudent[10])'	['question_type_global', 'question_two_hop_statement']
+What department is [U203(Course[2])] offered in?	'psychology'	['question_type_local']
+There is a [masters] level 2 unit course called [G303(Course[11])]
+Which professors have offices in JILA Building	'Cecil(Professor[3])'	['question_type_global', 'question_two_hop_statement']
+Create a new course called [U301(Course[12])]
+[U301(Course[12])] is set up as a full semester course

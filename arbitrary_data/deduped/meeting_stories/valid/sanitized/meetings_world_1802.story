@@ -1,0 +1,116 @@
+[Alverta] is a [student]
+[this student]'s email is [Alverta@nh.edu]
+[that student] is not a friend
+[Alverta]'s affiliation is [Huxley University]
+there is a [professor] named [Luanna]
+there is a [professor] named [Loyd]
+there is a [meeting] [about homework grading]
+[Loyd]'s email is [Loyd@yandex.com]
+[Loyd]'s affiliation is [Huxley University]
+[Loyd] is not a friend
+there is a [student] named [Lizeth]
+[Lizeth]'s affiliation is [Groff Community College]
+there is a [person] named [Angelita]
+[Lizeth]'s email is [Lizeth@nh.edu]
+[this student]'s major is [math]
+create a new [meeting]
+[this student] is a friend
+there is a [meeting] [about homework grading]
+actually [Alverta] is my friend
+there is a [meeting] [to prepare for exams]
+[this person]'s major is [philosophy]
+create a [person] named [Danita]
+[Danita] is not a friend
+[this person]'s email is [Danita@cornell.edu]
+[Danita]'s affiliation is [Greendale Community College]
+create a new [meeting]
+[Alverta] will attend [the event]
+[the meeting] is [to grade papers]
+[she] attended [that meeting] late
+there is a [meeting] [to grade papers]
+[Lizeth] will attend [that meeting]
+[Lizeth] attended [that meeting] late
+[that person] is not my friend
+was anyone affiliated with [Huxley University] attended [to grade papers]	'Alverta'	['question_type_global', 'question_two_hop_statement']
+Who was late to [the meeting with Alverta to grade papers]	'Alverta'	['question_type_local']
+create a new [meeting]
+actually [this student] is my friend
+create a [professor] named [Lorilee]
+there is a [professor] named [Peggy]
+[Lizeth] is not my friend
+What is [that student]'s email	'Lizeth@nh.edu'	['question_type_local']
+was anyone who majored in [philosophy] ever late to any meetings?	'Alverta'	['question_type_global', 'question_two_hop_statement']
+[Peggy] is not a friend
+[Luanna] will attend [the event with Alverta to grade papers]
+[that person] attended [that meeting] on time
+[Peggy] will attend [the event to prepare for exams]
+[she]'s affiliation is [Barnett College]
+create a new [meeting]
+create a new [meeting]
+Who was late to [the meeting with Alverta]	'Alverta'	['question_type_local']
+were any [math] majors ever late?	'Lizeth'	['question_type_global', 'question_two_hop_statement']
+[Angelita] will attend [the meeting that was last added]
+[that meeting] is [to prepare for exams]
+there is a [meeting] [about homework grading]
+create a new [meeting]
+[the meeting that was last added] is [to prepare for exams]
+[Peggy] will attend [this meeting]
+[Peggy]'s email is [Peggy@nh.edu]
+create a new [meeting]
+[that person] will attend [this meeting]
+[this meeting] is [about homework grading]
+there is a [meeting] [to prepare for exams]
+[Luanna] will attend [the meeting to prepare for exams that was last added]
+[she] attended [that meeting] on time
+there is a [meeting] [about homework grading]
+create a new [meeting]
+there is a [meeting] [about homework grading]
+there is a [meeting] [to prepare for exams]
+was anyone affiliated with [Groff Community College] attended [to grade papers]	'Lizeth'	['question_type_global', 'question_two_hop_statement']
+[Lorilee] will attend [the meeting with Luanna that was last added]
+[Danita] will attend [this meeting]
+[that meeting] now is [to grade papers]
+[she] attended [this meeting] late
+[Lorilee]'s affiliation is [Groff Community College]
+[Lorilee] is not a friend
+[this professor]'s email is [Lorilee@chk.ru]
+which people affiliated with [Greendale Community College] were late	'Danita'	['question_type_global', 'question_two_hop_statement']
+was anyone who majored in [philosophy] ever late to any meetings?	'Alverta'	['question_type_global', 'question_two_hop_statement']
+[Lizeth] will attend [the meeting with Danita and Luanna to grade papers]
+create a new [meeting]
+[Alverta] will attend [this meeting]
+[Alverta] attended [this meeting] on time
+[that meeting] is [to prepare for exams]
+[Angelita] will attend [that meeting]
+create a new [meeting]
+[Angelita]'s email is [Angelita@yandex.com]
+[that person]'s affiliation is [Huxley University]
+[she] is not a friend
+[Peggy] attended [the event with Peggy to prepare for exams that was last added] on time
+there is a [meeting] [to prepare for exams]
+[Danita] will attend [this meeting]
+[Danita] attended [that meeting] on time
+create a new [meeting]
+there is a [meeting] [about homework grading]
+create a new [meeting]
+[Lizeth] will attend [the event about homework grading that was last added]
+[she] attended [the meeting] late
+[Lorilee] will attend [that meeting]
+was anyone affiliated with [Greendale Community College] late to [to grade papers]	'Danita'	['question_type_global', 'question_three_hop_statement']
+was anyone who majored in [philosophy] in attendance?	'Alverta'	['question_type_global', 'question_two_hop_statement']
+[Peggy] will attend [this meeting]
+[this professor] attended [this meeting] late
+create a new [meeting]
+who is affiliated with [Barnett College]	'Peggy'	['question_type_global', 'question_single_statement']
+was anyone affiliated with [Groff Community College] attended [about homework grading]	'Lizeth'	['question_type_global', 'question_two_hop_statement']
+[Luanna] will attend [the meeting about homework grading that was last added]
+which people affiliated with [Greendale Community College] attended [to grade papers]	'Danita'	['question_type_global', 'question_two_hop_statement']
+Change major of [Lizeth] to [philosophy]
+which people affiliated with [Huxley University] were late to [to grade papers]	'Alverta'	['question_type_global', 'question_three_hop_statement']
+[Luanna]'s email is [Luanna@msn.com]
+[that professor] is not a friend
+[this person]'s affiliation is [Barnett College]
+was anyone affiliated with [Barnett College] late to any meetings	'Peggy'	['question_type_global', 'question_two_hop_statement']
+create a new [meeting]
+there is a [meeting] [to grade papers]
+create a new [meeting]

@@ -1,0 +1,108 @@
+there is a new [chatbot(Project[1])] [project]
+[chatbot project(Project[1])] is a [experimental] project
+[this project(Project[1])] is in the [development] stage
+[chatbot project(Project[1])] is now in the [testing] stage
+There is a new issue for the [chatbot project(Project[1])]: [memory leak bug]
+there is a new [early stage] [knowledge base(Project[2])] [project]
+[Hanna(Tester[1])] is a [tester]
+[this tester(Tester[1])] is working on [chatbot project(Project[1])]
+[that person(Tester[1])] is assigned to [knowledge base project(Project[2])] also
+[xml extractor exception] is a new [proposal] created by [Hanna(Tester[1])] for [that project(Project[2])]
+[this project(Project[2])] is in the stage of [testing]
+[the memory leak bug issue(Issue[1])] was assigned to [Hanna(Tester[1])]
+[chatbot project(Project[1])] has moved to the [development] stage
+[it(Project[1])] is not assigned to [Hanna(Tester[1])]
+[this test engineer(Tester[1])] is working on [that project(Project[1])] also
+[that test engineer(Tester[1])] is not working on [that project(Project[1])] anymore
+[that project(Project[1])] is assigned to [this tester(Tester[1])] also
+What are the issues assigned to [this person(Tester[1])] that were not resolved?	'memory leak bug(Issue[1])'	['question_type_local']
+[she(Tester[1])] created a new issue for [that project(Project[1])]: [null pointer exception during parsing]
+[the issue(Issue[3])] was assigned to [Hanna(Tester[1])]
+there is a new [platform] [mobile(Project[3])] [project]
+[that project(Project[3])] is in the [testing] stage
+[that project(Project[3])] is in the [implementation] stage
+[Hanna(Tester[1])] resolved [the memory leak bug issue(Issue[1])]
+[Britney(Tester[2])] is a [tester]
+[Britney(Tester[2])] is working on [knowledge base project(Project[2])]
+[this test engineer(Tester[2])] is working on [chatbot project(Project[1])] also
+[that person(Tester[2])] is not working on [knowledge base project(Project[2])] anymore
+[it(Project[2])] is assigned to [she(Tester[2])] also
+[Yoshiko(Tester[3])] is a [tester] on [chatbot project(Project[1])]
+[this test engineer(Tester[3])] is not working on [chatbot project(Project[1])] anymore
+[mobile project(Project[3])] is assigned to [that test engineer(Tester[3])]
+[knowledge base project(Project[2])] is assigned to [Yoshiko(Tester[3])] also
+[this test engineer(Tester[3])] is no longer assigned to [that project(Project[2])]
+[Albertha(Tester[4])] is a [tester]
+[mobile project(Project[3])] is assigned to [this test engineer(Tester[4])]
+[Yoshiko(Tester[3])] is working on [knowledge base project(Project[2])] also
+[Vivienne(Tester[5])] is a [tester]
+[that project(Project[2])] is now in the [development] stage
+[she(Tester[5])] is working on [chatbot project(Project[1])]
+[Emmie(Tester[6])] is a [tester]
+[mobile project(Project[3])] is assigned to [Emmie(Tester[6])]
+[Yoshiko(Tester[3])] is assigned to [chatbot project(Project[1])] also
+[Hanna(Tester[1])] is assigned to [mobile project(Project[3])] also
+[Alejandra(Tester[7])] is a [tester]
+[knowledge base project(Project[2])] is assigned to [Alejandra(Tester[7])]
+[that person(Tester[7])] is assigned to [mobile project(Project[3])] also
+[Hanna(Tester[1])] resolved [the null pointer exception during parsing issue(Issue[3])]
+[Britney(Tester[2])] is working on [mobile project(Project[3])] also
+[parse example terribly slow] is a new [enhancement] for the [it(Project[3])]
+[this issue(Issue[4])] is assigned to [Albertha(Tester[4])]
+[this person(Tester[4])] resolved [that issue(Issue[4])]
+[Michael(Tester[8])] is a [tester] on [knowledge base project(Project[2])]
+[mobile project(Project[3])] is not assigned to [she(Tester[4])]
+[mobile project(Project[3])] is assigned to [this person(Tester[4])]
+[chatbot project(Project[1])] is assigned to [Albertha(Tester[4])] also
+Who is [the parse example terribly slow enhancement(Issue[4])] assigned to?	'Albertha(Tester[4])'	['question_type_local']
+[knowledge base project(Project[2])] is assigned to [this test engineer(Tester[4])] also
+[knowledge base project(Project[2])] has moved to the [implementation] stage
+[the proposal(Issue[2])] is assigned to [Albertha(Tester[4])]
+[that test engineer(Tester[4])] resolved [that issue(Issue[2])]
+[Alejandra(Tester[7])] is working on [chatbot project(Project[1])] also
+[chatbot project(Project[1])] is in the [implementation] stage
+[it(Project[1])] is in the stage of [development]
+[knowledge base project(Project[2])] is in the stage of [development]
+[minified version fails] is a new [proposal] for [chatbot project(Project[1])] that [Alejandra(Tester[7])] just created
+Who created [the null pointer exception during parsing issue(Issue[3])]?	'Hanna(Tester[1])'	['question_type_local']
+[that issue(Issue[5])] was assigned to [Britney(Tester[2])]
+There is a new issue for the [chatbot project(Project[1])]: [two consecutive dates identified as single date]
+[the issue(Issue[6])] was assigned to [Yoshiko(Tester[3])]
+[Yoshiko(Tester[3])] resolved [it(Issue[6])]
+Who is [the xml extractor exception proposal(Issue[2])] assigned to?	'Albertha(Tester[4])'	['question_type_local']
+[Alejandra(Tester[7])] created a new issue for [mobile project(Project[3])]: [initialization broken]
+[that issue(Issue[7])] is assigned to [Hanna(Tester[1])]
+[she(Tester[1])] resolved [that issue(Issue[7])]
+[mobile project(Project[3])] is not assigned to [that person(Tester[1])]
+Who created [the xml extractor exception issue(Issue[2])]?	'Hanna(Tester[1])'	['question_type_local']
+[Hanna(Tester[1])] is assigned to [this project(Project[3])] also
+[knowledge base project(Project[2])] is in the stage of [implementation]
+[knowledge base project(Project[2])] is in the [testing] stage
+Who created [the minified version fails proposal(Issue[5])]?	'Alejandra(Tester[7])'	['question_type_local']
+[saving data throws exception] is a new [task] submitted by [Albertha(Tester[4])] for [chatbot project(Project[1])]
+[the task(Issue[8])] was assigned to [Alejandra(Tester[7])]
+[this tester(Tester[7])] resolved [this issue(Issue[8])]
+[this test engineer(Tester[7])] created a new issue for [mobile project(Project[3])]: [tokenization not consistent across platforms]
+[the issue(Issue[9])] is assigned to [Emmie(Tester[6])]
+[that test engineer(Tester[6])] is working on [knowledge base project(Project[2])] also
+[she(Tester[6])] is assigned to [chatbot project(Project[1])] also
+[that test engineer(Tester[6])] is no longer assigned to [knowledge base project(Project[2])]
+[this tester(Tester[6])] is working on [this project(Project[2])] also
+[this tester(Tester[6])] submitted a new [enhancement] for [chatbot project(Project[1])]: [parsing with parantheses fails]
+Are there any issues created by [Alejandra(Tester[7])] that are resolved?	'initialization broken(Issue[7])'	['question_type_local']
+[that issue(Issue[10])] is assigned to [Britney(Tester[2])]
+[this tester(Tester[2])] resolved [that issue(Issue[10])]
+[mobile project(Project[3])] is not assigned to [Hanna(Tester[1])]
+[Vivienne(Tester[5])] is working on [this project(Project[3])] also
+[knowledge base project(Project[2])] is assigned to [Vivienne(Tester[5])] also
+[Hanna(Tester[1])] is not working on [it(Project[2])] anymore
+[that test engineer(Tester[1])] is working on [mobile project(Project[3])] also
+[she(Tester[1])] is assigned to [knowledge base project(Project[2])] also
+[knowledge base project(Project[2])] has moved to the [implementation] stage
+[Alejandra(Tester[7])] is no longer assigned to [mobile project(Project[3])]
+[that project(Project[3])] is assigned to [this person(Tester[7])] also
+[this tester(Tester[7])] is no longer assigned to [mobile project(Project[3])]
+[she(Tester[7])] is working on [mobile project(Project[3])] also
+[chatbot project(Project[1])] is in the stage of [implementation]
+[Michael(Tester[8])] is working on [chatbot project(Project[1])] also
+[this test engineer(Tester[8])] is no longer assigned to [chatbot project(Project[1])]

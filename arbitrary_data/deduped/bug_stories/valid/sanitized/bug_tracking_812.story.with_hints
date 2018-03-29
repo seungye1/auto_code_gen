@@ -1,0 +1,120 @@
+there is a new [corporate] [chatbot(Project[1])] [project]
+[this project(Project[1])] is in the [maintenance] stage
+[Charlott(Tester[1])] is a [tester]
+[Charlott(Tester[1])] is assigned to [this project(Project[1])]
+[Igor(Developer[2])] is a [developer] on [it(Project[1])]
+[this project(Project[1])] has moved to the [design] stage
+[memory leak while reading tf records] is a new [enhancement] for the [this project(Project[1])]
+[this issue(Issue[1])] is assigned to [Charlott(Tester[1])]
+[that test engineer(Tester[1])] resolved [it(Issue[1])]
+[Charlott(Tester[1])] is no longer assigned to [chatbot project(Project[1])]
+[this person(Tester[1])] is assigned to [chatbot project(Project[1])]
+Were there any issues assigned to [that test engineer(Tester[1])]?	'memory leak while reading tf records(Issue[1])'	['question_type_local']
+[chatbot project(Project[1])] has moved to the [maintenance] stage
+Who is [the memory leak while reading tf records enhancement(Issue[1])] assigned to?	'Charlott(Tester[1])'	['question_type_local']
+Who was [the memory leak while reading tf records enhancement(Issue[1])] assigned to?	'Charlott(Tester[1])'	['question_type_local']
+there is a new [mobile(Project[2])] [project]
+[Willis(Developer[3])] is a [developer] on [chatbot project(Project[1])]
+[he(Developer[3])] is working on [mobile project(Project[2])] also
+[that project(Project[2])] is currently in the [development] stage
+[that project(Project[2])] is a [corporate] project
+[Willis(Developer[3])] created a new [proposal] for [mobile project(Project[2])]: [parsing with parantheses fails]
+[memory leak bug] is a new [proposal] for [that project(Project[2])] that [Willis(Developer[3])] just created
+[the memory leak bug issue(Issue[3])] is assigned to [Willis(Developer[3])]
+[mobile project(Project[2])] is assigned to [Charlott(Tester[1])] also
+[Roslyn(Tester[4])] is a [tester]
+[Britney(Tester[5])] is a [tester]
+[Britney(Tester[5])] is working on [mobile project(Project[2])]
+[Willis(Developer[3])] resolved [the proposal that was last added(Issue[3])]
+[Britney(Tester[5])] is working on [chatbot project(Project[1])] also
+there is a new [open source] [knowledge base(Project[3])] [project]
+[knowledge base project(Project[3])] is assigned to [Charlott(Tester[1])] also
+[that project(Project[3])] is currently in the [development] stage
+[mobile project(Project[2])] is in the [testing] stage
+[mobile project(Project[2])] has moved to the [development] stage
+[this project(Project[2])] is in the [maintenance] stage
+[knowledge base project(Project[3])] is assigned to [Britney(Tester[5])] also
+[parse example terribly slow] is a new [proposal] for [mobile project(Project[2])] that [Willis(Developer[3])] just created
+[this issue(Issue[4])] is assigned to [Willis(Developer[3])]
+[knowledge base project(Project[3])] is assigned to [Willis(Developer[3])] also
+[Igor(Developer[2])] is not working on [chatbot project(Project[1])] anymore
+[that project(Project[1])] is assigned to [Igor(Developer[2])]
+[this project(Project[1])] is not assigned to [Igor(Developer[2])]
+[that person(Developer[2])] is assigned to [that project(Project[1])]
+Who submitted [the proposal that was last added(Issue[4])]?	'Willis(Developer[3])'	['question_type_local']
+[that developer(Developer[2])] is assigned to [mobile project(Project[2])] also
+[knowledge base project(Project[3])] is assigned to [Igor(Developer[2])] also
+Are there any issues assigned to [Willis(Developer[3])] that are not resolved?	'parse example terribly slow(Issue[4])'	['question_type_local']
+There is a new issue for the [chatbot project(Project[1])]: [two consecutive dates identified as single date]
+[that issue(Issue[5])] is assigned to [Willis(Developer[3])]
+[this person(Developer[3])] resolved [the issue(Issue[5])]
+What are the issues created by [he(Developer[3])] that were not resolved?	'parsing with parantheses fails(Issue[2])', 'parse example terribly slow(Issue[4])'	['question_type_local']
+[that person(Developer[3])] resolved [the parse example terribly slow proposal(Issue[4])]
+[Charlott(Tester[1])] submitted a new [task] for [chatbot project(Project[1])]: [timeout problem]
+[it(Issue[6])] was assigned to [that developer(Developer[3])]
+[this person(Developer[3])] resolved [that issue(Issue[6])]
+[Charlott(Tester[1])] created a new [task] for [mobile project(Project[2])]: [wrong pos tag on consecutive words]
+[it(Issue[7])] was assigned to [Charlott(Tester[1])]
+[this test engineer(Tester[1])] resolved [this issue(Issue[7])]
+[this test engineer(Tester[1])] is no longer assigned to [mobile project(Project[2])]
+[mobile project(Project[2])] is assigned to [Charlott(Tester[1])] also
+Who is [the memory leak while reading tf records enhancement(Issue[1])] assigned to?	'Charlott(Tester[1])'	['question_type_local']
+[the parsing with parantheses fails issue(Issue[2])] is assigned to [Willis(Developer[3])]
+[that developer(Developer[3])] is no longer assigned to [chatbot project(Project[1])]
+[Willis(Developer[3])] is assigned to [that project(Project[1])] also
+[this project(Project[1])] is in the stage of [design]
+[that project(Project[1])] has moved to the [maintenance] stage
+[this project(Project[1])] is now in the [testing] stage
+[this project(Project[1])] is now in the [development] stage
+[chatbot project(Project[1])] is now in the [testing] stage
+Who was [the wrong pos tag on consecutive words task(Issue[7])] assigned to?	'Charlott(Tester[1])'	['question_type_local']
+[chatbot project(Project[1])] is in the stage of [design]
+[mobile project(Project[2])] is not assigned to [Charlott(Tester[1])]
+[she(Tester[1])] is assigned to [this project(Project[2])] also
+Are there any issues created by [Willis(Developer[3])] that are resolved?	'memory leak bug(Issue[3])', 'parse example terribly slow(Issue[4])'	['question_type_local']
+Who created [the memory leak bug issue(Issue[3])]?	'Willis(Developer[3])'	['question_type_local']
+[it(Project[2])] is not assigned to [Charlott(Tester[1])]
+[Charlott(Tester[1])] is assigned to [mobile project(Project[2])] also
+Who was [the parsing with parantheses fails proposal(Issue[2])] assigned to?	'Willis(Developer[3])'	['question_type_local']
+Who submitted [the memory leak bug proposal(Issue[3])]?	'Willis(Developer[3])'	['question_type_local']
+[mobile project(Project[2])] is in the [development] stage
+What are the issues assigned to [Willis(Developer[3])] that were not resolved?	'parsing with parantheses fails(Issue[2])'	['question_type_local']
+[chatbot project(Project[1])] is now in the [development] stage
+Who created [the timeout problem task(Issue[6])]?	'Charlott(Tester[1])'	['question_type_local']
+[chatbot project(Project[1])] is in the stage of [design]
+[chatbot project(Project[1])] is in the stage of [testing]
+[Willis(Developer[3])] resolved [the parsing with parantheses fails issue(Issue[2])]
+Who was [the memory leak bug proposal(Issue[3])] assigned to?	'Willis(Developer[3])'	['question_type_local']
+[knowledge base project(Project[3])] is not assigned to [Willis(Developer[3])]
+[that person(Developer[3])] is assigned to [that project(Project[3])] also
+[this project(Project[3])] has moved to the [design] stage
+Who was [the parse example terribly slow issue(Issue[4])] assigned to?	'Willis(Developer[3])'	['question_type_local']
+[that project(Project[3])] is now in the [testing] stage
+Who is [the parsing with parantheses fails proposal(Issue[2])] assigned to?	'Willis(Developer[3])'	['question_type_local']
+Who was [the parse example terribly slow proposal(Issue[4])] assigned to?	'Willis(Developer[3])'	['question_type_local']
+[that project(Project[3])] is in the stage of [design]
+[mobile project(Project[2])] is in the stage of [testing]
+[mobile project(Project[2])] has moved to the [design] stage
+[knowledge base project(Project[3])] is not assigned to [Charlott(Tester[1])]
+[this test engineer(Tester[1])] is assigned to [this project(Project[3])] also
+Are there any issues created by [Willis(Developer[3])] that are resolved?	'parsing with parantheses fails(Issue[2])', 'memory leak bug(Issue[3])', 'parse example terribly slow(Issue[4])'	['question_type_local']
+[this project(Project[3])] is in the [development] stage
+[it(Project[3])] has moved to the [testing] stage
+Who created [the memory leak bug issue(Issue[3])]?	'Willis(Developer[3])'	['question_type_local']
+[knowledge base project(Project[3])] is in the stage of [maintenance]
+[Charlott(Tester[1])] is no longer assigned to [chatbot project(Project[1])]
+[this project(Project[1])] is in the [design] stage
+[chatbot project(Project[1])] has moved to the [maintenance] stage
+[that project(Project[1])] is now in the [development] stage
+[this project(Project[1])] is assigned to [Charlott(Tester[1])] also
+[that project(Project[1])] has moved to the [maintenance] stage
+[chatbot project(Project[1])] has moved to the [design] stage
+[it(Project[1])] is now in the [maintenance] stage
+[it(Project[1])] is in the stage of [development]
+[chatbot project(Project[1])] is in the [maintenance] stage
+[knowledge base project(Project[3])] is in the [design] stage
+[knowledge base project(Project[3])] is in the stage of [testing]
+[knowledge base project(Project[3])] has moved to the [design] stage
+[this project(Project[3])] is in the stage of [maintenance]
+[chatbot project(Project[1])] is not assigned to [Willis(Developer[3])]
+[this project(Project[1])] is assigned to [Willis(Developer[3])] also

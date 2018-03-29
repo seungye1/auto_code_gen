@@ -1,0 +1,114 @@
+there is a new [experimental] [chatbot(Project[1])] [project]
+[that project(Project[1])] is in the [implementation] stage
+there is a new [experimental] [mobile(Project[2])] [project]
+[mobile project(Project[2])] is currently in the [maintenance] stage
+[Igor(Developer[1])] is a [developer]
+[mobile project(Project[2])] has moved to the [implementation] stage
+[Britney(Tester[2])] is a [tester] on [mobile project(Project[2])]
+[chatbot project(Project[1])] is assigned to [Britney(Tester[2])] also
+[chatbot project(Project[1])] is in the [maintenance] stage
+there is a new [knowledge base(Project[3])] [project]
+[knowledge base project(Project[3])] is assigned to [Britney(Tester[2])] also
+[knowledge base project(Project[3])] is a [early stage] project
+[that project(Project[3])] is in the stage of [maintenance]
+[versioning needs to be made consistent] is a new [bug] created by [Britney(Tester[2])] for [chatbot project(Project[1])]
+[mobile project(Project[2])] is in the stage of [maintenance]
+[the versioning needs to be made consistent bug(Issue[1])] is assigned to [Britney(Tester[2])]
+[that test engineer(Tester[2])] resolved [that issue(Issue[1])]
+[Britney(Tester[2])] is not working on [chatbot project(Project[1])] anymore
+[that test engineer(Tester[2])] is working on [it(Project[1])] also
+Are there any issues submitted by [this tester(Tester[2])] that are resolved?	'versioning needs to be made consistent(Issue[1])'	['question_type_local']
+Who was [the versioning needs to be made consistent bug(Issue[1])] assigned to?	'Britney(Tester[2])'	['question_type_local']
+[this tester(Tester[2])] is no longer assigned to [this project(Project[1])]
+[chatbot project(Project[1])] has moved to the [deployment] stage
+[this project(Project[1])] is in the [implementation] stage
+[Britney(Tester[2])] is assigned to [it(Project[1])] also
+There is a new [task] for the [mobile project(Project[2])]: [initialization broken]
+[the initialization broken issue(Issue[2])] was assigned to [Britney(Tester[2])]
+[Britney(Tester[2])] resolved [the issue(Issue[2])]
+Who was [the issue(Issue[2])] assigned to?	'Britney(Tester[2])'	['question_type_local']
+[that test engineer(Tester[2])] is no longer assigned to [mobile project(Project[2])]
+[that project(Project[2])] is assigned to [Britney(Tester[2])] also
+[this person(Tester[2])] submitted a new [bug] for [knowledge base project(Project[3])]: [wrong pos tag on consecutive words]
+[that issue(Issue[3])] was assigned to [Britney(Tester[2])]
+[Britney(Tester[2])] resolved [the wrong pos tag on consecutive words bug(Issue[3])]
+Who was [the versioning needs to be made consistent bug(Issue[1])] assigned to?	'Britney(Tester[2])'	['question_type_local']
+[this test engineer(Tester[2])] is not working on [mobile project(Project[2])] anymore
+[this project(Project[2])] is assigned to [she(Tester[2])] also
+[Michael(Developer[3])] is a [developer]
+[Britney(Tester[2])] is not working on [knowledge base project(Project[3])] anymore
+[Emma(Developer[4])] is a [developer]
+[this project(Project[3])] is assigned to [Britney(Tester[2])] also
+[it(Project[3])] is now in the [implementation] stage
+[it(Project[3])] has moved to the [maintenance] stage
+There is a new issue for the [mobile project(Project[2])]: [xml extractor exception]
+[Emma(Developer[4])] is working on [this project(Project[3])]
+Who created [the wrong pos tag on consecutive words bug(Issue[3])]?	'Britney(Tester[2])'	['question_type_local']
+[Britney(Tester[2])] created a new [bug] for [chatbot project(Project[1])]: [timeout problem]
+[this issue(Issue[5])] is assigned to [Britney(Tester[2])]
+[two consecutive dates identified as single date] is a new [task] for [knowledge base project(Project[3])] that [Emma(Developer[4])] just created
+[the two consecutive dates identified as single date issue(Issue[6])] was assigned to [Emma(Developer[4])]
+[Emma(Developer[4])] resolved [it(Issue[6])]
+[that person(Developer[4])] is assigned to [chatbot project(Project[1])] also
+[this person(Developer[4])] is working on [mobile project(Project[2])] also
+[Will(Developer[5])] is a [developer] on [it(Project[2])]
+[chatbot project(Project[1])] is assigned to [he(Developer[5])] also
+[knowledge base project(Project[3])] is assigned to [this developer(Developer[5])] also
+[Gabrielle(Tester[6])] is a [tester]
+[chatbot project(Project[1])] is assigned to [that test engineer(Tester[6])]
+[Luanna(Developer[7])] is a [developer] on [knowledge base project(Project[3])]
+[Tereasa(Developer[8])] is a [developer] on [mobile project(Project[2])]
+[mobile project(Project[2])] is not assigned to [Britney(Tester[2])]
+[that person(Tester[2])] is assigned to [mobile project(Project[2])] also
+[this test engineer(Tester[2])] is no longer assigned to [knowledge base project(Project[3])]
+[Genevive(Tester[9])] is a [tester] on [mobile project(Project[2])]
+[chatbot project(Project[1])] is now in the [maintenance] stage
+[Andrew(Tester[10])] is a [tester] on [that project(Project[1])]
+[mobile project(Project[2])] is assigned to [Andrew(Tester[10])] also
+[knowledge base project(Project[3])] is assigned to [Andrew(Tester[10])] also
+[it(Project[3])] is in the [implementation] stage
+[Britney(Tester[2])] is assigned to [knowledge base project(Project[3])] also
+[saving data throws exception] is a new [bug] for the [chatbot project(Project[1])]
+[this issue(Issue[7])] is assigned to [Will(Developer[5])]
+[this person(Developer[5])] resolved [this issue(Issue[7])]
+[Britney(Tester[2])] resolved [the timeout problem bug(Issue[5])]
+[knowledge base project(Project[3])] is not assigned to [Britney(Tester[2])]
+[she(Tester[2])] is working on [this project(Project[3])] also
+[dcoref always returns null] is a new [proposal] for [chatbot project(Project[1])] that [Emma(Developer[4])] just created
+[the issue(Issue[8])] was assigned to [Gabrielle(Tester[6])]
+[mobile project(Project[2])] is not assigned to [Britney(Tester[2])]
+[chatbot project(Project[1])] is assigned to [Luanna(Developer[7])] also
+[Luanna(Developer[7])] is working on [mobile project(Project[2])] also
+[this project(Project[2])] is assigned to [Gabrielle(Tester[6])] also
+[Britney(Tester[2])] is working on [it(Project[2])] also
+[this person(Tester[2])] is not working on [chatbot project(Project[1])] anymore
+[this project(Project[1])] is assigned to [Britney(Tester[2])] also
+[knowledge base project(Project[3])] is assigned to [Gabrielle(Tester[6])] also
+[knowledge base project(Project[3])] is assigned to [Tereasa(Developer[8])] also
+[chatbot project(Project[1])] is assigned to [that developer(Developer[8])] also
+[parsing with parantheses fails] is a new [task] created by [she(Developer[8])] for [mobile project(Project[2])]
+[the issue(Issue[9])] is assigned to [Will(Developer[5])]
+[Will(Developer[5])] resolved [it(Issue[9])]
+Who was [the parsing with parantheses fails task(Issue[9])] assigned to?	'Will(Developer[5])'	['question_type_local']
+Who created [the wrong pos tag on consecutive words bug(Issue[3])]?	'Britney(Tester[2])'	['question_type_local']
+Who is [the saving data throws exception bug(Issue[7])] assigned to?	'Will(Developer[5])'	['question_type_local']
+[Tereasa(Developer[8])] is no longer assigned to [knowledge base project(Project[3])]
+[this developer(Developer[8])] is assigned to [this project(Project[3])] also
+Who submitted [the wrong pos tag on consecutive words bug(Issue[3])]?	'Britney(Tester[2])'	['question_type_local']
+[Luanna(Developer[7])] is not working on [this project(Project[3])] anymore
+[she(Developer[7])] is working on [knowledge base project(Project[3])] also
+[the xml extractor exception issue(Issue[4])] is assigned to [Emma(Developer[4])]
+[she(Developer[4])] resolved [the issue(Issue[4])]
+Who is [the parsing with parantheses fails task(Issue[9])] assigned to?	'Will(Developer[5])'	['question_type_local']
+Who created [the timeout problem bug(Issue[5])]?	'Britney(Tester[2])'	['question_type_local']
+Who submitted [the proposal(Issue[8])]?	'Emma(Developer[4])'	['question_type_local']
+[mobile project(Project[2])] is not assigned to [that person(Developer[4])]
+[Emma(Developer[4])] is working on [mobile project(Project[2])] also
+[mobile project(Project[2])] is in the stage of [implementation]
+[this project(Project[2])] is in the stage of [deployment]
+Who created [the parsing with parantheses fails issue(Issue[9])]?	'Tereasa(Developer[8])'	['question_type_local']
+Are there any issues created by [Tereasa(Developer[8])] that are resolved?	'parsing with parantheses fails(Issue[9])'	['question_type_local']
+[mobile project(Project[2])] is now in the [implementation] stage
+[it(Project[2])] has moved to the [deployment] stage
+[Genevive(Tester[9])] is working on [chatbot project(Project[1])] also
+[that test engineer(Tester[9])] is working on [knowledge base project(Project[3])] also

@@ -1,0 +1,139 @@
+I am taking a [math(Course[1])] course
+[math homework 1(Homework[1])] is released for [math(Course[1])]
+I submitted [that homework(Homework[1])]
+[this assignment(Homework[1])] is worth [89] points
+[math homework 1(Homework[1])] is due on [March 15]
+[math project 1(Project[2])] is released for [math(Course[1])]
+[math homework 1(Homework[1])] is about [Animals]
+[that project(Project[2])] is due on [March 16]
+I submitted [this project(Project[2])] late
+The topic of [math project 1(Project[2])] is [deep learning]
+When is [math homework 1(Homework[1])] due?	'March 15'	['question_type_local']
+which projects are due after [March 14]?	'math project 1(Project[2])'	['question_type_global', 'question_two_hop_statement']
+[this project(Project[2])] is [39] points
+What is [math homework 1(Homework[1])] on?	'Animals'	['question_type_local']
+which projects are due after [March 13]?	'math project 1(Project[2])'	['question_type_global', 'question_two_hop_statement']
+[math homework 2(Homework[3])] is released for [math(Course[1])]
+The deadline of [this homework(Homework[3])] is [March 25]
+I submitted [math homework 2(Homework[3])]
+there is a new [homework(Homework[4])] for [math(Course[1])]
+[math homework 3(Homework[4])] is on [The Environment]
+[that assignment(Homework[4])] is due on [April 11]
+there is a [professor] named [Lizeth(Professor[1])]
+[she(Professor[1])]'s email is [Lizeth@yale.edu]
+[that person(Professor[1])]'s office is [336]
+[math(Course[1])] has a new [math homework 4(Homework[5])] out
+I submitted [this assignment(Homework[5])]
+The deadline of [that assignment(Homework[5])] is [April 12]
+[this assignment(Homework[5])] is on [vc dimension]
+[this assignment(Homework[5])] is [70] points
+[math homework 2(Homework[3])] is now due on [March 25]
+[math homework 2(Homework[3])] is about [cold war]
+[this assignment(Homework[3])] is worth [17] points
+[math project 2(Project[6])] is out for [math(Course[1])]
+[this project(Project[6])] is due on [March 31]
+I submitted [this assignment(Project[6])] on time
+which assignments are due before [March 31]?	'math homework 1(Homework[1])', 'math project 1(Project[2])', 'math homework 2(Homework[3])'	['question_type_global', 'question_two_hop_statement']
+show me the homeworks due on [March 15]	'math homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+show me the assignments due on [March 15]	'math homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+[math project 2(Project[6])] is worth [55] points
+[this project(Project[6])] is now due on [April 03]
+I am taking a [french(Course[2])] course
+[Lizeth(Professor[1])] teaches [french(Course[2])]
+[math project 2(Project[6])] is about [Genetics]
+[math homework 3(Homework[4])] is worth [61] points
+Who is the instructor for [french(Course[2])]?	'Lizeth(Professor[1])'	['question_type_local']
+which assignments are due after [March 31]?	'math homework 3(Homework[4])', 'math homework 4(Homework[5])', 'math project 2(Project[6])'	['question_type_global', 'question_two_hop_statement']
+I submitted [this homework(Homework[4])] and received 14 points
+there is a new [project(Project[7])] for [french(Course[2])]
+The topic of [french project 1(Project[7])] is [introduction]
+How many points is [math project 1(Project[2])] worth?	39	['question_type_local']
+I submitted [this project(Project[7])]
+The deadline of [french project 1(Project[7])] is [March 13]
+When is the deadline of [french project 1(Project[7])]?	'March 13'	['question_type_local']
+[french project 1(Project[7])] is worth [39] points
+show me the assignments due on [March 25]	'math homework 2(Homework[3])'	['question_type_global', 'question_two_hop_statement']
+create a [professor] named [John(Professor[2])]
+[that person(Professor[2])]'s office is [322]
+[math(Course[1])] has a new [math project 3(Project[8])] released
+[this professor(Professor[2])]'s email is [John@yahoo.com]
+I submitted [that project(Project[8])] late
+[that project(Project[8])] is [23] points
+The topic of [this project(Project[8])] is [Plants]
+there is new [french project 2(Project[9])] for [french(Course[2])]
+I submitted [french project 2(Project[9])]
+[this project(Project[9])] is worth [42] points
+The deadline of [that assignment(Project[9])] is [March 25]
+what did I get on [math homework 3(Homework[4])]?	14	['question_type_local']
+Which professor is teaching [french(Course[2])]?	'Lizeth(Professor[1])'	['question_type_local']
+Who is the instructor for [french(Course[2])]?	'Lizeth(Professor[1])'	['question_type_local']
+The deadline of [french project 2(Project[9])] moved to [March 23]
+When is [french project 1(Project[7])] due?	'March 13'	['question_type_local']
+how much did I get on [math homework 3(Homework[4])]?	14	['question_type_local']
+[math(Course[1])] has a new [math project 4(Project[10])] released
+I submitted [math project 4(Project[10])]
+[this project(Project[10])] is due on [April 24]
+[this assignment(Project[10])] is worth [100] points
+How much is [math homework 3(Homework[4])] worth?	61	['question_type_local']
+there is a [professor] named [Stephine(Professor[3])]
+[this professor(Professor[3])]'s office is [026]
+[this person(Professor[3])]'s email is [Stephine@harvard.edu]
+What office is [Lizeth(Professor[1])] in?	'336'	['question_type_local']
+what are all the assignments due for [Lizeth]?	'french project 1(Project[7])', 'french project 2(Project[9])'	['question_type_global', 'question_three_hop_statement']
+create a [professor] named [Jack(Professor[4])]
+which homeworks are due after [March 13]?	'math homework 1(Homework[1])', 'math homework 2(Homework[3])', 'math homework 3(Homework[4])', 'math homework 4(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+[he(Professor[4])] is in [P267]
+[he(Professor[4])]'s email is [Jack@gmail.com]
+create a [professor] named [Andrew(Professor[5])]
+What is the topic of [math homework 4(Homework[5])]?	'vc dimension'	['question_type_local']
+list homeworks that are due on [April 11]	'math homework 3(Homework[4])'	['question_type_global', 'question_two_hop_statement']
+When is the deadline of [french project 1(Project[7])]?	'March 13'	['question_type_local']
+[Andrew(Professor[5])] is in [Q129]
+[Andrew(Professor[5])]'s email is [Andrew@yahoo.com]
+How many points is [french project 1(Project[7])] worth?	39	['question_type_local']
+What is the topic of [math homework 1(Homework[1])]?	'Animals'	['question_type_local']
+list projects that are due on [March 23]	'french project 2(Project[9])'	['question_type_global', 'question_two_hop_statement']
+[math(Course[1])] has a new [math homework 5(Homework[11])] released
+[that homework(Homework[11])] is due on [May 07]
+What is [math homework 4(Homework[5])] on?	'vc dimension'	['question_type_local']
+[math homework 6(Homework[12])] is out for [math(Course[1])]
+The deadline of [math homework 6(Homework[12])] is [May 20]
+I submitted [this homework(Homework[12])] on time
+The deadline of [that assignment(Homework[12])] moved to [May 21]
+[that homework(Homework[12])] is [25] points
+How many points is [math homework 4(Homework[5])] worth?	70	['question_type_local']
+[french(Course[2])] has a new [french homework 1(Homework[13])] released
+which assignments are due after [April 13]?	'math project 4(Project[10])', 'math homework 5(Homework[11])', 'math homework 6(Homework[12])'	['question_type_global', 'question_two_hop_statement']
+I submitted [french homework 1(Homework[13])]
+I am taking a [religion(Course[3])] course
+[this homework(Homework[13])] is due on [March 15]
+[math(Course[1])] has a new [math homework 7(Homework[14])] out
+I submitted [math homework 7(Homework[14])]
+[that assignment(Homework[14])] is [21] points
+The deadline of [this assignment(Homework[14])] is [May 26]
+how many points is [math project 3(Project[8])]?	23	['question_type_local']
+create a [professor] named [Emmie(Professor[6])]
+there is a new [homework(Homework[15])] for [math(Course[1])]
+[that professor(Professor[6])]'s office is [P267]
+[this person(Professor[6])]'s email is [Emmie@nh.edu]
+When is the deadline of [french project 1(Project[7])]?	'March 13'	['question_type_local']
+show me the homeworks due on [May 21]	'math homework 6(Homework[12])'	['question_type_global', 'question_two_hop_statement']
+which homeworks are due after [April 05]?	'math homework 3(Homework[4])', 'math homework 4(Homework[5])', 'math homework 5(Homework[11])', 'math homework 6(Homework[12])', 'math homework 7(Homework[14])'	['question_type_global', 'question_two_hop_statement']
+How much is [math project 4(Project[10])] worth?	100	['question_type_local']
+which projects are due after [April 12]?	'math project 4(Project[10])'	['question_type_global', 'question_two_hop_statement']
+there is new [french project 3(Project[16])] for [french(Course[2])]
+[that assignment(Project[16])] is due on [April 08]
+[that assignment(Project[16])] is [85] points
+how many points is [that assignment(Project[16])]?	85	['question_type_local']
+[math(Course[1])] has a new [math project 5(Project[17])] released
+I submitted [french project 3(Project[16])] on time and received 55 points
+what homeworks did i submit for [Lizeth]?	'french homework 1(Homework[13])'	['question_type_global', 'question_three_hop_statement']
+I submitted [math project 5(Project[17])] on time
+The deadline of [math project 5(Project[17])] is [April 12]
+[math project 5(Project[17])] is [49] points
+I am taking a [chemistry(Course[4])] course
+[John(Professor[2])] is the instructor for [chemistry(Course[4])]
+there is a [professor] named [Hanna(Professor[7])]
+How many points did I get on [french project 3(Project[16])]	55	['question_type_local']
+[she(Professor[7])]'s office is [336]
+[this person(Professor[7])]'s email is [Hanna@gmail.com]

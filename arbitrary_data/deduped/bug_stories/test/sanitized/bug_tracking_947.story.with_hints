@@ -1,0 +1,112 @@
+there is a new [pilot] [knowledge base(Project[1])] [project]
+[it(Project[1])] is currently in the [design] stage
+[Alverta(Developer[1])] is a [developer] on [knowledge base project(Project[1])]
+[Cyndi(Tester[2])] is a [tester] on [it(Project[1])]
+[knowledge base project(Project[1])] is now in the [evaluation] stage
+[Roslyn(Tester[3])] is a [tester] on [knowledge base project(Project[1])]
+[versioning needs to be made consistent] is a new [task] for the [knowledge base project(Project[1])]
+[the versioning needs to be made consistent issue(Issue[1])] was assigned to [Cyndi(Tester[2])]
+[that test engineer(Tester[2])] resolved [the issue(Issue[1])]
+[wrong pos tag on consecutive words] is a new [proposal] for [knowledge base project(Project[1])] that [Cyndi(Tester[2])] just created
+[knowledge base project(Project[1])] has moved to the [implementation] stage
+[the wrong pos tag on consecutive words proposal(Issue[2])] was assigned to [Cyndi(Tester[2])]
+[Rey(Tester[4])] is a [tester]
+[Milagros(Developer[5])] is a [developer] on [knowledge base project(Project[1])]
+[Alverta(Developer[1])] created a new [task] for [knowledge base project(Project[1])]: [memory leak while reading tf records]
+[that person(Developer[5])] is no longer assigned to [knowledge base project(Project[1])]
+[that project(Project[1])] is assigned to [that person(Developer[5])]
+[the task that was last added(Issue[3])] is assigned to [Milagros(Developer[5])]
+[Milagros(Developer[5])] resolved [the memory leak while reading tf records task(Issue[3])]
+Who is [the versioning needs to be made consistent task(Issue[1])] assigned to?	'Cyndi(Tester[2])'	['question_type_local']
+[knowledge base project(Project[1])] is not assigned to [Milagros(Developer[5])]
+[Jack(Tester[6])] is a [tester] on [it(Project[1])]
+[this person(Tester[6])] is no longer assigned to [this project(Project[1])]
+[this test engineer(Tester[6])] is assigned to [it(Project[1])]
+[Roslyn(Tester[3])] created a new issue for [it(Project[1])]: [memory leak bug]
+Who was [the task that was last added(Issue[3])] assigned to?	'Milagros(Developer[5])'	['question_type_local']
+[Ashly(Tester[7])] is a [tester] on [that project(Project[1])]
+[it(Issue[4])] was assigned to [this person(Tester[7])]
+[that person(Tester[7])] resolved [the issue(Issue[4])]
+What are the issues submitted by [Roslyn(Tester[3])]?	'memory leak bug(Issue[4])'	['question_type_local']
+[two consecutive dates identified as single date] is a new [bug] created by [Cyndi(Tester[2])] for [knowledge base project(Project[1])]
+there is a new [chatbot(Project[2])] [project]
+[that project(Project[2])] is a [pilot] project
+[that project(Project[2])] is in the [design] stage
+[that project(Project[2])] is in the stage of [evaluation]
+[Luanna(Tester[8])] is a [tester] on [knowledge base project(Project[1])]
+[chatbot project(Project[2])] is assigned to [Ashly(Tester[7])] also
+[Casey(Developer[9])] is a [developer] on [knowledge base project(Project[1])]
+[Cyndi(Tester[2])] resolved [the wrong pos tag on consecutive words issue(Issue[2])]
+[Rey(Tester[4])] is assigned to [knowledge base project(Project[1])]
+[Will(Developer[10])] is a [developer] on [chatbot project(Project[2])]
+[chatbot project(Project[2])] is assigned to [Jack(Tester[6])] also
+there is a new [pilot] [mobile(Project[3])] [project]
+[mobile project(Project[3])] is in the stage of [evaluation]
+[that project(Project[3])] is assigned to [Luanna(Tester[8])] also
+[Jack(Tester[6])] is working on [this project(Project[3])] also
+[Will(Developer[10])] created a new issue for [chatbot project(Project[2])]: [issue in using training data]
+[this issue(Issue[6])] was assigned to [Jack(Tester[6])]
+[that person(Tester[6])] resolved [the issue in using training data issue(Issue[6])]
+Are there any issues created by [Cyndi(Tester[2])] that are not resolved?	'two consecutive dates identified as single date(Issue[5])'	['question_type_local']
+[knowledge base project(Project[1])] is assigned to [Milagros(Developer[5])]
+[Milagros(Developer[5])] is working on [chatbot project(Project[2])] also
+[this developer(Developer[5])] is no longer assigned to [knowledge base project(Project[1])]
+[Rey(Tester[4])] is assigned to [chatbot project(Project[2])] also
+[mobile project(Project[3])] is assigned to [Ashly(Tester[7])] also
+[Will(Developer[10])] is assigned to [knowledge base project(Project[1])] also
+What are the issues submitted by [Will(Developer[10])] that were resolved?	'issue in using training data(Issue[6])'	['question_type_local']
+[Milagros(Developer[5])] is working on [mobile project(Project[3])] also
+[Cyndi(Tester[2])] is assigned to [chatbot project(Project[2])] also
+[this person(Tester[2])] is assigned to [mobile project(Project[3])] also
+[Rey(Tester[4])] is assigned to [mobile project(Project[3])] also
+[initialization broken] is a new [task] created by [Cyndi(Tester[2])] for [knowledge base project(Project[1])]
+[the initialization broken task(Issue[7])] is assigned to [Will(Developer[10])]
+[Will(Developer[10])] resolved [the task(Issue[7])]
+[mobile project(Project[3])] is assigned to [Will(Developer[10])] also
+[Milagros(Developer[5])] is working on [knowledge base project(Project[1])] also
+[Alverta(Developer[1])] is working on [mobile project(Project[3])] also
+[chatbot project(Project[2])] is assigned to [Casey(Developer[9])] also
+[he(Developer[9])] is assigned to [mobile project(Project[3])] also
+[mobile project(Project[3])] is in the stage of [design]
+Were there any issues created by [Roslyn(Tester[3])]?	'memory leak bug(Issue[4])'	['question_type_local']
+Who is [the versioning needs to be made consistent task(Issue[1])] assigned to?	'Cyndi(Tester[2])'	['question_type_local']
+What are the issues created by [Roslyn(Tester[3])] that were resolved?	'memory leak bug(Issue[4])'	['question_type_local']
+Who submitted [the task that was last added(Issue[7])]?	'Cyndi(Tester[2])'	['question_type_local']
+[that project(Project[3])] is assigned to [Roslyn(Tester[3])] also
+[tokenization not consistent across platforms] is a new [bug] for [knowledge base project(Project[1])] that [Cyndi(Tester[2])] just created
+[the tokenization not consistent across platforms issue(Issue[8])] is assigned to [Casey(Developer[9])]
+[that developer(Developer[9])] resolved [the tokenization not consistent across platforms bug(Issue[8])]
+[chatbot project(Project[2])] is in the stage of [design]
+[mobile project(Project[3])] is now in the [evaluation] stage
+[parse example terribly slow] is a new issue for the [knowledge base project(Project[1])]
+[that project(Project[3])] is now in the [implementation] stage
+[this issue(Issue[9])] was assigned to [Cyndi(Tester[2])]
+[that test engineer(Tester[2])] resolved [the issue(Issue[9])]
+[knowledge base project(Project[1])] is not assigned to [she(Tester[2])]
+[Cyndi(Tester[2])] is assigned to [that project(Project[1])] also
+Who created [the tokenization not consistent across platforms bug(Issue[8])]?	'Cyndi(Tester[2])'	['question_type_local']
+[this project(Project[1])] is now in the [evaluation] stage
+[mobile project(Project[3])] is not assigned to [Cyndi(Tester[2])]
+[this person(Tester[2])] is working on [it(Project[3])] also
+[that project(Project[3])] is in the [design] stage
+[Milagros(Developer[5])] is not working on [knowledge base project(Project[1])] anymore
+[this person(Developer[5])] is assigned to [knowledge base project(Project[1])] also
+[knowledge base project(Project[1])] is in the [design] stage
+[Alverta(Developer[1])] is working on [chatbot project(Project[2])] also
+[that project(Project[2])] is not assigned to [Ashly(Tester[7])]
+[Ashly(Tester[7])] is working on [that project(Project[2])] also
+[Will(Developer[10])] is not working on [chatbot project(Project[2])] anymore
+[Will(Developer[10])] is working on [chatbot project(Project[2])] also
+[it(Project[2])] is in the [evaluation] stage
+What are the issues created by [Cyndi(Tester[2])] that were not resolved?	'two consecutive dates identified as single date(Issue[5])'	['question_type_local']
+Who was [the initialization broken task(Issue[7])] assigned to?	'Will(Developer[10])'	['question_type_local']
+[mobile project(Project[3])] is now in the [implementation] stage
+[knowledge base project(Project[1])] is in the [evaluation] stage
+[Cyndi(Tester[2])] is no longer assigned to [chatbot project(Project[2])]
+[this person(Tester[2])] is assigned to [chatbot project(Project[2])] also
+[this project(Project[2])] has moved to the [design] stage
+[Jack(Tester[6])] is not working on [knowledge base project(Project[1])] anymore
+[that project(Project[1])] is assigned to [Jack(Tester[6])] also
+[Jack(Tester[6])] is no longer assigned to [knowledge base project(Project[1])]
+[this tester(Tester[6])] is assigned to [knowledge base project(Project[1])] also
+[mobile project(Project[3])] has moved to the [evaluation] stage

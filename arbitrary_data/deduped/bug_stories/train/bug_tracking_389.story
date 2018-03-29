@@ -1,0 +1,257 @@
+there is a new [knowledge base] [project]
+[that project] is a [internal] project
+[knowledge base project] is in the stage of [development]
+[knowledge base project] is now in the [evaluation] stage
+[this project] is now in the [testing] stage
+[fails with apache stack] is a new [enhancement] for the [this project]
+Are there any issues that are not resolved?	'fails with apache stack'	['question_type_global', 'question_single_statement']
+[Charlott] is a [tester] on [knowledge base project]
+[it] is assigned to [that person]
+[this test engineer] resolved [that issue]
+there is a new [corporate] [chatbot] [project]
+[that project] is in the [evaluation] stage
+What stage is [knowledge base project] in?	'testing'	['question_type_local']
+What projects are in the [evaluation] stage?	'chatbot'	['question_type_global', 'question_single_statement']
+[Charlott] is assigned to [that project] also
+Who is working on [knowledge base project]?	'Charlott'	['question_type_local']
+[Charlott] is not working on [knowledge base project] anymore
+[Genevive] is a [developer]
+[this developer] is assigned to [it]
+there is a new [mobile] [project]
+[knowledge base project] is in the [development] stage
+[mobile project] is currently in the [development] stage
+[mobile project] is a [corporate] project
+[Genevive] is working on [chatbot project] also
+What are the issues assigned to [Charlott] that were resolved?	'fails with apache stack'	['question_type_local']
+Are there projects in the [evaluation] stage?	'chatbot'	['question_type_global', 'question_single_statement']
+[she] is working on [mobile project] also
+[Kristeen] is a [developer]
+Who is currently working on the [internal] projects?	'Genevive'	['question_type_global', 'question_two_hop_statement']
+[knowledge base project] has moved to the [evaluation] stage
+[mobile project] is assigned to [Charlott] also
+[Tom] is a [developer]
+[he] is working on [this project]
+What projects is [that developer] working on?	'mobile'	['question_type_local']
+[he] is working on [knowledge base project] also
+[Peggy] is a [tester]
+[this person] is assigned to [it]
+[knowledge base project] is assigned to [Charlott] also
+What are the issues that are resolved for projects in the [evaluation] stage?	'fails with apache stack'	['question_type_global', 'question_three_hop_statement']
+Which developers are working on [mobile project]?	'Genevive', 'Tom'	['question_type_local']
+who are the testers?	'Charlott', 'Peggy'	['question_type_global', 'question_single_statement']
+who are the developers?	'Genevive', 'Kristeen', 'Tom'	['question_type_global', 'question_single_statement']
+[that project] has moved to the [testing] stage
+Which testers have issues assigned to them that were all resolved?	'Charlott'	['question_type_global', 'question_three_hop_statement']
+What are the issues that are resolved for projects in the [testing] stage?	'fails with apache stack'	['question_type_global', 'question_three_hop_statement']
+[Stephine] is a [developer] on [chatbot project]
+[Michael] is a [tester]
+[mobile project] is assigned to [this test engineer]
+[he] is working on [chatbot project] also
+What are the issues that were resolved?	'fails with apache stack'	['question_type_global', 'question_single_statement']
+What projects are currently in the [evaluation] stage?	'chatbot'	['question_type_global', 'question_single_statement']
+Who are the testers currently working on projects in the [evaluation] stage?	'Charlott', 'Michael'	['question_type_global', 'question_three_hop_statement']
+[Cyndi] is a [tester] on [mobile project]
+Who has issues assigned to them that were all resolved?	'Charlott'	['question_type_global', 'question_two_hop_statement']
+Are there any [corporate] projects?	'chatbot', 'mobile'	['question_type_global', 'question_single_statement']
+[it] is assigned to [this person] also
+Who are the developers currently working on projects in the [development] stage?	'Genevive', 'Tom'	['question_type_global', 'question_three_hop_statement']
+Which testers have issues assigned to them that were all resolved?	'Charlott'	['question_type_global', 'question_three_hop_statement']
+[this tester] is assigned to [knowledge base project] also
+Are there any developers assigned to the [internal] projects?	'Genevive', 'Tom'	['question_type_global', 'question_three_hop_statement']
+Are there any developers assigned to projects in the [evaluation] stage?	'Genevive', 'Stephine'	['question_type_global', 'question_three_hop_statement']
+[chatbot project] is assigned to [Tom] also
+Are there any projects that are [corporate]?	'chatbot', 'mobile'	['question_type_global', 'question_single_statement']
+[dcoref always returns null] is a new [task] submitted by [Charlott] for [chatbot project]
+[this issue] was assigned to [Tom]
+Who is currently working on projects in the [testing] stage?	'Charlott', 'Genevive', 'Tom', 'Peggy', 'Cyndi'	['question_type_global', 'question_two_hop_statement']
+[chatbot project] has moved to the [development] stage
+Who are the testers currently working on the [internal] projects?	'Charlott', 'Peggy', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+Who has issues assigned to them that were all resolved?	'Charlott'	['question_type_global', 'question_two_hop_statement']
+Which testers are working on [knowledge base project]?	'Charlott', 'Peggy', 'Cyndi'	['question_type_local']
+What are the issues that are not resolved?	'dcoref always returns null'	['question_type_global', 'question_single_statement']
+What are the non resolved issues for projects in the [development] stage?	'dcoref always returns null'	['question_type_global', 'question_three_hop_statement']
+Who was [the enhancement] assigned to?	'Charlott'	['question_type_local']
+Are there any [enhancement]s that are not resolved?	'fails with apache stack'	['question_type_global', 'question_two_hop_statement']
+[Tom] is not working on [mobile project] anymore
+[Tom] is assigned to [mobile project] also
+[chatbot project] is assigned to [Peggy] also
+Are there any [internal] projects?	'knowledge base'	['question_type_global', 'question_single_statement']
+[this person] is working on [mobile project] also
+Who are the developers on [chatbot project]	'Genevive', 'Tom', 'Stephine'	['question_type_local']
+What are the resolved issues for projects in the [testing] stage?	'fails with apache stack'	['question_type_global', 'question_three_hop_statement']
+What are the issues that were resolved?	'fails with apache stack'	['question_type_global', 'question_single_statement']
+What projects are in the [development] stage?	'chatbot', 'mobile'	['question_type_global', 'question_single_statement']
+Are there any [task]s that are not resolved?	'dcoref always returns null'	['question_type_global', 'question_two_hop_statement']
+[Charlott] is no longer assigned to [knowledge base project]
+[this person] is working on [knowledge base project] also
+[it] is now in the [maintenance] stage
+Who are the testers currently working on projects in the [development] stage?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+who are the developers?	'Genevive', 'Kristeen', 'Tom', 'Stephine'	['question_type_global', 'question_single_statement']
+Are there any issues for [chatbot project] that are not resolved?	'dcoref always returns null'	['question_type_global', 'question_two_hop_statement']
+who are the testers?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_single_statement']
+What developers are assigned to projects in the [maintenance] stage?	'Genevive', 'Tom'	['question_type_global', 'question_three_hop_statement']
+What are the issues that were resolved?	'fails with apache stack'	['question_type_global', 'question_single_statement']
+Who is assigned to the [internal] projects?	'Charlott', 'Genevive', 'Tom', 'Peggy', 'Cyndi'	['question_type_global', 'question_two_hop_statement']
+[that project] is in the stage of [development]
+[Tom] resolved [the task]
+Who submitted [the dcoref always returns null task]?	'Charlott'	['question_type_local']
+Are there any testers assigned to projects in the [development] stage?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+What are the resolved issues for [corporate] projects?	'dcoref always returns null'	['question_type_global', 'question_two_hop_statement']
+Are there any [enhancement]s that are not resolved?	'fails with apache stack'	['question_type_global', 'question_two_hop_statement']
+What testers are assigned to the [internal] projects?	'Charlott', 'Peggy', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+Which developers are assigned to [mobile project]	'Genevive', 'Tom'	['question_type_local']
+Who has issues assigned to them that were all resolved?	'Charlott', 'Tom'	['question_type_global', 'question_two_hop_statement']
+What are the [enhancement]s that are not resolved?	'fails with apache stack'	['question_type_global', 'question_two_hop_statement']
+Who are the testers currently working on the [internal] projects?	'Charlott', 'Peggy', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+Who is assigned to the [internal] projects?	'Charlott', 'Genevive', 'Tom', 'Peggy', 'Cyndi'	['question_type_global', 'question_two_hop_statement']
+Are there any testers assigned to projects in the [development] stage?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+Are there any issues that are resolved?	'fails with apache stack', 'dcoref always returns null'	['question_type_global', 'question_single_statement']
+What projects is [Stephine] working on?	'chatbot'	['question_type_local']
+Are there any [enhancement]s that are not resolved?	'fails with apache stack'	['question_type_global', 'question_two_hop_statement']
+[knowledge base project] is not assigned to [Cyndi]
+[this test engineer] is working on [knowledge base project] also
+Who is working on [chatbot project]?	'Charlott', 'Genevive', 'Tom', 'Peggy', 'Stephine', 'Michael', 'Cyndi'	['question_type_local']
+What projects are in the [development] stage?	'knowledge base', 'chatbot', 'mobile'	['question_type_global', 'question_single_statement']
+What developers are assigned to projects in the [development] stage?	'Genevive', 'Tom', 'Stephine'	['question_type_global', 'question_three_hop_statement']
+What are the issues that are resolved for [internal] projects?	'fails with apache stack'	['question_type_global', 'question_two_hop_statement']
+Who has issues assigned to them that were all resolved?	'Charlott', 'Tom'	['question_type_global', 'question_two_hop_statement']
+who are the developers?	'Genevive', 'Kristeen', 'Tom', 'Stephine'	['question_type_global', 'question_single_statement']
+What are the resolved issues?	'fails with apache stack', 'dcoref always returns null'	['question_type_global', 'question_single_statement']
+Who are the testers currently working on the [corporate] projects?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+What are the non resolved [enhancement]s?	'fails with apache stack'	['question_type_global', 'question_two_hop_statement']
+[Stephine] is working on [mobile project] also
+Who is working on [chatbot project]?	'Charlott', 'Genevive', 'Tom', 'Peggy', 'Stephine', 'Michael', 'Cyndi'	['question_type_local']
+What developers are assigned to projects in the [development] stage?	'Genevive', 'Tom', 'Stephine'	['question_type_global', 'question_three_hop_statement']
+What are the issues for [chatbot project] that are resolved?	'dcoref always returns null'	['question_type_global', 'question_two_hop_statement']
+Who are the testers on [chatbot project]	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_local']
+Are there any testers assigned to projects in the [development] stage?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+[knowledge base project] is assigned to [Stephine] also
+Which testers have issues assigned to them that were all resolved?	'Charlott'	['question_type_global', 'question_three_hop_statement']
+[initialization broken] is a new [proposal] for [mobile project] that [Peggy] just created
+Which developers are assigned to [chatbot project]	'Genevive', 'Tom', 'Stephine'	['question_type_local']
+What are the issues that are resolved for [corporate] projects?	'dcoref always returns null'	['question_type_global', 'question_two_hop_statement']
+who are the testers?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_single_statement']
+Are there projects in the [development] stage?	'knowledge base', 'chatbot', 'mobile'	['question_type_global', 'question_single_statement']
+[that issue] was assigned to [Charlott]
+[Kristeen] is working on [knowledge base project]
+What are the issues created by [Peggy]?	'initialization broken'	['question_type_local']
+Are there any people assigned to the [corporate] projects?	'Charlott', 'Genevive', 'Tom', 'Peggy', 'Stephine', 'Michael', 'Cyndi'	['question_type_global', 'question_two_hop_statement']
+[it] is assigned to [Michael] also
+Are there any testers assigned to projects in the [development] stage?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+Which testers have issues assigned to them that were all resolved?	'Charlott'	['question_type_global', 'question_three_hop_statement']
+What are the non resolved issues for projects in the [development] stage?	'initialization broken'	['question_type_global', 'question_three_hop_statement']
+What are the resolved issues?	'fails with apache stack', 'dcoref always returns null'	['question_type_global', 'question_single_statement']
+There is a new issue for the [it]: [two consecutive dates identified as single date]
+[this issue] is assigned to [Cyndi]
+[Charlott] resolved [the initialization broken issue]
+[this tester] is no longer assigned to [knowledge base project]
+[Charlott] is working on [knowledge base project] also
+What are the issues for [chatbot project] that are resolved?	'dcoref always returns null'	['question_type_global', 'question_two_hop_statement']
+Which testers have issues assigned to them that were not resolved?	'Cyndi'	['question_type_global', 'question_three_hop_statement']
+[Tom] is not working on [chatbot project] anymore
+[Kristeen] is working on [it] also
+[this person] is assigned to [mobile project] also
+[memory leak while reading tf records] is a new [enhancement] for the [mobile project]
+What developers are assigned to projects in the [development] stage?	'Genevive', 'Kristeen', 'Tom', 'Stephine'	['question_type_global', 'question_three_hop_statement']
+who are the developers?	'Genevive', 'Kristeen', 'Tom', 'Stephine'	['question_type_global', 'question_single_statement']
+What are the resolved issues for projects in the [development] stage?	'fails with apache stack', 'dcoref always returns null', 'initialization broken'	['question_type_global', 'question_three_hop_statement']
+Who has issues assigned to them that were not resolved?	'Cyndi'	['question_type_global', 'question_two_hop_statement']
+What projects is [Michael] working on?	'knowledge base', 'chatbot', 'mobile'	['question_type_local']
+Who has issues assigned to them that were all resolved?	'Charlott', 'Tom'	['question_type_global', 'question_two_hop_statement']
+What are the issues that are not resolved for projects in the [development] stage?	'two consecutive dates identified as single date', 'memory leak while reading tf records'	['question_type_global', 'question_three_hop_statement']
+What are the issues that are resolved for projects in the [development] stage?	'fails with apache stack', 'dcoref always returns null', 'initialization broken'	['question_type_global', 'question_three_hop_statement']
+What testers are assigned to the [corporate] projects?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+Are there any issues for [knowledge base project] that are resolved?	'fails with apache stack'	['question_type_global', 'question_two_hop_statement']
+What projects are [internal]?	'knowledge base'	['question_type_global', 'question_single_statement']
+Who has issues assigned to them that were not resolved?	'Cyndi'	['question_type_global', 'question_two_hop_statement']
+Who created [the proposal]?	'Peggy'	['question_type_local']
+Are there any [internal] projects?	'knowledge base'	['question_type_global', 'question_single_statement']
+Are there projects in the [development] stage?	'knowledge base', 'chatbot', 'mobile'	['question_type_global', 'question_single_statement']
+Are there any people assigned to the [internal] projects?	'Charlott', 'Genevive', 'Kristeen', 'Tom', 'Peggy', 'Stephine', 'Michael', 'Cyndi'	['question_type_global', 'question_two_hop_statement']
+Are there any issues that are not resolved for [internal] projects?	'two consecutive dates identified as single date'	['question_type_global', 'question_two_hop_statement']
+[the issue] was assigned to [Stephine]
+[mobile project] is not assigned to [Stephine]
+[this person] is assigned to [mobile project] also
+Who is [the fails with apache stack issue] assigned to?	'Charlott'	['question_type_local']
+Who is currently working on the [internal] projects?	'Charlott', 'Genevive', 'Kristeen', 'Tom', 'Peggy', 'Stephine', 'Michael', 'Cyndi'	['question_type_global', 'question_two_hop_statement']
+Which testers have issues assigned to them that were all resolved?	'Charlott'	['question_type_global', 'question_three_hop_statement']
+Are there any projects that are [internal]?	'knowledge base'	['question_type_global', 'question_single_statement']
+What projects are [corporate]?	'chatbot', 'mobile'	['question_type_global', 'question_single_statement']
+who are the developers?	'Genevive', 'Kristeen', 'Tom', 'Stephine'	['question_type_global', 'question_single_statement']
+Are there projects in the [development] stage?	'knowledge base', 'chatbot', 'mobile'	['question_type_global', 'question_single_statement']
+[this project] is now in the [testing] stage
+Who is [the initialization broken proposal] assigned to?	'Charlott'	['question_type_local']
+What are the issues for [mobile project] that are not resolved?	'memory leak while reading tf records'	['question_type_global', 'question_two_hop_statement']
+Which developers have issues assigned to them that were not resolved?	'Stephine'	['question_type_global', 'question_three_hop_statement']
+Are there any issues assigned to [Charlott] that are resolved?	'fails with apache stack', 'initialization broken'	['question_type_local']
+What are the issues for [mobile project] that are resolved?	'initialization broken'	['question_type_global', 'question_two_hop_statement']
+[it] has moved to the [evaluation] stage
+[chatbot project] is assigned to [Tom] also
+[Stephine] resolved [the enhancement that was last added]
+[Cyndi] resolved [the two consecutive dates identified as single date issue]
+who are the testers?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_single_statement']
+[chatbot project] is now in the [maintenance] stage
+Are there any issues for [mobile project] that are resolved?	'initialization broken', 'memory leak while reading tf records'	['question_type_global', 'question_two_hop_statement']
+who are the developers?	'Genevive', 'Kristeen', 'Tom', 'Stephine'	['question_type_global', 'question_single_statement']
+[mobile project] has moved to the [testing] stage
+[chatbot project] is now in the [evaluation] stage
+Which is the stage of [knowledge base project]?	'development'	['question_type_local']
+Who are the developers currently working on projects in the [testing] stage?	'Genevive', 'Kristeen', 'Tom', 'Stephine'	['question_type_global', 'question_three_hop_statement']
+Who are the testers currently working on projects in the [evaluation] stage?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+What are the resolved issues for projects in the [development] stage?	'fails with apache stack', 'two consecutive dates identified as single date'	['question_type_global', 'question_three_hop_statement']
+[Tom] submitted a new [task] for [chatbot project]: [timeout problem]
+[this issue] is assigned to [Charlott]
+[Charlott] resolved [this issue]
+Who is working on [knowledge base project]?	'Charlott', 'Genevive', 'Kristeen', 'Tom', 'Peggy', 'Stephine', 'Michael', 'Cyndi'	['question_type_local']
+Which testers have issues assigned to them that were all resolved?	'Charlott', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+Are there any issues for [knowledge base project] that are resolved?	'fails with apache stack', 'two consecutive dates identified as single date'	['question_type_global', 'question_two_hop_statement']
+Who are the testers currently working on the [corporate] projects?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+What are the issues that are resolved for [corporate] projects?	'dcoref always returns null', 'initialization broken', 'memory leak while reading tf records', 'timeout problem'	['question_type_global', 'question_two_hop_statement']
+What stage is [chatbot project] in?	'evaluation'	['question_type_local']
+Are there any developers assigned to projects in the [testing] stage?	'Genevive', 'Kristeen', 'Tom', 'Stephine'	['question_type_global', 'question_three_hop_statement']
+What testers are assigned to the [internal] projects?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+Who submitted [the initialization broken proposal]?	'Peggy'	['question_type_local']
+Who are the testers currently working on projects in the [evaluation] stage?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+Who are the testers currently working on projects in the [testing] stage?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+[this test engineer] is not working on [mobile project] anymore
+[this test engineer] is working on [mobile project] also
+Who created [the timeout problem task]?	'Tom'	['question_type_local']
+What projects are currently in the [development] stage?	'knowledge base'	['question_type_global', 'question_single_statement']
+who are the testers?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_single_statement']
+What are the [internal] projects?	'knowledge base'	['question_type_global', 'question_single_statement']
+What are the non resolved [task]s?	'dcoref always returns null', 'timeout problem'	['question_type_global', 'question_two_hop_statement']
+What are the resolved issues for [knowledge base project]?	'fails with apache stack', 'two consecutive dates identified as single date'	['question_type_global', 'question_two_hop_statement']
+What projects are [internal]?	'knowledge base'	['question_type_global', 'question_single_statement']
+What stage is [chatbot project] in?	'evaluation'	['question_type_local']
+What testers are assigned to projects in the [testing] stage?	'Charlott', 'Peggy', 'Michael', 'Cyndi'	['question_type_global', 'question_three_hop_statement']
+What are the resolved issues for projects in the [evaluation] stage?	'dcoref always returns null', 'timeout problem'	['question_type_global', 'question_three_hop_statement']
+What are the resolved issues for [internal] projects?	'fails with apache stack', 'two consecutive dates identified as single date'	['question_type_global', 'question_two_hop_statement']
+What are the resolved issues?	'fails with apache stack', 'dcoref always returns null', 'initialization broken', 'two consecutive dates identified as single date', 'memory leak while reading tf records', 'timeout problem'	['question_type_global', 'question_single_statement']
+Who created [the timeout problem task]?	'Tom'	['question_type_local']
+What developers are assigned to the [corporate] projects?	'Genevive', 'Kristeen', 'Tom', 'Stephine'	['question_type_global', 'question_three_hop_statement']
+Which developers have issues assigned to them that were all resolved?	'Tom', 'Stephine'	['question_type_global', 'question_three_hop_statement']
+[Genevive] created a new issue for [mobile project]: [wrong pos tag on consecutive words]
+[the issue] was assigned to [Peggy]
+[that person] resolved [the issue]
+Were there any issues assigned to [that test engineer]?	'wrong pos tag on consecutive words'	['question_type_local']
+Are there any developers assigned to the [internal] projects?	'Genevive', 'Kristeen', 'Tom', 'Stephine'	['question_type_global', 'question_three_hop_statement']
+Who are the developers currently working on the [corporate] projects?	'Genevive', 'Kristeen', 'Tom', 'Stephine'	['question_type_global', 'question_three_hop_statement']
+Who has issues assigned to them that were all resolved?	'Charlott', 'Tom', 'Peggy', 'Stephine', 'Cyndi'	['question_type_global', 'question_two_hop_statement']
+[parse example terribly slow] is a new [proposal] created by [Cyndi] for [chatbot project]
+[that issue] is assigned to [Cyndi]
+[that person] resolved [the parse example terribly slow proposal]
+[Charlott] is not working on [knowledge base project] anymore
+Who are the developers currently working on projects in the [development] stage?	'Genevive', 'Kristeen', 'Tom', 'Stephine'	['question_type_global', 'question_three_hop_statement']
+What are the [task]s that are not resolved?	'dcoref always returns null', 'timeout problem'	['question_type_global', 'question_two_hop_statement']
+[Charlott] is no longer assigned to [mobile project]
+[that test engineer] is working on [knowledge base project] also
+[mobile project] is assigned to [this person] also
+[Kristeen] created a new [proposal] for [knowledge base project]: [minified version fails]
+[that issue] was assigned to [Genevive]
+[this developer] resolved [the minified version fails issue]
+Are there any issues assigned to [Tom] that are resolved?	'dcoref always returns null'	['question_type_local']
+What are the resolved issues for [mobile project]?	'initialization broken', 'memory leak while reading tf records', 'wrong pos tag on consecutive words'	['question_type_global', 'question_two_hop_statement']
+What are the issues that are resolved for projects in the [testing] stage?	'initialization broken', 'memory leak while reading tf records', 'wrong pos tag on consecutive words'	['question_type_global', 'question_three_hop_statement']
+[chatbot project] is in the stage of [development]
+[that developer] is not working on [knowledge base project] anymore
+[that person] is working on [knowledge base project] also

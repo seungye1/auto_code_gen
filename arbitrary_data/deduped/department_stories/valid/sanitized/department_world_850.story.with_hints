@@ -1,0 +1,120 @@
+there is a [third year] PhD student named [Bob(PhdStudent[1])]
+there is a [professor] named [Emma(Professor[2])]
+[Emma(Professor[2])] is on [this student(PhdStudent[1])]'s committee
+[he(PhdStudent[1])] passed the qualifiers
+[Racquel(Professor[3])] is a [teaching] [professor]
+[Bob(PhdStudent[1])] is [she(Professor[3])]'s student
+[that professor(Professor[3])] research interest is in [supervised learning]
+Who does [Racquel(Professor[3])] advise?	'Bob(PhdStudent[1])'	['question_type_local']
+[Emma(Professor[2])] is an [associate] professor
+[Emma(Professor[2])]'s research interest is [supervised learning]
+Which [third year] students's advisors are conducting research in [supervised learning]	'Bob(PhdStudent[1])'	['question_type_global', 'question_three_hop_statement']
+[Bob(PhdStudent[1])] currently has funding
+[Bob(PhdStudent[1])]'s office is [Center Building]
+Who has [Emma(Professor[2])] on their phd committee?	'Bob(PhdStudent[1])'	['question_type_local']
+there is a [professor] named [Tawnya(Professor[4])]
+[Tawnya(Professor[4])] conducts research in [neurocomputing]
+[that person(Professor[4])] is an [full] professor
+[this person(Professor[4])] received funding
+There is a course called [U304(Course[1])]
+There is a [masters] level [mini course] called [U302(Course[2])]
+[Bob(PhdStudent[1])] is a TA for [U302(Course[2])]
+[Bob(PhdStudent[1])] passed thesis defense
+Who advises [he(PhdStudent[1])]?	'Racquel'	['question_type_local']
+[Emma(Professor[2])] has funding
+[Racquel(Professor[3])] has funding
+[fifth year] is a [Michael(PhdStudent[5])] PhD student
+[that professor(Professor[3])] advises [Michael(PhdStudent[5])]
+[Eun(Professor[6])] is a [professor]
+[that student(PhdStudent[5])] has [Emma(Professor[2])] on the committee
+What students are in Center Building	'Bob(PhdStudent[1])'	['question_type_global', 'question_two_hop_statement']
+There is a [masters] level [full_semester_course] called [G203(Course[3])]
+there is a new [fifth year] PhD student named [Andrew(PhdStudent[7])]
+[this student(PhdStudent[7])] failed their thesis defense
+[he(PhdStudent[7])] did not pass the qualifiers
+What students in third year are advised by a professor with funding?	'Bob(PhdStudent[1])'	['question_type_global', 'question_three_hop_statement']
+there is a new masters student named [Rey(MastersStudent[8])]
+[Andrew(PhdStudent[7])] has passed the qualifying exam
+Create a new [phd] level course called [U202(Course[4])]
+[that course(Course[4])] is full semester
+[Michael(PhdStudent[5])] and [Andrew(PhdStudent[7])] are TAs for [U202(Course[4])]
+[Andrew(PhdStudent[7])] currently has funding
+[Andrew(PhdStudent[7])] has [Tawnya(Professor[4])] and [Emma(Professor[2])] on the committee
+[Emma(Professor[2])] has been promoted to [full] professor
+[Andrew(PhdStudent[7])] is [she(Professor[2])]'s student
+[that student(PhdStudent[7])] is in [sixth year]
+[Eun(Professor[6])] and [Racquel(Professor[3])] are on [Andrew(PhdStudent[7])]'s committee
+What is [Tawnya(Professor[4])]'s research focus?	'neurocomputing'	['question_type_local']
+[Eun(Professor[6])] is an [distinguished] professor
+there is a masters student named [Lizeth(MastersStudent[9])]
+[Eun(Professor[6])] conducts research in [neurocomputing]
+There is a course called [G103(Course[5])]
+[Rey(MastersStudent[8])] is a TA for [this course(Course[5])]
+[that course(Course[5])] is full semester
+there is a [professor] named [Alverta(Professor[10])]
+[she(Professor[10])] is an [teaching] professor
+Create a new [masters] level course called [G201(Course[6])]
+[Gia(PhdStudent[11])] is a PhD student
+[this course(Course[6])] is taught by [Emma(Professor[2])]
+[that course(Course[6])] is a pass-fail course
+There is a [phd] course called [U310(Course[7])]
+[Lizeth(MastersStudent[9])] is taking [G201(Course[6])]
+[she(MastersStudent[9])] and [Gia(PhdStudent[11])] are TAs for [G201(Course[6])]
+There is a [masters] level [mini course] called [G304(Course[8])]
+[this course(Course[8])] is taught by [Alverta(Professor[10])]
+[Michael(PhdStudent[5])] is taking [G304(Course[8])]
+Create a new [undergraduate] course called [G8001(Course[9])]
+[that course(Course[9])] is taught by [Eun(Professor[6])]
+[this course(Course[9])] is a pass-fail course
+[Andrew(PhdStudent[7])] passed thesis proposal
+[that person(PhdStudent[7])] successfully defended their thesis
+[U310(Course[7])] is a course in the [physics] department
+Create a new [masters] level course called [U201(Course[10])]
+Which courses are offered this semester in the physics department?	'U310(Course[7])'	['question_type_global', 'question_two_hop_statement']
+there is a masters student named [Hiram(MastersStudent[12])]
+the affiliation of [that person(MastersStudent[12])] is [asian studies]
+Which courses are offered this semester in the physics department?	'U310(Course[7])'	['question_type_global', 'question_two_hop_statement']
+Who is in the [asian studies] department	'Hiram(MastersStudent[12])'	['question_type_global', 'question_single_statement']
+[Luanna(MastersStudent[13])] is a masters student
+There is a course called [G601(Course[11])]
+[she(MastersStudent[13])] is affiliated with the [applied physics] department
+create a [teaching] [professor] named [Zenaida(Professor[14])]
+[Zenaida(Professor[14])] has funding
+There is a [phd] level course called [U9000(Course[12])]
+[this course(Course[12])] will be a mini course
+[this course(Course[12])] part of the [physics] department
+[Lizeth(MastersStudent[9])]'s department is [physics]
+[Gia(PhdStudent[11])] is [Alverta(Professor[10])]'s student
+What courses is [Eun(Professor[6])] teaching?	'G8001(Course[9])'	['question_type_local']
+[U302(Course[2])] is a course in the [applied physics] department
+[she(PhdStudent[11])]'s office is [Computing Center]
+[Gia(PhdStudent[11])] is current in [sixth year]
+[that student(PhdStudent[11])] has failed the thesis proposal exam
+What [full] professors advise students who defended successfully?	'Emma(Professor[2])'	['question_type_global', 'question_three_hop_statement']
+[Bob(PhdStudent[1])] is taking [G8001(Course[9])]
+[Luanna(MastersStudent[13])] is TAing [G201(Course[6])]
+What students are in Center Building	'Bob(PhdStudent[1])'	['question_type_global', 'question_two_hop_statement']
+Create a new [masters] level [mini course] called [G303(Course[13])]
+There is a course called [U610(Course[14])]
+[asian studies] offers [G303(Course[13])]
+[G303(Course[13])] is not a pass-fail course
+[Luanna(MastersStudent[13])] and [Gia(PhdStudent[11])] are taking [G303(Course[13])]
+there is a [professor] named [Loyd(Professor[15])]
+Create a new [undergraduate] course called [U601(Course[15])]
+[this professor(Professor[15])] currently has funding
+[this professor(Professor[15])] is an [associate] professor
+[that person(Professor[15])] has been promoted to [full] professor
+What students are in Center Building	'Bob(PhdStudent[1])'	['question_type_global', 'question_two_hop_statement']
+Which [full] professors advise students who passed their proposal?	'Emma(Professor[2])'	['question_type_global', 'question_three_hop_statement']
+[Rey(MastersStudent[8])]'s department is [asian studies]
+Who is in the [physics] department	'Lizeth(MastersStudent[9])'	['question_type_global', 'question_single_statement']
+[Roslyn(PhdStudent[16])] is a PhD student
+[G103(Course[5])] is a [undergraduate] course
+[G103(Course[5])] is TAed by [Hiram(MastersStudent[12])] and [Roslyn(PhdStudent[16])]
+Who is currently TAing [G103(Course[5])]?	'Rey(MastersStudent[8])', 'Hiram(MastersStudent[12])', 'Roslyn(PhdStudent[16])'	['question_type_local']
+there is a [first year] PhD student named [Gabrielle(PhdStudent[17])]
+[Roslyn(PhdStudent[16])] has passed the thesis defense
+What department is [G303(Course[13])] offered in?	'asian studies'	['question_type_local']
+[Roslyn(PhdStudent[16])] is funded
+[that student(PhdStudent[16])] is in their [fifth year]
+[Zenaida(Professor[14])] is on [she(PhdStudent[16])]'s committee

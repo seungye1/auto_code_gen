@@ -1,0 +1,158 @@
+there is a [professor] named [Francoise(Professor[1])]
+[he(Professor[1])] is in [LS669]
+[that professor(Professor[1])]'s email is [Francoise@yale.edu]
+[this professor(Professor[1])] is affiliated with the [mechanical engineering] department
+What is [this person(Professor[1])]'s email	'Francoise@yale.edu'	['question_type_local']
+What is [Francoise(Professor[1])]'s office?	'LS669'	['question_type_local']
+What is [that professor(Professor[1])]'s email	'Francoise@yale.edu'	['question_type_local']
+I am taking a course called [economics(Course[1])]
+[this course(Course[1])] is taught by [this professor(Professor[1])]
+What is [that person(Professor[1])]'s email	'Francoise@yale.edu'	['question_type_local']
+What is [this professor(Professor[1])]'s email	'Francoise@yale.edu'	['question_type_local']
+I am taking a course called [physics(Course[2])]
+I am taking a course called [us history(Course[3])]
+[us history(Course[3])] has a new [us history homework 1(Homework[1])] released
+I submitted [us history homework 1(Homework[1])]
+[this assignment(Homework[1])] is due on [April 18]
+The topic of [this homework(Homework[1])] is [supervised learning]
+[that assignment(Homework[1])] is [23] points
+[us history homework 1(Homework[1])] is now due on [April 16]
+Who is teaching [economics(Course[1])]?	'Francoise(Professor[1])'	['question_type_local']
+create a [professor] named [Andrew(Professor[2])]
+[Andrew(Professor[2])] is in [733]
+[Roslyn(Professor[3])] is a [professor]
+[he(Professor[2])]'s email is [Andrew@cmu.edu]
+[he(Professor[2])]'s department is [history]
+[physics(Course[2])] is taught by [this professor(Professor[2])]
+[physics(Course[2])] has a new [physics homework 1(Homework[2])] released
+What courses is [Francoise(Professor[1])] teaching?	'economics(Course[1])'	['question_type_local']
+[us history homework 2(Homework[3])] is released for [us history(Course[3])]
+[physics homework 1(Homework[2])] is worth [23] points
+I submitted [physics homework 1(Homework[2])] late and received 14 points
+[physics homework 1(Homework[2])] is due on [April 23]
+list assignments that are due on [April 16]	'us history homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+[Isaiah(Professor[4])] is a [professor]
+[that professor(Professor[4])]'s email is [Isaiah@nh.edu]
+[this person(Professor[4])]'s department is [math]
+[he(Professor[4])] is in [733]
+which homeworks are due before [April 17]?	'us history homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+When is [us history homework 1(Homework[1])] due?	'April 16'	['question_type_local']
+[physics project 1(Project[4])] is released for [physics(Course[2])]
+I submitted [that project(Project[4])]
+The topic of [this project(Project[4])] is [k means]
+When is the deadline of [physics homework 1(Homework[2])]?	'April 23'	['question_type_local']
+list all projects that i submitted for [Andrew]	'physics project 1(Project[4])'	['question_type_global', 'question_three_hop_statement']
+I am taking a [accounting(Course[4])] course
+[that course(Course[4])] is taught by [Roslyn(Professor[3])]
+Who is the instructor for [that class(Course[4])]?	'Roslyn(Professor[3])'	['question_type_local']
+there is a new [project(Project[5])] for [economics(Course[1])]
+I submitted [this project(Project[5])]
+[that assignment(Project[5])] is on [deep learning]
+list homeworks that are due on [April 23]	'physics homework 1(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+[accounting project 1(Project[6])] is out for [accounting(Course[4])]
+I submitted [accounting project 1(Project[6])] on time
+there is new [physics project 2(Project[7])] for [physics(Course[2])]
+[physics project 2(Project[7])] is on [unsupervised learning]
+[this assignment(Project[7])] is worth [71] points
+The deadline of [physics project 2(Project[7])] is [May 05]
+what homeworks do I have to do for [Andrew]?	'physics homework 1(Homework[2])'	['question_type_global', 'question_three_hop_statement']
+What is [Francoise(Professor[1])]'s department?	'mechanical engineering'	['question_type_local']
+I submitted [that assignment(Project[7])] on time and received 71 points
+what did I get on [this project(Project[7])]?	71	['question_type_local']
+there is a new [project(Project[8])] for [accounting(Course[4])]
+what are all the assignments due for [Roslyn]?	'accounting project 1(Project[6])', 'accounting project 2(Project[8])'	['question_type_global', 'question_three_hop_statement']
+list the professors in the [history] department	'Andrew(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+[Rachele(Professor[5])] is a [professor]
+[accounting project 2(Project[8])] is [38] points
+[this project(Project[8])] is on [nearest neighbor algorithm]
+What is [Andrew(Professor[2])]'s department?	'history'	['question_type_local']
+there is a [professor] named [Tom(Professor[6])]
+I submitted [this assignment(Project[8])] and received 38 points
+The deadline of [that project(Project[8])] is [April 29]
+When is the deadline of [physics project 2(Project[7])]?	'May 05'	['question_type_local']
+what are all the assignments due for [Francoise]?	'economics project 1(Project[5])'	['question_type_global', 'question_three_hop_statement']
+[accounting homework 1(Homework[9])] is out for [accounting(Course[4])]
+show me the assignments due on [May 05]	'physics project 2(Project[7])'	['question_type_global', 'question_two_hop_statement']
+[this homework(Homework[9])] is worth [89] points
+The topic of [that assignment(Homework[9])] is [graphical models]
+[this assignment(Homework[9])] is due on [April 24]
+[physics(Course[2])] has a new [physics homework 2(Homework[10])] released
+[physics homework 2(Homework[10])] is worth [12] points
+I submitted [this assignment(Homework[10])] on time and received 12 points
+The deadline of [this homework(Homework[10])] is [May 07]
+[that assignment(Homework[10])] is about [svm]
+What is [physics project 2(Project[7])] on?	'unsupervised learning'	['question_type_local']
+which homeworks are due after [May 06]?	'physics homework 2(Homework[10])'	['question_type_global', 'question_two_hop_statement']
+[physics(Course[2])] has a new [physics homework 3(Homework[11])] out
+The topic of [physics homework 3(Homework[11])] is [hidden markov models]
+I submitted [this assignment(Homework[11])] late
+[physics homework 3(Homework[11])] is [11] points
+how many points did I receive on [accounting project 2(Project[8])]?	38	['question_type_local']
+What is [Isaiah(Professor[4])]'s department?	'math'	['question_type_local']
+The deadline of [this homework(Homework[11])] is [May 23]
+[that assignment(Homework[11])] is now due on [May 25]
+there is a new [homework(Homework[12])] for [economics(Course[1])]
+list all homeworks for [Roslyn]	'accounting homework 1(Homework[9])'	['question_type_global', 'question_three_hop_statement']
+[physics homework 4(Homework[13])] is out for [physics(Course[2])]
+I submitted [economics homework 1(Homework[12])] late
+[economics project 2(Project[14])] is released for [economics(Course[1])]
+When is [physics homework 2(Homework[10])] due?	'May 07'	['question_type_local']
+which projects did I submit for [Francoise]?	'economics project 1(Project[5])'	['question_type_global', 'question_three_hop_statement']
+[this homework(Homework[12])] is due on [April 24]
+list all assignments for [Roslyn]	'accounting project 1(Project[6])', 'accounting project 2(Project[8])', 'accounting homework 1(Homework[9])'	['question_type_global', 'question_three_hop_statement']
+[economics homework 1(Homework[12])] is [93] points
+The deadline of [physics project 1(Project[4])] is [April 25]
+[this project(Project[4])] is [20] points
+[that project(Project[4])] is now due on [April 24]
+how much did I get on [physics project 2(Project[7])]?	71	['question_type_local']
+list all assignments that i submitted for [Roslyn]	'accounting project 1(Project[6])', 'accounting project 2(Project[8])'	['question_type_global', 'question_three_hop_statement']
+[economics project 1(Project[5])] is [17] points
+When is the deadline of [physics homework 2(Homework[10])]?	'May 07'	['question_type_local']
+what are all the homeworks due for [Roslyn]?	'accounting homework 1(Homework[9])'	['question_type_global', 'question_three_hop_statement']
+which assignments are due on [April 29]?	'accounting project 2(Project[8])'	['question_type_global', 'question_two_hop_statement']
+which homeworks are due before [April 17]?	'us history homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+[accounting homework 2(Homework[15])] is released for [accounting(Course[4])]
+[this homework(Homework[15])] is due on [April 27]
+[that homework(Homework[15])] is worth [83] points
+Which professor is teaching [accounting(Course[4])]?	'Roslyn(Professor[3])'	['question_type_local']
+what are the projects that i submitted for [Andrew]	'physics project 1(Project[4])', 'physics project 2(Project[7])'	['question_type_global', 'question_three_hop_statement']
+list assignments that are due on [April 27]	'accounting homework 2(Homework[15])'	['question_type_global', 'question_two_hop_statement']
+show me the projects due on [May 05]	'physics project 2(Project[7])'	['question_type_global', 'question_two_hop_statement']
+what are all the projects due for [Francoise]?	'economics project 1(Project[5])', 'economics project 2(Project[14])'	['question_type_global', 'question_three_hop_statement']
+[accounting project 3(Project[16])] is released for [accounting(Course[4])]
+[that project(Project[16])] is worth [86] points
+how much did I get on [accounting project 2(Project[8])]?	38	['question_type_local']
+[economics homework 2(Homework[17])] is released for [economics(Course[1])]
+[this project(Project[16])] is due on [May 17]
+When is [economics homework 1(Homework[12])] due?	'April 24'	['question_type_local']
+which projects are due after [April 30]?	'physics project 2(Project[7])', 'accounting project 3(Project[16])'	['question_type_global', 'question_two_hop_statement']
+The deadline of [that homework(Homework[17])] is [May 09]
+How many points is [physics project 1(Project[4])] worth?	20	['question_type_local']
+list all assignments that i submitted late for [Francoise]	'economics homework 1(Homework[12])'	['question_type_global', 'question_three_hop_statement']
+[accounting project 4(Project[18])] is released for [accounting(Course[4])]
+[economics homework 2(Homework[17])] is [52] points
+[accounting project 4(Project[18])] is [90] points
+I submitted [that homework(Homework[17])] and received 52 points
+[physics(Course[2])] has a new [physics homework 5(Homework[19])] released
+change [Isaiah(Professor[4])]'s department to [english]
+How much is [physics homework 2(Homework[10])] worth?	12	['question_type_local']
+what projects do I have to do for [Francoise]?	'economics project 1(Project[5])', 'economics project 2(Project[14])'	['question_type_global', 'question_three_hop_statement']
+I submitted [physics homework 5(Homework[19])]
+[physics homework 5(Homework[19])] is due on [June 15]
+what homeworks did i submit late for [Andrew]?	'physics homework 1(Homework[2])', 'physics homework 3(Homework[11])'	['question_type_global', 'question_three_hop_statement']
+I submitted [accounting homework 2(Homework[15])] and received 67 points
+which homeworks did I submit late for [Francoise]?	'economics homework 1(Homework[12])'	['question_type_global', 'question_three_hop_statement']
+The deadline of [accounting homework 2(Homework[15])] moved to [April 24]
+there is a new [homework(Homework[20])] for [accounting(Course[4])]
+I submitted [accounting homework 3(Homework[20])] late
+[accounting homework 3(Homework[20])] is [34] points
+The deadline of [accounting homework 3(Homework[20])] is [May 05]
+list the professors in the [english] department	'Isaiah(Professor[4])'	['question_type_global', 'question_two_hop_statement']
+What is [Isaiah(Professor[4])]'s office?	'733'	['question_type_local']
+what are the assignments that i submitted for [Roslyn]	'accounting project 1(Project[6])', 'accounting project 2(Project[8])', 'accounting homework 2(Homework[15])', 'accounting homework 3(Homework[20])'	['question_type_global', 'question_three_hop_statement']
+show me the projects due on [May 05]	'physics project 2(Project[7])'	['question_type_global', 'question_two_hop_statement']
+[accounting project 5(Project[21])] is released for [accounting(Course[4])]
+I submitted [this project(Project[21])] on time
+The deadline of [this project(Project[21])] is [June 20]
+show me the homeworks due on [May 05]	'accounting homework 3(Homework[20])'	['question_type_global', 'question_two_hop_statement']
+which projects are due on [May 05]?	'physics project 2(Project[7])'	['question_type_global', 'question_two_hop_statement']

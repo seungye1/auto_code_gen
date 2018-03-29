@@ -1,0 +1,173 @@
+there is a new masters student named [Tom(MastersStudent[1])]
+the affiliation of [that person(MastersStudent[1])] is [applied physics]
+Create a new [undergraduate] level course called [U101(Course[1])]
+who are the students?	'Tom(MastersStudent[1])'	['question_type_global', 'question_single_statement']
+[that class(Course[1])] will be set up as a mini course
+Which courses are [undergraduate] level courses?	'U101(Course[1])'	['question_type_global', 'question_single_statement']
+What students are in the [applied physics] department?	'Tom(MastersStudent[1])'	['question_type_global', 'question_two_hop_statement']
+There is a [phd] level course called [U303(Course[2])]
+[Tom(MastersStudent[1])] is a student in [U101(Course[1])]
+[this course(Course[1])] is a 12 unit course
+[Zenaida(MastersStudent[2])] is a masters student
+[Tom(MastersStudent[1])] is taking [this course(Course[1])]
+What courses is [this person(MastersStudent[1])] taking?	'U101(Course[1])'	['question_type_local']
+there is a new masters student named [Jack(MastersStudent[3])]
+[Jack(MastersStudent[3])]'s department is [applied physics]
+Who is enrolled in [U101(Course[1])]?	'Tom(MastersStudent[1])'	['question_type_local']
+create a [professor] named [Gabrielle(Professor[4])]
+What are the [mini course]?	'U101(Course[1])'	['question_type_global', 'question_single_statement']
+[that professor(Professor[4])] is an [full] professor
+[that professor(Professor[4])] is affiliated with the [applied physics] department
+create a [distinguished] [professor] named [Michael(Professor[5])]
+[she(Professor[4])] research interest is in [theoretical cosmology]
+Which are some courses that no phd student is taking?	'U101(Course[1])', 'U303(Course[2])'	['question_type_global', 'question_two_hop_statement']
+[U303(Course[2])] is set up as a mini course
+[this professor(Professor[4])] teaches [that course(Course[2])]
+What courses are taught by those in the [applied physics] department?	'U303(Course[2])'	['question_type_global', 'question_two_hop_statement']
+[this person(Professor[4])] currently has funding
+Which students are part of the [applied physics] department	'Tom(MastersStudent[1])', 'Jack(MastersStudent[3])'	['question_type_global', 'question_two_hop_statement']
+there is a masters student named [Yoshiko(MastersStudent[6])]
+[this student(MastersStudent[6])]'s department is [english]
+[Zenaida(MastersStudent[2])] and [Tom(MastersStudent[1])] are TAing [U303(Course[2])]
+What are the [phd] courses?	'U303(Course[2])'	['question_type_global', 'question_single_statement']
+Which courses are [undergraduate] level courses?	'U101(Course[1])'	['question_type_global', 'question_single_statement']
+the affiliation of [she(MastersStudent[2])] is [computer science]
+[Alejandra(PhdStudent[7])] is a PhD student
+[Alejandra(PhdStudent[7])] has [Michael(Professor[5])] on the committee
+[Gabrielle(Professor[4])]'s office is [Community Building]
+Which department is [she(Professor[4])] in?	'applied physics'	['question_type_local']
+What students are taking courses and TAing?	'Tom(MastersStudent[1])'	['question_type_global', 'question_two_hop_statement']
+There is a [undergraduate] course called [G610(Course[3])]
+[Alejandra(PhdStudent[7])] is [that professor(Professor[4])]'s student
+What is [that professor(Professor[4])] research area?	'theoretical cosmology'	['question_type_local']
+who are the masters students?	'Tom(MastersStudent[1])', 'Zenaida(MastersStudent[2])', 'Jack(MastersStudent[3])', 'Yoshiko(MastersStudent[6])'	['question_type_global', 'question_single_statement']
+there is a new PhD student named [Charlott(PhdStudent[8])]
+[Michael(Professor[5])] is on [Charlott(PhdStudent[8])]'s committee
+[this student(PhdStudent[8])] failed their thesis defense
+Which phd students have [he(Professor[5])] on their committee	'Alejandra(PhdStudent[7])', 'Charlott(PhdStudent[8])'	['question_type_local']
+There is a course called [U204(Course[4])]
+[Charlott(PhdStudent[8])] has failed the thesis proposal exam
+[Gabrielle(Professor[4])] is on [Charlott(PhdStudent[8])]'s committee
+[this student(PhdStudent[8])] is current in [first year]
+[U303(Course[2])] will be a 8 unit course
+[Jack(MastersStudent[3])] is attending [U303(Course[2])]
+Which students are in their [first year]	'Charlott(PhdStudent[8])'	['question_type_global', 'question_single_statement']
+[he(MastersStudent[3])] and [Yoshiko(MastersStudent[6])] are attending [U303(Course[2])]
+Which students are taking [U303(Course[2])]?	'Jack(MastersStudent[3])', 'Yoshiko(MastersStudent[6])'	['question_type_local']
+[Cecil(PhdStudent[9])] is a PhD student
+Which are some courses that masters students take?	'U101(Course[1])', 'U303(Course[2])'	['question_type_global', 'question_two_hop_statement']
+there is a new PhD student named [Peggy(PhdStudent[10])]
+[Cecil(PhdStudent[9])] is current in [fifth year]
+What courses are taught by professors in the [applied physics] department?	'U303(Course[2])'	['question_type_global', 'question_two_hop_statement']
+[Peggy(PhdStudent[10])] has [Gabrielle(Professor[4])] and [Michael(Professor[5])] on the committee
+[Peggy(PhdStudent[10])] failed their thesis defense
+[this professor(Professor[5])]'s research interest is [theory]
+[he(Professor[5])]'s office is [Education Building]
+which [undergraduate] courses have no phd students enrolled?	'U101(Course[1])', 'G610(Course[3])'	['question_type_global', 'question_three_hop_statement']
+What courses is [Tom(MastersStudent[1])] taking?	'U101(Course[1])'	['question_type_local']
+who are the masters students?	'Tom(MastersStudent[1])', 'Zenaida(MastersStudent[2])', 'Jack(MastersStudent[3])', 'Yoshiko(MastersStudent[6])'	['question_type_global', 'question_single_statement']
+there is a [professor] named [Emmie(Professor[11])]
+[she(Professor[11])] advises [Cecil(PhdStudent[9])]
+Who are [that professor(Professor[11])]'s students?	'Cecil(PhdStudent[9])'	['question_type_local']
+[Michael(Professor[5])] and [Gabrielle(Professor[4])] are on [this student(PhdStudent[9])]'s committee
+[Cecil(PhdStudent[9])] has passed the thesis proposal exam
+Which professors have offices in Education Building	'Michael(Professor[5])'	['question_type_global', 'question_two_hop_statement']
+[Charlott(PhdStudent[8])] is [Michael(Professor[5])]'s student
+Which students are taking [U101(Course[1])]?	'Tom(MastersStudent[1])'	['question_type_local']
+[Genevive(Professor[12])] is a [full] [professor]
+[Emmie(Professor[11])] is on [that student(PhdStudent[8])]'s committee
+Which people are in the [computer science] department?	'Zenaida(MastersStudent[2])'	['question_type_global', 'question_single_statement']
+what [phd] courses have no phd students taking them?	'U303(Course[2])'	['question_type_global', 'question_three_hop_statement']
+Create a new course called [U202(Course[5])]
+[Genevive(Professor[12])] teaches [that class(Course[5])]
+[U202(Course[5])] is a [phd] course
+What are the 12 unit courses?	'U101(Course[1])'	['question_type_global', 'question_single_statement']
+[U202(Course[5])] is TAed by [Yoshiko(MastersStudent[6])] and [Charlott(PhdStudent[8])]
+[Tom(MastersStudent[1])] and [Cecil(PhdStudent[9])] are both enrolled in [U202(Course[5])]
+Which students are taking [U202(Course[5])]?	'Tom(MastersStudent[1])', 'Cecil(PhdStudent[9])'	['question_type_local']
+who are the masters students?	'Tom(MastersStudent[1])', 'Zenaida(MastersStudent[2])', 'Jack(MastersStudent[3])', 'Yoshiko(MastersStudent[6])'	['question_type_global', 'question_single_statement']
+[Cecil(PhdStudent[9])] is taking [U303(Course[2])]
+which [undergraduate] courses have some masters students enrolled?	'U101(Course[1])'	['question_type_global', 'question_three_hop_statement']
+[Gabrielle(Professor[4])] heads the [applied physics] department
+[Alejandra(PhdStudent[7])] passed the qualifiers
+What students are advised by a professor with funding?	'Alejandra(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+[Roslyn(Professor[13])] is a [assistant] [professor]
+[that professor(Professor[13])] conducts research in [theoretical cosmology]
+[Roslyn(Professor[13])] advises [Peggy(PhdStudent[10])]
+who are the phd students?	'Alejandra(PhdStudent[7])', 'Charlott(PhdStudent[8])', 'Cecil(PhdStudent[9])', 'Peggy(PhdStudent[10])'	['question_type_global', 'question_single_statement']
+There is a [phd] level [full_semester_course] called [G103(Course[6])]
+[that person(PhdStudent[10])] passed thesis proposal
+[Emmie(Professor[11])] and [Genevive(Professor[12])] are on [Peggy(PhdStudent[10])]'s committee
+[Genevive(Professor[12])]'s research interest is [theoretical cosmology]
+[that person(Professor[12])] is now an [distinguished] professor
+Which courses did [Cecil(PhdStudent[9])] enroll in?	'U303(Course[2])', 'U202(Course[5])'	['question_type_local']
+What offices do people in the [applied physics] department have?	'Community Building'	['question_type_global', 'question_two_hop_statement']
+What are the 12 unit courses?	'U101(Course[1])'	['question_type_global', 'question_single_statement']
+[this professor(Professor[12])] is in [Koenig Building]
+[that person(Professor[12])] is affiliated with the [english] department
+What is [this person(Professor[12])] research area?	'theoretical cosmology'	['question_type_local']
+[fourth year] is a [Igor(PhdStudent[14])] PhD student
+[this student(PhdStudent[14])] is [this professor(Professor[12])]'s student
+Who are the [distinguished] professors?	'Michael(Professor[5])', 'Genevive(Professor[12])'	['question_type_global', 'question_single_statement']
+Create a new [phd] [full_semester_course] called [U9000(Course[7])]
+[U9000(Course[7])] will be a 8 unit course
+The TA for [this course(Course[7])] is [Jack(MastersStudent[3])]
+What professors are in Community Building	'Gabrielle(Professor[4])'	['question_type_global', 'question_two_hop_statement']
+What courses is [this student(MastersStudent[3])] taking?	'U303(Course[2])'	['question_type_local']
+There is a course called [U8001(Course[8])]
+[Cecil(PhdStudent[9])] is taking [U8001(Course[8])]
+[U8001(Course[8])] has 12 units
+Which professors advise students who passed their proposal?	'Emmie(Professor[11])', 'Roslyn(Professor[13])'	['question_type_global', 'question_two_hop_statement']
+Which are some [phd] courses that no phd student is taking?	'G103(Course[6])', 'U9000(Course[7])'	['question_type_global', 'question_three_hop_statement']
+[Alejandra(PhdStudent[7])] has [Emmie(Professor[11])] and [Roslyn(Professor[13])] on the committee
+[Alejandra(PhdStudent[7])] is current in [fifth year]
+What [phd] courses are taught by those in the [applied physics] department?	'U303(Course[2])'	['question_type_global', 'question_three_hop_statement']
+Which masters students taking the U202 course	'Tom(MastersStudent[1])'	['question_type_global', 'question_two_hop_statement']
+[Charlott(PhdStudent[8])] has passed the qualifying exam
+there is a [full] [professor] named [Willis(Professor[15])]
+[that student(PhdStudent[8])] is now in [second year]
+who are the professors?	'Gabrielle(Professor[4])', 'Michael(Professor[5])', 'Emmie(Professor[11])', 'Genevive(Professor[12])', 'Roslyn(Professor[13])', 'Willis(Professor[15])'	['question_type_global', 'question_single_statement']
+[Andy(PhdStudent[16])] is a PhD student
+[she(PhdStudent[8])] has [Willis(Professor[15])] on the committee
+[Charlott(PhdStudent[8])] has failed the thesis proposal exam
+Which courses are TAed by [Charlott(PhdStudent[8])]?	'U202(Course[5])'	['question_type_local']
+Who are the professors working on [theoretical cosmology]?	'Gabrielle(Professor[4])', 'Genevive(Professor[12])', 'Roslyn(Professor[13])'	['question_type_global', 'question_single_statement']
+Who is teaching [U303(Course[2])]?	'Gabrielle(Professor[4])'	['question_type_local']
+what courses have phd students taking them?	'U303(Course[2])', 'U202(Course[5])', 'U8001(Course[8])'	['question_type_global', 'question_two_hop_statement']
+What offices do people in the [english] department have?	'Koenig Building'	['question_type_global', 'question_two_hop_statement']
+[U202(Course[5])] is 12 units
+What students are going to TA [that course(Course[5])]?	'Yoshiko(MastersStudent[6])', 'Charlott(PhdStudent[8])'	['question_type_local']
+Which students are both taking a course and a TA?	'Tom(MastersStudent[1])', 'Jack(MastersStudent[3])', 'Yoshiko(MastersStudent[6])'	['question_type_global', 'question_two_hop_statement']
+[that student(PhdStudent[8])] and [Alejandra(PhdStudent[7])] are attending [this course(Course[5])]
+Which courses have masters student TAs?	'U303(Course[2])', 'U202(Course[5])', 'U9000(Course[7])'	['question_type_global', 'question_two_hop_statement']
+Who has an office in [Community Building]	'Gabrielle(Professor[4])'	['question_type_global', 'question_two_hop_statement']
+Which courses are 12 unit courses?	'U101(Course[1])', 'U202(Course[5])', 'U8001(Course[8])'	['question_type_global', 'question_single_statement']
+[G103(Course[6])] has 8 units
+[this course(Course[6])] is taught by [Willis(Professor[15])]
+Which courses are TAed by phd students?	'U202(Course[5])'	['question_type_global', 'question_two_hop_statement']
+Who are the professors working on [theoretical cosmology]?	'Gabrielle(Professor[4])', 'Genevive(Professor[12])', 'Roslyn(Professor[13])'	['question_type_global', 'question_single_statement']
+Create a new [masters] level course called [U203(Course[9])]
+[Michael(Professor[5])] teaches [that course(Course[9])]
+Who is teaching [U203(Course[9])]?	'Michael(Professor[5])'	['question_type_local']
+What students in fifth year are advised by a professor with funding?	'Alejandra(PhdStudent[7])'	['question_type_global', 'question_three_hop_statement']
+Which students are both taking a course and a TA?	'Tom(MastersStudent[1])', 'Jack(MastersStudent[3])', 'Yoshiko(MastersStudent[6])', 'Charlott(PhdStudent[8])'	['question_type_global', 'question_two_hop_statement']
+which students passed the qualifying exam?	'Alejandra(PhdStudent[7])', 'Charlott(PhdStudent[8])'	['question_type_global', 'question_single_statement']
+Which students are part of the [english] department	'Yoshiko(MastersStudent[6])'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by phd students that passed their qualifier exam or have some funding?	'U202(Course[5])'	['question_type_global', 'question_four_hop_statement']
+Create a new [masters] level 12 unit course called [G202(Course[10])]
+[that class(Course[10])] is TAed by [Alejandra(PhdStudent[7])] and [Peggy(PhdStudent[10])]
+Which courses are [undergraduate] level courses?	'U101(Course[1])', 'G610(Course[3])'	['question_type_global', 'question_single_statement']
+create a [professor] named [Hanna(Professor[17])]
+[Willis(Professor[15])] and [this professor(Professor[17])] are on [Peggy(PhdStudent[10])]'s committee
+[Peggy(PhdStudent[10])] has passed the qualifying exam
+Which are some courses that no masters student is taking?	'G610(Course[3])', 'U204(Course[4])', 'G103(Course[6])', 'U9000(Course[7])', 'U8001(Course[8])', 'U203(Course[9])', 'G202(Course[10])'	['question_type_global', 'question_two_hop_statement']
+who are the students?	'Tom(MastersStudent[1])', 'Zenaida(MastersStudent[2])', 'Jack(MastersStudent[3])', 'Yoshiko(MastersStudent[6])', 'Alejandra(PhdStudent[7])', 'Charlott(PhdStudent[8])', 'Cecil(PhdStudent[9])', 'Peggy(PhdStudent[10])', 'Igor(PhdStudent[14])', 'Andy(PhdStudent[16])'	['question_type_global', 'question_single_statement']
+Who is taking the U101 course	'Tom(MastersStudent[1])'	['question_type_global', 'question_single_statement']
+create a [professor] named [Ashly(Professor[18])]
+What courses is [Gabrielle(Professor[4])] teaching?	'U303(Course[2])'	['question_type_local']
+Which professors are conducting research in [theoretical cosmology]	'Gabrielle(Professor[4])', 'Genevive(Professor[12])', 'Roslyn(Professor[13])'	['question_type_global', 'question_single_statement']
+who are the masters students?	'Tom(MastersStudent[1])', 'Zenaida(MastersStudent[2])', 'Jack(MastersStudent[3])', 'Yoshiko(MastersStudent[6])'	['question_type_global', 'question_single_statement']
+The TA for [U202(Course[5])] is [Igor(PhdStudent[14])]
+What students are TAing a course taught by their advisor?	'Igor(PhdStudent[14])'	['question_type_global', 'question_three_hop_statement']
+[Andy(PhdStudent[16])] is [Ashly(Professor[18])]'s student
+Who is on [Peggy(PhdStudent[10])]'s committee?	'Gabrielle(Professor[4])', 'Michael(Professor[5])', 'Emmie(Professor[11])', 'Genevive(Professor[12])', 'Willis(Professor[15])', 'Hanna(Professor[17])'	['question_type_local']

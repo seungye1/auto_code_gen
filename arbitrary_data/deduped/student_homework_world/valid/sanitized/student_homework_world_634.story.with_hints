@@ -1,0 +1,158 @@
+I am taking a [algebra(Course[1])] course
+[this course(Course[1])] has a new [algebra homework 1(Homework[1])] out
+there is a [professor] named [Isaiah(Professor[1])]
+I submitted [that assignment(Homework[1])] late
+[that person(Professor[1])]'s email is [Isaiah@nh.edu]
+[that assignment(Homework[1])] is due on [April 08]
+[this homework(Homework[1])] is about [Plants]
+[this homework(Homework[1])] is [48] points
+When is [that assignment(Homework[1])] due?	'April 08'	['question_type_local']
+there is a new [homework(Homework[2])] for [algebra(Course[1])]
+[algebra homework 2(Homework[2])] is on [nearest neighbor algorithm]
+How much is [algebra homework 1(Homework[1])] worth?	48	['question_type_local']
+The deadline of [algebra homework 1(Homework[1])] moved to [April 10]
+there is a new [project(Project[3])] for [algebra(Course[1])]
+create a [professor] named [Casey(Professor[2])]
+[Casey(Professor[2])]'s email is [Casey@msn.com]
+create a [professor] named [Andrew(Professor[3])]
+[Andrew(Professor[3])]'s email is [Andrew@cornell.edu]
+[algebra homework 3(Homework[4])] is released for [algebra(Course[1])]
+[algebra homework 3(Homework[4])] is worth [20] points
+The topic of [algebra homework 3(Homework[4])] is [Cloning]
+I submitted [this assignment(Homework[4])] on time and received 8 points
+[algebra homework 3(Homework[4])] is due on [April 25]
+which homeworks are due before [April 28]?	'algebra homework 1(Homework[1])', 'algebra homework 3(Homework[4])'	['question_type_global', 'question_two_hop_statement']
+[algebra(Course[1])] has a new [algebra homework 4(Homework[5])] released
+The deadline of [algebra homework 4(Homework[5])] is [April 30]
+[algebra homework 4(Homework[5])] is worth [95] points
+list assignments that are due on [April 10]	'algebra homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+I submitted [that homework(Homework[5])] on time and received 95 points
+[this assignment(Homework[5])] is about [k means]
+I am taking a [government(Course[2])] course
+How much is [algebra homework 4(Homework[5])] worth?	95	['question_type_local']
+[algebra(Course[1])] has a new [algebra project 2(Project[6])] released
+The deadline of [algebra project 2(Project[6])] is [April 20]
+[that project(Project[6])] is worth [49] points
+[algebra project 2(Project[6])] is on [hidden markov models]
+When is the deadline of [algebra homework 4(Homework[5])]?	'April 30'	['question_type_local']
+[this project(Project[6])] is now due on [April 19]
+I submitted [this assignment(Project[6])] and received 8 points
+[algebra(Course[1])] has a new [algebra project 3(Project[7])] released
+how many points is [algebra homework 4(Homework[5])]?	95	['question_type_local']
+[algebra project 3(Project[7])] is on [supervised learning]
+[this project(Project[7])] is worth [48] points
+[algebra(Course[1])] has a new [algebra project 4(Project[8])] released
+[algebra project 4(Project[8])] is [47] points
+I submitted [that assignment(Project[8])] late and received 7 points
+The deadline of [algebra project 4(Project[8])] is [May 16]
+how many points did I receive on [algebra homework 4(Homework[5])]?	95	['question_type_local']
+[this assignment(Project[8])] is about [Genetics]
+there is new [algebra project 5(Project[9])] for [algebra(Course[1])]
+What is [algebra project 2(Project[6])] on?	'hidden markov models'	['question_type_local']
+The deadline of [algebra project 5(Project[9])] is [May 08]
+I submitted [this project(Project[9])]
+[that project(Project[9])] is [44] points
+What is [algebra project 3(Project[7])] on?	'supervised learning'	['question_type_local']
+which homeworks are due after [April 23]?	'algebra homework 3(Homework[4])', 'algebra homework 4(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+how many points is [algebra homework 4(Homework[5])]?	95	['question_type_local']
+[government project 1(Project[10])] is out for [government(Course[2])]
+what did I get on [algebra project 2(Project[6])]?	8	['question_type_local']
+[algebra project 5(Project[9])] is now due on [May 06]
+how many points is [algebra project 2(Project[6])]?	49	['question_type_local']
+[Isaiah(Professor[1])] is the instructor for [algebra(Course[1])]
+there is new [algebra homework 5(Homework[11])] for [algebra(Course[1])]
+[this homework(Homework[11])] is due on [May 08]
+[this assignment(Homework[11])] is [74] points
+I submitted [algebra homework 5(Homework[11])] and received 11 points
+When is the deadline of [algebra project 4(Project[8])]?	'May 16'	['question_type_local']
+which projects are due before [May 11]?	'algebra project 2(Project[6])', 'algebra project 5(Project[9])'	['question_type_global', 'question_two_hop_statement']
+list assignments that are due on [May 16]	'algebra project 4(Project[8])'	['question_type_global', 'question_two_hop_statement']
+I am taking a course called [french(Course[3])]
+[Andrew(Professor[3])] is the instructor for [that course(Course[3])]
+which assignments are due after [April 27]?	'algebra homework 4(Homework[5])', 'algebra project 4(Project[8])', 'algebra project 5(Project[9])', 'algebra homework 5(Homework[11])'	['question_type_global', 'question_two_hop_statement']
+I am taking a [sociology(Course[4])] course
+[Casey(Professor[2])] teaches [this course(Course[4])]
+what are the projects that i submitted for [Isaiah]	'algebra project 2(Project[6])', 'algebra project 4(Project[8])', 'algebra project 5(Project[9])'	['question_type_global', 'question_three_hop_statement']
+which assignments are due on [May 08]?	'algebra homework 5(Homework[11])'	['question_type_global', 'question_two_hop_statement']
+[sociology homework 1(Homework[12])] is released for [sociology(Course[4])]
+How many points did I get on [algebra project 2(Project[6])]	8	['question_type_local']
+[this homework(Homework[12])] is due on [April 10]
+[that assignment(Homework[12])] is [29] points
+I submitted [algebra project 3(Project[7])] and received 6 points
+there is a new [project(Project[13])] for [sociology(Course[4])]
+[sociology project 1(Project[13])] is worth [20] points
+which projects are due after [May 07]?	'algebra project 4(Project[8])'	['question_type_global', 'question_two_hop_statement']
+I submitted [that project(Project[13])] late and received 0 points
+The deadline of [this project(Project[13])] is [April 12]
+What is the topic of [algebra homework 4(Homework[5])]?	'k means'	['question_type_local']
+there is a new [homework(Homework[14])] for [algebra(Course[1])]
+When is the deadline of [algebra project 5(Project[9])]?	'May 06'	['question_type_local']
+[Cyndi(Professor[4])] is a [professor]
+[that assignment(Homework[14])] is due on [May 16]
+[that person(Professor[4])]'s email is [Cyndi@yandex.com]
+When is the deadline of [algebra project 2(Project[6])]?	'April 19'	['question_type_local']
+which assignments are due on [April 30]?	'algebra homework 4(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+[Andy(Professor[5])] is a [professor]
+[Andy(Professor[5])]'s email is [Andy@yandex.com]
+how much did I get on [algebra project 2(Project[6])]?	8	['question_type_local']
+[government project 1(Project[10])] is [18] points
+The deadline of [that assignment(Project[10])] is [April 09]
+which assignments are due on [May 06]?	'algebra project 5(Project[9])'	['question_type_global', 'question_two_hop_statement']
+which homeworks are due after [May 02]?	'algebra homework 5(Homework[11])', 'algebra homework 6(Homework[14])'	['question_type_global', 'question_two_hop_statement']
+[french(Course[3])] has a new [french project 1(Project[15])] out
+I submitted [government project 1(Project[10])] and received 18 points
+[algebra project 3(Project[7])] is due on [April 22]
+how much did I get on [algebra project 3(Project[7])]?	6	['question_type_local']
+which homeworks are due after [May 10]?	'algebra homework 6(Homework[14])'	['question_type_global', 'question_two_hop_statement']
+[sociology project 2(Project[16])] is released for [sociology(Course[4])]
+[sociology project 2(Project[16])] is [88] points
+there is new [french homework 1(Homework[17])] for [french(Course[3])]
+The deadline of [that project(Project[16])] is [April 18]
+which assignments are due on [April 09]?	'government project 1(Project[10])'	['question_type_global', 'question_two_hop_statement']
+[sociology homework 2(Homework[18])] is released for [sociology(Course[4])]
+I submitted [sociology homework 2(Homework[18])]
+The deadline of [that homework(Homework[18])] is [April 12]
+list projects that are due on [April 09]	'government project 1(Project[10])'	['question_type_global', 'question_two_hop_statement']
+[this homework(Homework[18])] is worth [47] points
+How many points did I get on [algebra project 3(Project[7])]	6	['question_type_local']
+show me all homeworks i submitted for [Isaiah]	'algebra homework 1(Homework[1])', 'algebra homework 3(Homework[4])', 'algebra homework 4(Homework[5])', 'algebra homework 5(Homework[11])'	['question_type_global', 'question_three_hop_statement']
+How many points is [algebra homework 4(Homework[5])] worth?	95	['question_type_local']
+which projects are due after [April 17]?	'algebra project 2(Project[6])', 'algebra project 3(Project[7])', 'algebra project 4(Project[8])', 'algebra project 5(Project[9])', 'sociology project 2(Project[16])'	['question_type_global', 'question_two_hop_statement']
+When is [algebra homework 4(Homework[5])] due?	'April 30'	['question_type_local']
+[french(Course[3])] has a new [french project 2(Project[19])] released
+[french project 2(Project[19])] is worth [93] points
+I submitted [this assignment(Project[19])] and received 93 points
+The deadline of [french project 2(Project[19])] is [April 12]
+How many points is [algebra project 4(Project[8])] worth?	47	['question_type_local']
+How many points did I get on [algebra homework 4(Homework[5])]	95	['question_type_local']
+When is the deadline of [algebra project 3(Project[7])]?	'April 22'	['question_type_local']
+show me all late homeworks i submitted for [Isaiah]	'algebra homework 1(Homework[1])'	['question_type_global', 'question_three_hop_statement']
+What is the topic of [algebra homework 3(Homework[4])]?	'Cloning'	['question_type_local']
+how many points did I receive on [algebra homework 5(Homework[11])]?	11	['question_type_local']
+which projects are due on [April 22]?	'algebra project 3(Project[7])'	['question_type_global', 'question_two_hop_statement']
+show me all late assignments i submitted for [Isaiah]	'algebra homework 1(Homework[1])', 'algebra project 4(Project[8])'	['question_type_global', 'question_three_hop_statement']
+[algebra homework 7(Homework[20])] is out for [algebra(Course[1])]
+The deadline of [this homework(Homework[20])] is [June 28]
+[this homework(Homework[20])] is worth [28] points
+there is a new [project(Project[21])] for [government(Course[2])]
+I submitted [this homework(Homework[20])] and received 10 points
+[that homework(Homework[20])] is now due on [June 27]
+[french project 1(Project[15])] is due on [April 11]
+[that project(Project[15])] is [15] points
+I submitted [this project(Project[15])] and received 15 points
+how much did I get on [government project 1(Project[10])]?	18	['question_type_local']
+what projects did i submit late for [Casey]?	'sociology project 1(Project[13])'	['question_type_global', 'question_three_hop_statement']
+When is the deadline of [algebra homework 5(Homework[11])]?	'May 08'	['question_type_local']
+The deadline of [this assignment(Project[15])] moved to [April 14]
+list all homeworks for [Andrew]	'french homework 1(Homework[17])'	['question_type_global', 'question_three_hop_statement']
+What is the topic of [algebra project 4(Project[8])]?	'Genetics'	['question_type_local']
+what homeworks did i submit for [Casey]?	'sociology homework 2(Homework[18])'	['question_type_global', 'question_three_hop_statement']
+What is the topic of [algebra project 3(Project[7])]?	'supervised learning'	['question_type_local']
+which homeworks are due after [May 06]?	'algebra homework 5(Homework[11])', 'algebra homework 6(Homework[14])', 'algebra homework 7(Homework[20])'	['question_type_global', 'question_two_hop_statement']
+which projects are due after [April 08]?	'algebra project 2(Project[6])', 'algebra project 3(Project[7])', 'algebra project 4(Project[8])', 'algebra project 5(Project[9])', 'government project 1(Project[10])', 'sociology project 1(Project[13])', 'french project 1(Project[15])', 'sociology project 2(Project[16])', 'french project 2(Project[19])'	['question_type_global', 'question_two_hop_statement']
+When is [algebra project 4(Project[8])] due?	'May 16'	['question_type_local']
+How many points did I get on [algebra project 3(Project[7])]	6	['question_type_local']
+[sociology project 3(Project[22])] is out for [sociology(Course[4])]
+I submitted [sociology project 3(Project[22])]
+[this project(Project[22])] is due on [May 04]
+how much did I get on [french project 2(Project[19])]?	93	['question_type_local']

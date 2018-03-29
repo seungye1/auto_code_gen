@@ -1,0 +1,130 @@
+there is a new [external] [mobile(Project[1])] [project]
+[that project(Project[1])] is currently in the [evaluation] stage
+[Isaiah(Tester[1])] is a [tester]
+[he(Tester[1])] is assigned to [mobile project(Project[1])]
+there is a new [internal] [knowledge base(Project[2])] [project]
+[knowledge base project(Project[2])] is in the [deployment] stage
+[that project(Project[2])] is in the stage of [evaluation]
+[Isaiah(Tester[1])] is assigned to [that project(Project[2])] also
+[Lucio(Tester[2])] is a [tester]
+[mobile project(Project[1])] is assigned to [that test engineer(Tester[2])]
+[Isaiah(Tester[1])] created a new [proposal] for [it(Project[1])]: [xml extractor exception]
+[this issue(Issue[1])] is assigned to [Lucio(Tester[2])]
+[that person(Tester[2])] resolved [the xml extractor exception issue(Issue[1])]
+Who submitted [this issue(Issue[1])]?	'Isaiah(Tester[1])'	['question_type_local']
+Who is [it(Issue[1])] assigned to?	'Lucio(Tester[2])'	['question_type_local']
+there is a new [chatbot(Project[3])] [project]
+[Lucio(Tester[2])] is assigned to [knowledge base project(Project[2])] also
+[memory leak bug] is a new [proposal] for the [chatbot project(Project[3])]
+[Lorilee(Tester[3])] is a [tester]
+[that person(Tester[3])] is working on [mobile project(Project[1])]
+[chatbot project(Project[3])] is assigned to [Lucio(Tester[2])] also
+[Isaiah(Tester[1])] is assigned to [it(Project[3])] also
+[that project(Project[3])] is a [external] project
+[this project(Project[3])] is currently in the [deployment] stage
+[mobile project(Project[1])] is now in the [maintenance] stage
+What are the issues created by [Isaiah(Tester[1])] that were resolved?	'xml extractor exception(Issue[1])'	['question_type_local']
+What are the issues submitted by [Isaiah(Tester[1])] that were resolved?	'xml extractor exception(Issue[1])'	['question_type_local']
+[mobile project(Project[1])] is now in the [evaluation] stage
+[Roslyn(Tester[4])] is a [tester] on [chatbot project(Project[3])]
+[that person(Tester[4])] is assigned to [mobile project(Project[1])] also
+[mobile project(Project[1])] is in the stage of [deployment]
+[the proposal that was last added(Issue[2])] was assigned to [Isaiah(Tester[1])]
+[that test engineer(Tester[1])] resolved [that issue(Issue[2])]
+[Roslyn(Tester[4])] is assigned to [knowledge base project(Project[2])] also
+[Lucio(Tester[2])] created a new issue for [chatbot project(Project[3])]: [memory leak while reading tf records]
+[this issue(Issue[3])] was assigned to [Lucio(Tester[2])]
+Were there any issues assigned to [Isaiah(Tester[1])]?	'memory leak bug(Issue[2])'	['question_type_local']
+[this tester(Tester[2])] resolved [the issue(Issue[3])]
+[initialization broken] is a new [enhancement] for [mobile project(Project[1])] that [Roslyn(Tester[4])] just created
+[Racquel(Developer[5])] is a [developer] on [mobile project(Project[1])]
+[Isaiah(Tester[1])] created a new [proposal] for [knowledge base project(Project[2])]: [wrong pos tag on consecutive words]
+[it(Issue[5])] is assigned to [Lucio(Tester[2])]
+[that person(Tester[2])] resolved [this issue(Issue[5])]
+[minified version fails] is a new [bug] created by [Roslyn(Tester[4])] for [mobile project(Project[1])]
+[the minified version fails issue(Issue[6])] is assigned to [Isaiah(Tester[1])]
+[that test engineer(Tester[1])] resolved [the issue(Issue[6])]
+Who submitted [the bug(Issue[6])]?	'Roslyn(Tester[4])'	['question_type_local']
+[Tereasa(Tester[6])] is a [tester]
+[she(Tester[6])] is assigned to [mobile project(Project[1])]
+[chatbot project(Project[3])] is assigned to [Tereasa(Tester[6])] also
+[Lorilee(Tester[3])] is working on [knowledge base project(Project[2])] also
+[Roslyn(Tester[4])] created a new issue for [chatbot project(Project[3])]: [null pointer exception during parsing]
+[the null pointer exception during parsing issue(Issue[7])] is assigned to [Tereasa(Tester[6])]
+[Tereasa(Tester[6])] is working on [knowledge base project(Project[2])] also
+[this test engineer(Tester[6])] is not working on [chatbot project(Project[3])] anymore
+[she(Tester[6])] is working on [chatbot project(Project[3])] also
+[this project(Project[3])] is in the stage of [evaluation]
+[that project(Project[3])] has moved to the [deployment] stage
+Who created [the xml extractor exception proposal(Issue[1])]?	'Isaiah(Tester[1])'	['question_type_local']
+Who submitted [the xml extractor exception proposal(Issue[1])]?	'Isaiah(Tester[1])'	['question_type_local']
+[it(Project[3])] is in the [evaluation] stage
+Who is [the minified version fails bug(Issue[6])] assigned to?	'Isaiah(Tester[1])'	['question_type_local']
+Who created [the wrong pos tag on consecutive words proposal(Issue[5])]?	'Isaiah(Tester[1])'	['question_type_local']
+[knowledge base project(Project[2])] is now in the [deployment] stage
+[the initialization broken issue(Issue[4])] is assigned to [Isaiah(Tester[1])]
+[that person(Tester[1])] resolved [that issue(Issue[4])]
+Who created [the minified version fails bug(Issue[6])]?	'Roslyn(Tester[4])'	['question_type_local']
+What are the issues assigned to [Tereasa(Tester[6])] that were not resolved?	'null pointer exception during parsing(Issue[7])'	['question_type_local']
+[Racquel(Developer[5])] is working on [chatbot project(Project[3])] also
+[this developer(Developer[5])] is assigned to [knowledge base project(Project[2])] also
+[it(Project[2])] is not assigned to [this developer(Developer[5])]
+[it(Project[2])] is assigned to [Racquel(Developer[5])] also
+[chatbot project(Project[3])] is not assigned to [she(Developer[5])]
+[she(Developer[5])] is assigned to [that project(Project[3])] also
+[knowledge base project(Project[2])] is not assigned to [this person(Developer[5])]
+[that person(Developer[5])] is working on [it(Project[2])] also
+[chatbot project(Project[3])] is not assigned to [Racquel(Developer[5])]
+Who created [the xml extractor exception proposal(Issue[1])]?	'Isaiah(Tester[1])'	['question_type_local']
+[that person(Developer[5])] is assigned to [this project(Project[3])] also
+[Lucio(Tester[2])] is not working on [mobile project(Project[1])] anymore
+[this tester(Tester[2])] is assigned to [that project(Project[1])] also
+[that project(Project[1])] is now in the [evaluation] stage
+[that project(Project[1])] is in the stage of [deployment]
+[Racquel(Developer[5])] is not working on [chatbot project(Project[3])] anymore
+[that project(Project[3])] is assigned to [this developer(Developer[5])] also
+[that developer(Developer[5])] is no longer assigned to [mobile project(Project[1])]
+[she(Developer[5])] is assigned to [mobile project(Project[1])] also
+[Tereasa(Tester[6])] resolved [the null pointer exception during parsing issue(Issue[7])]
+[chatbot project(Project[3])] is in the stage of [maintenance]
+Who was [the memory leak bug proposal(Issue[2])] assigned to?	'Isaiah(Tester[1])'	['question_type_local']
+Who was [the wrong pos tag on consecutive words proposal(Issue[5])] assigned to?	'Lucio(Tester[2])'	['question_type_local']
+Who is [the initialization broken enhancement(Issue[4])] assigned to?	'Isaiah(Tester[1])'	['question_type_local']
+[this project(Project[3])] has moved to the [evaluation] stage
+[that project(Project[3])] is in the [deployment] stage
+[knowledge base project(Project[2])] is in the stage of [maintenance]
+Were there any issues assigned to [Tereasa(Tester[6])]?	'null pointer exception during parsing(Issue[7])'	['question_type_local']
+[mobile project(Project[1])] is now in the [maintenance] stage
+Who created [the proposal that was last added(Issue[5])]?	'Isaiah(Tester[1])'	['question_type_local']
+[Lorilee(Tester[3])] is working on [chatbot project(Project[3])] also
+[chatbot project(Project[3])] is in the stage of [evaluation]
+[this project(Project[3])] has moved to the [maintenance] stage
+Who created [the initialization broken enhancement(Issue[4])]?	'Roslyn(Tester[4])'	['question_type_local']
+Are there any issues submitted by [Roslyn(Tester[4])] that are resolved?	'initialization broken(Issue[4])', 'minified version fails(Issue[6])', 'null pointer exception during parsing(Issue[7])'	['question_type_local']
+Who submitted [the bug(Issue[6])]?	'Roslyn(Tester[4])'	['question_type_local']
+[that project(Project[3])] has moved to the [evaluation] stage
+[knowledge base project(Project[2])] is in the stage of [deployment]
+[chatbot project(Project[3])] has moved to the [deployment] stage
+Who created [the xml extractor exception issue(Issue[1])]?	'Isaiah(Tester[1])'	['question_type_local']
+Who submitted [the initialization broken enhancement(Issue[4])]?	'Roslyn(Tester[4])'	['question_type_local']
+Who was [the initialization broken enhancement(Issue[4])] assigned to?	'Isaiah(Tester[1])'	['question_type_local']
+Were there any issues assigned to [Tereasa(Tester[6])]?	'null pointer exception during parsing(Issue[7])'	['question_type_local']
+Were there any issues submitted by [Lucio(Tester[2])]?	'memory leak while reading tf records(Issue[3])'	['question_type_local']
+Who was [the memory leak bug issue(Issue[2])] assigned to?	'Isaiah(Tester[1])'	['question_type_local']
+[chatbot project(Project[3])] is in the [maintenance] stage
+[that project(Project[3])] is now in the [deployment] stage
+Who was [the initialization broken enhancement(Issue[4])] assigned to?	'Isaiah(Tester[1])'	['question_type_local']
+[it(Project[3])] has moved to the [evaluation] stage
+[it(Project[3])] has moved to the [maintenance] stage
+[this project(Project[3])] is in the [evaluation] stage
+[chatbot project(Project[3])] is now in the [deployment] stage
+[knowledge base project(Project[2])] is in the stage of [evaluation]
+Were there any issues assigned to [Tereasa(Tester[6])]?	'null pointer exception during parsing(Issue[7])'	['question_type_local']
+[chatbot project(Project[3])] has moved to the [evaluation] stage
+[chatbot project(Project[3])] has moved to the [maintenance] stage
+[this project(Project[3])] is in the [evaluation] stage
+[this project(Project[3])] has moved to the [deployment] stage
+[that project(Project[3])] has moved to the [evaluation] stage
+[that project(Project[3])] is in the stage of [deployment]
+Who was [the initialization broken enhancement(Issue[4])] assigned to?	'Isaiah(Tester[1])'	['question_type_local']
+[Lucio(Tester[2])] is not working on [mobile project(Project[1])] anymore

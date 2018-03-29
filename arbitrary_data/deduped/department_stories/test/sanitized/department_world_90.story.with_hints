@@ -1,0 +1,123 @@
+there is a [first year] PhD student named [Charlott(PhdStudent[1])]
+[this student(PhdStudent[1])] has passed the qualifying exam
+[she(PhdStudent[1])] is funded
+[that person(PhdStudent[1])] has passed the thesis proposal exam
+there is a new PhD student named [Luanna(PhdStudent[2])]
+[second year] is a [Tereasa(PhdStudent[3])] PhD student
+[Tereasa(PhdStudent[3])] has passed the thesis defense
+[Tereasa(PhdStudent[3])] is funded
+[this person(PhdStudent[3])] has passed the thesis proposal exam
+[that person(PhdStudent[3])] has failed the qualifying exam
+Create a new course called [U8001(Course[1])]
+[that class(Course[1])] has 12 units
+[this course(Course[1])] is offered in the [asian studies] department
+[that course(Course[1])] is set up as a full semester course
+[that class(Course[1])] is a [masters] course
+[Luanna(PhdStudent[2])] is enrolled in [this course(Course[1])]
+[she(PhdStudent[2])] successfully defended their thesis
+[she(PhdStudent[2])]'s office is [Macky Building]
+[she(PhdStudent[2])] failed the qualifiers
+[Gabrielle(MastersStudent[4])] is a masters student
+[Gabrielle(MastersStudent[4])]'s department is [psychology]
+Which phd students taking the U8001 course	'Luanna(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+create a [teaching] [professor] named [Lucio(Professor[5])]
+What students are in Macky Building	'Luanna(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+[Tereasa(PhdStudent[3])] is in [Environmental Building]
+Create a new [undergraduate] level [mini course] called [G301(Course[2])]
+[Lucio(Professor[5])] is the instructor for [U8001(Course[1])]
+create a [associate] [professor] named [Albertha(Professor[6])]
+[she(Professor[6])] conducts research in [reinforcement learning]
+Who are the students in the [psychology] department	'Gabrielle(MastersStudent[4])'	['question_type_global', 'question_two_hop_statement']
+[Tereasa(PhdStudent[3])] is a TA for [U8001(Course[1])]
+Is [Luanna(PhdStudent[2])] ready to graduate?	"I don't know"	['question_type_local']
+[that person(PhdStudent[3])] is in [third year]
+What are the courses TAed by [she(PhdStudent[3])]?	'U8001(Course[1])'	['question_type_local']
+There is a [undergraduate] [full_semester_course] called [U101(Course[3])]
+[this person(PhdStudent[3])] is attending [that course(Course[3])]
+[that course(Course[3])] is taught by [Albertha(Professor[6])]
+[that class(Course[3])] is a course in the [electrical engineering] department
+Who is in [Environmental Building]	'Tereasa(PhdStudent[3])'	['question_type_global', 'question_two_hop_statement']
+Create a new [undergraduate] level course called [G104(Course[4])]
+[Luanna(PhdStudent[2])] is attending [U101(Course[3])]
+there is a new masters student named [Andy(MastersStudent[7])]
+[she(PhdStudent[2])] passed the qualifiers
+[she(PhdStudent[2])] has [Lucio(Professor[5])] on the committee
+[he(Professor[5])] advises [Tereasa(PhdStudent[3])] and [Charlott(PhdStudent[1])]
+[Lucio(Professor[5])]'s research interest is [reinforcement learning]
+[Tereasa(PhdStudent[3])] is a student in [U8001(Course[1])]
+there is a [full] [professor] named [Gia(Professor[8])]
+[Luanna(PhdStudent[2])] is [Gia(Professor[8])]'s student
+What students are in Macky Building	'Luanna(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+create a [professor] named [Lucy(Professor[9])]
+What courses is [Albertha(Professor[6])] teaching?	'U101(Course[3])'	['question_type_local']
+[Luanna(PhdStudent[2])] has passed the thesis proposal exam
+[Lucy(Professor[9])] is on [this student(PhdStudent[2])]'s committee
+Who advises [that student(PhdStudent[2])]?	'Gia'	['question_type_local']
+there is a [second year] PhD student named [Kristeen(PhdStudent[10])]
+[this student(PhdStudent[10])] passed the qualifiers
+There is a course called [U310(Course[5])]
+there is a new PhD student named [Yoshiko(PhdStudent[11])]
+[that course(Course[5])] is a [phd] level course
+[that course(Course[5])] is offered in the [asian studies] department
+[Gabrielle(MastersStudent[4])] and [Kristeen(PhdStudent[10])] are TAs for [that class(Course[5])]
+[U101(Course[3])] is 4 units
+[Andy(MastersStudent[7])] and [Kristeen(PhdStudent[10])] are both taking [U101(Course[3])]
+[Andy(MastersStudent[7])] is affiliated with the [psychology] department
+Create a new course called [U301(Course[6])]
+What courses is [Gabrielle(MastersStudent[4])] TAing?	'U310(Course[5])'	['question_type_local']
+create a [professor] named [Roslyn(Professor[12])]
+[U301(Course[6])] is a [masters] level course
+[that professor(Professor[12])] is the instructor for [U301(Course[6])]
+[that course(Course[6])] is a mini course
+[Luanna(PhdStudent[2])] is current in [sixth year]
+[Albertha(Professor[6])] is on [Luanna(PhdStudent[2])]'s committee
+[Lucy(Professor[9])] research interest is in [conservation biology]
+[Kristeen(PhdStudent[10])] is [Lucy(Professor[9])]'s student
+[asian studies] offers [U301(Course[6])]
+[U301(Course[6])] is a 2 unit course
+[U8001(Course[1])] is TAed by [Charlott(PhdStudent[1])] and [Andy(MastersStudent[7])]
+Who is teaching [U8001(Course[1])]?	'Lucio(Professor[5])'	['question_type_local']
+[Charlott(PhdStudent[1])] has [Roslyn(Professor[12])] on the committee
+[Luanna(PhdStudent[2])] is attending [U101(Course[3])]
+[U310(Course[5])] is full semester
+[Charlott(PhdStudent[1])] and [Tereasa(PhdStudent[3])] are taking [that class(Course[5])]
+[U310(Course[5])] is taught by [Lucy(Professor[9])]
+[Yoshiko(PhdStudent[11])] is [Lucy(Professor[9])]'s student
+[this student(PhdStudent[11])] has passed the qualifying exam
+[Gia(Professor[8])] is on [Yoshiko(PhdStudent[11])]'s committee
+[Yoshiko(PhdStudent[11])] failed thesis proposal
+[that professor(Professor[8])] is the instructor for [G301(Course[2])]
+Which students are taking [U8001(Course[1])]?	'Luanna(PhdStudent[2])', 'Tereasa(PhdStudent[3])'	['question_type_local']
+[Yoshiko(PhdStudent[11])] is a TA for [this course(Course[2])]
+[Luanna(PhdStudent[2])] and [Tereasa(PhdStudent[3])] are both enrolled in [that class(Course[2])]
+[G301(Course[2])] is offered in the [electrical engineering] department
+[G301(Course[2])] is 2 units
+[Luanna(PhdStudent[2])] is TAing [U101(Course[3])]
+Who has an office in [Macky Building]	'Luanna(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+[that person(PhdStudent[2])] currently has funding
+[Lucy(Professor[9])] currently has funding
+Who is in [Macky Building]	'Luanna(PhdStudent[2])'	['question_type_global', 'question_two_hop_statement']
+[that student(PhdStudent[2])] has [Roslyn(Professor[12])] on the committee
+Create a new course called [G601(Course[7])]
+What is [Lucy(Professor[9])] research area?	'conservation biology'	['question_type_local']
+[that person(Professor[12])] has funding
+What professors are on [Luanna(PhdStudent[2])]'s committee	'Lucio(Professor[5])', 'Albertha(Professor[6])', 'Lucy(Professor[9])', 'Roslyn(Professor[12])'	['question_type_local']
+[she(Professor[12])] research interest is in [conservation biology]
+Which department is [Roslyn(Professor[12])] in?	"I don't know"	['question_type_local']
+Create a new [undergraduate] level 4 unit course called [G305(Course[8])]
+Create a new [undergraduate] level course called [G203(Course[9])]
+Which [third year] students's advisors are conducting research in [reinforcement learning]	'Tereasa(PhdStudent[3])'	['question_type_global', 'question_three_hop_statement']
+Who has [Lucio(Professor[5])] on their phd committee?	'Luanna(PhdStudent[2])'	['question_type_local']
+What students are in Environmental Building	'Tereasa(PhdStudent[3])'	['question_type_global', 'question_two_hop_statement']
+What is [Lucy(Professor[9])] research area?	'conservation biology'	['question_type_local']
+Create a new [phd] level course called [G302(Course[10])]
+[Luanna(PhdStudent[2])] and [Charlott(PhdStudent[1])] are taking [G203(Course[9])]
+What are all the courses in the electrical engineering department?	'G301(Course[2])', 'U101(Course[3])'	['question_type_global', 'question_two_hop_statement']
+Which students are taking [U8001(Course[1])]?	'Luanna(PhdStudent[2])', 'Tereasa(PhdStudent[3])'	['question_type_local']
+[Yoshiko(PhdStudent[11])] successfully defended their thesis
+[Charlott(PhdStudent[1])]'s office is [Environmental Building]
+Create a new course called [U103(Course[11])]
+[this person(PhdStudent[1])] is now a [second year] student
+[U103(Course[11])] is under the [asian studies] department
+[Charlott(PhdStudent[1])] is in [third year]
+[that student(PhdStudent[1])] has failed thesis defense

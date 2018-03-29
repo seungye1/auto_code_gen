@@ -1,0 +1,127 @@
+there is a new [knowledge base(Project[1])] [project]
+[knowledge base project(Project[1])] is currently in the [maintenance] stage
+[that project(Project[1])] is a [personal] project
+[Tom(Developer[1])] is a [developer]
+[it(Project[1])] is assigned to [this person(Developer[1])]
+[it(Project[1])] is not assigned to [that developer(Developer[1])]
+[Hanna(Tester[2])] is a [tester]
+[that project(Project[1])] is assigned to [Hanna(Tester[2])]
+[that project(Project[1])] is assigned to [Tom(Developer[1])]
+[knowledge base project(Project[1])] has moved to the [implementation] stage
+there is a new [internal] [mobile(Project[2])] [project]
+[mobile project(Project[2])] is in the stage of [design]
+[Hanna(Tester[2])] is working on [mobile project(Project[2])] also
+[Tom(Developer[1])] created a new issue for [knowledge base project(Project[1])]: [issue in using training data]
+[the issue(Issue[1])] is assigned to [Hanna(Tester[2])]
+[Zenaida(Developer[3])] is a [developer]
+[Zenaida(Developer[3])] is working on [knowledge base project(Project[1])]
+there is a new [chatbot(Project[3])] [project]
+[chatbot project(Project[3])] is a [internal] project
+[that project(Project[3])] is currently in the [maintenance] stage
+[Isaiah(Tester[4])] is a [tester] on [mobile project(Project[2])]
+[this project(Project[3])] is assigned to [Hanna(Tester[2])] also
+[Zenaida(Developer[3])] is assigned to [mobile project(Project[2])] also
+[she(Developer[3])] is working on [chatbot project(Project[3])] also
+[Yoshiko(Developer[5])] is a [developer] on [knowledge base project(Project[1])]
+[this person(Developer[5])] is working on [it(Project[3])] also
+[that project(Project[3])] is not assigned to [this person(Developer[5])]
+[fails with apache stack] is a new [enhancement] created by [that person(Developer[5])] for [knowledge base project(Project[1])]
+[Emma(Tester[6])] is a [tester] on [this project(Project[3])]
+[that issue(Issue[2])] is assigned to [Zenaida(Developer[3])]
+[this developer(Developer[3])] resolved [this issue(Issue[2])]
+[Ashly(Developer[7])] is a [developer] on [chatbot project(Project[3])]
+[Ashly(Developer[7])] is working on [mobile project(Project[2])] also
+[Angelita(Tester[8])] is a [tester] on [mobile project(Project[2])]
+[knowledge base project(Project[1])] is assigned to [Angelita(Tester[8])] also
+[Zenaida(Developer[3])] submitted a new [task] for [mobile project(Project[2])]: [minified version fails]
+[the minified version fails issue(Issue[3])] was assigned to [Angelita(Tester[8])]
+Are there any issues submitted by [Yoshiko(Developer[5])] that are resolved?	'fails with apache stack(Issue[2])'	['question_type_local']
+[this tester(Tester[8])] resolved [this issue(Issue[3])]
+[Hanna(Tester[2])] is not working on [knowledge base project(Project[1])] anymore
+[Hanna(Tester[2])] is working on [knowledge base project(Project[1])] also
+[Ashly(Developer[7])] created a new [bug] for [chatbot project(Project[3])]: [parsing with parantheses fails]
+[this issue(Issue[4])] is assigned to [Zenaida(Developer[3])]
+[memory leak bug] is a new [task] submitted by [Zenaida(Developer[3])] for [chatbot project(Project[3])]
+[two consecutive dates identified as single date] is a new [enhancement] created by [Isaiah(Tester[4])] for [mobile project(Project[2])]
+[the two consecutive dates identified as single date issue(Issue[6])] is assigned to [Angelita(Tester[8])]
+[she(Tester[8])] resolved [it(Issue[6])]
+What are the issues created by [Tom(Developer[1])]?	'issue in using training data(Issue[1])'	['question_type_local']
+[chatbot project(Project[3])] is assigned to [she(Tester[8])] also
+[this person(Tester[8])] is not working on [knowledge base project(Project[1])] anymore
+Who was [the fails with apache stack enhancement(Issue[2])] assigned to?	'Zenaida(Developer[3])'	['question_type_local']
+[knowledge base project(Project[1])] is assigned to [Angelita(Tester[8])] also
+Who created [the issue in using training data issue(Issue[1])]?	'Tom(Developer[1])'	['question_type_local']
+[Tom(Developer[1])] is working on [chatbot project(Project[3])] also
+[this project(Project[3])] has moved to the [design] stage
+[Tom(Developer[1])] is assigned to [mobile project(Project[2])] also
+[he(Developer[1])] is not working on [chatbot project(Project[3])] anymore
+[that project(Project[3])] is assigned to [this developer(Developer[1])] also
+[chatbot project(Project[3])] is in the [maintenance] stage
+[it(Project[3])] is in the stage of [implementation]
+[Yoshiko(Developer[5])] is working on [mobile project(Project[2])] also
+[this developer(Developer[5])] is no longer assigned to [knowledge base project(Project[1])]
+[that person(Developer[5])] is not working on [mobile project(Project[2])] anymore
+[this developer(Developer[5])] is assigned to [chatbot project(Project[3])]
+[she(Developer[5])] is working on [mobile project(Project[2])] also
+[knowledge base project(Project[1])] is assigned to [Ashly(Developer[7])] also
+[Yoshiko(Developer[5])] created a new [bug] for [chatbot project(Project[3])]: [changelong needs to be added]
+[Emma(Tester[6])] created a new issue for [chatbot project(Project[3])]: [null pointer exception during parsing]
+[the changelong needs to be added issue(Issue[7])] was assigned to [Angelita(Tester[8])]
+Who submitted [the two consecutive dates identified as single date enhancement(Issue[6])]?	'Isaiah(Tester[4])'	['question_type_local']
+[knowledge base project(Project[1])] is assigned to [Yoshiko(Developer[5])] also
+Who was [the parsing with parantheses fails bug(Issue[4])] assigned to?	'Zenaida(Developer[3])'	['question_type_local']
+[this project(Project[1])] is in the [maintenance] stage
+[Yoshiko(Developer[5])] is no longer assigned to [chatbot project(Project[3])]
+[Yoshiko(Developer[5])] is assigned to [chatbot project(Project[3])] also
+[Ashly(Developer[7])] is no longer assigned to [knowledge base project(Project[1])]
+[Emma(Tester[6])] is working on [mobile project(Project[2])] also
+[she(Tester[6])] is assigned to [knowledge base project(Project[1])] also
+[she(Tester[6])] is not working on [mobile project(Project[2])] anymore
+Are there any issues created by [Ashly(Developer[7])] that are not resolved?	'parsing with parantheses fails(Issue[4])'	['question_type_local']
+[Emma(Tester[6])] is assigned to [mobile project(Project[2])] also
+[mobile project(Project[2])] is not assigned to [this test engineer(Tester[6])]
+[that person(Tester[6])] is working on [it(Project[2])] also
+[this project(Project[2])] is not assigned to [Emma(Tester[6])]
+[that person(Tester[6])] is assigned to [that project(Project[2])] also
+[mobile project(Project[2])] is not assigned to [Angelita(Tester[8])]
+[this tester(Tester[8])] is working on [mobile project(Project[2])] also
+Who created [the parsing with parantheses fails bug(Issue[4])]?	'Ashly(Developer[7])'	['question_type_local']
+[the memory leak bug issue(Issue[5])] is assigned to [Hanna(Tester[2])]
+[that person(Tester[2])] resolved [the memory leak bug issue(Issue[5])]
+Who created [the changelong needs to be added bug(Issue[7])]?	'Yoshiko(Developer[5])'	['question_type_local']
+[chatbot project(Project[3])] has moved to the [design] stage
+[Ashly(Developer[7])] is assigned to [knowledge base project(Project[1])] also
+Who was [the fails with apache stack issue(Issue[2])] assigned to?	'Zenaida(Developer[3])'	['question_type_local']
+[Hanna(Tester[2])] resolved [the issue in using training data issue(Issue[1])]
+Are there any issues created by [Yoshiko(Developer[5])] that are resolved?	'fails with apache stack(Issue[2])'	['question_type_local']
+What are the issues submitted by [Ashly(Developer[7])]?	'parsing with parantheses fails(Issue[4])'	['question_type_local']
+What are the issues created by [Zenaida(Developer[3])] that were resolved?	'minified version fails(Issue[3])', 'memory leak bug(Issue[5])'	['question_type_local']
+Who is [the issue(Issue[1])] assigned to?	'Hanna(Tester[2])'	['question_type_local']
+[Yoshiko(Developer[5])] is not working on [knowledge base project(Project[1])] anymore
+[this developer(Developer[5])] is assigned to [knowledge base project(Project[1])] also
+Who was [the issue in using training data issue(Issue[1])] assigned to?	'Hanna(Tester[2])'	['question_type_local']
+[that person(Developer[5])] is no longer assigned to [chatbot project(Project[3])]
+[this person(Developer[5])] is assigned to [it(Project[3])] also
+[knowledge base project(Project[1])] is in the stage of [design]
+Are there any issues submitted by [Isaiah(Tester[4])] that are resolved?	'two consecutive dates identified as single date(Issue[6])'	['question_type_local']
+[Zenaida(Developer[3])] resolved [the parsing with parantheses fails issue(Issue[4])]
+[knowledge base project(Project[1])] is not assigned to [that person(Developer[3])]
+[Zenaida(Developer[3])] is working on [that project(Project[1])] also
+Who submitted [the fails with apache stack enhancement(Issue[2])]?	'Yoshiko(Developer[5])'	['question_type_local']
+Are there any issues submitted by [Yoshiko(Developer[5])] that are resolved?	'fails with apache stack(Issue[2])'	['question_type_local']
+Who submitted [the minified version fails issue(Issue[3])]?	'Zenaida(Developer[3])'	['question_type_local']
+[mobile project(Project[2])] is in the stage of [implementation]
+Who is [the enhancement that was last added(Issue[6])] assigned to?	'Angelita(Tester[8])'	['question_type_local']
+[Hanna(Tester[2])] is not working on [mobile project(Project[2])] anymore
+[mobile project(Project[2])] is assigned to [Hanna(Tester[2])] also
+[chatbot project(Project[3])] is in the stage of [maintenance]
+Who submitted [the fails with apache stack enhancement(Issue[2])]?	'Yoshiko(Developer[5])'	['question_type_local']
+Who submitted [the two consecutive dates identified as single date enhancement(Issue[6])]?	'Isaiah(Tester[4])'	['question_type_local']
+[the null pointer exception during parsing issue(Issue[8])] was assigned to [Zenaida(Developer[3])]
+[she(Developer[3])] resolved [the null pointer exception during parsing issue(Issue[8])]
+Who submitted [the parsing with parantheses fails bug(Issue[4])]?	'Ashly(Developer[7])'	['question_type_local']
+Who submitted [the minified version fails task(Issue[3])]?	'Zenaida(Developer[3])'	['question_type_local']
+Who submitted [the parsing with parantheses fails bug(Issue[4])]?	'Ashly(Developer[7])'	['question_type_local']
+Who submitted [the parsing with parantheses fails bug(Issue[4])]?	'Ashly(Developer[7])'	['question_type_local']
+[she(Developer[3])] is no longer assigned to [mobile project(Project[2])]
+[this developer(Developer[3])] is assigned to [mobile project(Project[2])] also

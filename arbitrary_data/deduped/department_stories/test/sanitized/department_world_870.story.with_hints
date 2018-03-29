@@ -1,0 +1,125 @@
+there is a new masters student named [Danita(MastersStudent[1])]
+There is a [phd] 12 unit class called [G9000(Course[1])]
+there is a [full] [professor] named [Francoise(Professor[2])]
+[this professor(Professor[2])] is now on sabbatical
+[Francoise(Professor[2])] conducts research in [neurocomputing]
+there is a new [sixth year] PhD student named [Emma(PhdStudent[3])]
+[Emma(PhdStudent[3])] has passed the qualifying exam
+[Alejandra(PhdStudent[4])] is a PhD student
+[Emma(PhdStudent[3])] has [Francoise(Professor[2])] on the committee
+[he(Professor[2])] advises [Emma(PhdStudent[3])] and [Alejandra(PhdStudent[4])]
+Who has [Francoise(Professor[2])] on their phd committee?	'Emma(PhdStudent[3])'	['question_type_local']
+[Rachele(Professor[5])] is a [professor]
+[that student(PhdStudent[4])] has passed the qualifying exam
+[this student(PhdStudent[4])] is a [fifth year] student
+there is a new masters student named [Kristeen(MastersStudent[6])]
+[Alejandra(PhdStudent[4])] passed thesis proposal
+[Andy(MastersStudent[7])] is a masters student
+[Michael(Professor[8])] is a [full] [professor]
+[Isaiah(PhdStudent[9])] is a PhD student
+[this professor(Professor[8])] is on [this student(PhdStudent[9])]'s committee
+[Isaiah(PhdStudent[9])] is [this professor(Professor[8])]'s student
+[that professor(Professor[8])] is now an [distinguished] professor
+[this professor(Professor[8])]'s office is [Henderson Building]
+Who is on [Isaiah(PhdStudent[9])]'s committee?	'Michael(Professor[8])'	['question_type_local']
+create a [professor] named [Angelita(Professor[10])]
+[she(Professor[10])] research interest is in [evolutionary biology]
+there is a PhD student named [Tom(PhdStudent[11])]
+Who are [Michael(Professor[8])]'s students?	'Isaiah(PhdStudent[9])'	['question_type_local']
+[Alejandra(PhdStudent[4])] failed their thesis defense
+[he(PhdStudent[11])] did not pass the qualifiers
+[G9000(Course[1])] is a pass-fail course
+Which [sixth year] students's advisors are conducting research in [neurocomputing]	'Emma(PhdStudent[3])'	['question_type_global', 'question_three_hop_statement']
+[Marisela(Professor[12])] is a [professor]
+[Emma(PhdStudent[3])] has passed the thesis proposal exam
+[Tom(PhdStudent[11])] is [this professor(Professor[12])]'s student
+there is a new masters student named [Tereasa(MastersStudent[13])]
+[he(PhdStudent[11])] has passed the thesis proposal exam
+there is a [distinguished] [professor] named [Cyndi(Professor[14])]
+there is a new [first year] PhD student named [Roslyn(PhdStudent[15])]
+Who is in [Henderson Building]	'Michael(Professor[8])'	['question_type_global', 'question_two_hop_statement']
+[third year] is a [Vivienne(PhdStudent[16])] PhD student
+[Roslyn(PhdStudent[15])] is now a [second year] student
+[Roslyn(PhdStudent[15])] has passed the qualifying exam
+What is [Angelita(Professor[10])]'s research focus?	'evolutionary biology'	['question_type_local']
+[Roslyn(PhdStudent[15])] is now a [third year] student
+Which professors are conducting research in [evolutionary biology]	'Angelita(Professor[10])'	['question_type_global', 'question_single_statement']
+[she(PhdStudent[15])] is now in [fourth year]
+[that person(PhdStudent[15])] passed thesis proposal
+Who is in [Henderson Building]	'Michael(Professor[8])'	['question_type_global', 'question_two_hop_statement']
+[that person(PhdStudent[15])] has [Rachele(Professor[5])] and [Cyndi(Professor[14])] on the committee
+[Roslyn(PhdStudent[15])] has passed the thesis defense
+[Isaiah(PhdStudent[9])] has [Marisela(Professor[12])] on the committee
+there is a new masters student named [Yoshiko(MastersStudent[17])]
+[Marisela(Professor[12])] is an [teaching] professor
+[this professor(Professor[12])] advises [Vivienne(PhdStudent[16])]
+[that professor(Professor[12])] is in [Main Building]
+there is a [fifth year] PhD student named [William(PhdStudent[18])]
+[Roslyn(PhdStudent[15])] and [William(PhdStudent[18])] are [Marisela(Professor[12])]'s student
+[Luanna(MastersStudent[19])] is a masters student
+there is a new PhD student named [Lorilee(PhdStudent[20])]
+[Lorilee(PhdStudent[20])] has [Francoise(Professor[2])] and [Angelita(Professor[10])] on the committee
+Which phd students have [Rachele(Professor[5])] on their committee	'Roslyn(PhdStudent[15])'	['question_type_local']
+[he(Professor[2])] advises [Lorilee(PhdStudent[20])]
+[Michael(Professor[8])] conducts research in [cold fusion]
+[that professor(Professor[8])] went on sabbatical
+[Alejandra(PhdStudent[4])] has failed thesis defense
+[this student(PhdStudent[4])] is in [sixth year]
+[Isaiah(PhdStudent[9])] has passed the thesis proposal exam
+[Cyndi(Professor[14])] and [Francoise(Professor[2])] are on [Isaiah(PhdStudent[9])]'s committee
+There is a [masters] level [mini course] called [G302(Course[2])]
+[Andy(MastersStudent[7])] and [Yoshiko(MastersStudent[17])] are attending [G302(Course[2])]
+[Roslyn(PhdStudent[15])] has [Francoise(Professor[2])] and [Michael(Professor[8])] on the committee
+Who is [Roslyn(PhdStudent[15])]'s advisor?	'Marisela'	['question_type_local']
+[Lorilee(PhdStudent[20])] failed the qualifiers
+[that student(PhdStudent[20])] is a [third year] student
+[Isaiah(PhdStudent[9])] passed the qualifiers
+[he(PhdStudent[9])] has passed the thesis defense
+[Angelita(Professor[10])] is on [Isaiah(PhdStudent[9])]'s committee
+[that professor(Professor[10])] went on sabbatical
+[Angelita(Professor[10])] is in [Main Building]
+What is [this professor(Professor[10])]'s office?	'Main Building'	['question_type_local']
+Which masters students taking the G302 course	'Andy(MastersStudent[7])', 'Yoshiko(MastersStudent[17])'	['question_type_global', 'question_two_hop_statement']
+Who is in [Henderson Building]	'Michael(Professor[8])'	['question_type_global', 'question_two_hop_statement']
+Create a new course called [U8001(Course[3])]
+[Isaiah(PhdStudent[9])] is in their [fourth year]
+Create a new course called [G8001(Course[4])]
+[Angelita(Professor[10])] is the instructor for [that class(Course[4])]
+[G8001(Course[4])] is a full semester course
+[that course(Course[4])] is not a pass-fail course
+Which phd students have [Angelita(Professor[10])] on their committee	'Isaiah(PhdStudent[9])', 'Lorilee(PhdStudent[20])'	['question_type_local']
+[that class(Course[4])] is a [phd] level course
+[Kristeen(MastersStudent[6])] and [Danita(MastersStudent[1])] are taking [that class(Course[4])]
+Which [teaching] professors advise students who passed their qualifying exam?	'Marisela(Professor[12])'	['question_type_global', 'question_three_hop_statement']
+Create a new [masters] course called [G301(Course[5])]
+[U8001(Course[3])] will be a full semester course
+[Kristeen(MastersStudent[6])] is taking [G301(Course[5])]
+[Michael(Professor[8])] is the instructor for [G301(Course[5])]
+Who is teaching [G8001(Course[4])]?	'Angelita(Professor[10])'	['question_type_local']
+[Angelita(Professor[10])] is an [full] professor
+[Lorilee(PhdStudent[20])] has passed the thesis proposal exam
+[that student(PhdStudent[20])] passed the qualifiers
+What is [Michael(Professor[8])]'s research focus?	'cold fusion'	['question_type_local']
+[she(PhdStudent[20])] has [Rachele(Professor[5])] on the committee
+There is a [undergraduate] level course called [G601(Course[6])]
+[Marisela(Professor[12])] is the instructor for [that course(Course[6])]
+[Tom(PhdStudent[11])] and [Emma(PhdStudent[3])] are attending [G601(Course[6])]
+[G601(Course[6])] is not a pass-fail course
+Which courses did [Yoshiko(MastersStudent[17])] enroll in?	'G302(Course[2])'	['question_type_local']
+[Andy(MastersStudent[7])] is TAing [G601(Course[6])]
+[Isaiah(PhdStudent[9])] is now a [fifth year] student
+What courses is [Michael(Professor[8])] teaching?	'G301(Course[5])'	['question_type_local']
+Create a new course called [U202(Course[7])]
+[Tereasa(MastersStudent[13])] and [Tom(PhdStudent[11])] are TAs for [U202(Course[7])]
+[U202(Course[7])] is a [undergraduate] level course
+[that student(PhdStudent[11])] successfully defended their thesis
+[this student(PhdStudent[11])] has passed the qualifying exam
+Who is [Tom(PhdStudent[11])]'s advisor?	'Marisela'	['question_type_local']
+[Francoise(Professor[2])] is in [CIRES Building]
+Who are [Michael(Professor[8])]'s students?	'Isaiah(PhdStudent[9])'	['question_type_local']
+Which [fifth year] students's advisors are conducting research in [cold fusion]	'Isaiah(PhdStudent[9])'	['question_type_global', 'question_three_hop_statement']
+Create a new [masters] level [full_semester_course] called [U103(Course[8])]
+Who are [Michael(Professor[8])]'s students?	'Isaiah(PhdStudent[9])'	['question_type_local']
+[Emma(PhdStudent[3])] successfully defended their thesis
+[Marisela(Professor[12])] and [Michael(Professor[8])] are on [this student(PhdStudent[3])]'s committee
+Who is [Emma(PhdStudent[3])]'s advisor?	'Francoise'	['question_type_local']

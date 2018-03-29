@@ -1,0 +1,115 @@
+[Andrew(PhdStudent[1])] is a PhD student
+[Andrew(PhdStudent[1])] successfully defended their thesis
+[he(PhdStudent[1])] is in their [first year]
+[this person(PhdStudent[1])] is now a [second year] student
+there is a [teaching] [professor] named [Lucio(Professor[2])]
+[this student(PhdStudent[1])] has passed the thesis proposal exam
+[this student(PhdStudent[1])] currently has funding
+[this student(PhdStudent[1])] has [Lucio(Professor[2])] on the committee
+[Andrew(PhdStudent[1])] did not pass the qualifiers
+[Andrew(PhdStudent[1])] has passed the qualifying exam
+There is a course called [G104(Course[1])]
+[that person(PhdStudent[1])] is now in [third year]
+[this person(PhdStudent[1])] is now in [fourth year]
+Create a new [undergraduate] level [mini course] called [G201(Course[2])]
+[Lucio(Professor[2])] teaches [G201(Course[2])]
+there is a new masters student named [Loyd(MastersStudent[3])]
+[that professor(Professor[2])] currently has funding
+[Andrew(PhdStudent[1])] is [Lucio(Professor[2])]'s student
+there is a [first year] PhD student named [Andy(PhdStudent[4])]
+[Andy(PhdStudent[4])] is funded
+[this student(PhdStudent[4])] is now a [second year] student
+[that person(PhdStudent[4])] has [Lucio(Professor[2])] on the committee
+there is a [teaching] [professor] named [Vivienne(Professor[5])]
+[Andy(PhdStudent[4])] passed thesis proposal
+There is a [masters] level course called [U310(Course[3])]
+[Andy(PhdStudent[4])] passed thesis defense
+there is a new masters student named [Rey(MastersStudent[6])]
+[Andy(PhdStudent[4])] has passed the qualifying exam
+[Tom(Professor[7])] is a [professor]
+What professors are on [Andy(PhdStudent[4])]'s committee	'Lucio(Professor[2])'	['question_type_local']
+[third year] is a [Lorilee(PhdStudent[8])] PhD student
+[Lorilee(PhdStudent[8])] currently has funding
+there is a [fourth year] PhD student named [Genevive(PhdStudent[9])]
+[Lorilee(PhdStudent[8])] passed thesis defense
+[Lorilee(PhdStudent[8])] has [Vivienne(Professor[5])] and [Lucio(Professor[2])] on the committee
+[Lorilee(PhdStudent[8])] passed thesis proposal
+there is a masters student named [Cecil(MastersStudent[10])]
+[she(PhdStudent[8])] has passed the qualifying exam
+there is a new [sixth year] PhD student named [Racquel(PhdStudent[11])]
+[Racquel(PhdStudent[11])] is funded
+[Racquel(PhdStudent[11])] has [Tom(Professor[7])] on the committee
+[Vivienne(Professor[5])] conducts research in [cold fusion]
+[she(Professor[5])] has funding
+[Hiram(MastersStudent[12])] is a masters student
+[Vivienne(Professor[5])] is now on sabbatical
+[Andy(PhdStudent[4])] is [Vivienne(Professor[5])]'s student
+There is a [masters] 2 unit class called [G204(Course[4])]
+[Tom(Professor[7])] teaches [G204(Course[4])]
+[Andrew(PhdStudent[1])] and [Rey(MastersStudent[6])] are TAing [that class(Course[4])]
+[Marisela(Professor[13])] is a [professor]
+[she(Professor[13])] advises [Genevive(PhdStudent[9])]
+[that professor(Professor[13])] conducts research in [conservation biology]
+[this professor(Professor[13])] went on sabbatical
+Which phd students does [Lucio(Professor[2])] advise?	'Andrew(PhdStudent[1])'	['question_type_local']
+Create a new course called [G102(Course[5])]
+[Bob(PhdStudent[14])] is a PhD student
+The TA for [that course(Course[5])] is [this person(PhdStudent[14])]
+[that course(Course[5])] is 4 units
+[Loyd(MastersStudent[3])] and [Hiram(MastersStudent[12])] are TAing [that course(Course[5])]
+Which [second year] students's advisors are conducting research in [cold fusion]	'Andy(PhdStudent[4])'	['question_type_global', 'question_three_hop_statement']
+Create a new course called [G202(Course[6])]
+[that course(Course[6])] is a [undergraduate] level course
+[G202(Course[6])] is 12 units
+[that class(Course[6])] is set up as a full semester course
+Who is [Andrew(PhdStudent[1])]'s advisor?	'Lucio'	['question_type_local']
+[Rey(MastersStudent[6])] and [Lorilee(PhdStudent[8])] are attending [that course(Course[6])]
+[she(PhdStudent[8])] is in [fourth year]
+[Albertha(MastersStudent[15])] is a masters student
+What courses is [Lorilee(PhdStudent[8])] TAing?	"I don't know"	['question_type_local']
+there is a new masters student named [Kristeen(MastersStudent[16])]
+there is a PhD student named [Jack(PhdStudent[17])]
+[Tereasa(PhdStudent[18])] is a PhD student
+[he(PhdStudent[17])] has passed the thesis proposal exam
+[he(PhdStudent[17])] passed thesis defense
+[Lorilee(PhdStudent[8])] is [Lucio(Professor[2])]'s student
+[that professor(Professor[2])] is on sabbatical
+[he(Professor[2])] advises [Tereasa(PhdStudent[18])] and [Bob(PhdStudent[14])]
+[Bob(PhdStudent[14])] currently has funding
+[that person(PhdStudent[14])] has failed the qualifying exam
+[Marisela(Professor[13])] is on [this student(PhdStudent[14])]'s committee
+[Marisela(Professor[13])] advises [Racquel(PhdStudent[11])] and [Jack(PhdStudent[17])]
+Who is teaching [G201(Course[2])]?	'Lucio(Professor[2])'	['question_type_local']
+Which [second year] students are advised by professors working on [cold fusion]?	'Andy(PhdStudent[4])'	['question_type_global', 'question_three_hop_statement']
+[she(PhdStudent[11])] has failed the thesis proposal exam
+[Racquel(PhdStudent[11])] passed the qualifiers
+What masters students are taking G202	'Rey(MastersStudent[6])'	['question_type_global', 'question_two_hop_statement']
+[Jack(PhdStudent[17])] is current in [third year]
+[she(PhdStudent[11])] failed thesis proposal
+What professors are on [she(PhdStudent[11])]'s committee	'Tom(Professor[7])'	['question_type_local']
+[she(PhdStudent[11])] has passed the thesis proposal exam
+[she(PhdStudent[11])] has failed thesis defense
+[Lucio(Professor[2])] and [Vivienne(Professor[5])] are on [Racquel(PhdStudent[11])]'s committee
+[he(Professor[2])] research interest is in [cold fusion]
+Which [third year] students are advised by professors working on [conservation biology]?	'Jack(PhdStudent[17])'	['question_type_global', 'question_three_hop_statement']
+[Tereasa(PhdStudent[18])] is in their [sixth year]
+[she(PhdStudent[18])] has failed the qualifying exam
+Who is on [Andy(PhdStudent[4])]'s committee?	'Lucio(Professor[2])'	['question_type_local']
+[Marisela(Professor[13])] is on [Tereasa(PhdStudent[18])]'s committee
+[that student(PhdStudent[18])] has passed the thesis defense
+[this student(PhdStudent[18])] has passed the qualifying exam
+[she(PhdStudent[18])] has passed the thesis proposal exam
+[that person(PhdStudent[18])] has [Vivienne(Professor[5])] on the committee
+[this student(PhdStudent[18])] has [Tom(Professor[7])] on the committee
+[Tom(Professor[7])] research interest is in [conservation biology]
+Who does [Lucio(Professor[2])] advise?	'Andrew(PhdStudent[1])', 'Lorilee(PhdStudent[8])', 'Bob(PhdStudent[14])', 'Tereasa(PhdStudent[18])'	['question_type_local']
+[Bob(PhdStudent[14])] has passed the qualifying exam
+[this student(PhdStudent[14])] is in their [first year]
+[Marisela(Professor[13])] has funding
+[this student(PhdStudent[14])] has passed the thesis proposal exam
+There is a [masters] [full_semester_course] called [U203(Course[7])]
+[Bob(PhdStudent[14])] is now in [second year]
+Create a new course called [G8001(Course[8])]
+[that class(Course[8])] is a 2 unit course
+[Vivienne(Professor[5])] is the instructor for [G8001(Course[8])]
+What students in third year are advised by a professor with funding?	'Jack(PhdStudent[17])'	['question_type_global', 'question_three_hop_statement']

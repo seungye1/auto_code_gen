@@ -1,0 +1,124 @@
+There is a course called [G204(Course[1])]
+[G204(Course[1])] is a [undergraduate] level course
+[that class(Course[1])] is a course in the [biomedical engineering] department
+[G204(Course[1])] is a pass-fail course
+[Milagros(MastersStudent[1])] is a masters student
+Create a new course called [G304(Course[2])]
+[Tereasa(MastersStudent[2])] is a masters student
+There is a [undergraduate] [mini course] called [U304(Course[3])]
+[U304(Course[3])] is offered in the [neuroscience] department
+there is a PhD student named [William(PhdStudent[3])]
+[this student(PhdStudent[3])] is current in [fourth year]
+There is a course called [G310(Course[4])]
+[that course(Course[4])] is set up as a full semester course
+there is a new [second year] PhD student named [Ashly(PhdStudent[4])]
+[that class(Course[4])] is a pass-fail course
+[this course(Course[4])] is a [undergraduate] course
+[Ashly(PhdStudent[4])] and [Milagros(MastersStudent[1])] are attending [this course(Course[4])]
+there is a [fourth year] PhD student named [Marisela(PhdStudent[5])]
+[Marisela(PhdStudent[5])] failed their thesis defense
+[William(PhdStudent[3])] passed the qualifiers
+[he(PhdStudent[3])] failed thesis proposal
+[Marisela(PhdStudent[5])] has passed the qualifying exam
+[she(PhdStudent[5])] failed thesis proposal
+[this person(PhdStudent[5])] passed thesis proposal
+[G310(Course[4])] is TAed by [Tereasa(MastersStudent[2])] and [Milagros(MastersStudent[1])]
+[Ashly(PhdStudent[4])] successfully defended their thesis
+[Ashly(PhdStudent[4])] passed the qualifiers
+[Marisela(PhdStudent[5])] is a student in [U304(Course[3])]
+there is a new masters student named [Loyd(MastersStudent[6])]
+[Ashly(PhdStudent[4])] is now a [third year] student
+[she(PhdStudent[4])] passed thesis proposal
+[Marisela(PhdStudent[5])] is now a [fifth year] student
+[William(PhdStudent[3])] has passed the thesis defense
+there is a masters student named [Gabrielle(MastersStudent[7])]
+there is a masters student named [Willis(MastersStudent[8])]
+there is a [sixth year] PhD student named [Albertha(PhdStudent[9])]
+[she(PhdStudent[9])] has passed the thesis proposal exam
+[this person(PhdStudent[9])] has failed thesis defense
+Who is enrolled in [U304(Course[3])]?	'Marisela(PhdStudent[5])'	['question_type_local']
+The TA for [G310(Course[4])] is [Marisela(PhdStudent[5])]
+[that student(PhdStudent[5])] has failed thesis defense
+there is a new PhD student named [Andrew(PhdStudent[10])]
+[Andrew(PhdStudent[10])] passed the qualifiers
+[this person(PhdStudent[10])] is a [fifth year] student
+[this student(PhdStudent[10])] is TAing [G310(Course[4])]
+[Willis(MastersStudent[8])] is a TA for [this course(Course[4])]
+[this course(Course[4])] part of the [english] department
+Which department is [G310(Course[4])] in?	'english'	['question_type_local']
+What courses is [Willis(MastersStudent[8])] TAing?	'G310(Course[4])'	['question_type_local']
+Which masters students taking the G310 course	'Milagros(MastersStudent[1])'	['question_type_global', 'question_two_hop_statement']
+[Ashly(PhdStudent[4])] and [Gabrielle(MastersStudent[7])] are both enrolled in [this course(Course[4])]
+Which department is [G310(Course[4])] in?	'english'	['question_type_local']
+[Andrew(PhdStudent[10])] and [Willis(MastersStudent[8])] are attending [G204(Course[1])]
+[G204(Course[1])] is a full semester course
+Create a new [undergraduate] course called [U104(Course[5])]
+[William(PhdStudent[3])] is attending [U104(Course[5])]
+[U104(Course[5])] is under the [applied physics] department
+Who is taking the U304 course	'Marisela(PhdStudent[5])'	['question_type_global', 'question_single_statement']
+Create a new course called [U202(Course[6])]
+[Ashly(PhdStudent[4])] is taking [U104(Course[5])]
+What are the courses TAed by [Tereasa(MastersStudent[2])]?	'G310(Course[4])'	['question_type_local']
+[this course(Course[5])] is not a pass-fail course
+[that course(Course[5])] will be a full semester course
+[Albertha(PhdStudent[9])] and [Ashly(PhdStudent[4])] are TAs for [that class(Course[5])]
+[Albertha(PhdStudent[9])] is a student in [G204(Course[1])]
+[Marisela(PhdStudent[5])] has passed the thesis defense
+[Marisela(PhdStudent[5])] is in [sixth year]
+What department is [G310(Course[4])] offered in?	'english'	['question_type_local']
+Create a new [phd] level 2 unit course called [G303(Course[7])]
+[G303(Course[7])] is a full semester course
+[G303(Course[7])] is a course in the [applied physics] department
+[that course(Course[7])] is not a pass-fail course
+[Albertha(PhdStudent[9])] has passed the qualifying exam
+[Loyd(MastersStudent[6])] and [Albertha(PhdStudent[9])] are attending [G303(Course[7])]
+[William(PhdStudent[3])] has failed the thesis proposal exam
+Which department is [U304(Course[3])] in?	'neuroscience'	['question_type_local']
+Create a new course called [U7000(Course[8])]
+[he(PhdStudent[3])] passed thesis proposal
+[Marisela(PhdStudent[5])] is a student in [this course(Course[8])]
+[that class(Course[8])] is full semester
+[this course(Course[8])] is a [masters] level course
+[Tereasa(MastersStudent[2])] and [Andrew(PhdStudent[10])] are both taking [this course(Course[8])]
+There is a course called [G8001(Course[9])]
+[this student(PhdStudent[10])] failed thesis proposal
+[this person(PhdStudent[10])] passed thesis proposal
+[Andrew(PhdStudent[10])] passed thesis defense
+Which courses are TAed by [Ashly(PhdStudent[4])]?	'U104(Course[5])'	['question_type_local']
+[Andrew(PhdStudent[10])] is in [sixth year]
+What courses is [Willis(MastersStudent[8])] TAing?	'G310(Course[4])'	['question_type_local']
+[U304(Course[3])] is not a pass-fail course
+The TA for [that course(Course[3])] is [Gabrielle(MastersStudent[7])]
+There is a [masters] [full_semester_course] called [U102(Course[10])]
+[William(PhdStudent[3])] is TAing [that class(Course[10])]
+The TA for [U104(Course[5])] is [Loyd(MastersStudent[6])]
+[Andrew(PhdStudent[10])] and [Ashly(PhdStudent[4])] are attending [U104(Course[5])]
+Which masters students taking the U7000 course	'Tereasa(MastersStudent[2])'	['question_type_global', 'question_two_hop_statement']
+Which courses are TAed by [Tereasa(MastersStudent[2])]?	'G310(Course[4])'	['question_type_local']
+[she(PhdStudent[4])] is now in [fourth year]
+What courses is [Ashly(PhdStudent[4])] TAing?	'U104(Course[5])'	['question_type_local']
+[Albertha(PhdStudent[9])] and [Tereasa(MastersStudent[2])] are attending [G303(Course[7])]
+[Andrew(PhdStudent[10])] and [Albertha(PhdStudent[9])] are attending [G303(Course[7])]
+[Albertha(PhdStudent[9])] has failed thesis defense
+[that student(PhdStudent[9])] successfully defended their thesis
+Which courses in the applied physics department are TAed by masters students?	'U104(Course[5])'	['question_type_global', 'question_three_hop_statement']
+Which courses in the english department are TAed by phd students?	'G310(Course[4])'	['question_type_global', 'question_three_hop_statement']
+[Milagros(MastersStudent[1])] is taking [G204(Course[1])]
+What are the courses TAed by [Milagros(MastersStudent[1])]?	'G310(Course[4])'	['question_type_local']
+Which courses are offered this semester in the english department?	'G310(Course[4])'	['question_type_global', 'question_two_hop_statement']
+[Loyd(MastersStudent[6])] and [Marisela(PhdStudent[5])] are attending [G204(Course[1])]
+[G8001(Course[9])] is a course in the [biomedical engineering] department
+[that course(Course[9])] is not a pass-fail course
+[G8001(Course[9])] is a [masters] course
+[Andrew(PhdStudent[10])] and [Tereasa(MastersStudent[2])] are attending [G8001(Course[9])]
+Which courses are offered this semester in the english department?	'G310(Course[4])'	['question_type_global', 'question_two_hop_statement']
+Which courses in the english department have masters TAs?	'G310(Course[4])'	['question_type_global', 'question_three_hop_statement']
+What department is [G310(Course[4])] offered in?	'english'	['question_type_local']
+Which courses in the english department have masters TAs?	'G310(Course[4])'	['question_type_global', 'question_three_hop_statement']
+[U7000(Course[8])] is a course in the [biomedical engineering] department
+Which courses in the english department are TAed by phd students?	'G310(Course[4])'	['question_type_global', 'question_three_hop_statement']
+[Willis(MastersStudent[8])] is a student in [that course(Course[8])]
+[that course(Course[8])] is not a pass-fail course
+[U102(Course[10])] is not a pass-fail course
+[biomedical engineering] offers [U102(Course[10])]
+What are the courses TAed by [Willis(MastersStudent[8])]?	'G310(Course[4])'	['question_type_local']

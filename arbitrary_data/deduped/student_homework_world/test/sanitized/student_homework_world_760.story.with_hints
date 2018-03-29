@@ -1,0 +1,137 @@
+create a [professor] named [Milagros(Professor[1])]
+create a [professor] named [Will(Professor[2])]
+create a [professor] named [Tom(Professor[3])]
+[Jack(Professor[4])] is a [professor]
+I am taking a course called [religion(Course[1])]
+there is new [religion project 1(Project[1])] for [religion(Course[1])]
+[this project(Project[1])] is [98] points
+[that assignment(Project[1])] is on [The Senses]
+I submitted [this project(Project[1])] late and received 65 points
+[religion(Course[1])] has a new [religion project 2(Project[2])] released
+The deadline of [religion project 1(Project[1])] is [March 16]
+The deadline of [religion project 1(Project[1])] moved to [March 17]
+how many points is [this project(Project[1])]?	98	['question_type_local']
+there is a new [homework(Homework[3])] for [religion(Course[1])]
+I submitted [religion homework 1(Homework[3])]
+[that homework(Homework[3])] is on [kernels]
+[that homework(Homework[3])] is [44] points
+The deadline of [this assignment(Homework[3])] is [March 18]
+there is a new [homework(Homework[4])] for [religion(Course[1])]
+I submitted [religion homework 2(Homework[4])]
+[Milagros(Professor[1])] is the instructor for [religion(Course[1])]
+what are the late projects that i submitted for [Milagros]	'religion project 1(Project[1])'	['question_type_global', 'question_three_hop_statement']
+list all assignments that i submitted late for [Milagros]	'religion project 1(Project[1])'	['question_type_global', 'question_three_hop_statement']
+which projects did I submit late for [Milagros]?	'religion project 1(Project[1])'	['question_type_global', 'question_three_hop_statement']
+there is new [religion project 3(Project[5])] for [that course(Course[1])]
+The deadline of [religion project 3(Project[5])] is [March 26]
+[that assignment(Project[5])] is worth [25] points
+[Gia(Professor[5])] is a [professor]
+[religion project 4(Project[6])] is released for [religion(Course[1])]
+I am taking a [biology(Course[2])] course
+[Tom(Professor[3])] teaches [biology(Course[2])]
+[religion project 3(Project[5])] is on [k means]
+how many points did I receive on [religion project 1(Project[1])]?	65	['question_type_local']
+show me the assignments due on [March 26]	'religion project 3(Project[5])'	['question_type_global', 'question_two_hop_statement']
+What is the topic of [religion project 3(Project[5])]?	'k means'	['question_type_local']
+which projects are due on [March 26]?	'religion project 3(Project[5])'	['question_type_global', 'question_two_hop_statement']
+I am taking a course called [spanish(Course[3])]
+I submitted [religion project 3(Project[5])] late and received 25 points
+[this course(Course[3])] has a new [spanish project 1(Project[7])] released
+[spanish project 1(Project[7])] is about [graphical models]
+there is new [spanish project 2(Project[8])] for [spanish(Course[3])]
+I submitted [spanish project 1(Project[7])]
+The deadline of [spanish project 1(Project[7])] is [March 19]
+[that assignment(Project[7])] is worth [62] points
+there is new [biology homework 1(Homework[9])] for [biology(Course[2])]
+The deadline of [that homework(Homework[9])] is [March 12]
+I submitted [this homework(Homework[9])] on time
+The topic of [that assignment(Homework[9])] is [Molds & Fungi]
+How many points did I get on [religion project 1(Project[1])]	65	['question_type_local']
+[that assignment(Homework[9])] is now due on [March 11]
+which homeworks are due after [March 15]?	'religion homework 1(Homework[3])'	['question_type_global', 'question_two_hop_statement']
+which assignments did I submit for [Tom]?	'biology homework 1(Homework[9])'	['question_type_global', 'question_three_hop_statement']
+When is [religion project 3(Project[5])] due?	'March 26'	['question_type_local']
+[religion(Course[1])] has a new [religion homework 3(Homework[10])] out
+What is the topic of [religion project 1(Project[1])]?	'The Senses'	['question_type_local']
+I submitted [religion homework 3(Homework[10])]
+The topic of [religion homework 3(Homework[10])] is [Cells]
+[this assignment(Homework[10])] is [72] points
+what did I get on [religion project 1(Project[1])]?	65	['question_type_local']
+The deadline of [this assignment(Homework[10])] is [April 16]
+[biology project 1(Project[11])] is released for [biology(Course[2])]
+[this project(Project[11])] is [73] points
+The deadline of [this assignment(Project[11])] is [March 12]
+I submitted [biology project 1(Project[11])] and received 25 points
+[spanish(Course[3])] is taught by [Jack(Professor[4])]
+When is [religion project 3(Project[5])] due?	'March 26'	['question_type_local']
+[biology(Course[2])] has a new [biology project 2(Project[12])] out
+The topic of [that project(Project[12])] is [neural networks]
+[biology project 2(Project[12])] is worth [50] points
+I submitted [that project(Project[12])] and received 49 points
+How many points did I get on [religion project 1(Project[1])]	65	['question_type_local']
+[this assignment(Project[12])] is due on [March 23]
+How much is [this assignment(Project[12])] worth?	50	['question_type_local']
+how many points did I receive on [religion project 3(Project[5])]?	25	['question_type_local']
+list assignments that are due on [April 16]	'religion homework 3(Homework[10])'	['question_type_global', 'question_two_hop_statement']
+The topic of [religion project 2(Project[2])] is [decision trees]
+I submitted [religion project 2(Project[2])]
+The deadline of [this assignment(Project[2])] is [March 19]
+[that assignment(Project[2])] is worth [48] points
+When is [this project(Project[2])] due?	'March 19'	['question_type_local']
+The deadline of [religion homework 1(Homework[3])] moved to [March 18]
+The deadline of [this project(Project[2])] moved to [March 20]
+[biology project 3(Project[13])] is released for [biology(Course[2])]
+[biology project 3(Project[13])] is about [vc dimension]
+I submitted [biology project 3(Project[13])]
+[that project(Project[13])] is due on [April 10]
+there is a new [project(Project[14])] for [biology(Course[2])]
+The topic of [biology project 4(Project[14])] is [deep learning]
+[this project(Project[14])] is [68] points
+I submitted [this project(Project[14])] and received 68 points
+[this project(Project[14])] is due on [April 02]
+show me all homeworks i submitted for [Tom]	'biology homework 1(Homework[9])'	['question_type_global', 'question_three_hop_statement']
+which projects are due on [March 26]?	'religion project 3(Project[5])'	['question_type_global', 'question_two_hop_statement']
+When is the deadline of [religion homework 3(Homework[10])]?	'April 16'	['question_type_local']
+how many points is [this assignment(Project[14])]?	68	['question_type_local']
+show me all late assignments i submitted for [Milagros]	'religion project 1(Project[1])', 'religion project 3(Project[5])'	['question_type_global', 'question_three_hop_statement']
+what assignments did i submit late for [Milagros]?	'religion project 1(Project[1])', 'religion project 3(Project[5])'	['question_type_global', 'question_three_hop_statement']
+what did I get on [that project(Project[14])]?	68	['question_type_local']
+How many points did I get on [this project(Project[14])]	68	['question_type_local']
+there is a new [homework(Homework[15])] for [biology(Course[2])]
+[this homework(Homework[15])] is worth [75] points
+I submitted [biology homework 2(Homework[15])] on time and received 75 points
+what are the late projects that i submitted for [Milagros]	'religion project 1(Project[1])', 'religion project 3(Project[5])'	['question_type_global', 'question_three_hop_statement']
+list assignments that are due on [April 10]	'biology project 3(Project[13])'	['question_type_global', 'question_two_hop_statement']
+The deadline of [this homework(Homework[15])] is [March 19]
+[spanish(Course[3])] has a new [spanish homework 1(Homework[16])] out
+there is new [biology project 5(Project[17])] for [biology(Course[2])]
+[that homework(Homework[16])] is worth [48] points
+The deadline of [that project(Project[17])] is [May 04]
+[biology project 5(Project[17])] is [30] points
+which projects are due after [March 24]?	'religion project 3(Project[5])', 'biology project 3(Project[13])', 'biology project 4(Project[14])', 'biology project 5(Project[17])'	['question_type_global', 'question_two_hop_statement']
+I submitted [that assignment(Project[17])] and received 2 points
+there is new [religion homework 4(Homework[18])] for [religion(Course[1])]
+The deadline of [that homework(Homework[18])] is [April 18]
+[that assignment(Homework[18])] is [92] points
+What is [religion project 2(Project[2])] on?	'decision trees'	['question_type_local']
+show me the projects due on [April 02]	'biology project 4(Project[14])'	['question_type_global', 'question_two_hop_statement']
+I submitted [that assignment(Homework[18])] late and received 58 points
+[biology project 6(Project[19])] is out for [biology(Course[2])]
+[religion(Course[1])] has a new [religion homework 5(Homework[20])] released
+I submitted [this homework(Homework[20])]
+[religion homework 5(Homework[20])] is worth [48] points
+The deadline of [that assignment(Homework[20])] is [May 04]
+[religion(Course[1])] has a new [religion project 5(Project[21])] out
+show me all late assignments i submitted for [Milagros]	'religion project 1(Project[1])', 'religion project 3(Project[5])', 'religion homework 4(Homework[18])'	['question_type_global', 'question_three_hop_statement']
+I submitted [religion project 4(Project[6])] on time
+[religion project 4(Project[6])] is due on [April 30]
+[this assignment(Project[6])] is worth [39] points
+there is new [religion project 6(Project[22])] for [religion(Course[1])]
+what are all the projects due for [Jack]?	'spanish project 1(Project[7])', 'spanish project 2(Project[8])'	['question_type_global', 'question_three_hop_statement']
+[religion project 6(Project[22])] is worth [22] points
+I submitted [religion project 6(Project[22])] and received 11 points
+[that assignment(Project[22])] is due on [April 16]
+When is [biology project 1(Project[11])] due?	'March 12'	['question_type_local']
+[spanish project 3(Project[23])] is released for [spanish(Course[3])]
+The deadline of [spanish project 3(Project[23])] is [April 16]
+[spanish project 3(Project[23])] is worth [76] points

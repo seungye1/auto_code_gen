@@ -1,0 +1,106 @@
+[Alverta] is a [student]
+[this person]'s major is [economics]
+[this person]'s affiliation is [Coolidge College]
+there is a [student] named [Andrew]
+[she] is not a friend
+Which university is [Alverta] affiliated with?	'Coolidge College'	['question_type_local']
+Change major of [Alverta] to [food science]
+create a new [meeting]
+there is a [meeting] [to discuss future plans]
+create a [person] named [Genevive]
+[this person] will attend [this meeting]
+there is a [person] named [Milagros]
+[Milagros]'s affiliation is [Hillman College]
+[she] is not a friend
+there is a [student] named [Isaiah]
+[this student] is not a friend
+[Isaiah]'s affiliation is [Barnett College]
+there is a [student] named [Vivienne]
+[Isaiah]'s major is [economics]
+What is [Isaiah]'s major	'economics'	['question_type_local']
+[Andrew]'s major is [food science]
+[Andrew] is not a friend
+[this person]'s affiliation is [Coolidge College]
+Change major of [that person] to [economics]
+Change major of [that student] to [biology]
+actually [he] is my friend
+Change major of [Andrew] to [english]
+Change major of [Isaiah] to [english]
+Change major of [Andrew] to [biology]
+Change major of [Andrew] to [english]
+[he] is not my friend
+there is a [meeting] [to practice presentations]
+Change major of [that student] to [biology]
+[he] will attend [that meeting]
+[Milagros] will attend [this meeting]
+[Vivienne] will attend [this meeting]
+[Alverta] will attend [that meeting]
+there is a [meeting] [to practice presentations]
+create a new [meeting]
+there is a [meeting] [to prepare for exams]
+[Genevive]'s affiliation is [Coolidge College]
+[Genevive] is not a friend
+there is a [meeting] [to grade papers]
+[Vivienne] will attend [that meeting]
+[this student]'s major is [economics]
+[Vivienne]'s affiliation is [Greendale Community College]
+[this student] is not a friend
+there is a [meeting] [to discuss future plans]
+actually [Andrew] is my friend
+Change major of [this person] to [economics]
+[that person] is not my friend
+there is a [meeting] [to discuss future plans]
+create a new [meeting]
+[the meeting that was last added] is [to grade papers]
+[Genevive] will attend [that meeting]
+[Isaiah] will attend [the event]
+[Vivienne] will attend [the event]
+Who is attending [the meeting with Vivienne and Andrew]	'Alverta', 'Andrew', 'Milagros', 'Vivienne'	['question_type_local']
+[Andrew] will attend [the meeting]
+there is a [meeting] [to prepare for exams]
+[Alverta] will attend [this meeting]
+[Andrew] will attend [this meeting]
+[Milagros] will attend [that meeting]
+[Genevive] will attend [this meeting]
+actually [this person] is my friend
+Who is attending [the event with Genevive and Isaiah to grade papers]	'Andrew', 'Genevive', 'Isaiah', 'Vivienne'	['question_type_local']
+there is a [meeting] [to grade papers]
+[Milagros] will attend [that meeting]
+[Alverta] will attend [that meeting]
+Change major of [this student] to [english]
+there is a [meeting] [to discuss future plans]
+[Milagros] will attend [the meeting]
+Change major of [Andrew] to [biology]
+actually [Alverta] is my friend
+actually [Vivienne] is my friend
+[Vivienne] is not my friend
+actually [Vivienne] is my friend
+Change major of [Vivienne] to [english]
+[this person] is not my friend
+actually [she] is my friend
+create a new [meeting]
+[the event] is [to discuss future plans]
+[Milagros] will attend [this meeting]
+actually [this person] is my friend
+[Milagros] is not my friend
+Who is attending [the event to grade papers with Andrew and Genevive]	'Andrew', 'Genevive', 'Isaiah', 'Vivienne'	['question_type_local']
+create a new [meeting]
+[the event] is [to grade papers]
+[Milagros] will attend [this meeting]
+[Genevive] will attend [the event]
+[Andrew] will attend [that meeting]
+[Isaiah] will attend [this meeting]
+there is a [meeting] [to prepare for exams]
+there is a [meeting] [to practice presentations]
+create a new [meeting]
+[Andrew] will attend [the meeting that was last added]
+[this meeting] is [to prepare for exams]
+[Alverta] will attend [this meeting]
+[Isaiah] will attend [this meeting]
+actually [Andrew] is my friend
+Who is attending [the event to discuss future plans with Milagros that was last added]	'Milagros'	['question_type_local']
+Change major of [Isaiah] to [food science]
+there is a [meeting] [to prepare for exams]
+Change major of [he] to [biology]
+[Genevive] will attend [that meeting]
+[Vivienne] will attend [that meeting]

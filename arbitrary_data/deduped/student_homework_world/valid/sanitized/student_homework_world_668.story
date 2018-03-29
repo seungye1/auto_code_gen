@@ -1,0 +1,178 @@
+there is a [professor] named [Isaiah]
+[Isaiah]'s department is [asian studies]
+[that person]'s email is [Isaiah@harvard.edu]
+there is a [professor] named [Angelita]
+What is [he]'s email	'Isaiah@harvard.edu'	['question_type_local']
+[she]'s email is [Angelita@cornell.edu]
+[she] is affiliated with the [asian studies] department
+change [she]'s department to [mechanical engineering]
+What is [this person]'s email	'Angelita@cornell.edu'	['question_type_local']
+I am taking a course called [government]
+[Isaiah] is the instructor for [this course]
+create a [professor] named [Luanna]
+[she]'s email is [Luanna@gmail.com]
+[this professor] is affiliated with the [asian studies] department
+What department is [Angelita] affiliated with?	'mechanical engineering'	['question_type_local']
+I am taking a [religion] course
+[Angelita] is the instructor for [that class]
+[Luanna]'s department is now [animal science]
+Who is the instructor for [government]?	'Isaiah'	['question_type_local']
+who are the professors affiliated with [animal science]?	'Luanna'	['question_type_global', 'question_two_hop_statement']
+[Angelita]'s department is now [asian studies]
+[Willis] is a [professor]
+What courses is [Isaiah] teaching?	'government'	['question_type_local']
+[Willis] is affiliated with the [mechanical engineering] department
+[he]'s email is [Willis@harvard.edu]
+there is a new [project] for [government]
+The topic of [that assignment] is [The Environment]
+I submitted [this assignment] on time
+change [Isaiah]'s department to [mechanical engineering]
+there is new [religion project 1] for [religion]
+Who is the instructor for [religion]?	'Angelita'	['question_type_local']
+which projects did I submit for [Isaiah]?	'government project 1'	['question_type_global', 'question_three_hop_statement']
+[government project 1] is due on [March 26]
+I submitted [religion project 1] on time
+[religion project 2] is released for [religion]
+[religion project 1] is due on [March 26]
+[religion project 1] is [26] points
+The topic of [that assignment] is [Genetics]
+create a [professor] named [Andrew]
+[religion project 3] is out for [religion]
+[religion project 3] is worth [52] points
+I submitted [religion project 3] on time and received 52 points
+[religion project 3] is due on [April 13]
+[religion project 3] is now due on [April 15]
+[that assignment] is on [Molds & Fungi]
+Who is the instructor for [religion]?	'Angelita'	['question_type_local']
+When is [religion project 1] due?	'March 26'	['question_type_local']
+which projects are due after [April 14]?	'religion project 3'	['question_type_global', 'question_two_hop_statement']
+[government project 1] is [44] points
+[government] has a new [government homework 1] out
+how many points is [religion project 1]?	26	['question_type_local']
+[that homework] is due on [March 27]
+[this homework] is on [hidden markov models]
+how much did I get on [religion project 3]?	52	['question_type_local']
+show me the projects due on [March 26]	'government project 1', 'religion project 1'	['question_type_global', 'question_two_hop_statement']
+how many points is [government project 1]?	44	['question_type_local']
+I submitted [this assignment]
+[that assignment] is [52] points
+[government] has a new [government project 2] released
+The deadline of [government homework 1] moved to [March 30]
+[this project] is worth [47] points
+How many points did I get on [religion project 3]	52	['question_type_local']
+show me all assignments that i submitted for [Angelita]	'religion project 1', 'religion project 3'	['question_type_global', 'question_three_hop_statement']
+which assignments are due on [April 15]?	'religion project 3'	['question_type_global', 'question_two_hop_statement']
+I am taking a [microbiology] course
+The topic of [that assignment] is [Viruses & other Microbes]
+[Luanna] is the instructor for [that course]
+list all assignments that i submitted for [Angelita]	'religion project 1', 'religion project 3'	['question_type_global', 'question_three_hop_statement']
+list homeworks that are due on [March 30]	'government homework 1'	['question_type_global', 'question_two_hop_statement']
+what are the assignments that i submitted for [Angelita]	'religion project 1', 'religion project 3'	['question_type_global', 'question_three_hop_statement']
+how many points is [government project 1]?	44	['question_type_local']
+Which professor is teaching [that class]?	'Luanna'	['question_type_local']
+Who is the instructor for [government]?	'Isaiah'	['question_type_local']
+I am taking a course called [business communication]
+how much did I get on [religion project 3]?	52	['question_type_local']
+[business communication] is taught by [Willis]
+what assignments do I have to do for [Isaiah]?	'government project 1', 'government homework 1', 'government project 2'	['question_type_global', 'question_three_hop_statement']
+When is [religion project 3] due?	'April 15'	['question_type_local']
+what are all the projects due for [Isaiah]?	'government project 1', 'government project 2'	['question_type_global', 'question_three_hop_statement']
+which homeworks are due before [April 16]?	'government homework 1'	['question_type_global', 'question_two_hop_statement']
+which homeworks are due on [March 30]?	'government homework 1'	['question_type_global', 'question_two_hop_statement']
+which projects are due on [March 26]?	'government project 1', 'religion project 1'	['question_type_global', 'question_two_hop_statement']
+What is [religion project 3] on?	'Molds & Fungi'	['question_type_local']
+I submitted [government project 2] late and received 10 points
+The deadline of [that project] is [April 05]
+list all projects for [Angelita]	'religion project 1', 'religion project 2', 'religion project 3'	['question_type_global', 'question_three_hop_statement']
+[business communication homework 1] is out for [business communication]
+which projects did I submit for [Isaiah]?	'government project 1', 'government project 2'	['question_type_global', 'question_three_hop_statement']
+How much is [government homework 1] worth?	52	['question_type_local']
+I submitted [business communication homework 1] on time
+When is the deadline of [government project 2]?	'April 05'	['question_type_local']
+The deadline of [this homework] is [March 27]
+What courses is [Angelita] teaching?	'religion'	['question_type_local']
+[business communication homework 1] is on [reinforcement learning]
+When is [business communication homework 1] due?	'March 27'	['question_type_local']
+show me the assignments due on [March 26]	'government project 1', 'religion project 1'	['question_type_global', 'question_two_hop_statement']
+[that assignment] is [30] points
+[religion] has a new [religion project 4] released
+How much is [government homework 1] worth?	52	['question_type_local']
+[that project] is on [nearest neighbor algorithm]
+[that project] is worth [54] points
+The deadline of [that assignment] is [April 11]
+I submitted [religion project 4] and received 13 points
+show me the assignments due on [March 27]	'business communication homework 1'	['question_type_global', 'question_two_hop_statement']
+How many points did I get on [this project]	13	['question_type_local']
+The deadline of [that assignment] moved to [April 14]
+how many points did I receive on [government project 2]?	10	['question_type_local']
+[religion homework 1] is out for [religion]
+[that homework] is [46] points
+The deadline of [religion homework 1] is [March 27]
+[religion homework 1] is about [Cells]
+What is the topic of [religion project 1]?	'Genetics'	['question_type_local']
+I submitted [that assignment] and received 46 points
+show me the assignments due on [April 05]	'government project 2'	['question_type_global', 'question_two_hop_statement']
+Which professor is teaching [religion]?	'Angelita'	['question_type_local']
+[this homework] is now due on [March 24]
+[religion project 5] is out for [religion]
+[this project] is about [neural networks]
+I submitted [that assignment]
+What is the topic of [religion project 4]?	'nearest neighbor algorithm'	['question_type_local']
+list homeworks that are due on [March 24]	'religion homework 1'	['question_type_global', 'question_two_hop_statement']
+[that assignment] is [87] points
+[that assignment] is due on [May 03]
+there is a new [project] for [business communication]
+How many points is [business communication homework 1] worth?	30	['question_type_local']
+How many points is [religion project 3] worth?	52	['question_type_local']
+[microbiology] has a new [microbiology homework 1] released
+[that homework] is due on [March 27]
+I submitted [microbiology homework 1] on time
+how many points is [religion project 3]?	52	['question_type_local']
+[that homework] is [14] points
+which assignments are due after [March 26]?	'religion project 3', 'government homework 1', 'government project 2', 'business communication homework 1', 'religion project 4', 'religion project 5', 'microbiology homework 1'	['question_type_global', 'question_two_hop_statement']
+how many points is [religion project 1]?	26	['question_type_local']
+show me the homeworks due on [March 24]	'religion homework 1'	['question_type_global', 'question_two_hop_statement']
+there is a new [project] for [business communication]
+I submitted [business communication project 2]
+[that assignment] is [70] points
+The deadline of [that assignment] is [April 03]
+How many points did I get on [religion project 3]	52	['question_type_local']
+How many points is [religion project 5] worth?	87	['question_type_local']
+[microbiology project 1] is released for [microbiology]
+[microbiology project 1] is worth [26] points
+what are the homeworks that i submitted for [Angelita]	'religion homework 1'	['question_type_global', 'question_three_hop_statement']
+I submitted [this project] late and received 26 points
+[that project] is due on [March 25]
+how many points did I receive on [that assignment]?	26	['question_type_local']
+[microbiology project 1] is now due on [March 25]
+How much is [government homework 1] worth?	52	['question_type_local']
+which projects are due after [March 26]?	'religion project 3', 'government project 2', 'religion project 4', 'religion project 5', 'business communication project 2'	['question_type_global', 'question_two_hop_statement']
+[government] has a new [government project 3] out
+I submitted [government project 3]
+The deadline of [that assignment] is [April 10]
+how many points is [business communication project 2]?	70	['question_type_local']
+which homeworks did I submit for [Isaiah]?	'government homework 1'	['question_type_global', 'question_three_hop_statement']
+[business communication homework 2] is released for [business communication]
+[this project] is worth [69] points
+Which professor is teaching [microbiology]?	'Luanna'	['question_type_local']
+what are the projects that i submitted for [Isaiah]	'government project 1', 'government project 2', 'government project 3'	['question_type_global', 'question_three_hop_statement']
+The deadline of [this project] moved to [April 12]
+When is the deadline of [religion project 5]?	'May 03'	['question_type_local']
+How many points did I get on [religion project 4]	13	['question_type_local']
+show me all projects i submitted for [Willis]	'business communication project 2'	['question_type_global', 'question_three_hop_statement']
+list assignments that are due on [May 03]	'religion project 5'	['question_type_global', 'question_two_hop_statement']
+which projects are due on [March 25]?	'microbiology project 1'	['question_type_global', 'question_two_hop_statement']
+show me the assignments due on [March 25]	'microbiology project 1'	['question_type_global', 'question_two_hop_statement']
+[this project] is now due on [April 12]
+Which professor is teaching [government]?	'Isaiah'	['question_type_local']
+how much did I get on [microbiology project 1]?	26	['question_type_local']
+there is new [religion project 6] for [religion]
+there is a new [homework] for [business communication]
+[religion project 6] is due on [May 07]
+What is the topic of [business communication homework 1]?	'reinforcement learning'	['question_type_local']
+which projects did I submit for [Luanna]?	'microbiology project 1'	['question_type_global', 'question_three_hop_statement']
+[that project] is worth [14] points
+I submitted [that project] and received 14 points
+When is [business communication project 2] due?	'April 03'	['question_type_local']
+what are the projects that i submitted for [Willis]	'business communication project 2'	['question_type_global', 'question_three_hop_statement']
+which assignments are due after [April 16]?	'religion project 5', 'religion project 6'	['question_type_global', 'question_two_hop_statement']

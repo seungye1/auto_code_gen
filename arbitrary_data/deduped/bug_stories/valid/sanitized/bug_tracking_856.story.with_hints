@@ -1,0 +1,111 @@
+there is a new [corporate] [chatbot(Project[1])] [project]
+[it(Project[1])] is currently in the [maintenance] stage
+[this project(Project[1])] is in the stage of [implementation]
+[Milagros(Tester[1])] is a [tester] on [chatbot project(Project[1])]
+there is a new [open source] [mobile(Project[2])] [project]
+[this project(Project[2])] is in the stage of [maintenance]
+there is a new [open source] [knowledge base(Project[3])] [project]
+[Milagros(Tester[1])] is working on [knowledge base project(Project[3])] also
+[that project(Project[3])] is in the stage of [implementation]
+[it(Project[3])] is in the [development] stage
+[Milagros(Tester[1])] is working on [mobile project(Project[2])] also
+[Jack(Tester[2])] is a [tester] on [that project(Project[2])]
+[this person(Tester[2])] is working on [knowledge base project(Project[3])] also
+[Yoshiko(Developer[3])] is a [developer]
+[knowledge base project(Project[3])] is assigned to [that person(Developer[3])]
+[mobile project(Project[2])] is assigned to [that person(Developer[3])] also
+[this project(Project[2])] is in the stage of [implementation]
+[memory leak bug] is a new [enhancement] submitted by [Jack(Tester[2])] for [mobile project(Project[2])]
+[Tereasa(Tester[4])] is a [tester]
+[it(Issue[1])] is assigned to [Milagros(Tester[1])]
+[that test engineer(Tester[1])] resolved [it(Issue[1])]
+[Yoshiko(Developer[3])] created a new issue for [knowledge base project(Project[3])]: [wrong pos tag on consecutive words]
+[this issue(Issue[2])] was assigned to [Milagros(Tester[1])]
+[mobile project(Project[2])] has moved to the [maintenance] stage
+[Yoshiko(Developer[3])] created a new [task] for [this project(Project[2])]: [xml extractor exception]
+[Milagros(Tester[1])] resolved [the wrong pos tag on consecutive words issue(Issue[2])]
+[Jack(Tester[2])] created a new [enhancement] for [knowledge base project(Project[3])]: [two consecutive dates identified as single date]
+[this issue(Issue[4])] is assigned to [Milagros(Tester[1])]
+[this tester(Tester[1])] resolved [the issue(Issue[4])]
+There is a new issue for the [mobile project(Project[2])]: [tokenization not consistent across platforms]
+[mobile project(Project[2])] is not assigned to [this person(Tester[1])]
+[she(Tester[1])] is not working on [knowledge base project(Project[3])] anymore
+[this test engineer(Tester[1])] is assigned to [mobile project(Project[2])] also
+[this person(Tester[1])] submitted a new [bug] for [chatbot project(Project[1])]: [parsing with parantheses fails]
+[the parsing with parantheses fails bug(Issue[6])] is assigned to [Milagros(Tester[1])]
+[that person(Tester[1])] is assigned to [knowledge base project(Project[3])] also
+Are there any issues submitted by [Yoshiko(Developer[3])] that are not resolved?	'xml extractor exception(Issue[3])'	['question_type_local']
+[this person(Tester[1])] created a new issue for [chatbot project(Project[1])]: [minified version fails]
+[Andy(Tester[5])] is a [tester]
+[the issue(Issue[7])] is assigned to [Milagros(Tester[1])]
+[this person(Tester[1])] resolved [the issue(Issue[7])]
+[Milagros(Tester[1])] submitted a new [proposal] for [chatbot project(Project[1])]: [initialization broken]
+[knowledge base project(Project[3])] is assigned to [Andy(Tester[5])]
+[the xml extractor exception task(Issue[3])] was assigned to [Yoshiko(Developer[3])]
+[that developer(Developer[3])] resolved [this issue(Issue[3])]
+[chatbot project(Project[1])] is assigned to [Yoshiko(Developer[3])] also
+[she(Developer[3])] is not working on [mobile project(Project[2])] anymore
+[this person(Developer[3])] is assigned to [mobile project(Project[2])] also
+[Andy(Tester[5])] created a new [proposal] for [knowledge base project(Project[3])]: [parse example terribly slow]
+[the issue(Issue[9])] was assigned to [Yoshiko(Developer[3])]
+Who submitted [the initialization broken proposal(Issue[8])]?	'Milagros(Tester[1])'	['question_type_local']
+[that developer(Developer[3])] resolved [that issue(Issue[9])]
+[Andy(Tester[5])] is working on [chatbot project(Project[1])] also
+[this tester(Tester[5])] is working on [mobile project(Project[2])] also
+[this project(Project[2])] is in the [implementation] stage
+[Jack(Tester[2])] created a new issue for [this project(Project[2])]: [timeout problem]
+[that project(Project[2])] is in the [maintenance] stage
+[this issue(Issue[10])] was assigned to [Jack(Tester[2])]
+[chatbot project(Project[1])] is assigned to [he(Tester[2])] also
+[mobile project(Project[2])] is now in the [implementation] stage
+[Jack(Tester[2])] resolved [the timeout problem issue(Issue[10])]
+Were there any issues submitted by [that test engineer(Tester[2])]?	'memory leak bug(Issue[1])', 'two consecutive dates identified as single date(Issue[4])', 'timeout problem(Issue[10])'	['question_type_local']
+[the tokenization not consistent across platforms issue(Issue[5])] was assigned to [Milagros(Tester[1])]
+[this person(Tester[1])] resolved [the issue(Issue[5])]
+[the initialization broken proposal(Issue[8])] is assigned to [Andy(Tester[5])]
+[that person(Tester[5])] resolved [the initialization broken proposal(Issue[8])]
+[mobile project(Project[2])] is not assigned to [Yoshiko(Developer[3])]
+[it(Project[2])] is assigned to [she(Developer[3])] also
+[Tereasa(Tester[4])] is assigned to [that project(Project[2])]
+[Yoshiko(Developer[3])] is no longer assigned to [mobile project(Project[2])]
+[this project(Project[2])] is assigned to [this person(Developer[3])] also
+Who is [the parsing with parantheses fails issue(Issue[6])] assigned to?	'Milagros(Tester[1])'	['question_type_local']
+[knowledge base project(Project[3])] is assigned to [Tereasa(Tester[4])] also
+[that test engineer(Tester[4])] is assigned to [chatbot project(Project[1])] also
+[it(Project[1])] has moved to the [maintenance] stage
+Who submitted [the timeout problem issue(Issue[10])]?	'Jack(Tester[2])'	['question_type_local']
+[it(Project[1])] has moved to the [development] stage
+Were there any issues created by [Andy(Tester[5])]?	'parse example terribly slow(Issue[9])'	['question_type_local']
+[that project(Project[1])] has moved to the [maintenance] stage
+[this project(Project[1])] is in the [development] stage
+[mobile project(Project[2])] has moved to the [development] stage
+[chatbot project(Project[1])] is now in the [maintenance] stage
+[mobile project(Project[2])] has moved to the [implementation] stage
+Who was [the memory leak bug enhancement(Issue[1])] assigned to?	'Milagros(Tester[1])'	['question_type_local']
+Who submitted [the timeout problem issue(Issue[10])]?	'Jack(Tester[2])'	['question_type_local']
+[mobile project(Project[2])] has moved to the [maintenance] stage
+[it(Project[2])] is not assigned to [Yoshiko(Developer[3])]
+[she(Developer[3])] is assigned to [mobile project(Project[2])] also
+[knowledge base project(Project[3])] is in the stage of [maintenance]
+[mobile project(Project[2])] is in the [development] stage
+[Jack(Tester[2])] is not working on [mobile project(Project[2])] anymore
+[that test engineer(Tester[2])] is working on [it(Project[2])] also
+[knowledge base project(Project[3])] is not assigned to [Jack(Tester[2])]
+[that person(Tester[2])] is working on [it(Project[3])] also
+[mobile project(Project[2])] is not assigned to [Jack(Tester[2])]
+Who created [the two consecutive dates identified as single date enhancement(Issue[4])]?	'Jack(Tester[2])'	['question_type_local']
+[this person(Tester[2])] is working on [it(Project[2])] also
+Were there any issues assigned to [Jack(Tester[2])]?	'timeout problem(Issue[10])'	['question_type_local']
+[mobile project(Project[2])] is in the stage of [implementation]
+[that project(Project[2])] is in the [development] stage
+[it(Project[2])] is now in the [implementation] stage
+[chatbot project(Project[1])] is in the [development] stage
+[mobile project(Project[2])] has moved to the [development] stage
+[mobile project(Project[2])] is in the [maintenance] stage
+[that project(Project[2])] is in the [development] stage
+[it(Project[2])] is in the [implementation] stage
+[this project(Project[2])] is in the stage of [maintenance]
+[that project(Project[2])] has moved to the [implementation] stage
+[mobile project(Project[2])] is now in the [development] stage
+What are the issues assigned to [Jack(Tester[2])]?	'timeout problem(Issue[10])'	['question_type_local']
+[it(Project[2])] has moved to the [maintenance] stage

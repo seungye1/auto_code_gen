@@ -1,0 +1,162 @@
+there is a [professor] named [Racquel(Professor[1])]
+[Racquel(Professor[1])]'s email is [Racquel@chk.ru]
+What is [that person(Professor[1])]'s email	'Racquel@chk.ru'	['question_type_local']
+[Marisela(Professor[2])] is a [professor]
+[Marisela(Professor[2])]'s email is [Marisela@yahoo.com]
+create a [professor] named [Emma(Professor[3])]
+[Emma(Professor[3])]'s email is [Emma@cmu.edu]
+What is [this person(Professor[3])]'s email	'Emma@cmu.edu'	['question_type_local']
+What is [that professor(Professor[3])]'s email	'Emma@cmu.edu'	['question_type_local']
+[Alejandra(Professor[4])] is a [professor]
+[Alejandra(Professor[4])]'s email is [Alejandra@yahoo.com]
+I am taking a [business communication(Course[1])] course
+[Marisela(Professor[2])] is the instructor for [that course(Course[1])]
+there is new [business communication homework 1(Homework[1])] for [that course(Course[1])]
+[Yoshiko(Professor[5])] is a [professor]
+[business communication homework 1(Homework[1])] is worth [69] points
+[this professor(Professor[5])]'s email is [Yoshiko@gmail.com]
+[Lucio(Professor[6])] is a [professor]
+[Lucio(Professor[6])]'s email is [Lucio@harvard.edu]
+there is a new [homework(Homework[2])] for [business communication(Course[1])]
+[that homework(Homework[2])] is due on [May 29]
+I am taking a course called [english composition(Course[2])]
+[Yoshiko(Professor[5])] is the instructor for [english composition(Course[2])]
+I am taking a course called [government(Course[3])]
+[business communication homework 2(Homework[2])] is now due on [May 31]
+I submitted [this assignment(Homework[2])]
+[that assignment(Homework[2])] is worth [32] points
+[that assignment(Homework[2])] is about [Cloning]
+list all homeworks for [Marisela]	'business communication homework 1(Homework[1])', 'business communication homework 2(Homework[2])'	['question_type_global', 'question_three_hop_statement']
+there is new [government homework 1(Homework[3])] for [government(Course[3])]
+I submitted [government homework 1(Homework[3])]
+The deadline of [this homework(Homework[3])] is [May 13]
+[this assignment(Homework[3])] is on [grammar induction]
+[government homework 1(Homework[3])] is now due on [May 10]
+I am taking a course called [spanish(Course[4])]
+[Racquel(Professor[1])] is the instructor for [spanish(Course[4])]
+Which professor is teaching [english composition(Course[2])]?	'Yoshiko(Professor[5])'	['question_type_local']
+I am taking a course called [sociology(Course[5])]
+[Lucio(Professor[6])] is the instructor for [that class(Course[5])]
+which homeworks are due before [June 03]?	'business communication homework 2(Homework[2])', 'government homework 1(Homework[3])'	['question_type_global', 'question_two_hop_statement']
+[business communication project 1(Project[4])] is released for [business communication(Course[1])]
+The deadline of [this project(Project[4])] is [May 15]
+[this assignment(Project[4])] is worth [84] points
+[that assignment(Project[4])] is on [Animals]
+When is the deadline of [that assignment(Project[4])]?	'May 15'	['question_type_local']
+I submitted [this project(Project[4])] and received 84 points
+what are the homeworks that i submitted for [Marisela]	'business communication homework 2(Homework[2])'	['question_type_global', 'question_three_hop_statement']
+which homeworks are due after [May 17]?	'business communication homework 2(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+which assignments did I submit for [Marisela]?	'business communication homework 2(Homework[2])', 'business communication project 1(Project[4])'	['question_type_global', 'question_three_hop_statement']
+which projects are due after [May 12]?	'business communication project 1(Project[4])'	['question_type_global', 'question_two_hop_statement']
+[this project(Project[4])] is now due on [May 16]
+What is [this assignment(Project[4])] on?	'Animals'	['question_type_local']
+[government(Course[3])] is taught by [Emma(Professor[3])]
+Who is teaching [spanish(Course[4])]?	'Racquel(Professor[1])'	['question_type_local']
+there is new [government homework 2(Homework[5])] for [that class(Course[3])]
+[this assignment(Homework[5])] is on [Plants]
+[government homework 2(Homework[5])] is due on [May 27]
+[government homework 2(Homework[5])] is [20] points
+which homeworks are due on [May 31]?	'business communication homework 2(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+I submitted [this homework(Homework[5])] and received 20 points
+there is a new [project(Project[6])] for [business communication(Course[1])]
+What is [business communication project 1(Project[4])] on?	'Animals'	['question_type_local']
+[that project(Project[6])] is due on [May 17]
+Who is the instructor for [government(Course[3])]?	'Emma(Professor[3])'	['question_type_local']
+[this project(Project[6])] is [55] points
+I submitted [this assignment(Project[6])] on time and received 55 points
+[english composition homework 1(Homework[7])] is out for [english composition(Course[2])]
+[that homework(Homework[7])] is on [Cells]
+What courses is [Yoshiko(Professor[5])] teaching?	'english composition(Course[2])'	['question_type_local']
+which assignments are due on [May 17]?	'business communication project 2(Project[6])'	['question_type_global', 'question_two_hop_statement']
+what are all the assignments due for [Emma]?	'government homework 1(Homework[3])', 'government homework 2(Homework[5])'	['question_type_global', 'question_three_hop_statement']
+[that homework(Homework[7])] is [39] points
+I submitted [that assignment(Homework[7])] and received 39 points
+list assignments that are due on [May 27]	'government homework 2(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+there is a new [project(Project[8])] for [government(Course[3])]
+[this project(Project[8])] is due on [May 14]
+[that project(Project[8])] is [14] points
+The topic of [that assignment(Project[8])] is [expectation maximization]
+which homeworks are due after [May 16]?	'business communication homework 2(Homework[2])', 'government homework 2(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+[government project 2(Project[9])] is out for [government(Course[3])]
+I submitted [government project 2(Project[9])]
+The deadline of [this project(Project[9])] is [May 21]
+[business communication project 3(Project[10])] is released for [business communication(Course[1])]
+I submitted [business communication project 3(Project[10])]
+there is new [business communication homework 3(Homework[11])] for [business communication(Course[1])]
+[this homework(Homework[11])] is due on [June 08]
+[that assignment(Homework[11])] is worth [65] points
+what homeworks did i submit for [Marisela]?	'business communication homework 2(Homework[2])'	['question_type_global', 'question_three_hop_statement']
+what are all the homeworks due for [Marisela]?	'business communication homework 1(Homework[1])', 'business communication homework 2(Homework[2])', 'business communication homework 3(Homework[11])'	['question_type_global', 'question_three_hop_statement']
+which homeworks are due on [May 31]?	'business communication homework 2(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+what are the projects that i submitted for [Marisela]	'business communication project 1(Project[4])', 'business communication project 2(Project[6])', 'business communication project 3(Project[10])'	['question_type_global', 'question_three_hop_statement']
+[this homework(Homework[11])] is now due on [June 08]
+I submitted [that assignment(Homework[11])] on time and received 27 points
+what projects did i submit for [Marisela]?	'business communication project 1(Project[4])', 'business communication project 2(Project[6])', 'business communication project 3(Project[10])'	['question_type_global', 'question_three_hop_statement']
+Who is teaching [government(Course[3])]?	'Emma(Professor[3])'	['question_type_local']
+list all homeworks that i submitted for [Yoshiko]	'english composition homework 1(Homework[7])'	['question_type_global', 'question_three_hop_statement']
+what homeworks do I have to do for [Yoshiko]?	'english composition homework 1(Homework[7])'	['question_type_global', 'question_three_hop_statement']
+list all assignments for [Emma]	'government homework 1(Homework[3])', 'government homework 2(Homework[5])', 'government project 1(Project[8])', 'government project 2(Project[9])'	['question_type_global', 'question_three_hop_statement']
+which homeworks are due after [June 07]?	'business communication homework 3(Homework[11])'	['question_type_global', 'question_two_hop_statement']
+list assignments that are due on [May 14]	'government project 1(Project[8])'	['question_type_global', 'question_two_hop_statement']
+[english composition(Course[2])] has a new [english composition homework 2(Homework[12])] released
+The deadline of [business communication homework 3(Homework[11])] moved to [June 10]
+What is [government homework 1(Homework[3])] on?	'grammar induction'	['question_type_local']
+list assignments that are due on [May 21]	'government project 2(Project[9])'	['question_type_global', 'question_two_hop_statement']
+I submitted [business communication homework 1(Homework[1])] and received 69 points
+The deadline of [business communication homework 1(Homework[1])] is [May 13]
+How many points is [business communication homework 3(Homework[11])] worth?	65	['question_type_local']
+[spanish project 1(Project[13])] is out for [spanish(Course[4])]
+I submitted [spanish project 1(Project[13])] late
+[that assignment(Project[13])] is due on [May 11]
+When is the deadline of [business communication project 2(Project[6])]?	'May 17'	['question_type_local']
+which assignments are due on [May 27]?	'government homework 2(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+[english composition(Course[2])] has a new [english composition project 1(Project[14])] released
+[spanish project 1(Project[13])] is worth [28] points
+[english composition(Course[2])] has a new [english composition project 2(Project[15])] released
+The deadline of [english composition homework 1(Homework[7])] is [May 14]
+[business communication project 4(Project[16])] is released for [business communication(Course[1])]
+The deadline of [that project(Project[16])] is [June 12]
+[that assignment(Project[16])] is worth [21] points
+I submitted [that project(Project[16])] and received 21 points
+what are all the homeworks due for [Marisela]?	'business communication homework 1(Homework[1])', 'business communication homework 2(Homework[2])', 'business communication homework 3(Homework[11])'	['question_type_global', 'question_three_hop_statement']
+How much is [business communication homework 3(Homework[11])] worth?	65	['question_type_local']
+[sociology(Course[5])] has a new [sociology project 1(Project[17])] released
+how many points is [business communication homework 2(Homework[2])]?	32	['question_type_local']
+list all assignments that i submitted for [Marisela]	'business communication homework 1(Homework[1])', 'business communication homework 2(Homework[2])', 'business communication project 1(Project[4])', 'business communication project 2(Project[6])', 'business communication project 3(Project[10])', 'business communication homework 3(Homework[11])', 'business communication project 4(Project[16])'	['question_type_global', 'question_three_hop_statement']
+[sociology project 1(Project[17])] is [70] points
+I submitted [that project(Project[17])] and received 70 points
+[that assignment(Project[17])] is due on [May 10]
+list all homeworks that i submitted for [Yoshiko]	'english composition homework 1(Homework[7])'	['question_type_global', 'question_three_hop_statement']
+[business communication(Course[1])] has a new [business communication project 5(Project[18])] out
+[business communication project 5(Project[18])] is [32] points
+I submitted [business communication project 5(Project[18])] and received 32 points
+what did I get on [business communication homework 1(Homework[1])]?	69	['question_type_local']
+how many points is [business communication homework 2(Homework[2])]?	32	['question_type_local']
+show me the projects due on [May 14]	'government project 1(Project[8])'	['question_type_global', 'question_two_hop_statement']
+which homeworks are due after [May 21]?	'business communication homework 2(Homework[2])', 'government homework 2(Homework[5])', 'business communication homework 3(Homework[11])'	['question_type_global', 'question_two_hop_statement']
+The deadline of [that project(Project[18])] is [July 12]
+How many points is [government homework 2(Homework[5])] worth?	20	['question_type_local']
+how much did I get on [business communication project 2(Project[6])]?	55	['question_type_local']
+what projects do I have to do for [Yoshiko]?	'english composition project 1(Project[14])', 'english composition project 2(Project[15])'	['question_type_global', 'question_three_hop_statement']
+[english composition homework 3(Homework[19])] is out for [english composition(Course[2])]
+[english composition homework 3(Homework[19])] is worth [39] points
+I submitted [this homework(Homework[19])] and received 19 points
+[that assignment(Homework[19])] is due on [June 08]
+When is [business communication project 5(Project[18])] due?	'July 12'	['question_type_local']
+which assignments did I submit for [Emma]?	'government homework 1(Homework[3])', 'government homework 2(Homework[5])', 'government project 2(Project[9])'	['question_type_global', 'question_three_hop_statement']
+how many points did I receive on [english composition homework 1(Homework[7])]?	39	['question_type_local']
+how much did I get on [government homework 2(Homework[5])]?	20	['question_type_local']
+What is [business communication homework 2(Homework[2])] on?	'Cloning'	['question_type_local']
+which assignments are due after [June 07]?	'business communication homework 3(Homework[11])', 'business communication project 4(Project[16])', 'business communication project 5(Project[18])', 'english composition homework 3(Homework[19])'	['question_type_global', 'question_two_hop_statement']
+list all projects for [Emma]	'government project 1(Project[8])', 'government project 2(Project[9])'	['question_type_global', 'question_three_hop_statement']
+[spanish(Course[4])] has a new [spanish homework 1(Homework[20])] released
+list projects that are due on [May 10]	'sociology project 1(Project[17])'	['question_type_global', 'question_two_hop_statement']
+How many points is [business communication project 2(Project[6])] worth?	55	['question_type_local']
+list all projects for [Yoshiko]	'english composition project 1(Project[14])', 'english composition project 2(Project[15])'	['question_type_global', 'question_three_hop_statement']
+[government homework 1(Homework[3])] is worth [27] points
+which assignments did I submit for [Emma]?	'government homework 1(Homework[3])', 'government homework 2(Homework[5])', 'government project 2(Project[9])'	['question_type_global', 'question_three_hop_statement']
+list homeworks that are due on [May 10]	'government homework 1(Homework[3])'	['question_type_global', 'question_two_hop_statement']
+[spanish homework 1(Homework[20])] is worth [39] points
+I submitted [spanish homework 1(Homework[20])] on time and received 39 points
+How much is [business communication project 1(Project[4])] worth?	84	['question_type_local']
+The deadline of [this homework(Homework[20])] is [May 16]

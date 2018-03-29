@@ -1,0 +1,150 @@
+create a [professor] named [Lizeth(Professor[1])]
+[this person(Professor[1])]'s department is [applied physics]
+[that person(Professor[1])]'s department is now [math]
+change [this person(Professor[1])]'s department to [applied physics]
+I am taking a [spanish(Course[1])] course
+I am taking a [statistics(Course[2])] course
+[Lizeth(Professor[1])] teaches [statistics(Course[2])]
+change [that professor(Professor[1])]'s department to [math]
+[Francoise(Professor[2])] is a [professor]
+[statistics homework 1(Homework[1])] is out for [statistics(Course[2])]
+[this assignment(Homework[1])] is [17] points
+create a [professor] named [Andy(Professor[3])]
+the affiliation of [Andy(Professor[3])] is [physics]
+Which department is [Lizeth(Professor[1])] in?	'math'	['question_type_local']
+who are the professors affiliated with [None]?	'Francoise(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+What department is [he(Professor[3])] affiliated with?	'physics'	['question_type_local']
+The topic of [statistics homework 1(Homework[1])] is [unsupervised learning]
+The deadline of [statistics homework 1(Homework[1])] is [March 22]
+I submitted [that homework(Homework[1])] on time and received 1 points
+[this assignment(Homework[1])] is now due on [March 19]
+[spanish homework 1(Homework[2])] is released for [spanish(Course[1])]
+[spanish homework 1(Homework[2])] is due on [March 17]
+I submitted [this homework(Homework[2])] late
+[that homework(Homework[2])] is [29] points
+list assignments that are due on [March 19]	'statistics homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+there is new [spanish homework 2(Homework[3])] for [spanish(Course[1])]
+I submitted [spanish homework 2(Homework[3])] late
+[statistics homework 2(Homework[4])] is out for [statistics(Course[2])]
+[spanish homework 2(Homework[3])] is [82] points
+[spanish(Course[1])] has a new [spanish homework 3(Homework[5])] released
+[spanish homework 3(Homework[5])] is worth [98] points
+The topic of [this homework(Homework[5])] is [nearest neighbor algorithm]
+which assignments are due before [March 18]?	'spanish homework 1(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+[statistics homework 2(Homework[4])] is [60] points
+what did I get on [statistics homework 1(Homework[1])]?	1	['question_type_local']
+I submitted [spanish homework 3(Homework[5])] and received 71 points
+what did I get on [spanish homework 3(Homework[5])]?	71	['question_type_local']
+[spanish project 1(Project[6])] is released for [spanish(Course[1])]
+[that project(Project[6])] is worth [60] points
+[spanish project 1(Project[6])] is due on [March 20]
+show me all homeworks i submitted for [Lizeth]	'statistics homework 1(Homework[1])'	['question_type_global', 'question_three_hop_statement']
+I submitted [this project(Project[6])] and received 60 points
+how many points did I receive on [statistics homework 1(Homework[1])]?	1	['question_type_local']
+there is new [spanish project 2(Project[7])] for [spanish(Course[1])]
+[spanish project 2(Project[7])] is about [grammar induction]
+[spanish project 2(Project[7])] is worth [26] points
+I submitted [that project(Project[7])] and received 26 points
+How much is [statistics homework 2(Homework[4])] worth?	60	['question_type_local']
+which homeworks are due before [March 18]?	'spanish homework 1(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+which projects are due before [March 22]?	'spanish project 1(Project[6])'	['question_type_global', 'question_two_hop_statement']
+[spanish project 2(Project[7])] is due on [March 26]
+How many points did I get on [that assignment(Project[7])]	26	['question_type_local']
+I am taking a course called [english(Course[3])]
+[Francoise(Professor[2])] is the instructor for [that course(Course[3])]
+[that person(Professor[2])] is affiliated with the [animal science] department
+[Andy(Professor[3])] is the instructor for [spanish(Course[1])]
+[that course(Course[1])] has a new [spanish project 3(Project[8])] out
+[this assignment(Project[8])] is worth [37] points
+[spanish project 3(Project[8])] is about [bayesian models]
+How many points is [spanish homework 2(Homework[3])] worth?	82	['question_type_local']
+[this assignment(Project[8])] is due on [April 21]
+I submitted [spanish project 3(Project[8])] and received 10 points
+show me the homeworks due on [March 17]	'spanish homework 1(Homework[2])'	['question_type_global', 'question_two_hop_statement']
+[english(Course[3])] has a new [english project 1(Project[9])] out
+I submitted [english project 1(Project[9])]
+[that assignment(Project[9])] is [19] points
+how many points did I receive on [statistics homework 1(Homework[1])]?	1	['question_type_local']
+[english project 1(Project[9])] is due on [March 22]
+which homeworks are due after [March 17]?	'statistics homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+there is new [statistics project 1(Project[10])] for [statistics(Course[2])]
+The deadline of [statistics project 1(Project[10])] is [March 22]
+[that project(Project[10])] is on [k means]
+[that assignment(Project[10])] is worth [60] points
+I submitted [that project(Project[10])] and received 20 points
+how many points did I receive on [spanish homework 3(Homework[5])]?	71	['question_type_local']
+How many points did I get on [statistics homework 1(Homework[1])]	1	['question_type_local']
+what projects did i submit for [Francoise]?	'english project 1(Project[9])'	['question_type_global', 'question_three_hop_statement']
+When is [spanish project 2(Project[7])] due?	'March 26'	['question_type_local']
+The deadline of [that assignment(Project[10])] moved to [March 22]
+what are the late homeworks that i submitted for [Andy]	'spanish homework 1(Homework[2])', 'spanish homework 2(Homework[3])'	['question_type_global', 'question_three_hop_statement']
+The deadline of [that project(Project[10])] moved to [March 20]
+When is [spanish project 3(Project[8])] due?	'April 21'	['question_type_local']
+what assignments did i submit late for [Andy]?	'spanish homework 1(Homework[2])', 'spanish homework 2(Homework[3])'	['question_type_global', 'question_three_hop_statement']
+there is a [professor] named [Danita(Professor[4])]
+show me the homeworks due on [March 19]	'statistics homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+create a [professor] named [Hanna(Professor[5])]
+[Danita(Professor[4])]'s department is [history]
+[Hanna(Professor[5])]'s department is [applied physics]
+What department is [Hanna(Professor[5])] affiliated with?	'applied physics'	['question_type_local']
+which homeworks are due after [March 17]?	'statistics homework 1(Homework[1])'	['question_type_global', 'question_two_hop_statement']
+The topic of [english project 1(Project[9])] is [supervised learning]
+what are all the assignments due for [Francoise]?	'english project 1(Project[9])'	['question_type_global', 'question_three_hop_statement']
+[statistics homework 3(Homework[11])] is released for [statistics(Course[2])]
+[spanish(Course[1])] has a new [spanish homework 4(Homework[12])] out
+[statistics homework 3(Homework[11])] is due on [April 21]
+When is [statistics project 1(Project[10])] due?	'March 20'	['question_type_local']
+I submitted [statistics homework 3(Homework[11])]
+[this homework(Homework[11])] is about [Genetics]
+[that assignment(Homework[11])] is [62] points
+which projects are due after [March 27]?	'spanish project 3(Project[8])'	['question_type_global', 'question_two_hop_statement']
+[statistics(Course[2])] has a new [statistics homework 4(Homework[13])] out
+[statistics homework 4(Homework[13])] is worth [79] points
+[that homework(Homework[13])] is due on [April 27]
+list projects that are due on [March 26]	'spanish project 2(Project[7])'	['question_type_global', 'question_two_hop_statement']
+I submitted [this homework(Homework[13])] and received 6 points
+When is the deadline of [statistics project 1(Project[10])]?	'March 20'	['question_type_local']
+[spanish homework 3(Homework[5])] is due on [April 21]
+How many points did I get on [statistics homework 1(Homework[1])]	1	['question_type_local']
+When is [spanish homework 1(Homework[2])] due?	'March 17'	['question_type_local']
+which professors are in the [history] department?	'Danita(Professor[4])'	['question_type_global', 'question_two_hop_statement']
+[statistics project 2(Project[14])] is released for [statistics(Course[2])]
+The deadline of [this project(Project[14])] is [April 01]
+I submitted [that project(Project[14])]
+how many points did I receive on [statistics homework 1(Homework[1])]?	1	['question_type_local']
+[english(Course[3])] has a new [english project 2(Project[15])] out
+I submitted [english project 2(Project[15])]
+When is [statistics homework 3(Homework[11])] due?	'April 21'	['question_type_local']
+show me all projects i submitted for [Andy]	'spanish project 1(Project[6])', 'spanish project 2(Project[7])', 'spanish project 3(Project[8])'	['question_type_global', 'question_three_hop_statement']
+[this project(Project[15])] is [43] points
+[english(Course[3])] has a new [english project 3(Project[16])] out
+I submitted [statistics homework 2(Homework[4])] on time and received 18 points
+[that homework(Homework[4])] is due on [April 03]
+list assignments that are due on [April 01]	'statistics project 2(Project[14])'	['question_type_global', 'question_two_hop_statement']
+How many points did I get on [statistics project 1(Project[10])]	20	['question_type_local']
+[this assignment(Homework[4])] is now due on [April 01]
+How much is [statistics project 1(Project[10])] worth?	60	['question_type_local']
+what are all the projects due for [Andy]?	'spanish project 1(Project[6])', 'spanish project 2(Project[7])', 'spanish project 3(Project[8])'	['question_type_global', 'question_three_hop_statement']
+how many points is [spanish project 2(Project[7])]?	26	['question_type_local']
+how much did I get on [statistics homework 1(Homework[1])]?	1	['question_type_local']
+[spanish(Course[1])] has a new [spanish project 4(Project[17])] out
+The deadline of [that project(Project[17])] is [April 15]
+what did I get on [statistics project 1(Project[10])]?	20	['question_type_local']
+I submitted [english project 3(Project[16])]
+[english project 3(Project[16])] is [57] points
+[statistics homework 5(Homework[18])] is out for [statistics(Course[2])]
+The deadline of [that homework(Homework[18])] is [April 24]
+I submitted [statistics homework 5(Homework[18])] on time
+[this assignment(Homework[18])] is [93] points
+How many points is [spanish homework 3(Homework[5])] worth?	98	['question_type_local']
+how many points did I receive on [statistics homework 1(Homework[1])]?	1	['question_type_local']
+[spanish homework 5(Homework[19])] is released for [spanish(Course[1])]
+[spanish homework 5(Homework[19])] is [63] points
+The deadline of [spanish homework 5(Homework[19])] is [April 24]
+I submitted [this assignment(Homework[19])] and received 63 points
+[spanish(Course[1])] has a new [spanish project 5(Project[20])] released
+how many points did I receive on [spanish project 1(Project[6])]?	60	['question_type_local']
+which assignments did I submit for [Francoise]?	'english project 1(Project[9])', 'english project 2(Project[15])', 'english project 3(Project[16])'	['question_type_global', 'question_three_hop_statement']
+I submitted [that project(Project[20])] on time
+[this assignment(Project[20])] is [90] points
+what assignments do I have to do for [Andy]?	'spanish homework 1(Homework[2])', 'spanish homework 2(Homework[3])', 'spanish homework 3(Homework[5])', 'spanish project 1(Project[6])', 'spanish project 2(Project[7])', 'spanish project 3(Project[8])', 'spanish homework 4(Homework[12])', 'spanish project 4(Project[17])', 'spanish homework 5(Homework[19])', 'spanish project 5(Project[20])'	['question_type_global', 'question_three_hop_statement']

@@ -1,0 +1,156 @@
+create a [professor] named [Albertha(Professor[1])]
+[this professor(Professor[1])]'s department is [history]
+[this person(Professor[1])] is on sabbatical
+[that professor(Professor[1])] conducts research in [evolutionary biology]
+[she(Professor[1])] is in [Balch Building]
+there is a masters student named [Isaiah(MastersStudent[2])]
+the affiliation of [this student(MastersStudent[2])] is [math]
+Who is in [Balch Building]	'Albertha(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [G301(Course[1])]
+there is a masters student named [Tom(MastersStudent[3])]
+[G301(Course[1])] is part of the [math] department
+[this course(Course[1])] is set up as a full semester course
+Which professors have offices in Balch Building	'Albertha(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+create a [professor] named [Rachele(Professor[4])]
+[Rachele(Professor[4])] is the instructor for [G301(Course[1])]
+[Isaiah(MastersStudent[2])] is TAing [this course(Course[1])]
+[that class(Course[1])] is a [undergraduate] course
+Which department is [G301(Course[1])] part of?	'math'	['question_type_local']
+There is a [masters] 2 unit class called [U102(Course[2])]
+Which courses are offered this semester in the math department?	'G301(Course[1])'	['question_type_global', 'question_two_hop_statement']
+Which departments are people in [Balch Building] with?	'history'	['question_type_global', 'question_two_hop_statement']
+there is a PhD student named [Alejandra(PhdStudent[5])]
+[that course(Course[2])] part of the [history] department
+[Albertha(Professor[1])] teaches [U102(Course[2])]
+[Tom(MastersStudent[3])] is TAing [that course(Course[2])]
+There is a course called [G303(Course[3])]
+the affiliation of [Tom(MastersStudent[3])] is [history]
+[Isaiah(MastersStudent[2])] and [Tom(MastersStudent[3])] are both enrolled in [G303(Course[3])]
+[Alejandra(PhdStudent[5])] is TAing [G303(Course[3])]
+What students are in the [history] department?	'Tom(MastersStudent[3])'	['question_type_global', 'question_two_hop_statement']
+There is a [phd] level 8 unit course called [G203(Course[4])]
+[that class(Course[4])] is a full semester course
+[Alejandra(PhdStudent[5])]'s office is [Clare Building]
+[that student(PhdStudent[5])] is current in [first year]
+[this person(PhdStudent[5])] has [Rachele(Professor[4])] and [Albertha(Professor[1])] on the committee
+[Alejandra(PhdStudent[5])] passed thesis proposal
+Which courses are TAed by [Isaiah(MastersStudent[2])]?	'G301(Course[1])'	['question_type_local']
+Which courses are TAed by [Tom(MastersStudent[3])]?	'U102(Course[2])'	['question_type_local']
+Where are the offices of those in the [history] department?	'Balch Building'	['question_type_global', 'question_two_hop_statement']
+[this student(PhdStudent[5])] failed their thesis defense
+Which departments are people in [Balch Building] with?	'history'	['question_type_global', 'question_two_hop_statement']
+Which courses in the history department are TAed by masters students?	'U102(Course[2])'	['question_type_global', 'question_three_hop_statement']
+Create a new course called [G201(Course[5])]
+What students are in Clare Building	'Alejandra(PhdStudent[5])'	['question_type_global', 'question_two_hop_statement']
+What are the courses that [Isaiah(MastersStudent[2])] is enrolled in?	'G303(Course[3])'	['question_type_local']
+there is a new PhD student named [Zenaida(PhdStudent[6])]
+[Zenaida(PhdStudent[6])] failed thesis proposal
+[that person(PhdStudent[6])] passed the qualifiers
+[she(PhdStudent[6])]'s office is [Duane Building]
+Create a new [undergraduate] level course called [G610(Course[6])]
+[Luanna(Professor[7])] is a [professor]
+The TA for [that class(Course[6])] is [Zenaida(PhdStudent[6])]
+[Luanna(Professor[7])] is the instructor for [this course(Course[6])]
+there is a [associate] [professor] named [Kristeen(Professor[8])]
+[Kristeen(Professor[8])]'s office is [Duane Building]
+[that professor(Professor[8])]'s research interest is [evolutionary biology]
+Which courses are TAed by [Tom(MastersStudent[3])]?	'U102(Course[2])'	['question_type_local']
+Who has an office in [Clare Building]	'Alejandra(PhdStudent[5])'	['question_type_global', 'question_two_hop_statement']
+[she(Professor[8])] is affiliated with the [electrical engineering] department
+[that person(Professor[8])] advises [Zenaida(PhdStudent[6])]
+Which students are part of the [history] department	'Tom(MastersStudent[3])'	['question_type_global', 'question_two_hop_statement']
+[this student(PhdStudent[6])] has [Albertha(Professor[1])] and [Rachele(Professor[4])] on the committee
+Who is [Zenaida(PhdStudent[6])]'s advisor?	'Kristeen'	['question_type_local']
+[Rachele(Professor[4])]'s research interest is [theory]
+There is a course called [U9000(Course[7])]
+What courses is [Zenaida(PhdStudent[6])] TAing?	'G610(Course[6])'	['question_type_local']
+[U9000(Course[7])] is a full semester course
+[biomedical engineering] offers [that class(Course[7])]
+Which courses are TAed by [Tom(MastersStudent[3])]?	'U102(Course[2])'	['question_type_local']
+there is a new [fifth year] PhD student named [Ashly(PhdStudent[9])]
+[Isaiah(MastersStudent[2])] and [Ashly(PhdStudent[9])] are taking [that class(Course[7])]
+There is a course called [G204(Course[8])]
+[this student(PhdStudent[9])] passed thesis defense
+What are the courses TAed by [Tom(MastersStudent[3])]?	'U102(Course[2])'	['question_type_local']
+there is a [professor] named [Igor(Professor[10])]
+[that professor(Professor[10])] is in [Denison Building]
+[this person(Professor[10])]'s research interest is [theory]
+What [phd] courses are taught by those in the [history] department?	'U102(Course[2])'	['question_type_global', 'question_three_hop_statement']
+[Rachele(Professor[4])] is affiliated with the [history] department
+[she(Professor[4])] is the head of the [history] department
+[that professor(Professor[4])]'s office is [Balch Building]
+[G203(Course[4])] is offered in the [electrical engineering] department
+The TA for [G203(Course[4])] is [Ashly(PhdStudent[9])]
+[Zenaida(PhdStudent[6])] has [Luanna(Professor[7])] on the committee
+Which students have offices in Duane Building	'Zenaida(PhdStudent[6])'	['question_type_global', 'question_two_hop_statement']
+create a [professor] named [Lucio(Professor[11])]
+[Lucio(Professor[11])]'s office is [Denison Building]
+[he(Professor[11])] is affiliated with the [computer science] department
+there is a masters student named [Hiram(MastersStudent[12])]
+[that professor(Professor[11])] research interest is in [reinforcement learning]
+[this professor(Professor[11])] heads the [computer science] department
+[Hiram(MastersStudent[12])] is TAing [U9000(Course[7])]
+[that course(Course[7])] is a [masters] level course
+Which students have offices in Clare Building	'Alejandra(PhdStudent[5])'	['question_type_global', 'question_two_hop_statement']
+There is a [phd] level 2 unit course called [G302(Course[9])]
+[Lucio(Professor[11])] is the instructor for [U9000(Course[7])]
+What is [Rachele(Professor[4])]'s department?	'history'	['question_type_local']
+Who is in [Duane Building]	'Zenaida(PhdStudent[6])', 'Kristeen(Professor[8])'	['question_type_global', 'question_two_hop_statement']
+Which departments are people in [Duane Building] with?	'electrical engineering'	['question_type_global', 'question_two_hop_statement']
+[Alejandra(PhdStudent[5])] is enrolled in [U102(Course[2])]
+Which department is [U102(Course[2])] part of?	'history'	['question_type_local']
+[Luanna(Professor[7])]'s research interest is [evolutionary biology]
+[Luanna(Professor[7])] is in [Lesser House]
+Who is teaching [G610(Course[6])]?	'Luanna(Professor[7])'	['question_type_local']
+Which courses are TAed by [Tom(MastersStudent[3])]?	'U102(Course[2])'	['question_type_local']
+the affiliation of [this professor(Professor[7])] is [electrical engineering]
+Which students have offices in Clare Building	'Alejandra(PhdStudent[5])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [U101(Course[10])]
+What courses is [Ashly(PhdStudent[9])] taking?	'U9000(Course[7])'	['question_type_local']
+What 2 unit courses are taught by those in the [history] department?	'G301(Course[1])', 'U102(Course[2])'	['question_type_global', 'question_three_hop_statement']
+[that class(Course[10])] is a [masters] level course
+What professors are in the [electrical engineering] department?	'Luanna(Professor[7])', 'Kristeen(Professor[8])'	['question_type_global', 'question_two_hop_statement']
+[that course(Course[10])] is taught by [Igor(Professor[10])]
+What is [Rachele(Professor[4])] working on?	'theory'	['question_type_local']
+[this professor(Professor[10])] is affiliated with the [math] department
+[that professor(Professor[10])] is now on sabbatical
+[he(Professor[10])] heads the [math] department
+Which courses in the math department are TAed by masters students?	'G301(Course[1])'	['question_type_global', 'question_three_hop_statement']
+What offices do people in the [history] department have?	'Balch Building'	['question_type_global', 'question_two_hop_statement']
+[Alejandra(PhdStudent[5])] and [Ashly(PhdStudent[9])] are [Igor(Professor[10])]'s student
+What are the courses that [Tom(MastersStudent[3])] is enrolled in?	'G303(Course[3])'	['question_type_local']
+[Alejandra(PhdStudent[5])] successfully defended their thesis
+[Ashly(PhdStudent[9])] passed thesis proposal
+[Ashly(PhdStudent[9])] has [Rachele(Professor[4])] on the committee
+What courses is [Lucio(Professor[11])] teaching?	'U9000(Course[7])'	['question_type_local']
+[that student(PhdStudent[9])] passed the qualifiers
+[Luanna(Professor[7])] and [Lucio(Professor[11])] are on [that student(PhdStudent[9])]'s committee
+What are the courses that [Tom(MastersStudent[3])] is enrolled in?	'G303(Course[3])'	['question_type_local']
+There is a course called [U601(Course[11])]
+[that course(Course[11])] is a [masters] course
+[this course(Course[11])] part of the [math] department
+There is a [phd] course called [G310(Course[12])]
+Which students are in their [first year]	'Alejandra(PhdStudent[5])'	['question_type_global', 'question_single_statement']
+Who is TAing [G301(Course[1])]?	'Isaiah(MastersStudent[2])'	['question_type_local']
+Create a new course called [U104(Course[13])]
+[G310(Course[12])] is taught by [Kristeen(Professor[8])]
+What [associate] professors advise students who passed their thesis qualifiers?	'Kristeen(Professor[8])'	['question_type_global', 'question_three_hop_statement']
+[this professor(Professor[8])] is the [electrical engineering] department head
+What is [she(Professor[8])]'s office?	'Duane Building'	['question_type_local']
+[that professor(Professor[8])] went on sabbatical
+Who has an office in [Clare Building]	'Alejandra(PhdStudent[5])'	['question_type_global', 'question_two_hop_statement']
+What [associate] professors advise students who passed their thesis qualifiers?	'Kristeen(Professor[8])'	['question_type_global', 'question_three_hop_statement']
+What courses is [that person(Professor[8])] teaching?	'G310(Course[12])'	['question_type_local']
+Which [fifth year] students's advisors are conducting research in [theory]	'Ashly(PhdStudent[9])'	['question_type_global', 'question_three_hop_statement']
+Who are [that person(Professor[8])]'s students?	'Zenaida(PhdStudent[6])'	['question_type_local']
+[this person(Professor[8])] is back from the sabbatical
+What is [Kristeen(Professor[8])] working on?	'evolutionary biology'	['question_type_local']
+Where are the offices of those in the [math] department?	'Denison Building'	['question_type_global', 'question_two_hop_statement']
+What is [Lucio(Professor[11])]'s research focus?	'reinforcement learning'	['question_type_local']
+Who does [that professor(Professor[8])] advise?	'Zenaida(PhdStudent[6])'	['question_type_local']
+Which departments are people in [Denison Building] with?	'math', 'computer science'	['question_type_global', 'question_two_hop_statement']
+What courses is [Lucio(Professor[11])] teaching?	'U9000(Course[7])'	['question_type_local']
+What [associate] professors advise students who passed their thesis qualifiers?	'Kristeen(Professor[8])'	['question_type_global', 'question_three_hop_statement']
+[that person(Professor[8])] is now on sabbatical
+What is [Lucio(Professor[11])]'s research focus?	'reinforcement learning'	['question_type_local']
+[Alejandra(PhdStudent[5])] has failed the qualifying exam

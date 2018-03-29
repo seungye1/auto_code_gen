@@ -1,0 +1,156 @@
+create a [professor] named [Britney(Professor[1])]
+[this professor(Professor[1])]'s department is [animal science]
+I am taking a course called [economics(Course[1])]
+there is a new [homework(Homework[1])] for [that course(Course[1])]
+[this course(Course[1])] is taught by [Britney(Professor[1])]
+change [this professor(Professor[1])]'s department to [mechanical engineering]
+[Yoshiko(Professor[2])] is a [professor]
+Who is the instructor for [economics(Course[1])]?	'Britney(Professor[1])'	['question_type_local']
+the affiliation of [Yoshiko(Professor[2])] is [psychology]
+[that professor(Professor[2])]'s department is now [computer science]
+What department is [Britney(Professor[1])] affiliated with?	'mechanical engineering'	['question_type_local']
+there is a [professor] named [Andy(Professor[3])]
+the affiliation of [he(Professor[3])] is [mechanical engineering]
+[Andy(Professor[3])]'s department is now [psychology]
+create a [professor] named [Lucy(Professor[4])]
+What courses is [Britney(Professor[1])] teaching?	'economics(Course[1])'	['question_type_local']
+[Lucy(Professor[4])]'s department is [animal science]
+change [Lucy(Professor[4])]'s department to [psychology]
+I am taking a [microbiology(Course[2])] course
+[Andy(Professor[3])] teaches [microbiology(Course[2])]
+which professors are in the [computer science] department?	'Yoshiko(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+change [Yoshiko(Professor[2])]'s department to [animal science]
+I am taking a [government(Course[3])] course
+[Lucy(Professor[4])] is the instructor for [this course(Course[3])]
+[microbiology(Course[2])] has a new [microbiology project 1(Project[2])] out
+[economics project 1(Project[3])] is out for [economics(Course[1])]
+I submitted [economics project 1(Project[3])]
+[this assignment(Project[3])] is due on [May 09]
+[government(Course[3])] has a new [government homework 1(Homework[4])] released
+The deadline of [government homework 1(Homework[4])] is [May 12]
+[this homework(Homework[4])] is worth [94] points
+The topic of [this homework(Homework[4])] is [nearest neighbor algorithm]
+[economics(Course[1])] has a new [economics project 2(Project[5])] out
+[that project(Project[5])] is on [vc dimension]
+[this project(Project[5])] is worth [70] points
+I submitted [that assignment(Project[5])] and received 70 points
+[that project(Project[5])] is due on [May 19]
+change [Yoshiko(Professor[2])]'s department to [psychology]
+I am taking a course called [accounting(Course[4])]
+change [she(Professor[2])]'s department to [animal science]
+Which department is [Britney(Professor[1])] in?	'mechanical engineering'	['question_type_local']
+When is [economics project 1(Project[3])] due?	'May 09'	['question_type_local']
+[government project 1(Project[6])] is out for [government(Course[3])]
+What courses is [Britney(Professor[1])] teaching?	'economics(Course[1])'	['question_type_local']
+[this project(Project[6])] is worth [89] points
+I submitted [that project(Project[6])] and received 89 points
+[Rachele(Professor[5])] is a [professor]
+The topic of [this project(Project[6])] is [Animals]
+The deadline of [this assignment(Project[6])] is [May 12]
+Which professor is teaching [government(Course[3])]?	'Lucy(Professor[4])'	['question_type_local']
+What courses is [Andy(Professor[3])] teaching?	'microbiology(Course[2])'	['question_type_local']
+there is new [government project 2(Project[7])] for [government(Course[3])]
+[government project 2(Project[7])] is worth [63] points
+[this project(Project[7])] is about [introduction]
+I submitted [this assignment(Project[7])] late and received 32 points
+[this assignment(Project[7])] is due on [May 17]
+Which professor is teaching [government(Course[3])]?	'Lucy(Professor[4])'	['question_type_local']
+list all projects that i submitted late for [Lucy]	'government project 2(Project[7])'	['question_type_global', 'question_three_hop_statement']
+show me all late projects i submitted for [Lucy]	'government project 2(Project[7])'	['question_type_global', 'question_three_hop_statement']
+[accounting homework 1(Homework[8])] is out for [accounting(Course[4])]
+[that homework(Homework[8])] is worth [51] points
+The deadline of [that assignment(Homework[8])] is [May 10]
+I submitted [accounting homework 1(Homework[8])] and received 51 points
+[that assignment(Homework[8])] is on [Cells]
+[accounting project 1(Project[9])] is out for [accounting(Course[4])]
+What courses is [Andy(Professor[3])] teaching?	'microbiology(Course[2])'	['question_type_local']
+there is a [professor] named [Marisela(Professor[6])]
+I submitted [this project(Project[9])]
+[accounting project 1(Project[9])] is [10] points
+[this assignment(Project[9])] is on [supervised learning]
+what homeworks do I have to do for [Britney]?	'economics homework 1(Homework[1])'	['question_type_global', 'question_three_hop_statement']
+The deadline of [this project(Project[9])] is [May 09]
+show me all projects i submitted for [Britney]	'economics project 1(Project[3])', 'economics project 2(Project[5])'	['question_type_global', 'question_three_hop_statement']
+how much did I get on [government project 1(Project[6])]?	89	['question_type_local']
+[microbiology homework 1(Homework[10])] is released for [microbiology(Course[2])]
+[microbiology project 2(Project[11])] is released for [microbiology(Course[2])]
+[this homework(Homework[10])] is about [unsupervised learning]
+I submitted [this homework(Homework[10])] on time
+[this assignment(Homework[10])] is [74] points
+create a [professor] named [Emmie(Professor[7])]
+the affiliation of [this professor(Professor[7])] is [mechanical engineering]
+How many points did I get on [government project 2(Project[7])]	32	['question_type_local']
+[accounting(Course[4])] has a new [accounting homework 2(Homework[12])] out
+[this homework(Homework[12])] is due on [May 21]
+I submitted [this assignment(Homework[12])] late
+what are all the homeworks due for [Britney]?	'economics homework 1(Homework[1])'	['question_type_global', 'question_three_hop_statement']
+The topic of [accounting homework 2(Homework[12])] is [Evolution]
+[that homework(Homework[12])] is worth [67] points
+What is [Andy(Professor[3])]'s department?	'psychology'	['question_type_local']
+show me the assignments due on [May 17]	'government project 2(Project[7])'	['question_type_global', 'question_two_hop_statement']
+[Yoshiko(Professor[2])]'s department is now [mechanical engineering]
+The deadline of [that homework(Homework[12])] moved to [May 20]
+How many points is [accounting project 1(Project[9])] worth?	10	['question_type_local']
+what homeworks do I have to do for [Britney]?	'economics homework 1(Homework[1])'	['question_type_global', 'question_three_hop_statement']
+list assignments that are due on [May 17]	'government project 2(Project[7])'	['question_type_global', 'question_two_hop_statement']
+list all assignments that i submitted for [Lucy]	'government project 1(Project[6])', 'government project 2(Project[7])'	['question_type_global', 'question_three_hop_statement']
+[accounting(Course[4])] has a new [accounting project 2(Project[13])] released
+I submitted [that project(Project[13])] late
+[this assignment(Project[13])] is due on [May 25]
+[microbiology(Course[2])] has a new [microbiology homework 2(Homework[14])] released
+what are the projects that i submitted for [Lucy]	'government project 1(Project[6])', 'government project 2(Project[7])'	['question_type_global', 'question_three_hop_statement']
+what projects did i submit late for [Lucy]?	'government project 2(Project[7])'	['question_type_global', 'question_three_hop_statement']
+[microbiology homework 2(Homework[14])] is [11] points
+which homeworks are due after [May 12]?	'accounting homework 2(Homework[12])'	['question_type_global', 'question_two_hop_statement']
+which projects are due after [May 19]?	'accounting project 2(Project[13])'	['question_type_global', 'question_two_hop_statement']
+list all assignments for [Lucy]	'government homework 1(Homework[4])', 'government project 1(Project[6])', 'government project 2(Project[7])'	['question_type_global', 'question_three_hop_statement']
+What is the topic of [accounting homework 2(Homework[12])]?	'Evolution'	['question_type_local']
+[Andrew(Professor[8])] is a [professor]
+[that homework(Homework[14])] is due on [May 23]
+[that professor(Professor[8])] is affiliated with the [animal science] department
+show me the projects due on [May 17]	'government project 2(Project[7])'	['question_type_global', 'question_two_hop_statement']
+show me the projects due on [May 12]	'government project 1(Project[6])'	['question_type_global', 'question_two_hop_statement']
+[this professor(Professor[8])]'s department is now [psychology]
+how many points is [economics project 2(Project[5])]?	70	['question_type_local']
+show me the projects due on [May 17]	'government project 2(Project[7])'	['question_type_global', 'question_two_hop_statement']
+what assignments do I have to do for [Andy]?	'microbiology project 1(Project[2])', 'microbiology homework 1(Homework[10])', 'microbiology project 2(Project[11])', 'microbiology homework 2(Homework[14])'	['question_type_global', 'question_three_hop_statement']
+When is [accounting project 2(Project[13])] due?	'May 25'	['question_type_local']
+what homeworks do I have to do for [Lucy]?	'government homework 1(Homework[4])'	['question_type_global', 'question_three_hop_statement']
+list all homeworks for [Britney]	'economics homework 1(Homework[1])'	['question_type_global', 'question_three_hop_statement']
+How many points is [accounting project 1(Project[9])] worth?	10	['question_type_local']
+change [that person(Professor[8])]'s department to [animal science]
+What department is [Andy(Professor[3])] affiliated with?	'psychology'	['question_type_local']
+show me all assignments that i submitted for [Lucy]	'government project 1(Project[6])', 'government project 2(Project[7])'	['question_type_global', 'question_three_hop_statement']
+list assignments that are due on [May 10]	'accounting homework 1(Homework[8])'	['question_type_global', 'question_two_hop_statement']
+list all projects that i submitted late for [Lucy]	'government project 2(Project[7])'	['question_type_global', 'question_three_hop_statement']
+what projects do I have to do for [Lucy]?	'government project 1(Project[6])', 'government project 2(Project[7])'	['question_type_global', 'question_three_hop_statement']
+[microbiology homework 3(Homework[15])] is out for [microbiology(Course[2])]
+which homeworks are due after [May 17]?	'accounting homework 2(Homework[12])', 'microbiology homework 2(Homework[14])'	['question_type_global', 'question_two_hop_statement']
+[government(Course[3])] has a new [government homework 2(Homework[16])] released
+I submitted [government homework 2(Homework[16])] on time
+[that assignment(Homework[16])] is due on [May 15]
+what are all the assignments due for [Britney]?	'economics homework 1(Homework[1])', 'economics project 1(Project[3])', 'economics project 2(Project[5])'	['question_type_global', 'question_three_hop_statement']
+[this assignment(Homework[16])] is [99] points
+[economics(Course[1])] has a new [economics homework 2(Homework[17])] out
+I submitted [government homework 1(Homework[4])] late and received 81 points
+I submitted [economics homework 2(Homework[17])]
+[economics homework 2(Homework[17])] is worth [30] points
+how many points is [accounting homework 2(Homework[12])]?	67	['question_type_local']
+The deadline of [this assignment(Homework[17])] is [May 13]
+list assignments that are due on [May 13]	'economics homework 2(Homework[17])'	['question_type_global', 'question_two_hop_statement']
+[Lucy(Professor[4])]'s department is now [computer science]
+which homeworks are due on [May 12]?	'government homework 1(Homework[4])'	['question_type_global', 'question_two_hop_statement']
+[microbiology(Course[2])] has a new [microbiology project 3(Project[18])] released
+I submitted [that assignment(Project[18])] on time
+[this project(Project[18])] is worth [33] points
+how many points did I receive on [economics project 2(Project[5])]?	70	['question_type_local']
+which projects are due after [May 22]?	'accounting project 2(Project[13])'	['question_type_global', 'question_two_hop_statement']
+what homeworks did i submit for [Andy]?	'microbiology homework 1(Homework[10])'	['question_type_global', 'question_three_hop_statement']
+[that project(Project[18])] is due on [May 23]
+show me the projects due on [May 09]	'economics project 1(Project[3])', 'accounting project 1(Project[9])'	['question_type_global', 'question_two_hop_statement']
+list assignments that are due on [May 25]	'accounting project 2(Project[13])'	['question_type_global', 'question_two_hop_statement']
+[microbiology(Course[2])] has a new [microbiology project 4(Project[19])] released
+I submitted [microbiology project 4(Project[19])]
+[microbiology project 4(Project[19])] is worth [92] points
+[this assignment(Project[19])] is due on [June 24]
+What department is [Britney(Professor[1])] affiliated with?	'mechanical engineering'	['question_type_local']

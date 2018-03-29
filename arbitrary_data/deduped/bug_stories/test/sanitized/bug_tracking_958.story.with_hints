@@ -1,0 +1,125 @@
+there is a new [knowledge base(Project[1])] [project]
+[knowledge base project(Project[1])] is in the stage of [development]
+[that project(Project[1])] is a [internal] project
+[it(Project[1])] is in the stage of [testing]
+[Cecil(Tester[1])] is a [tester] on [knowledge base project(Project[1])]
+There is a new [task] for the [this project(Project[1])]: [changelong needs to be added]
+[it(Issue[1])] is assigned to [he(Tester[1])]
+[this test engineer(Tester[1])] resolved [this issue(Issue[1])]
+[Milagros(Tester[2])] is a [tester] on [knowledge base project(Project[1])]
+[svd is slow] is a new [enhancement] created by [she(Tester[2])] for [knowledge base project(Project[1])]
+[this issue(Issue[2])] is assigned to [Cecil(Tester[1])]
+[that test engineer(Tester[1])] resolved [the svd is slow issue(Issue[2])]
+Who was [the changelong needs to be added issue(Issue[1])] assigned to?	'Cecil(Tester[1])'	['question_type_local']
+[Milagros(Tester[2])] created a new [proposal] for [knowledge base project(Project[1])]: [memory leak bug]
+[this issue(Issue[3])] is assigned to [Cecil(Tester[1])]
+[that test engineer(Tester[1])] resolved [the memory leak bug proposal(Issue[3])]
+[knowledge base project(Project[1])] is not assigned to [Cecil(Tester[1])]
+[it(Project[1])] is assigned to [that test engineer(Tester[1])]
+[Albertha(Tester[3])] is a [tester] on [that project(Project[1])]
+[Cecil(Tester[1])] is not working on [that project(Project[1])] anymore
+[that person(Tester[1])] is assigned to [this project(Project[1])]
+[Andrew(Developer[4])] is a [developer] on [it(Project[1])]
+there is a new [chatbot(Project[2])] [project]
+[he(Developer[4])] is working on [that project(Project[2])] also
+[Genevive(Developer[5])] is a [developer] on [knowledge base project(Project[1])]
+[she(Developer[5])] is assigned to [that project(Project[2])] also
+[it(Project[2])] is a [important] project
+[that project(Project[2])] is in the stage of [development]
+there is a new [important] [mobile(Project[3])] [project]
+[Cecil(Tester[1])] is assigned to [mobile project(Project[3])] also
+[it(Project[3])] is currently in the [testing] stage
+[Andrew(Developer[4])] is assigned to [it(Project[3])] also
+[Cecil(Tester[1])] is working on [chatbot project(Project[2])] also
+[Genevive(Developer[5])] is working on [mobile project(Project[3])] also
+[Albertha(Tester[3])] is working on [chatbot project(Project[2])] also
+[this tester(Tester[3])] is working on [mobile project(Project[3])] also
+[mobile project(Project[3])] is now in the [evaluation] stage
+There is a new issue for the [chatbot project(Project[2])]: [minified version fails]
+[the issue(Issue[4])] was assigned to [Cecil(Tester[1])]
+[he(Tester[1])] resolved [that issue(Issue[4])]
+Who created [the svd is slow enhancement(Issue[2])]?	'Milagros(Tester[2])'	['question_type_local']
+[xml extractor exception] is a new [bug] for the [chatbot project(Project[2])]
+[this issue(Issue[5])] was assigned to [this test engineer(Tester[1])]
+[Milagros(Tester[2])] is assigned to [chatbot project(Project[2])] also
+[this person(Tester[2])] is assigned to [mobile project(Project[3])] also
+[that project(Project[3])] is in the stage of [testing]
+[this project(Project[3])] is now in the [evaluation] stage
+[knowledge base project(Project[1])] is in the [development] stage
+[mobile project(Project[3])] is in the [testing] stage
+[knowledge base project(Project[1])] has moved to the [evaluation] stage
+Who was [the minified version fails issue(Issue[4])] assigned to?	'Cecil(Tester[1])'	['question_type_local']
+[knowledge base project(Project[1])] is in the [testing] stage
+[Andrew(Developer[4])] created a new issue for [mobile project(Project[3])]: [issue in using training data]
+[that project(Project[1])] is in the [evaluation] stage
+[that issue(Issue[6])] was assigned to [Milagros(Tester[2])]
+[that person(Tester[2])] resolved [the issue(Issue[6])]
+[chatbot project(Project[2])] is not assigned to [this person(Tester[2])]
+[Milagros(Tester[2])] is working on [chatbot project(Project[2])] also
+[mobile project(Project[3])] is now in the [development] stage
+[parse example terribly slow] is a new [bug] submitted by [Albertha(Tester[3])] for [knowledge base project(Project[1])]
+[this issue(Issue[7])] was assigned to [Genevive(Developer[5])]
+[this developer(Developer[5])] resolved [this issue(Issue[7])]
+Who was [the enhancement(Issue[2])] assigned to?	'Cecil(Tester[1])'	['question_type_local']
+What are the issues submitted by [Andrew(Developer[4])]?	'issue in using training data(Issue[6])'	['question_type_local']
+Who was [the xml extractor exception bug(Issue[5])] assigned to?	'Cecil(Tester[1])'	['question_type_local']
+[this developer(Developer[5])] is no longer assigned to [mobile project(Project[3])]
+[this developer(Developer[5])] is working on [that project(Project[3])] also
+[mobile project(Project[3])] is in the stage of [evaluation]
+Who is [the xml extractor exception issue(Issue[5])] assigned to?	'Cecil(Tester[1])'	['question_type_local']
+Were there any issues created by [Milagros(Tester[2])]?	'svd is slow(Issue[2])', 'memory leak bug(Issue[3])'	['question_type_local']
+[that project(Project[3])] is in the stage of [testing]
+[knowledge base project(Project[1])] is now in the [development] stage
+[knowledge base project(Project[1])] is in the [testing] stage
+[Cecil(Tester[1])] is no longer assigned to [chatbot project(Project[2])]
+[it(Project[2])] is assigned to [this tester(Tester[1])] also
+[that person(Tester[1])] is no longer assigned to [mobile project(Project[3])]
+[that person(Tester[1])] is working on [that project(Project[3])] also
+[knowledge base project(Project[1])] is not assigned to [that test engineer(Tester[1])]
+[Cecil(Tester[1])] is working on [knowledge base project(Project[1])] also
+Who is [the changelong needs to be added task(Issue[1])] assigned to?	'Cecil(Tester[1])'	['question_type_local']
+[chatbot project(Project[2])] has moved to the [testing] stage
+Who is [the minified version fails issue(Issue[4])] assigned to?	'Cecil(Tester[1])'	['question_type_local']
+[knowledge base project(Project[1])] is now in the [evaluation] stage
+Who is [the issue in using training data issue(Issue[6])] assigned to?	'Milagros(Tester[2])'	['question_type_local']
+[knowledge base project(Project[1])] is in the [testing] stage
+[knowledge base project(Project[1])] is in the [evaluation] stage
+Who submitted [the proposal(Issue[3])]?	'Milagros(Tester[2])'	['question_type_local']
+[it(Project[1])] is in the stage of [development]
+[chatbot project(Project[2])] is now in the [evaluation] stage
+[chatbot project(Project[2])] has moved to the [development] stage
+[chatbot project(Project[2])] is now in the [testing] stage
+[this project(Project[2])] is now in the [development] stage
+Were there any issues created by [Milagros(Tester[2])]?	'svd is slow(Issue[2])', 'memory leak bug(Issue[3])'	['question_type_local']
+Who is [the changelong needs to be added task(Issue[1])] assigned to?	'Cecil(Tester[1])'	['question_type_local']
+[it(Project[2])] has moved to the [evaluation] stage
+[it(Project[2])] is in the [testing] stage
+Who created [the parse example terribly slow bug(Issue[7])]?	'Albertha(Tester[3])'	['question_type_local']
+What are the issues submitted by [Andrew(Developer[4])]?	'issue in using training data(Issue[6])'	['question_type_local']
+[this project(Project[2])] has moved to the [development] stage
+Who submitted [the svd is slow issue(Issue[2])]?	'Milagros(Tester[2])'	['question_type_local']
+[this project(Project[2])] has moved to the [testing] stage
+[that project(Project[2])] is in the [development] stage
+[it(Project[2])] has moved to the [testing] stage
+[this project(Project[2])] is in the stage of [development]
+[this project(Project[2])] is now in the [testing] stage
+[that project(Project[2])] is in the stage of [development]
+[mobile project(Project[3])] is in the [evaluation] stage
+[mobile project(Project[3])] is in the stage of [testing]
+[this project(Project[3])] is in the stage of [evaluation]
+Who created [the svd is slow enhancement(Issue[2])]?	'Milagros(Tester[2])'	['question_type_local']
+[knowledge base project(Project[1])] is not assigned to [Milagros(Tester[2])]
+[Milagros(Tester[2])] is working on [knowledge base project(Project[1])] also
+Who was [the xml extractor exception bug(Issue[5])] assigned to?	'Cecil(Tester[1])'	['question_type_local']
+[chatbot project(Project[2])] is now in the [evaluation] stage
+Who created [the parse example terribly slow bug(Issue[7])]?	'Albertha(Tester[3])'	['question_type_local']
+[chatbot project(Project[2])] is now in the [development] stage
+[chatbot project(Project[2])] is now in the [testing] stage
+Were there any issues created by [Albertha(Tester[3])]?	'parse example terribly slow(Issue[7])'	['question_type_local']
+Who was [the minified version fails issue(Issue[4])] assigned to?	'Cecil(Tester[1])'	['question_type_local']
+[chatbot project(Project[2])] is now in the [development] stage
+Who is [the minified version fails issue(Issue[4])] assigned to?	'Cecil(Tester[1])'	['question_type_local']
+[chatbot project(Project[2])] has moved to the [testing] stage
+[Cecil(Tester[1])] is no longer assigned to [this project(Project[2])]
+[that project(Project[2])] is assigned to [Cecil(Tester[1])] also
+Were there any issues created by [Albertha(Tester[3])]?	'parse example terribly slow(Issue[7])'	['question_type_local']

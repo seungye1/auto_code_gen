@@ -1,0 +1,174 @@
+[Loyd(Professor[1])] is a [professor]
+[Loyd(Professor[1])]'s department is [electrical engineering]
+[he(Professor[1])]'s email is [Loyd@msn.com]
+What is [that person(Professor[1])]'s department?	'electrical engineering'	['question_type_local']
+What is [that professor(Professor[1])]'s email	'Loyd@msn.com'	['question_type_local']
+[Loyd(Professor[1])]'s department is now [biomedical engineering]
+Which department is [he(Professor[1])] in?	'biomedical engineering'	['question_type_local']
+What is [he(Professor[1])]'s email	'Loyd@msn.com'	['question_type_local']
+What is [this person(Professor[1])]'s email	'Loyd@msn.com'	['question_type_local']
+[he(Professor[1])]'s department is now [electrical engineering]
+[that person(Professor[1])]'s department is now [biomedical engineering]
+Which department is [he(Professor[1])] in?	'biomedical engineering'	['question_type_local']
+What is [that professor(Professor[1])]'s email	'Loyd@msn.com'	['question_type_local']
+who are the professors affiliated with [biomedical engineering]?	'Loyd(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+I am taking a [accounting(Course[1])] course
+[Loyd(Professor[1])] is the instructor for [accounting(Course[1])]
+Which professor is teaching [this course(Course[1])]?	'Loyd(Professor[1])'	['question_type_local']
+change [Loyd(Professor[1])]'s department to [electrical engineering]
+there is new [accounting project 1(Project[1])] for [accounting(Course[1])]
+[accounting project 2(Project[2])] is out for [accounting(Course[1])]
+[accounting project 1(Project[1])] is on [svm]
+What is [Loyd(Professor[1])]'s department?	'electrical engineering'	['question_type_local']
+which professors are in the [electrical engineering] department?	'Loyd(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+I submitted [accounting project 1(Project[1])] late
+The deadline of [accounting project 1(Project[1])] is [December 28]
+[this assignment(Project[1])] is [38] points
+[accounting(Course[1])] has a new [accounting homework 1(Homework[3])] out
+I submitted [that homework(Homework[3])]
+[that homework(Homework[3])] is worth [69] points
+who are the professors affiliated with [electrical engineering]?	'Loyd(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+[this assignment(Homework[3])] is due on [December 25]
+[this assignment(Homework[3])] is on [suffrage movement]
+When is the deadline of [this homework(Homework[3])]?	'December 25'	['question_type_local']
+create a [professor] named [John(Professor[2])]
+I am taking a course called [english composition(Course[2])]
+[that professor(Professor[2])] is the instructor for [english composition(Course[2])]
+list assignments that are due on [December 25]	'accounting homework 1(Homework[3])'	['question_type_global', 'question_two_hop_statement']
+I am taking a course called [english(Course[3])]
+[he(Professor[2])]'s department is [applied physics]
+[this person(Professor[2])]'s email is [John@chk.ru]
+When is [accounting project 1(Project[1])] due?	'December 28'	['question_type_local']
+list the professors in the [applied physics] department	'John(Professor[2])'	['question_type_global', 'question_two_hop_statement']
+how many points is [accounting project 1(Project[1])]?	38	['question_type_local']
+which projects are due after [December 23]?	'accounting project 1(Project[1])'	['question_type_global', 'question_two_hop_statement']
+there is new [english project 1(Project[4])] for [english(Course[3])]
+[that project(Project[4])] is on [unsupervised learning]
+what are all the projects due for [Loyd]?	'accounting project 1(Project[1])', 'accounting project 2(Project[2])'	['question_type_global', 'question_three_hop_statement']
+[english composition(Course[2])] has a new [english composition homework 1(Homework[5])] released
+The deadline of [this homework(Homework[5])] is [December 24]
+I am taking a course called [microbiology(Course[4])]
+The topic of [this assignment(Homework[5])] is [grammar induction]
+[this assignment(Homework[5])] is worth [93] points
+which professors are in the [electrical engineering] department?	'Loyd(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+I submitted [this assignment(Homework[5])] late and received 12 points
+I submitted [english project 1(Project[4])] on time
+[that project(Project[4])] is [16] points
+[Lizeth(Professor[3])] is a [professor]
+[this person(Professor[3])]'s email is [Lizeth@yandex.com]
+the affiliation of [Lizeth(Professor[3])] is [math]
+which projects did I submit late for [Loyd]?	'accounting project 1(Project[1])'	['question_type_global', 'question_three_hop_statement']
+what assignments did i submit for [John]?	'english composition homework 1(Homework[5])'	['question_type_global', 'question_three_hop_statement']
+there is new [english homework 1(Homework[6])] for [english(Course[3])]
+I submitted [english homework 1(Homework[6])] late
+The deadline of [english homework 1(Homework[6])] is [December 29]
+[english homework 1(Homework[6])] is worth [18] points
+there is a [professor] named [Bob(Professor[4])]
+[this professor(Professor[4])]'s email is [Bob@yahoo.com]
+[Bob(Professor[4])]'s department is [biomedical engineering]
+there is a new [homework(Homework[7])] for [accounting(Course[1])]
+[Bob(Professor[4])]'s department is now [applied physics]
+which homeworks are due after [December 25]?	'english homework 1(Homework[6])'	['question_type_global', 'question_two_hop_statement']
+there is new [accounting project 3(Project[8])] for [accounting(Course[1])]
+what assignments did i submit late for [Loyd]?	'accounting project 1(Project[1])'	['question_type_global', 'question_three_hop_statement']
+[english(Course[3])] has a new [english project 2(Project[9])] out
+[english project 2(Project[9])] is [91] points
+The deadline of [that assignment(Project[9])] is [January 10]
+The topic of [that project(Project[9])] is [Viruses & other Microbes]
+show me the homeworks due on [December 24]	'english composition homework 1(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+what assignments did i submit late for [Loyd]?	'accounting project 1(Project[1])'	['question_type_global', 'question_three_hop_statement']
+I submitted [english project 2(Project[9])] on time and received 91 points
+there is new [english composition homework 2(Homework[10])] for [english composition(Course[2])]
+which assignments are due before [December 26]?	'accounting homework 1(Homework[3])', 'english composition homework 1(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+[english composition homework 2(Homework[10])] is worth [83] points
+The topic of [this assignment(Homework[10])] is [k means]
+list all homeworks that i submitted late for [John]	'english composition homework 1(Homework[5])'	['question_type_global', 'question_three_hop_statement']
+which assignments are due on [January 10]?	'english project 2(Project[9])'	['question_type_global', 'question_two_hop_statement']
+[accounting project 4(Project[11])] is released for [accounting(Course[1])]
+[this project(Project[11])] is worth [29] points
+I submitted [that assignment(Project[11])] late and received 6 points
+who are the professors affiliated with [electrical engineering]?	'Loyd(Professor[1])'	['question_type_global', 'question_two_hop_statement']
+what are the late assignments that i submitted for [John]	'english composition homework 1(Homework[5])'	['question_type_global', 'question_three_hop_statement']
+what are the assignments that i submitted for [Loyd]	'accounting project 1(Project[1])', 'accounting homework 1(Homework[3])', 'accounting project 4(Project[11])'	['question_type_global', 'question_three_hop_statement']
+[this assignment(Project[11])] is due on [February 05]
+what did I get on [english composition homework 1(Homework[5])]?	12	['question_type_local']
+how much did I get on [english project 2(Project[9])]?	91	['question_type_local']
+When is [accounting homework 1(Homework[3])] due?	'December 25'	['question_type_local']
+list projects that are due on [January 10]	'english project 2(Project[9])'	['question_type_global', 'question_two_hop_statement']
+what are the late homeworks that i submitted for [John]	'english composition homework 1(Homework[5])'	['question_type_global', 'question_three_hop_statement']
+[accounting(Course[1])] has a new [accounting project 5(Project[12])] out
+The deadline of [accounting project 5(Project[12])] is [February 23]
+[accounting project 5(Project[12])] is [28] points
+I submitted [that assignment(Project[12])] and received 28 points
+The deadline of [accounting project 5(Project[12])] moved to [February 23]
+there is a [professor] named [Roslyn(Professor[5])]
+[this professor(Professor[5])]'s email is [Roslyn@yale.edu]
+[this professor(Professor[5])] is affiliated with the [electrical engineering] department
+When is [english composition homework 1(Homework[5])] due?	'December 24'	['question_type_local']
+[english project 1(Project[4])] is due on [December 27]
+show me all late homeworks i submitted for [John]	'english composition homework 1(Homework[5])'	['question_type_global', 'question_three_hop_statement']
+[accounting project 2(Project[2])] is due on [January 10]
+how much did I get on [accounting project 5(Project[12])]?	28	['question_type_local']
+show me all homeworks i submitted for [John]	'english composition homework 1(Homework[5])'	['question_type_global', 'question_three_hop_statement']
+what are the homeworks that i submitted for [John]	'english composition homework 1(Homework[5])'	['question_type_global', 'question_three_hop_statement']
+The deadline of [accounting project 2(Project[2])] moved to [January 08]
+[accounting project 2(Project[2])] is [51] points
+What is the topic of [english composition homework 2(Homework[10])]?	'k means'	['question_type_local']
+[this project(Project[2])] is now due on [January 10]
+which projects are due after [December 24]?	'accounting project 1(Project[1])', 'accounting project 2(Project[2])', 'english project 1(Project[4])', 'english project 2(Project[9])', 'accounting project 4(Project[11])', 'accounting project 5(Project[12])'	['question_type_global', 'question_two_hop_statement']
+what are the late assignments that i submitted for [Loyd]	'accounting project 1(Project[1])', 'accounting project 4(Project[11])'	['question_type_global', 'question_three_hop_statement']
+I submitted [that project(Project[2])] on time and received 51 points
+how many points did I receive on [english project 2(Project[9])]?	91	['question_type_local']
+show me all late homeworks i submitted for [John]	'english composition homework 1(Homework[5])'	['question_type_global', 'question_three_hop_statement']
+How many points is [this project(Project[2])] worth?	51	['question_type_local']
+which assignments are due on [January 10]?	'accounting project 2(Project[2])', 'english project 2(Project[9])'	['question_type_global', 'question_two_hop_statement']
+which assignments did I submit late for [Loyd]?	'accounting project 1(Project[1])', 'accounting project 4(Project[11])'	['question_type_global', 'question_three_hop_statement']
+How many points is [english composition homework 2(Homework[10])] worth?	83	['question_type_local']
+which projects are due before [December 29]?	'accounting project 1(Project[1])', 'english project 1(Project[4])'	['question_type_global', 'question_two_hop_statement']
+which homeworks are due after [December 26]?	'english homework 1(Homework[6])'	['question_type_global', 'question_two_hop_statement']
+[Andrew(Professor[6])] is a [professor]
+When is [accounting project 2(Project[2])] due?	'January 10'	['question_type_local']
+how many points did I receive on [accounting project 4(Project[11])]?	6	['question_type_local']
+which projects are due on [December 27]?	'english project 1(Project[4])'	['question_type_global', 'question_two_hop_statement']
+[english homework 2(Homework[13])] is out for [english(Course[3])]
+[this assignment(Homework[13])] is worth [30] points
+The deadline of [this assignment(Homework[13])] is [January 06]
+When is the deadline of [accounting homework 1(Homework[3])]?	'December 25'	['question_type_local']
+which professors are in the [math] department?	'Lizeth(Professor[3])'	['question_type_global', 'question_two_hop_statement']
+I submitted [that homework(Homework[13])] on time and received 30 points
+[this homework(Homework[13])] is now due on [January 09]
+there is a new [homework(Homework[14])] for [accounting(Course[1])]
+list all projects for [Loyd]	'accounting project 1(Project[1])', 'accounting project 2(Project[2])', 'accounting project 3(Project[8])', 'accounting project 4(Project[11])', 'accounting project 5(Project[12])'	['question_type_global', 'question_three_hop_statement']
+[microbiology(Course[4])] is taught by [Lizeth(Professor[3])]
+how many points is [accounting project 4(Project[11])]?	29	['question_type_local']
+which homeworks are due after [December 29]?	'english homework 2(Homework[13])'	['question_type_global', 'question_two_hop_statement']
+list assignments that are due on [December 28]	'accounting project 1(Project[1])'	['question_type_global', 'question_two_hop_statement']
+which homeworks are due on [December 29]?	'english homework 1(Homework[6])'	['question_type_global', 'question_two_hop_statement']
+what did I get on [accounting project 4(Project[11])]?	6	['question_type_local']
+there is a [professor] named [Danita(Professor[7])]
+[Danita(Professor[7])] is affiliated with the [electrical engineering] department
+[Danita(Professor[7])]'s email is [Danita@yandex.com]
+which assignments are due after [February 20]?	'accounting project 5(Project[12])'	['question_type_global', 'question_two_hop_statement']
+list all projects for [Loyd]	'accounting project 1(Project[1])', 'accounting project 2(Project[2])', 'accounting project 3(Project[8])', 'accounting project 4(Project[11])', 'accounting project 5(Project[12])'	['question_type_global', 'question_three_hop_statement']
+When is the deadline of [english composition homework 1(Homework[5])]?	'December 24'	['question_type_local']
+which homeworks did I submit late for [John]?	'english composition homework 1(Homework[5])'	['question_type_global', 'question_three_hop_statement']
+[accounting project 6(Project[15])] is released for [accounting(Course[1])]
+[that person(Professor[7])]'s department is now [biomedical engineering]
+change [Danita(Professor[7])]'s department to [applied physics]
+change [Danita(Professor[7])]'s department to [biomedical engineering]
+[english composition(Course[2])] has a new [english composition homework 3(Homework[16])] out
+[that assignment(Homework[16])] is [40] points
+I submitted [that assignment(Homework[16])] and received 21 points
+[english composition homework 3(Homework[16])] is due on [January 26]
+How many points did I get on [english homework 2(Homework[13])]	30	['question_type_local']
+show me all late assignments i submitted for [Loyd]	'accounting project 1(Project[1])', 'accounting project 4(Project[11])'	['question_type_global', 'question_three_hop_statement']
+how many points is [accounting project 2(Project[2])]?	51	['question_type_local']
+which homeworks are due on [December 24]?	'english composition homework 1(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+how much did I get on [accounting project 2(Project[2])]?	51	['question_type_local']
+The deadline of [accounting homework 3(Homework[14])] is [January 20]
+[accounting homework 3(Homework[14])] is [44] points
+I submitted [accounting homework 3(Homework[14])] and received 2 points
+[accounting project 6(Project[15])] is worth [76] points
+The deadline of [that project(Project[15])] is [February 07]
+which homeworks did I submit late for [John]?	'english composition homework 1(Homework[5])'	['question_type_global', 'question_three_hop_statement']
+I submitted [that assignment(Project[15])] on time and received 71 points

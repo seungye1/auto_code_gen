@@ -1,0 +1,125 @@
+there is a [sixth year] PhD student named [Will(PhdStudent[1])]
+[Will(PhdStudent[1])] has passed the thesis proposal exam
+[that person(PhdStudent[1])] has failed the qualifying exam
+[Lucio(PhdStudent[2])] is a PhD student
+[Gabrielle(PhdStudent[3])] is a PhD student
+[she(PhdStudent[3])] has passed the qualifying exam
+There is a course called [U102(Course[1])]
+[Gabrielle(PhdStudent[3])] currently has funding
+[this student(PhdStudent[3])] has failed the thesis proposal exam
+[Gabrielle(PhdStudent[3])] passed thesis defense
+[Genevive(PhdStudent[4])] is a PhD student
+[Genevive(PhdStudent[4])] is in their [second year]
+[Genevive(PhdStudent[4])] has passed the qualifying exam
+there is a [assistant] [professor] named [Willis(Professor[5])]
+[this student(PhdStudent[4])] has [this professor(Professor[5])] on the committee
+[that student(PhdStudent[4])] is now a [third year] student
+[this student(PhdStudent[4])] passed thesis defense
+[that student(PhdStudent[4])] is [Willis(Professor[5])]'s student
+[he(Professor[5])] went on sabbatical
+[Willis(Professor[5])] advises [Gabrielle(PhdStudent[3])] and [Will(PhdStudent[1])]
+[Gabrielle(PhdStudent[3])] passed thesis proposal
+there is a masters student named [Andrew(MastersStudent[6])]
+[Willis(Professor[5])] conducts research in [supervised learning]
+[that professor(Professor[5])] is in [Mary Theater]
+[Jack(PhdStudent[7])] is a PhD student
+[Yoshiko(Professor[8])] is a [distinguished] [professor]
+[she(Professor[8])]'s research interest is [neurocomputing]
+[this person(Professor[8])] went on sabbatical
+Which professors have offices in Mary Theater	'Willis(Professor[5])'	['question_type_global', 'question_two_hop_statement']
+[Genevive(PhdStudent[4])] has failed the thesis proposal exam
+Create a new [masters] course called [G8001(Course[2])]
+[this person(PhdStudent[4])] failed thesis proposal
+[Genevive(PhdStudent[4])] is now a [fourth year] student
+[Genevive(PhdStudent[4])] has [Yoshiko(Professor[8])] on the committee
+[that student(PhdStudent[4])] currently has funding
+there is a new [fifth year] PhD student named [Marisela(PhdStudent[9])]
+[Marisela(PhdStudent[9])] has [Yoshiko(Professor[8])] on the committee
+there is a new PhD student named [Vivienne(PhdStudent[10])]
+[that student(PhdStudent[10])] has passed the thesis proposal exam
+[Vivienne(PhdStudent[10])] has passed the thesis defense
+there is a new PhD student named [Emma(PhdStudent[11])]
+[Emma(PhdStudent[11])] has passed the thesis proposal exam
+[Eun(MastersStudent[12])] is a masters student
+There is a course called [G7000(Course[3])]
+[Albertha(MastersStudent[13])] is a masters student
+[G7000(Course[3])] will be a mini course
+Which professors have offices in Mary Theater	'Willis(Professor[5])'	['question_type_global', 'question_two_hop_statement']
+[second year] is a [Ashly(PhdStudent[14])] PhD student
+[Genevive(PhdStudent[4])] is a student in [that course(Course[3])]
+[Gabrielle(PhdStudent[3])] is TAing [G8001(Course[2])]
+[Tawnya(Professor[15])] is a [teaching] [professor]
+[this student(PhdStudent[3])] is a [fourth year] student
+[Genevive(PhdStudent[4])] has [Tawnya(Professor[15])] on the committee
+[this student(PhdStudent[4])] has passed the thesis proposal exam
+[John(MastersStudent[16])] is a masters student
+there is a new [first year] PhD student named [Tereasa(PhdStudent[17])]
+[she(PhdStudent[17])] is in [second year]
+there is a masters student named [Lorilee(MastersStudent[18])]
+[Tereasa(PhdStudent[17])] passed thesis proposal
+[Cecil(Professor[19])] is a [full] [professor]
+[this professor(Professor[19])] and [Willis(Professor[5])] are on [Tereasa(PhdStudent[17])]'s committee
+Who is [Genevive(PhdStudent[4])]'s advisor?	'Willis'	['question_type_local']
+[Tereasa(PhdStudent[17])] has passed the qualifying exam
+[Tereasa(PhdStudent[17])] has passed the thesis defense
+[this student(PhdStudent[17])] is now a [third year] student
+Who is in [Mary Theater]	'Willis(Professor[5])'	['question_type_global', 'question_two_hop_statement']
+[she(PhdStudent[17])] has [Yoshiko(Professor[8])] on the committee
+[Tereasa(PhdStudent[17])] currently has funding
+[this professor(Professor[8])] advises [Jack(PhdStudent[7])]
+Which phd students does [this professor(Professor[8])] advise?	'Jack(PhdStudent[7])'	['question_type_local']
+Which [sixth year] students are advised by professors working on [supervised learning]?	'Will(PhdStudent[1])'	['question_type_global', 'question_three_hop_statement']
+[Genevive(PhdStudent[4])] has [Cecil(Professor[19])] on the committee
+There is a [phd] course called [G202(Course[4])]
+[Andrew(MastersStudent[6])] and [Marisela(PhdStudent[9])] are TAing [that course(Course[4])]
+[Cecil(Professor[19])]'s research interest is [computational biology]
+[he(Professor[19])] is in [Lesser House]
+[Tereasa(PhdStudent[17])] and [Lucio(PhdStudent[2])] are [Cecil(Professor[19])]'s student
+[Genevive(PhdStudent[4])] is now in [fifth year]
+[Marisela(PhdStudent[9])] failed their thesis defense
+[Genevive(PhdStudent[4])] is now in [sixth year]
+[Tereasa(PhdStudent[17])] has [Tawnya(Professor[15])] on the committee
+Who advises [that student(PhdStudent[17])]?	'Cecil'	['question_type_local']
+[Marisela(PhdStudent[9])] currently has funding
+Create a new course called [U304(Course[5])]
+[this student(PhdStudent[9])] has passed the thesis proposal exam
+[that class(Course[5])] is taught by [Yoshiko(Professor[8])]
+[Genevive(PhdStudent[4])] and [Andrew(MastersStudent[6])] are both taking [U304(Course[5])]
+Who is teaching [U304(Course[5])]?	'Yoshiko(Professor[8])'	['question_type_local']
+[Emma(PhdStudent[11])] has passed the thesis defense
+Which professors have offices in Lesser House	'Cecil(Professor[19])'	['question_type_global', 'question_two_hop_statement']
+There is a [phd] level [full_semester_course] called [G302(Course[6])]
+[that student(PhdStudent[11])] is a [third year] student
+Who is [Jack(PhdStudent[7])]'s advisor?	'Yoshiko'	['question_type_local']
+[John(MastersStudent[16])] is TAing [G302(Course[6])]
+Who advises [Lucio(PhdStudent[2])]?	'Cecil'	['question_type_local']
+[Ashly(PhdStudent[14])] is attending [this course(Course[6])]
+[Willis(Professor[5])] teaches [this course(Course[6])]
+Who are the professors working on [supervised learning]?	'Willis(Professor[5])'	['question_type_global', 'question_single_statement']
+[that professor(Professor[5])] advises [Vivienne(PhdStudent[10])] and [Marisela(PhdStudent[9])]
+[Cecil(Professor[19])] advises [Emma(PhdStudent[11])] and [Ashly(PhdStudent[14])]
+[Emma(PhdStudent[11])] has [Tawnya(Professor[15])] and [Willis(Professor[5])] on the committee
+Who advises [Jack(PhdStudent[7])]?	'Yoshiko'	['question_type_local']
+What professors are in Lesser House	'Cecil(Professor[19])'	['question_type_global', 'question_two_hop_statement']
+[John(MastersStudent[16])] and [Jack(PhdStudent[7])] are taking [U102(Course[1])]
+Which professors have offices in Mary Theater	'Willis(Professor[5])'	['question_type_global', 'question_two_hop_statement']
+[Yoshiko(Professor[8])]'s office is [Lesser House]
+Which masters students taking the U304 course	'Andrew(MastersStudent[6])'	['question_type_global', 'question_two_hop_statement']
+Who are [Yoshiko(Professor[8])]'s students?	'Jack(PhdStudent[7])'	['question_type_local']
+[Jack(PhdStudent[7])] did not pass the qualifiers
+Who is in [Lesser House]	'Yoshiko(Professor[8])', 'Cecil(Professor[19])'	['question_type_global', 'question_two_hop_statement']
+Who has an office in [Lesser House]	'Yoshiko(Professor[8])', 'Cecil(Professor[19])'	['question_type_global', 'question_two_hop_statement']
+[Cecil(Professor[19])] is on [Marisela(PhdStudent[9])]'s committee
+[Marisela(PhdStudent[9])] has passed the qualifying exam
+[this student(PhdStudent[9])] passed thesis defense
+Which courses did [Andrew(MastersStudent[6])] enroll in?	'U304(Course[5])'	['question_type_local']
+Which courses are TAed by phd students in their fifth year?	'G202(Course[4])'	['question_type_global', 'question_three_hop_statement']
+[Marisela(PhdStudent[9])] has [Tawnya(Professor[15])] on the committee
+Which [second year] students's advisors are conducting research in [computational biology]	'Ashly(PhdStudent[14])'	['question_type_global', 'question_three_hop_statement']
+There is a course called [U7000(Course[7])]
+[Tawnya(Professor[15])] went on sabbatical
+There is a [masters] level course called [G310(Course[8])]
+[that class(Course[8])] is TAed by [Lorilee(MastersStudent[18])] and [Genevive(PhdStudent[4])]
+[G310(Course[8])] is not a pass-fail course
+[Cecil(Professor[19])] teaches [that class(Course[8])]
+Who is in [Lesser House]	'Yoshiko(Professor[8])', 'Cecil(Professor[19])'	['question_type_global', 'question_two_hop_statement']

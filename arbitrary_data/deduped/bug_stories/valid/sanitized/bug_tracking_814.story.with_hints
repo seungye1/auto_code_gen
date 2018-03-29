@@ -1,0 +1,113 @@
+there is a new [early stage] [chatbot(Project[1])] [project]
+[this project(Project[1])] is in the [maintenance] stage
+[it(Project[1])] is in the stage of [testing]
+There is a new [bug] for the [chatbot project(Project[1])]: [initialization broken]
+there is a new [early stage] [mobile(Project[2])] [project]
+[Rachele(Developer[1])] is a [developer] on [mobile project(Project[2])]
+[that developer(Developer[1])] is assigned to [chatbot project(Project[1])] also
+there is a new [knowledge base(Project[3])] [project]
+[knowledge base project(Project[3])] is a [platform] project
+[this project(Project[3])] is in the [design] stage
+[knowledge base project(Project[3])] has moved to the [maintenance] stage
+[that project(Project[3])] has moved to the [design] stage
+[Stephine(Tester[2])] is a [tester] on [knowledge base project(Project[3])]
+[the initialization broken issue(Issue[1])] was assigned to [Rachele(Developer[1])]
+[knowledge base project(Project[3])] is assigned to [she(Developer[1])] also
+[minified version fails] is a new [task] for the [that project(Project[3])]
+[that issue(Issue[2])] is assigned to [Rachele(Developer[1])]
+[she(Developer[1])] is no longer assigned to [mobile project(Project[2])]
+[this project(Project[2])] is currently in the [design] stage
+[Alverta(Developer[3])] is a [developer] on [mobile project(Project[2])]
+[Alverta(Developer[3])] is assigned to [chatbot project(Project[1])] also
+[knowledge base project(Project[3])] is assigned to [that person(Developer[3])] also
+[this project(Project[3])] is in the stage of [maintenance]
+[Michael(Developer[4])] is a [developer]
+[knowledge base project(Project[3])] is in the [testing] stage
+[that developer(Developer[4])] is assigned to [chatbot project(Project[1])]
+[knowledge base project(Project[3])] is assigned to [this person(Developer[4])] also
+[Hanna(Tester[5])] is a [tester] on [chatbot project(Project[1])]
+[she(Tester[5])] is working on [mobile project(Project[2])] also
+[Hanna(Tester[5])] is working on [knowledge base project(Project[3])] also
+[Zenaida(Tester[6])] is a [tester]
+[mobile project(Project[2])] is assigned to [this person(Tester[6])]
+[Michael(Developer[4])] is assigned to [this project(Project[2])] also
+[Rachele(Developer[1])] is working on [this project(Project[2])] also
+[knowledge base project(Project[3])] is in the [maintenance] stage
+[Rachele(Developer[1])] resolved [the minified version fails task(Issue[2])]
+[Rachele(Developer[1])] is no longer assigned to [knowledge base project(Project[3])]
+[this project(Project[3])] is assigned to [Rachele(Developer[1])] also
+[Michael(Developer[4])] is no longer assigned to [mobile project(Project[2])]
+[this developer(Developer[4])] is working on [this project(Project[2])] also
+[Stephine(Tester[2])] is working on [chatbot project(Project[1])] also
+[she(Tester[2])] is assigned to [mobile project(Project[2])] also
+[null pointer exception during parsing] is a new [proposal] for the [knowledge base project(Project[3])]
+[the null pointer exception during parsing issue(Issue[3])] is assigned to [Rachele(Developer[1])]
+[knowledge base project(Project[3])] is not assigned to [Alverta(Developer[3])]
+[this project(Project[3])] is assigned to [this person(Developer[3])] also
+[that project(Project[3])] is not assigned to [this person(Developer[3])]
+[Alverta(Developer[3])] is assigned to [this project(Project[3])] also
+[Zenaida(Tester[6])] is assigned to [knowledge base project(Project[3])] also
+[she(Tester[6])] is working on [chatbot project(Project[1])] also
+[issue in using training data] is a new issue for the [mobile project(Project[2])]
+[the issue in using training data issue(Issue[4])] is assigned to [Michael(Developer[4])]
+[mobile project(Project[2])] is in the [testing] stage
+Who was [the minified version fails task(Issue[2])] assigned to?	'Rachele(Developer[1])'	['question_type_local']
+[Michael(Developer[4])] is not working on [chatbot project(Project[1])] anymore
+[chatbot project(Project[1])] is assigned to [he(Developer[4])] also
+[xml extractor exception] is a new [enhancement] created by [Hanna(Tester[5])] for [chatbot project(Project[1])]
+[this issue(Issue[5])] is assigned to [Michael(Developer[4])]
+[Michael(Developer[4])] resolved [the issue(Issue[5])]
+[wrong pos tag on consecutive words] is a new [enhancement] submitted by [Michael(Developer[4])] for [knowledge base project(Project[3])]
+[the issue(Issue[6])] was assigned to [Rachele(Developer[1])]
+[that person(Developer[1])] resolved [the enhancement(Issue[6])]
+[this developer(Developer[1])] created a new issue for [chatbot project(Project[1])]: [parse example terribly slow]
+[Rachele(Developer[1])] is no longer assigned to [knowledge base project(Project[3])]
+[this project(Project[3])] is assigned to [Rachele(Developer[1])] also
+[Rachele(Developer[1])] resolved [the proposal(Issue[3])]
+Who is [this issue(Issue[3])] assigned to?	'Rachele(Developer[1])'	['question_type_local']
+[Rachele(Developer[1])] resolved [the initialization broken bug(Issue[1])]
+[chatbot project(Project[1])] is not assigned to [Rachele(Developer[1])]
+[this project(Project[1])] is assigned to [that developer(Developer[1])] also
+Who created [the enhancement that was last added(Issue[6])]?	'Michael(Developer[4])'	['question_type_local']
+[this project(Project[1])] is in the [design] stage
+Who is [the task(Issue[2])] assigned to?	'Rachele(Developer[1])'	['question_type_local']
+Who is [the bug(Issue[1])] assigned to?	'Rachele(Developer[1])'	['question_type_local']
+[chatbot project(Project[1])] has moved to the [testing] stage
+Who is [the xml extractor exception enhancement(Issue[5])] assigned to?	'Michael(Developer[4])'	['question_type_local']
+Who created [the xml extractor exception enhancement(Issue[5])]?	'Hanna(Tester[5])'	['question_type_local']
+[that project(Project[1])] is in the stage of [maintenance]
+[chatbot project(Project[1])] is now in the [testing] stage
+Who is [the enhancement that was last added(Issue[6])] assigned to?	'Rachele(Developer[1])'	['question_type_local']
+[this project(Project[1])] has moved to the [maintenance] stage
+[that project(Project[1])] is in the [testing] stage
+[that project(Project[1])] has moved to the [maintenance] stage
+[chatbot project(Project[1])] is in the stage of [testing]
+What are the issues assigned to [Michael(Developer[4])] that were not resolved?	'issue in using training data(Issue[4])'	['question_type_local']
+[Rachele(Developer[1])] is no longer assigned to [knowledge base project(Project[3])]
+[this developer(Developer[1])] is working on [it(Project[3])] also
+[that project(Project[3])] is in the [design] stage
+[chatbot project(Project[1])] is not assigned to [Rachele(Developer[1])]
+[chatbot project(Project[1])] is assigned to [Rachele(Developer[1])] also
+[she(Developer[1])] is not working on [it(Project[1])] anymore
+[this developer(Developer[1])] is working on [it(Project[1])] also
+Were there any issues submitted by [Michael(Developer[4])]?	'wrong pos tag on consecutive words(Issue[6])'	['question_type_local']
+[knowledge base project(Project[3])] is not assigned to [Rachele(Developer[1])]
+[knowledge base project(Project[3])] is assigned to [that person(Developer[1])] also
+[that developer(Developer[1])] is not working on [knowledge base project(Project[3])] anymore
+[she(Developer[1])] is assigned to [it(Project[3])] also
+[knowledge base project(Project[3])] has moved to the [maintenance] stage
+Who was [the issue in using training data issue(Issue[4])] assigned to?	'Michael(Developer[4])'	['question_type_local']
+[it(Project[3])] has moved to the [testing] stage
+Who created [the xml extractor exception enhancement(Issue[5])]?	'Hanna(Tester[5])'	['question_type_local']
+[that project(Project[3])] is in the stage of [design]
+[it(Project[3])] has moved to the [testing] stage
+[it(Project[3])] is now in the [maintenance] stage
+Who is [the bug(Issue[1])] assigned to?	'Rachele(Developer[1])'	['question_type_local']
+[that project(Project[3])] is in the stage of [testing]
+[knowledge base project(Project[3])] is in the stage of [design]
+[that project(Project[3])] is in the [testing] stage
+[Michael(Developer[4])] is not working on [chatbot project(Project[1])] anymore
+[Michael(Developer[4])] is working on [chatbot project(Project[1])] also
+[this developer(Developer[4])] is no longer assigned to [it(Project[1])]
+[that person(Developer[4])] is working on [this project(Project[1])] also
+[this project(Project[1])] is not assigned to [Rachele(Developer[1])]

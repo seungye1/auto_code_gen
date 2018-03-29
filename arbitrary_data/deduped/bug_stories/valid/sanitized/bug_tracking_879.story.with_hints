@@ -1,0 +1,105 @@
+there is a new [mobile(Project[1])] [project]
+[that project(Project[1])] is in the stage of [design]
+[this project(Project[1])] is a [important] project
+[this project(Project[1])] is in the stage of [development]
+[Jack(Developer[1])] is a [developer] on [it(Project[1])]
+[Milagros(Developer[2])] is a [developer]
+[Milagros(Developer[2])] is working on [mobile project(Project[1])]
+There is a new [proposal] for the [this project(Project[1])]: [memory leak bug]
+[mobile project(Project[1])] is in the stage of [design]
+[Cecil(Developer[3])] is a [developer]
+[he(Developer[3])] is assigned to [mobile project(Project[1])]
+[John(Developer[4])] is a [developer]
+[John(Developer[4])] is working on [that project(Project[1])]
+[Yoshiko(Tester[5])] is a [tester]
+[she(Tester[5])] is assigned to [that project(Project[1])]
+[this project(Project[1])] is not assigned to [Jack(Developer[1])]
+[that project(Project[1])] is not assigned to [Cecil(Developer[3])]
+[mobile project(Project[1])] is assigned to [Cecil(Developer[3])]
+there is a new [chatbot(Project[2])] [project]
+[the proposal(Issue[1])] is assigned to [Cecil(Developer[3])]
+There is a new [bug] for the [mobile project(Project[1])]: [memory leak while reading tf records]
+[that person(Developer[3])] is working on [chatbot project(Project[2])] also
+[that project(Project[2])] is in the stage of [testing]
+[that project(Project[2])] is a [personal] project
+[Willis(Tester[6])] is a [tester]
+[Willis(Tester[6])] is working on [mobile project(Project[1])]
+[Milagros(Developer[2])] is assigned to [chatbot project(Project[2])] also
+[Luanna(Tester[7])] is a [tester]
+[that test engineer(Tester[7])] is working on [mobile project(Project[1])]
+[this tester(Tester[7])] is working on [chatbot project(Project[2])] also
+[Bob(Developer[8])] is a [developer] on [that project(Project[2])]
+[this person(Developer[8])] is no longer assigned to [that project(Project[2])]
+[Bob(Developer[8])] is assigned to [mobile project(Project[1])]
+Who was [the memory leak bug proposal(Issue[1])] assigned to?	'Cecil(Developer[3])'	['question_type_local']
+[Cecil(Developer[3])] resolved [the memory leak bug proposal(Issue[1])]
+there is a new [knowledge base(Project[3])] [project]
+[that project(Project[3])] is a [platform] project
+[it(Project[3])] is in the stage of [deployment]
+[that project(Project[3])] is now in the [testing] stage
+[it(Project[3])] is now in the [deployment] stage
+[this project(Project[3])] has moved to the [development] stage
+[Cecil(Developer[3])] is assigned to [this project(Project[3])] also
+[it(Project[3])] is in the stage of [design]
+[that project(Project[3])] is assigned to [Milagros(Developer[2])] also
+[chatbot project(Project[2])] is assigned to [Willis(Tester[6])] also
+There is a new issue for the [mobile project(Project[1])]: [minified version fails]
+[the issue(Issue[3])] is assigned to [Milagros(Developer[2])]
+[dcoref always returns null] is a new issue for the [chatbot project(Project[2])]
+[this issue(Issue[4])] was assigned to [Luanna(Tester[7])]
+[that person(Tester[7])] resolved [it(Issue[4])]
+[knowledge base project(Project[3])] is assigned to [that test engineer(Tester[7])] also
+[Willis(Tester[6])] is working on [that project(Project[3])] also
+[he(Tester[6])] is not working on [mobile project(Project[1])] anymore
+Who is [the memory leak bug proposal(Issue[1])] assigned to?	'Cecil(Developer[3])'	['question_type_local']
+[Willis(Tester[6])] is not working on [knowledge base project(Project[3])] anymore
+[mobile project(Project[1])] is assigned to [he(Tester[6])] also
+[chatbot project(Project[2])] is in the [deployment] stage
+[issue in using training data] is a new [enhancement] created by [Milagros(Developer[2])] for [mobile project(Project[1])]
+[Yoshiko(Tester[5])] is assigned to [knowledge base project(Project[3])] also
+[chatbot project(Project[2])] is assigned to [that person(Tester[5])] also
+[this tester(Tester[5])] created a new issue for [mobile project(Project[1])]: [two consecutive dates identified as single date]
+[the issue(Issue[6])] was assigned to [Milagros(Developer[2])]
+[this person(Developer[2])] resolved [it(Issue[6])]
+[that developer(Developer[2])] is no longer assigned to [chatbot project(Project[2])]
+[this project(Project[2])] is assigned to [that person(Developer[2])] also
+[this project(Project[2])] has moved to the [development] stage
+[chatbot project(Project[2])] is assigned to [John(Developer[4])] also
+[this developer(Developer[4])] is assigned to [knowledge base project(Project[3])] also
+[the memory leak while reading tf records issue(Issue[2])] is assigned to [this person(Developer[4])]
+[that developer(Developer[4])] resolved [the memory leak while reading tf records issue(Issue[2])]
+[mobile project(Project[1])] is not assigned to [John(Developer[4])]
+[mobile project(Project[1])] is assigned to [John(Developer[4])] also
+[it(Project[1])] is not assigned to [he(Developer[4])]
+[John(Developer[4])] is working on [mobile project(Project[1])] also
+[this person(Developer[4])] created a new [bug] for [chatbot project(Project[2])]: [versioning needs to be made consistent]
+[this issue(Issue[7])] is assigned to [Willis(Tester[6])]
+[this tester(Tester[6])] is working on [knowledge base project(Project[3])] also
+[Bob(Developer[8])] is working on [chatbot project(Project[2])] also
+[knowledge base project(Project[3])] is assigned to [Bob(Developer[8])] also
+[Jack(Developer[1])] is assigned to [chatbot project(Project[2])]
+[Jack(Developer[1])] is working on [mobile project(Project[1])] also
+[this person(Developer[1])] is assigned to [knowledge base project(Project[3])] also
+[Milagros(Developer[2])] is no longer assigned to [knowledge base project(Project[3])]
+[it(Project[3])] is assigned to [Milagros(Developer[2])] also
+[that person(Developer[2])] is no longer assigned to [knowledge base project(Project[3])]
+[mobile project(Project[1])] is now in the [deployment] stage
+Were there any issues created by [Milagros(Developer[2])]?	'issue in using training data(Issue[5])'	['question_type_local']
+[knowledge base project(Project[3])] is assigned to [Milagros(Developer[2])] also
+[this developer(Developer[2])] is no longer assigned to [that project(Project[3])]
+[knowledge base project(Project[3])] is assigned to [that person(Developer[2])] also
+[mobile project(Project[1])] is now in the [development] stage
+Who was [the two consecutive dates identified as single date issue(Issue[6])] assigned to?	'Milagros(Developer[2])'	['question_type_local']
+[knowledge base project(Project[3])] has moved to the [testing] stage
+[knowledge base project(Project[3])] is not assigned to [Willis(Tester[6])]
+[this tester(Tester[6])] is working on [it(Project[3])] also
+[Milagros(Developer[2])] is no longer assigned to [mobile project(Project[1])]
+[Milagros(Developer[2])] is assigned to [mobile project(Project[1])] also
+Who was [the memory leak bug proposal(Issue[1])] assigned to?	'Cecil(Developer[3])'	['question_type_local']
+[that project(Project[1])] is in the stage of [design]
+[Willis(Tester[6])] resolved [the bug that was last added(Issue[7])]
+[mobile project(Project[1])] is now in the [development] stage
+[that person(Tester[6])] is not working on [knowledge base project(Project[3])] anymore
+[Willis(Tester[6])] is assigned to [knowledge base project(Project[3])] also
+[chatbot project(Project[2])] is in the [design] stage
+[knowledge base project(Project[3])] is in the [development] stage

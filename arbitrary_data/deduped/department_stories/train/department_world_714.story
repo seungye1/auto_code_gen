@@ -1,0 +1,220 @@
+there is a new [second year] PhD student named [Angelita]
+[Angelita] passed thesis defense
+[that person] is in [Engineering Building]
+[she] is now in [third year]
+[that student] failed the qualifiers
+[Michael] is a masters student
+[she] has passed the thesis proposal exam
+[third year] is a [Bob] PhD student
+There is a course called [G601]
+[Bob] is in [fourth year]
+[that person] has passed the thesis defense
+Create a new [masters] course called [U201]
+[that person] passed the qualifiers
+Which courses are [masters] level courses?	'U201'	['question_type_global', 'question_single_statement']
+the affiliation of [Michael] is [physics]
+There is a [phd] [mini course] called [U601]
+[that course] is a 12 unit course
+[U601] is offered in the [animal science] department
+[Angelita] is enrolled in [that course]
+which students passed the proposal exam?	'Angelita'	['question_type_global', 'question_single_statement']
+What are the [animal science] courses?	'U601'	['question_type_global', 'question_single_statement']
+who are the masters students?	'Michael'	['question_type_global', 'question_single_statement']
+Which courses are in the [animal science] department?	'U601'	['question_type_global', 'question_single_statement']
+there is a new [sixth year] PhD student named [Jack]
+Which are some [masters] courses that no masters student is taking?	'U201'	['question_type_global', 'question_three_hop_statement']
+[Vivienne] is a [teaching] [professor]
+[she] advises [Jack]
+[she] research interest is in [conservation biology]
+[Angelita] has [that professor] on the committee
+[that student] is now in [fourth year]
+What professors are on [this student]'s committee	'Vivienne'	['question_type_local']
+what courses have no phd students taking them?	'G601', 'U201'	['question_type_global', 'question_two_hop_statement']
+[Bob] is in [Marine Center]
+[Bob] has passed the thesis proposal exam
+Which courses are [mini course]	'U601'	['question_type_global', 'question_single_statement']
+What are all the courses in the animal science department?	'U601'	['question_type_global', 'question_two_hop_statement']
+[Vivienne] advises [Angelita]
+For which phd students does [this professor] serve on a committee?	'Angelita'	['question_type_local']
+Create a new [masters] [mini course] called [U8001]
+[that person] is enrolled in [U8001]
+[that course] is taught by [Vivienne]
+Who is teaching [U8001]?	'Vivienne'	['question_type_local']
+who are the masters students?	'Michael'	['question_type_global', 'question_single_statement']
+Who are the professors working on [conservation biology]?	'Vivienne'	['question_type_global', 'question_single_statement']
+[she] advises [Bob]
+what courses have phd students taking them?	'U601', 'U8001'	['question_type_global', 'question_two_hop_statement']
+Which are some courses that no masters student is taking?	'G601', 'U201', 'U601', 'U8001'	['question_type_global', 'question_two_hop_statement']
+[Angelita] has passed the qualifying exam
+who are the professors?	'Vivienne'	['question_type_global', 'question_single_statement']
+Who is in [Marine Center]	'Bob'	['question_type_global', 'question_two_hop_statement']
+there is a masters student named [Zenaida]
+[Zenaida]'s department is [history]
+There is a [masters] course called [U9000]
+What students are enrolled in [U8001]?	'Angelita'	['question_type_local']
+Which [sixth year] students are advised by professors working on [conservation biology]?	'Jack'	['question_type_global', 'question_three_hop_statement']
+there is a new PhD student named [Andrew]
+[he] is in [ATLAS Building]
+[he] passed thesis proposal
+Which students's advisors are conducting research in [conservation biology]	'Angelita', 'Bob', 'Jack'	['question_type_global', 'question_two_hop_statement']
+Which students have offices in Marine Center	'Bob'	['question_type_global', 'question_two_hop_statement']
+[Andrew] is [Vivienne]'s student
+What courses is [she] teaching?	'U8001'	['question_type_local']
+Who is in [ATLAS Building]	'Andrew'	['question_type_global', 'question_two_hop_statement']
+Create a new [masters] level 2 unit course called [U101]
+[this student] failed the qualifiers
+[Andrew] has passed the thesis defense
+What professors advise students who defended successfully?	'Vivienne'	['question_type_global', 'question_two_hop_statement']
+there is a new PhD student named [Will]
+[Will] has [Vivienne] on the committee
+which students passed the defense?	'Angelita', 'Bob', 'Andrew'	['question_type_global', 'question_single_statement']
+who are the phd students?	'Angelita', 'Bob', 'Jack', 'Andrew', 'Will'	['question_type_global', 'question_single_statement']
+[Casey] is a PhD student
+[Vivienne] is on [that student]'s committee
+[that student] successfully defended their thesis
+[Casey] is in [Koenig Building]
+who are the students?	'Angelita', 'Michael', 'Bob', 'Jack', 'Zenaida', 'Andrew', 'Will', 'Casey'	['question_type_global', 'question_single_statement']
+[he] is in their [fifth year]
+who are the professors?	'Vivienne'	['question_type_global', 'question_single_statement']
+There is a [masters] level course called [U102]
+[this student] has passed the thesis proposal exam
+which courses have some phd students enrolled?	'U601', 'U8001'	['question_type_global', 'question_two_hop_statement']
+There is a [phd] level [full_semester_course] called [G104]
+which students passed the proposal exam?	'Angelita', 'Bob', 'Andrew', 'Casey'	['question_type_global', 'question_single_statement']
+Create a new course called [G102]
+[math] offers [G102]
+What are all the courses?	'G601', 'U201', 'U601', 'U8001', 'U9000', 'U101', 'U102', 'G104', 'G102'	['question_type_global', 'question_single_statement']
+there is a [professor] named [Emma]
+[that person] advises [Casey]
+[she] research interest is in [evolutionary biology]
+[Emma] is an [full] professor
+Which courses are offered this semester?	'G601', 'U201', 'U601', 'U8001', 'U9000', 'U101', 'U102', 'G104', 'G102'	['question_type_global', 'question_single_statement']
+[Bob] is now in [fifth year]
+Which courses are 2 unit courses?	'U101'	['question_type_global', 'question_single_statement']
+[that professor] advises [Will]
+which students passed the qualifying exam?	'Angelita', 'Bob'	['question_type_global', 'question_single_statement']
+[U8001] is 4 units
+The TA for [that class] is [Jack]
+What department is [G102] offered in?	'math'	['question_type_local']
+which students passed the defense?	'Angelita', 'Bob', 'Andrew', 'Casey'	['question_type_global', 'question_single_statement']
+there is a masters student named [Milagros]
+[she]'s department is [physics]
+Which [fourth year] students's advisors are conducting research in [conservation biology]	'Angelita'	['question_type_global', 'question_three_hop_statement']
+[G102] is taught by [Emma]
+Which are some [phd] courses that no masters student is taking?	'U601', 'G104'	['question_type_global', 'question_three_hop_statement']
+Who are the students in the [history] department	'Zenaida'	['question_type_global', 'question_two_hop_statement']
+create a [distinguished] [professor] named [Roslyn]
+[Cecil] is a masters student
+[this professor] research interest is in [evolutionary biology]
+What is [this professor] research area?	'evolutionary biology'	['question_type_local']
+Who are the [full] professors?	'Emma'	['question_type_global', 'question_single_statement']
+What professors advise students who passed their thesis qualifiers?	'Vivienne'	['question_type_global', 'question_two_hop_statement']
+What professors are on [Angelita]'s committee	'Vivienne'	['question_type_local']
+Which students's advisors are conducting research in [evolutionary biology]	'Will', 'Casey'	['question_type_global', 'question_two_hop_statement']
+Which [teaching] professors advise students who passed their qualifying exam?	'Vivienne'	['question_type_global', 'question_three_hop_statement']
+Which courses are [mini course]	'U601', 'U8001'	['question_type_global', 'question_single_statement']
+What professors advise students who passed their thesis proposal?	'Vivienne', 'Emma'	['question_type_global', 'question_two_hop_statement']
+What [full] professors advise students who passed their thesis proposal?	'Emma'	['question_type_global', 'question_three_hop_statement']
+[G102] is a [undergraduate] course
+[that course] is full semester
+Who is on [Casey]'s committee?	'Vivienne'	['question_type_local']
+which students passed the defense?	'Angelita', 'Bob', 'Andrew', 'Casey'	['question_type_global', 'question_single_statement']
+What are the 2 unit courses?	'U101'	['question_type_global', 'question_single_statement']
+Who is in the [physics] department	'Michael', 'Milagros'	['question_type_global', 'question_single_statement']
+there is a masters student named [Tereasa]
+[Tereasa] is affiliated with the [animal science] department
+who are the phd students?	'Angelita', 'Bob', 'Jack', 'Andrew', 'Will', 'Casey'	['question_type_global', 'question_single_statement']
+Create a new course called [G203]
+[that class] part of the [history] department
+[G203] is a [masters] level course
+[G203] is a 12 unit course
+Which department is [that class] part of?	'history'	['question_type_local']
+Who is in [Koenig Building]	'Casey'	['question_type_global', 'question_two_hop_statement']
+Who is part of the [physics] department	'Michael', 'Milagros'	['question_type_global', 'question_single_statement']
+Who is taking the U601 course	'Angelita'	['question_type_global', 'question_single_statement']
+[that class] is a pass-fail course
+who are the students?	'Angelita', 'Michael', 'Bob', 'Jack', 'Zenaida', 'Andrew', 'Will', 'Casey', 'Milagros', 'Cecil', 'Tereasa'	['question_type_global', 'question_single_statement']
+What are the 2 unit courses?	'U101'	['question_type_global', 'question_single_statement']
+Which students are in their [fifth year]	'Bob', 'Casey'	['question_type_global', 'question_single_statement']
+Which professors have an [teaching] status?	'Vivienne'	['question_type_global', 'question_single_statement']
+Which [teaching] professors advise students who passed their qualifying exam?	'Vivienne'	['question_type_global', 'question_three_hop_statement']
+What phd students are taking U8001	'Angelita'	['question_type_global', 'question_two_hop_statement']
+Which students's advisors are conducting research in [evolutionary biology]	'Will', 'Casey'	['question_type_global', 'question_two_hop_statement']
+What are the courses that [Angelita] is enrolled in?	'U601', 'U8001'	['question_type_local']
+which [phd] courses have no phd students enrolled?	'G104'	['question_type_global', 'question_three_hop_statement']
+[U8001] is a pass-fail course
+The TA for [U8001] is [Tereasa]
+Who is currently TAing [U8001]?	'Jack', 'Tereasa'	['question_type_local']
+what courses have phd students taking them?	'U601', 'U8001'	['question_type_global', 'question_two_hop_statement']
+Which professors advise students who passed their proposal?	'Vivienne', 'Emma'	['question_type_global', 'question_two_hop_statement']
+Which are some [masters] courses that phd students take?	'U8001'	['question_type_global', 'question_three_hop_statement']
+Which courses are TAed by [Tereasa]?	'U8001'	['question_type_local']
+who are the students?	'Angelita', 'Michael', 'Bob', 'Jack', 'Zenaida', 'Andrew', 'Will', 'Casey', 'Milagros', 'Cecil', 'Tereasa'	['question_type_global', 'question_single_statement']
+[Angelita] has [Roslyn] and [Emma] on the committee
+Which [fifth year] students are advised by professors working on [evolutionary biology]?	'Casey'	['question_type_global', 'question_three_hop_statement']
+Create a new course called [G201]
+who are the masters students?	'Michael', 'Zenaida', 'Milagros', 'Cecil', 'Tereasa'	['question_type_global', 'question_single_statement']
+Which courses are part of the [math] department	'G102'	['question_type_global', 'question_single_statement']
+[this course] is part of the [history] department
+Which courses are [masters] level courses?	'U201', 'U8001', 'U9000', 'U101', 'U102', 'G203'	['question_type_global', 'question_single_statement']
+which students passed the proposal exam?	'Angelita', 'Bob', 'Andrew', 'Casey'	['question_type_global', 'question_single_statement']
+Who is teaching [full_semester_course]?	'Emma'	['question_type_global', 'question_two_hop_statement']
+[U8001] is under the [math] department
+Which students are TAing [U8001]?	'Jack', 'Tereasa'	['question_type_local']
+What students are going to TA [U8001]?	'Jack', 'Tereasa'	['question_type_local']
+Which courses are [undergraduate] level courses?	'G102'	['question_type_global', 'question_single_statement']
+What [teaching] professors advise students who defended successfully?	'Vivienne'	['question_type_global', 'question_three_hop_statement']
+Which courses are offered this semester?	'G601', 'U201', 'U601', 'U8001', 'U9000', 'U101', 'U102', 'G104', 'G102', 'G203', 'G201'	['question_type_global', 'question_single_statement']
+Who is teaching [U8001]?	'Vivienne'	['question_type_local']
+[Milagros] is taking [U8001]
+Who is teaching [this course]?	'Vivienne'	['question_type_local']
+Who are the students in the [animal science] department	'Tereasa'	['question_type_global', 'question_two_hop_statement']
+[Andrew] passed the qualifiers
+[he] is current in [second year]
+which students passed the defense?	'Angelita', 'Bob', 'Andrew', 'Casey'	['question_type_global', 'question_single_statement']
+What students are TAing a course taught by their advisor?	'Jack'	['question_type_global', 'question_three_hop_statement']
+[Bob] has [Roslyn] and [Emma] on the committee
+[Bob] is now in [sixth year]
+What students are in Marine Center	'Bob'	['question_type_global', 'question_two_hop_statement']
+Which courses are offered this semester in the history department?	'G203', 'G201'	['question_type_global', 'question_two_hop_statement']
+Which courses are offered this semester?	'G601', 'U201', 'U601', 'U8001', 'U9000', 'U101', 'U102', 'G104', 'G102', 'G203', 'G201'	['question_type_global', 'question_single_statement']
+What students are in the [animal science] department?	'Tereasa'	['question_type_global', 'question_two_hop_statement']
+Which are some courses that phd students take?	'U601', 'U8001'	['question_type_global', 'question_two_hop_statement']
+Who is taking [U601]?	'Angelita'	['question_type_local']
+Which are some courses that no masters student is taking?	'G601', 'U201', 'U601', 'U9000', 'U101', 'U102', 'G104', 'G102', 'G203', 'G201'	['question_type_global', 'question_two_hop_statement']
+Which courses are [mini course]	'U601', 'U8001'	['question_type_global', 'question_single_statement']
+Which courses are TAed by masters students?	'U8001'	['question_type_global', 'question_two_hop_statement']
+What are all the courses in the history department?	'G203', 'G201'	['question_type_global', 'question_two_hop_statement']
+There is a [phd] 12 unit class called [G202]
+[G202] is under the [math] department
+[Angelita] and [Will] are both taking [that course]
+Which courses are TAed by phd students?	'U8001'	['question_type_global', 'question_two_hop_statement']
+who are the students?	'Angelita', 'Michael', 'Bob', 'Jack', 'Zenaida', 'Andrew', 'Will', 'Casey', 'Milagros', 'Cecil', 'Tereasa'	['question_type_global', 'question_single_statement']
+[he] has passed the thesis defense
+[Will]'s office is [Environmental Building]
+[this student] is a [fourth year] student
+Who is TAing [U8001]?	'Jack', 'Tereasa'	['question_type_local']
+[that person] failed thesis proposal
+What are the [undergraduate] courses?	'G102'	['question_type_global', 'question_single_statement']
+which students passed the proposal exam?	'Angelita', 'Bob', 'Andrew', 'Casey'	['question_type_global', 'question_single_statement']
+[he] is now in [fifth year]
+[Roslyn] is on [Will]'s committee
+Which courses are offered this semester in the math department?	'U8001', 'G102', 'G202'	['question_type_global', 'question_two_hop_statement']
+Which are some [phd] courses that phd students take?	'U601', 'G202'	['question_type_global', 'question_three_hop_statement']
+What is [Emma] working on?	'evolutionary biology'	['question_type_local']
+Who is teaching [full_semester_course]?	'Emma'	['question_type_global', 'question_two_hop_statement']
+[Andrew] is a TA for [U8001]
+Which are some [undergraduate] courses that no phd student is taking?	'G102'	['question_type_global', 'question_three_hop_statement']
+Who is in the [physics] department	'Michael', 'Milagros'	['question_type_global', 'question_single_statement']
+What are the [masters] courses?	'U201', 'U8001', 'U9000', 'U101', 'U102', 'G203'	['question_type_global', 'question_single_statement']
+Who advises [he]?	'Vivienne'	['question_type_local']
+Which courses have phd student TAs that passed the qualifying exam?	'U8001'	['question_type_global', 'question_three_hop_statement']
+Which courses are [phd] level courses?	'U601', 'G104', 'G202'	['question_type_global', 'question_single_statement']
+[Will] is in [sixth year]
+who are the masters students?	'Michael', 'Zenaida', 'Milagros', 'Cecil', 'Tereasa'	['question_type_global', 'question_single_statement']
+What are the [history] courses?	'G203', 'G201'	['question_type_global', 'question_single_statement']
+[Will] has passed the qualifying exam
+who are the students?	'Angelita', 'Michael', 'Bob', 'Jack', 'Zenaida', 'Andrew', 'Will', 'Casey', 'Milagros', 'Cecil', 'Tereasa'	['question_type_global', 'question_single_statement']
+Which courses are part of the [history] department	'G203', 'G201'	['question_type_global', 'question_single_statement']
+Which courses have masters student TAs?	'U8001'	['question_type_global', 'question_two_hop_statement']
+who are the professors?	'Vivienne', 'Emma', 'Roslyn'	['question_type_global', 'question_single_statement']

@@ -1,0 +1,106 @@
+there is a new [knowledge base(Project[1])] [project]
+[knowledge base project(Project[1])] is a [external] project
+[this project(Project[1])] is in the [maintenance] stage
+There is a new [bug] for the [it(Project[1])]: [saving data throws exception]
+[tokenization not consistent across platforms] is a new [bug] for the [that project(Project[1])]
+[knowledge base project(Project[1])] is now in the [implementation] stage
+[initialization broken] is a new issue for the [this project(Project[1])]
+there is a new [mobile(Project[2])] [project]
+[Emma(Tester[1])] is a [tester]
+[knowledge base project(Project[1])] is assigned to [this tester(Tester[1])]
+[this person(Tester[1])] is assigned to [mobile project(Project[2])] also
+[this project(Project[2])] is a [corporate] project
+[the tokenization not consistent across platforms bug(Issue[2])] is assigned to [Emma(Tester[1])]
+[this person(Tester[1])] resolved [it(Issue[2])]
+there is a new [corporate] [chatbot(Project[3])] [project]
+[that project(Project[3])] is currently in the [evaluation] stage
+[Emma(Tester[1])] created a new issue for [mobile project(Project[2])]: [xml extractor exception]
+[Michael(Tester[2])] is a [tester] on [knowledge base project(Project[1])]
+There is a new issue for the [chatbot project(Project[3])]: [versioning needs to be made consistent]
+[Emma(Tester[1])] is assigned to [chatbot project(Project[3])] also
+[mobile project(Project[2])] is currently in the [implementation] stage
+[mobile project(Project[2])] is in the stage of [development]
+[Michael(Tester[2])] is working on [chatbot project(Project[3])] also
+[mobile project(Project[2])] is assigned to [Michael(Tester[2])] also
+What are the issues submitted by [Emma(Tester[1])] that were not resolved?	'xml extractor exception(Issue[4])'	['question_type_local']
+[knowledge base project(Project[1])] is in the [development] stage
+Who created [the xml extractor exception issue(Issue[4])]?	'Emma(Tester[1])'	['question_type_local']
+[mobile project(Project[2])] is in the [implementation] stage
+[Emmie(Developer[3])] is a [developer] on [chatbot project(Project[3])]
+[this developer(Developer[3])] is working on [knowledge base project(Project[1])] also
+[Tawnya(Tester[4])] is a [tester]
+[this tester(Tester[4])] is working on [it(Project[1])]
+[Emma(Tester[1])] is no longer assigned to [mobile project(Project[2])]
+[mobile project(Project[2])] is assigned to [Emma(Tester[1])] also
+[William(Tester[5])] is a [tester]
+[this tester(Tester[5])] is assigned to [mobile project(Project[2])]
+[this tester(Tester[5])] is assigned to [chatbot project(Project[3])] also
+[knowledge base project(Project[1])] is assigned to [William(Tester[5])] also
+[mobile project(Project[2])] is not assigned to [this person(Tester[5])]
+[this project(Project[2])] is assigned to [that test engineer(Tester[5])] also
+[knowledge base project(Project[1])] is not assigned to [William(Tester[5])]
+[this test engineer(Tester[5])] is assigned to [knowledge base project(Project[1])] also
+[Tawnya(Tester[4])] is working on [chatbot project(Project[3])] also
+[the versioning needs to be made consistent issue(Issue[5])] was assigned to [Tawnya(Tester[4])]
+[she(Tester[4])] is working on [mobile project(Project[2])] also
+[Zenaida(Tester[6])] is a [tester]
+[this tester(Tester[6])] is assigned to [that project(Project[2])]
+[William(Tester[5])] created a new issue for [knowledge base project(Project[1])]: [parsing with parantheses fails]
+[this project(Project[2])] is in the stage of [development]
+[Bob(Developer[7])] is a [developer]
+[William(Tester[5])] submitted a new [bug] for [knowledge base project(Project[1])]: [fails with apache stack]
+[this issue(Issue[7])] was assigned to [Tawnya(Tester[4])]
+[that test engineer(Tester[4])] resolved [the fails with apache stack issue(Issue[7])]
+[the parsing with parantheses fails issue(Issue[6])] was assigned to [Michael(Tester[2])]
+[Michael(Tester[2])] resolved [this issue(Issue[6])]
+[Zenaida(Tester[6])] is working on [chatbot project(Project[3])] also
+[knowledge base project(Project[1])] is assigned to [Zenaida(Tester[6])] also
+Who created [the xml extractor exception issue(Issue[4])]?	'Emma(Tester[1])'	['question_type_local']
+[Zenaida(Tester[6])] is not working on [mobile project(Project[2])] anymore
+[she(Tester[6])] is working on [this project(Project[2])] also
+[this test engineer(Tester[6])] is not working on [knowledge base project(Project[1])] anymore
+[that person(Tester[6])] is assigned to [knowledge base project(Project[1])] also
+[chatbot project(Project[3])] is not assigned to [William(Tester[5])]
+[chatbot project(Project[3])] is assigned to [he(Tester[5])] also
+[Tawnya(Tester[4])] resolved [the versioning needs to be made consistent issue(Issue[5])]
+[the xml extractor exception issue(Issue[4])] is assigned to [Emma(Tester[1])]
+[this person(Tester[1])] resolved [that issue(Issue[4])]
+[that test engineer(Tester[1])] is not working on [chatbot project(Project[3])] anymore
+[she(Tester[1])] is working on [chatbot project(Project[3])] also
+[that project(Project[3])] is now in the [implementation] stage
+[knowledge base project(Project[1])] is in the stage of [implementation]
+[chatbot project(Project[3])] is now in the [development] stage
+[chatbot project(Project[3])] is in the [evaluation] stage
+[chatbot project(Project[3])] is now in the [maintenance] stage
+[Emma(Tester[1])] is not working on [knowledge base project(Project[1])] anymore
+[it(Project[1])] is in the stage of [development]
+[that project(Project[1])] is assigned to [Emma(Tester[1])] also
+[this project(Project[1])] is in the [maintenance] stage
+[Tawnya(Tester[4])] is not working on [chatbot project(Project[3])] anymore
+[that test engineer(Tester[4])] is assigned to [chatbot project(Project[3])] also
+[this project(Project[3])] is now in the [implementation] stage
+[that project(Project[3])] has moved to the [development] stage
+[that project(Project[3])] is now in the [implementation] stage
+[that project(Project[3])] is now in the [development] stage
+[Emmie(Developer[3])] is working on [mobile project(Project[2])] also
+Who created [the xml extractor exception issue(Issue[4])]?	'Emma(Tester[1])'	['question_type_local']
+[knowledge base project(Project[1])] is not assigned to [this developer(Developer[3])]
+[the saving data throws exception bug(Issue[1])] was assigned to [Zenaida(Tester[6])]
+[this test engineer(Tester[6])] resolved [that issue(Issue[1])]
+[chatbot project(Project[3])] is now in the [implementation] stage
+[that person(Tester[6])] is not working on [this project(Project[3])] anymore
+[Zenaida(Tester[6])] is assigned to [chatbot project(Project[3])] also
+Who created [the fails with apache stack bug(Issue[7])]?	'William(Tester[5])'	['question_type_local']
+[that person(Tester[6])] is no longer assigned to [mobile project(Project[2])]
+[this test engineer(Tester[6])] is working on [mobile project(Project[2])] also
+[it(Project[2])] is in the [maintenance] stage
+[that project(Project[2])] is in the [evaluation] stage
+Who was [the tokenization not consistent across platforms bug(Issue[2])] assigned to?	'Emma(Tester[1])'	['question_type_local']
+[this project(Project[2])] is now in the [development] stage
+[this project(Project[2])] has moved to the [maintenance] stage
+[that project(Project[2])] is in the [implementation] stage
+[this project(Project[2])] is now in the [maintenance] stage
+[it(Project[2])] is not assigned to [Zenaida(Tester[6])]
+[it(Project[2])] is assigned to [this tester(Tester[6])] also
+[that project(Project[2])] is in the stage of [development]
+[knowledge base project(Project[1])] is now in the [implementation] stage

@@ -1,0 +1,167 @@
+there is a [professor] named [Michael(Professor[1])]
+[this professor(Professor[1])]'s email is [Michael@nh.edu]
+I am taking a [accounting(Course[1])] course
+[that class(Course[1])] is taught by [he(Professor[1])]
+What is [this professor(Professor[1])]'s email	'Michael@nh.edu'	['question_type_local']
+I am taking a [english composition(Course[2])] course
+What courses is [he(Professor[1])] teaching?	'accounting(Course[1])'	['question_type_local']
+I am taking a course called [government(Course[3])]
+I am taking a course called [microbiology(Course[4])]
+there is a [professor] named [William(Professor[2])]
+[he(Professor[2])] teaches [microbiology(Course[4])]
+create a [professor] named [Albertha(Professor[3])]
+[he(Professor[2])]'s email is [William@cmu.edu]
+What courses is [he(Professor[2])] teaching?	'microbiology(Course[4])'	['question_type_local']
+[government(Course[3])] has a new [government homework 1(Homework[1])] out
+there is new [english composition project 1(Project[2])] for [english composition(Course[2])]
+[this project(Project[2])] is due on [February 22]
+[this project(Project[2])] is about [neural networks]
+[this assignment(Project[2])] is worth [56] points
+[Albertha(Professor[3])] is the instructor for [english composition(Course[2])]
+which projects are due before [February 24]?	'english composition project 1(Project[2])'	['question_type_global', 'question_two_hop_statement']
+[Albertha(Professor[3])]'s email is [Albertha@chk.ru]
+show me the assignments due on [February 22]	'english composition project 1(Project[2])'	['question_type_global', 'question_two_hop_statement']
+When is [english composition project 1(Project[2])] due?	'February 22'	['question_type_local']
+[microbiology project 1(Project[3])] is released for [microbiology(Course[4])]
+[microbiology project 1(Project[3])] is on [deep learning]
+[that project(Project[3])] is [76] points
+I submitted [this project(Project[3])] late and received 76 points
+The deadline of [that assignment(Project[3])] is [February 20]
+When is [this project(Project[3])] due?	'February 20'	['question_type_local']
+create a [professor] named [Francoise(Professor[4])]
+create a [professor] named [Willis(Professor[5])]
+[Willis(Professor[5])]'s email is [Willis@msn.com]
+I submitted [english composition project 1(Project[2])] and received 24 points
+list projects that are due on [February 22]	'english composition project 1(Project[2])'	['question_type_global', 'question_two_hop_statement']
+which projects are due on [February 22]?	'english composition project 1(Project[2])'	['question_type_global', 'question_two_hop_statement']
+How many points is [microbiology project 1(Project[3])] worth?	76	['question_type_local']
+what assignments did i submit for [Albertha]?	'english composition project 1(Project[2])'	['question_type_global', 'question_three_hop_statement']
+show me the projects due on [February 20]	'microbiology project 1(Project[3])'	['question_type_global', 'question_two_hop_statement']
+[Vivienne(Professor[6])] is a [professor]
+The deadline of [this project(Project[2])] moved to [February 22]
+[Vivienne(Professor[6])]'s email is [Vivienne@chk.ru]
+[Francoise(Professor[4])]'s email is [Francoise@gmail.com]
+there is new [government project 1(Project[4])] for [government(Course[3])]
+I submitted [this assignment(Project[4])]
+[that assignment(Project[4])] is worth [87] points
+which projects are due on [February 22]?	'english composition project 1(Project[2])'	['question_type_global', 'question_two_hop_statement']
+The topic of [this assignment(Project[4])] is [Molds & Fungi]
+What is [english composition project 1(Project[2])] on?	'neural networks'	['question_type_local']
+[accounting project 1(Project[5])] is released for [accounting(Course[1])]
+The deadline of [government project 1(Project[4])] is [February 16]
+The topic of [accounting project 1(Project[5])] is [cold war]
+[accounting project 1(Project[5])] is worth [50] points
+I submitted [that assignment(Project[5])] and received 34 points
+The deadline of [this project(Project[5])] is [February 15]
+[microbiology project 2(Project[6])] is released for [microbiology(Course[4])]
+[microbiology project 2(Project[6])] is on [decision trees]
+[this project(Project[6])] is [83] points
+The deadline of [this project(Project[6])] is [February 26]
+I submitted [microbiology project 2(Project[6])] and received 83 points
+show me the assignments due on [February 16]	'government project 1(Project[4])'	['question_type_global', 'question_two_hop_statement']
+there is new [government project 2(Project[7])] for [government(Course[3])]
+[government project 2(Project[7])] is due on [March 02]
+[microbiology homework 1(Homework[8])] is out for [microbiology(Course[4])]
+[that project(Project[7])] is [67] points
+I submitted [that project(Project[7])] and received 67 points
+how much did I get on [that assignment(Project[7])]?	67	['question_type_local']
+which projects did I submit for [William]?	'microbiology project 1(Project[3])', 'microbiology project 2(Project[6])'	['question_type_global', 'question_three_hop_statement']
+show me the assignments due on [March 02]	'government project 2(Project[7])'	['question_type_global', 'question_two_hop_statement']
+[Hanna(Professor[7])] is a [professor]
+[Hanna(Professor[7])]'s email is [Hanna@harvard.edu]
+[Tawnya(Professor[8])] is a [professor]
+[Tawnya(Professor[8])]'s email is [Tawnya@cornell.edu]
+[english composition(Course[2])] has a new [english composition homework 1(Homework[9])] released
+What is [microbiology project 2(Project[6])] on?	'decision trees'	['question_type_local']
+[this assignment(Homework[9])] is [45] points
+[this assignment(Homework[9])] is due on [February 20]
+I submitted [that assignment(Homework[9])] and received 26 points
+Which professor is teaching [microbiology(Course[4])]?	'William(Professor[2])'	['question_type_local']
+what projects did i submit late for [William]?	'microbiology project 1(Project[3])'	['question_type_global', 'question_three_hop_statement']
+[english composition project 2(Project[10])] is released for [english composition(Course[2])]
+When is [government project 2(Project[7])] due?	'March 02'	['question_type_local']
+list all projects for [William]	'microbiology project 1(Project[3])', 'microbiology project 2(Project[6])'	['question_type_global', 'question_three_hop_statement']
+The deadline of [english composition project 2(Project[10])] is [February 24]
+[this assignment(Project[10])] is worth [50] points
+When is the deadline of [accounting project 1(Project[5])]?	'February 15'	['question_type_local']
+How much is [accounting project 1(Project[5])] worth?	50	['question_type_local']
+I submitted [this assignment(Project[10])] and received 13 points
+How much is [government project 1(Project[4])] worth?	87	['question_type_local']
+what homeworks do I have to do for [William]?	'microbiology homework 1(Homework[8])'	['question_type_global', 'question_three_hop_statement']
+there is new [government project 3(Project[11])] for [government(Course[3])]
+there is new [government project 4(Project[12])] for [government(Course[3])]
+[government project 3(Project[11])] is [19] points
+The deadline of [government project 3(Project[11])] is [March 07]
+When is [english composition project 1(Project[2])] due?	'February 22'	['question_type_local']
+When is [government project 2(Project[7])] due?	'March 02'	['question_type_local']
+How much is [microbiology project 2(Project[6])] worth?	83	['question_type_local']
+what are the late assignments that i submitted for [William]	'microbiology project 1(Project[3])'	['question_type_global', 'question_three_hop_statement']
+I submitted [that project(Project[11])] on time and received 19 points
+there is a new [project(Project[13])] for [government(Course[3])]
+[government project 5(Project[13])] is [53] points
+I submitted [this assignment(Project[13])] and received 29 points
+[that assignment(Project[13])] is due on [March 30]
+[accounting(Course[1])] has a new [accounting homework 1(Homework[14])] released
+[that homework(Homework[14])] is worth [45] points
+[microbiology(Course[4])] has a new [microbiology homework 2(Homework[15])] released
+[accounting homework 1(Homework[14])] is due on [February 15]
+I submitted [microbiology homework 2(Homework[15])] on time
+show me the projects due on [February 16]	'government project 1(Project[4])'	['question_type_global', 'question_two_hop_statement']
+The deadline of [microbiology homework 2(Homework[15])] is [March 06]
+[this assignment(Homework[15])] is worth [81] points
+how much did I get on [government project 5(Project[13])]?	29	['question_type_local']
+When is [microbiology project 2(Project[6])] due?	'February 26'	['question_type_local']
+what are the projects that i submitted for [William]	'microbiology project 1(Project[3])', 'microbiology project 2(Project[6])'	['question_type_global', 'question_three_hop_statement']
+[english composition homework 2(Homework[16])] is released for [english composition(Course[2])]
+[english composition homework 2(Homework[16])] is worth [98] points
+[that assignment(Homework[16])] is due on [March 04]
+I submitted [this assignment(Homework[16])] and received 98 points
+[that homework(Homework[16])] is now due on [March 01]
+how much did I get on [microbiology project 1(Project[3])]?	76	['question_type_local']
+there is a new [homework(Homework[17])] for [microbiology(Course[4])]
+[microbiology homework 3(Homework[17])] is [90] points
+I submitted [this homework(Homework[17])] and received 3 points
+[microbiology homework 3(Homework[17])] is due on [March 10]
+Which professor is teaching [english composition(Course[2])]?	'Albertha(Professor[3])'	['question_type_local']
+what are the homeworks that i submitted for [William]	'microbiology homework 2(Homework[15])', 'microbiology homework 3(Homework[17])'	['question_type_global', 'question_three_hop_statement']
+which assignments did I submit for [Michael]?	'accounting project 1(Project[5])'	['question_type_global', 'question_three_hop_statement']
+list all projects for [William]	'microbiology project 1(Project[3])', 'microbiology project 2(Project[6])'	['question_type_global', 'question_three_hop_statement']
+How many points did I get on [microbiology project 2(Project[6])]	83	['question_type_local']
+which assignments are due on [February 20]?	'microbiology project 1(Project[3])', 'english composition homework 1(Homework[9])'	['question_type_global', 'question_two_hop_statement']
+how many points did I receive on [microbiology project 1(Project[3])]?	76	['question_type_local']
+How many points did I get on [english composition homework 1(Homework[9])]	26	['question_type_local']
+[english composition(Course[2])] has a new [english composition homework 3(Homework[18])] out
+[english composition homework 3(Homework[18])] is [15] points
+The deadline of [that assignment(Homework[18])] is [March 07]
+I submitted [this assignment(Homework[18])] and received 15 points
+which projects are due on [February 24]?	'english composition project 2(Project[10])'	['question_type_global', 'question_two_hop_statement']
+which assignments did I submit late for [William]?	'microbiology project 1(Project[3])'	['question_type_global', 'question_three_hop_statement']
+How many points did I get on [government project 2(Project[7])]	67	['question_type_local']
+[microbiology homework 4(Homework[19])] is released for [microbiology(Course[4])]
+[microbiology homework 4(Homework[19])] is due on [March 24]
+[this homework(Homework[19])] is [35] points
+which homeworks did I submit for [William]?	'microbiology homework 2(Homework[15])', 'microbiology homework 3(Homework[17])'	['question_type_global', 'question_three_hop_statement']
+what are the projects that i submitted for [Albertha]	'english composition project 1(Project[2])', 'english composition project 2(Project[10])'	['question_type_global', 'question_three_hop_statement']
+I submitted [this homework(Homework[19])] and received 20 points
+When is [english composition homework 2(Homework[16])] due?	'March 01'	['question_type_local']
+which assignments are due on [March 24]?	'microbiology homework 4(Homework[19])'	['question_type_global', 'question_two_hop_statement']
+which projects did I submit for [Michael]?	'accounting project 1(Project[5])'	['question_type_global', 'question_three_hop_statement']
+how many points did I receive on [english composition homework 3(Homework[18])]?	15	['question_type_local']
+[this homework(Homework[19])] is now due on [March 26]
+how much did I get on [government project 2(Project[7])]?	67	['question_type_local']
+How much is [government project 1(Project[4])] worth?	87	['question_type_local']
+list homeworks that are due on [March 07]	'english composition homework 3(Homework[18])'	['question_type_global', 'question_two_hop_statement']
+what homeworks do I have to do for [William]?	'microbiology homework 1(Homework[8])', 'microbiology homework 2(Homework[15])', 'microbiology homework 3(Homework[17])', 'microbiology homework 4(Homework[19])'	['question_type_global', 'question_three_hop_statement']
+When is [microbiology project 1(Project[3])] due?	'February 20'	['question_type_local']
+what are all the assignments due for [Michael]?	'accounting project 1(Project[5])', 'accounting homework 1(Homework[14])'	['question_type_global', 'question_three_hop_statement']
+list all homeworks that i submitted for [William]	'microbiology homework 2(Homework[15])', 'microbiology homework 3(Homework[17])', 'microbiology homework 4(Homework[19])'	['question_type_global', 'question_three_hop_statement']
+what are all the homeworks due for [William]?	'microbiology homework 1(Homework[8])', 'microbiology homework 2(Homework[15])', 'microbiology homework 3(Homework[17])', 'microbiology homework 4(Homework[19])'	['question_type_global', 'question_three_hop_statement']
+When is the deadline of [government project 5(Project[13])]?	'March 30'	['question_type_local']
+When is the deadline of [microbiology homework 4(Homework[19])]?	'March 26'	['question_type_local']
+which homeworks are due on [February 15]?	'accounting homework 1(Homework[14])'	['question_type_global', 'question_two_hop_statement']
+list assignments that are due on [March 10]	'microbiology homework 3(Homework[17])'	['question_type_global', 'question_two_hop_statement']
+The deadline of [government project 1(Project[4])] moved to [February 17]
+what homeworks do I have to do for [William]?	'microbiology homework 1(Homework[8])', 'microbiology homework 2(Homework[15])', 'microbiology homework 3(Homework[17])', 'microbiology homework 4(Homework[19])'	['question_type_global', 'question_three_hop_statement']
+[english composition homework 4(Homework[20])] is out for [english composition(Course[2])]
+I submitted [this homework(Homework[20])] on time
+What is the topic of [government project 1(Project[4])]?	'Molds & Fungi'	['question_type_local']

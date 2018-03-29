@@ -1,0 +1,144 @@
+[Tawnya(Professor[1])] is a [professor]
+[that person(Professor[1])]'s email is [Tawnya@gmail.com]
+the affiliation of [Tawnya(Professor[1])] is [neuroscience]
+What is [she(Professor[1])]'s email	'Tawnya@gmail.com'	['question_type_local']
+[that person(Professor[1])]'s department is now [computer science]
+I am taking a [sociology(Course[1])] course
+[that course(Course[1])] is taught by [this professor(Professor[1])]
+Who is teaching [that course(Course[1])]?	'Tawnya(Professor[1])'	['question_type_local']
+What courses is [this person(Professor[1])] teaching?	'sociology(Course[1])'	['question_type_local']
+Which professor is teaching [that class(Course[1])]?	'Tawnya(Professor[1])'	['question_type_local']
+there is a new [homework(Homework[1])] for [that course(Course[1])]
+The deadline of [sociology homework 1(Homework[1])] is [March 22]
+[this homework(Homework[1])] is about [The Senses]
+I submitted [this homework(Homework[1])] late
+[sociology project 1(Project[2])] is released for [sociology(Course[1])]
+[sociology(Course[1])] has a new [sociology project 2(Project[3])] released
+[sociology project 1(Project[2])] is [15] points
+The deadline of [sociology project 1(Project[2])] is [March 19]
+I submitted [that assignment(Project[2])] and received 15 points
+list all assignments that i submitted for [Tawnya]	'sociology homework 1(Homework[1])', 'sociology project 1(Project[2])'	['question_type_global', 'question_three_hop_statement']
+[sociology homework 2(Homework[4])] is out for [sociology(Course[1])]
+The deadline of [sociology homework 2(Homework[4])] is [April 03]
+I submitted [that homework(Homework[4])] late
+[sociology homework 2(Homework[4])] is about [Animals]
+[this assignment(Homework[4])] is worth [96] points
+I am taking a [statistics(Course[2])] course
+there is a [professor] named [Rey(Professor[2])]
+[this course(Course[2])] is taught by [Rey(Professor[2])]
+how many points is [sociology project 1(Project[2])]?	15	['question_type_local']
+show me the projects due on [March 19]	'sociology project 1(Project[2])'	['question_type_global', 'question_two_hop_statement']
+show me all late assignments i submitted for [Tawnya]	'sociology homework 1(Homework[1])', 'sociology homework 2(Homework[4])'	['question_type_global', 'question_three_hop_statement']
+the affiliation of [that professor(Professor[2])] is [computer science]
+[that professor(Professor[2])]'s email is [Rey@nh.edu]
+[sociology homework 2(Homework[4])] is now due on [April 02]
+[sociology project 1(Project[2])] is about [expectation maximization]
+there is a new [homework(Homework[5])] for [sociology(Course[1])]
+The deadline of [this homework(Homework[5])] is [March 29]
+[this assignment(Homework[5])] is [10] points
+I submitted [that assignment(Homework[5])] and received 1 points
+When is [sociology homework 2(Homework[4])] due?	'April 02'	['question_type_local']
+The deadline of [sociology project 1(Project[2])] moved to [March 21]
+[statistics(Course[2])] has a new [statistics project 1(Project[6])] out
+[statistics project 1(Project[6])] is about [hidden markov models]
+I submitted [that project(Project[6])]
+[this assignment(Project[6])] is due on [March 21]
+[statistics project 1(Project[6])] is worth [26] points
+[Britney(Professor[3])] is a [professor]
+list homeworks that are due on [April 02]	'sociology homework 2(Homework[4])'	['question_type_global', 'question_two_hop_statement']
+I am taking a [government(Course[3])] course
+[that person(Professor[3])] is the instructor for [that class(Course[3])]
+What courses is [Tawnya(Professor[1])] teaching?	'sociology(Course[1])'	['question_type_local']
+create a [professor] named [Gia(Professor[4])]
+[Britney(Professor[3])]'s email is [Britney@yale.edu]
+[Britney(Professor[3])] is affiliated with the [neuroscience] department
+[this professor(Professor[3])]'s department is now [english]
+list all projects for [Rey]	'statistics project 1(Project[6])'	['question_type_global', 'question_three_hop_statement']
+I am taking a [english composition(Course[4])] course
+[english composition project 1(Project[7])] is released for [english composition(Course[4])]
+[Gia(Professor[4])] is the instructor for [english composition(Course[4])]
+there is a [professor] named [Charlott(Professor[5])]
+[Gia(Professor[4])]'s email is [Gia@yahoo.com]
+[Gia(Professor[4])]'s department is [asian studies]
+When is [sociology project 1(Project[2])] due?	'March 21'	['question_type_local']
+show me the homeworks due on [April 02]	'sociology homework 2(Homework[4])'	['question_type_global', 'question_two_hop_statement']
+[government(Course[3])] has a new [government project 1(Project[8])] released
+[that assignment(Project[8])] is due on [March 21]
+The topic of [government project 1(Project[8])] is [cold war]
+When is the deadline of [sociology homework 2(Homework[4])]?	'April 02'	['question_type_local']
+there is a new [project(Project[9])] for [statistics(Course[2])]
+I submitted [statistics project 2(Project[9])]
+[this project(Project[9])] is on [svm]
+The deadline of [this assignment(Project[9])] is [March 26]
+[that project(Project[9])] is [84] points
+[english composition project 2(Project[10])] is released for [english composition(Course[4])]
+I submitted [english composition project 2(Project[10])]
+[english composition project 2(Project[10])] is [78] points
+[this project(Project[10])] is about [bayesian models]
+When is the deadline of [sociology homework 2(Homework[4])]?	'April 02'	['question_type_local']
+[that assignment(Project[10])] is due on [March 24]
+there is a new [project(Project[11])] for [english composition(Course[4])]
+list all assignments that i submitted for [Tawnya]	'sociology homework 1(Homework[1])', 'sociology project 1(Project[2])', 'sociology homework 2(Homework[4])', 'sociology homework 3(Homework[5])'	['question_type_global', 'question_three_hop_statement']
+show me the projects due on [March 24]	'english composition project 2(Project[10])'	['question_type_global', 'question_two_hop_statement']
+how many points is [sociology project 1(Project[2])]?	15	['question_type_local']
+The deadline of [english composition project 2(Project[10])] moved to [March 27]
+which professors are in the [asian studies] department?	'Gia(Professor[4])'	['question_type_global', 'question_two_hop_statement']
+[sociology homework 1(Homework[1])] is worth [61] points
+there is new [government project 2(Project[12])] for [government(Course[3])]
+which assignments are due on [March 29]?	'sociology homework 3(Homework[5])'	['question_type_global', 'question_two_hop_statement']
+[sociology homework 1(Homework[1])] is now due on [March 19]
+[this project(Project[12])] is due on [March 24]
+[that project(Project[12])] is [60] points
+which projects did I submit for [Rey]?	'statistics project 1(Project[6])', 'statistics project 2(Project[9])'	['question_type_global', 'question_three_hop_statement']
+what are the late assignments that i submitted for [Tawnya]	'sociology homework 1(Homework[1])', 'sociology homework 2(Homework[4])'	['question_type_global', 'question_three_hop_statement']
+I submitted [that project(Project[12])] on time and received 53 points
+list all projects for [Rey]	'statistics project 1(Project[6])', 'statistics project 2(Project[9])'	['question_type_global', 'question_three_hop_statement']
+show me all assignments that i submitted for [Britney]	'government project 2(Project[12])'	['question_type_global', 'question_three_hop_statement']
+what projects do I have to do for [Gia]?	'english composition project 1(Project[7])', 'english composition project 2(Project[10])', 'english composition project 3(Project[11])'	['question_type_global', 'question_three_hop_statement']
+[government project 3(Project[13])] is out for [government(Course[3])]
+[government project 3(Project[13])] is [11] points
+The deadline of [government project 3(Project[13])] is [March 29]
+I submitted [government project 1(Project[8])] late
+what projects did i submit for [Gia]?	'english composition project 2(Project[10])'	['question_type_global', 'question_three_hop_statement']
+show me the projects due on [March 21]	'sociology project 1(Project[2])', 'statistics project 1(Project[6])', 'government project 1(Project[8])'	['question_type_global', 'question_two_hop_statement']
+[english composition homework 1(Homework[14])] is out for [english composition(Course[4])]
+[english composition homework 1(Homework[14])] is worth [20] points
+The deadline of [english composition homework 1(Homework[14])] is [March 15]
+How many points is [sociology homework 1(Homework[1])] worth?	61	['question_type_local']
+How many points is [english composition project 2(Project[10])] worth?	78	['question_type_local']
+[Stephine(Professor[6])] is a [professor]
+[this person(Professor[6])]'s email is [Stephine@yale.edu]
+[this person(Professor[6])]'s department is [neuroscience]
+change [this person(Professor[6])]'s department to [electrical engineering]
+[government project 1(Project[8])] is worth [81] points
+The deadline of [this project(Project[8])] moved to [March 24]
+list all projects that i submitted for [Rey]	'statistics project 1(Project[6])', 'statistics project 2(Project[9])'	['question_type_global', 'question_three_hop_statement']
+list homeworks that are due on [April 02]	'sociology homework 2(Homework[4])'	['question_type_global', 'question_two_hop_statement']
+create a [professor] named [Cecil(Professor[7])]
+there is new [government homework 1(Homework[15])] for [government(Course[3])]
+[that professor(Professor[7])]'s email is [Cecil@yale.edu]
+the affiliation of [that person(Professor[7])] is [asian studies]
+which professors are in the [asian studies] department?	'Gia(Professor[4])', 'Cecil(Professor[7])'	['question_type_global', 'question_two_hop_statement']
+show me all projects i submitted for [Tawnya]	'sociology project 1(Project[2])'	['question_type_global', 'question_three_hop_statement']
+list projects that are due on [March 29]	'government project 3(Project[13])'	['question_type_global', 'question_two_hop_statement']
+[sociology project 2(Project[3])] is due on [March 22]
+I submitted [sociology project 2(Project[3])]
+What department is [Britney(Professor[3])] affiliated with?	'english'	['question_type_local']
+there is new [sociology project 3(Project[16])] for [sociology(Course[1])]
+[sociology project 3(Project[16])] is worth [75] points
+I submitted [this assignment(Project[16])] late and received 1 points
+The deadline of [that project(Project[16])] is [March 29]
+show me the homeworks due on [March 15]	'english composition homework 1(Homework[14])'	['question_type_global', 'question_two_hop_statement']
+who are the professors affiliated with [electrical engineering]?	'Stephine(Professor[6])'	['question_type_global', 'question_two_hop_statement']
+which projects are due on [March 27]?	'english composition project 2(Project[10])'	['question_type_global', 'question_two_hop_statement']
+list all projects for [Britney]	'government project 1(Project[8])', 'government project 2(Project[12])', 'government project 3(Project[13])'	['question_type_global', 'question_three_hop_statement']
+which assignments are due on [March 29]?	'sociology homework 3(Homework[5])', 'government project 3(Project[13])', 'sociology project 3(Project[16])'	['question_type_global', 'question_two_hop_statement']
+create a [professor] named [Francoise(Professor[8])]
+[this professor(Professor[8])]'s email is [Francoise@nh.edu]
+[that professor(Professor[8])] is affiliated with the [neuroscience] department
+what assignments do I have to do for [Gia]?	'english composition project 1(Project[7])', 'english composition project 2(Project[10])', 'english composition project 3(Project[11])', 'english composition homework 1(Homework[14])'	['question_type_global', 'question_three_hop_statement']
+I submitted [government project 3(Project[13])] and received 11 points
+list projects that are due on [March 26]	'statistics project 2(Project[9])'	['question_type_global', 'question_two_hop_statement']
+[sociology(Course[1])] has a new [sociology homework 4(Homework[17])] released
+I submitted [that homework(Homework[17])]
+[this assignment(Homework[17])] is worth [42] points

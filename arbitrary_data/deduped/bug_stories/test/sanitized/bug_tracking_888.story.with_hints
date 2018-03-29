@@ -1,0 +1,106 @@
+there is a new [open source] [mobile(Project[1])] [project]
+[it(Project[1])] is in the stage of [implementation]
+[this project(Project[1])] is in the stage of [maintenance]
+[Milagros(Developer[1])] is a [developer] on [mobile project(Project[1])]
+[Hanna(Developer[2])] is a [developer]
+[Hanna(Developer[2])] is assigned to [mobile project(Project[1])]
+[Hanna(Developer[2])] is no longer assigned to [that project(Project[1])]
+[that person(Developer[2])] is working on [mobile project(Project[1])]
+there is a new [chatbot(Project[2])] [project]
+[Hanna(Developer[2])] is working on [chatbot project(Project[2])] also
+[chatbot project(Project[2])] is currently in the [design] stage
+[it(Project[2])] is a [open source] project
+[it(Project[2])] is in the stage of [implementation]
+[Lorilee(Tester[3])] is a [tester] on [mobile project(Project[1])]
+[mobile project(Project[1])] is not assigned to [Lorilee(Tester[3])]
+[chatbot project(Project[2])] is assigned to [she(Tester[3])]
+[mobile project(Project[1])] is assigned to [this tester(Tester[3])] also
+there is a new [knowledge base(Project[3])] [project]
+[mobile project(Project[1])] is now in the [design] stage
+[Hanna(Developer[2])] is working on [knowledge base project(Project[3])] also
+[chatbot project(Project[2])] has moved to the [maintenance] stage
+[knowledge base project(Project[3])] is a [open source] project
+[knowledge base project(Project[3])] is in the [implementation] stage
+[Lorilee(Tester[3])] is assigned to [that project(Project[3])] also
+[Igor(Tester[4])] is a [tester]
+[he(Tester[4])] is assigned to [knowledge base project(Project[3])]
+[mobile project(Project[1])] is assigned to [that test engineer(Tester[4])] also
+[Francoise(Tester[5])] is a [tester]
+[this project(Project[1])] is not assigned to [Hanna(Developer[2])]
+[that project(Project[1])] is not assigned to [Milagros(Developer[1])]
+[William(Tester[6])] is a [tester] on [mobile project(Project[1])]
+[it(Project[1])] is not assigned to [this tester(Tester[6])]
+[this person(Tester[6])] is working on [this project(Project[1])]
+[Milagros(Developer[1])] is assigned to [knowledge base project(Project[3])]
+[mobile project(Project[1])] is assigned to [Milagros(Developer[1])] also
+[Loyd(Developer[7])] is a [developer] on [knowledge base project(Project[3])]
+[that developer(Developer[7])] is assigned to [it(Project[1])] also
+[Genevive(Tester[8])] is a [tester] on [that project(Project[1])]
+[this tester(Tester[8])] is working on [chatbot project(Project[2])] also
+[knowledge base project(Project[3])] is assigned to [that test engineer(Tester[8])] also
+[Lorilee(Tester[3])] is no longer assigned to [chatbot project(Project[2])]
+[that test engineer(Tester[3])] is assigned to [this project(Project[2])] also
+[Loyd(Developer[7])] is working on [chatbot project(Project[2])] also
+[he(Developer[7])] is not working on [this project(Project[2])] anymore
+[this developer(Developer[7])] is assigned to [chatbot project(Project[2])] also
+[Loyd(Developer[7])] is not working on [this project(Project[2])] anymore
+[he(Developer[7])] is working on [chatbot project(Project[2])] also
+[Lorilee(Tester[3])] created a new issue for [that project(Project[2])]: [wrong pos tag on consecutive words]
+[that project(Project[2])] is assigned to [Milagros(Developer[1])] also
+[Hanna(Developer[2])] is assigned to [mobile project(Project[1])] also
+[Igor(Tester[4])] is working on [chatbot project(Project[2])] also
+[this project(Project[2])] is not assigned to [Lorilee(Tester[3])]
+[this tester(Tester[3])] is assigned to [that project(Project[2])] also
+[chatbot project(Project[2])] is now in the [implementation] stage
+[it(Project[2])] has moved to the [maintenance] stage
+[the wrong pos tag on consecutive words issue(Issue[1])] is assigned to [Milagros(Developer[1])]
+[she(Developer[1])] resolved [that issue(Issue[1])]
+[Igor(Tester[4])] created a new issue for [chatbot project(Project[2])]: [tokenization not consistent across platforms]
+[that issue(Issue[2])] is assigned to [Hanna(Developer[2])]
+[Hanna(Developer[2])] resolved [that issue(Issue[2])]
+[null pointer exception during parsing] is a new [bug] for the [mobile project(Project[1])]
+[it(Issue[3])] was assigned to [Milagros(Developer[1])]
+[knowledge base project(Project[3])] is now in the [design] stage
+[William(Tester[6])] is assigned to [knowledge base project(Project[3])] also
+[minified version fails] is a new [bug] for the [mobile project(Project[1])]
+[the issue(Issue[4])] is assigned to [Igor(Tester[4])]
+[this tester(Tester[4])] resolved [it(Issue[4])]
+[Igor(Tester[4])] is no longer assigned to [chatbot project(Project[2])]
+[this tester(Tester[4])] is working on [this project(Project[2])] also
+[knowledge base project(Project[3])] is not assigned to [this person(Tester[4])]
+[that project(Project[3])] is assigned to [Igor(Tester[4])] also
+[svd is slow] is a new [bug] for [knowledge base project(Project[3])] that [William(Tester[6])] just created
+[this issue(Issue[5])] was assigned to [Genevive(Tester[8])]
+[this person(Tester[8])] resolved [that issue(Issue[5])]
+[Igor(Tester[4])] is not working on [chatbot project(Project[2])] anymore
+[that test engineer(Tester[4])] is assigned to [chatbot project(Project[2])] also
+[Lorilee(Tester[3])] is not working on [knowledge base project(Project[3])] anymore
+[she(Tester[3])] is working on [it(Project[3])] also
+[chatbot project(Project[2])] is assigned to [William(Tester[6])] also
+[chatbot project(Project[2])] is in the stage of [implementation]
+[saving data throws exception] is a new issue for the [mobile project(Project[1])]
+[that issue(Issue[6])] was assigned to [William(Tester[6])]
+[this person(Tester[6])] resolved [that issue(Issue[6])]
+Are there any issues created by [this tester(Tester[6])] that are resolved?	'svd is slow(Issue[5])'	['question_type_local']
+[knowledge base project(Project[3])] is in the [implementation] stage
+[knowledge base project(Project[3])] is now in the [design] stage
+There is a new [proposal] for the [mobile project(Project[1])]: [parsing with parantheses fails]
+[that project(Project[3])] is now in the [maintenance] stage
+[that issue(Issue[7])] is assigned to [Loyd(Developer[7])]
+[he(Developer[7])] resolved [that issue(Issue[7])]
+[that person(Developer[7])] is not working on [knowledge base project(Project[3])] anymore
+[it(Project[3])] is assigned to [Loyd(Developer[7])] also
+Who was [the null pointer exception during parsing bug(Issue[3])] assigned to?	'Milagros(Developer[1])'	['question_type_local']
+What are the issues submitted by [Lorilee(Tester[3])] that were resolved?	'wrong pos tag on consecutive words(Issue[1])'	['question_type_local']
+Were there any issues assigned to [Genevive(Tester[8])]?	'svd is slow(Issue[5])'	['question_type_local']
+[Milagros(Developer[1])] resolved [the null pointer exception during parsing bug(Issue[3])]
+[mobile project(Project[1])] is not assigned to [Lorilee(Tester[3])]
+[Lorilee(Tester[3])] is assigned to [it(Project[1])] also
+[chatbot project(Project[2])] is not assigned to [Lorilee(Tester[3])]
+[this tester(Tester[3])] is working on [chatbot project(Project[2])] also
+[Lorilee(Tester[3])] is no longer assigned to [that project(Project[2])]
+What are the issues submitted by [William(Tester[6])] that were resolved?	'svd is slow(Issue[5])'	['question_type_local']
+[this project(Project[2])] is assigned to [Lorilee(Tester[3])] also
+[Francoise(Tester[5])] is assigned to [knowledge base project(Project[3])]
+What are the issues assigned to [Loyd(Developer[7])]?	'parsing with parantheses fails(Issue[7])'	['question_type_local']
+[he(Tester[5])] is assigned to [mobile project(Project[1])] also

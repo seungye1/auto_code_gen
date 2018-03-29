@@ -1,0 +1,105 @@
+there is a new [experimental] [knowledge base(Project[1])] [project]
+[knowledge base project(Project[1])] is in the [maintenance] stage
+[Hanna(Developer[1])] is a [developer]
+[that developer(Developer[1])] is assigned to [this project(Project[1])]
+[Casey(Tester[2])] is a [tester] on [that project(Project[1])]
+[this project(Project[1])] is now in the [evaluation] stage
+There is a new [bug] for the [it(Project[1])]: [parse example terribly slow]
+[this issue(Issue[1])] is assigned to [Hanna(Developer[1])]
+[Lucy(Tester[3])] is a [tester]
+[knowledge base project(Project[1])] is assigned to [that test engineer(Tester[3])]
+[Milagros(Tester[4])] is a [tester]
+[Tereasa(Tester[5])] is a [tester] on [knowledge base project(Project[1])]
+[Milagros(Tester[4])] is working on [knowledge base project(Project[1])]
+[that project(Project[1])] is not assigned to [that test engineer(Tester[4])]
+[knowledge base project(Project[1])] is assigned to [that person(Tester[4])]
+[Kristeen(Tester[6])] is a [tester]
+There is a new issue for the [knowledge base project(Project[1])]: [wrong pos tag on consecutive words]
+[the issue(Issue[2])] is assigned to [Casey(Tester[2])]
+[he(Tester[2])] resolved [this issue(Issue[2])]
+[Genevive(Tester[7])] is a [tester]
+[she(Tester[7])] is assigned to [knowledge base project(Project[1])]
+[Hanna(Developer[1])] resolved [the parse example terribly slow issue(Issue[1])]
+[Lucio(Tester[8])] is a [tester]
+[Yoshiko(Developer[9])] is a [developer]
+[that test engineer(Tester[8])] is working on [knowledge base project(Project[1])]
+[Charlott(Tester[10])] is a [tester]
+[Tereasa(Tester[5])] created a new issue for [this project(Project[1])]: [issue in using training data]
+[the issue(Issue[3])] is assigned to [Lucio(Tester[8])]
+there is a new [chatbot(Project[2])] [project]
+[Lucio(Tester[8])] is working on [this project(Project[2])] also
+[Lucio(Tester[8])] resolved [the issue in using training data issue(Issue[3])]
+there is a new [internal] [mobile(Project[3])] [project]
+[this test engineer(Tester[8])] is assigned to [mobile project(Project[3])] also
+[Milagros(Tester[4])] is working on [it(Project[3])] also
+[Milagros(Tester[4])] is assigned to [chatbot project(Project[2])] also
+[this project(Project[2])] is a [internal] project
+[that project(Project[2])] is in the stage of [maintenance]
+[Genevive(Tester[7])] is working on [mobile project(Project[3])] also
+[she(Tester[7])] is assigned to [chatbot project(Project[2])] also
+[Casey(Tester[2])] is assigned to [chatbot project(Project[2])] also
+[that project(Project[2])] is assigned to [Hanna(Developer[1])] also
+[she(Developer[1])] is assigned to [mobile project(Project[3])] also
+[Casey(Tester[2])] is assigned to [mobile project(Project[3])] also
+[it(Project[3])] is in the [testing] stage
+[Tereasa(Tester[5])] created a new issue for [knowledge base project(Project[1])]: [minified version fails]
+[that issue(Issue[4])] is assigned to [Hanna(Developer[1])]
+[this developer(Developer[1])] resolved [that issue(Issue[4])]
+[Tereasa(Tester[5])] is assigned to [chatbot project(Project[2])] also
+[Tereasa(Tester[5])] is assigned to [mobile project(Project[3])] also
+[knowledge base project(Project[1])] is in the [testing] stage
+[Casey(Tester[2])] created a new [proposal] for [chatbot project(Project[2])]: [tokenization not consistent across platforms]
+[the tokenization not consistent across platforms proposal(Issue[5])] is assigned to [Lucio(Tester[8])]
+[Lucio(Tester[8])] resolved [this issue(Issue[5])]
+[Milagros(Tester[4])] created a new issue for [mobile project(Project[3])]: [fails with apache stack]
+[this issue(Issue[6])] is assigned to [Tereasa(Tester[5])]
+[this test engineer(Tester[5])] is not working on [mobile project(Project[3])] anymore
+[that project(Project[3])] is assigned to [Tereasa(Tester[5])] also
+[she(Tester[5])] is not working on [chatbot project(Project[2])] anymore
+[that project(Project[2])] is assigned to [she(Tester[5])] also
+There is a new [proposal] for the [mobile project(Project[3])]: [initialization broken]
+[that issue(Issue[7])] was assigned to [Lucio(Tester[8])]
+[chatbot project(Project[2])] is now in the [testing] stage
+Were there any issues submitted by [Milagros(Tester[4])]?	'fails with apache stack(Issue[6])'	['question_type_local']
+[chatbot project(Project[2])] is in the stage of [evaluation]
+[mobile project(Project[3])] is in the stage of [maintenance]
+[chatbot project(Project[2])] is in the [testing] stage
+[Tereasa(Tester[5])] resolved [the fails with apache stack issue(Issue[6])]
+[Milagros(Tester[4])] is not working on [mobile project(Project[3])] anymore
+[mobile project(Project[3])] is assigned to [Milagros(Tester[4])] also
+[Milagros(Tester[4])] is no longer assigned to [chatbot project(Project[2])]
+[that project(Project[2])] is assigned to [this tester(Tester[4])] also
+[xml extractor exception] is a new [bug] for [knowledge base project(Project[1])] that [Lucy(Tester[3])] just created
+[that issue(Issue[8])] was assigned to [Casey(Tester[2])]
+[he(Tester[2])] resolved [the xml extractor exception issue(Issue[8])]
+Were there any issues created by [Milagros(Tester[4])]?	'fails with apache stack(Issue[6])'	['question_type_local']
+Who is [the fails with apache stack issue(Issue[6])] assigned to?	'Tereasa(Tester[5])'	['question_type_local']
+[Lucio(Tester[8])] resolved [the initialization broken proposal(Issue[7])]
+[Lucio(Tester[8])] is not working on [chatbot project(Project[2])] anymore
+[that project(Project[2])] is assigned to [this test engineer(Tester[8])] also
+[mobile project(Project[3])] is not assigned to [Lucio(Tester[8])]
+[that person(Tester[8])] is working on [that project(Project[3])] also
+[Milagros(Tester[4])] is no longer assigned to [chatbot project(Project[2])]
+[this project(Project[2])] is assigned to [Milagros(Tester[4])] also
+[Genevive(Tester[7])] is no longer assigned to [knowledge base project(Project[1])]
+[knowledge base project(Project[1])] is assigned to [Genevive(Tester[7])] also
+Who is [the initialization broken proposal(Issue[7])] assigned to?	'Lucio(Tester[8])'	['question_type_local']
+[knowledge base project(Project[1])] is in the [evaluation] stage
+[this project(Project[1])] is in the stage of [maintenance]
+[mobile project(Project[3])] has moved to the [evaluation] stage
+[mobile project(Project[3])] is not assigned to [Tereasa(Tester[5])]
+[it(Project[3])] is assigned to [this test engineer(Tester[5])] also
+[mobile project(Project[3])] is assigned to [Lucy(Tester[3])] also
+[that person(Tester[3])] is working on [chatbot project(Project[2])] also
+What are the issues submitted by [Casey(Tester[2])]?	'tokenization not consistent across platforms(Issue[5])'	['question_type_local']
+[this project(Project[2])] is in the [evaluation] stage
+[Tereasa(Tester[5])] is no longer assigned to [that project(Project[2])]
+[that person(Tester[5])] is working on [it(Project[2])] also
+[Casey(Tester[2])] is not working on [knowledge base project(Project[1])] anymore
+[that project(Project[1])] is assigned to [Casey(Tester[2])] also
+[this tester(Tester[2])] is not working on [knowledge base project(Project[1])] anymore
+[Tereasa(Tester[5])] is not working on [it(Project[1])] anymore
+[this tester(Tester[5])] is assigned to [that project(Project[1])] also
+[that project(Project[1])] is in the [evaluation] stage
+[knowledge base project(Project[1])] is in the stage of [maintenance]
+[it(Project[1])] is in the stage of [testing]

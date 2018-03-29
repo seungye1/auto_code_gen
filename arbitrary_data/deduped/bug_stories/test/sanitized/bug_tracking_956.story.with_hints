@@ -1,0 +1,108 @@
+there is a new [mobile(Project[1])] [project]
+[that project(Project[1])] is in the [testing] stage
+[mobile project(Project[1])] is a [important] project
+[Rachele(Tester[1])] is a [tester] on [it(Project[1])]
+[that project(Project[1])] is in the [implementation] stage
+[initialization broken] is a new issue for the [it(Project[1])]
+[the issue(Issue[1])] is assigned to [Rachele(Tester[1])]
+[Rachele(Tester[1])] resolved [the issue(Issue[1])]
+there is a new [chatbot(Project[2])] [project]
+[that project(Project[2])] is a [pilot] project
+[Rachele(Tester[1])] is working on [it(Project[2])] also
+[Kristeen(Tester[2])] is a [tester] on [that project(Project[2])]
+[mobile project(Project[1])] is assigned to [Kristeen(Tester[2])] also
+[chatbot project(Project[2])] is currently in the [testing] stage
+[Gia(Developer[3])] is a [developer] on [chatbot project(Project[2])]
+[this developer(Developer[3])] is working on [mobile project(Project[1])] also
+[Danita(Tester[4])] is a [tester] on [chatbot project(Project[2])]
+[Yoshiko(Tester[5])] is a [tester]
+[mobile project(Project[1])] is assigned to [Yoshiko(Tester[5])]
+[Yoshiko(Tester[5])] is assigned to [chatbot project(Project[2])] also
+[she(Tester[5])] is no longer assigned to [mobile project(Project[1])]
+[this project(Project[1])] is in the [development] stage
+[Yoshiko(Tester[5])] is assigned to [this project(Project[1])] also
+there is a new [knowledge base(Project[3])] [project]
+[knowledge base project(Project[3])] is a [corporate] project
+[this project(Project[3])] is in the [deployment] stage
+[Rachele(Tester[1])] is working on [this project(Project[3])] also
+[this project(Project[3])] is in the [development] stage
+[Gia(Developer[3])] is no longer assigned to [chatbot project(Project[2])]
+[Gia(Developer[3])] is assigned to [knowledge base project(Project[3])] also
+[knowledge base project(Project[3])] is assigned to [Danita(Tester[4])] also
+[Alverta(Developer[6])] is a [developer]
+[that project(Project[3])] is assigned to [this developer(Developer[6])]
+[Gia(Developer[3])] is assigned to [chatbot project(Project[2])] also
+[Yoshiko(Tester[5])] created a new issue for [mobile project(Project[1])]: [svd is slow]
+[the issue(Issue[2])] was assigned to [Kristeen(Tester[2])]
+[knowledge base project(Project[3])] is assigned to [Kristeen(Tester[2])] also
+[saving data throws exception] is a new [proposal] for [this project(Project[3])] that [Rachele(Tester[1])] just created
+[the issue(Issue[3])] is assigned to [Gia(Developer[3])]
+[that person(Developer[3])] resolved [the proposal(Issue[3])]
+[mobile project(Project[1])] is not assigned to [Rachele(Tester[1])]
+[that test engineer(Tester[1])] is assigned to [mobile project(Project[1])] also
+[it(Project[1])] has moved to the [deployment] stage
+[knowledge base project(Project[3])] has moved to the [testing] stage
+[Danita(Tester[4])] is working on [mobile project(Project[1])] also
+[Yoshiko(Tester[5])] is assigned to [knowledge base project(Project[3])] also
+What are the issues assigned to [Kristeen(Tester[2])] that were not resolved?	'svd is slow(Issue[2])'	['question_type_local']
+[Alverta(Developer[6])] is working on [chatbot project(Project[2])] also
+[that person(Developer[6])] is working on [mobile project(Project[1])] also
+[Yoshiko(Tester[5])] submitted a new [enhancement] for [chatbot project(Project[2])]: [tokenization not consistent across platforms]
+[the tokenization not consistent across platforms enhancement(Issue[4])] is assigned to [Rachele(Tester[1])]
+[this person(Tester[1])] resolved [this issue(Issue[4])]
+[Alverta(Developer[6])] created a new issue for [chatbot project(Project[2])]: [parsing with parantheses fails]
+[the issue(Issue[5])] was assigned to [Danita(Tester[4])]
+[that person(Tester[4])] resolved [it(Issue[5])]
+[parse example terribly slow] is a new [enhancement] submitted by [Yoshiko(Tester[5])] for [knowledge base project(Project[3])]
+[that issue(Issue[6])] is assigned to [Alverta(Developer[6])]
+[that developer(Developer[6])] resolved [the parse example terribly slow enhancement(Issue[6])]
+[Alverta(Developer[6])] is not working on [knowledge base project(Project[3])] anymore
+[Yoshiko(Tester[5])] is no longer assigned to [mobile project(Project[1])]
+[this tester(Tester[5])] is assigned to [mobile project(Project[1])] also
+[it(Project[1])] is in the stage of [development]
+[Gia(Developer[3])] is no longer assigned to [mobile project(Project[1])]
+[Gia(Developer[3])] is working on [mobile project(Project[1])] also
+[mobile project(Project[1])] has moved to the [testing] stage
+What are the issues created by [Rachele(Tester[1])]?	'saving data throws exception(Issue[3])'	['question_type_local']
+[Alverta(Developer[6])] is assigned to [knowledge base project(Project[3])] also
+[chatbot project(Project[2])] is now in the [development] stage
+There is a new issue for the [knowledge base project(Project[3])]: [dcoref always returns null]
+[that issue(Issue[7])] is assigned to [Danita(Tester[4])]
+[Danita(Tester[4])] resolved [that issue(Issue[7])]
+[Gia(Developer[3])] created a new issue for [chatbot project(Project[2])]: [memory leak while reading tf records]
+[this issue(Issue[8])] was assigned to [Yoshiko(Tester[5])]
+[Yoshiko(Tester[5])] resolved [this issue(Issue[8])]
+[chatbot project(Project[2])] is now in the [testing] stage
+[this project(Project[2])] has moved to the [deployment] stage
+What are the issues created by [Yoshiko(Tester[5])] that were not resolved?	'svd is slow(Issue[2])'	['question_type_local']
+[this project(Project[2])] is not assigned to [Rachele(Tester[1])]
+[this person(Tester[1])] is assigned to [it(Project[2])] also
+[it(Project[2])] has moved to the [testing] stage
+[Kristeen(Tester[2])] resolved [the svd is slow issue(Issue[2])]
+[Rachele(Tester[1])] created a new [task] for [chatbot project(Project[2])]: [two consecutive dates identified as single date]
+[chatbot project(Project[2])] is now in the [deployment] stage
+[that issue(Issue[9])] was assigned to [Gia(Developer[3])]
+[this person(Developer[3])] resolved [the issue(Issue[9])]
+Are there any issues assigned to [Kristeen(Tester[2])] that are resolved?	'svd is slow(Issue[2])'	['question_type_local']
+What are the issues created by [Alverta(Developer[6])] that were resolved?	'parsing with parantheses fails(Issue[5])'	['question_type_local']
+[that person(Developer[3])] is not working on [chatbot project(Project[2])] anymore
+[this project(Project[2])] is assigned to [Gia(Developer[3])] also
+What are the issues submitted by [that developer(Developer[3])] that were resolved?	'memory leak while reading tf records(Issue[8])'	['question_type_local']
+Are there any issues submitted by [she(Developer[3])] that are resolved?	'memory leak while reading tf records(Issue[8])'	['question_type_local']
+[that person(Developer[3])] is no longer assigned to [chatbot project(Project[2])]
+[this project(Project[2])] is assigned to [Gia(Developer[3])] also
+[that project(Project[2])] is in the stage of [testing]
+[chatbot project(Project[2])] is now in the [development] stage
+[knowledge base project(Project[3])] is in the [implementation] stage
+[chatbot project(Project[2])] is in the stage of [deployment]
+[knowledge base project(Project[3])] has moved to the [testing] stage
+[knowledge base project(Project[3])] is in the [implementation] stage
+[it(Project[3])] has moved to the [development] stage
+[chatbot project(Project[2])] is now in the [development] stage
+[chatbot project(Project[2])] is in the [implementation] stage
+[it(Project[2])] is in the stage of [development]
+[that project(Project[2])] has moved to the [implementation] stage
+Were there any issues created by [Gia(Developer[3])]?	'memory leak while reading tf records(Issue[8])'	['question_type_local']
+[this project(Project[2])] is now in the [deployment] stage
+[chatbot project(Project[2])] is in the stage of [development]
+[this project(Project[2])] is now in the [testing] stage

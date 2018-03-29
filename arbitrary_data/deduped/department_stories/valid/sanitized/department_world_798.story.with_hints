@@ -1,0 +1,157 @@
+Create a new [phd] level course called [G301(Course[1])]
+[that course(Course[1])] is offered in the [english] department
+Create a new [undergraduate] [full_semester_course] called [G610(Course[2])]
+there is a PhD student named [Michael(PhdStudent[1])]
+[G610(Course[2])] is offered in the [psychology] department
+[that student(PhdStudent[1])] is TAing [that class(Course[2])]
+What department is [G610(Course[2])] offered in?	'psychology'	['question_type_local']
+Which department is [G610(Course[2])] part of?	'psychology'	['question_type_local']
+[this person(PhdStudent[1])] passed thesis defense
+[this person(PhdStudent[1])] is attending [G301(Course[1])]
+there is a [professor] named [Bob(Professor[2])]
+[that professor(Professor[2])] advises [this student(PhdStudent[1])]
+[that professor(Professor[2])]'s research interest is [conservation biology]
+What students are going to TA [G610(Course[2])]?	'Michael(PhdStudent[1])'	['question_type_local']
+[that student(PhdStudent[1])] is in [Duane Building]
+[that student(PhdStudent[1])] is a [third year] student
+there is a new PhD student named [Rey(PhdStudent[3])]
+[Rey(PhdStudent[3])] has passed the thesis proposal exam
+Who is TAing [G610(Course[2])]?	'Michael(PhdStudent[1])'	['question_type_local']
+[this student(PhdStudent[3])]'s office is [Economics Building]
+[that student(PhdStudent[3])] passed the qualifiers
+[John(Professor[4])] is a [full] [professor]
+[that student(PhdStudent[3])] is in their [fifth year]
+What students are in Duane Building	'Michael(PhdStudent[1])'	['question_type_global', 'question_two_hop_statement']
+[John(Professor[4])] is on [Michael(PhdStudent[1])]'s committee
+[that student(PhdStudent[1])] has failed the qualifying exam
+[that professor(Professor[4])] is in [JILA Building]
+[John(Professor[4])] advises [Rey(PhdStudent[3])]
+Who advises [Michael(PhdStudent[1])]?	'Bob'	['question_type_local']
+There is a [masters] level course called [U301(Course[3])]
+[Rey(PhdStudent[3])] has passed the thesis defense
+[Bob(Professor[2])] is on [he(PhdStudent[3])]'s committee
+[Hanna(MastersStudent[5])] is a masters student
+[this professor(Professor[2])] is in [Koelbel Building]
+Who has [he(Professor[2])] on their phd committee?	'Rey(PhdStudent[3])'	['question_type_local']
+there is a [distinguished] [professor] named [Alejandra(Professor[6])]
+Who is [Michael(PhdStudent[1])]'s advisor?	'Bob'	['question_type_local']
+[she(Professor[6])] is in [Koelbel Building]
+Which courses are TAed by [Michael(PhdStudent[1])]?	'G610(Course[2])'	['question_type_local']
+Who has an office in [Koelbel Building]	'Bob(Professor[2])', 'Alejandra(Professor[6])'	['question_type_global', 'question_two_hop_statement']
+Who has [John(Professor[4])] on their phd committee?	'Michael(PhdStudent[1])'	['question_type_local']
+What phd students are taking G301	'Michael(PhdStudent[1])'	['question_type_global', 'question_two_hop_statement']
+[this professor(Professor[6])]'s research interest is [conservation biology]
+[Michael(PhdStudent[1])] has passed the qualifying exam
+[he(PhdStudent[1])] is now a [fourth year] student
+there is a new PhD student named [Alverta(PhdStudent[7])]
+[he(PhdStudent[1])] is now a [fifth year] student
+[Alverta(PhdStudent[7])] has passed the qualifying exam
+There is a course called [G102(Course[4])]
+[Alejandra(Professor[6])] and [John(Professor[4])] are on [Alverta(PhdStudent[7])]'s committee
+[Alverta(PhdStudent[7])]'s office is [Koelbel Building]
+What professors are in JILA Building	'John(Professor[4])'	['question_type_global', 'question_two_hop_statement']
+there is a new PhD student named [Tereasa(PhdStudent[8])]
+[Tereasa(PhdStudent[8])] passed thesis defense
+[she(PhdStudent[8])] passed thesis proposal
+[that student(PhdStudent[8])] is current in [second year]
+[Michael(PhdStudent[1])] passed thesis proposal
+[he(PhdStudent[1])] is attending [G610(Course[2])]
+There is a course called [G8001(Course[5])]
+[that class(Course[5])] is full semester
+[this course(Course[5])] is taught by [Alejandra(Professor[6])]
+[Charlott(Professor[9])] is a [assistant] [professor]
+[Charlott(Professor[9])] advises [Tereasa(PhdStudent[8])]
+there is a new masters student named [Jack(MastersStudent[10])]
+the affiliation of [he(MastersStudent[10])] is [english]
+What [assistant] professors advise students who passed their thesis proposal?	'Charlott(Professor[9])'	['question_type_global', 'question_three_hop_statement']
+What office is [John(Professor[4])] in?	'JILA Building'	['question_type_local']
+What is [Alejandra(Professor[6])] working on?	'conservation biology'	['question_type_local']
+What [assistant] professors advise students who passed their thesis proposal?	'Charlott(Professor[9])'	['question_type_global', 'question_three_hop_statement']
+[Alverta(PhdStudent[7])] is taking [G8001(Course[5])]
+[that class(Course[5])] is part of the [psychology] department
+Which [assistant] professors advise students who passed their proposal?	'Charlott(Professor[9])'	['question_type_global', 'question_three_hop_statement']
+[G8001(Course[5])] is a [undergraduate] level course
+There is a course called [U610(Course[6])]
+[Charlott(Professor[9])] advises [Alverta(PhdStudent[7])]
+[this professor(Professor[9])] research interest is in [unsupervised machine learning]
+Who is teaching [G8001(Course[5])]?	'Alejandra(Professor[6])'	['question_type_local']
+Which phd students have [Bob(Professor[2])] on their committee	'Rey(PhdStudent[3])'	['question_type_local']
+[that student(PhdStudent[7])] has passed the thesis defense
+Which courses did [Alverta(PhdStudent[7])] enroll in?	'G8001(Course[5])'	['question_type_local']
+What professors are on [Rey(PhdStudent[3])]'s committee	'Bob(Professor[2])'	['question_type_local']
+[Charlott(Professor[9])]'s office is [Economics Building]
+[Tereasa(PhdStudent[8])] is now a [third year] student
+[Hanna(MastersStudent[5])] is TAing [G8001(Course[5])]
+[Tereasa(PhdStudent[8])] and [Rey(PhdStudent[3])] are both enrolled in [G8001(Course[5])]
+Who are [John(Professor[4])]'s students?	'Rey(PhdStudent[3])'	['question_type_local']
+[Tereasa(PhdStudent[8])] has [John(Professor[4])] and [Alejandra(Professor[6])] on the committee
+[Michael(PhdStudent[1])] and [Jack(MastersStudent[10])] are attending [G8001(Course[5])]
+Which department is [G8001(Course[5])] in?	'psychology'	['question_type_local']
+Which professors are conducting research in [unsupervised machine learning]	'Charlott(Professor[9])'	['question_type_global', 'question_single_statement']
+Who does [Charlott(Professor[9])] advise?	'Alverta(PhdStudent[7])', 'Tereasa(PhdStudent[8])'	['question_type_local']
+[Michael(PhdStudent[1])] has [Charlott(Professor[9])] on the committee
+[U610(Course[6])] will be a full semester course
+[Tereasa(PhdStudent[8])] has passed the qualifying exam
+[Tereasa(PhdStudent[8])] is attending [this course(Course[6])]
+[Alverta(PhdStudent[7])] is TAing [that course(Course[6])]
+[this course(Course[6])] is a [masters] course
+What is [Charlott(Professor[9])] working on?	'unsupervised machine learning'	['question_type_local']
+[Tereasa(PhdStudent[8])] is a TA for [U610(Course[6])]
+[Charlott(Professor[9])] teaches [U610(Course[6])]
+Create a new course called [G9000(Course[7])]
+[Michael(PhdStudent[1])] is a student in [G9000(Course[7])]
+[this course(Course[7])] is a [masters] course
+[that course(Course[7])] is full semester
+[that class(Course[7])] is taught by [Bob(Professor[2])]
+Who has [that person(Professor[2])] on their phd committee?	'Rey(PhdStudent[3])'	['question_type_local']
+Which professors are conducting research in [unsupervised machine learning]	'Charlott(Professor[9])'	['question_type_global', 'question_single_statement']
+[G9000(Course[7])] is offered in the [english] department
+What is [that professor(Professor[2])]'s office?	'Koelbel Building'	['question_type_local']
+Who is [Michael(PhdStudent[1])]'s advisor?	'Bob'	['question_type_local']
+Which professors have offices in Economics Building	'Charlott(Professor[9])'	['question_type_global', 'question_two_hop_statement']
+[Alejandra(Professor[6])] is on [Michael(PhdStudent[1])]'s committee
+Which students have offices in Economics Building	'Rey(PhdStudent[3])'	['question_type_global', 'question_two_hop_statement']
+[Alverta(PhdStudent[7])] is a [second year] student
+What courses is [Bob(Professor[2])] teaching?	'G9000(Course[7])'	['question_type_local']
+What is [Charlott(Professor[9])]'s office?	'Economics Building'	['question_type_local']
+Which courses in the psychology department have phd TAs?	'G610(Course[2])'	['question_type_global', 'question_three_hop_statement']
+Who is part of the [english] department	'Jack(MastersStudent[10])'	['question_type_global', 'question_single_statement']
+[Charlott(Professor[9])] is on [Rey(PhdStudent[3])]'s committee
+The TA for [U610(Course[6])] is [Jack(MastersStudent[10])]
+[Alverta(PhdStudent[7])] is a student in [U610(Course[6])]
+[Rey(PhdStudent[3])] is a TA for [G102(Course[4])]
+[this course(Course[4])] is a [phd] level course
+Which students have offices in Koelbel Building	'Alverta(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+Who is teaching [U610(Course[6])]?	'Charlott(Professor[9])'	['question_type_local']
+Which students have offices in Duane Building	'Michael(PhdStudent[1])'	['question_type_global', 'question_two_hop_statement']
+[that course(Course[4])] is a course in the [neuroscience] department
+[Hanna(MastersStudent[5])] and [Michael(PhdStudent[1])] are both taking [G102(Course[4])]
+Which department is [G102(Course[4])] in?	'neuroscience'	['question_type_local']
+the affiliation of [she(MastersStudent[5])] is [neuroscience]
+[Bob(Professor[2])] is on [Alverta(PhdStudent[7])]'s committee
+Who advises [this student(PhdStudent[7])]?	'Charlott'	['question_type_local']
+Which courses in the neuroscience department are TAed by phd students?	'G102(Course[4])'	['question_type_global', 'question_three_hop_statement']
+[this student(PhdStudent[7])] is now a [third year] student
+[she(PhdStudent[7])] has passed the thesis proposal exam
+Which students have offices in Economics Building	'Rey(PhdStudent[3])'	['question_type_global', 'question_two_hop_statement']
+[this student(PhdStudent[7])] is now in [fourth year]
+[she(PhdStudent[7])] is now in [fifth year]
+[that person(PhdStudent[7])] is now in [sixth year]
+Who is in [JILA Building]	'John(Professor[4])'	['question_type_global', 'question_two_hop_statement']
+[Michael(PhdStudent[1])] and [that student(PhdStudent[7])] are attending [G9000(Course[7])]
+What department is [G610(Course[2])] offered in?	'psychology'	['question_type_local']
+What students are in the [neuroscience] department?	'Hanna(MastersStudent[5])'	['question_type_global', 'question_two_hop_statement']
+Which phd students taking the G9000 course	'Michael(PhdStudent[1])', 'Alverta(PhdStudent[7])'	['question_type_global', 'question_two_hop_statement']
+Who are [John(Professor[4])]'s students?	'Rey(PhdStudent[3])'	['question_type_local']
+Who is teaching [G9000(Course[7])]?	'Bob(Professor[2])'	['question_type_local']
+[John(Professor[4])]'s research interest is [conservation biology]
+[Michael(PhdStudent[1])] is in [sixth year]
+Who is in the [neuroscience] department	'Hanna(MastersStudent[5])'	['question_type_global', 'question_single_statement']
+Which department is [G9000(Course[7])] in?	'english'	['question_type_local']
+Which professors have offices in Koelbel Building	'Bob(Professor[2])', 'Alejandra(Professor[6])'	['question_type_global', 'question_two_hop_statement']
+There is a course called [G201(Course[8])]
+[that class(Course[8])] is a [masters] course
+[this course(Course[8])] is under the [psychology] department
+What courses is [Alejandra(Professor[6])] teaching?	'G8001(Course[5])'	['question_type_local']
+Who is part of the [neuroscience] department	'Hanna(MastersStudent[5])'	['question_type_global', 'question_single_statement']
+Which professors have offices in Economics Building	'Charlott(Professor[9])'	['question_type_global', 'question_two_hop_statement']
