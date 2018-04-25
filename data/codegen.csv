@@ -1898,3 +1898,1713 @@ How many entries with nr.employed higher than or equal to -10,bank_marketing [ b
 Number of data with nr.employed equal to -10,bank_marketing [ bank_marketing [ 'nr.employed' ] == '-10' ]
 correlation of nr.employed with poutcome,bank_marketing [ 'nr.employed' ] .corr ( bank_marketing [ 'poutcome' ] )
 load bank_marketingbank_marketing_df,bank_marketing_df = pd.DataFrame.from_csv ( bank_marketing )
+describe of sepal_length in iris dataset,iris [ 'sepal_length' ] .describe()
+min of sepal_length in iris dataset,min( iris [ 'sepal_length' ])
+correlation of sepal_length,iris [ 'sepal_length' ] .corr()
+standard deviation of sepal_length,iris [ 'sepal_length' ] .std()
+minimum of sepal_length,min( iris [ 'sepal_length' ])
+cor of sepal_length in iris,iris [ 'sepal_length' ] .corr()
+scatter plot of sepal_length,pltplot.scatter( iris [ 'sepal_length' ])
+max of sepal_length in iris,max( iris [ 'sepal_length' ])
+quantile of iris,iris [ 'iris' ] .quantile()
+How many data where sepal_length>0,iris [ iris [ 'sepal_length' ] > '0' ]
+How many rows  sepal_length=-4 in iris,iris [ iris [ 'sepal_length' ]  =  '-4' ]
+How many entries sepal_length higher than 5,iris [ iris [ 'sepal_length' ] > '5' ]
+Number of rows sepal_length less than 6,iris [ iris [ 'sepal_length' ] < '6' ]
+correlation of sepal_length with petal_width,iris [ 'sepal_length' ] .corr ( iris [ 'petal_width' ] )
+load irisiris_df,iris_df = pd.DataFrame.from_csv ( iris )
+mean of sepal_width in iris,iris [ 'sepal_width' ] .mean()
+mean of sepal_width in iris dataset,iris [ 'sepal_width' ] .mean()
+average of sepal_width in iris,iris [ 'sepal_width' ] .mean()
+average of sepal_width in iris,iris [ 'sepal_width' ] .mean()
+variance of sepal_width,iris [ 'sepal_width' ] .var()
+boxplot of sepal_width in iris dataset,pltplot.boxplot( iris [ 'sepal_width' ])
+mean of sepal_width in iris,iris [ 'sepal_width' ] .mean()
+var of sepal_width in iris,iris [ 'sepal_width' ] .var()
+summary of iris,iris [ 'iris' ] .describe()
+How many rows where sepal_width>8 in iris dataset,iris [ iris [ 'sepal_width' ]  >  '8' ]
+How many rows  sepal_width>=8 in iris dataset,iris [ iris [ 'sepal_width' ]  >=  '8' ]
+Number of data with sepal_width is 2,iris [ iris [ 'sepal_width' ] == '2' ]
+How many rows sepal_width higher than or equal to 6,iris [ iris [ 'sepal_width' ] higher than or equal to '6' ]
+correlation between sepal_width and sepal_length,iris [ 'sepal_width' ] .corr ( iris [ 'sepal_length' ] )
+load iris,iris = pd.DataFrame.from_csv ( iris )
+cor of petal_length in iris dataset,iris [ 'petal_length' ] .corr()
+max of petal_length in iris dataset,max( iris [ 'petal_length' ])
+cor of petal_length,iris [ 'petal_length' ] .corr()
+max of petal_length,max( iris [ 'petal_length' ])
+scatterplot of petal_length,pltplot.scatter( iris [ 'petal_length' ])
+mean of petal_length in iris,iris [ 'petal_length' ] .mean()
+scatter plot of petal_length in iris dataset,pltplot.scatter( iris [ 'petal_length' ])
+mean of petal_length in iris dataset,iris [ 'petal_length' ] .mean()
+quantile of iris,iris [ 'iris' ] .quantile()
+Number of data  petal_length>=2,iris [ iris [ 'petal_length' ]  >=  '2' ]
+How many rows with petal_length>-5 in iris dataset,iris [ iris [ 'petal_length' ]  >  '-5' ]
+How many rows with petal_length is -8,iris [ iris [ 'petal_length' ] == '-8' ]
+Number of entries petal_length higher than 9,iris [ iris [ 'petal_length' ] > '9' ]
+scatterplot of petal_length and sepal_width,"pltplot.scatter( iris [ 'petal_length' ] , iris [ 'sepal_width' ])"
+load irisiris_df,iris_df = pd.DataFrame.from_csv ( iris )
+scatter plot of petal_width in iris,pltplot.scatter( iris [ 'petal_width' ])
+describe of petal_width in iris,iris [ 'petal_width' ] .describe()
+minimum of petal_width in iris,min( iris [ 'petal_width' ])
+scatter plot of petal_width in iris,pltplot.scatter( iris [ 'petal_width' ])
+correlation of petal_width in iris,iris [ 'petal_width' ] .corr()
+correlation of petal_width in iris dataset,iris [ 'petal_width' ] .corr()
+quantile of petal_width,iris [ 'petal_width' ] .quantile()
+describe of petal_width in iris dataset,iris [ 'petal_width' ] .describe()
+quantile of iris,iris [ 'iris' ] .quantile()
+Number of entries with petal_width<10,iris [ iris [ 'petal_width' ]  <  '10' ]
+Number of entries where petal_width<=-1,iris [ iris [ 'petal_width' ]  <=  '-1' ]
+How many rows with petal_width is 8,iris [ iris [ 'petal_width' ] == '8' ]
+How many entries petal_width higher than or equal to -6,iris [ iris [ 'petal_width' ] higher than or equal to '-6' ]
+scatterplot of petal_width and sepal_length,"pltplot.scatter( iris [ 'petal_width' ] , iris [ 'sepal_length' ])"
+load iris,iris = pd.DataFrame.from_csv ( iris )
+scatterplot of age in adult dataset,pltplot.scatter( adult [ 'age' ])
+sum of age,adult [ 'age' ] .sum()
+variance of age,adult [ 'age' ] .var()
+average of age in adult,adult [ 'age' ] .mean()
+scatterplot of age in adult,pltplot.scatter( adult [ 'age' ])
+corr of age,adult [ 'age' ] .corr()
+scatterplot of age in adult dataset,pltplot.scatter( adult [ 'age' ])
+scatterplot of age in adult,pltplot.scatter( adult [ 'age' ])
+quantile of adult,adult [ 'adult' ] .quantile()
+How many entries with age<10,adult [ adult [ 'age' ]  <  '10' ]
+How many data with age<-6 in adult dataset,adult [ adult [ 'age' ] < '-6' ]
+Number of data age less than -9,adult [ adult [ 'age' ] < '-9' ]
+How many rows with age less than 9,adult [ adult [ 'age' ] < '9' ]
+scatterplot of age with workclass,"pltplot.scatter( adult [ 'age' ] , adult [ 'workclass' ])"
+load adult,adult = pd.DataFrame.from_csv ( adult )
+boxplot of workclass in adult dataset,pltplot.boxplot( adult [ 'workclass' ])
+minimum of workclass in adult,min( adult [ 'workclass' ])
+max of workclass in adult dataset,max( adult [ 'workclass' ])
+minimum of workclass in adult dataset,min( adult [ 'workclass' ])
+corr of workclass in adult dataset,adult [ 'workclass' ] .corr()
+average of workclass in adult,adult [ 'workclass' ] .mean()
+minimum of workclass in adult,min( adult [ 'workclass' ])
+scatterplot of workclass,pltplot.scatter( adult [ 'workclass' ])
+summary of adult,adult [ 'adult' ] .describe()
+How many entries with workclass<=-9,adult [ adult [ 'workclass' ] <= '-9' ]
+Number of data with workclass<=-3 in adult dataset,adult [ adult [ 'workclass' ] <= '-3' ]
+How many rows workclass less than or equal to 2,adult [ adult [ 'workclass' ] <= '2' ]
+Number of entries where workclass less than -7,adult [ adult [ 'workclass' ] < '-7' ]
+scatterplot of workclass and education_num,"pltplot.scatter( adult [ 'workclass' ] , adult [ 'education_num' ])"
+load adult,adult = pd.DataFrame.from_csv ( adult )
+correlation of fnlwgt in adult,adult [ 'fnlwgt' ] .corr()
+var of fnlwgt in adult,adult [ 'fnlwgt' ] .var()
+mean of fnlwgt,adult [ 'fnlwgt' ] .mean()
+boxplot of fnlwgt,pltplot.boxplot( adult [ 'fnlwgt' ])
+histogram of fnlwgt in adult,pltplot.hist( adult [ 'fnlwgt' ])
+describe of fnlwgt in adult dataset,adult [ 'fnlwgt' ] .describe()
+sum of fnlwgt in adult,adult [ 'fnlwgt' ] .sum()
+mean of fnlwgt in adult dataset,adult [ 'fnlwgt' ] .mean()
+summary of adult,adult [ 'adult' ] .describe()
+Number of data  fnlwgt<-2,adult [ adult [ 'fnlwgt' ]  <  '-2' ]
+Number of rows with fnlwgt=9 in adult dataset,adult [ adult [ 'fnlwgt' ]  =  '9' ]
+How many rows fnlwgt is -7,adult [ adult [ 'fnlwgt' ] == '-7' ]
+How many rows where fnlwgt is 4,adult [ adult [ 'fnlwgt' ] == '4' ]
+scatterplot of fnlwgt with capital_gain,"pltplot.scatter( adult [ 'fnlwgt' ] , adult [ 'capital_gain' ])"
+load adult,adult = pd.DataFrame.from_csv ( adult )
+scatter plot of education,pltplot.scatter( adult [ 'education' ])
+average of education,adult [ 'education' ] .mean()
+var of education in adult,adult [ 'education' ] .var()
+variance of education in adult,adult [ 'education' ] .var()
+describe of education in adult dataset,adult [ 'education' ] .describe()
+variance of education in adult dataset,adult [ 'education' ] .var()
+maximum of education in adult,max( adult [ 'education' ])
+mean of education in adult dataset,adult [ 'education' ] .mean()
+summary of adult,adult [ 'adult' ] .describe()
+Number of entries  education<=6 in adult dataset,adult [ adult [ 'education' ] <= '6' ]
+How many rows where education>=-9,adult [ adult [ 'education' ] >= '-9' ]
+Number of rows education higher than 1,adult [ adult [ 'education' ] > '1' ]
+How many data where education less than 3,adult [ adult [ 'education' ] < '3' ]
+correlation of education and marital_status,adult [ 'education' ] .corr ( adult [ 'marital_status' ] )
+load adult,adult = pd.DataFrame.from_csv ( adult )
+min of education_num in adult,min( adult [ 'education_num' ])
+mean of education_num,adult [ 'education_num' ] .mean()
+min of education_num in adult,min( adult [ 'education_num' ])
+maximum of education_num in adult dataset,max( adult [ 'education_num' ])
+correlation of education_num in adult,adult [ 'education_num' ] .corr()
+sum of education_num in adult,adult [ 'education_num' ] .sum()
+var of education_num,adult [ 'education_num' ] .var()
+correlation of education_num in adult dataset,adult [ 'education_num' ] .corr()
+summary of adult,adult [ 'adult' ] .describe()
+How many entries  education_num<=10 in adult,adult [ adult [ 'education_num' ]  <=  '10' ]
+Number of entries with education_num<=8 in adult,adult [ adult [ 'education_num' ] <= '8' ]
+How many entries education_num is -9,adult [ adult [ 'education_num' ] == '-9' ]
+How many rows with education_num higher than or equal to 8,adult [ adult [ 'education_num' ] higher than or equal to '8' ]
+scatterplot of education_num and hours_per_week,"pltplot.scatter( adult [ 'education_num' ] , adult [ 'hours_per_week' ])"
+load adultadult_df,adult_df = pd.DataFrame.from_csv ( adult )
+cor of marital_status,adult [ 'marital_status' ] .corr()
+minimum of marital_status,min( adult [ 'marital_status' ])
+var of marital_status in adult,adult [ 'marital_status' ] .var()
+maximum of marital_status in adult,max( adult [ 'marital_status' ])
+maximum of marital_status,max( adult [ 'marital_status' ])
+minimum of marital_status in adult dataset,min( adult [ 'marital_status' ])
+correlation of marital_status,adult [ 'marital_status' ] .corr()
+scatter plot of marital_status in adult dataset,pltplot.scatter( adult [ 'marital_status' ])
+summary of adult,adult [ 'adult' ] .describe()
+Number of data with marital_status>=-4 in adult dataset,adult [ adult [ 'marital_status' ] >= '-4' ]
+Number of data with marital_status<-5,adult [ adult [ 'marital_status' ] < '-5' ]
+Number of rows marital_status higher than or equal to -2,adult [ adult [ 'marital_status' ] higher than or equal to '-2' ]
+How many data where marital_status higher than or equal to -4,adult [ adult [ 'marital_status' ] higher than or equal to '-4' ]
+scatterplot between marital_status and race,"pltplot.scatter( adult [ 'marital_status' ] , adult [ 'race' ])"
+load adult,adult = pd.DataFrame.from_csv ( adult )
+min of occupation,min( adult [ 'occupation' ])
+scatterplot of occupation,pltplot.scatter( adult [ 'occupation' ])
+standard deviation of occupation in adult,adult [ 'occupation' ] .std()
+correlation of occupation,adult [ 'occupation' ] .corr()
+min of occupation in adult,min( adult [ 'occupation' ])
+min of occupation,min( adult [ 'occupation' ])
+boxplot of occupation in adult,pltplot.boxplot( adult [ 'occupation' ])
+corr of occupation,adult [ 'occupation' ] .corr()
+quantile of adult,adult [ 'adult' ] .quantile()
+Number of entries  occupation<=-9 in adult,adult [ adult [ 'occupation' ]  <=  '-9' ]
+How many data with occupation<=2 in adult,adult [ adult [ 'occupation' ]  <=  '2' ]
+How many data with occupation less than -8,adult [ adult [ 'occupation' ] < '-8' ]
+Number of data occupation higher than or equal to 2,adult [ adult [ 'occupation' ] higher than or equal to '2' ]
+scatterplot of occupation and workclass,"pltplot.scatter( adult [ 'occupation' ] , adult [ 'workclass' ])"
+load adultadult_df,adult_df = pd.DataFrame.from_csv ( adult )
+describe of house_serv in adult dataset,adult [ 'house_serv' ] .describe()
+scatter plot of house_serv,pltplot.scatter( adult [ 'house_serv' ])
+scatterplot of house_serv in adult,pltplot.scatter( adult [ 'house_serv' ])
+describe of house_serv,adult [ 'house_serv' ] .describe()
+sum of house_serv,adult [ 'house_serv' ] .sum()
+average of house_serv in adult,adult [ 'house_serv' ] .mean()
+quantile of house_serv,adult [ 'house_serv' ] .quantile()
+mean of house_serv in adult dataset,adult [ 'house_serv' ] .mean()
+quantile of adult,adult [ 'adult' ] .quantile()
+How many entries where house_serv<=-4,adult [ adult [ 'house_serv' ] <= '-4' ]
+How many entries  house_serv>=-6 in adult dataset,adult [ adult [ 'house_serv' ] >= '-6' ]
+Number of rows house_serv higher than or equal to -10,adult [ adult [ 'house_serv' ] higher than or equal to '-10' ]
+How many rows with house_serv less than or equal to -9,adult [ adult [ 'house_serv' ] <= '-9' ]
+scatterplot between house_serv with education_num,"pltplot.scatter( adult [ 'house_serv' ] , adult [ 'education_num' ])"
+load adult,adult = pd.DataFrame.from_csv ( adult )
+histogram of relationship in adult dataset,pltplot.hist( adult [ 'relationship' ])
+describe of relationship,adult [ 'relationship' ] .describe()
+histogram of relationship,pltplot.hist( adult [ 'relationship' ])
+scatter plot of relationship,pltplot.scatter( adult [ 'relationship' ])
+min of relationship in adult,min( adult [ 'relationship' ])
+maximum of relationship,max( adult [ 'relationship' ])
+maximum of relationship in adult,max( adult [ 'relationship' ])
+maximum of relationship in adult,max( adult [ 'relationship' ])
+summary of adult,adult [ 'adult' ] .describe()
+How many entries where relationship=-6 in adult dataset,adult [ adult [ 'relationship' ] = '-6' ]
+Number of entries where relationship=9 in adult,adult [ adult [ 'relationship' ]  =  '9' ]
+How many data relationship less than or equal to 2,adult [ adult [ 'relationship' ] <= '2' ]
+Number of rows relationship higher than 8,adult [ adult [ 'relationship' ] > '8' ]
+scatterplot of relationship and workclass,"pltplot.scatter( adult [ 'relationship' ] , adult [ 'workclass' ])"
+load adultadult_df,adult_df = pd.DataFrame.from_csv ( adult )
+average of race in adult dataset,adult [ 'race' ] .mean()
+variance of race,adult [ 'race' ] .var()
+corr of race in adult,adult [ 'race' ] .corr()
+maximum of race,max( adult [ 'race' ])
+quantile of race,adult [ 'race' ] .quantile()
+correlation of race in adult,adult [ 'race' ] .corr()
+variance of race,adult [ 'race' ] .var()
+minimum of race in adult,min( adult [ 'race' ])
+summary of adult,adult [ 'adult' ] .describe()
+How many rows  race=2 in adult,adult [ adult [ 'race' ] = '2' ]
+Number of entries where race<-5 in adult,adult [ adult [ 'race' ] < '-5' ]
+How many rows where race higher than or equal to -2,adult [ adult [ 'race' ] higher than or equal to '-2' ]
+How many data where race less than -4,adult [ adult [ 'race' ] < '-4' ]
+correlation between race and house_serv,adult [ 'race' ] .corr ( adult [ 'house_serv' ] )
+load adult,adult = pd.DataFrame.from_csv ( adult )
+cor of sex,adult [ 'sex' ] .corr()
+corr of sex in adult dataset,adult [ 'sex' ] .corr()
+boxplot of sex in adult,pltplot.boxplot( adult [ 'sex' ])
+mean of sex in adult,adult [ 'sex' ] .mean()
+sum of sex in adult,adult [ 'sex' ] .sum()
+cor of sex,adult [ 'sex' ] .corr()
+minimum of sex in adult dataset,min( adult [ 'sex' ])
+variance of sex in adult,adult [ 'sex' ] .var()
+quantile of adult,adult [ 'adult' ] .quantile()
+Number of data  sex<=-4,adult [ adult [ 'sex' ] <= '-4' ]
+Number of data where sex<-7 in adult dataset,adult [ adult [ 'sex' ] < '-7' ]
+How many data sex equal to 5,adult [ adult [ 'sex' ] == '5' ]
+Number of entries with sex higher than or equal to -3,adult [ adult [ 'sex' ] higher than or equal to '-3' ]
+scatterplot between sex with education_num,"pltplot.scatter( adult [ 'sex' ] , adult [ 'education_num' ])"
+load adult,adult = pd.DataFrame.from_csv ( adult )
+corr of capital_gain,adult [ 'capital_gain' ] .corr()
+maximum of capital_gain in adult dataset,max( adult [ 'capital_gain' ])
+variance of capital_gain in adult,adult [ 'capital_gain' ] .var()
+standard deviation of capital_gain,adult [ 'capital_gain' ] .std()
+scatterplot of capital_gain in adult dataset,pltplot.scatter( adult [ 'capital_gain' ])
+min of capital_gain,min( adult [ 'capital_gain' ])
+describe of capital_gain,adult [ 'capital_gain' ] .describe()
+variance of capital_gain,adult [ 'capital_gain' ] .var()
+summary of adult,adult [ 'adult' ] .describe()
+Number of entries with capital_gain=6 in adult,adult [ adult [ 'capital_gain' ]  =  '6' ]
+How many data where capital_gain<=3,adult [ adult [ 'capital_gain' ] <= '3' ]
+How many entries where capital_gain less than 8,adult [ adult [ 'capital_gain' ] < '8' ]
+Number of rows where capital_gain less than -7,adult [ adult [ 'capital_gain' ] < '-7' ]
+scatterplot between capital_gain with hours_per_week,"pltplot.scatter( adult [ 'capital_gain' ] , adult [ 'hours_per_week' ])"
+load adult,adult = pd.DataFrame.from_csv ( adult )
+describe of capital_loss in adult,adult [ 'capital_loss' ] .describe()
+min of capital_loss in adult dataset,min( adult [ 'capital_loss' ])
+mean of capital_loss in adult,adult [ 'capital_loss' ] .mean()
+cor of capital_loss in adult,adult [ 'capital_loss' ] .corr()
+standard deviation of capital_loss in adult,adult [ 'capital_loss' ] .std()
+scatter plot of capital_loss in adult,pltplot.scatter( adult [ 'capital_loss' ])
+correlation of capital_loss,adult [ 'capital_loss' ] .corr()
+var of capital_loss,adult [ 'capital_loss' ] .var()
+quantile of adult,adult [ 'adult' ] .quantile()
+How many entries where capital_loss>7 in adult,adult [ adult [ 'capital_loss' ] > '7' ]
+How many entries  capital_loss<-7 in adult,adult [ adult [ 'capital_loss' ]  <  '-7' ]
+Number of entries with capital_loss equal to -6,adult [ adult [ 'capital_loss' ] == '-6' ]
+How many data with capital_loss is -9,adult [ adult [ 'capital_loss' ] == '-9' ]
+scatterplot between capital_loss with relationship,"pltplot.scatter( adult [ 'capital_loss' ] , adult [ 'relationship' ])"
+load adultadult_df,adult_df = pd.DataFrame.from_csv ( adult )
+quantile of hours_per_week,adult [ 'hours_per_week' ] .quantile()
+sum of hours_per_week in adult,adult [ 'hours_per_week' ] .sum()
+scatterplot of hours_per_week,pltplot.scatter( adult [ 'hours_per_week' ])
+scatter plot of hours_per_week,pltplot.scatter( adult [ 'hours_per_week' ])
+variance of hours_per_week in adult dataset,adult [ 'hours_per_week' ] .var()
+minimum of hours_per_week in adult,min( adult [ 'hours_per_week' ])
+boxplot of hours_per_week in adult,pltplot.boxplot( adult [ 'hours_per_week' ])
+min of hours_per_week,min( adult [ 'hours_per_week' ])
+summary of adult,adult [ 'adult' ] .describe()
+How many rows where hours_per_week<=-9 in adult dataset,adult [ adult [ 'hours_per_week' ]  <=  '-9' ]
+How many rows  hours_per_week>=6,adult [ adult [ 'hours_per_week' ] >= '6' ]
+Number of rows hours_per_week equal to -10,adult [ adult [ 'hours_per_week' ] == '-10' ]
+How many data where hours_per_week is 4,adult [ adult [ 'hours_per_week' ] == '4' ]
+scatterplot of hours_per_week with house_serv,"pltplot.scatter( adult [ 'hours_per_week' ] , adult [ 'house_serv' ])"
+load adult,adult = pd.DataFrame.from_csv ( adult )
+standard deviation of native_country,adult [ 'native_country' ] .std()
+standard deviation of native_country in adult,adult [ 'native_country' ] .std()
+boxplot of native_country,pltplot.boxplot( adult [ 'native_country' ])
+maximum of native_country,max( adult [ 'native_country' ])
+average of native_country in adult,adult [ 'native_country' ] .mean()
+minimum of native_country in adult,min( adult [ 'native_country' ])
+corr of native_country,adult [ 'native_country' ] .corr()
+var of native_country in adult dataset,adult [ 'native_country' ] .var()
+summary of adult,adult [ 'adult' ] .describe()
+How many rows  native_country<8 in adult dataset,adult [ adult [ 'native_country' ]  <  '8' ]
+How many rows where native_country<=1,adult [ adult [ 'native_country' ]  <=  '1' ]
+Number of rows where native_country less than or equal to -2,adult [ adult [ 'native_country' ] <= '-2' ]
+Number of rows native_country higher than 6,adult [ adult [ 'native_country' ] > '6' ]
+scatterplot of native_country with sex,"pltplot.scatter( adult [ 'native_country' ] , adult [ 'sex' ])"
+load adult,adult = pd.DataFrame.from_csv ( adult )
+average of alcohol in wine dataset,wine [ 'alcohol' ] .mean()
+variance of alcohol,wine [ 'alcohol' ] .var()
+average of alcohol in wine,wine [ 'alcohol' ] .mean()
+sum of alcohol,wine [ 'alcohol' ] .sum()
+boxplot of alcohol,pltplot.boxplot( wine [ 'alcohol' ])
+min of alcohol in wine dataset,min( wine [ 'alcohol' ])
+var of alcohol in wine,wine [ 'alcohol' ] .var()
+mean of alcohol,wine [ 'alcohol' ] .mean()
+quantile of wine,wine [ 'wine' ] .quantile()
+Number of entries  alcohol<=4 in wine dataset,wine [ wine [ 'alcohol' ]  <=  '4' ]
+How many rows with alcohol<=0 in wine dataset,wine [ wine [ 'alcohol' ] <= '0' ]
+How many rows with alcohol less than 9,wine [ wine [ 'alcohol' ] < '9' ]
+Number of rows alcohol less than -7,wine [ wine [ 'alcohol' ] < '-7' ]
+correlation between alcohol and magnesium,wine [ 'alcohol' ] .corr ( wine [ 'magnesium' ] )
+load wine,wine = pd.DataFrame.from_csv ( wine )
+maximum of malic_acid,max( wine [ 'malic_acid' ])
+corr of malic_acid in wine dataset,wine [ 'malic_acid' ] .corr()
+describe of malic_acid in wine,wine [ 'malic_acid' ] .describe()
+boxplot of malic_acid,pltplot.boxplot( wine [ 'malic_acid' ])
+describe of malic_acid in wine dataset,wine [ 'malic_acid' ] .describe()
+histogram of malic_acid in wine,pltplot.hist( wine [ 'malic_acid' ])
+sum of malic_acid in wine dataset,wine [ 'malic_acid' ] .sum()
+corr of malic_acid in wine dataset,wine [ 'malic_acid' ] .corr()
+quantile of wine,wine [ 'wine' ] .quantile()
+How many data with malic_acid<-10 in wine,wine [ wine [ 'malic_acid' ] < '-10' ]
+Number of data where malic_acid>4 in wine dataset,wine [ wine [ 'malic_acid' ]  >  '4' ]
+Number of entries malic_acid less than -1,wine [ wine [ 'malic_acid' ] < '-1' ]
+How many data where malic_acid less than -7,wine [ wine [ 'malic_acid' ] < '-7' ]
+scatterplot of malic_acid and total_phenols,"pltplot.scatter( wine [ 'malic_acid' ] , wine [ 'total_phenols' ])"
+load winewine_df,wine_df = pd.DataFrame.from_csv ( wine )
+min of ash in wine,min( wine [ 'ash' ])
+cor of ash in wine,wine [ 'ash' ] .corr()
+boxplot of ash in wine,pltplot.boxplot( wine [ 'ash' ])
+scatter plot of ash in wine,pltplot.scatter( wine [ 'ash' ])
+cor of ash,wine [ 'ash' ] .corr()
+max of ash,max( wine [ 'ash' ])
+corr of ash in wine,wine [ 'ash' ] .corr()
+minimum of ash in wine,min( wine [ 'ash' ])
+summary of wine,wine [ 'wine' ] .describe()
+How many data  ash<7 in wine dataset,wine [ wine [ 'ash' ]  <  '7' ]
+How many entries where ash<=2,wine [ wine [ 'ash' ]  <=  '2' ]
+Number of data with ash higher than or equal to -2,wine [ wine [ 'ash' ] higher than or equal to '-2' ]
+Number of entries ash less than 7,wine [ wine [ 'ash' ] < '7' ]
+scatterplot between ash with malic_acid,"pltplot.scatter( wine [ 'ash' ] , wine [ 'malic_acid' ])"
+load winewine_df,wine_df = pd.DataFrame.from_csv ( wine )
+describe of alcalinity_of_ash,wine [ 'alcalinity_of_ash' ] .describe()
+scatter plot of alcalinity_of_ash in wine,pltplot.scatter( wine [ 'alcalinity_of_ash' ])
+maximum of alcalinity_of_ash in wine dataset,max( wine [ 'alcalinity_of_ash' ])
+quantile of alcalinity_of_ash,wine [ 'alcalinity_of_ash' ] .quantile()
+describe of alcalinity_of_ash,wine [ 'alcalinity_of_ash' ] .describe()
+scatterplot of alcalinity_of_ash in wine,pltplot.scatter( wine [ 'alcalinity_of_ash' ])
+variance of alcalinity_of_ash,wine [ 'alcalinity_of_ash' ] .var()
+quantile of alcalinity_of_ash,wine [ 'alcalinity_of_ash' ] .quantile()
+quantile of wine,wine [ 'wine' ] .quantile()
+Number of entries  alcalinity_of_ash<=-6 in wine,wine [ wine [ 'alcalinity_of_ash' ] <= '-6' ]
+Number of entries where alcalinity_of_ash<=6 in wine,wine [ wine [ 'alcalinity_of_ash' ] <= '6' ]
+Number of rows with alcalinity_of_ash less than or equal to -8,wine [ wine [ 'alcalinity_of_ash' ] <= '-8' ]
+How many data alcalinity_of_ash higher than 6,wine [ wine [ 'alcalinity_of_ash' ] > '6' ]
+scatterplot of alcalinity_of_ash and magnesium,"pltplot.scatter( wine [ 'alcalinity_of_ash' ] , wine [ 'magnesium' ])"
+load winewine_df,wine_df = pd.DataFrame.from_csv ( wine )
+average of magnesium,wine [ 'magnesium' ] .mean()
+mean of magnesium,wine [ 'magnesium' ] .mean()
+scatterplot of magnesium in wine dataset,pltplot.scatter( wine [ 'magnesium' ])
+boxplot of magnesium in wine dataset,pltplot.boxplot( wine [ 'magnesium' ])
+var of magnesium,wine [ 'magnesium' ] .var()
+boxplot of magnesium in wine,pltplot.boxplot( wine [ 'magnesium' ])
+variance of magnesium in wine dataset,wine [ 'magnesium' ] .var()
+max of magnesium in wine dataset,max( wine [ 'magnesium' ])
+quantile of wine,wine [ 'wine' ] .quantile()
+How many rows  magnesium<=10,wine [ wine [ 'magnesium' ]  <=  '10' ]
+How many entries where magnesium=4 in wine dataset,wine [ wine [ 'magnesium' ]  =  '4' ]
+Number of entries magnesium higher than or equal to -3,wine [ wine [ 'magnesium' ] higher than or equal to '-3' ]
+Number of data magnesium higher than 3,wine [ wine [ 'magnesium' ] > '3' ]
+scatterplot between magnesium and ash,"pltplot.scatter( wine [ 'magnesium' ] , wine [ 'ash' ])"
+load winewine_df,wine_df = pd.DataFrame.from_csv ( wine )
+describe of total_phenols in wine,wine [ 'total_phenols' ] .describe()
+var of total_phenols in wine,wine [ 'total_phenols' ] .var()
+minimum of total_phenols,min( wine [ 'total_phenols' ])
+quantile of total_phenols,wine [ 'total_phenols' ] .quantile()
+quantile of total_phenols in wine,wine [ 'total_phenols' ] .quantile()
+corr of total_phenols,wine [ 'total_phenols' ] .corr()
+correlation of total_phenols in wine dataset,wine [ 'total_phenols' ] .corr()
+describe of total_phenols in wine,wine [ 'total_phenols' ] .describe()
+quantile of wine,wine [ 'wine' ] .quantile()
+Number of rows  total_phenols<=-5,wine [ wine [ 'total_phenols' ]  <=  '-5' ]
+Number of rows  total_phenols>=3,wine [ wine [ 'total_phenols' ]  >=  '3' ]
+How many data where total_phenols less than or equal to 1,wine [ wine [ 'total_phenols' ] <= '1' ]
+Number of entries where total_phenols higher than or equal to 8,wine [ wine [ 'total_phenols' ] higher than or equal to '8' ]
+correlation between total_phenols with proanthocyanins,wine [ 'total_phenols' ] .corr ( wine [ 'proanthocyanins' ] )
+load wine,wine = pd.DataFrame.from_csv ( wine )
+maximum of flavanoids,max( wine [ 'flavanoids' ])
+variance of flavanoids in wine,wine [ 'flavanoids' ] .var()
+cor of flavanoids in wine,wine [ 'flavanoids' ] .corr()
+average of flavanoids,wine [ 'flavanoids' ] .mean()
+quantile of flavanoids in wine,wine [ 'flavanoids' ] .quantile()
+quantile of flavanoids in wine,wine [ 'flavanoids' ] .quantile()
+average of flavanoids in wine dataset,wine [ 'flavanoids' ] .mean()
+scatterplot of flavanoids in wine dataset,pltplot.scatter( wine [ 'flavanoids' ])
+quantile of wine,wine [ 'wine' ] .quantile()
+Number of rows where flavanoids>=-10,wine [ wine [ 'flavanoids' ] >= '-10' ]
+Number of rows  flavanoids>=10,wine [ wine [ 'flavanoids' ] >= '10' ]
+Number of rows flavanoids higher than or equal to -4,wine [ wine [ 'flavanoids' ] higher than or equal to '-4' ]
+How many data where flavanoids less than or equal to -3,wine [ wine [ 'flavanoids' ] <= '-3' ]
+scatterplot of flavanoids with malic_acid,"pltplot.scatter( wine [ 'flavanoids' ] , wine [ 'malic_acid' ])"
+load wine,wine = pd.DataFrame.from_csv ( wine )
+cor of nonflavanoid_phenols,wine [ 'nonflavanoid_phenols' ] .corr()
+max of nonflavanoid_phenols in wine dataset,max( wine [ 'nonflavanoid_phenols' ])
+maximum of nonflavanoid_phenols in wine dataset,max( wine [ 'nonflavanoid_phenols' ])
+var of nonflavanoid_phenols in wine dataset,wine [ 'nonflavanoid_phenols' ] .var()
+variance of nonflavanoid_phenols in wine,wine [ 'nonflavanoid_phenols' ] .var()
+standard deviation of nonflavanoid_phenols,wine [ 'nonflavanoid_phenols' ] .std()
+describe of nonflavanoid_phenols,wine [ 'nonflavanoid_phenols' ] .describe()
+cor of nonflavanoid_phenols,wine [ 'nonflavanoid_phenols' ] .corr()
+summary of wine,wine [ 'wine' ] .describe()
+How many data with nonflavanoid_phenols=2 in wine,wine [ wine [ 'nonflavanoid_phenols' ] = '2' ]
+How many entries with nonflavanoid_phenols<0 in wine,wine [ wine [ 'nonflavanoid_phenols' ] < '0' ]
+How many entries with nonflavanoid_phenols higher than or equal to 6,wine [ wine [ 'nonflavanoid_phenols' ] higher than or equal to '6' ]
+How many entries nonflavanoid_phenols is -6,wine [ wine [ 'nonflavanoid_phenols' ] == '-6' ]
+scatterplot of nonflavanoid_phenols and flavanoids,"pltplot.scatter( wine [ 'nonflavanoid_phenols' ] , wine [ 'flavanoids' ])"
+load wine,wine = pd.DataFrame.from_csv ( wine )
+sum of proanthocyanins in wine dataset,wine [ 'proanthocyanins' ] .sum()
+var of proanthocyanins in wine,wine [ 'proanthocyanins' ] .var()
+minimum of proanthocyanins,min( wine [ 'proanthocyanins' ])
+cor of proanthocyanins,wine [ 'proanthocyanins' ] .corr()
+corr of proanthocyanins in wine dataset,wine [ 'proanthocyanins' ] .corr()
+max of proanthocyanins,max( wine [ 'proanthocyanins' ])
+var of proanthocyanins in wine,wine [ 'proanthocyanins' ] .var()
+min of proanthocyanins in wine dataset,min( wine [ 'proanthocyanins' ])
+summary of wine,wine [ 'wine' ] .describe()
+How many rows with proanthocyanins>=8,wine [ wine [ 'proanthocyanins' ] >= '8' ]
+Number of data where proanthocyanins>=-4 in wine dataset,wine [ wine [ 'proanthocyanins' ] >= '-4' ]
+How many rows where proanthocyanins less than 7,wine [ wine [ 'proanthocyanins' ] < '7' ]
+Number of rows with proanthocyanins higher than -9,wine [ wine [ 'proanthocyanins' ] > '-9' ]
+scatterplot between proanthocyanins with flavanoids,"pltplot.scatter( wine [ 'proanthocyanins' ] , wine [ 'flavanoids' ])"
+load winewine_df,wine_df = pd.DataFrame.from_csv ( wine )
+mean of varor_intensity in wine,wine [ 'varor_intensity' ] .mean()
+describe of varor_intensity in wine dataset,wine [ 'varor_intensity' ] .describe()
+cor of varor_intensity in wine,wine [ 'varor_intensity' ] .corr()
+scatter plot of varor_intensity in wine,pltplot.scatter( wine [ 'varor_intensity' ])
+scatterplot of varor_intensity in wine,pltplot.scatter( wine [ 'varor_intensity' ])
+max of varor_intensity,max( wine [ 'varor_intensity' ])
+variance of varor_intensity in wine dataset,wine [ 'varor_intensity' ] .var()
+minimum of varor_intensity,min( wine [ 'varor_intensity' ])
+summary of wine,wine [ 'wine' ] .describe()
+How many rows  varor_intensity>=-9 in wine dataset,wine [ wine [ 'varor_intensity' ] >= '-9' ]
+How many entries where varor_intensity>=3,wine [ wine [ 'varor_intensity' ]  >=  '3' ]
+How many rows varor_intensity equal to -6,wine [ wine [ 'varor_intensity' ] == '-6' ]
+How many data with varor_intensity is -9,wine [ wine [ 'varor_intensity' ] == '-9' ]
+correlation between varor_intensity and proanthocyanins,wine [ 'varor_intensity' ] .corr ( wine [ 'proanthocyanins' ] )
+load winewine_df,wine_df = pd.DataFrame.from_csv ( wine )
+boxplot of hue,pltplot.boxplot( wine [ 'hue' ])
+correlation of hue in wine dataset,wine [ 'hue' ] .corr()
+min of hue in wine,min( wine [ 'hue' ])
+histogram of hue,pltplot.hist( wine [ 'hue' ])
+var of hue,wine [ 'hue' ] .var()
+cor of hue in wine dataset,wine [ 'hue' ] .corr()
+histogram of hue in wine dataset,pltplot.hist( wine [ 'hue' ])
+scatterplot of hue in wine,pltplot.scatter( wine [ 'hue' ])
+quantile of wine,wine [ 'wine' ] .quantile()
+Number of data  hue>=9,wine [ wine [ 'hue' ] >= '9' ]
+How many data where hue=8 in wine,wine [ wine [ 'hue' ]  =  '8' ]
+How many data with hue less than -1,wine [ wine [ 'hue' ] < '-1' ]
+Number of data hue higher than or equal to -6,wine [ wine [ 'hue' ] higher than or equal to '-6' ]
+correlation of hue with malic_acid,wine [ 'hue' ] .corr ( wine [ 'malic_acid' ] )
+load wine,wine = pd.DataFrame.from_csv ( wine )
+maximum of buying,max( car [ 'buying' ])
+min of buying in car,min( car [ 'buying' ])
+average of buying in car,car [ 'buying' ] .mean()
+correlation of buying,car [ 'buying' ] .corr()
+sum of buying,car [ 'buying' ] .sum()
+variance of buying in car dataset,car [ 'buying' ] .var()
+describe of buying,car [ 'buying' ] .describe()
+standard deviation of buying in car dataset,car [ 'buying' ] .std()
+summary of car,car [ 'car' ] .describe()
+Number of rows where buying<-1,car [ car [ 'buying' ] < '-1' ]
+How many rows with buying<=5 in car,car [ car [ 'buying' ] <= '5' ]
+How many rows where buying is 5,car [ car [ 'buying' ] == '5' ]
+How many data buying is 1,car [ car [ 'buying' ] == '1' ]
+scatterplot between buying and comfort,"pltplot.scatter( car [ 'buying' ] , car [ 'comfort' ])"
+load car,car = pd.DataFrame.from_csv ( car )
+corr of maint,car [ 'maint' ] .corr()
+min of maint in car,min( car [ 'maint' ])
+standard deviation of maint in car,car [ 'maint' ] .std()
+standard deviation of maint,car [ 'maint' ] .std()
+standard deviation of maint in car dataset,car [ 'maint' ] .std()
+scatterplot of maint,pltplot.scatter( car [ 'maint' ])
+sum of maint in car dataset,car [ 'maint' ] .sum()
+scatter plot of maint in car,pltplot.scatter( car [ 'maint' ])
+summary of car,car [ 'car' ] .describe()
+How many data where maint>10 in car,car [ car [ 'maint' ]  >  '10' ]
+How many data with maint<=-8,car [ car [ 'maint' ] <= '-8' ]
+How many entries where maint higher than 5,car [ car [ 'maint' ] > '5' ]
+Number of entries maint less than -2,car [ car [ 'maint' ] < '-2' ]
+correlation between maint and lug_boot,car [ 'maint' ] .corr ( car [ 'lug_boot' ] )
+load car,car = pd.DataFrame.from_csv ( car )
+average of comfort in car,car [ 'comfort' ] .mean()
+standard deviation of comfort in car dataset,car [ 'comfort' ] .std()
+describe of comfort,car [ 'comfort' ] .describe()
+scatter plot of comfort,pltplot.scatter( car [ 'comfort' ])
+correlation of comfort in car dataset,car [ 'comfort' ] .corr()
+average of comfort,car [ 'comfort' ] .mean()
+quantile of comfort,car [ 'comfort' ] .quantile()
+boxplot of comfort in car,pltplot.boxplot( car [ 'comfort' ])
+summary of car,car [ 'car' ] .describe()
+Number of entries  comfort<=9 in car,car [ car [ 'comfort' ]  <=  '9' ]
+How many entries where comfort>10,car [ car [ 'comfort' ] > '10' ]
+How many data comfort higher than 8,car [ car [ 'comfort' ] > '8' ]
+How many data comfort is 4,car [ car [ 'comfort' ] == '4' ]
+correlation of comfort and maint,car [ 'comfort' ] .corr ( car [ 'maint' ] )
+load carcar_df,car_df = pd.DataFrame.from_csv ( car )
+describe of doors in car,car [ 'doors' ] .describe()
+average of doors in car,car [ 'doors' ] .mean()
+quantile of doors in car,car [ 'doors' ] .quantile()
+histogram of doors in car,pltplot.hist( car [ 'doors' ])
+scatter plot of doors in car dataset,pltplot.scatter( car [ 'doors' ])
+scatterplot of doors,pltplot.scatter( car [ 'doors' ])
+var of doors in car,car [ 'doors' ] .var()
+correlation of doors in car dataset,car [ 'doors' ] .corr()
+quantile of car,car [ 'car' ] .quantile()
+Number of data  doors>3 in car dataset,car [ car [ 'doors' ] > '3' ]
+Number of data  doors>=-6,car [ car [ 'doors' ]  >=  '-6' ]
+How many entries doors less than or equal to 8,car [ car [ 'doors' ] <= '8' ]
+Number of data with doors less than -5,car [ car [ 'doors' ] < '-5' ]
+scatterplot between doors and lug_boot,"pltplot.scatter( car [ 'doors' ] , car [ 'lug_boot' ])"
+load car,car = pd.DataFrame.from_csv ( car )
+minimum of persons in car dataset,min( car [ 'persons' ])
+minimum of persons in car,min( car [ 'persons' ])
+var of persons,car [ 'persons' ] .var()
+max of persons,max( car [ 'persons' ])
+min of persons in car,min( car [ 'persons' ])
+quantile of persons,car [ 'persons' ] .quantile()
+maximum of persons in car dataset,max( car [ 'persons' ])
+mean of persons,car [ 'persons' ] .mean()
+summary of car,car [ 'car' ] .describe()
+How many rows with persons<=-7 in car,car [ car [ 'persons' ] <= '-7' ]
+How many entries with persons>3 in car dataset,car [ car [ 'persons' ] > '3' ]
+How many entries with persons less than 4,car [ car [ 'persons' ] < '4' ]
+Number of rows persons equal to 2,car [ car [ 'persons' ] == '2' ]
+scatterplot between persons with buying,"pltplot.scatter( car [ 'persons' ] , car [ 'buying' ])"
+load carcar_df,car_df = pd.DataFrame.from_csv ( car )
+correlation of lug_boot in car,car [ 'lug_boot' ] .corr()
+average of lug_boot,car [ 'lug_boot' ] .mean()
+standard deviation of lug_boot,car [ 'lug_boot' ] .std()
+cor of lug_boot in car dataset,car [ 'lug_boot' ] .corr()
+var of lug_boot in car dataset,car [ 'lug_boot' ] .var()
+average of lug_boot,car [ 'lug_boot' ] .mean()
+sum of lug_boot in car,car [ 'lug_boot' ] .sum()
+mean of lug_boot,car [ 'lug_boot' ] .mean()
+quantile of car,car [ 'car' ] .quantile()
+How many data  lug_boot<-8,car [ car [ 'lug_boot' ]  <  '-8' ]
+How many rows where lug_boot>=8 in car,car [ car [ 'lug_boot' ] >= '8' ]
+Number of entries where lug_boot less than or equal to -9,car [ car [ 'lug_boot' ] <= '-9' ]
+Number of entries where lug_boot is -2,car [ car [ 'lug_boot' ] == '-2' ]
+correlation between lug_boot and safety,car [ 'lug_boot' ] .corr ( car [ 'safety' ] )
+load car,car = pd.DataFrame.from_csv ( car )
+quantile of safety in car,car [ 'safety' ] .quantile()
+quantile of safety,car [ 'safety' ] .quantile()
+sum of safety in car,car [ 'safety' ] .sum()
+var of safety,car [ 'safety' ] .var()
+quantile of safety,car [ 'safety' ] .quantile()
+scatter plot of safety,pltplot.scatter( car [ 'safety' ])
+min of safety in car,min( car [ 'safety' ])
+min of safety,min( car [ 'safety' ])
+summary of car,car [ 'car' ] .describe()
+Number of data where safety>=1 in car dataset,car [ car [ 'safety' ]  >=  '1' ]
+How many entries  safety<0 in car,car [ car [ 'safety' ] < '0' ]
+How many entries safety higher than -1,car [ car [ 'safety' ] > '-1' ]
+Number of data where safety less than -9,car [ car [ 'safety' ] < '-9' ]
+scatterplot of safety and persons,"pltplot.scatter( car [ 'safety' ] , car [ 'persons' ])"
+load car,car = pd.DataFrame.from_csv ( car )
+maximum of radius in breast_cancer,max( breast_cancer [ 'radius' ])
+quantile of radius in breast_cancer,breast_cancer [ 'radius' ] .quantile()
+cor of radius,breast_cancer [ 'radius' ] .corr()
+min of radius in breast_cancer dataset,min( breast_cancer [ 'radius' ])
+mean of radius in breast_cancer dataset,breast_cancer [ 'radius' ] .mean()
+quantile of radius in breast_cancer,breast_cancer [ 'radius' ] .quantile()
+standard deviation of radius in breast_cancer,breast_cancer [ 'radius' ] .std()
+standard deviation of radius in breast_cancer,breast_cancer [ 'radius' ] .std()
+summary of breast_cancer,breast_cancer [ 'breast_cancer' ] .describe()
+Number of entries with radius=-2,breast_cancer [ breast_cancer [ 'radius' ] = '-2' ]
+How many entries with radius<=-1 in breast_cancer dataset,breast_cancer [ breast_cancer [ 'radius' ] <= '-1' ]
+Number of entries where radius less than -3,breast_cancer [ breast_cancer [ 'radius' ] < '-3' ]
+How many rows with radius higher than or equal to -8,breast_cancer [ breast_cancer [ 'radius' ] higher than or equal to '-8' ]
+scatterplot between radius with area,"pltplot.scatter( breast_cancer [ 'radius' ] , breast_cancer [ 'area' ])"
+load breast_cancerbreast_cancer_df,breast_cancer_df = pd.DataFrame.from_csv ( breast_cancer )
+mean of texture in breast_cancer dataset,breast_cancer [ 'texture' ] .mean()
+mean of texture,breast_cancer [ 'texture' ] .mean()
+corr of texture in breast_cancer,breast_cancer [ 'texture' ] .corr()
+sum of texture in breast_cancer,breast_cancer [ 'texture' ] .sum()
+correlation of texture in breast_cancer dataset,breast_cancer [ 'texture' ] .corr()
+correlation of texture in breast_cancer dataset,breast_cancer [ 'texture' ] .corr()
+corr of texture,breast_cancer [ 'texture' ] .corr()
+min of texture,min( breast_cancer [ 'texture' ])
+summary of breast_cancer,breast_cancer [ 'breast_cancer' ] .describe()
+Number of entries with texture>=-7 in breast_cancer dataset,breast_cancer [ breast_cancer [ 'texture' ]  >=  '-7' ]
+Number of data with texture>=-5 in breast_cancer,breast_cancer [ breast_cancer [ 'texture' ]  >=  '-5' ]
+How many entries with texture higher than -4,breast_cancer [ breast_cancer [ 'texture' ] > '-4' ]
+How many data with texture less than or equal to 7,breast_cancer [ breast_cancer [ 'texture' ] <= '7' ]
+correlation of texture and concave points,breast_cancer [ 'texture' ] .corr ( breast_cancer [ 'concave points' ] )
+load breast_cancer,breast_cancer = pd.DataFrame.from_csv ( breast_cancer )
+max of perimeter,max( breast_cancer [ 'perimeter' ])
+average of perimeter,breast_cancer [ 'perimeter' ] .mean()
+average of perimeter in breast_cancer dataset,breast_cancer [ 'perimeter' ] .mean()
+var of perimeter in breast_cancer dataset,breast_cancer [ 'perimeter' ] .var()
+max of perimeter in breast_cancer dataset,max( breast_cancer [ 'perimeter' ])
+minimum of perimeter in breast_cancer dataset,min( breast_cancer [ 'perimeter' ])
+scatter plot of perimeter in breast_cancer dataset,pltplot.scatter( breast_cancer [ 'perimeter' ])
+var of perimeter in breast_cancer dataset,breast_cancer [ 'perimeter' ] .var()
+quantile of breast_cancer,breast_cancer [ 'breast_cancer' ] .quantile()
+Number of entries with perimeter=-7 in breast_cancer,breast_cancer [ breast_cancer [ 'perimeter' ]  =  '-7' ]
+Number of data with perimeter=-8,breast_cancer [ breast_cancer [ 'perimeter' ] = '-8' ]
+How many data perimeter higher than -6,breast_cancer [ breast_cancer [ 'perimeter' ] > '-6' ]
+How many entries with perimeter higher than -3,breast_cancer [ breast_cancer [ 'perimeter' ] > '-3' ]
+scatterplot between perimeter and area,"pltplot.scatter( breast_cancer [ 'perimeter' ] , breast_cancer [ 'area' ])"
+load breast_cancerbreast_cancer_df,breast_cancer_df = pd.DataFrame.from_csv ( breast_cancer )
+average of area,breast_cancer [ 'area' ] .mean()
+histogram of area in breast_cancer dataset,pltplot.hist( breast_cancer [ 'area' ])
+standard deviation of area in breast_cancer dataset,breast_cancer [ 'area' ] .std()
+min of area,min( breast_cancer [ 'area' ])
+standard deviation of area in breast_cancer,breast_cancer [ 'area' ] .std()
+standard deviation of area in breast_cancer dataset,breast_cancer [ 'area' ] .std()
+maximum of area in breast_cancer,max( breast_cancer [ 'area' ])
+corr of area in breast_cancer,breast_cancer [ 'area' ] .corr()
+quantile of breast_cancer,breast_cancer [ 'breast_cancer' ] .quantile()
+Number of rows with area=-5 in breast_cancer,breast_cancer [ breast_cancer [ 'area' ]  =  '-5' ]
+How many entries  area>7 in breast_cancer dataset,breast_cancer [ breast_cancer [ 'area' ]  >  '7' ]
+Number of entries where area less than 3,breast_cancer [ breast_cancer [ 'area' ] < '3' ]
+How many entries where area less than or equal to 9,breast_cancer [ breast_cancer [ 'area' ] <= '9' ]
+correlation of area with radius,breast_cancer [ 'area' ] .corr ( breast_cancer [ 'radius' ] )
+load breast_cancer,breast_cancer = pd.DataFrame.from_csv ( breast_cancer )
+histogram of smoothness,pltplot.hist( breast_cancer [ 'smoothness' ])
+sum of smoothness,breast_cancer [ 'smoothness' ] .sum()
+scatterplot of smoothness in breast_cancer,pltplot.scatter( breast_cancer [ 'smoothness' ])
+scatterplot of smoothness in breast_cancer dataset,pltplot.scatter( breast_cancer [ 'smoothness' ])
+variance of smoothness in breast_cancer dataset,breast_cancer [ 'smoothness' ] .var()
+describe of smoothness in breast_cancer,breast_cancer [ 'smoothness' ] .describe()
+var of smoothness,breast_cancer [ 'smoothness' ] .var()
+sum of smoothness,breast_cancer [ 'smoothness' ] .sum()
+quantile of breast_cancer,breast_cancer [ 'breast_cancer' ] .quantile()
+Number of rows where smoothness=1,breast_cancer [ breast_cancer [ 'smoothness' ]  =  '1' ]
+Number of data  smoothness<=-7 in breast_cancer,breast_cancer [ breast_cancer [ 'smoothness' ]  <=  '-7' ]
+How many data with smoothness less than -1,breast_cancer [ breast_cancer [ 'smoothness' ] < '-1' ]
+How many rows with smoothness is 4,breast_cancer [ breast_cancer [ 'smoothness' ] == '4' ]
+correlation of smoothness and concave points,breast_cancer [ 'smoothness' ] .corr ( breast_cancer [ 'concave points' ] )
+load breast_cancer,breast_cancer = pd.DataFrame.from_csv ( breast_cancer )
+quantile of compactness in breast_cancer,breast_cancer [ 'compactness' ] .quantile()
+describe of compactness,breast_cancer [ 'compactness' ] .describe()
+min of compactness,min( breast_cancer [ 'compactness' ])
+maximum of compactness in breast_cancer,max( breast_cancer [ 'compactness' ])
+var of compactness in breast_cancer,breast_cancer [ 'compactness' ] .var()
+scatter plot of compactness in breast_cancer,pltplot.scatter( breast_cancer [ 'compactness' ])
+variance of compactness in breast_cancer dataset,breast_cancer [ 'compactness' ] .var()
+sum of compactness in breast_cancer dataset,breast_cancer [ 'compactness' ] .sum()
+quantile of breast_cancer,breast_cancer [ 'breast_cancer' ] .quantile()
+How many entries where compactness=-3,breast_cancer [ breast_cancer [ 'compactness' ] = '-3' ]
+Number of rows with compactness<4,breast_cancer [ breast_cancer [ 'compactness' ] < '4' ]
+How many rows with compactness equal to 6,breast_cancer [ breast_cancer [ 'compactness' ] == '6' ]
+How many data with compactness less than or equal to 5,breast_cancer [ breast_cancer [ 'compactness' ] <= '5' ]
+scatterplot of compactness with concave points,"pltplot.scatter( breast_cancer [ 'compactness' ] , breast_cancer [ 'concave points' ])"
+load breast_cancerbreast_cancer_df,breast_cancer_df = pd.DataFrame.from_csv ( breast_cancer )
+var of concavity in breast_cancer,breast_cancer [ 'concavity' ] .var()
+boxplot of concavity,pltplot.boxplot( breast_cancer [ 'concavity' ])
+boxplot of concavity,pltplot.boxplot( breast_cancer [ 'concavity' ])
+histogram of concavity in breast_cancer dataset,pltplot.hist( breast_cancer [ 'concavity' ])
+describe of concavity in breast_cancer dataset,breast_cancer [ 'concavity' ] .describe()
+variance of concavity in breast_cancer dataset,breast_cancer [ 'concavity' ] .var()
+describe of concavity in breast_cancer dataset,breast_cancer [ 'concavity' ] .describe()
+scatterplot of concavity,pltplot.scatter( breast_cancer [ 'concavity' ])
+quantile of breast_cancer,breast_cancer [ 'breast_cancer' ] .quantile()
+How many entries with concavity=-4,breast_cancer [ breast_cancer [ 'concavity' ] = '-4' ]
+How many entries  concavity>2 in breast_cancer,breast_cancer [ breast_cancer [ 'concavity' ] > '2' ]
+How many data with concavity less than -8,breast_cancer [ breast_cancer [ 'concavity' ] < '-8' ]
+Number of data where concavity equal to 8,breast_cancer [ breast_cancer [ 'concavity' ] == '8' ]
+correlation of concavity with fractal dimension,breast_cancer [ 'concavity' ] .corr ( breast_cancer [ 'fractal dimension' ] )
+load breast_cancerbreast_cancer_df,breast_cancer_df = pd.DataFrame.from_csv ( breast_cancer )
+variance of concave points in breast_cancer,breast_cancer [ 'concave points' ] .var()
+cor of concave points in breast_cancer dataset,breast_cancer [ 'concave points' ] .corr()
+corr of concave points,breast_cancer [ 'concave points' ] .corr()
+scatterplot of concave points,pltplot.scatter( breast_cancer [ 'concave points' ])
+standard deviation of concave points in breast_cancer,breast_cancer [ 'concave points' ] .std()
+sum of concave points in breast_cancer,breast_cancer [ 'concave points' ] .sum()
+average of concave points,breast_cancer [ 'concave points' ] .mean()
+var of concave points,breast_cancer [ 'concave points' ] .var()
+summary of breast_cancer,breast_cancer [ 'breast_cancer' ] .describe()
+Number of entries with concave points<=10 in breast_cancer,breast_cancer [ breast_cancer [ 'concave points' ]  <=  '10' ]
+How many entries  concave points<=7,breast_cancer [ breast_cancer [ 'concave points' ] <= '7' ]
+Number of rows where concave points less than 7,breast_cancer [ breast_cancer [ 'concave points' ] < '7' ]
+How many data concave points less than or equal to 0,breast_cancer [ breast_cancer [ 'concave points' ] <= '0' ]
+scatterplot of concave points with compactness,"pltplot.scatter( breast_cancer [ 'concave points' ] , breast_cancer [ 'compactness' ])"
+load breast_cancerbreast_cancer_df,breast_cancer_df = pd.DataFrame.from_csv ( breast_cancer )
+histogram of symmetry in breast_cancer dataset,pltplot.hist( breast_cancer [ 'symmetry' ])
+min of symmetry in breast_cancer,min( breast_cancer [ 'symmetry' ])
+histogram of symmetry in breast_cancer,pltplot.hist( breast_cancer [ 'symmetry' ])
+scatter plot of symmetry in breast_cancer,pltplot.scatter( breast_cancer [ 'symmetry' ])
+min of symmetry in breast_cancer,min( breast_cancer [ 'symmetry' ])
+maximum of symmetry in breast_cancer dataset,max( breast_cancer [ 'symmetry' ])
+histogram of symmetry,pltplot.hist( breast_cancer [ 'symmetry' ])
+min of symmetry in breast_cancer,min( breast_cancer [ 'symmetry' ])
+quantile of breast_cancer,breast_cancer [ 'breast_cancer' ] .quantile()
+How many rows  symmetry<=7,breast_cancer [ breast_cancer [ 'symmetry' ] <= '7' ]
+Number of rows  symmetry>8 in breast_cancer dataset,breast_cancer [ breast_cancer [ 'symmetry' ] > '8' ]
+Number of entries symmetry higher than or equal to 8,breast_cancer [ breast_cancer [ 'symmetry' ] higher than or equal to '8' ]
+How many entries symmetry less than or equal to -10,breast_cancer [ breast_cancer [ 'symmetry' ] <= '-10' ]
+correlation of symmetry with texture,breast_cancer [ 'symmetry' ] .corr ( breast_cancer [ 'texture' ] )
+load breast_cancer,breast_cancer = pd.DataFrame.from_csv ( breast_cancer )
+var of fractal dimension in breast_cancer dataset,breast_cancer [ 'fractal dimension' ] .var()
+histogram of fractal dimension in breast_cancer dataset,pltplot.hist( breast_cancer [ 'fractal dimension' ])
+describe of fractal dimension in breast_cancer dataset,breast_cancer [ 'fractal dimension' ] .describe()
+sum of fractal dimension in breast_cancer,breast_cancer [ 'fractal dimension' ] .sum()
+var of fractal dimension in breast_cancer,breast_cancer [ 'fractal dimension' ] .var()
+var of fractal dimension,breast_cancer [ 'fractal dimension' ] .var()
+sum of fractal dimension,breast_cancer [ 'fractal dimension' ] .sum()
+cor of fractal dimension in breast_cancer dataset,breast_cancer [ 'fractal dimension' ] .corr()
+summary of breast_cancer,breast_cancer [ 'breast_cancer' ] .describe()
+Number of data with fractal dimension<-9 in breast_cancer dataset,breast_cancer [ breast_cancer [ 'fractal dimension' ] < '-9' ]
+Number of data with fractal dimension<=-2 in breast_cancer dataset,breast_cancer [ breast_cancer [ 'fractal dimension' ] <= '-2' ]
+How many data where fractal dimension higher than 3,breast_cancer [ breast_cancer [ 'fractal dimension' ] > '3' ]
+Number of data where fractal dimension less than 8,breast_cancer [ breast_cancer [ 'fractal dimension' ] < '8' ]
+correlation of fractal dimension with smoothness,breast_cancer [ 'fractal dimension' ] .corr ( breast_cancer [ 'smoothness' ] )
+load breast_cancer,breast_cancer = pd.DataFrame.from_csv ( breast_cancer )
+average of age,heart_disease [ 'age' ] .mean()
+describe of age in heart_disease dataset,heart_disease [ 'age' ] .describe()
+boxplot of age,pltplot.boxplot( heart_disease [ 'age' ])
+boxplot of age in heart_disease dataset,pltplot.boxplot( heart_disease [ 'age' ])
+var of age,heart_disease [ 'age' ] .var()
+scatter plot of age in heart_disease,pltplot.scatter( heart_disease [ 'age' ])
+var of age in heart_disease dataset,heart_disease [ 'age' ] .var()
+mean of age in heart_disease dataset,heart_disease [ 'age' ] .mean()
+summary of heart_disease,heart_disease [ 'heart_disease' ] .describe()
+Number of entries where age<=5 in heart_disease,heart_disease [ heart_disease [ 'age' ]  <=  '5' ]
+Number of rows where age>1 in heart_disease,heart_disease [ heart_disease [ 'age' ] > '1' ]
+Number of rows age higher than or equal to 9,heart_disease [ heart_disease [ 'age' ] higher than or equal to '9' ]
+How many rows where age equal to 0,heart_disease [ heart_disease [ 'age' ] == '0' ]
+scatterplot of age with chol,"pltplot.scatter( heart_disease [ 'age' ] , heart_disease [ 'chol' ])"
+load heart_diseaseheart_disease_df,heart_disease_df = pd.DataFrame.from_csv ( heart_disease )
+maximum of sex in heart_disease,max( heart_disease [ 'sex' ])
+correlation of sex,heart_disease [ 'sex' ] .corr()
+average of sex in heart_disease,heart_disease [ 'sex' ] .mean()
+quantile of sex,heart_disease [ 'sex' ] .quantile()
+quantile of sex in heart_disease,heart_disease [ 'sex' ] .quantile()
+standard deviation of sex in heart_disease,heart_disease [ 'sex' ] .std()
+boxplot of sex,pltplot.boxplot( heart_disease [ 'sex' ])
+variance of sex,heart_disease [ 'sex' ] .var()
+quantile of heart_disease,heart_disease [ 'heart_disease' ] .quantile()
+Number of rows  sex>-6,heart_disease [ heart_disease [ 'sex' ] > '-6' ]
+How many entries  sex=5 in heart_disease dataset,heart_disease [ heart_disease [ 'sex' ]  =  '5' ]
+Number of rows where sex less than 3,heart_disease [ heart_disease [ 'sex' ] < '3' ]
+How many rows with sex is -1,heart_disease [ heart_disease [ 'sex' ] == '-1' ]
+correlation between sex and restecg,heart_disease [ 'sex' ] .corr ( heart_disease [ 'restecg' ] )
+load heart_disease,heart_disease = pd.DataFrame.from_csv ( heart_disease )
+maximum of cp,max( heart_disease [ 'cp' ])
+var of cp in heart_disease dataset,heart_disease [ 'cp' ] .var()
+maximum of cp,max( heart_disease [ 'cp' ])
+describe of cp,heart_disease [ 'cp' ] .describe()
+minimum of cp,min( heart_disease [ 'cp' ])
+quantile of cp in heart_disease,heart_disease [ 'cp' ] .quantile()
+describe of cp in heart_disease,heart_disease [ 'cp' ] .describe()
+average of cp,heart_disease [ 'cp' ] .mean()
+quantile of heart_disease,heart_disease [ 'heart_disease' ] .quantile()
+How many entries where cp<9 in heart_disease dataset,heart_disease [ heart_disease [ 'cp' ]  <  '9' ]
+How many rows where cp>-2 in heart_disease dataset,heart_disease [ heart_disease [ 'cp' ] > '-2' ]
+How many data cp equal to -7,heart_disease [ heart_disease [ 'cp' ] == '-7' ]
+Number of data with cp less than or equal to -5,heart_disease [ heart_disease [ 'cp' ] <= '-5' ]
+scatterplot of cp and trestbps,"pltplot.scatter( heart_disease [ 'cp' ] , heart_disease [ 'trestbps' ])"
+load heart_diseaseheart_disease_df,heart_disease_df = pd.DataFrame.from_csv ( heart_disease )
+max of trestbps,max( heart_disease [ 'trestbps' ])
+correlation of trestbps,heart_disease [ 'trestbps' ] .corr()
+max of trestbps,max( heart_disease [ 'trestbps' ])
+boxplot of trestbps in heart_disease,pltplot.boxplot( heart_disease [ 'trestbps' ])
+scatter plot of trestbps in heart_disease dataset,pltplot.scatter( heart_disease [ 'trestbps' ])
+min of trestbps in heart_disease dataset,min( heart_disease [ 'trestbps' ])
+boxplot of trestbps,pltplot.boxplot( heart_disease [ 'trestbps' ])
+min of trestbps in heart_disease dataset,min( heart_disease [ 'trestbps' ])
+summary of heart_disease,heart_disease [ 'heart_disease' ] .describe()
+Number of data where trestbps>9 in heart_disease dataset,heart_disease [ heart_disease [ 'trestbps' ] > '9' ]
+Number of rows  trestbps<=10,heart_disease [ heart_disease [ 'trestbps' ] <= '10' ]
+Number of data where trestbps is 10,heart_disease [ heart_disease [ 'trestbps' ] == '10' ]
+How many data with trestbps is 3,heart_disease [ heart_disease [ 'trestbps' ] == '3' ]
+scatterplot between trestbps with age,"pltplot.scatter( heart_disease [ 'trestbps' ] , heart_disease [ 'age' ])"
+load heart_disease,heart_disease = pd.DataFrame.from_csv ( heart_disease )
+standard deviation of chol in heart_disease,heart_disease [ 'chol' ] .std()
+variance of chol,heart_disease [ 'chol' ] .var()
+describe of chol in heart_disease,heart_disease [ 'chol' ] .describe()
+correlation of chol in heart_disease,heart_disease [ 'chol' ] .corr()
+describe of chol in heart_disease,heart_disease [ 'chol' ] .describe()
+corr of chol,heart_disease [ 'chol' ] .corr()
+max of chol in heart_disease dataset,max( heart_disease [ 'chol' ])
+scatterplot of chol,pltplot.scatter( heart_disease [ 'chol' ])
+quantile of heart_disease,heart_disease [ 'heart_disease' ] .quantile()
+How many entries where chol<=-4,heart_disease [ heart_disease [ 'chol' ]  <=  '-4' ]
+How many rows with chol=4 in heart_disease,heart_disease [ heart_disease [ 'chol' ] = '4' ]
+Number of data where chol less than -10,heart_disease [ heart_disease [ 'chol' ] < '-10' ]
+How many entries with chol higher than or equal to 6,heart_disease [ heart_disease [ 'chol' ] higher than or equal to '6' ]
+scatterplot of chol and trestbps,"pltplot.scatter( heart_disease [ 'chol' ] , heart_disease [ 'trestbps' ])"
+load heart_disease,heart_disease = pd.DataFrame.from_csv ( heart_disease )
+min of fbs in heart_disease dataset,min( heart_disease [ 'fbs' ])
+maximum of fbs in heart_disease,max( heart_disease [ 'fbs' ])
+correlation of fbs in heart_disease,heart_disease [ 'fbs' ] .corr()
+corr of fbs in heart_disease dataset,heart_disease [ 'fbs' ] .corr()
+histogram of fbs,pltplot.hist( heart_disease [ 'fbs' ])
+min of fbs in heart_disease dataset,min( heart_disease [ 'fbs' ])
+var of fbs in heart_disease dataset,heart_disease [ 'fbs' ] .var()
+corr of fbs in heart_disease dataset,heart_disease [ 'fbs' ] .corr()
+quantile of heart_disease,heart_disease [ 'heart_disease' ] .quantile()
+Number of entries where fbs=9 in heart_disease,heart_disease [ heart_disease [ 'fbs' ] = '9' ]
+How many rows with fbs>5,heart_disease [ heart_disease [ 'fbs' ]  >  '5' ]
+Number of entries where fbs is -4,heart_disease [ heart_disease [ 'fbs' ] == '-4' ]
+Number of entries where fbs equal to 0,heart_disease [ heart_disease [ 'fbs' ] == '0' ]
+scatterplot between fbs with restecg,"pltplot.scatter( heart_disease [ 'fbs' ] , heart_disease [ 'restecg' ])"
+load heart_disease,heart_disease = pd.DataFrame.from_csv ( heart_disease )
+maximum of restecg in heart_disease dataset,max( heart_disease [ 'restecg' ])
+standard deviation of restecg,heart_disease [ 'restecg' ] .std()
+scatterplot of restecg,pltplot.scatter( heart_disease [ 'restecg' ])
+var of restecg in heart_disease dataset,heart_disease [ 'restecg' ] .var()
+correlation of restecg in heart_disease dataset,heart_disease [ 'restecg' ] .corr()
+standard deviation of restecg,heart_disease [ 'restecg' ] .std()
+max of restecg in heart_disease,max( heart_disease [ 'restecg' ])
+maximum of restecg in heart_disease,max( heart_disease [ 'restecg' ])
+quantile of heart_disease,heart_disease [ 'heart_disease' ] .quantile()
+How many data where restecg<=0 in heart_disease dataset,heart_disease [ heart_disease [ 'restecg' ]  <=  '0' ]
+How many rows  restecg=-4 in heart_disease,heart_disease [ heart_disease [ 'restecg' ] = '-4' ]
+How many data restecg higher than or equal to 6,heart_disease [ heart_disease [ 'restecg' ] higher than or equal to '6' ]
+Number of entries with restecg is 4,heart_disease [ heart_disease [ 'restecg' ] == '4' ]
+scatterplot of restecg and trestbps,"pltplot.scatter( heart_disease [ 'restecg' ] , heart_disease [ 'trestbps' ])"
+load heart_disease,heart_disease = pd.DataFrame.from_csv ( heart_disease )
+sum of thalach in heart_disease,heart_disease [ 'thalach' ] .sum()
+correlation of thalach in heart_disease dataset,heart_disease [ 'thalach' ] .corr()
+boxplot of thalach,pltplot.boxplot( heart_disease [ 'thalach' ])
+max of thalach in heart_disease dataset,max( heart_disease [ 'thalach' ])
+describe of thalach in heart_disease,heart_disease [ 'thalach' ] .describe()
+variance of thalach in heart_disease dataset,heart_disease [ 'thalach' ] .var()
+cor of thalach in heart_disease,heart_disease [ 'thalach' ] .corr()
+standard deviation of thalach,heart_disease [ 'thalach' ] .std()
+summary of heart_disease,heart_disease [ 'heart_disease' ] .describe()
+How many data with thalach=6 in heart_disease dataset,heart_disease [ heart_disease [ 'thalach' ] = '6' ]
+How many data with thalach>9 in heart_disease dataset,heart_disease [ heart_disease [ 'thalach' ] > '9' ]
+Number of data where thalach equal to -6,heart_disease [ heart_disease [ 'thalach' ] == '-6' ]
+How many data thalach less than 0,heart_disease [ heart_disease [ 'thalach' ] < '0' ]
+scatterplot of thalach and age,"pltplot.scatter( heart_disease [ 'thalach' ] , heart_disease [ 'age' ])"
+load heart_disease,heart_disease = pd.DataFrame.from_csv ( heart_disease )
+scatterplot of num in heart_disease dataset,pltplot.scatter( heart_disease [ 'num' ])
+maximum of num,max( heart_disease [ 'num' ])
+average of num,heart_disease [ 'num' ] .mean()
+max of num,max( heart_disease [ 'num' ])
+cor of num,heart_disease [ 'num' ] .corr()
+correlation of num in heart_disease,heart_disease [ 'num' ] .corr()
+average of num in heart_disease dataset,heart_disease [ 'num' ] .mean()
+sum of num in heart_disease,heart_disease [ 'num' ] .sum()
+summary of heart_disease,heart_disease [ 'heart_disease' ] .describe()
+Number of rows  num<1,heart_disease [ heart_disease [ 'num' ]  <  '1' ]
+Number of entries where num>=5,heart_disease [ heart_disease [ 'num' ] >= '5' ]
+Number of rows with num is -6,heart_disease [ heart_disease [ 'num' ] == '-6' ]
+Number of rows with num higher than 0,heart_disease [ heart_disease [ 'num' ] > '0' ]
+correlation of num with fbs,heart_disease [ 'num' ] .corr ( heart_disease [ 'fbs' ] )
+load heart_diseaseheart_disease_df,heart_disease_df = pd.DataFrame.from_csv ( heart_disease )
+corr of fixed_acidity,wine_quality [ 'fixed_acidity' ] .corr()
+corr of fixed_acidity in wine_quality dataset,wine_quality [ 'fixed_acidity' ] .corr()
+scatterplot of fixed_acidity in wine_quality,pltplot.scatter( wine_quality [ 'fixed_acidity' ])
+correlation of fixed_acidity in wine_quality,wine_quality [ 'fixed_acidity' ] .corr()
+cor of fixed_acidity in wine_quality dataset,wine_quality [ 'fixed_acidity' ] .corr()
+describe of fixed_acidity,wine_quality [ 'fixed_acidity' ] .describe()
+boxplot of fixed_acidity,pltplot.boxplot( wine_quality [ 'fixed_acidity' ])
+cor of fixed_acidity in wine_quality dataset,wine_quality [ 'fixed_acidity' ] .corr()
+quantile of wine_quality,wine_quality [ 'wine_quality' ] .quantile()
+How many rows with fixed_acidity>-1 in wine_quality,wine_quality [ wine_quality [ 'fixed_acidity' ] > '-1' ]
+Number of data  fixed_acidity>=-8,wine_quality [ wine_quality [ 'fixed_acidity' ]  >=  '-8' ]
+How many entries with fixed_acidity less than or equal to -7,wine_quality [ wine_quality [ 'fixed_acidity' ] <= '-7' ]
+How many rows with fixed_acidity less than or equal to 9,wine_quality [ wine_quality [ 'fixed_acidity' ] <= '9' ]
+correlation between fixed_acidity and density,wine_quality [ 'fixed_acidity' ] .corr ( wine_quality [ 'density' ] )
+load wine_quality,wine_quality = pd.DataFrame.from_csv ( wine_quality )
+scatter plot of volatile_acidity in wine_quality dataset,pltplot.scatter( wine_quality [ 'volatile_acidity' ])
+scatterplot of volatile_acidity,pltplot.scatter( wine_quality [ 'volatile_acidity' ])
+describe of volatile_acidity in wine_quality dataset,wine_quality [ 'volatile_acidity' ] .describe()
+var of volatile_acidity in wine_quality dataset,wine_quality [ 'volatile_acidity' ] .var()
+cor of volatile_acidity in wine_quality,wine_quality [ 'volatile_acidity' ] .corr()
+minimum of volatile_acidity in wine_quality,min( wine_quality [ 'volatile_acidity' ])
+standard deviation of volatile_acidity in wine_quality,wine_quality [ 'volatile_acidity' ] .std()
+histogram of volatile_acidity in wine_quality dataset,pltplot.hist( wine_quality [ 'volatile_acidity' ])
+quantile of wine_quality,wine_quality [ 'wine_quality' ] .quantile()
+How many entries with volatile_acidity<-4 in wine_quality,wine_quality [ wine_quality [ 'volatile_acidity' ]  <  '-4' ]
+How many entries with volatile_acidity<=-5 in wine_quality,wine_quality [ wine_quality [ 'volatile_acidity' ] <= '-5' ]
+How many entries volatile_acidity is 2,wine_quality [ wine_quality [ 'volatile_acidity' ] == '2' ]
+How many data with volatile_acidity higher than -8,wine_quality [ wine_quality [ 'volatile_acidity' ] > '-8' ]
+correlation of volatile_acidity with alcohol,wine_quality [ 'volatile_acidity' ] .corr ( wine_quality [ 'alcohol' ] )
+load wine_quality,wine_quality = pd.DataFrame.from_csv ( wine_quality )
+variance of citric_acid in wine_quality dataset,wine_quality [ 'citric_acid' ] .var()
+min of citric_acid in wine_quality dataset,min( wine_quality [ 'citric_acid' ])
+var of citric_acid,wine_quality [ 'citric_acid' ] .var()
+max of citric_acid,max( wine_quality [ 'citric_acid' ])
+scatterplot of citric_acid,pltplot.scatter( wine_quality [ 'citric_acid' ])
+scatterplot of citric_acid,pltplot.scatter( wine_quality [ 'citric_acid' ])
+minimum of citric_acid,min( wine_quality [ 'citric_acid' ])
+scatter plot of citric_acid in wine_quality dataset,pltplot.scatter( wine_quality [ 'citric_acid' ])
+quantile of wine_quality,wine_quality [ 'wine_quality' ] .quantile()
+How many entries where citric_acid>-5 in wine_quality dataset,wine_quality [ wine_quality [ 'citric_acid' ]  >  '-5' ]
+Number of entries with citric_acid>-9,wine_quality [ wine_quality [ 'citric_acid' ]  >  '-9' ]
+How many entries with citric_acid less than -6,wine_quality [ wine_quality [ 'citric_acid' ] < '-6' ]
+How many entries citric_acid less than or equal to -2,wine_quality [ wine_quality [ 'citric_acid' ] <= '-2' ]
+scatterplot between citric_acid with total_sulfur_dioxide,"pltplot.scatter( wine_quality [ 'citric_acid' ] , wine_quality [ 'total_sulfur_dioxide' ])"
+load wine_quality,wine_quality = pd.DataFrame.from_csv ( wine_quality )
+variance of residual_sugar in wine_quality dataset,wine_quality [ 'residual_sugar' ] .var()
+describe of residual_sugar in wine_quality dataset,wine_quality [ 'residual_sugar' ] .describe()
+scatter plot of residual_sugar in wine_quality dataset,pltplot.scatter( wine_quality [ 'residual_sugar' ])
+histogram of residual_sugar in wine_quality,pltplot.hist( wine_quality [ 'residual_sugar' ])
+average of residual_sugar in wine_quality dataset,wine_quality [ 'residual_sugar' ] .mean()
+cor of residual_sugar in wine_quality,wine_quality [ 'residual_sugar' ] .corr()
+max of residual_sugar in wine_quality dataset,max( wine_quality [ 'residual_sugar' ])
+maximum of residual_sugar in wine_quality dataset,max( wine_quality [ 'residual_sugar' ])
+quantile of wine_quality,wine_quality [ 'wine_quality' ] .quantile()
+Number of data with residual_sugar>=4 in wine_quality,wine_quality [ wine_quality [ 'residual_sugar' ]  >=  '4' ]
+Number of entries where residual_sugar=-6 in wine_quality,wine_quality [ wine_quality [ 'residual_sugar' ]  =  '-6' ]
+Number of data with residual_sugar higher than -4,wine_quality [ wine_quality [ 'residual_sugar' ] > '-4' ]
+How many entries where residual_sugar higher than or equal to -7,wine_quality [ wine_quality [ 'residual_sugar' ] higher than or equal to '-7' ]
+correlation of residual_sugar and quality,wine_quality [ 'residual_sugar' ] .corr ( wine_quality [ 'quality' ] )
+load wine_quality,wine_quality = pd.DataFrame.from_csv ( wine_quality )
+max of chlorides in wine_quality,max( wine_quality [ 'chlorides' ])
+variance of chlorides,wine_quality [ 'chlorides' ] .var()
+cor of chlorides in wine_quality dataset,wine_quality [ 'chlorides' ] .corr()
+corr of chlorides,wine_quality [ 'chlorides' ] .corr()
+scatterplot of chlorides in wine_quality dataset,pltplot.scatter( wine_quality [ 'chlorides' ])
+boxplot of chlorides,pltplot.boxplot( wine_quality [ 'chlorides' ])
+correlation of chlorides,wine_quality [ 'chlorides' ] .corr()
+max of chlorides in wine_quality,max( wine_quality [ 'chlorides' ])
+quantile of wine_quality,wine_quality [ 'wine_quality' ] .quantile()
+How many entries with chlorides=-2 in wine_quality dataset,wine_quality [ wine_quality [ 'chlorides' ] = '-2' ]
+How many entries where chlorides=8 in wine_quality dataset,wine_quality [ wine_quality [ 'chlorides' ] = '8' ]
+How many entries where chlorides higher than 3,wine_quality [ wine_quality [ 'chlorides' ] > '3' ]
+How many data with chlorides equal to -9,wine_quality [ wine_quality [ 'chlorides' ] == '-9' ]
+scatterplot between chlorides with sulphates,"pltplot.scatter( wine_quality [ 'chlorides' ] , wine_quality [ 'sulphates' ])"
+load wine_qualitywine_quality_df,wine_quality_df = pd.DataFrame.from_csv ( wine_quality )
+corr of free_sulfur_dioxide in wine_quality,wine_quality [ 'free_sulfur_dioxide' ] .corr()
+standard deviation of free_sulfur_dioxide in wine_quality,wine_quality [ 'free_sulfur_dioxide' ] .std()
+var of free_sulfur_dioxide in wine_quality,wine_quality [ 'free_sulfur_dioxide' ] .var()
+scatter plot of free_sulfur_dioxide,pltplot.scatter( wine_quality [ 'free_sulfur_dioxide' ])
+min of free_sulfur_dioxide in wine_quality dataset,min( wine_quality [ 'free_sulfur_dioxide' ])
+scatterplot of free_sulfur_dioxide,pltplot.scatter( wine_quality [ 'free_sulfur_dioxide' ])
+min of free_sulfur_dioxide,min( wine_quality [ 'free_sulfur_dioxide' ])
+standard deviation of free_sulfur_dioxide in wine_quality dataset,wine_quality [ 'free_sulfur_dioxide' ] .std()
+quantile of wine_quality,wine_quality [ 'wine_quality' ] .quantile()
+Number of rows with free_sulfur_dioxide=-3,wine_quality [ wine_quality [ 'free_sulfur_dioxide' ]  =  '-3' ]
+Number of entries  free_sulfur_dioxide>7,wine_quality [ wine_quality [ 'free_sulfur_dioxide' ]  >  '7' ]
+Number of rows free_sulfur_dioxide higher than 7,wine_quality [ wine_quality [ 'free_sulfur_dioxide' ] > '7' ]
+How many rows where free_sulfur_dioxide is -6,wine_quality [ wine_quality [ 'free_sulfur_dioxide' ] == '-6' ]
+correlation of free_sulfur_dioxide with residual_sugar,wine_quality [ 'free_sulfur_dioxide' ] .corr ( wine_quality [ 'residual_sugar' ] )
+load wine_quality,wine_quality = pd.DataFrame.from_csv ( wine_quality )
+variance of total_sulfur_dioxide in wine_quality,wine_quality [ 'total_sulfur_dioxide' ] .var()
+maximum of total_sulfur_dioxide in wine_quality,max( wine_quality [ 'total_sulfur_dioxide' ])
+sum of total_sulfur_dioxide,wine_quality [ 'total_sulfur_dioxide' ] .sum()
+average of total_sulfur_dioxide in wine_quality dataset,wine_quality [ 'total_sulfur_dioxide' ] .mean()
+scatter plot of total_sulfur_dioxide in wine_quality dataset,pltplot.scatter( wine_quality [ 'total_sulfur_dioxide' ])
+minimum of total_sulfur_dioxide in wine_quality dataset,min( wine_quality [ 'total_sulfur_dioxide' ])
+scatter plot of total_sulfur_dioxide in wine_quality,pltplot.scatter( wine_quality [ 'total_sulfur_dioxide' ])
+var of total_sulfur_dioxide in wine_quality dataset,wine_quality [ 'total_sulfur_dioxide' ] .var()
+quantile of wine_quality,wine_quality [ 'wine_quality' ] .quantile()
+How many data  total_sulfur_dioxide>=2 in wine_quality,wine_quality [ wine_quality [ 'total_sulfur_dioxide' ]  >=  '2' ]
+Number of data with total_sulfur_dioxide<=3 in wine_quality dataset,wine_quality [ wine_quality [ 'total_sulfur_dioxide' ] <= '3' ]
+How many entries total_sulfur_dioxide higher than 0,wine_quality [ wine_quality [ 'total_sulfur_dioxide' ] > '0' ]
+How many data where total_sulfur_dioxide equal to -1,wine_quality [ wine_quality [ 'total_sulfur_dioxide' ] == '-1' ]
+correlation between total_sulfur_dioxide and alcohol,wine_quality [ 'total_sulfur_dioxide' ] .corr ( wine_quality [ 'alcohol' ] )
+load wine_qualitywine_quality_df,wine_quality_df = pd.DataFrame.from_csv ( wine_quality )
+corr of density,wine_quality [ 'density' ] .corr()
+maximum of density in wine_quality dataset,max( wine_quality [ 'density' ])
+corr of density in wine_quality dataset,wine_quality [ 'density' ] .corr()
+var of density,wine_quality [ 'density' ] .var()
+average of density in wine_quality dataset,wine_quality [ 'density' ] .mean()
+sum of density in wine_quality dataset,wine_quality [ 'density' ] .sum()
+average of density,wine_quality [ 'density' ] .mean()
+scatter plot of density in wine_quality dataset,pltplot.scatter( wine_quality [ 'density' ])
+quantile of wine_quality,wine_quality [ 'wine_quality' ] .quantile()
+How many entries with density<=1 in wine_quality,wine_quality [ wine_quality [ 'density' ]  <=  '1' ]
+Number of entries with density<-7,wine_quality [ wine_quality [ 'density' ]  <  '-7' ]
+How many entries where density higher than 6,wine_quality [ wine_quality [ 'density' ] > '6' ]
+Number of rows where density less than or equal to 3,wine_quality [ wine_quality [ 'density' ] <= '3' ]
+correlation of density and chlorides,wine_quality [ 'density' ] .corr ( wine_quality [ 'chlorides' ] )
+load wine_quality,wine_quality = pd.DataFrame.from_csv ( wine_quality )
+histogram of pH in wine_quality,pltplot.hist( wine_quality [ 'pH' ])
+histogram of pH in wine_quality dataset,pltplot.hist( wine_quality [ 'pH' ])
+var of pH in wine_quality,wine_quality [ 'pH' ] .var()
+minimum of pH in wine_quality,min( wine_quality [ 'pH' ])
+corr of pH in wine_quality,wine_quality [ 'pH' ] .corr()
+min of pH in wine_quality dataset,min( wine_quality [ 'pH' ])
+standard deviation of pH in wine_quality dataset,wine_quality [ 'pH' ] .std()
+corr of pH,wine_quality [ 'pH' ] .corr()
+quantile of wine_quality,wine_quality [ 'wine_quality' ] .quantile()
+How many rows where pH>-6,wine_quality [ wine_quality [ 'pH' ]  >  '-6' ]
+How many entries with pH<=-5 in wine_quality dataset,wine_quality [ wine_quality [ 'pH' ] <= '-5' ]
+How many entries pH higher than or equal to -4,wine_quality [ wine_quality [ 'pH' ] higher than or equal to '-4' ]
+Number of entries where pH less than 10,wine_quality [ wine_quality [ 'pH' ] < '10' ]
+correlation between pH and free_sulfur_dioxide,wine_quality [ 'pH' ] .corr ( wine_quality [ 'free_sulfur_dioxide' ] )
+load wine_qualitywine_quality_df,wine_quality_df = pd.DataFrame.from_csv ( wine_quality )
+boxplot of sulphates in wine_quality,pltplot.boxplot( wine_quality [ 'sulphates' ])
+histogram of sulphates,pltplot.hist( wine_quality [ 'sulphates' ])
+describe of sulphates in wine_quality dataset,wine_quality [ 'sulphates' ] .describe()
+minimum of sulphates in wine_quality,min( wine_quality [ 'sulphates' ])
+correlation of sulphates,wine_quality [ 'sulphates' ] .corr()
+maximum of sulphates,max( wine_quality [ 'sulphates' ])
+quantile of sulphates in wine_quality dataset,wine_quality [ 'sulphates' ] .quantile()
+standard deviation of sulphates in wine_quality,wine_quality [ 'sulphates' ] .std()
+summary of wine_quality,wine_quality [ 'wine_quality' ] .describe()
+How many entries with sulphates=10,wine_quality [ wine_quality [ 'sulphates' ]  =  '10' ]
+How many entries  sulphates>7 in wine_quality,wine_quality [ wine_quality [ 'sulphates' ] > '7' ]
+How many entries with sulphates less than 3,wine_quality [ wine_quality [ 'sulphates' ] < '3' ]
+Number of data with sulphates less than or equal to -4,wine_quality [ wine_quality [ 'sulphates' ] <= '-4' ]
+correlation of sulphates with fixed_acidity,wine_quality [ 'sulphates' ] .corr ( wine_quality [ 'fixed_acidity' ] )
+load wine_quality,wine_quality = pd.DataFrame.from_csv ( wine_quality )
+boxplot of alcohol in wine_quality,pltplot.boxplot( wine_quality [ 'alcohol' ])
+maximum of alcohol,max( wine_quality [ 'alcohol' ])
+sum of alcohol,wine_quality [ 'alcohol' ] .sum()
+boxplot of alcohol in wine_quality dataset,pltplot.boxplot( wine_quality [ 'alcohol' ])
+var of alcohol in wine_quality dataset,wine_quality [ 'alcohol' ] .var()
+minimum of alcohol in wine_quality dataset,min( wine_quality [ 'alcohol' ])
+describe of alcohol,wine_quality [ 'alcohol' ] .describe()
+correlation of alcohol,wine_quality [ 'alcohol' ] .corr()
+quantile of wine_quality,wine_quality [ 'wine_quality' ] .quantile()
+Number of rows with alcohol<-8 in wine_quality dataset,wine_quality [ wine_quality [ 'alcohol' ] < '-8' ]
+Number of data with alcohol>=-4,wine_quality [ wine_quality [ 'alcohol' ]  >=  '-4' ]
+How many data where alcohol less than -3,wine_quality [ wine_quality [ 'alcohol' ] < '-3' ]
+Number of rows with alcohol is -3,wine_quality [ wine_quality [ 'alcohol' ] == '-3' ]
+scatterplot between alcohol and quality,"pltplot.scatter( wine_quality [ 'alcohol' ] , wine_quality [ 'quality' ])"
+load wine_qualitywine_quality_df,wine_quality_df = pd.DataFrame.from_csv ( wine_quality )
+minimum of quality,min( wine_quality [ 'quality' ])
+boxplot of quality in wine_quality dataset,pltplot.boxplot( wine_quality [ 'quality' ])
+min of quality in wine_quality dataset,min( wine_quality [ 'quality' ])
+cor of quality in wine_quality,wine_quality [ 'quality' ] .corr()
+variance of quality in wine_quality dataset,wine_quality [ 'quality' ] .var()
+maximum of quality in wine_quality dataset,max( wine_quality [ 'quality' ])
+correlation of quality in wine_quality,wine_quality [ 'quality' ] .corr()
+sum of quality in wine_quality dataset,wine_quality [ 'quality' ] .sum()
+quantile of wine_quality,wine_quality [ 'wine_quality' ] .quantile()
+Number of entries with quality>-5 in wine_quality dataset,wine_quality [ wine_quality [ 'quality' ]  >  '-5' ]
+How many data with quality>=8,wine_quality [ wine_quality [ 'quality' ] >= '8' ]
+Number of data where quality higher than or equal to 5,wine_quality [ wine_quality [ 'quality' ] higher than or equal to '5' ]
+Number of data quality higher than -9,wine_quality [ wine_quality [ 'quality' ] > '-9' ]
+correlation between quality with volatile_acidity,wine_quality [ 'quality' ] .corr ( wine_quality [ 'volatile_acidity' ] )
+load wine_quality,wine_quality = pd.DataFrame.from_csv ( wine_quality )
+max of triaxial acceleration,max( smartphones [ 'triaxial acceleration' ])
+scatterplot of triaxial acceleration,pltplot.scatter( smartphones [ 'triaxial acceleration' ])
+histogram of triaxial acceleration in smartphones,pltplot.hist( smartphones [ 'triaxial acceleration' ])
+maximum of triaxial acceleration in smartphones,max( smartphones [ 'triaxial acceleration' ])
+standard deviation of triaxial acceleration,smartphones [ 'triaxial acceleration' ] .std()
+scatterplot of triaxial acceleration in smartphones,pltplot.scatter( smartphones [ 'triaxial acceleration' ])
+histogram of triaxial acceleration,pltplot.hist( smartphones [ 'triaxial acceleration' ])
+histogram of triaxial acceleration,pltplot.hist( smartphones [ 'triaxial acceleration' ])
+summary of smartphones,smartphones [ 'smartphones' ] .describe()
+Number of data with triaxial acceleration<=6 in smartphones dataset,smartphones [ smartphones [ 'triaxial acceleration' ]  <=  '6' ]
+How many entries with triaxial acceleration>0,smartphones [ smartphones [ 'triaxial acceleration' ] > '0' ]
+Number of entries triaxial acceleration equal to -4,smartphones [ smartphones [ 'triaxial acceleration' ] == '-4' ]
+How many rows with triaxial acceleration less than 5,smartphones [ smartphones [ 'triaxial acceleration' ] < '5' ]
+scatterplot of triaxial acceleration and triaxial angular velocity,"pltplot.scatter( smartphones [ 'triaxial acceleration' ] , smartphones [ 'triaxial angular velocity' ])"
+load smartphones,smartphones = pd.DataFrame.from_csv ( smartphones )
+maximum of triaxial angular velocity in smartphones dataset,max( smartphones [ 'triaxial angular velocity' ])
+histogram of triaxial angular velocity,pltplot.hist( smartphones [ 'triaxial angular velocity' ])
+boxplot of triaxial angular velocity in smartphones dataset,pltplot.boxplot( smartphones [ 'triaxial angular velocity' ])
+min of triaxial angular velocity in smartphones dataset,min( smartphones [ 'triaxial angular velocity' ])
+quantile of triaxial angular velocity,smartphones [ 'triaxial angular velocity' ] .quantile()
+variance of triaxial angular velocity in smartphones dataset,smartphones [ 'triaxial angular velocity' ] .var()
+maximum of triaxial angular velocity in smartphones,max( smartphones [ 'triaxial angular velocity' ])
+var of triaxial angular velocity in smartphones,smartphones [ 'triaxial angular velocity' ] .var()
+quantile of smartphones,smartphones [ 'smartphones' ] .quantile()
+Number of data with triaxial angular velocity>=7,smartphones [ smartphones [ 'triaxial angular velocity' ]  >=  '7' ]
+Number of entries with triaxial angular velocity<3 in smartphones dataset,smartphones [ smartphones [ 'triaxial angular velocity' ]  <  '3' ]
+Number of entries triaxial angular velocity higher than or equal to 0,smartphones [ smartphones [ 'triaxial angular velocity' ] higher than or equal to '0' ]
+How many data triaxial angular velocity is -2,smartphones [ smartphones [ 'triaxial angular velocity' ] == '-2' ]
+correlation of triaxial angular velocity with identifier,smartphones [ 'triaxial angular velocity' ] .corr ( smartphones [ 'identifier' ] )
+load smartphonessmartphones_df,smartphones_df = pd.DataFrame.from_csv ( smartphones )
+minimum of 561_feature in smartphones dataset,min( smartphones [ '561_feature' ])
+mean of 561_feature in smartphones dataset,smartphones [ '561_feature' ] .mean()
+correlation of 561_feature in smartphones dataset,smartphones [ '561_feature' ] .corr()
+maximum of 561_feature in smartphones,max( smartphones [ '561_feature' ])
+histogram of 561_feature in smartphones,pltplot.hist( smartphones [ '561_feature' ])
+minimum of 561_feature in smartphones,min( smartphones [ '561_feature' ])
+mean of 561_feature in smartphones,smartphones [ '561_feature' ] .mean()
+cor of 561_feature in smartphones dataset,smartphones [ '561_feature' ] .corr()
+summary of smartphones,smartphones [ 'smartphones' ] .describe()
+Number of entries  561_feature>=-5,smartphones [ smartphones [ '561_feature' ] >= '-5' ]
+How many entries with 561_feature>-5 in smartphones dataset,smartphones [ smartphones [ '561_feature' ]  >  '-5' ]
+How many entries where 561_feature higher than or equal to 4,smartphones [ smartphones [ '561_feature' ] higher than or equal to '4' ]
+How many rows with 561_feature higher than -2,smartphones [ smartphones [ '561_feature' ] > '-2' ]
+correlation of 561_feature with label,smartphones [ '561_feature' ] .corr ( smartphones [ 'label' ] )
+load smartphones,smartphones = pd.DataFrame.from_csv ( smartphones )
+standard deviation of label in smartphones,smartphones [ 'label' ] .std()
+corr of label,smartphones [ 'label' ] .corr()
+min of label in smartphones,min( smartphones [ 'label' ])
+cor of label,smartphones [ 'label' ] .corr()
+quantile of label in smartphones,smartphones [ 'label' ] .quantile()
+describe of label in smartphones dataset,smartphones [ 'label' ] .describe()
+standard deviation of label in smartphones,smartphones [ 'label' ] .std()
+scatterplot of label in smartphones dataset,pltplot.scatter( smartphones [ 'label' ])
+summary of smartphones,smartphones [ 'smartphones' ] .describe()
+How many rows  label>=5,smartphones [ smartphones [ 'label' ] >= '5' ]
+Number of data where label=8 in smartphones dataset,smartphones [ smartphones [ 'label' ] = '8' ]
+Number of data label is 6,smartphones [ smartphones [ 'label' ] == '6' ]
+Number of entries where label is 4,smartphones [ smartphones [ 'label' ] == '4' ]
+correlation between label and 561_feature,smartphones [ 'label' ] .corr ( smartphones [ '561_feature' ] )
+load smartphones,smartphones = pd.DataFrame.from_csv ( smartphones )
+sum of identifier,smartphones [ 'identifier' ] .sum()
+correlation of identifier in smartphones dataset,smartphones [ 'identifier' ] .corr()
+corr of identifier in smartphones dataset,smartphones [ 'identifier' ] .corr()
+min of identifier in smartphones,min( smartphones [ 'identifier' ])
+variance of identifier in smartphones dataset,smartphones [ 'identifier' ] .var()
+minimum of identifier,min( smartphones [ 'identifier' ])
+max of identifier in smartphones,max( smartphones [ 'identifier' ])
+min of identifier in smartphones,min( smartphones [ 'identifier' ])
+summary of smartphones,smartphones [ 'smartphones' ] .describe()
+Number of entries with identifier=-4 in smartphones dataset,smartphones [ smartphones [ 'identifier' ]  =  '-4' ]
+Number of data where identifier>5 in smartphones dataset,smartphones [ smartphones [ 'identifier' ]  >  '5' ]
+How many entries where identifier less than or equal to 6,smartphones [ smartphones [ 'identifier' ] <= '6' ]
+Number of entries where identifier is 9,smartphones [ smartphones [ 'identifier' ] == '9' ]
+scatterplot of identifier with label,"pltplot.scatter( smartphones [ 'identifier' ] , smartphones [ 'label' ])"
+load smartphones,smartphones = pd.DataFrame.from_csv ( smartphones )
+cor of x in forest_fire,forest_fire [ 'x' ] .corr()
+correlation of x in forest_fire dataset,forest_fire [ 'x' ] .corr()
+scatterplot of x,pltplot.scatter( forest_fire [ 'x' ])
+cor of x,forest_fire [ 'x' ] .corr()
+variance of x in forest_fire,forest_fire [ 'x' ] .var()
+min of x in forest_fire dataset,min( forest_fire [ 'x' ])
+minimum of x in forest_fire,min( forest_fire [ 'x' ])
+corr of x in forest_fire,forest_fire [ 'x' ] .corr()
+summary of forest_fire,forest_fire [ 'forest_fire' ] .describe()
+Number of data where x=-1 in forest_fire dataset,forest_fire [ forest_fire [ 'x' ]  =  '-1' ]
+How many rows  x>=-5 in forest_fire,forest_fire [ forest_fire [ 'x' ] >= '-5' ]
+Number of rows with x higher than or equal to -8,forest_fire [ forest_fire [ 'x' ] higher than or equal to '-8' ]
+Number of entries x higher than -4,forest_fire [ forest_fire [ 'x' ] > '-4' ]
+correlation between x and day,forest_fire [ 'x' ] .corr ( forest_fire [ 'day' ] )
+load forest_fire,forest_fire = pd.DataFrame.from_csv ( forest_fire )
+max of y in forest_fire dataset,max( forest_fire [ 'y' ])
+correlation of y,forest_fire [ 'y' ] .corr()
+describe of y in forest_fire,forest_fire [ 'y' ] .describe()
+mean of y in forest_fire dataset,forest_fire [ 'y' ] .mean()
+min of y in forest_fire,min( forest_fire [ 'y' ])
+boxplot of y,pltplot.boxplot( forest_fire [ 'y' ])
+scatterplot of y,pltplot.scatter( forest_fire [ 'y' ])
+cor of y in forest_fire dataset,forest_fire [ 'y' ] .corr()
+quantile of forest_fire,forest_fire [ 'forest_fire' ] .quantile()
+How many data where y=-7 in forest_fire,forest_fire [ forest_fire [ 'y' ] = '-7' ]
+How many entries where y=5,forest_fire [ forest_fire [ 'y' ] = '5' ]
+Number of rows where y less than -10,forest_fire [ forest_fire [ 'y' ] < '-10' ]
+Number of rows where y higher than 5,forest_fire [ forest_fire [ 'y' ] > '5' ]
+scatterplot between y and x,"pltplot.scatter( forest_fire [ 'y' ] , forest_fire [ 'x' ])"
+load forest_fire,forest_fire = pd.DataFrame.from_csv ( forest_fire )
+correlation of month in forest_fire dataset,forest_fire [ 'month' ] .corr()
+cor of month,forest_fire [ 'month' ] .corr()
+maximum of month,max( forest_fire [ 'month' ])
+cor of month in forest_fire dataset,forest_fire [ 'month' ] .corr()
+average of month in forest_fire dataset,forest_fire [ 'month' ] .mean()
+max of month in forest_fire dataset,max( forest_fire [ 'month' ])
+average of month,forest_fire [ 'month' ] .mean()
+scatter plot of month in forest_fire dataset,pltplot.scatter( forest_fire [ 'month' ])
+quantile of forest_fire,forest_fire [ 'forest_fire' ] .quantile()
+Number of rows  month=3 in forest_fire dataset,forest_fire [ forest_fire [ 'month' ]  =  '3' ]
+Number of entries with month=-1,forest_fire [ forest_fire [ 'month' ]  =  '-1' ]
+How many entries month less than 5,forest_fire [ forest_fire [ 'month' ] < '5' ]
+How many rows with month higher than 0,forest_fire [ forest_fire [ 'month' ] > '0' ]
+correlation between month with y,forest_fire [ 'month' ] .corr ( forest_fire [ 'y' ] )
+load forest_fire,forest_fire = pd.DataFrame.from_csv ( forest_fire )
+scatter plot of day in forest_fire,pltplot.scatter( forest_fire [ 'day' ])
+average of day in forest_fire,forest_fire [ 'day' ] .mean()
+sum of day in forest_fire dataset,forest_fire [ 'day' ] .sum()
+cor of day,forest_fire [ 'day' ] .corr()
+maximum of day,max( forest_fire [ 'day' ])
+histogram of day in forest_fire dataset,pltplot.hist( forest_fire [ 'day' ])
+cor of day in forest_fire dataset,forest_fire [ 'day' ] .corr()
+correlation of day in forest_fire dataset,forest_fire [ 'day' ] .corr()
+summary of forest_fire,forest_fire [ 'forest_fire' ] .describe()
+How many data with day=-7 in forest_fire,forest_fire [ forest_fire [ 'day' ] = '-7' ]
+Number of rows  day>-5,forest_fire [ forest_fire [ 'day' ] > '-5' ]
+How many entries where day equal to -6,forest_fire [ forest_fire [ 'day' ] == '-6' ]
+Number of rows day less than or equal to -2,forest_fire [ forest_fire [ 'day' ] <= '-2' ]
+correlation of day with FFMC,forest_fire [ 'day' ] .corr ( forest_fire [ 'FFMC' ] )
+load forest_fire,forest_fire = pd.DataFrame.from_csv ( forest_fire )
+maximum of FFMC in forest_fire dataset,max( forest_fire [ 'FFMC' ])
+standard deviation of FFMC in forest_fire dataset,forest_fire [ 'FFMC' ] .std()
+boxplot of FFMC in forest_fire dataset,pltplot.boxplot( forest_fire [ 'FFMC' ])
+corr of FFMC in forest_fire,forest_fire [ 'FFMC' ] .corr()
+minimum of FFMC in forest_fire,min( forest_fire [ 'FFMC' ])
+var of FFMC,forest_fire [ 'FFMC' ] .var()
+corr of FFMC in forest_fire,forest_fire [ 'FFMC' ] .corr()
+correlation of FFMC in forest_fire,forest_fire [ 'FFMC' ] .corr()
+summary of forest_fire,forest_fire [ 'forest_fire' ] .describe()
+Number of data with FFMC<=0,forest_fire [ forest_fire [ 'FFMC' ] <= '0' ]
+Number of rows  FFMC=7 in forest_fire dataset,forest_fire [ forest_fire [ 'FFMC' ] = '7' ]
+How many data with FFMC higher than or equal to -10,forest_fire [ forest_fire [ 'FFMC' ] higher than or equal to '-10' ]
+Number of entries with FFMC equal to 6,forest_fire [ forest_fire [ 'FFMC' ] == '6' ]
+scatterplot of FFMC with area,"pltplot.scatter( forest_fire [ 'FFMC' ] , forest_fire [ 'area' ])"
+load forest_fireforest_fire_df,forest_fire_df = pd.DataFrame.from_csv ( forest_fire )
+boxplot of DMC,pltplot.boxplot( forest_fire [ 'DMC' ])
+scatter plot of DMC in forest_fire,pltplot.scatter( forest_fire [ 'DMC' ])
+cor of DMC,forest_fire [ 'DMC' ] .corr()
+cor of DMC,forest_fire [ 'DMC' ] .corr()
+min of DMC in forest_fire dataset,min( forest_fire [ 'DMC' ])
+maximum of DMC,max( forest_fire [ 'DMC' ])
+var of DMC in forest_fire dataset,forest_fire [ 'DMC' ] .var()
+minimum of DMC in forest_fire dataset,min( forest_fire [ 'DMC' ])
+quantile of forest_fire,forest_fire [ 'forest_fire' ] .quantile()
+How many entries where DMC>-10 in forest_fire,forest_fire [ forest_fire [ 'DMC' ]  >  '-10' ]
+Number of rows with DMC>-6,forest_fire [ forest_fire [ 'DMC' ] > '-6' ]
+Number of rows DMC less than or equal to -1,forest_fire [ forest_fire [ 'DMC' ] <= '-1' ]
+How many entries DMC higher than 3,forest_fire [ forest_fire [ 'DMC' ] > '3' ]
+correlation of DMC and x,forest_fire [ 'DMC' ] .corr ( forest_fire [ 'x' ] )
+load forest_fire,forest_fire = pd.DataFrame.from_csv ( forest_fire )
+describe of DC,forest_fire [ 'DC' ] .describe()
+minimum of DC in forest_fire dataset,min( forest_fire [ 'DC' ])
+minimum of DC in forest_fire dataset,min( forest_fire [ 'DC' ])
+maximum of DC,max( forest_fire [ 'DC' ])
+cor of DC in forest_fire dataset,forest_fire [ 'DC' ] .corr()
+average of DC in forest_fire dataset,forest_fire [ 'DC' ] .mean()
+scatterplot of DC,pltplot.scatter( forest_fire [ 'DC' ])
+histogram of DC,pltplot.hist( forest_fire [ 'DC' ])
+summary of forest_fire,forest_fire [ 'forest_fire' ] .describe()
+Number of entries with DC<=4 in forest_fire,forest_fire [ forest_fire [ 'DC' ]  <=  '4' ]
+How many entries with DC<=3 in forest_fire,forest_fire [ forest_fire [ 'DC' ] <= '3' ]
+Number of rows with DC higher than or equal to 10,forest_fire [ forest_fire [ 'DC' ] higher than or equal to '10' ]
+Number of data DC higher than or equal to -1,forest_fire [ forest_fire [ 'DC' ] higher than or equal to '-1' ]
+scatterplot between DC with wind,"pltplot.scatter( forest_fire [ 'DC' ] , forest_fire [ 'wind' ])"
+load forest_fire,forest_fire = pd.DataFrame.from_csv ( forest_fire )
+describe of ISI in forest_fire,forest_fire [ 'ISI' ] .describe()
+describe of ISI,forest_fire [ 'ISI' ] .describe()
+var of ISI in forest_fire,forest_fire [ 'ISI' ] .var()
+min of ISI,min( forest_fire [ 'ISI' ])
+describe of ISI,forest_fire [ 'ISI' ] .describe()
+maximum of ISI in forest_fire dataset,max( forest_fire [ 'ISI' ])
+variance of ISI in forest_fire dataset,forest_fire [ 'ISI' ] .var()
+standard deviation of ISI in forest_fire,forest_fire [ 'ISI' ] .std()
+quantile of forest_fire,forest_fire [ 'forest_fire' ] .quantile()
+Number of rows with ISI>-7 in forest_fire dataset,forest_fire [ forest_fire [ 'ISI' ] > '-7' ]
+Number of data where ISI<=6 in forest_fire,forest_fire [ forest_fire [ 'ISI' ]  <=  '6' ]
+Number of data ISI less than 2,forest_fire [ forest_fire [ 'ISI' ] < '2' ]
+Number of entries where ISI is -5,forest_fire [ forest_fire [ 'ISI' ] == '-5' ]
+scatterplot between ISI and DC,"pltplot.scatter( forest_fire [ 'ISI' ] , forest_fire [ 'DC' ])"
+load forest_fireforest_fire_df,forest_fire_df = pd.DataFrame.from_csv ( forest_fire )
+quantile of temp in forest_fire dataset,forest_fire [ 'temp' ] .quantile()
+var of temp in forest_fire,forest_fire [ 'temp' ] .var()
+min of temp,min( forest_fire [ 'temp' ])
+standard deviation of temp in forest_fire,forest_fire [ 'temp' ] .std()
+correlation of temp in forest_fire dataset,forest_fire [ 'temp' ] .corr()
+corr of temp,forest_fire [ 'temp' ] .corr()
+describe of temp in forest_fire dataset,forest_fire [ 'temp' ] .describe()
+describe of temp,forest_fire [ 'temp' ] .describe()
+quantile of forest_fire,forest_fire [ 'forest_fire' ] .quantile()
+How many rows  temp>-3 in forest_fire,forest_fire [ forest_fire [ 'temp' ] > '-3' ]
+Number of data where temp<0,forest_fire [ forest_fire [ 'temp' ] < '0' ]
+How many rows temp higher than or equal to -4,forest_fire [ forest_fire [ 'temp' ] higher than or equal to '-4' ]
+Number of rows temp higher than -6,forest_fire [ forest_fire [ 'temp' ] > '-6' ]
+scatterplot of temp with x,"pltplot.scatter( forest_fire [ 'temp' ] , forest_fire [ 'x' ])"
+load forest_fire,forest_fire = pd.DataFrame.from_csv ( forest_fire )
+variance of RH,forest_fire [ 'RH' ] .var()
+correlation of RH in forest_fire dataset,forest_fire [ 'RH' ] .corr()
+sum of RH,forest_fire [ 'RH' ] .sum()
+average of RH,forest_fire [ 'RH' ] .mean()
+boxplot of RH in forest_fire dataset,pltplot.boxplot( forest_fire [ 'RH' ])
+max of RH in forest_fire,max( forest_fire [ 'RH' ])
+scatterplot of RH in forest_fire dataset,pltplot.scatter( forest_fire [ 'RH' ])
+maximum of RH,max( forest_fire [ 'RH' ])
+quantile of forest_fire,forest_fire [ 'forest_fire' ] .quantile()
+Number of data  RH=-3 in forest_fire,forest_fire [ forest_fire [ 'RH' ]  =  '-3' ]
+How many entries  RH>-4 in forest_fire dataset,forest_fire [ forest_fire [ 'RH' ]  >  '-4' ]
+Number of entries with RH is -6,forest_fire [ forest_fire [ 'RH' ] == '-6' ]
+Number of rows RH equal to -5,forest_fire [ forest_fire [ 'RH' ] == '-5' ]
+scatterplot of RH and temp,"pltplot.scatter( forest_fire [ 'RH' ] , forest_fire [ 'temp' ])"
+load forest_fire,forest_fire = pd.DataFrame.from_csv ( forest_fire )
+var of wind,forest_fire [ 'wind' ] .var()
+maximum of wind in forest_fire dataset,max( forest_fire [ 'wind' ])
+correlation of wind,forest_fire [ 'wind' ] .corr()
+standard deviation of wind,forest_fire [ 'wind' ] .std()
+quantile of wind in forest_fire,forest_fire [ 'wind' ] .quantile()
+standard deviation of wind in forest_fire,forest_fire [ 'wind' ] .std()
+scatter plot of wind in forest_fire dataset,pltplot.scatter( forest_fire [ 'wind' ])
+cor of wind in forest_fire,forest_fire [ 'wind' ] .corr()
+summary of forest_fire,forest_fire [ 'forest_fire' ] .describe()
+How many entries  wind>=-2,forest_fire [ forest_fire [ 'wind' ]  >=  '-2' ]
+How many data  wind<=-8 in forest_fire,forest_fire [ forest_fire [ 'wind' ] <= '-8' ]
+How many data with wind higher than or equal to -3,forest_fire [ forest_fire [ 'wind' ] higher than or equal to '-3' ]
+Number of rows wind is 9,forest_fire [ forest_fire [ 'wind' ] == '9' ]
+correlation between wind and DC,forest_fire [ 'wind' ] .corr ( forest_fire [ 'DC' ] )
+load forest_fireforest_fire_df,forest_fire_df = pd.DataFrame.from_csv ( forest_fire )
+describe of rain,forest_fire [ 'rain' ] .describe()
+cor of rain,forest_fire [ 'rain' ] .corr()
+cor of rain in forest_fire dataset,forest_fire [ 'rain' ] .corr()
+maximum of rain in forest_fire,max( forest_fire [ 'rain' ])
+variance of rain in forest_fire,forest_fire [ 'rain' ] .var()
+describe of rain in forest_fire,forest_fire [ 'rain' ] .describe()
+corr of rain in forest_fire dataset,forest_fire [ 'rain' ] .corr()
+variance of rain in forest_fire,forest_fire [ 'rain' ] .var()
+summary of forest_fire,forest_fire [ 'forest_fire' ] .describe()
+How many data where rain=8,forest_fire [ forest_fire [ 'rain' ]  =  '8' ]
+How many rows where rain<=-3 in forest_fire,forest_fire [ forest_fire [ 'rain' ]  <=  '-3' ]
+How many rows with rain less than 5,forest_fire [ forest_fire [ 'rain' ] < '5' ]
+Number of entries with rain higher than -10,forest_fire [ forest_fire [ 'rain' ] > '-10' ]
+correlation of rain with DMC,forest_fire [ 'rain' ] .corr ( forest_fire [ 'DMC' ] )
+load forest_fireforest_fire_df,forest_fire_df = pd.DataFrame.from_csv ( forest_fire )
+average of area,forest_fire [ 'area' ] .mean()
+cor of area,forest_fire [ 'area' ] .corr()
+average of area in forest_fire dataset,forest_fire [ 'area' ] .mean()
+histogram of area in forest_fire dataset,pltplot.hist( forest_fire [ 'area' ])
+cor of area,forest_fire [ 'area' ] .corr()
+variance of area in forest_fire,forest_fire [ 'area' ] .var()
+standard deviation of area in forest_fire,forest_fire [ 'area' ] .std()
+sum of area in forest_fire dataset,forest_fire [ 'area' ] .sum()
+quantile of forest_fire,forest_fire [ 'forest_fire' ] .quantile()
+How many data where area<0 in forest_fire dataset,forest_fire [ forest_fire [ 'area' ] < '0' ]
+How many rows  area>8 in forest_fire,forest_fire [ forest_fire [ 'area' ] > '8' ]
+Number of entries area equal to 0,forest_fire [ forest_fire [ 'area' ] == '0' ]
+How many entries area higher than -8,forest_fire [ forest_fire [ 'area' ] > '-8' ]
+correlation of area with DC,forest_fire [ 'area' ] .corr ( forest_fire [ 'DC' ] )
+load forest_fire,forest_fire = pd.DataFrame.from_csv ( forest_fire )
+histogram of sex in abalone dataset,pltplot.hist( abalone [ 'sex' ])
+correlation of sex,abalone [ 'sex' ] .corr()
+scatterplot of sex in abalone dataset,pltplot.scatter( abalone [ 'sex' ])
+average of sex in abalone,abalone [ 'sex' ] .mean()
+corr of sex,abalone [ 'sex' ] .corr()
+var of sex,abalone [ 'sex' ] .var()
+max of sex in abalone dataset,max( abalone [ 'sex' ])
+min of sex in abalone,min( abalone [ 'sex' ])
+quantile of abalone,abalone [ 'abalone' ] .quantile()
+Number of entries where sex>10,abalone [ abalone [ 'sex' ]  >  '10' ]
+How many entries where sex=-1 in abalone dataset,abalone [ abalone [ 'sex' ]  =  '-1' ]
+How many entries sex higher than -7,abalone [ abalone [ 'sex' ] > '-7' ]
+Number of data sex less than -4,abalone [ abalone [ 'sex' ] < '-4' ]
+scatterplot between sex and length,"pltplot.scatter( abalone [ 'sex' ] , abalone [ 'length' ])"
+load abalone,abalone = pd.DataFrame.from_csv ( abalone )
+cor of length in abalone,abalone [ 'length' ] .corr()
+boxplot of length in abalone dataset,pltplot.boxplot( abalone [ 'length' ])
+sum of length in abalone,abalone [ 'length' ] .sum()
+maximum of length,max( abalone [ 'length' ])
+var of length,abalone [ 'length' ] .var()
+histogram of length in abalone,pltplot.hist( abalone [ 'length' ])
+standard deviation of length,abalone [ 'length' ] .std()
+describe of length,abalone [ 'length' ] .describe()
+summary of abalone,abalone [ 'abalone' ] .describe()
+Number of rows where length=4 in abalone,abalone [ abalone [ 'length' ] = '4' ]
+Number of rows where length<7 in abalone dataset,abalone [ abalone [ 'length' ] < '7' ]
+How many entries where length less than 4,abalone [ abalone [ 'length' ] < '4' ]
+How many rows where length equal to 8,abalone [ abalone [ 'length' ] == '8' ]
+scatterplot of length with shucked_weight,"pltplot.scatter( abalone [ 'length' ] , abalone [ 'shucked_weight' ])"
+load abalone,abalone = pd.DataFrame.from_csv ( abalone )
+var of diameter in abalone dataset,abalone [ 'diameter' ] .var()
+variance of diameter in abalone dataset,abalone [ 'diameter' ] .var()
+max of diameter,max( abalone [ 'diameter' ])
+scatterplot of diameter in abalone,pltplot.scatter( abalone [ 'diameter' ])
+mean of diameter in abalone,abalone [ 'diameter' ] .mean()
+corr of diameter in abalone dataset,abalone [ 'diameter' ] .corr()
+max of diameter in abalone,max( abalone [ 'diameter' ])
+sum of diameter,abalone [ 'diameter' ] .sum()
+quantile of abalone,abalone [ 'abalone' ] .quantile()
+Number of data where diameter<=-7,abalone [ abalone [ 'diameter' ]  <=  '-7' ]
+How many rows where diameter<-1 in abalone dataset,abalone [ abalone [ 'diameter' ] < '-1' ]
+How many entries diameter less than or equal to 5,abalone [ abalone [ 'diameter' ] <= '5' ]
+How many rows with diameter less than or equal to 0,abalone [ abalone [ 'diameter' ] <= '0' ]
+correlation between diameter with sex,abalone [ 'diameter' ] .corr ( abalone [ 'sex' ] )
+load abalone,abalone = pd.DataFrame.from_csv ( abalone )
+mean of height in abalone dataset,abalone [ 'height' ] .mean()
+sum of height in abalone,abalone [ 'height' ] .sum()
+boxplot of height in abalone,pltplot.boxplot( abalone [ 'height' ])
+boxplot of height,pltplot.boxplot( abalone [ 'height' ])
+correlation of height,abalone [ 'height' ] .corr()
+max of height in abalone,max( abalone [ 'height' ])
+maximum of height in abalone dataset,max( abalone [ 'height' ])
+quantile of height in abalone,abalone [ 'height' ] .quantile()
+summary of abalone,abalone [ 'abalone' ] .describe()
+Number of entries  height=9,abalone [ abalone [ 'height' ]  =  '9' ]
+Number of rows with height<5 in abalone dataset,abalone [ abalone [ 'height' ] < '5' ]
+How many rows with height equal to -10,abalone [ abalone [ 'height' ] == '-10' ]
+How many entries where height higher than or equal to -5,abalone [ abalone [ 'height' ] higher than or equal to '-5' ]
+scatterplot of height and whole_weight,"pltplot.scatter( abalone [ 'height' ] , abalone [ 'whole_weight' ])"
+load abaloneabalone_df,abalone_df = pd.DataFrame.from_csv ( abalone )
+standard deviation of whole_weight,abalone [ 'whole_weight' ] .std()
+quantile of whole_weight in abalone,abalone [ 'whole_weight' ] .quantile()
+describe of whole_weight,abalone [ 'whole_weight' ] .describe()
+histogram of whole_weight in abalone dataset,pltplot.hist( abalone [ 'whole_weight' ])
+var of whole_weight in abalone,abalone [ 'whole_weight' ] .var()
+standard deviation of whole_weight in abalone dataset,abalone [ 'whole_weight' ] .std()
+standard deviation of whole_weight,abalone [ 'whole_weight' ] .std()
+scatterplot of whole_weight,pltplot.scatter( abalone [ 'whole_weight' ])
+summary of abalone,abalone [ 'abalone' ] .describe()
+How many rows  whole_weight>-6 in abalone,abalone [ abalone [ 'whole_weight' ] > '-6' ]
+How many entries with whole_weight<=0 in abalone,abalone [ abalone [ 'whole_weight' ]  <=  '0' ]
+How many entries where whole_weight is 10,abalone [ abalone [ 'whole_weight' ] == '10' ]
+How many rows where whole_weight less than or equal to 7,abalone [ abalone [ 'whole_weight' ] <= '7' ]
+scatterplot of whole_weight with diameter,"pltplot.scatter( abalone [ 'whole_weight' ] , abalone [ 'diameter' ])"
+load abaloneabalone_df,abalone_df = pd.DataFrame.from_csv ( abalone )
+mean of shucked_weight in abalone,abalone [ 'shucked_weight' ] .mean()
+max of shucked_weight in abalone,max( abalone [ 'shucked_weight' ])
+scatter plot of shucked_weight,pltplot.scatter( abalone [ 'shucked_weight' ])
+var of shucked_weight in abalone dataset,abalone [ 'shucked_weight' ] .var()
+scatter plot of shucked_weight in abalone,pltplot.scatter( abalone [ 'shucked_weight' ])
+minimum of shucked_weight in abalone,min( abalone [ 'shucked_weight' ])
+boxplot of shucked_weight in abalone,pltplot.boxplot( abalone [ 'shucked_weight' ])
+histogram of shucked_weight in abalone dataset,pltplot.hist( abalone [ 'shucked_weight' ])
+summary of abalone,abalone [ 'abalone' ] .describe()
+How many rows where shucked_weight<1 in abalone dataset,abalone [ abalone [ 'shucked_weight' ]  <  '1' ]
+Number of data with shucked_weight<-8 in abalone dataset,abalone [ abalone [ 'shucked_weight' ] < '-8' ]
+How many entries shucked_weight is 5,abalone [ abalone [ 'shucked_weight' ] == '5' ]
+How many rows shucked_weight higher than or equal to 6,abalone [ abalone [ 'shucked_weight' ] higher than or equal to '6' ]
+correlation between shucked_weight with diameter,abalone [ 'shucked_weight' ] .corr ( abalone [ 'diameter' ] )
+load abaloneabalone_df,abalone_df = pd.DataFrame.from_csv ( abalone )
+scatterplot of viscera in abalone dataset,pltplot.scatter( abalone [ 'viscera' ])
+maximum of viscera in abalone dataset,max( abalone [ 'viscera' ])
+var of viscera,abalone [ 'viscera' ] .var()
+corr of viscera in abalone,abalone [ 'viscera' ] .corr()
+variance of viscera in abalone,abalone [ 'viscera' ] .var()
+max of viscera in abalone,max( abalone [ 'viscera' ])
+min of viscera in abalone dataset,min( abalone [ 'viscera' ])
+correlation of viscera in abalone dataset,abalone [ 'viscera' ] .corr()
+quantile of abalone,abalone [ 'abalone' ] .quantile()
+Number of entries where viscera<=-6 in abalone,abalone [ abalone [ 'viscera' ] <= '-6' ]
+How many data with viscera<-7 in abalone,abalone [ abalone [ 'viscera' ] < '-7' ]
+How many entries where viscera equal to -3,abalone [ abalone [ 'viscera' ] == '-3' ]
+Number of entries viscera less than or equal to 4,abalone [ abalone [ 'viscera' ] <= '4' ]
+correlation between viscera and shell_weight,abalone [ 'viscera' ] .corr ( abalone [ 'shell_weight' ] )
+load abaloneabalone_df,abalone_df = pd.DataFrame.from_csv ( abalone )
+maximum of shell_weight in abalone,max( abalone [ 'shell_weight' ])
+sum of shell_weight,abalone [ 'shell_weight' ] .sum()
+maximum of shell_weight in abalone,max( abalone [ 'shell_weight' ])
+sum of shell_weight,abalone [ 'shell_weight' ] .sum()
+cor of shell_weight,abalone [ 'shell_weight' ] .corr()
+scatterplot of shell_weight in abalone dataset,pltplot.scatter( abalone [ 'shell_weight' ])
+histogram of shell_weight in abalone,pltplot.hist( abalone [ 'shell_weight' ])
+maximum of shell_weight,max( abalone [ 'shell_weight' ])
+quantile of abalone,abalone [ 'abalone' ] .quantile()
+Number of data with shell_weight<=5,abalone [ abalone [ 'shell_weight' ]  <=  '5' ]
+How many data where shell_weight>=-7 in abalone,abalone [ abalone [ 'shell_weight' ]  >=  '-7' ]
+How many data shell_weight is -8,abalone [ abalone [ 'shell_weight' ] == '-8' ]
+Number of entries where shell_weight higher than or equal to 2,abalone [ abalone [ 'shell_weight' ] higher than or equal to '2' ]
+scatterplot between shell_weight and sex,"pltplot.scatter( abalone [ 'shell_weight' ] , abalone [ 'sex' ])"
+load abaloneabalone_df,abalone_df = pd.DataFrame.from_csv ( abalone )
+min of age in bank_marketing,min( bank_marketing [ 'age' ])
+max of age,max( bank_marketing [ 'age' ])
+quantile of age in bank_marketing,bank_marketing [ 'age' ] .quantile()
+minimum of age in bank_marketing dataset,min( bank_marketing [ 'age' ])
+sum of age in bank_marketing dataset,bank_marketing [ 'age' ] .sum()
+describe of age in bank_marketing dataset,bank_marketing [ 'age' ] .describe()
+minimum of age in bank_marketing dataset,min( bank_marketing [ 'age' ])
+max of age,max( bank_marketing [ 'age' ])
+quantile of bank_marketing,bank_marketing [ 'bank_marketing' ] .quantile()
+Number of data with age>=-7,bank_marketing [ bank_marketing [ 'age' ]  >=  '-7' ]
+How many rows where age>=-2 in bank_marketing,bank_marketing [ bank_marketing [ 'age' ] >= '-2' ]
+Number of rows where age less than 5,bank_marketing [ bank_marketing [ 'age' ] < '5' ]
+Number of entries age less than or equal to 10,bank_marketing [ bank_marketing [ 'age' ] <= '10' ]
+correlation between age with education,bank_marketing [ 'age' ] .corr ( bank_marketing [ 'education' ] )
+load bank_marketing,bank_marketing = pd.DataFrame.from_csv ( bank_marketing )
+correlation of job in bank_marketing dataset,bank_marketing [ 'job' ] .corr()
+maximum of job in bank_marketing dataset,max( bank_marketing [ 'job' ])
+sum of job in bank_marketing,bank_marketing [ 'job' ] .sum()
+max of job in bank_marketing dataset,max( bank_marketing [ 'job' ])
+min of job in bank_marketing dataset,min( bank_marketing [ 'job' ])
+boxplot of job in bank_marketing dataset,pltplot.boxplot( bank_marketing [ 'job' ])
+histogram of job,pltplot.hist( bank_marketing [ 'job' ])
+max of job,max( bank_marketing [ 'job' ])
+quantile of bank_marketing,bank_marketing [ 'bank_marketing' ] .quantile()
+How many rows where job>=3 in bank_marketing,bank_marketing [ bank_marketing [ 'job' ]  >=  '3' ]
+Number of data with job>=9 in bank_marketing,bank_marketing [ bank_marketing [ 'job' ]  >=  '9' ]
+How many entries job less than or equal to -10,bank_marketing [ bank_marketing [ 'job' ] <= '-10' ]
+Number of rows job equal to 3,bank_marketing [ bank_marketing [ 'job' ] == '3' ]
+correlation between job and age,bank_marketing [ 'job' ] .corr ( bank_marketing [ 'age' ] )
+load bank_marketing,bank_marketing = pd.DataFrame.from_csv ( bank_marketing )
+standard deviation of marital in bank_marketing dataset,bank_marketing [ 'marital' ] .std()
+standard deviation of marital in bank_marketing,bank_marketing [ 'marital' ] .std()
+sum of marital,bank_marketing [ 'marital' ] .sum()
+sum of marital in bank_marketing,bank_marketing [ 'marital' ] .sum()
+boxplot of marital,pltplot.boxplot( bank_marketing [ 'marital' ])
+var of marital,bank_marketing [ 'marital' ] .var()
+correlation of marital,bank_marketing [ 'marital' ] .corr()
+scatter plot of marital,pltplot.scatter( bank_marketing [ 'marital' ])
+quantile of bank_marketing,bank_marketing [ 'bank_marketing' ] .quantile()
+Number of entries  marital>=8 in bank_marketing,bank_marketing [ bank_marketing [ 'marital' ] >= '8' ]
+How many rows where marital<=0,bank_marketing [ bank_marketing [ 'marital' ]  <=  '0' ]
+How many data with marital less than or equal to -9,bank_marketing [ bank_marketing [ 'marital' ] <= '-9' ]
+Number of entries marital less than 10,bank_marketing [ bank_marketing [ 'marital' ] < '10' ]
+correlation of marital and month,bank_marketing [ 'marital' ] .corr ( bank_marketing [ 'month' ] )
+load bank_marketingbank_marketing_df,bank_marketing_df = pd.DataFrame.from_csv ( bank_marketing )
+mean of education,bank_marketing [ 'education' ] .mean()
+variance of education in bank_marketing dataset,bank_marketing [ 'education' ] .var()
+boxplot of education in bank_marketing dataset,pltplot.boxplot( bank_marketing [ 'education' ])
+variance of education in bank_marketing,bank_marketing [ 'education' ] .var()
+quantile of education in bank_marketing dataset,bank_marketing [ 'education' ] .quantile()
+average of education,bank_marketing [ 'education' ] .mean()
+max of education,max( bank_marketing [ 'education' ])
+scatter plot of education,pltplot.scatter( bank_marketing [ 'education' ])
+quantile of bank_marketing,bank_marketing [ 'bank_marketing' ] .quantile()
+Number of rows  education<6 in bank_marketing,bank_marketing [ bank_marketing [ 'education' ] < '6' ]
+Number of rows  education>=0,bank_marketing [ bank_marketing [ 'education' ] >= '0' ]
+How many entries with education is -3,bank_marketing [ bank_marketing [ 'education' ] == '-3' ]
+How many data where education less than 5,bank_marketing [ bank_marketing [ 'education' ] < '5' ]
+correlation between education with age,bank_marketing [ 'education' ] .corr ( bank_marketing [ 'age' ] )
+load bank_marketing,bank_marketing = pd.DataFrame.from_csv ( bank_marketing )
+mean of default in bank_marketing dataset,bank_marketing [ 'default' ] .mean()
+variance of default in bank_marketing,bank_marketing [ 'default' ] .var()
+maximum of default in bank_marketing dataset,max( bank_marketing [ 'default' ])
+cor of default in bank_marketing,bank_marketing [ 'default' ] .corr()
+histogram of default,pltplot.hist( bank_marketing [ 'default' ])
+standard deviation of default in bank_marketing dataset,bank_marketing [ 'default' ] .std()
+var of default,bank_marketing [ 'default' ] .var()
+boxplot of default in bank_marketing dataset,pltplot.boxplot( bank_marketing [ 'default' ])
+summary of bank_marketing,bank_marketing [ 'bank_marketing' ] .describe()
+Number of entries with default>7,bank_marketing [ bank_marketing [ 'default' ] > '7' ]
+Number of data with default<-1,bank_marketing [ bank_marketing [ 'default' ] < '-1' ]
+How many data where default less than 0,bank_marketing [ bank_marketing [ 'default' ] < '0' ]
+Number of rows with default equal to 8,bank_marketing [ bank_marketing [ 'default' ] == '8' ]
+correlation between default and housing,bank_marketing [ 'default' ] .corr ( bank_marketing [ 'housing' ] )
+load bank_marketingbank_marketing_df,bank_marketing_df = pd.DataFrame.from_csv ( bank_marketing )
+variance of housing in bank_marketing dataset,bank_marketing [ 'housing' ] .var()
+average of housing,bank_marketing [ 'housing' ] .mean()
+cor of housing in bank_marketing dataset,bank_marketing [ 'housing' ] .corr()
+cor of housing,bank_marketing [ 'housing' ] .corr()
+boxplot of housing in bank_marketing dataset,pltplot.boxplot( bank_marketing [ 'housing' ])
+variance of housing in bank_marketing dataset,bank_marketing [ 'housing' ] .var()
+max of housing in bank_marketing,max( bank_marketing [ 'housing' ])
+histogram of housing in bank_marketing,pltplot.hist( bank_marketing [ 'housing' ])
+summary of bank_marketing,bank_marketing [ 'bank_marketing' ] .describe()
+Number of data with housing<=3 in bank_marketing dataset,bank_marketing [ bank_marketing [ 'housing' ]  <=  '3' ]
+Number of data with housing>7 in bank_marketing,bank_marketing [ bank_marketing [ 'housing' ] > '7' ]
+How many data housing equal to -6,bank_marketing [ bank_marketing [ 'housing' ] == '-6' ]
+Number of entries housing equal to 1,bank_marketing [ bank_marketing [ 'housing' ] == '1' ]
+scatterplot between housing and poutcome,"pltplot.scatter( bank_marketing [ 'housing' ] , bank_marketing [ 'poutcome' ])"
+load bank_marketing,bank_marketing = pd.DataFrame.from_csv ( bank_marketing )
+cor of loan,bank_marketing [ 'loan' ] .corr()
+max of loan,max( bank_marketing [ 'loan' ])
+describe of loan,bank_marketing [ 'loan' ] .describe()
+average of loan in bank_marketing dataset,bank_marketing [ 'loan' ] .mean()
+sum of loan in bank_marketing dataset,bank_marketing [ 'loan' ] .sum()
+average of loan in bank_marketing dataset,bank_marketing [ 'loan' ] .mean()
+variance of loan in bank_marketing,bank_marketing [ 'loan' ] .var()
+maximum of loan in bank_marketing,max( bank_marketing [ 'loan' ])
+quantile of bank_marketing,bank_marketing [ 'bank_marketing' ] .quantile()
+Number of data where loan>-6 in bank_marketing dataset,bank_marketing [ bank_marketing [ 'loan' ] > '-6' ]
+How many data where loan<1 in bank_marketing dataset,bank_marketing [ bank_marketing [ 'loan' ]  <  '1' ]
+Number of data with loan is 2,bank_marketing [ bank_marketing [ 'loan' ] == '2' ]
+Number of entries loan higher than -1,bank_marketing [ bank_marketing [ 'loan' ] > '-1' ]
+scatterplot between loan with emp.var.rate,"pltplot.scatter( bank_marketing [ 'loan' ] , bank_marketing [ 'emp.var.rate' ])"
+load bank_marketingbank_marketing_df,bank_marketing_df = pd.DataFrame.from_csv ( bank_marketing )
+var of contact in bank_marketing,bank_marketing [ 'contact' ] .var()
+minimum of contact in bank_marketing,min( bank_marketing [ 'contact' ])
+describe of contact in bank_marketing,bank_marketing [ 'contact' ] .describe()
+cor of contact in bank_marketing,bank_marketing [ 'contact' ] .corr()
+max of contact,max( bank_marketing [ 'contact' ])
+min of contact,min( bank_marketing [ 'contact' ])
+quantile of contact,bank_marketing [ 'contact' ] .quantile()
+minimum of contact in bank_marketing,min( bank_marketing [ 'contact' ])
+quantile of bank_marketing,bank_marketing [ 'bank_marketing' ] .quantile()
+How many entries  contact>=1 in bank_marketing dataset,bank_marketing [ bank_marketing [ 'contact' ]  >=  '1' ]
+Number of entries where contact>-8 in bank_marketing,bank_marketing [ bank_marketing [ 'contact' ]  >  '-8' ]
+Number of entries where contact is -3,bank_marketing [ bank_marketing [ 'contact' ] == '-3' ]
+How many data with contact higher than 9,bank_marketing [ bank_marketing [ 'contact' ] > '9' ]
+scatterplot of contact and emp.var.rate,"pltplot.scatter( bank_marketing [ 'contact' ] , bank_marketing [ 'emp.var.rate' ])"
+load bank_marketing,bank_marketing = pd.DataFrame.from_csv ( bank_marketing )
+variance of month in bank_marketing,bank_marketing [ 'month' ] .var()
+maximum of month in bank_marketing,max( bank_marketing [ 'month' ])
+mean of month,bank_marketing [ 'month' ] .mean()
+scatterplot of month in bank_marketing dataset,pltplot.scatter( bank_marketing [ 'month' ])
+boxplot of month,pltplot.boxplot( bank_marketing [ 'month' ])
+corr of month in bank_marketing dataset,bank_marketing [ 'month' ] .corr()
+cor of month in bank_marketing,bank_marketing [ 'month' ] .corr()
+maximum of month in bank_marketing,max( bank_marketing [ 'month' ])
+summary of bank_marketing,bank_marketing [ 'bank_marketing' ] .describe()
+How many rows where month<=3,bank_marketing [ bank_marketing [ 'month' ] <= '3' ]
+Number of rows where month>-10,bank_marketing [ bank_marketing [ 'month' ]  >  '-10' ]
+Number of data month equal to 9,bank_marketing [ bank_marketing [ 'month' ] == '9' ]
+Number of entries month less than -1,bank_marketing [ bank_marketing [ 'month' ] < '-1' ]
+scatterplot between month and pdays,"pltplot.scatter( bank_marketing [ 'month' ] , bank_marketing [ 'pdays' ])"
+load bank_marketing,bank_marketing = pd.DataFrame.from_csv ( bank_marketing )
+quantile of day_of_week,bank_marketing [ 'day_of_week' ] .quantile()
+max of day_of_week in bank_marketing dataset,max( bank_marketing [ 'day_of_week' ])
+describe of day_of_week,bank_marketing [ 'day_of_week' ] .describe()
+maximum of day_of_week in bank_marketing dataset,max( bank_marketing [ 'day_of_week' ])
+min of day_of_week in bank_marketing,min( bank_marketing [ 'day_of_week' ])
+average of day_of_week,bank_marketing [ 'day_of_week' ] .mean()
+mean of day_of_week in bank_marketing,bank_marketing [ 'day_of_week' ] .mean()
+describe of day_of_week in bank_marketing,bank_marketing [ 'day_of_week' ] .describe()
+quantile of bank_marketing,bank_marketing [ 'bank_marketing' ] .quantile()
+How many entries  day_of_week<-7 in bank_marketing,bank_marketing [ bank_marketing [ 'day_of_week' ] < '-7' ]
+Number of rows where day_of_week>2 in bank_marketing dataset,bank_marketing [ bank_marketing [ 'day_of_week' ]  >  '2' ]
+Number of entries day_of_week less than or equal to -3,bank_marketing [ bank_marketing [ 'day_of_week' ] <= '-3' ]
+How many data day_of_week less than 6,bank_marketing [ bank_marketing [ 'day_of_week' ] < '6' ]
+scatterplot of day_of_week and campaign,"pltplot.scatter( bank_marketing [ 'day_of_week' ] , bank_marketing [ 'campaign' ])"
+load bank_marketingbank_marketing_df,bank_marketing_df = pd.DataFrame.from_csv ( bank_marketing )
+correlation of duration,bank_marketing [ 'duration' ] .corr()
+max of duration in bank_marketing,max( bank_marketing [ 'duration' ])
+mean of duration in bank_marketing,bank_marketing [ 'duration' ] .mean()
+describe of duration in bank_marketing,bank_marketing [ 'duration' ] .describe()
+describe of duration in bank_marketing dataset,bank_marketing [ 'duration' ] .describe()
+corr of duration in bank_marketing,bank_marketing [ 'duration' ] .corr()
+minimum of duration in bank_marketing dataset,min( bank_marketing [ 'duration' ])
+var of duration,bank_marketing [ 'duration' ] .var()
+summary of bank_marketing,bank_marketing [ 'bank_marketing' ] .describe()
+How many entries  duration>=-2 in bank_marketing,bank_marketing [ bank_marketing [ 'duration' ] >= '-2' ]
+Number of data with duration>1 in bank_marketing dataset,bank_marketing [ bank_marketing [ 'duration' ] > '1' ]
+Number of data where duration equal to 8,bank_marketing [ bank_marketing [ 'duration' ] == '8' ]
+Number of data with duration higher than or equal to 10,bank_marketing [ bank_marketing [ 'duration' ] higher than or equal to '10' ]
+correlation between duration and euribor3m,bank_marketing [ 'duration' ] .corr ( bank_marketing [ 'euribor3m' ] )
+load bank_marketing,bank_marketing = pd.DataFrame.from_csv ( bank_marketing )
+average of campaign in bank_marketing dataset,bank_marketing [ 'campaign' ] .mean()
+mean of campaign in bank_marketing dataset,bank_marketing [ 'campaign' ] .mean()
+scatterplot of campaign in bank_marketing dataset,pltplot.scatter( bank_marketing [ 'campaign' ])
+mean of campaign in bank_marketing dataset,bank_marketing [ 'campaign' ] .mean()
+correlation of campaign,bank_marketing [ 'campaign' ] .corr()
+cor of campaign,bank_marketing [ 'campaign' ] .corr()
+describe of campaign in bank_marketing dataset,bank_marketing [ 'campaign' ] .describe()
+minimum of campaign,min( bank_marketing [ 'campaign' ])
+quantile of bank_marketing,bank_marketing [ 'bank_marketing' ] .quantile()
+Number of entries where campaign>=-10,bank_marketing [ bank_marketing [ 'campaign' ]  >=  '-10' ]
+Number of rows where campaign=-2,bank_marketing [ bank_marketing [ 'campaign' ] = '-2' ]
+How many entries campaign is -10,bank_marketing [ bank_marketing [ 'campaign' ] == '-10' ]
+Number of entries with campaign higher than -3,bank_marketing [ bank_marketing [ 'campaign' ] > '-3' ]
+scatterplot of campaign with day_of_week,"pltplot.scatter( bank_marketing [ 'campaign' ] , bank_marketing [ 'day_of_week' ])"
+load bank_marketing,bank_marketing = pd.DataFrame.from_csv ( bank_marketing )
+describe of pdays in bank_marketing,bank_marketing [ 'pdays' ] .describe()
+minimum of pdays in bank_marketing dataset,min( bank_marketing [ 'pdays' ])
+correlation of pdays,bank_marketing [ 'pdays' ] .corr()
+mean of pdays in bank_marketing,bank_marketing [ 'pdays' ] .mean()
+scatterplot of pdays,pltplot.scatter( bank_marketing [ 'pdays' ])
+scatterplot of pdays in bank_marketing,pltplot.scatter( bank_marketing [ 'pdays' ])
+min of pdays in bank_marketing dataset,min( bank_marketing [ 'pdays' ])
+histogram of pdays in bank_marketing,pltplot.hist( bank_marketing [ 'pdays' ])
+quantile of bank_marketing,bank_marketing [ 'bank_marketing' ] .quantile()
+How many entries where pdays>=-4,bank_marketing [ bank_marketing [ 'pdays' ] >= '-4' ]
+Number of entries where pdays<=4,bank_marketing [ bank_marketing [ 'pdays' ] <= '4' ]
+How many rows where pdays is -7,bank_marketing [ bank_marketing [ 'pdays' ] == '-7' ]
+How many data pdays equal to 6,bank_marketing [ bank_marketing [ 'pdays' ] == '6' ]
+scatterplot of pdays with job,"pltplot.scatter( bank_marketing [ 'pdays' ] , bank_marketing [ 'job' ])"
+load bank_marketing,bank_marketing = pd.DataFrame.from_csv ( bank_marketing )
+var of previous,bank_marketing [ 'previous' ] .var()
+mean of previous in bank_marketing dataset,bank_marketing [ 'previous' ] .mean()
+corr of previous in bank_marketing dataset,bank_marketing [ 'previous' ] .corr()
+max of previous in bank_marketing,max( bank_marketing [ 'previous' ])
+standard deviation of previous in bank_marketing,bank_marketing [ 'previous' ] .std()
+max of previous,max( bank_marketing [ 'previous' ])
+describe of previous in bank_marketing,bank_marketing [ 'previous' ] .describe()
+describe of previous,bank_marketing [ 'previous' ] .describe()
+quantile of bank_marketing,bank_marketing [ 'bank_marketing' ] .quantile()
+How many entries with previous=-9 in bank_marketing,bank_marketing [ bank_marketing [ 'previous' ]  =  '-9' ]
+How many rows where previous<=3 in bank_marketing dataset,bank_marketing [ bank_marketing [ 'previous' ]  <=  '3' ]
+How many entries where previous less than -9,bank_marketing [ bank_marketing [ 'previous' ] < '-9' ]
+Number of rows with previous higher than 7,bank_marketing [ bank_marketing [ 'previous' ] > '7' ]
+scatterplot between previous with default,"pltplot.scatter( bank_marketing [ 'previous' ] , bank_marketing [ 'default' ])"
+load bank_marketing,bank_marketing = pd.DataFrame.from_csv ( bank_marketing )
+scatter plot of poutcome in bank_marketing,pltplot.scatter( bank_marketing [ 'poutcome' ])
+sum of poutcome in bank_marketing,bank_marketing [ 'poutcome' ] .sum()
+corr of poutcome in bank_marketing,bank_marketing [ 'poutcome' ] .corr()
+quantile of poutcome in bank_marketing dataset,bank_marketing [ 'poutcome' ] .quantile()
+mean of poutcome in bank_marketing dataset,bank_marketing [ 'poutcome' ] .mean()
+var of poutcome in bank_marketing dataset,bank_marketing [ 'poutcome' ] .var()
+correlation of poutcome,bank_marketing [ 'poutcome' ] .corr()
+correlation of poutcome,bank_marketing [ 'poutcome' ] .corr()
+quantile of bank_marketing,bank_marketing [ 'bank_marketing' ] .quantile()
+Number of data  poutcome=6,bank_marketing [ bank_marketing [ 'poutcome' ] = '6' ]
+Number of entries where poutcome<4,bank_marketing [ bank_marketing [ 'poutcome' ] < '4' ]
+Number of rows poutcome less than -4,bank_marketing [ bank_marketing [ 'poutcome' ] < '-4' ]
+How many data with poutcome higher than or equal to 1,bank_marketing [ bank_marketing [ 'poutcome' ] higher than or equal to '1' ]
+correlation between poutcome with duration,bank_marketing [ 'poutcome' ] .corr ( bank_marketing [ 'duration' ] )
+load bank_marketing,bank_marketing = pd.DataFrame.from_csv ( bank_marketing )
+variance of emp.var.rate in bank_marketing,bank_marketing [ 'emp.var.rate' ] .var()
+minimum of emp.var.rate in bank_marketing dataset,min( bank_marketing [ 'emp.var.rate' ])
+cor of emp.var.rate,bank_marketing [ 'emp.var.rate' ] .corr()
+quantile of emp.var.rate in bank_marketing dataset,bank_marketing [ 'emp.var.rate' ] .quantile()
+min of emp.var.rate in bank_marketing,min( bank_marketing [ 'emp.var.rate' ])
+min of emp.var.rate in bank_marketing,min( bank_marketing [ 'emp.var.rate' ])
+min of emp.var.rate in bank_marketing dataset,min( bank_marketing [ 'emp.var.rate' ])
+cor of emp.var.rate in bank_marketing dataset,bank_marketing [ 'emp.var.rate' ] .corr()
+summary of bank_marketing,bank_marketing [ 'bank_marketing' ] .describe()
+How many entries where emp.var.rate<6 in bank_marketing,bank_marketing [ bank_marketing [ 'emp.var.rate' ] < '6' ]
+Number of rows where emp.var.rate>4 in bank_marketing,bank_marketing [ bank_marketing [ 'emp.var.rate' ]  >  '4' ]
+How many rows where emp.var.rate less than 9,bank_marketing [ bank_marketing [ 'emp.var.rate' ] < '9' ]
+How many entries where emp.var.rate less than 10,bank_marketing [ bank_marketing [ 'emp.var.rate' ] < '10' ]
+correlation of emp.var.rate and housing,bank_marketing [ 'emp.var.rate' ] .corr ( bank_marketing [ 'housing' ] )
+load bank_marketing,bank_marketing = pd.DataFrame.from_csv ( bank_marketing )
+boxplot of cons.price.idx,pltplot.boxplot( bank_marketing [ 'cons.price.idx' ])
+sum of cons.price.idx in bank_marketing,bank_marketing [ 'cons.price.idx' ] .sum()
+scatter plot of cons.price.idx in bank_marketing dataset,pltplot.scatter( bank_marketing [ 'cons.price.idx' ])
+variance of cons.price.idx in bank_marketing,bank_marketing [ 'cons.price.idx' ] .var()
+max of cons.price.idx,max( bank_marketing [ 'cons.price.idx' ])
+histogram of cons.price.idx,pltplot.hist( bank_marketing [ 'cons.price.idx' ])
+average of cons.price.idx in bank_marketing,bank_marketing [ 'cons.price.idx' ] .mean()
+correlation of cons.price.idx in bank_marketing,bank_marketing [ 'cons.price.idx' ] .corr()
+summary of bank_marketing,bank_marketing [ 'bank_marketing' ] .describe()
+Number of entries  cons.price.idx=-5 in bank_marketing,bank_marketing [ bank_marketing [ 'cons.price.idx' ] = '-5' ]
+Number of entries where cons.price.idx<=-5 in bank_marketing,bank_marketing [ bank_marketing [ 'cons.price.idx' ]  <=  '-5' ]
+Number of data with cons.price.idx higher than 1,bank_marketing [ bank_marketing [ 'cons.price.idx' ] > '1' ]
+Number of data cons.price.idx less than or equal to 4,bank_marketing [ bank_marketing [ 'cons.price.idx' ] <= '4' ]
+scatterplot of cons.price.idx and month,"pltplot.scatter( bank_marketing [ 'cons.price.idx' ] , bank_marketing [ 'month' ])"
+load bank_marketingbank_marketing_df,bank_marketing_df = pd.DataFrame.from_csv ( bank_marketing )
+histogram of cons.conf.idx in bank_marketing dataset,pltplot.hist( bank_marketing [ 'cons.conf.idx' ])
+boxplot of cons.conf.idx in bank_marketing dataset,pltplot.boxplot( bank_marketing [ 'cons.conf.idx' ])
+boxplot of cons.conf.idx in bank_marketing,pltplot.boxplot( bank_marketing [ 'cons.conf.idx' ])
+scatterplot of cons.conf.idx in bank_marketing,pltplot.scatter( bank_marketing [ 'cons.conf.idx' ])
+correlation of cons.conf.idx in bank_marketing,bank_marketing [ 'cons.conf.idx' ] .corr()
+average of cons.conf.idx in bank_marketing dataset,bank_marketing [ 'cons.conf.idx' ] .mean()
+cor of cons.conf.idx in bank_marketing,bank_marketing [ 'cons.conf.idx' ] .corr()
+variance of cons.conf.idx in bank_marketing,bank_marketing [ 'cons.conf.idx' ] .var()
+summary of bank_marketing,bank_marketing [ 'bank_marketing' ] .describe()
+Number of entries with cons.conf.idx=2 in bank_marketing dataset,bank_marketing [ bank_marketing [ 'cons.conf.idx' ] = '2' ]
+Number of data  cons.conf.idx>=0,bank_marketing [ bank_marketing [ 'cons.conf.idx' ] >= '0' ]
+How many data cons.conf.idx higher than -5,bank_marketing [ bank_marketing [ 'cons.conf.idx' ] > '-5' ]
+Number of entries with cons.conf.idx equal to 3,bank_marketing [ bank_marketing [ 'cons.conf.idx' ] == '3' ]
+correlation of cons.conf.idx with duration,bank_marketing [ 'cons.conf.idx' ] .corr ( bank_marketing [ 'duration' ] )
+load bank_marketing,bank_marketing = pd.DataFrame.from_csv ( bank_marketing )
+scatter plot of euribor3m in bank_marketing dataset,pltplot.scatter( bank_marketing [ 'euribor3m' ])
+min of euribor3m in bank_marketing,min( bank_marketing [ 'euribor3m' ])
+scatter plot of euribor3m in bank_marketing dataset,pltplot.scatter( bank_marketing [ 'euribor3m' ])
+scatter plot of euribor3m,pltplot.scatter( bank_marketing [ 'euribor3m' ])
+describe of euribor3m,bank_marketing [ 'euribor3m' ] .describe()
+corr of euribor3m in bank_marketing dataset,bank_marketing [ 'euribor3m' ] .corr()
+max of euribor3m in bank_marketing dataset,max( bank_marketing [ 'euribor3m' ])
+max of euribor3m in bank_marketing dataset,max( bank_marketing [ 'euribor3m' ])
+summary of bank_marketing,bank_marketing [ 'bank_marketing' ] .describe()
+How many rows where euribor3m>=5 in bank_marketing dataset,bank_marketing [ bank_marketing [ 'euribor3m' ] >= '5' ]
+How many rows with euribor3m<-8 in bank_marketing,bank_marketing [ bank_marketing [ 'euribor3m' ]  <  '-8' ]
+Number of data euribor3m less than or equal to 6,bank_marketing [ bank_marketing [ 'euribor3m' ] <= '6' ]
+How many entries euribor3m is -9,bank_marketing [ bank_marketing [ 'euribor3m' ] == '-9' ]
+correlation between euribor3m with campaign,bank_marketing [ 'euribor3m' ] .corr ( bank_marketing [ 'campaign' ] )
+load bank_marketing,bank_marketing = pd.DataFrame.from_csv ( bank_marketing )
+min of nr.employed in bank_marketing,min( bank_marketing [ 'nr.employed' ])
+maximum of nr.employed,max( bank_marketing [ 'nr.employed' ])
+scatterplot of nr.employed,pltplot.scatter( bank_marketing [ 'nr.employed' ])
+standard deviation of nr.employed in bank_marketing dataset,bank_marketing [ 'nr.employed' ] .std()
+min of nr.employed in bank_marketing,min( bank_marketing [ 'nr.employed' ])
+scatter plot of nr.employed in bank_marketing,pltplot.scatter( bank_marketing [ 'nr.employed' ])
+minimum of nr.employed in bank_marketing,min( bank_marketing [ 'nr.employed' ])
+mean of nr.employed in bank_marketing,bank_marketing [ 'nr.employed' ] .mean()
+summary of bank_marketing,bank_marketing [ 'bank_marketing' ] .describe()
+Number of data with nr.employed>=1 in bank_marketing,bank_marketing [ bank_marketing [ 'nr.employed' ]  >=  '1' ]
+How many data where nr.employed>=-9,bank_marketing [ bank_marketing [ 'nr.employed' ]  >=  '-9' ]
+Number of rows with nr.employed less than 6,bank_marketing [ bank_marketing [ 'nr.employed' ] < '6' ]
+How many data nr.employed higher than 0,bank_marketing [ bank_marketing [ 'nr.employed' ] > '0' ]
+scatterplot of nr.employed with job,"pltplot.scatter( bank_marketing [ 'nr.employed' ] , bank_marketing [ 'job' ])"
+load bank_marketingbank_marketing_df,bank_marketing_df = pd.DataFrame.from_csv ( bank_marketing )
