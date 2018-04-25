@@ -66,7 +66,7 @@ var_names = ["", "{}_df"]
 """
 # probably need to choose multiple functions randomly as there are more possibilities
 # first {}: function
-# second {}: var1
+# second {}: var
 # third {}: ["", " in {}" (dataset), in {} dataset"]
 """
 Q0 = {
@@ -74,7 +74,7 @@ Q0 = {
     "num_params" : 3,
     "params" : {
         0 : ["mean", "average", "max", "maximum", "min", "minimum", "sum", "standard deviation", "variance", "quantile", "histogram", "boxplot", "var", "describe", "scatter plot", "scatterplot", "correlation", "corr", "cor"],
-        1 : "var1",
+        1 : "var",
         2 : ["", " in {}", " in {} dataset"]
     },
     "template_num" : { # given func_type, choose which template to use
@@ -116,7 +116,7 @@ Q2 = {
         0 : ["Number of", "How many"],
         1 : ["data", "rows", "entries"],
         2 : [" ", " with", " where"],
-        3 : "var1",
+        3 : "var",
         4 : ["=", " = ", ">", " > ", "<", " < ", ">=", " >= ", "<=", " <= "],
         5 : "val",
         6 : ["", " in {}", " in {} dataset"]
@@ -141,7 +141,7 @@ Q3 = {
         0 : ["Number of", "How many"],
         1 : ["data", "entries", "rows"],
         2 : [" ", " with ", " where "],
-        3 : "var1",
+        3 : "var",
         4 : ["higher than", "equal to", "less than", "higher than or equal to", "less than or equal to", "is"],
         5 : "val",
         6 : ["", " in {}", " in {} dataset"]
@@ -164,9 +164,9 @@ Q4 = {
     "params" : {
         0 : ["scatterplot", "correlation"],
         1 : ["between", "of"],
-        2 : "var1",
+        2 : "var",
         3 : ["and", "with"],
-        4 : "var2",
+        4 : "var",
         5 : ["", " in {}", " in {} dataset"]
     },
     "template_num" : { # given func_type, choose which template to use
@@ -211,9 +211,9 @@ Q6 = {
         1 : ["", "a ", "the "],
         2 : ["linear relationship", "linear regression", "regression"],
         3 : ["between", "with"],
-        4 : "var1",
+        4 : "var",
         5 : ["", " as response", " as y", " as prediction"],
-        6 : "var2",
+        6 : "var",
         7 : ["", " as covariate", " as covariates", " as explanatory", " as explanatories", " as x"],
         8 : ["", " in {}", " in {} dataset"]
     },
@@ -227,15 +227,10 @@ def make_utterance(q, data, var1, var2):
     params = []
     Q = question_index[q]
     for j in range(Q["num_params"]):
-        p = Q["params"][j]
-        if p == "var1":
-            params.append(var1)
-        elif p == "var2":
-            params.append(var2)
-        elif p == "val":
+        if (var = Q["params"][j]) in ["var", "var1", "var2"]:
+            params.append(var)
+        elif Q["params"][j] == "val":
             params.append(random.randint(-10, 10))
-        elif p == "data":
-            params.append(data)
         else:
             # choose random entry
             this_param = random.choice(Q["params"][j])
@@ -374,6 +369,7 @@ def make_target(q, utterance, params, data, var1, var2):
 def make_data(raw_data):
     for data, varnames in datasets.items():
         for var1 in varnames:
+            print(var1)
             tmp = list(varnames)
             tmp.remove(var1)
             for q in range(question_index["num"]-1):
