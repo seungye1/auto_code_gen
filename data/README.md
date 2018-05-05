@@ -1,4 +1,3 @@
 # TODO
-- Need to clear up `make_target()`, especially in terms of making templates when storing into variables
-- Maybe boolean indicator for storing
-- Need more (complicated) questions
+- How to make it more generalized???
+- End goal should be to make most of tokens anonymized, such that with a simple user input, functions automatically generate these question formats as well. But sounds fckin hard....
