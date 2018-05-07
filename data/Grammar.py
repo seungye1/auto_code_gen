@@ -1,9 +1,14 @@
-# Has to indicate each column as a tuple of (column, type ('d' or 'c')
+# class Grammar:
+# # Has to indicate each column as a tuple of (column, type ('d' or 'c')
+#     def __init__(self):
+        #### HAS TO BE ABLE TO MAKE THIS SCALBLE as in recognizing different
+# vars, datasets, functions, ....
+num_type = 6 # <function>, <var1>, <var2>, <var_name>, <val>, <dataset>
 Datasets = {
     # [cont, cont, cont, cont]
     "iris" : [("sepal_length", "c"), ("sepal_width", "c"),  ("petal_length", "c"), ("petal_width")],
     # [cont, dis, cont, dis, cont, dis, dis, dis, dis, dis, dis, cont, cont, cont, dis]
-    "adult" : [("age", "c") ("workclass", "d"), ("fnlwgt", "c"), ("education", "d"), ("education_num", "c"),  ("marital_status", "d"), ("occupation", "d"), ("house_serv", "d"), ("relationship", "d"), ("race", "d"), ("sex", "d"), ("capital_gain", "c"), ("capital_loss", "c"), ("hours_per_week", "d"), ("native_country", "d")],
+    "adult" : [("age", "c"), ("workclass", "d"), ("fnlwgt", "c"), ("education", "d"), ("education_num", "c"),  ("marital_status", "d"), ("occupation", "d"), ("house_serv", "d"), ("relationship", "d"), ("race", "d"), ("sex", "d"), ("capital_gain", "c"), ("capital_loss", "c"), ("hours_per_week", "d"), ("native_country", "d")],
     # [dis, rest are cont]
     "wine" : ["alcohol", "malic_acid", "ash", "alcalinity_of_ash", "magnesium", "total_phenols", "flavanoids", "nonflavanoid_phenols", "proanthocyanins", "varor_intensity", "hue"],
     # all dis
@@ -23,6 +28,8 @@ Datasets = {
     # [dis, dis, dis, dis, dis, dis, dis, dis, dis, dis, cont, cont, cont, cont, dis, cont, cont, cont, cont, cont]
     "bank_marketing" : ["age", "job", "marital", "education", "default", "housing", "loan", "contact", "month", "day_of_week", "duration", "campaign", "pdays", "previous", "poutcome", "emp.var.rate", "cons.price.idx", "cons.conf.idx", "euribor3m", "nr.employed"]
 }
+
+DatasetNames = list(Datasets.keys())
 
 """
 # function_type = {0:"built-in", 1:"pd", 2:"matplotlib", 3:"scikit"}
@@ -51,7 +58,7 @@ Functions = {
         ("boxplot", ) : "boxplot",
     },
     "data" : {
-        ("load", ) : "load",
+        ("load", "store") : "load",
         ("summary", "describe") : "describe",
         ("quantile", ) : "quantile",
     },
@@ -60,7 +67,7 @@ Functions = {
         ("correlation", "cor", "corr") : "corr",
     },
     "reg" : {
-        ("linear relationship", "linear regression", "regression", "linear fit") : "lr",
+        ("Fit", "Make", "Produce") : "lr",
     },
     "pred" : {
         ("predict", "forecast", "predicted", "predicting") : "predict"
@@ -81,4 +88,19 @@ Functions = {
     }
 }
 
-:
+VarNames = ["", "{}_df", "a", "{}df", "{}_data", "df", "data", "d"]
+
+
+CommonWords = {
+        "data_op" : ["in {data}", "in {data} dataset", "in {data} data", "in {data} df"],
+        "data_empty" : ["", "dataset", "data", "df"],
+        "store_in" : ["", " and store in {}", " and store in variable {}", " in {}"]
+        }
+
+Grammar = {
+        "determiner" : ["", "a", "the"]
+        }
+
+
+
+    ### MAKE MORE GENERALIZED FORM OF TEMPLATES

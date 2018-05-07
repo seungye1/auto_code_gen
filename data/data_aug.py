@@ -5,7 +5,10 @@ import traceback
 import sys
 from struct import Struct
 
-import config
+# import Question as QS
+import Grammar as DT
+import question_examples as ex
+
 
 # exceptions
 class FunctionNotExist(Exception):
@@ -49,195 +52,6 @@ print(dict_to_list(Functions["comp"]))
 ####################################################################
 # Templates for Questions
 ####################################################################
-
-df_var_names = ["", "{}_df", "a", "{}df", "{}_data", "df", "data", "d"]
-"""
-# {1} : functions using one variable, that is not dataset
-# {1} : var1
-# third {}: [" in {}", " in {} dataset", "in {} data", " in {} df"] (data)
-"""
-class Q0:
-    def __init__(self):
-        self.num_param = 3
-        self.func_key = ["1var"+"data", "1var"]
-        self.question = "{0} of {1}{2}"
-        self.param_option : {
-            0 : dict_to_list(Functions["1var"+"data"]) + dict_to_list(Functions["1var"]),
-            1 : "var1",
-            2 : [" in {}", " in {} dataset", " in {} data", " in {} df"]
-        }
-        self.param = dict.fromkeys(range(0, 2))
-
-    def __setitem__(self, ind, val):
-        self.param[ind] = val
-
-    def __getitem__(self, ind):
-        return random.choice(self.param_option[i])
-
-"""
-# first {}: functions using one dataset
-# second {}: data
-# third {}: [" dataset", " data", "", " df"]
-"""
-class Q1:
-    def __init__(self):
-        self.num_param = 3
-        self.func_key = [
-
-
-{
-    "question" : "{} of {}",
-    "num_params" : 3,
-    "params" : {
-        0 : dict_to_list(Functions["1var"+"data"]) + dict_to_list(Functions["data"]),
-        1 : "data",
-        2 : [" dataset", " data", "", " df"]
-    },
-    "func_key" : ["1var"+"data", "data"],
-}
-"""
-# first {}: ["Number of", "How many"]
-# second {}: ["data", "rows", "entries", "info"]
-# third {}: [" ", " with", " where"]
-# fourth {}: var
-# fifth {}: comparison functions
-# sixth {}: val
-# seventh {}: [" in {}", " in {} dataset", " in {} data", " in {} df"]
-"""
-Q2 = {
-    "question" : "{} {}{} {}{}{}{}",
-    "num_params" : 7,
-    "params" : {
-        0 : ["Number of", "How many"],
-        1 : ["data", "rows", "entries", "info"],
-        2 : ["", " with", " where"],
-        3 : "var1",
-        4 : dict_to_list(Functions["comp"]),
-        5 : "val",
-        6 : [" in {}", " in {} dataset", " in {} data", " in {} df"]
-    },
-    "func_key" : ["comp"],
-}
-"""
-# first {}: ["scatterplot", "correlation"]
-# second {}: ["between", "of"]
-# third {}: var
-# fourth {}: ["and", "with"]
-# fifth {}: var
-# sixth {}: [" in {}, " in {} dataset", "in {} data", "in {} df"]
-"""
-Q3 = {
-    "question" : "{} {} {} {} {}",
-    "num_params" : 6,
-    "params" : {
-        0 : dict_to_list(Functions["2var"]),
-        1 : ["between", "of"],
-        2 : "var1",
-        3 : ["and", "with"],
-        4 : "var2",
-        5 : [" in {}", " in {} dataset", " in {} data", " in {} df"]
-    },
-    "func_key" : ["2var"],
-}
-"""
-# first {}: data
-# second {}: ["", " and store in {}", " and store in variable {}", " in {}"] (var_name)
-"""
-Q4 = {
-    "question" : "load {}{}",
-    "num_params" : 2,
-    "params" : {
-        0 : "data",
-        1 : ["", " and store in {}", " and store in variable {}", " in {}"]
-    },
-    "func_key" : ["data"],
-}
-"""
-# first {}: ["Fit", "Make", "Output", "Produce"]
-# second {}: ["", "a ", "the "]
-# third {}: ["linear relationship", "linear regression", "regression"]
-# fourth {}: ["between", "with"]
-# fifth {}: var
-# sixth {}: ["", " as response", " as y", " as prediction"]
-# seventh {}: var
-# eighth {}: ["", " as covariate", " as covariates", " as explanatory", " as explanatories", " as x"]
-# ninth {}: [" in {}, " in {} dataset", "in {} data", "in {} df"]
-"""
-Q5 = {
-    "question" : "{} {}{} {} {}{} and {}{}",
-    "num_params" : 9,
-    "params" : {
-        0 : ["Fit", "Make", "Output", "Produce"],
-        1 : ["", "a ", "the "],
-        2 : dict_to_list(Functions["reg"]),
-        3 : ["between", "with"],
-        4 : "var1",
-        5 : ["", " as response", " as y", " as prediction", " to predict"],
-        6 : "var2",
-        7 : ["", " as covariate", " as covariates", " as explanatory", " as explanatories", " as x", " as X"],
-        8 : [" in {}", " in {} dataset", " in {} data", " in {} df"]
-    },
-    "func_key" : ["reg"],
-}
-question_index = {0:Q0, 1:Q1, 2:Q2, 3:Q3, 4:Q4, 5:Q5, "num":7}
-
-
-
-# Make utterance based on the question, data, and variables
-def make_utterance(q, data, var1, var2):
-    params = []
-    Q = question_index[q]
-    for j in range(Q["num_params"]):
-        p = Q["params"][j]
-        if p == "var1":
-            params.append(var1)
-        elif p == "var2":
-            params.append(var2)
-        elif p == "val":
-            params.append(random.uniform(-100.0, 100.0))
-        elif p == "data":
-            params.append(data)
-        else:
-            # choose random entry
-            this_param = random.choice(p)
-            # ALL HAND ENGINEERING
-            # Questions and indices requiring additional string formatting with data
-            # <Question ParameterIndex>
-            # <Q0 p3>, <Q1 p3>, <Q2 p7> <Q3 p6> <Q4 p2> <Q5 p8>
-            # <Q4 2th-p> needs additional engineering with custom variable names
-            is_format = False # for strings requiring additional formatting
-            for p in this_param:
-                if p == "{":
-                    is_format = True
-                    if q != 4: # variable name
-                        params.append(this_param.format(data))
-                    break
-            if q == 4 and j == 1: # storing variable name
-                var_name = random.choice(df_var_names)
-                if this_param == "":
-                    params.append(this_param)
-                else:
-                    params.append(var_name.format(data))
-            elif not is_format:
-                params.append(this_param)
-    # Fill up the entries for Q
-    if q == 0: # 3 params
-        utterance = Q["question"].format(params[0], params[1], params[2])
-    elif q == 1: # 3 params
-        utterance = Q["question"].format(params[0], params[1], params[2])
-    elif q == 2: # 7 params
-        utterance = Q["question"].format(params[0], params[1], params[2],
-            params[3], params[4], params[5], params[6])
-    elif q == 3: # 6 params
-        utterance = Q["question"].format(params[0], params[1], params[2],
-            params[3], params[4], params[5])
-    elif q == 4: # 2 params
-        utterance = Q["question"].format(params[0], params[1])
-    elif q == 5: # 9 params
-        utterance = Q["question"].format(params[0], params[1], params[2],
-            params[3], params[4], params[5], params[6], params[7], params[8])
-
-    return utterance, params
 
 # func_template_load : load data and store in var_name
 # func_template_v1_df : call fuction on either data with optional variable
@@ -370,8 +184,8 @@ def make_data(raw_data):
                     repeat = 12
                 for i in range(repeat):
                     var2 = random.choice(vars_but_one)
-                    utterance, params = make_utterance(q, data, var1, var2)
-                    target = make_target(q, utterance, params, data, var1, var2)
+                    utterance, param = make_utterance(q, data, var1, var2)
+                    target = make_target(q, utterance, param, data, var1, var2)
                     raw_data["utterance"].append(utterance)
                     raw_data["target"].append(target)
 
