@@ -4,6 +4,7 @@
 - **Need to figure out how to make it scalable in the future, for example number of vars, vals, or even datasets
 *- `make_target()` function should be implemented inside `Question.py`
 - `make_template()` might need to be inside `Questions.py` as well
+- Also need to take care of helper functions everywhere right now. -> Better interface
 
 # UPDATES
 #### (2018-05-08) Update

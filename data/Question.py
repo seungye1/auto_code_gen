@@ -7,7 +7,7 @@ class IllegalInput(Exception):
 
     ### MAKE MORE GENERALIZED FORM OF TEMPLATES
 
-class Questions:
+class Question:
     def __init__(self, num_param, func_key, question, param_detail):
         self.num_param = num_param
         self.func_key = func_key

@@ -22,7 +22,7 @@ Q0_param = {
         2 : "<var1>",
         3 : DT.CommonWords["data_op"],
         }
-Q0 = QS.Questions(num_param = 4,
+Q0 = QS.Question(num_param = 4,
         func_key = ["1var"+"data", "1var"],
         question = ["{func}", "{prep}", "{var1}", "{data_op}"],
         param_detail = Q0_param)
@@ -39,7 +39,7 @@ Q1_param = {
         1 : "<data>",
         2 : DT.CommonWords["data_empty"],
         }
-Q1 = QS.Questions(num_param = 3,
+Q1 = QS.Question(num_param = 3,
         func_key = ["1var"+"data", "data"],
         question = ["{func}", "{prep}", "{var1}", "{data_op}"],
         param_detail = Q1_param)
@@ -62,7 +62,7 @@ Q2_param = {
         5 : "<val>",
         6 : DT.CommonWords["data_empty"]
         }
-Q2 = QS.Questions(num_param = 7,
+Q2 = QS.Question(num_param = 7,
         func_key = ["comp"],
         question = ["{1}", "{2}", "{3}", "{var1}", "{func}", "{val}", "{data_op}"],
         param_detal = Q2_param)
@@ -82,7 +82,7 @@ Q3_param = {
         4 : "<var2>",
         5 : DT.CommonWords["data_op"],
         }
-Q3 = QS.Questions(num_param = 6,
+Q3 = QS.Question(num_param = 6,
         func_key = ["2var"],
         question = ["{func}", "{1}", "{var1}", "{3}", "{var2}", "{5}"],
         param_detail = Q3_param)
@@ -98,7 +98,7 @@ Q4_param = {
         2 : DT.CommonWords["data_empty"],
         3 : DT.CommonWords["store_in"]
         }
-Q4 = QS.Questions(num_param = 2,
+Q4 = QS.Question(num_param = 2,
         func_key = ["data"],
         question = ["{func}", "{data}", "{2}", "{3}"],
         param_detail = Q4_param)
@@ -124,7 +124,7 @@ Q5_param = {
         7 : ["", " as covariate", " as covariates", " as explanatory", " as explanatories", " as x", " as X"],
         8 : DT.CW[data_op]
     }
-Q5 = Questions(num_param = 9,
+Q5 = Question(num_param = 9,
         func_key = ["reg"],
         question = ["{func}", "{1}", "{2}", "{3}", "{var1}", "{5}",
             "{var2}", "{7}", "{data_op}"],
