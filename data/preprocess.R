@@ -1,14 +1,14 @@
-data = read.csv("dataset.csv", header=T)
+data = read.csv("survey.csv", header=T)
 
 without.coding = subset(data, data[,2] == "No")[,3:8]
 with.coding = subset(data, data[,2] == "Yes")[, 9:14]
 
-target1 = "WeatherHistory [ 'Temperature' ] .mean()"
-target2 = "max( WeatherHistory [ 'Temperature' ] )"
-target3 = "min( WeatherHistory [ 'Temperature' ] )"
-target4 = "WeatherHistroy [ 'Temperature' ] .corr( WeatherHistory [ 'FeelingTemperature' ] )"
-target5 = "linreg.fit( WeatherHistory [ 'Temperature' ] , WeatherHistory [ 'Humidity' ] )"
-target6 = "linreg.predict( pd.DataFrame( { 'Temperature' : 12 } ))"
+target1 = "mean ( data = WeatherHistory, var1 = 'Temperature' )"
+target2 = "max ( data = WeatherHistory, var1 = 'Temperature' )"
+target3 = "min ( data = WeatherHistory, var1 = 'Temperature' )"
+target4 = "corr ( data = WeatherHistroy, var1 = 'Temperature', var2 = 'FeelingTemperature' )"
+target5 = "lr ( data = WeatherHistory, var1 = 'Temperature', var2 = 'Humidity' )"
+target6 = "lr_pred ( model = linreg, newdata = { 'Temperature' : 12 } ) )"
 
 targets = c(target1, target2, target3, target4, target5, target6)
 

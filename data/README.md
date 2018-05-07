@@ -1,12 +1,13 @@
-# TODO (05/07/2018)
-- Need to fix `data_aug.py` file to reflectd all thq changes divided into Grammar, Question, and question_examples
-- `make_target()` function should be implemented inside `Question.py`
-- **Need to figure out how to make it scalable in the future, for example number of vars, vals, or even datasets
-*- `make_target()` function should be implemented inside `Question.py`
-- `make_template()` might need to be inside `Questions.py` as well
-- Also need to take care of helper functions everywhere right now. -> Better interface
+# TODO
+- Parsing multiple vars, functions, and values into utterance will be the biggest task
+- Defining function template part seems too ... labor-intensive
 
 # UPDATES
+#### (2018-05-09) Update
+- Fully working model with given DataTable.py, but still very far from generalized utterance and target generating program
+- As defined in `num_type` in DataTable.py, for each type Question.py is still hardcoded.
+- Helper functions in DataTable should also be hand-coded for now.
+
 #### (2018-05-08) Update
 - Generalized data augmentation started by changing quetion types to class.
 - Divided files into `Quesitons.py`, `Grammar.py`, and `question.examples.py` to make it more generalizable
