@@ -45,7 +45,7 @@ DatasetNames = list(Datasets.keys())
 # func_template_v1_cmp : call function on variable with conditional val
 # func_template_v2 : call function
 FuncTemplates = {
-    "load" : "{func} ( data = {data} , var1 = {var_name} )",
+    "load" : "{func} ( data = {data} , var_name = {var_name} )",
     "v1" : "{func} ( data = {data} , var1 = {var1} )",
     "v1_cmp" : "{func} ( data = {data} , var1 = {var1} , val = {val} )",
     "v2" : "{func} ( data = {data}, var1 = {var1} , var2 = {var2} )",

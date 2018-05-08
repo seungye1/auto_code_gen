@@ -78,20 +78,20 @@ data_x = df["utterance"]
 data_y = df["targets"]
 
 
-new_data_x = []
-# new_data_y = []
-for utterance in data_x:
-    sentence = utterance.lower()
-    sentence = sentence.replace(">=", " >= ") if sentence.find(">=") != -1 else sentence.replace(">", " > ")
-    sentence = sentence.replace("<=", " <= ") if sentence.find("<=") != -1 else sentence.replace("<", " < ")
-    sentence = sentence.replace("==", " == ") if sentence.find("==") != -1 else sentence.replace("=", "=")
-    if sentence.find(">=") == -1 and sentence.find("<=") == -1 and sentence.find('==') == -1 and sentence.find('=') != -1:
-        sentence = sentence.replace("=", " = ")
-    if sentence.strip()[-1] == ".":
-        sentence = sentence[:-1] + " . "
-    punct_table = str.maketrans({key: " " + key + " " for key in string.punctuation if key != '_' and key != "'" and key != ">" and key != "=" and key != "<" and key != "-" and key != '.'})
-    sentence = sentence.translate(punct_table)
-    new_data_x.append(sentence)
+# new_data_x = []
+# # new_data_y = []
+# for utterance in data_x:
+#     sentence = utterance.lower()
+#     sentence = sentence.replace(">=", " >= ") if sentence.find(">=") != -1 else sentence.replace(">", " > ")
+#     sentence = sentence.replace("<=", " <= ") if sentence.find("<=") != -1 else sentence.replace("<", " < ")
+#     sentence = sentence.replace("==", " == ") if sentence.find("==") != -1 else sentence.replace("=", "=")
+#     if sentence.find(">=") == -1 and sentence.find("<=") == -1 and sentence.find('==') == -1 and sentence.find('=') != -1:
+#         sentence = sentence.replace("=", " = ")
+#     if sentence.strip()[-1] == ".":
+#         sentence = sentence[:-1] + " . "
+#     punct_table = str.maketrans({key: " " + key + " " for key in string.punctuation if key != '_' and key != "'" and key != ">" and key != "=" and key != "<" and key != "-" and key != '.'})
+#     sentence = sentence.translate(punct_table)
+#     new_data_x.append(sentence)
 
 
 #     sentence = sentence.replace("higher than or equal to", " geq( ")
@@ -121,8 +121,7 @@ for utterance in data_x:
 
 # split into test/train data
 from sklearn.model_selection import train_test_split
-train_x, test_x, train_y, test_y = train_test_split(pd.Series(new_data_x), data_y, test_size=0.2)
-train_x
+train_x, test_x, train_y, test_y = train_test_split(data_x, data_y, test_size=0.2)
 
 
 # In[6]:
@@ -602,14 +601,14 @@ model = AttentionSeq2Seq(50, 20, input_vocab, output_vocab, True)
 
 optim = torch.optim.Adam(model.parameters(), lr = 0.001)
 
-# ############################# training loop
-# n_epochs = 150
-# for e in range(n_epochs):
-#     train_loss = 0.0
-#     for ex in train_loader:
-#         l = train(ex, model, optim)
-#         train_loss += l
-#     print("Epoch = %d | Loss = %.2f" % (e, train_loss))
+############################# training loop
+n_epochs = 100
+for e in range(n_epochs):
+    train_loss = 0.0
+    for ex in train_loader:
+        l = train(ex, model, optim)
+        train_loss += l
+    print("Epoch = %d | Loss = %.2f" % (e, train_loss))
 
 
 # #### Part 2.3: Test the model
@@ -700,17 +699,14 @@ def test_batch(data_loader, model, max_len=15):
     print("Test accuracy: {}".format(num_correct / len(data_loader)))
 
 
-print(test_loader)
 
-# test_batch(test_loader, model)
+test_batch(test_loader, model)
 # Save model
-# print("Saving model")
-# torch.save(model, "model/dd.model")
+print("Saving model")
+torch.save(model, "model/initial.model")
 
 # Load model
-model = torch.model("model/dd.model")
-
-# In[21]:
+# model = torch.model("model/dd.model")
 
 
 [ex.x_str for ex in test_loader.dataset.examples]
