@@ -35,7 +35,7 @@ from pandas.api.types import is_numeric_dtype
 # In[6]:
 
 
-def load(data=path, var_name=None):
+def load(path, df_name=None):
     if df_name == None:
         default_name = path[:-4]
         print("Loading " + path + " as " + default_name)
@@ -43,31 +43,31 @@ def load(data=path, var_name=None):
     else:
         print("Loading " + path + " as " + df_name)
         return "%s = pd.read_csv('%s')" % (path, df_name)
-
-def mean(data=df, var1=None):
+    
+def mean(df, variable):
     if is_numeric_dtype(df[variable]) == False:
         return "Column is not numeric"
     else:
         return "%s['%s'].mean()" % (df, variable)
-
+    
 def minimum(df, variable):
     if is_numeric_dtype(df[variable]) == False:
         return "Column is not numeric"
     else:
         return "%s['%s'].min()" % (df, variable)
-
+    
 def maximum(df, variable):
     if is_numeric_dtype(df[variable]) == False:
         return "Column is not numeric"
     else:
         return "%s['%s'].max()" % (df, variable)
-
+    
 def quantile(df, variable, quant=.5):
     if is_numeric_dtype(df[variable]) == False:
         return "Column is not numeric"
     else:
         return "%s['%s'].quantile(%s)" % (df, variable, str(quant))
-
+    
 def ranges(df, variable):
     if is_numeric_dtype(df[variable]) == False:
         return "Column is not numeric"
@@ -81,7 +81,7 @@ def greater(df, variable, i):
         return "Comparison must be numeric"
     else:
         return "%s[%s['%s' > %s]]" % (df, df, variable, str(i))
-
+    
 def less(df, variable, i):
     if is_numeric_dtype(df[variable]) == False:
         return "Column is not numeric"
@@ -89,7 +89,7 @@ def less(df, variable, i):
         return "Comparison must be numeric"
     else:
         return "%s[%s['%s' < %s]]" % (df, df, variable, str(i))
-
+    
 def greater_eq(df, variable, i):
     if is_numeric_dtype(df[variable]) == False:
         return "Column is not numeric"
@@ -97,7 +97,7 @@ def greater_eq(df, variable, i):
         return "Comparison must be numeric"
     else:
         return "%s[%s['%s' >= %s]]" % (df, df, variable, str(i))
-
+    
 def less_eq(df, variable, i):
     if is_numeric_dtype(df[variable]) == False:
         return "Column is not numeric"
@@ -105,7 +105,7 @@ def less_eq(df, variable, i):
         return "Comparison must be numeric"
     else:
         return "%s[%s['%s' <= %s]]" % (df, df, variable, str(i))
-
+    
 def equal(df, variable, i):
     if is_numeric_dtype(df[variable]) and isinstance(i, str):
         return "Column is numeric, not a string"
@@ -113,7 +113,7 @@ def equal(df, variable, i):
         return "Column is numeric, not a string"
     else:
         return "%s[%s['%s' == %s]]" % (df, df, variable, str(i))
-
+    
 def describe(df):
     return "%s.describe()" % (df)
 
@@ -122,13 +122,13 @@ def std(df, variable):
         return "Column is not numeric"
     else:
         return "%s['%s'].std()" % (df, variable)
-
+    
 def variance(df, variable):
     if is_numeric_dtype(df[variable]) == False:
         return "Column is not numeric"
     else:
         return "%s['%s'].var()" % (df, variable)
-
+    
 def lr(df, x, y):
     return "lr"
 
@@ -140,7 +140,7 @@ def corr(df, variable_1, variable_2):
         return "%s['%s'].corr(%s['%s'])" % (df, variable_1, df variable_2)
     else:
         return "Both columns need to be numerical"
-
+    
 def scatterplot(df, variable_1, variable_2):
     if is_numeric_dtype(df[variable]) == False:
         return "Column is not numeric"

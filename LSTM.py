@@ -700,13 +700,13 @@ def test_batch(data_loader, model, max_len=15):
 
 
 
-test_batch(test_loader, model)
+# test_batch(test_loader, model)
 # Save model
-print("Saving model")
-torch.save(model, "model/initial.model")
+# print("Saving model")
+# torch.save(model, "model/initial.model")
 
 # Load model
-# model = torch.model("model/dd.model")
+model = torch.model("model/dd.model")
 
 
 [ex.x_str for ex in test_loader.dataset.examples]

@@ -46,3 +46,4 @@ community-server/data
 community-server/data-backup
 
 GloVe/*
+data/*.csv
