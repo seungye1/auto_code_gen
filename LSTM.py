@@ -1,17 +1,19 @@
 
 # coding: utf-8
 
-# In[2]:
+# In[1]:
+
 
 import torch
 from torch.autograd import Variable
 import torch.nn as nn
 import torch.nn.functional as F
+import string
 
 torch.manual_seed(1013)
 
 
-# In[45]:
+# In[2]:
 
 
 # copy_mappings = dict()
@@ -68,30 +70,31 @@ torch.manual_seed(1013)
 
 # ### Part 1: Prepare the data
 
-# In[74]:
+# In[3]:
 
 
 import pandas as pd
+import string
 df = pd.read_csv("data/codegen.csv")
 # df.head()
 data_x = df["utterance"]
 data_y = df["targets"]
 
 
-# new_data_x = []
-# # new_data_y = []
-# for utterance in data_x:
-#     sentence = utterance.lower()
-#     sentence = sentence.replace(">=", " >= ") if sentence.find(">=") != -1 else sentence.replace(">", " > ")
-#     sentence = sentence.replace("<=", " <= ") if sentence.find("<=") != -1 else sentence.replace("<", " < ")
-#     sentence = sentence.replace("==", " == ") if sentence.find("==") != -1 else sentence.replace("=", "=")
-#     if sentence.find(">=") == -1 and sentence.find("<=") == -1 and sentence.find('==') == -1 and sentence.find('=') != -1:
-#         sentence = sentence.replace("=", " = ")
-#     if sentence.strip()[-1] == ".":
-#         sentence = sentence[:-1] + " . "
-#     punct_table = str.maketrans({key: " " + key + " " for key in string.punctuation if key != '_' and key != "'" and key != ">" and key != "=" and key != "<" and key != "-" and key != '.'})
-#     sentence = sentence.translate(punct_table)
-#     new_data_x.append(sentence)
+new_data_x = []
+# new_data_y = []
+for utterance in data_x:
+    sentence = utterance.lower()
+    sentence = sentence.replace(">=", " >= ") if sentence.find(">=") != -1 else sentence.replace(">", " > ")
+    sentence = sentence.replace("<=", " <= ") if sentence.find("<=") != -1 else sentence.replace("<", " < ")
+    sentence = sentence.replace("==", " == ") if sentence.find("==") != -1 else sentence.replace("=", "=")
+    if sentence.find(">=") == -1 and sentence.find("<=") == -1 and sentence.find('==') == -1 and sentence.find('=') != -1:
+        sentence = sentence.replace("=", " = ")
+    if sentence.strip()[-1] == ".":
+        sentence = sentence[:-1] + " . "
+    punct_table = str.maketrans({key: " " + key + " " for key in string.punctuation if key != '_' and key != "'" and key != ">" and key != "=" and key != "<" and key != "-" and key != '.'})
+    sentence = sentence.translate(punct_table)
+    new_data_x.append(sentence)
 
 
 #     sentence = sentence.replace("higher than or equal to", " geq( ")
@@ -121,10 +124,11 @@ data_y = df["targets"]
 
 # split into test/train data
 from sklearn.model_selection import train_test_split
-train_x, test_x, train_y, test_y = train_test_split(data_x, data_y, test_size=0.2)
+train_x, test_x, train_y, test_y = train_test_split(pd.Series(new_data_x), data_y, test_size=0.2)
+train_x
 
 
-# In[6]:
+# In[4]:
 
 
 # copy_mappings = dict()
@@ -157,7 +161,7 @@ train_x, test_x, train_y, test_y = train_test_split(data_x, data_y, test_size=0.
 # Building input and output vocabulary.
 #
 
-# In[81]:
+# In[5]:
 
 
 #copy
@@ -214,7 +218,7 @@ print(input_vocab.tok2ind)
 print(output_vocab.ind2tok)
 
 
-# In[85]:
+# In[6]:
 
 
 # from collections import Counter
@@ -251,7 +255,7 @@ print(output_vocab.ind2tok)
 #         indices = [self.get_index(w) for w in words]
 #         return indices
 
-import string
+# import string
 
 # def replace_punct(sentence):
 #     """
@@ -293,7 +297,7 @@ import string
 
 # Process training and test datasets.
 
-# In[79]:
+# In[7]:
 
 
 from torch.utils.data import Dataset
@@ -342,7 +346,7 @@ for x,y in zip(test_x, test_y):
     test_exs.append(Example(x, y, input_vocab, output_vocab))
 
 test_dataset = ReaderDataset(test_exs)
-print([ex.input_vocab.tok2ind for ex in test_dataset.examples])
+# print([ex.input_vocab.tok2ind for ex in test_dataset.examples])
 
 # for x in test_dataset:
 #     print(x.y_in_x_inds)
@@ -350,7 +354,7 @@ print([ex.input_vocab.tok2ind for ex in test_dataset.examples])
 
 # Vectorize individual examples and organize them into batches.
 
-# In[20]:
+# In[8]:
 
 
 # vectorize batch data
@@ -408,7 +412,7 @@ test_loader = torch.utils.data.DataLoader(
 
 
 
-# In[17]:
+# In[9]:
 
 
 # stack bidirectional LSTM
@@ -443,7 +447,7 @@ class StackBRNN(nn.Module):
 
 # #### Part 2.1: Define the basic seq2seq model
 
-# In[18]:
+# In[10]:
 
 
 class Seq2Seq(nn.Module):
@@ -481,7 +485,7 @@ class Seq2Seq(nn.Module):
 
 # <img src="attention.png">
 
-# In[59]:
+# In[11]:
 
 
 class AttentionSeq2Seq(nn.Module):
@@ -535,7 +539,7 @@ class AttentionSeq2Seq(nn.Module):
 # Now we can initialize and train the network:
 #
 
-# In[60]:
+# In[ ]:
 
 
 def train(ex, model, optim):
@@ -601,8 +605,8 @@ model = AttentionSeq2Seq(50, 20, input_vocab, output_vocab, True)
 
 optim = torch.optim.Adam(model.parameters(), lr = 0.001)
 
-############################# training loop
-n_epochs = 100
+# training loop
+n_epochs = 150
 for e in range(n_epochs):
     train_loss = 0.0
     for ex in train_loader:
@@ -615,7 +619,7 @@ for e in range(n_epochs):
 
 # Testing the model, similar to training. Using greedy search to infer the most likely sequence output.
 
-# In[63]:
+# In[ ]:
 
 
 def test_batch(data_loader, model, max_len=15):
@@ -700,13 +704,11 @@ def test_batch(data_loader, model, max_len=15):
 
 
 
-# test_batch(test_loader, model)
-# Save model
-# print("Saving model")
-# torch.save(model, "model/initial.model")
+test_batch(test_loader, model)
+torch.save(model, "model/after_data_aug.model")
 
-# Load model
-model = torch.model("model/dd.model")
+
+# In[ ]:
 
 
 [ex.x_str for ex in test_loader.dataset.examples]

@@ -46,4 +46,5 @@ community-server/data
 community-server/data-backup
 
 GloVe/*
-data/*.csv
+ppdb-2.0-tldr
+

@@ -1,9 +1,0 @@
-Mission: Draw a scatterplot of variable Y versus variable X
-Variation:
-    - Draw the relationship (distribution) between X and Y (or Y and X)
-    - What is the distribution of X versus Y (or Y versus X)
-    - What is the (linear) relationship between X and Y (* or is this asking for correlation? -> then should ask back with a question)
-
-
-
-

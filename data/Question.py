@@ -1,6 +1,7 @@
 import random
 
 import DataTable as DT
+import question_examples as ex
 
 class IllegalInput(Exception):
     pass
@@ -52,7 +53,7 @@ class Questions:
                     result = result.format(data=data)
                 elif "{var_name}" in result:
                     tmp_var_name = random.choice(DT.VarNames)
-                    if "{data}" in result:
+                    if "{data}" in tmp_var_name:
                         tmp_var_name = tmp_var_name.format(data=data)
                     result = result.format(var_name=tmp_var_name)
             self.param.append(result)

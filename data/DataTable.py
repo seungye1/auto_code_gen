@@ -89,16 +89,17 @@ Functions = {
         ("scatterplot", "scatter plot") : "scatterplot",
         ("correlation", "cor", "corr") : "corr",
     },
+    ### Make can be many different things
     "reg" : {
-        ("Fit", "Make", "Produce") : "lr",
+        ("linear relationship", "linear regression", "regresion") : "lr",
     },
     "pred" : {
-        ("predict", "forecast", "predicted", "predicting") : "predict"
+        ("predict", "forecast", "predicted", "predicting", "forcast") : "predict"
     },
     "comp" : {
         ("higher than", "larger than", "bigger than", "greater than", ">", " > ") : "greater",
         ("lower than", "smaller than", "less than", "<", " < ") : "less",
-        ("equal to", "is", "==", " == ") : "equal",
+        ("equal to", "is", "==", " == ", "=", " = ") : "equal",
         ("higher than or equal to", "higher than or same as",
          "larger than or equal to", "larger than or same as",
          "greater than or equal to", "greater than or same as",
@@ -108,21 +109,30 @@ Functions = {
          "smaller than or equal to", "smaller than or same as",
          "lower than or equal to", "lower than or same as",
          "<=", " <= ") : "less_eq",
-    }
+    },
+    "comp_equal" : {
+        ("equal to", "is", "==", "=", " == ", " = ") : "equal",
+    },
 }
 
 VarNames = ["", "{data}_df", "a", "{data}df", "{data}_data", "df", "data", "d"]
 
 
 CommonWords = {
-        "data_op" : ["in {data}", "in {data} dataset", "in {data} data", "in {data} df"],
+        "data_op" : ["in {data}", "in {data} dataset", "in {data} data", "in {data} df", "in data {data}", "in df {data}", "in dataset {data}", "in {data} data base"],
         "data_empty" : ["", "dataset", "data", "df"],
-        "store_in" : ["", " and store in {var_name}", " and store in variable {var_name}", " in {var_name}"]
+        "store_in" : ["", " and store in {var_name}", " and store in variable {var_name}", " in {var_name}"],
+        #### NEED TO BE FIXED TO MAKE IT SCALABLE
+        "linreg_op" : ["Using linreg", "With linreg"],
+        "fit" : ["Fit", "Make", "Produce", "Output"],
         }
+
+# Will be crucial later when making the library more complex
 
 Grammar = {
         "determiner" : ["", "a", "the"],
         "preposition": ["of", "of the"],
+        "is": ["is"],
         }
 
 

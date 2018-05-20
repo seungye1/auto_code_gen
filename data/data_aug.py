@@ -5,7 +5,6 @@ import traceback
 import sys
 from struct import Struct
 
-import Question as QS
 import DataTable as DT
 import question_examples as ex
 
@@ -24,16 +23,16 @@ def make_data(raw_data):
             for q in range(ex.question_index["num"]-1):
                 Q = ex.question_index[q]
                 repeat = 1
-                if q == 0: # repeat 20x
-                    repeat = 20
-                elif q == 2: # repeat 16x
-                    repeat = 16
-                elif q == 3: # repeat 8x
-                    repeat = 8
-                elif q == 4: # repeat 4x
-                    repeat = 4
-                elif q == 5: # repeat 12x
-                    repeat = 12
+                # if q == 0: # repeat 30
+                #     repeat = 30
+                # elif q == 2: # repeat 20
+                #     repeat = 20
+                # elif q == 3: # repeat 10
+                #     repeat = 10
+                # elif q == 4: # repeat 5
+                #     repeat = 5
+                # elif q == 5: # repeat 20
+                #     repeat = 20
                 for i in range(repeat):
                     var2 = random.choice(vars_but_one)
                     utterance = Q.make_utterance(data, var1, var2)
@@ -43,7 +42,7 @@ def make_data(raw_data):
                     Q.clean() # clear out parameters in cur Q
 
 def save_to_csv(raw_data):
-    filename = "codegen.csv"
+    filename = "codegen_db.csv"
     df = pd.DataFrame(raw_data, columns=["utterance", "target"])
     df.to_csv(filename, mode = "a", header = False, index = False)
 
@@ -54,7 +53,7 @@ def main():
 
     make_data(raw_data)
     print("Saving to csv...")
-    save_to_csv(raw_data)
+    # save_to_csv(raw_data)
 
 if __name__ == "__main__":
     main()

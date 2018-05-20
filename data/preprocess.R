@@ -10,7 +10,7 @@ target4 = "corr ( data = WeatherHistroy, var1 = 'Temperature', var2 = 'FeelingTe
 target5 = "lr ( data = WeatherHistory, var1 = 'Temperature', var2 = 'Humidity' )"
 target6 = "lr_pred ( model = linreg, newdata = { 'Temperature' : 12 } ) )"
 
-targets = c(target1, target2, target3, target4, target5, target6)
+targets = c(target1, target3, target2, target4, target5, target6)
 
 xs = c()
 ys = c()
@@ -36,5 +36,5 @@ for (i in 1:nrow(without.coding)) {
   }
 }
 
-df = data.frame(utterance = xs, targets = ys)
-write.csv(df, "codegen.csv", row.names=FALSE)
+df = data.frame(utterance = xs, target = ys)
+write.csv(df, "codegen33.csv", row.names=FALSE)

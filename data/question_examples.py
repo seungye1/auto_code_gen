@@ -59,7 +59,7 @@ Q2_param = {
         }
 Q2 = QS.Questions(num_param = 7,
         func_key = ["comp"],
-        question = ["{1}", "{2}", "{3}", "{var1}", "{func}", "{val}", "{data_op}"],
+        question = ["{0}", "{1}", "{2}", "{var1}", "{func}", "{val}", "{data_op}"],
         param_detail = Q2_param,
         template_ver = "v1_cmp")
 """
@@ -101,32 +101,55 @@ Q4 = QS.Questions(num_param = 4,
         param_detail = Q4_param,
         template_ver = "df")
 """
-# {1}: ["Fit", "Make", "Output", "Produce"]
-# {2}: DT.G[determiner]
-# {3}: ["linear relationship", "linear regression", "regression"]
-# {4}: ["between", "with"]
-# {5}: var
-# {6}: ["", " as response", " as y", " as prediction"]
-# {7}: var
-# {8}: ["", " as covariate", " as covariates", " as explanatory", " as explanatories", " as x"]
-# {9}: [" in {}, " in {} dataset", "in {} data", "in {} df"]
+# {0}: [Fit, Make, Output, Produce]
+# {1}: DT.G[determiner]
+# {2}: [linear relationship, linear regression, regression]
+# {3}: [between, with]
+# {4}: var
+# {5}: ["", as response, as y, as prediction]
+# {6}: var
+# {7}: ["", as covariate, as covariates, as explanatory, as explanatories, as x]
+# {8}: DT.CW[data_op]
 """
 Q5_param = {
-        0 : DT.dict_to_list(DT.Functions["reg"]),
+        0 : DT.CommonWords["fit"],
         1 : DT.Grammar["determiner"],
-        2 : ["linear relationship", "linear regression", "regression"],
+        2 : DT.dict_to_list(DT.Functions["reg"]),
         3 : ["between", "with"],
         4 : "var1",
-        5 : ["", " as response", " as y", " as prediction", " to predict"],
+        5 : ["", "as response", "as y", "as prediction", "to predict"],
         6 : "var2",
-        7 : ["", " as covariate", " as covariates", " as explanatory", " as explanatories", " as x", " as X"],
+        7 : ["", "as covariate", "as covariates", "as explanatory",
+            "as explanatories", "as x", " as X"],
         8 : DT.CommonWords["data_op"]
     }
 Q5 = QS.Questions(num_param = 9,
         func_key = ["reg"],
-        question = ["{func}", "{1}", "{2}", "{3}", "{var1}", "{5}",
+        question = ["{0}", "{1}", "{func}", "{3}", "{var1}", "{5}",
             "{var2}", "{7}", "{data_op}"],
         param_detail = Q5_param,
         template_ver = "v2")
+
+"""
+# {0}: DT.CW[linreg_op]
+# {1}: [fit a model when, predict when, make a prediction when, produce prediction]
+# {2}: var
+# {3}: DT.G[is]
+# {4}: [euqal to, =]
+# {5}: val
+"""
+#Q6_param = {
+#        0 : DT.CommonWords["linreg_op"],
+#        1 : ["fit a model when", "predict when", "make a prediction when", "produce prediction when"],
+#        2 : "var1",
+#        3 : DT.Grammar["is"],
+#        4 : DT.dict_to_list(DT.Functions["comp_equal"]),
+#        5 : "val",
+#        }
+#######3 MAKE NEW TYPE TWO FUNCTIONS!!
+#Q6 = QS.Question(num_param = 6,
+#        func_key = ["comp_equal"],
+#        question = ["{linreg_op}", "{1},
+
 
 question_index = {0:Q0, 1:Q1, 2:Q2, 3:Q3, 4:Q4, 5:Q5, "num":6}
