@@ -25,17 +25,16 @@ Q0 = QS.Questions(num_param = 4,
 # {0}: functions using one dataset
 # {1}: preposition: ["of", "of the"]
 # {2}: data
-# {3}: DT[dataempty]
 """
 Q1_param = {
         0 : DT.dict_to_list(DT.Functions["1var"+"data"]) +
             DT.dict_to_list(DT.Functions["data"]),
         1 : DT.Grammar["preposition"],
-        2 : "<data>",
+        2 : DT.CommonWords["data_op"],
         }
 Q1 = QS.Questions(num_param = 3,
         func_key = ["1var"+"data", "data"],
-        question = ["{func}", "{prep}", "{data}"],
+        question = ["{func}", "{prep}", "{data_op}"],
         param_detail = Q1_param,
         template_ver = "df")
 
@@ -55,7 +54,7 @@ Q2_param = {
         3 : "<var1>",
         4 : DT.dict_to_list(DT.Functions["comp"]),
         5 : "<val>",
-        6 : DT.CommonWords["data_empty"]
+        6 : DT.CommonWords["data_op"]
         }
 Q2 = QS.Questions(num_param = 7,
         func_key = ["comp"],
@@ -80,26 +79,26 @@ Q3_param = {
         }
 Q3 = QS.Questions(num_param = 6,
         func_key = ["2var"],
-        question = ["{func}", "{1}", "{var1}", "{3}", "{var2}", "{5}"],
+        question = ["{func}", "{1}", "{var1}", "{3}", "{var2}", "{data_op}"],
         param_detail = Q3_param,
         template_ver = "v2")
-"""
-# {0}: ["store", "load"]
-# {1}: data
-# {2}: DT.CW[data_empty]
-# {3}: DT.CW[sotre_in]
-"""
-Q4_param = {
-        0 : ["store", "load"],
-        1 : "<data>",
-        2 : DT.CommonWords["data_empty"],
-        3 : DT.CommonWords["store_in"]
-        }
-Q4 = QS.Questions(num_param = 4,
-        func_key = ["data"],
-        question = ["{func}", "{data}", "{2}", "{3}"],
-        param_detail = Q4_param,
-        template_ver = "df")
+# """
+# # {0}: ["store", "load"]
+# # {1}: data
+# # {2}: DT.CW[data_empty]
+# # {3}: DT.CW[sotre_in]
+# """
+# Q4_param = {
+#         0 : ["store", "load"],
+#         1 : "<data>",
+#         2 : DT.CommonWords["data_empty"],
+#         3 : DT.CommonWords["store_in"]
+#         }
+# Q4 = QS.Questions(num_param = 4,
+#         func_key = ["data"],
+#         question = ["{func}", "{data}", "{2}", "{3}"],
+#         param_detail = Q4_param,
+#         template_ver = "df")
 """
 # {0}: [Fit, Make, Output, Produce]
 # {1}: DT.G[determiner]
@@ -152,4 +151,5 @@ Q5 = QS.Questions(num_param = 9,
 #        question = ["{linreg_op}", "{1},
 
 
-question_index = {0:Q0, 1:Q1, 2:Q2, 3:Q3, 4:Q4, 5:Q5, "num":6}
+# question_index = {0:Q0, 1:Q1, 2:Q2, 3:Q3, 4:Q4, 5:Q5, "num":5}
+question_index = {0:Q0, 1:Q1, 2:Q2, 3:Q3, 5:Q5, "num":5}

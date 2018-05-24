@@ -37,4 +37,4 @@ for (i in 1:nrow(without.coding)) {
 }
 
 df = data.frame(utterance = xs, target = ys)
-write.csv(df, "codegen33.csv", row.names=FALSE)
+write.csv(df, "codegen.csv", row.names=FALSE)

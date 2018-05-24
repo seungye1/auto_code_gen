@@ -1,17 +1,12 @@
 import random
 import pandas as pd
 import copy
-import traceback
 import sys
 from struct import Struct
 
 import DataTable as DT
 import question_examples as ex
 
-
-# exceptions
-class FunctionNotExist(Exception):
-    pass
 
 # Construct utterances and targets with sample datasets and questions
 def make_data(raw_data):
@@ -42,7 +37,7 @@ def make_data(raw_data):
                     Q.clean() # clear out parameters in cur Q
 
 def save_to_csv(raw_data):
-    filename = "codegen_db.csv"
+    filename = "codegen_tmp.csv"
     df = pd.DataFrame(raw_data, columns=["utterance", "target"])
     df.to_csv(filename, mode = "a", header = False, index = False)
 
@@ -53,7 +48,7 @@ def main():
 
     make_data(raw_data)
     print("Saving to csv...")
-    # save_to_csv(raw_data)
+    save_to_csv(raw_data)
 
 if __name__ == "__main__":
     main()

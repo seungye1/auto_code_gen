@@ -1,9 +1,14 @@
 import random
 import sys
+import traceback
 
 ####################################################################
 # Data Specifications
 ####################################################################
+
+# exceptions
+class FunctionNotExist(Exception):
+    pass
 
 # class Grammar:
 # # Has to indicate each column as a tuple of (column, type ('d' or 'c')
@@ -45,10 +50,10 @@ DatasetNames = list(Datasets.keys())
 # func_template_v1_cmp : call function on variable with conditional val
 # func_template_v2 : call function
 FuncTemplates = {
-    "load" : "{func} ( data = {data} , var_name = {var_name} )",
+    "load" : "{func} ( data = {data} )",
     "v1" : "{func} ( data = {data} , var1 = {var1} )",
     "v1_cmp" : "{func} ( data = {data} , var1 = {var1} , val = {val} )",
-    "v2" : "{func} ( data = {data}, var1 = {var1} , var2 = {var2} )",
+    "v2" : "{func} ( data = {data} , var1 = {var1} , var2 = {var2} )",
     "df" : "{func} ( data = {data} )",
 }
 
@@ -115,13 +120,8 @@ Functions = {
     },
 }
 
-VarNames = ["", "{data}_df", "a", "{data}df", "{data}_data", "df", "data", "d"]
-
-
 CommonWords = {
         "data_op" : ["in {data}", "in {data} dataset", "in {data} data", "in {data} df", "in data {data}", "in df {data}", "in dataset {data}", "in {data} data base"],
-        "data_empty" : ["", "dataset", "data", "df"],
-        "store_in" : ["", " and store in {var_name}", " and store in variable {var_name}", " in {var_name}"],
         #### NEED TO BE FIXED TO MAKE IT SCALABLE
         "linreg_op" : ["Using linreg", "With linreg"],
         "fit" : ["Fit", "Make", "Produce", "Output"],
@@ -140,7 +140,7 @@ Grammar = {
 # Helper functions
 ####################################################################
 
-# Given an func in the utterance, find the matched custom function
+# Given a func in the utterance, find the matched custom function
 def find_matched_functions(func_utter, func_keys):
     matched_funcs = []
     for k in func_keys:

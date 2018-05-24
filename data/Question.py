@@ -51,11 +51,11 @@ class Questions:
                     # random_data = random.choice(DT.DatasetNames)
                     # new_p = result.format(random_data)
                     result = result.format(data=data)
-                elif "{var_name}" in result:
-                    tmp_var_name = random.choice(DT.VarNames)
-                    if "{data}" in tmp_var_name:
-                        tmp_var_name = tmp_var_name.format(data=data)
-                    result = result.format(var_name=tmp_var_name)
+                # elif "{var_name}" in result:
+                #     tmp_var_name = random.choice(DT.VarNames)
+                #     if "{data}" in tmp_var_name:
+                #         tmp_var_name = tmp_var_name.format(data=data)
+                #     result = result.format(var_name=tmp_var_name)
             self.param.append(result)
 
         return ' '.join(self.param)
@@ -64,11 +64,10 @@ class Questions:
     #### NEED TO MAKE FOLLOWING TWO FUNCTIONS SMARTER
     # Got rid of args, but need to make it scalable
     ###########################
-    def make_template(self, data, func, var1, var2, var_name, val):
+    def make_template(self, data, func, var1, var2, val):
         # template load
         if self.template_ver == "load":
-            return DT.FuncTemplates["load"].format(func=func, data=data,
-                var_name=var_name)
+            return DT.FuncTemplates["load"].format(func=func, data=data)
         if self.template_ver == "v1":
             return DT.FuncTemplates["v1"].format(func=func, data=data,
                 var1=var1)
@@ -100,16 +99,16 @@ class Questions:
             val = None
             pass
         # Try getting <var_name>
-        try:
-            var_name_ind = self.question.index("{var_name}")
-            var_name = self.param[var_name_ind]
-            if var_name == "":
-                var_name = data
-        except ValueError:
-            var_name = None
-            pass
+        # try:
+        #     var_name_ind = self.question.index("{var_name}")
+        #     var_name = self.param[var_name_ind]
+        #     if var_name == "":
+        #         var_name = data
+        # except ValueError:
+        #     var_name = None
+        #     pass
         target = self.make_template(data=data, func=func_target, var1=var1,
-            var2=var2, val=val, var_name=var_name)
+            var2=var2, val=val)
 
         return target
     # clear out param for next generation
