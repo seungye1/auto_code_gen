@@ -1,5 +1,5 @@
-GloVe/**
+GloVe/
 ppdb-2.0-tldr
-*.pyc
-data_aug/data/*
-
+**/*.pyc
+data_aug/data/
+graphs/
