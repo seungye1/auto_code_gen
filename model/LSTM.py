@@ -705,7 +705,7 @@ def test_batch(data_loader, model, max_len=15):
 
 
 test_batch(test_loader, model)
-torch.save(model, "model/after_data_aug.model")
+torch.save(model, "torch_models/after_data_aug.model")
 
 
 # In[ ]:

@@ -353,7 +353,7 @@ class AttentionSeq2Seq(nn.Module):
         return probs, context_t
 
 # model = AttentionSeq2Seq(50, 20, input_vocab, output_vocab)
-model = torch.load("model/small_after_data_aug.model")
+model = torch.load("torch_models/small_after_data_aug.model")
 
 
 #  ## Train the model
