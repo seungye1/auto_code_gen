@@ -1,6 +1,5 @@
-GloVe/*
+GloVe/**
 ppdb-2.0-tldr
 *.pyc
-# Exclude all the csv files in data/ folder
-data_aug/*.csv
+data_aug/data/*
 
