@@ -1,6 +1,6 @@
 import sys, csv
 import stat_functions as func
-import pandas
+import pandas as pd
 
 #current valid commands. 
 #Change as stat_functions.py is updated
@@ -39,20 +39,19 @@ def reader():
                     print("Invalid command : " + command_type)
                     continue
 
-                ###############################################################
                 if (command_type == "load"):
-                    ##load(data=data_name)
-                    ##is PATH being passed in ?
                     equals_index = command.find('=') + 1
                     right_paren_index = command.find(')')
                     
                     try:
                         df_name = command[equals_index : right_paren_index]
-                        curr_df = exec(func.load("", df_name))
-                        session_df[df_name] = curr_df
-                    except: 
-                        curr_df = func.load("", df_name)
-                        session_df[df_name] = curr_df
+                        df_name += ".csv"
+                        
+                        curr_frame = pd.read_csv(df_name)
+                        session_df[df_name] = curr_frame
+                    except Exception as error:
+                        print("Error in loading data frame. Make sure that <data>.csv file is in current directory")
+                        print(error)
                 elif (command_type == "min" or command_type == "max" or command_type == "std"
                         or command_type == "variance" or command_type == "mean" or command_type == "ranges"
                         or command_type == "minimum" or command_type == "maximum" or command_type == "quantile"):
@@ -118,7 +117,6 @@ def reader():
                             print("error in calling stat_functions.quantile with DF: " +df_name + " and VAR : " + var_name)
                             print(error)
                 elif (command_type == "lr" or command_type == "corr"):
-                    #lr(data = data_name, var1 = var1name, var2 = var2name)
                     data_equal = command.find('=') + 1
                     data_comma = command.find(',')
 
