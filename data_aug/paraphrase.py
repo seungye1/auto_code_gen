@@ -5,7 +5,7 @@ import copy
 
 Datasets = DT.Datasets
 
-df = pd.read_csv("codegen2.csv")
+df = pd.read_csv("data/survey_anonymized.csv")
 raw_data = {}
 raw_data["utterance"] = []
 raw_data["target"] = []
@@ -50,7 +50,7 @@ for i in range(repeat):
 
 
 def save_to_csv(raw_data):
-    filename = "codegen.csv"
+    filename = "data/codegen.csv"
     df = pd.DataFrame(raw_data, columns=["utterance", "target"])
     df.to_csv(filename, mode = "a", header = False, index = False)
 

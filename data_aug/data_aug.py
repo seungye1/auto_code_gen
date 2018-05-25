@@ -37,9 +37,9 @@ def make_data(raw_data):
                     Q.clean() # clear out parameters in cur Q
 
 def save_to_csv(raw_data):
-    filename = "codegen_tmp.csv"
+    filename = "data/codegen.csv"
     df = pd.DataFrame(raw_data, columns=["utterance", "target"])
-    df.to_csv(filename, mode = "a", header = False, index = False)
+    df.to_csv(filename, index = False)
 
 def main():
     raw_data = {}
