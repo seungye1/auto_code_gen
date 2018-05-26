@@ -78,7 +78,7 @@ import string
 df = pd.read_csv("data/codegen.csv")
 # df.head()
 data_x = df["utterance"]
-data_y = df["targets"]
+data_y = df["target"]
 
 
 new_data_x = []
@@ -606,7 +606,7 @@ model = AttentionSeq2Seq(50, 20, input_vocab, output_vocab, True)
 optim = torch.optim.Adam(model.parameters(), lr = 0.001)
 
 # training loop
-n_epochs = 150
+n_epochs = 80
 for e in range(n_epochs):
     train_loss = 0.0
     for ex in train_loader:
