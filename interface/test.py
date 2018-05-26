@@ -12,10 +12,18 @@ def test():
     mean_df = func.mean(session_df["wine"], 'Proline')
     min_df = func.minimum(session_df["wine"], 'Proline')
     max_df = func.maximum(session_df["wine"], 'Proline')
+
+    test_greater = func.greater(session_df["wine"], 'Proline', 500)
+    summ = func.lr(session_df["wine"], 'Proline', 'OD280/00315 of diluted wines')
+    print_corr = func.corr(session_df["wine"], 'Proline', 'OD280/00315 of diluted wines')
+    #print(print_corr)
+
+    print(summ)
+    #print(test_greater)
     #print(a)
-    print(mean_df)
-    print(min_df)
-    print(max_df)
+    #print(mean_df)
+    #print(min_df)
+    #print(max_df)
 
     #session_df["wine"] = exec(func.load("wine.csv", "wine.csv"))
 
